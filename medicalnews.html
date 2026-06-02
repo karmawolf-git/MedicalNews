@@ -37,7 +37,7 @@ input { font-family:inherit; }
 .cat-btn.active { background:var(--accent); border-color:var(--accent); color:#fff; font-weight:600; }
 
 .layout { display:flex; }
-.sidebar { width:290px; flex-shrink:0; background:var(--surface); border-right:1px solid var(--border); overflow-y:auto; max-height:calc(100vh - 105px); position:sticky; top:105px; transition:width .2s; }
+.sidebar { width:290px; flex-shrink:0; background:var(--surface); border-right:1px solid var(--border); overflow-y:auto; max-height:calc(100vh - 108px); position:sticky; top:108px; transition:width .2s; }
 .sidebar.closed { width:0; overflow:hidden; border-right:none; }
 .main { flex:1; min-width:0; padding:20px; }
 
@@ -51,7 +51,7 @@ input { font-family:inherit; }
 .src-item { display:flex; align-items:flex-start; gap:8px; padding:10px; border-radius:var(--radius); border:1px solid var(--border); background:var(--bg); cursor:pointer; flex-wrap:wrap; transition:border-color .15s,background .15s; }
 .src-item:hover { border-color:var(--accent); }
 .src-item.on { border-color:var(--accent); background:#f0f9ff; }
-.src-item input[type=checkbox] { margin-top:2px; accent-color:var(--accent); }
+.src-item input[type=checkbox] { margin-top:2px; accent-color:var(--accent); flex-shrink:0; }
 .src-flag { font-size:15px; }
 .src-name { font-weight:600; font-size:13px; flex:1; }
 .src-desc { font-size:11px; color:var(--muted); width:100%; margin-left:24px; }
@@ -66,6 +66,9 @@ input { font-family:inherit; }
 .reload-btn:hover:not(:disabled) { background:var(--bg); }
 .reload-btn:disabled { opacity:.5; cursor:not-allowed; }
 
+.notice { background:#fffbeb; border:1px solid #fcd34d; border-radius:var(--radius); padding:12px 16px; margin-bottom:16px; font-size:13px; color:#92400e; display:none; }
+.notice a { color:var(--accent-dark); text-decoration:underline; }
+
 .article-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:16px; }
 .skeleton-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:16px; }
 .skeleton { height:160px; border-radius:var(--radius); background:linear-gradient(90deg,#e2e8f0 25%,#f1f5f9 50%,#e2e8f0 75%); background-size:200% 100%; animation:shimmer 1.4s infinite; }
@@ -79,7 +82,25 @@ input { font-family:inherit; }
 .card-desc { font-size:12px; color:var(--muted); line-height:1.5; }
 .card-tags { display:flex; gap:4px; flex-wrap:wrap; margin-top:auto; }
 .card-tag { font-size:10px; padding:2px 8px; border-radius:10px; background:var(--tag-bg); color:var(--tag-color); }
+.card.demo { border-style:dashed; opacity:.8; }
+.demo-label { font-size:10px; color:var(--muted); background:#f1f5f9; padding:1px 6px; border-radius:6px; align-self:flex-start; }
+
+.source-link-list { display:flex; flex-direction:column; gap:8px; }
+.source-link-card { display:flex; align-items:center; gap:12px; padding:14px 16px; border-radius:var(--radius); border:1px solid var(--border); background:var(--surface); box-shadow:var(--shadow); transition:border-color .15s,box-shadow .15s; }
+.source-link-card:hover { border-color:var(--accent); box-shadow:0 4px 12px rgba(0,0,0,.08); }
+.slc-flag { font-size:20px; }
+.slc-info { flex:1; }
+.slc-name { font-weight:700; font-size:14px; }
+.slc-desc { font-size:12px; color:var(--muted); }
+.slc-tags { display:flex; gap:4px; flex-wrap:wrap; margin-top:4px; }
+.slc-tag { font-size:10px; padding:1px 6px; border-radius:8px; background:var(--tag-bg); color:var(--tag-color); }
+.slc-arrow { color:var(--muted); font-size:16px; }
+
 .empty { text-align:center; padding:60px 20px; color:var(--muted); font-size:15px; }
+
+.tab-bar { display:flex; gap:4px; margin-bottom:16px; border-bottom:2px solid var(--border); }
+.tab-btn { padding:8px 16px; border:none; background:transparent; font-size:14px; color:var(--muted); cursor:pointer; border-bottom:2px solid transparent; margin-bottom:-2px; transition:all .15s; }
+.tab-btn.active { color:var(--accent); border-bottom-color:var(--accent); font-weight:600; }
 
 @media(max-width:768px){
   .sidebar { display:none !important; }
@@ -118,14 +139,27 @@ input { font-family:inherit; }
     </div>
   </aside>
   <main class="main">
-    <div class="feed-bar">
-      <span class="feed-count" id="feedCount">로딩 중...</span>
-      <div class="feed-actions">
-        <span class="err-badge" id="errBadge" style="display:none"></span>
-        <button class="reload-btn" id="reloadBtn">새로고침</button>
-      </div>
+    <div class="tab-bar">
+      <button class="tab-btn active" id="tabFeed" onclick="switchTab('feed')">📰 뉴스 피드</button>
+      <button class="tab-btn" id="tabLinks" onclick="switchTab('links')">🔗 사이트 바로가기</button>
     </div>
-    <div id="feedArea"></div>
+    <div id="noticeBanner" class="notice">
+      ⚠ 일부 뉴스를 자동으로 불러오지 못했습니다. CORS 정책 또는 네트워크 문제일 수 있습니다.
+      <b>사이트 바로가기</b> 탭에서 직접 방문하거나, 브라우저 콘솔에서 오류를 확인하세요.
+    </div>
+    <div id="panelFeed">
+      <div class="feed-bar">
+        <span class="feed-count" id="feedCount">로딩 중...</span>
+        <div class="feed-actions">
+          <span class="err-badge" id="errBadge" style="display:none"></span>
+          <button class="reload-btn" id="reloadBtn">새로고침</button>
+        </div>
+      </div>
+      <div id="feedArea"></div>
+    </div>
+    <div id="panelLinks" style="display:none">
+      <div class="source-link-list" id="linkList"></div>
+    </div>
   </main>
 </div>
 
@@ -141,19 +175,26 @@ const CATEGORIES = [
 ];
 const FLAGS = {KR:"🇰🇷",US:"🇺🇸"};
 const SOURCES = [
-  {id:"medigatenews",name:"메디게이트뉴스",  rss:"https://www.medigatenews.com/rss/all",            country:"KR",cats:["drug","disease","policy","hospital"],desc:"의약품·의료기기 전문 뉴스"},
-  {id:"medicaltimes",name:"메디칼타임즈",    rss:"https://www.medicaltimes.com/Main/RssNews.html", country:"KR",cats:["policy","hospital","disease"],       desc:"의료계 전문 신문"},
-  {id:"docdocdoc",   name:"청년의사",        rss:"https://www.docdocdoc.co.kr/rss/allArticle.xml", country:"KR",cats:["policy","hospital","disease"],       desc:"의사 전문 뉴스 매체"},
-  {id:"yakup",       name:"약업신문",        rss:"https://www.yakup.com/rss/rss.html",             country:"KR",cats:["drug","policy"],                     desc:"약업계 전문 신문"},
-  {id:"hitnews",     name:"히트뉴스",        rss:"https://www.hitnews.co.kr/rss/allArticle.xml",   country:"KR",cats:["drug","disease","research"],         desc:"제약·바이오 전문 뉴스"},
-  {id:"biopharma",   name:"바이오스펙테이터",rss:"https://www.biospectator.com/rss/rss.xml",       country:"KR",cats:["drug","research","global"],          desc:"바이오·제약 전문 미디어"},
-  {id:"pharmnews",   name:"팜뉴스",          rss:"https://www.pharmnews.com/rss/allArticle.xml",   country:"KR",cats:["drug","policy"],                     desc:"제약·약업 뉴스"},
-  {id:"medipana",    name:"메디파나뉴스",    rss:"https://www.medipana.com/rss/rss.xml",           country:"KR",cats:["drug","hospital","policy"],          desc:"제약·의료 종합 뉴스"},
-  {id:"statnews",    name:"STAT News",       rss:"https://www.statnews.com/feed/",                 country:"US",cats:["drug","research","global","disease"], desc:"Health & medicine reporting"},
-  {id:"fiercepharma",name:"Fierce Pharma",   rss:"https://www.fiercepharma.com/rss/xml",           country:"US",cats:["drug","global","policy"],            desc:"Pharma industry news"},
-  {id:"endpoints",   name:"Endpoints News",  rss:"https://endpts.com/feed/",                       country:"US",cats:["drug","research","global"],          desc:"Biopharma news & analysis"},
-  {id:"medscape",    name:"Medscape",        rss:"https://www.medscape.com/rss/allnews",           country:"US",cats:["disease","research","hospital"],     desc:"Clinical & medical news"},
-  {id:"reuters",     name:"Reuters Health",  rss:"https://feeds.reuters.com/reuters/healthNews",   country:"US",cats:["global","drug","policy"],            desc:"Global health & pharma news"},
+  {id:"medigatenews",name:"메디게이트뉴스",  url:"https://www.medigatenews.com",  rss:"https://www.medigatenews.com/rss/all",            country:"KR",cats:["drug","disease","policy","hospital"],desc:"의약품·의료기기 전문 뉴스"},
+  {id:"medicaltimes",name:"메디칼타임즈",    url:"https://www.medicaltimes.com",  rss:"https://www.medicaltimes.com/Main/RssNews.html", country:"KR",cats:["policy","hospital","disease"],       desc:"의료계 전문 신문"},
+  {id:"docdocdoc",   name:"청년의사",        url:"https://www.docdocdoc.co.kr",   rss:"https://www.docdocdoc.co.kr/rss/allArticle.xml", country:"KR",cats:["policy","hospital","disease"],       desc:"의사 전문 뉴스 매체"},
+  {id:"yakup",       name:"약업신문",        url:"https://www.yakup.com",         rss:"https://www.yakup.com/rss/rss.html",             country:"KR",cats:["drug","policy"],                     desc:"약업계 전문 신문"},
+  {id:"hitnews",     name:"히트뉴스",        url:"https://www.hitnews.co.kr",     rss:"https://www.hitnews.co.kr/rss/allArticle.xml",   country:"KR",cats:["drug","disease","research"],         desc:"제약·바이오 전문 뉴스"},
+  {id:"biopharma",   name:"바이오스펙테이터",url:"https://www.biospectator.com",  rss:"https://www.biospectator.com/rss/rss.xml",       country:"KR",cats:["drug","research","global"],          desc:"바이오·제약 전문 미디어"},
+  {id:"pharmnews",   name:"팜뉴스",          url:"https://www.pharmnews.com",     rss:"https://www.pharmnews.com/rss/allArticle.xml",   country:"KR",cats:["drug","policy"],                     desc:"제약·약업 뉴스"},
+  {id:"medipana",    name:"메디파나뉴스",    url:"https://www.medipana.com",      rss:"https://www.medipana.com/rss/rss.xml",           country:"KR",cats:["drug","hospital","policy"],          desc:"제약·의료 종합 뉴스"},
+  {id:"statnews",    name:"STAT News",       url:"https://www.statnews.com",      rss:"https://www.statnews.com/feed/",                 country:"US",cats:["drug","research","global","disease"], desc:"Health & medicine reporting"},
+  {id:"fiercepharma",name:"Fierce Pharma",   url:"https://www.fiercepharma.com", rss:"https://www.fiercepharma.com/rss/xml",           country:"US",cats:["drug","global","policy"],            desc:"Pharma industry news"},
+  {id:"endpoints",   name:"Endpoints News",  url:"https://endpts.com",           rss:"https://endpts.com/feed/",                       country:"US",cats:["drug","research","global"],          desc:"Biopharma news & analysis"},
+  {id:"medscape",    name:"Medscape",        url:"https://www.medscape.com",     rss:"https://www.medscape.com/rss/allnews",           country:"US",cats:["disease","research","hospital"],     desc:"Clinical & medical news"},
+  {id:"reuters",     name:"Reuters Health",  url:"https://www.reuters.com/business/healthcare-pharmaceuticals", rss:"https://feeds.reuters.com/reuters/healthNews", country:"US",cats:["global","drug","policy"], desc:"Global health & pharma news"},
+];
+
+// CORS 프록시 목록 (순서대로 시도)
+const PROXIES = [
+  url => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`,
+  url => `https://corsproxy.io/?${encodeURIComponent(url)}`,
+  url => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`,
 ];
 
 let activeCategory = "all";
@@ -163,9 +204,11 @@ let articles = [];
 let errors = {};
 let lastUpdated = null;
 let sidebarOpen = true;
+let currentTab = "feed";
 
 renderCategories();
 renderSources();
+renderLinks();
 loadFeeds();
 
 document.getElementById("searchInput").addEventListener("input",e=>{searchQuery=e.target.value;renderFeed();});
@@ -177,6 +220,14 @@ document.getElementById("sidebarToggle").addEventListener("click",()=>{
   document.getElementById("sidebarToggle").textContent=sidebarOpen?"◀ 소스":"▶ 소스";
 });
 
+function switchTab(tab){
+  currentTab=tab;
+  document.getElementById("panelFeed").style.display=tab==="feed"?"":"none";
+  document.getElementById("panelLinks").style.display=tab==="links"?"":"none";
+  document.getElementById("tabFeed").classList.toggle("active",tab==="feed");
+  document.getElementById("tabLinks").classList.toggle("active",tab==="links");
+}
+
 function renderCategories(){
   const bar=document.getElementById("catBar");
   bar.innerHTML="";
@@ -184,7 +235,7 @@ function renderCategories(){
     const btn=document.createElement("button");
     btn.className="cat-btn"+(cat.id===activeCategory?" active":"");
     btn.textContent=cat.label;
-    btn.onclick=()=>{activeCategory=cat.id;renderCategories();renderSources();renderFeed();};
+    btn.onclick=()=>{activeCategory=cat.id;renderCategories();renderSources();renderFeed();renderLinks();};
     bar.appendChild(btn);
   });
 }
@@ -192,7 +243,7 @@ function renderCategories(){
 function renderSources(){
   const filtered=activeCategory==="all"?SOURCES:SOURCES.filter(s=>s.cats.includes(activeCategory));
   const catLabel=activeCategory==="all"?"전체":(CATEGORIES.find(c=>c.id===activeCategory)?.label??activeCategory);
-  document.getElementById("srcCount").textContent=`${catLabel} · ${filtered.length}개 소스`;
+  document.getElementById("srcCount").textContent=`${catLabel} · ${filtered.length}개`;
   const allOn=filtered.every(s=>selectedSources.has(s.id));
   document.getElementById("toggleAll").textContent=allOn?"전체 해제":"전체 선택";
   const list=document.getElementById("srcList");
@@ -216,6 +267,29 @@ function renderSources(){
   });
 }
 
+function renderLinks(){
+  const filtered=activeCategory==="all"?SOURCES:SOURCES.filter(s=>s.cats.includes(activeCategory));
+  const list=document.getElementById("linkList");
+  list.innerHTML="";
+  filtered.forEach(src=>{
+    const card=document.createElement("a");
+    card.className="source-link-card";
+    card.href=src.url;
+    card.target="_blank";
+    card.rel="noopener noreferrer";
+    card.innerHTML=`
+      <span class="slc-flag">${FLAGS[src.country]||""}</span>
+      <div class="slc-info">
+        <div class="slc-name">${src.name}</div>
+        <div class="slc-desc">${src.desc}</div>
+        <div class="slc-tags">${src.cats.map(c=>`<span class="slc-tag">${CATEGORIES.find(x=>x.id===c)?.label}</span>`).join("")}</div>
+      </div>
+      <span class="slc-arrow">→</span>
+    `;
+    list.appendChild(card);
+  });
+}
+
 function toggleAll(){
   const filtered=activeCategory==="all"?SOURCES:SOURCES.filter(s=>s.cats.includes(activeCategory));
   const allOn=filtered.every(s=>selectedSources.has(s.id));
@@ -223,20 +297,36 @@ function toggleAll(){
   renderSources();renderFeed();
 }
 
+async function fetchWithProxy(rssUrl){
+  for(const makeProxy of PROXIES){
+    try{
+      const proxyUrl=makeProxy(rssUrl);
+      const res=await fetch(proxyUrl,{signal:AbortSignal.timeout(8000)});
+      if(!res.ok) continue;
+      const data=await res.json();
+      const text=data.contents||data.data||data;
+      if(typeof text!=="string"||!text.includes("<item>")) continue;
+      return text;
+    } catch(e){ continue; }
+  }
+  throw new Error("모든 프록시 실패");
+}
+
 async function fetchRss(source){
-  const proxy="https://api.allorigins.win/get?url=";
-  const res=await fetch(proxy+encodeURIComponent(source.rss));
-  if(!res.ok)throw new Error("HTTP "+res.status);
-  const data=await res.json();
-  const xml=new DOMParser().parseFromString(data.contents,"text/xml");
+  const text=await fetchWithProxy(source.rss);
+  const xml=new DOMParser().parseFromString(text,"text/xml");
+  if(xml.querySelector("parsererror")) throw new Error("XML 파싱 오류");
   return [...xml.querySelectorAll("item")].slice(0,10).map(item=>{
     const g=tag=>item.querySelector(tag)?.textContent?.trim()??"";
     const pd=g("pubDate");
     return {
-      id:g("guid")||g("link"),title:g("title"),link:g("link"),
-      desc:g("description").replace(/<[^>]+>/g,"").slice(0,160),
+      id:g("guid")||g("link"),
+      title:g("title"),
+      link:g("link"),
+      desc:g("description").replace(/<[^>]+>/g,"").replace(/\s+/g," ").trim().slice(0,160),
       date:pd?new Date(pd):new Date(),
       sourceId:source.id,sourceName:source.name,country:source.country,cats:source.cats,
+      demo:false,
     };
   }).filter(a=>a.title&&a.link);
 }
@@ -247,36 +337,47 @@ async function loadFeeds(){
   errors={};
   document.getElementById("feedArea").innerHTML=`<div class="skeleton-grid">${Array(6).fill('<div class="skeleton"></div>').join("")}</div>`;
   document.getElementById("reloadBtn").disabled=true;
-  document.getElementById("feedCount").textContent="로딩 중...";
+  document.getElementById("feedCount").textContent="뉴스 불러오는 중...";
+  document.getElementById("noticeBanner").style.display="none";
 
   const results=await Promise.allSettled(sources.map(fetchRss));
   const newArticles=[];
   results.forEach((r,i)=>{
-    if(r.status==="fulfilled")newArticles.push(...r.value);
-    else errors[sources[i].id]=r.reason?.message??"Failed";
+    if(r.status==="fulfilled") newArticles.push(...r.value);
+    else errors[sources[i].id]=r.reason?.message??"실패";
   });
   newArticles.sort((a,b)=>b.date-a.date);
   articles=newArticles;
   lastUpdated=new Date();
+
+  // 전부 실패한 경우 샘플 데이터 표시
+  if(newArticles.length===0){
+    document.getElementById("noticeBanner").style.display="";
+    articles=DEMO_ARTICLES;
+  }
   renderFeed();
 }
 
 function timeAgo(date){
   const d=(Date.now()-date.getTime())/1000;
-  if(d<60)return"방금 전";
-  if(d<3600)return Math.floor(d/60)+"분 전";
-  if(d<86400)return Math.floor(d/3600)+"시간 전";
+  if(isNaN(d)||d<0) return "";
+  if(d<60) return "방금 전";
+  if(d<3600) return Math.floor(d/60)+"분 전";
+  if(d<86400) return Math.floor(d/3600)+"시간 전";
   return Math.floor(d/86400)+"일 전";
 }
 
 function renderFeed(){
   const errCount=Object.keys(errors).length;
   const errBadge=document.getElementById("errBadge");
-  if(errCount){errBadge.style.display="";errBadge.textContent=`⚠ ${errCount}개 소스 오류`;errBadge.title=Object.entries(errors).map(([k,v])=>`${k}: ${v}`).join("\n");}
-  else errBadge.style.display="none";
+  if(errCount&&articles.length>0&&!articles[0].demo){
+    errBadge.style.display="";
+    errBadge.textContent=`⚠ ${errCount}개 소스 오류`;
+    errBadge.title=Object.entries(errors).map(([k,v])=>`${k}: ${v}`).join("\n");
+  } else errBadge.style.display="none";
 
-  let list=articles.filter(a=>selectedSources.has(a.sourceId));
-  if(activeCategory!=="all")list=list.filter(a=>a.cats.includes(activeCategory));
+  let list=articles.filter(a=>selectedSources.has(a.sourceId)||a.demo);
+  if(activeCategory!=="all") list=list.filter(a=>a.cats.includes(activeCategory));
   if(searchQuery.trim()){const q=searchQuery.toLowerCase();list=list.filter(a=>a.title.toLowerCase().includes(q)||a.desc.toLowerCase().includes(q));}
 
   const upd=lastUpdated?` · ${lastUpdated.toLocaleTimeString("ko-KR",{hour:"2-digit",minute:"2-digit"})} 업데이트`:"";
@@ -284,24 +385,41 @@ function renderFeed(){
   document.getElementById("reloadBtn").disabled=false;
 
   const area=document.getElementById("feedArea");
-  if(!list.length){area.innerHTML=`<div class="empty">${selectedSources.size===0?"뉴스 소스를 1개 이상 선택하세요.":"조건에 맞는 기사가 없습니다."}</div>`;return;}
-
+  if(!list.length){
+    area.innerHTML=`<div class="empty">${selectedSources.size===0?"뉴스 소스를 1개 이상 선택하세요.":"조건에 맞는 기사가 없습니다."}</div>`;
+    return;
+  }
   const grid=document.createElement("div");
   grid.className="article-grid";
   list.forEach(a=>{
     const tags=a.cats.map(c=>`<span class="card-tag">${CATEGORIES.find(x=>x.id===c)?.label}</span>`).join("");
     const card=document.createElement("a");
-    card.className="card";card.href=a.link;card.target="_blank";card.rel="noopener noreferrer";
+    card.className="card"+(a.demo?" demo":"");
+    card.href=a.link; card.target="_blank"; card.rel="noopener noreferrer";
     card.innerHTML=`
-      <div class="card-meta"><span class="card-source">${FLAGS[a.country]||""} ${a.sourceName}</span><span>${timeAgo(a.date)}</span></div>
+      ${a.demo?'<span class="demo-label">샘플 미리보기</span>':""}
+      <div class="card-meta">
+        <span class="card-source">${FLAGS[a.country]||""} ${a.sourceName}</span>
+        <span>${timeAgo(a.date)}</span>
+      </div>
       <div class="card-title">${a.title}</div>
       ${a.desc?`<div class="card-desc">${a.desc}…</div>`:""}
       <div class="card-tags">${tags}</div>
     `;
     grid.appendChild(card);
   });
-  area.innerHTML="";area.appendChild(grid);
+  area.innerHTML=""; area.appendChild(grid);
 }
+
+// 샘플 데이터 (RSS 완전 실패 시 레이아웃 확인용)
+const DEMO_ARTICLES = [
+  {id:"d1",title:"국내 제약사 신약 임상 3상 결과 발표… 글로벌 시장 진출 기대",link:"https://www.medigatenews.com",desc:"국내 주요 제약사가 개발 중인 항암 신약의 임상 3상 결과가 발표됐다. 대조군 대비 유의미한 생존율 개선 효과가 확인돼 FDA 허가 신청을 준비 중이다.",date:new Date(Date.now()-1*3600*1000),sourceId:"medigatenews",sourceName:"메디게이트뉴스",country:"KR",cats:["drug","research"],demo:true},
+  {id:"d2",title:"건강보험심사평가원, 의약품 급여 기준 개정안 행정예고",link:"https://www.medicaltimes.com",desc:"심평원이 주요 항체 치료제 급여 기준을 완화하는 개정안을 행정예고했다. 희귀질환 환자의 접근성이 높아질 전망이다.",date:new Date(Date.now()-3*3600*1000),sourceId:"medicaltimes",sourceName:"메디칼타임즈",country:"KR",cats:["policy","drug"],demo:true},
+  {id:"d3",title:"FDA approves new GLP-1 receptor agonist for obesity treatment",link:"https://www.statnews.com",desc:"The FDA has approved a novel GLP-1 receptor agonist showing 22% average weight reduction in Phase 3 trials, marking a significant advance in obesity pharmacotherapy.",date:new Date(Date.now()-5*3600*1000),sourceId:"statnews",sourceName:"STAT News",country:"US",cats:["drug","global"],demo:true},
+  {id:"d4",title:"바이오시밀러 시장 경쟁 심화…국내 업체 유럽 점유율 확대",link:"https://www.biospectator.com",desc:"국내 주요 바이오기업들이 유럽 바이오시밀러 시장에서 점유율을 높이고 있다. 자가면역 질환 치료제 분야에서의 경쟁력이 특히 부각되고 있다.",date:new Date(Date.now()-7*3600*1000),sourceId:"biopharma",sourceName:"바이오스펙테이터",country:"KR",cats:["drug","global","research"],demo:true},
+  {id:"d5",title:"상급종합병원 구조전환 추진… 중증환자 집중 체계 개편",link:"https://www.docdocdoc.co.kr",desc:"정부가 상급종합병원의 역할을 중증·희귀질환 중심으로 재편하는 구조전환 정책을 발표했다. 경증 환자 쏠림 현상을 완화하기 위한 수가 개편도 포함됐다.",date:new Date(Date.now()-10*3600*1000),sourceId:"docdocdoc",sourceName:"청년의사",country:"KR",cats:["hospital","policy"],demo:true},
+  {id:"d6",title:"Fierce Pharma: Big pharma M&A activity surges in Q2 2026",link:"https://www.fiercepharma.com",desc:"Major pharmaceutical companies accelerated merger and acquisition activity in Q2 2026, with several multi-billion dollar deals targeting oncology and rare disease pipelines.",date:new Date(Date.now()-12*3600*1000),sourceId:"fiercepharma",sourceName:"Fierce Pharma",country:"US",cats:["drug","global","policy"],demo:true},
+];
 </script>
 </body>
 </html>
