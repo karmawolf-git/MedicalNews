@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MedicalNews Hub — 의학·제약 뉴스 통합</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #f4f6fb; --surface: #fff; --border: #e2e8f0;
+  --text: #1e293b; --muted: #64748b;
+  --accent: #0ea5e9; --accent-dark: #0284c7;
+  --tag-bg: #e0f2fe; --tag-color: #0369a1;
+  --error: #ef4444; --radius: 10px; --shadow: 0 1px 4px rgba(0,0,0,.08);
+}
+body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",sans-serif; background:var(--bg); color:var(--text); font-size:14px; line-height:1.6; }
+a { color:inherit; text-decoration:none; }
+button { cursor:pointer; font-family:inherit; }
+input { font-family:inherit; }
+
+.header { position:sticky; top:0; z-index:100; background:var(--surface); border-bottom:1px solid var(--border); box-shadow:var(--shadow); }
+.header-inner { display:flex; align-items:center; gap:14px; padding:12px 20px; flex-wrap:wrap; }
+.brand { display:flex; align-items:center; gap:8px; flex-shrink:0; }
+.brand-icon { font-size:22px; }
+.brand-title { font-size:18px; font-weight:700; color:var(--accent-dark); }
+.brand-sub { font-size:12px; color:var(--muted); }
+.search-wrap { flex:1; min-width:180px; max-width:340px; }
+.search-input { width:100%; padding:8px 14px; border:1px solid var(--border); border-radius:20px; font-size:14px; background:var(--bg); outline:none; }
+.search-input:focus { border-color:var(--accent); }
+.sidebar-toggle { padding:7px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg); font-size:13px; color:var(--muted); white-space:nowrap; }
+.sidebar-toggle:hover { background:var(--border); }
+
+.cat-bar { display:flex; gap:6px; padding:10px 20px; overflow-x:auto; border-top:1px solid var(--border); scrollbar-width:none; }
+.cat-bar::-webkit-scrollbar { display:none; }
+.cat-btn { padding:5px 14px; border-radius:16px; border:1px solid var(--border); background:transparent; font-size:13px; color:var(--muted); white-space:nowrap; transition:all .15s; }
+.cat-btn:hover { border-color:var(--accent); color:var(--accent); }
+.cat-btn.active { background:var(--accent); border-color:var(--accent); color:#fff; font-weight:600; }
+
+.layout { display:flex; }
+.sidebar { width:290px; flex-shrink:0; background:var(--surface); border-right:1px solid var(--border); overflow-y:auto; max-height:calc(100vh - 105px); position:sticky; top:105px; transition:width .2s; }
+.sidebar.closed { width:0; overflow:hidden; border-right:none; }
+.main { flex:1; min-width:0; padding:20px; }
+
+.src-panel { padding:14px; }
+.src-header { display:flex; align-items:center; gap:8px; margin-bottom:12px; flex-wrap:wrap; }
+.src-title { font-weight:700; font-size:14px; }
+.src-count { font-size:12px; color:var(--muted); flex:1; }
+.toggle-all { padding:4px 10px; border-radius:12px; border:1px solid var(--accent); color:var(--accent); background:transparent; font-size:12px; }
+.toggle-all:hover { background:var(--tag-bg); }
+.src-list { display:flex; flex-direction:column; gap:6px; }
+.src-item { display:flex; align-items:flex-start; gap:8px; padding:10px; border-radius:var(--radius); border:1px solid var(--border); background:var(--bg); cursor:pointer; flex-wrap:wrap; transition:border-color .15s,background .15s; }
+.src-item:hover { border-color:var(--accent); }
+.src-item.on { border-color:var(--accent); background:#f0f9ff; }
+.src-item input[type=checkbox] { margin-top:2px; accent-color:var(--accent); }
+.src-flag { font-size:15px; }
+.src-name { font-weight:600; font-size:13px; flex:1; }
+.src-desc { font-size:11px; color:var(--muted); width:100%; margin-left:24px; }
+.src-tags { display:flex; gap:4px; flex-wrap:wrap; margin-left:24px; }
+.src-tag { font-size:10px; padding:1px 6px; border-radius:8px; background:var(--tag-bg); color:var(--tag-color); }
+
+.feed-bar { display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; gap:8px; flex-wrap:wrap; }
+.feed-count { font-size:13px; color:var(--muted); }
+.feed-actions { display:flex; gap:10px; align-items:center; }
+.err-badge { font-size:12px; color:var(--error); padding:4px 10px; border-radius:12px; border:1px solid var(--error); cursor:help; }
+.reload-btn { padding:6px 14px; border-radius:16px; border:1px solid var(--border); background:var(--surface); font-size:13px; }
+.reload-btn:hover:not(:disabled) { background:var(--bg); }
+.reload-btn:disabled { opacity:.5; cursor:not-allowed; }
+
+.article-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:16px; }
+.skeleton-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:16px; }
+.skeleton { height:160px; border-radius:var(--radius); background:linear-gradient(90deg,#e2e8f0 25%,#f1f5f9 50%,#e2e8f0 75%); background-size:200% 100%; animation:shimmer 1.4s infinite; }
+@keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
+
+.card { display:flex; flex-direction:column; gap:8px; padding:16px; border-radius:var(--radius); border:1px solid var(--border); background:var(--surface); box-shadow:var(--shadow); transition:box-shadow .15s,border-color .15s,transform .1s; }
+.card:hover { box-shadow:0 4px 16px rgba(0,0,0,.1); border-color:var(--accent); transform:translateY(-1px); }
+.card-meta { display:flex; justify-content:space-between; font-size:11px; color:var(--muted); }
+.card-source { font-weight:600; }
+.card-title { font-size:14px; font-weight:600; line-height:1.4; }
+.card-desc { font-size:12px; color:var(--muted); line-height:1.5; }
+.card-tags { display:flex; gap:4px; flex-wrap:wrap; margin-top:auto; }
+.card-tag { font-size:10px; padding:2px 8px; border-radius:10px; background:var(--tag-bg); color:var(--tag-color); }
+.empty { text-align:center; padding:60px 20px; color:var(--muted); font-size:15px; }
+
+@media(max-width:768px){
+  .sidebar { display:none !important; }
+  .brand-sub { display:none; }
+  .main { padding:12px; }
+  .article-grid { grid-template-columns:1fr; }
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-icon">⚕</span>
+      <h1 class="brand-title">MedicalNews Hub</h1>
+      <span class="brand-sub">의학·제약 뉴스 통합 플랫폼</span>
+    </div>
+    <div class="search-wrap">
+      <input class="search-input" type="search" placeholder="기사 검색..." id="searchInput" />
+    </div>
+    <button class="sidebar-toggle" id="sidebarToggle">◀ 소스</button>
+  </div>
+  <div class="cat-bar" id="catBar"></div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar" id="sidebar">
+    <div class="src-panel">
+      <div class="src-header">
+        <span class="src-title">뉴스 소스 선택</span>
+        <span class="src-count" id="srcCount"></span>
+        <button class="toggle-all" id="toggleAll">전체 선택</button>
+      </div>
+      <div class="src-list" id="srcList"></div>
+    </div>
+  </aside>
+  <main class="main">
+    <div class="feed-bar">
+      <span class="feed-count" id="feedCount">로딩 중...</span>
+      <div class="feed-actions">
+        <span class="err-badge" id="errBadge" style="display:none"></span>
+        <button class="reload-btn" id="reloadBtn">새로고침</button>
+      </div>
+    </div>
+    <div id="feedArea"></div>
+  </main>
+</div>
+
+<script>
+const CATEGORIES = [
+  {id:"all",label:"전체"},
+  {id:"drug",label:"의약품/신약"},
+  {id:"disease",label:"질환/임상"},
+  {id:"policy",label:"정책/규제"},
+  {id:"hospital",label:"병원/의료기관"},
+  {id:"research",label:"연구/학술"},
+  {id:"global",label:"해외/글로벌"},
+];
+const FLAGS = {KR:"🇰🇷",US:"🇺🇸"};
+const SOURCES = [
+  {id:"medigatenews",name:"메디게이트뉴스",  rss:"https://www.medigatenews.com/rss/all",            country:"KR",cats:["drug","disease","policy","hospital"],desc:"의약품·의료기기 전문 뉴스"},
+  {id:"medicaltimes",name:"메디칼타임즈",    rss:"https://www.medicaltimes.com/Main/RssNews.html", country:"KR",cats:["policy","hospital","disease"],       desc:"의료계 전문 신문"},
+  {id:"docdocdoc",   name:"청년의사",        rss:"https://www.docdocdoc.co.kr/rss/allArticle.xml", country:"KR",cats:["policy","hospital","disease"],       desc:"의사 전문 뉴스 매체"},
+  {id:"yakup",       name:"약업신문",        rss:"https://www.yakup.com/rss/rss.html",             country:"KR",cats:["drug","policy"],                     desc:"약업계 전문 신문"},
+  {id:"hitnews",     name:"히트뉴스",        rss:"https://www.hitnews.co.kr/rss/allArticle.xml",   country:"KR",cats:["drug","disease","research"],         desc:"제약·바이오 전문 뉴스"},
+  {id:"biopharma",   name:"바이오스펙테이터",rss:"https://www.biospectator.com/rss/rss.xml",       country:"KR",cats:["drug","research","global"],          desc:"바이오·제약 전문 미디어"},
+  {id:"pharmnews",   name:"팜뉴스",          rss:"https://www.pharmnews.com/rss/allArticle.xml",   country:"KR",cats:["drug","policy"],                     desc:"제약·약업 뉴스"},
+  {id:"medipana",    name:"메디파나뉴스",    rss:"https://www.medipana.com/rss/rss.xml",           country:"KR",cats:["drug","hospital","policy"],          desc:"제약·의료 종합 뉴스"},
+  {id:"statnews",    name:"STAT News",       rss:"https://www.statnews.com/feed/",                 country:"US",cats:["drug","research","global","disease"], desc:"Health & medicine reporting"},
+  {id:"fiercepharma",name:"Fierce Pharma",   rss:"https://www.fiercepharma.com/rss/xml",           country:"US",cats:["drug","global","policy"],            desc:"Pharma industry news"},
+  {id:"endpoints",   name:"Endpoints News",  rss:"https://endpts.com/feed/",                       country:"US",cats:["drug","research","global"],          desc:"Biopharma news & analysis"},
+  {id:"medscape",    name:"Medscape",        rss:"https://www.medscape.com/rss/allnews",           country:"US",cats:["disease","research","hospital"],     desc:"Clinical & medical news"},
+  {id:"reuters",     name:"Reuters Health",  rss:"https://feeds.reuters.com/reuters/healthNews",   country:"US",cats:["global","drug","policy"],            desc:"Global health & pharma news"},
+];
+
+let activeCategory = "all";
+let selectedSources = new Set(SOURCES.map(s=>s.id));
+let searchQuery = "";
+let articles = [];
+let errors = {};
+let lastUpdated = null;
+let sidebarOpen = true;
+
+renderCategories();
+renderSources();
+loadFeeds();
+
+document.getElementById("searchInput").addEventListener("input",e=>{searchQuery=e.target.value;renderFeed();});
+document.getElementById("reloadBtn").addEventListener("click",loadFeeds);
+document.getElementById("toggleAll").addEventListener("click",toggleAll);
+document.getElementById("sidebarToggle").addEventListener("click",()=>{
+  sidebarOpen=!sidebarOpen;
+  document.getElementById("sidebar").classList.toggle("closed",!sidebarOpen);
+  document.getElementById("sidebarToggle").textContent=sidebarOpen?"◀ 소스":"▶ 소스";
+});
+
+function renderCategories(){
+  const bar=document.getElementById("catBar");
+  bar.innerHTML="";
+  CATEGORIES.forEach(cat=>{
+    const btn=document.createElement("button");
+    btn.className="cat-btn"+(cat.id===activeCategory?" active":"");
+    btn.textContent=cat.label;
+    btn.onclick=()=>{activeCategory=cat.id;renderCategories();renderSources();renderFeed();};
+    bar.appendChild(btn);
+  });
+}
+
+function renderSources(){
+  const filtered=activeCategory==="all"?SOURCES:SOURCES.filter(s=>s.cats.includes(activeCategory));
+  const catLabel=activeCategory==="all"?"전체":(CATEGORIES.find(c=>c.id===activeCategory)?.label??activeCategory);
+  document.getElementById("srcCount").textContent=`${catLabel} · ${filtered.length}개 소스`;
+  const allOn=filtered.every(s=>selectedSources.has(s.id));
+  document.getElementById("toggleAll").textContent=allOn?"전체 해제":"전체 선택";
+  const list=document.getElementById("srcList");
+  list.innerHTML="";
+  filtered.forEach(src=>{
+    const on=selectedSources.has(src.id);
+    const item=document.createElement("label");
+    item.className="src-item"+(on?" on":"");
+    item.innerHTML=`
+      <input type="checkbox" ${on?"checked":""} />
+      <span class="src-flag">${FLAGS[src.country]||""}</span>
+      <span class="src-name">${src.name}</span>
+      <span class="src-desc">${src.desc}</span>
+      <div class="src-tags">${src.cats.map(c=>`<span class="src-tag">${CATEGORIES.find(x=>x.id===c)?.label}</span>`).join("")}</div>
+    `;
+    item.querySelector("input").addEventListener("change",e=>{
+      if(e.target.checked)selectedSources.add(src.id);else selectedSources.delete(src.id);
+      renderSources();renderFeed();
+    });
+    list.appendChild(item);
+  });
+}
+
+function toggleAll(){
+  const filtered=activeCategory==="all"?SOURCES:SOURCES.filter(s=>s.cats.includes(activeCategory));
+  const allOn=filtered.every(s=>selectedSources.has(s.id));
+  filtered.forEach(s=>allOn?selectedSources.delete(s.id):selectedSources.add(s.id));
+  renderSources();renderFeed();
+}
+
+async function fetchRss(source){
+  const proxy="https://api.allorigins.win/get?url=";
+  const res=await fetch(proxy+encodeURIComponent(source.rss));
+  if(!res.ok)throw new Error("HTTP "+res.status);
+  const data=await res.json();
+  const xml=new DOMParser().parseFromString(data.contents,"text/xml");
+  return [...xml.querySelectorAll("item")].slice(0,10).map(item=>{
+    const g=tag=>item.querySelector(tag)?.textContent?.trim()??"";
+    const pd=g("pubDate");
+    return {
+      id:g("guid")||g("link"),title:g("title"),link:g("link"),
+      desc:g("description").replace(/<[^>]+>/g,"").slice(0,160),
+      date:pd?new Date(pd):new Date(),
+      sourceId:source.id,sourceName:source.name,country:source.country,cats:source.cats,
+    };
+  }).filter(a=>a.title&&a.link);
+}
+
+async function loadFeeds(){
+  const sources=SOURCES.filter(s=>selectedSources.has(s.id));
+  if(!sources.length){renderFeed();return;}
+  errors={};
+  document.getElementById("feedArea").innerHTML=`<div class="skeleton-grid">${Array(6).fill('<div class="skeleton"></div>').join("")}</div>`;
+  document.getElementById("reloadBtn").disabled=true;
+  document.getElementById("feedCount").textContent="로딩 중...";
+
+  const results=await Promise.allSettled(sources.map(fetchRss));
+  const newArticles=[];
+  results.forEach((r,i)=>{
+    if(r.status==="fulfilled")newArticles.push(...r.value);
+    else errors[sources[i].id]=r.reason?.message??"Failed";
+  });
+  newArticles.sort((a,b)=>b.date-a.date);
+  articles=newArticles;
+  lastUpdated=new Date();
+  renderFeed();
+}
+
+function timeAgo(date){
+  const d=(Date.now()-date.getTime())/1000;
+  if(d<60)return"방금 전";
+  if(d<3600)return Math.floor(d/60)+"분 전";
+  if(d<86400)return Math.floor(d/3600)+"시간 전";
+  return Math.floor(d/86400)+"일 전";
+}
+
+function renderFeed(){
+  const errCount=Object.keys(errors).length;
+  const errBadge=document.getElementById("errBadge");
+  if(errCount){errBadge.style.display="";errBadge.textContent=`⚠ ${errCount}개 소스 오류`;errBadge.title=Object.entries(errors).map(([k,v])=>`${k}: ${v}`).join("\n");}
+  else errBadge.style.display="none";
+
+  let list=articles.filter(a=>selectedSources.has(a.sourceId));
+  if(activeCategory!=="all")list=list.filter(a=>a.cats.includes(activeCategory));
+  if(searchQuery.trim()){const q=searchQuery.toLowerCase();list=list.filter(a=>a.title.toLowerCase().includes(q)||a.desc.toLowerCase().includes(q));}
+
+  const upd=lastUpdated?` · ${lastUpdated.toLocaleTimeString("ko-KR",{hour:"2-digit",minute:"2-digit"})} 업데이트`:"";
+  document.getElementById("feedCount").textContent=`${list.length}개 기사${upd}`;
+  document.getElementById("reloadBtn").disabled=false;
+
+  const area=document.getElementById("feedArea");
+  if(!list.length){area.innerHTML=`<div class="empty">${selectedSources.size===0?"뉴스 소스를 1개 이상 선택하세요.":"조건에 맞는 기사가 없습니다."}</div>`;return;}
+
+  const grid=document.createElement("div");
+  grid.className="article-grid";
+  list.forEach(a=>{
+    const tags=a.cats.map(c=>`<span class="card-tag">${CATEGORIES.find(x=>x.id===c)?.label}</span>`).join("");
+    const card=document.createElement("a");
+    card.className="card";card.href=a.link;card.target="_blank";card.rel="noopener noreferrer";
+    card.innerHTML=`
+      <div class="card-meta"><span class="card-source">${FLAGS[a.country]||""} ${a.sourceName}</span><span>${timeAgo(a.date)}</span></div>
+      <div class="card-title">${a.title}</div>
+      ${a.desc?`<div class="card-desc">${a.desc}…</div>`:""}
+      <div class="card-tags">${tags}</div>
+    `;
+    grid.appendChild(card);
+  });
+  area.innerHTML="";area.appendChild(grid);
+}
+</script>
+</body>
+</html>
