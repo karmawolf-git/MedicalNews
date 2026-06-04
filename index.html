@@ -10,7 +10,6 @@
   --bg: #f4f6fb; --surface: #fff; --border: #e2e8f0;
   --text: #1e293b; --muted: #64748b;
   --accent: #0050a0; --accent-light: #e8f0fb;
-  --tag-bg: #e0f2fe; --tag-color: #0369a1;
   --error: #ef4444; --radius: 10px; --shadow: 0 1px 4px rgba(0,0,0,.08);
 }
 body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",sans-serif; background:var(--bg); color:var(--text); font-size:14px; line-height:1.6; }
@@ -18,7 +17,6 @@ a { color:inherit; text-decoration:none; }
 button { cursor:pointer; font-family:inherit; }
 input { font-family:inherit; }
 
-/* ── Header ── */
 .header { position:sticky; top:0; z-index:100; background:var(--surface); border-bottom:1px solid var(--border); box-shadow:var(--shadow); }
 .header-inner { display:flex; align-items:center; gap:14px; padding:12px 20px; flex-wrap:wrap; }
 .brand { display:flex; align-items:center; gap:8px; flex-shrink:0; }
@@ -28,101 +26,101 @@ input { font-family:inherit; }
 .search-wrap { flex:1; min-width:160px; max-width:320px; }
 .search-input { width:100%; padding:7px 14px; border:1px solid var(--border); border-radius:20px; font-size:14px; background:var(--bg); outline:none; }
 .search-input:focus { border-color:var(--accent); }
+.hdr-right { display:flex; gap:8px; align-items:center; }
 .sidebar-toggle { padding:6px 13px; border-radius:20px; border:1px solid var(--border); background:var(--bg); font-size:13px; color:var(--muted); white-space:nowrap; }
 .sidebar-toggle:hover { background:var(--border); }
 
-/* ── Product tabs (row 1) ── */
-.filter-row { display:flex; gap:6px; padding:8px 20px; overflow-x:auto; border-top:1px solid var(--border); scrollbar-width:none; }
+/* ── Product tabs ── */
+.filter-row { display:flex; gap:6px; padding:8px 18px; overflow-x:auto; scrollbar-width:none; border-top:1px solid var(--border); }
 .filter-row::-webkit-scrollbar { display:none; }
-.filter-row + .filter-row { padding-top:4px; padding-bottom:10px; border-top:none; }
+.filter-row.type-row { padding-top:4px; padding-bottom:8px; border-top:none; }
 
-.prod-btn { display:flex; flex-direction:column; align-items:center; padding:6px 14px; border-radius:16px; border:1px solid var(--border); background:transparent; font-size:12px; color:var(--muted); white-space:nowrap; transition:all .15s; line-height:1.3; }
+.prod-btn { display:flex; flex-direction:column; align-items:center; padding:5px 13px; border-radius:16px; border:1px solid var(--border); background:transparent; font-size:12px; color:var(--muted); white-space:nowrap; transition:all .15s; line-height:1.3; }
 .prod-btn .pname { font-weight:700; font-size:13px; }
-.prod-btn .pgen  { font-size:10px; opacity:.75; }
+.prod-btn .pgen  { font-size:10px; opacity:.7; }
 .prod-btn:hover { border-color:var(--accent); color:var(--accent); }
 .prod-btn.active { background:var(--accent); border-color:var(--accent); color:#fff; }
 .prod-btn.active .pgen { opacity:.85; }
 
-/* ── Type tabs (row 2) ── */
-.type-btn { padding:4px 13px; border-radius:14px; border:1px solid var(--border); background:transparent; font-size:12px; color:var(--muted); white-space:nowrap; transition:all .15s; }
+.type-btn { padding:3px 12px; border-radius:14px; border:1px solid var(--border); background:transparent; font-size:12px; color:var(--muted); white-space:nowrap; transition:all .15s; }
 .type-btn:hover { border-color:var(--accent); color:var(--accent); }
 .type-btn.active { background:var(--accent-light); border-color:var(--accent); color:var(--accent); font-weight:600; }
 
 /* ── Layout ── */
 .layout { display:flex; }
-.sidebar { width:280px; flex-shrink:0; background:var(--surface); border-right:1px solid var(--border); overflow-y:auto; max-height:calc(100vh - 130px); position:sticky; top:130px; transition:width .2s; }
+.sidebar { width:270px; flex-shrink:0; background:var(--surface); border-right:1px solid var(--border); overflow-y:auto; max-height:calc(100vh - 130px); position:sticky; top:130px; transition:width .2s; }
 .sidebar.closed { width:0; overflow:hidden; border-right:none; }
-.main { flex:1; min-width:0; padding:18px 20px; }
+.main { flex:1; min-width:0; padding:16px 20px; }
 
-/* ── Source Selector ── */
-.src-panel { padding:14px; }
-.src-header { display:flex; align-items:center; gap:8px; margin-bottom:12px; flex-wrap:wrap; }
-.src-title { font-weight:700; font-size:14px; }
-.src-count { font-size:12px; color:var(--muted); flex:1; }
-.toggle-all { padding:3px 10px; border-radius:12px; border:1px solid var(--accent); color:var(--accent); background:transparent; font-size:12px; }
+/* ── Source panel ── */
+.src-panel { padding:12px; }
+.src-header { display:flex; align-items:center; gap:6px; margin-bottom:10px; flex-wrap:wrap; }
+.src-title { font-weight:700; font-size:13px; }
+.src-count { font-size:11px; color:var(--muted); flex:1; }
+.toggle-all { padding:3px 9px; border-radius:11px; border:1px solid var(--accent); color:var(--accent); background:transparent; font-size:11px; }
 .toggle-all:hover { background:var(--accent-light); }
 .src-list { display:flex; flex-direction:column; gap:5px; }
-.src-item { display:flex; align-items:flex-start; gap:8px; padding:9px; border-radius:var(--radius); border:1px solid var(--border); background:var(--bg); cursor:pointer; flex-wrap:wrap; transition:border-color .15s,background .15s; }
+.src-item { display:flex; align-items:flex-start; gap:7px; padding:8px; border-radius:var(--radius); border:1px solid var(--border); background:var(--bg); cursor:pointer; flex-wrap:wrap; transition:border-color .15s,background .15s; }
 .src-item:hover { border-color:var(--accent); }
 .src-item.on { border-color:var(--accent); background:#f0f6ff; }
-.src-item input[type=checkbox] { margin-top:2px; accent-color:var(--accent); flex-shrink:0; }
+.src-item input { margin-top:2px; accent-color:var(--accent); flex-shrink:0; }
 .src-flag { font-size:14px; }
-.src-name { font-weight:600; font-size:13px; flex:1; }
-.src-desc { font-size:11px; color:var(--muted); width:100%; margin-left:22px; }
+.src-name { font-weight:600; font-size:12px; flex:1; }
+.src-desc { font-size:10px; color:var(--muted); width:100%; margin-left:20px; line-height:1.4; }
+.src-query { font-size:9px; color:var(--muted); width:100%; margin-left:20px; opacity:.7; margin-top:1px; }
 
-/* ── Feed toolbar ── */
-.feed-bar { display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; gap:8px; flex-wrap:wrap; }
+/* ── Feed bar ── */
+.feed-bar { display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; gap:8px; flex-wrap:wrap; }
 .feed-count { font-size:13px; color:var(--muted); }
-.feed-actions { display:flex; gap:10px; align-items:center; }
+.feed-actions { display:flex; gap:8px; align-items:center; }
 .err-badge { font-size:12px; color:var(--error); padding:3px 10px; border-radius:12px; border:1px solid var(--error); cursor:help; }
-.reload-btn { padding:5px 13px; border-radius:14px; border:1px solid var(--border); background:var(--surface); font-size:13px; }
+.reload-btn { padding:5px 12px; border-radius:14px; border:1px solid var(--border); background:var(--surface); font-size:13px; }
 .reload-btn:hover:not(:disabled) { background:var(--bg); }
 .reload-btn:disabled { opacity:.5; cursor:not-allowed; }
 
-/* ── Notice ── */
-.notice { background:#fffbeb; border:1px solid #fcd34d; border-radius:var(--radius); padding:10px 14px; margin-bottom:14px; font-size:13px; color:#92400e; display:none; }
+.notice { background:#fffbeb; border:1px solid #fcd34d; border-radius:var(--radius); padding:10px 14px; margin-bottom:12px; font-size:13px; color:#92400e; display:none; }
 
-/* ── Article grid ── */
-.article-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(290px,1fr)); gap:14px; }
-.skeleton-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(290px,1fr)); gap:14px; }
-.skeleton { height:155px; border-radius:var(--radius); background:linear-gradient(90deg,#e2e8f0 25%,#f1f5f9 50%,#e2e8f0 75%); background-size:200% 100%; animation:shimmer 1.4s infinite; }
+/* ── Grid ── */
+.article-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(290px,1fr)); gap:13px; }
+.skeleton-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(290px,1fr)); gap:13px; }
+.skeleton { height:150px; border-radius:var(--radius); background:linear-gradient(90deg,#e2e8f0 25%,#f1f5f9 50%,#e2e8f0 75%); background-size:200% 100%; animation:shimmer 1.4s infinite; }
 @keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
 
-/* ── Article card ── */
-.card { display:flex; flex-direction:column; gap:7px; padding:15px; border-radius:var(--radius); border:1px solid var(--border); background:var(--surface); box-shadow:var(--shadow); transition:box-shadow .15s,border-color .15s,transform .1s; }
+/* ── Card ── */
+.card { display:flex; flex-direction:column; gap:7px; padding:14px; border-radius:var(--radius); border:1px solid var(--border); background:var(--surface); box-shadow:var(--shadow); transition:box-shadow .15s,border-color .15s,transform .1s; }
 .card:hover { box-shadow:0 4px 14px rgba(0,0,0,.1); border-color:var(--accent); transform:translateY(-1px); }
 .card-meta { display:flex; justify-content:space-between; font-size:11px; color:var(--muted); }
 .card-source { font-weight:600; }
 .card-title { font-size:14px; font-weight:600; line-height:1.45; }
 .card-desc { font-size:12px; color:var(--muted); line-height:1.5; }
-.card-footer { display:flex; gap:5px; flex-wrap:wrap; margin-top:auto; }
-.card-tag { font-size:10px; padding:2px 7px; border-radius:9px; background:var(--tag-bg); color:var(--tag-color); }
-.card-prod-tag { font-size:10px; padding:2px 7px; border-radius:9px; background:#fef3c7; color:#92400e; font-weight:600; }
-.card-type-tag { font-size:10px; padding:2px 7px; border-radius:9px; background:#f0fdf4; color:#166534; }
+.card-footer { display:flex; gap:4px; flex-wrap:wrap; margin-top:auto; }
+.tag-prod { font-size:10px; padding:2px 7px; border-radius:9px; font-weight:600; }
+.tag-type { font-size:10px; padding:2px 7px; border-radius:9px; background:#f0fdf4; color:#166534; }
+.tag-class { font-size:10px; padding:2px 7px; border-radius:9px; background:#f5f3ff; color:#6d28d9; }
 .card.demo { border-style:dashed; opacity:.8; }
 .demo-label { font-size:10px; color:var(--muted); background:#f1f5f9; padding:1px 6px; border-radius:6px; align-self:flex-start; }
 
-/* ── Site links tab ── */
+/* ── Links tab ── */
 .source-link-list { display:flex; flex-direction:column; gap:8px; }
-.source-link-card { display:flex; align-items:center; gap:12px; padding:13px 15px; border-radius:var(--radius); border:1px solid var(--border); background:var(--surface); box-shadow:var(--shadow); transition:border-color .15s; }
-.source-link-card:hover { border-color:var(--accent); }
-.slc-flag { font-size:18px; }
+.slc { display:flex; align-items:center; gap:12px; padding:13px 15px; border-radius:var(--radius); border:1px solid var(--border); background:var(--surface); box-shadow:var(--shadow); transition:border-color .15s; }
+.slc:hover { border-color:var(--accent); }
+.slc-flag { font-size:16px; }
 .slc-info { flex:1; }
-.slc-name { font-weight:700; font-size:14px; }
-.slc-desc { font-size:12px; color:var(--muted); }
+.slc-name { font-weight:700; font-size:13px; }
+.slc-desc { font-size:11px; color:var(--muted); }
+.slc-query { font-size:10px; color:#6366f1; margin-top:2px; }
 .slc-arrow { color:var(--muted); }
 
-/* ── Empty ── */
 .empty { text-align:center; padding:50px 20px; color:var(--muted); font-size:14px; }
 
 /* ── Tab bar ── */
-.tab-bar { display:flex; gap:4px; margin-bottom:14px; border-bottom:2px solid var(--border); }
-.tab-btn { padding:7px 15px; border:none; background:transparent; font-size:14px; color:var(--muted); cursor:pointer; border-bottom:2px solid transparent; margin-bottom:-2px; transition:all .15s; }
+.tab-bar { display:flex; gap:4px; margin-bottom:13px; border-bottom:2px solid var(--border); }
+.tab-btn { padding:7px 14px; border:none; background:transparent; font-size:14px; color:var(--muted); cursor:pointer; border-bottom:2px solid transparent; margin-bottom:-2px; transition:all .15s; }
 .tab-btn.active { color:var(--accent); border-bottom-color:var(--accent); font-weight:600; }
 
-/* ── Product legend ── */
-.prod-legend { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:14px; }
-.legend-chip { font-size:11px; padding:3px 10px; border-radius:10px; background:#fef3c7; color:#92400e; border:1px solid #fde68a; }
+/* ── Legend chips ── */
+.prod-legend { display:flex; flex-wrap:wrap; gap:5px; margin-bottom:12px; }
+.legend-chip { font-size:11px; padding:3px 10px; border-radius:10px; border:1px solid; }
 
 @media(max-width:768px){
   .sidebar { display:none !important; }
@@ -144,12 +142,12 @@ input { font-family:inherit; }
     <div class="search-wrap">
       <input class="search-input" type="search" placeholder="기사 검색..." id="searchInput" />
     </div>
-    <button class="sidebar-toggle" id="sidebarToggle">◀ 소스</button>
+    <div class="hdr-right">
+      <button class="sidebar-toggle" id="sidebarToggle">◀ 소스</button>
+    </div>
   </div>
-  <!-- Row 1: 제품 탭 -->
   <div class="filter-row" id="prodBar"></div>
-  <!-- Row 2: 유형 탭 -->
-  <div class="filter-row" id="typeBar"></div>
+  <div class="filter-row type-row" id="typeBar"></div>
 </header>
 
 <div class="layout">
@@ -158,7 +156,7 @@ input { font-family:inherit; }
       <div class="src-header">
         <span class="src-title">뉴스 소스</span>
         <span class="src-count" id="srcCount"></span>
-        <button class="toggle-all" id="toggleAll">전체 선택</button>
+        <button class="toggle-all" id="toggleAll">전체</button>
       </div>
       <div class="src-list" id="srcList"></div>
     </div>
@@ -166,14 +164,11 @@ input { font-family:inherit; }
   <main class="main">
     <div class="tab-bar">
       <button class="tab-btn active" id="tabFeed" onclick="switchTab('feed')">📰 뉴스 피드</button>
-      <button class="tab-btn" id="tabLinks" onclick="switchTab('links')">🔗 사이트 바로가기</button>
+      <button class="tab-btn" id="tabLinks" onclick="switchTab('links')">🔗 소스 목록</button>
     </div>
-
     <div id="noticeBanner" class="notice">
-      ⚠ RSS를 자동으로 불러오지 못했습니다. 네트워크 또는 CORS 문제일 수 있습니다.
-      <b>사이트 바로가기</b> 탭에서 직접 방문해 주세요.
+      ⚠ Google News RSS를 불러오지 못했습니다. 네트워크 상태를 확인하거나 잠시 후 새로고침 해주세요.
     </div>
-
     <div id="panelFeed">
       <div class="prod-legend" id="prodLegend"></div>
       <div class="feed-bar">
@@ -185,7 +180,6 @@ input { font-family:inherit; }
       </div>
       <div id="feedArea"></div>
     </div>
-
     <div id="panelLinks" style="display:none">
       <div class="source-link-list" id="linkList"></div>
     </div>
@@ -193,133 +187,204 @@ input { font-family:inherit; }
 </div>
 
 <script>
-// ═══════════════════════════════════════════════
-//  제품 정의 — 브랜드명 / 성분명 / 관련 질환 키워드
-// ═══════════════════════════════════════════════
+// ══════════════════════════════════════════════════════════
+//  제품 정의 — 브랜드명, 계열약, 경쟁품 모두 포함
+// ══════════════════════════════════════════════════════════
 const PRODUCTS = [
+  { id:"all", name:"전체", generic:"모든 제품", color:"#e8f0fb", textColor:"#0050a0" },
+
   {
-    id: "all", name: "전체", generic: "모든 제품",
-    keywords: [], // 전체는 하위 제품 키워드 합산
+    id:"lipitor", name:"리피토", generic:"Statin 계열",
+    color:"#fef3c7", textColor:"#92400e",
+    // 자사 제품
+    brandKw:  ["리피토","lipitor","atorvastatin","아토르바스타틴"],
+    // 계열약 (statin class)
+    classKw:  ["스타틴","statin","hmg-coa","크레스토","rosuvastatin","로수바스타틴",
+               "조코","simvastatin","심바스타틴","리바로","pitavastatin","피타바스타틴",
+               "pravastatin","프라바스타틴","fluvastatin","플루바스타틴","lovastatin","로바스타틴"],
+    // 경쟁 기전 (PCSK9i, bempedoic acid)
+    competKw: ["레파타","repatha","evolocumab","에보로쿠맙",
+               "프랄런트","praluent","alirocumab","알리로쿠맙",
+               "레크비오","leqvio","inclisiran","인클리시란",
+               "넥스레톨","bempedoic acid","벰페도산"],
+    // 관련 질환/지표
+    diseaseKw:["이상지질혈증","고지혈증","콜레스테롤","cholesterol","ldl","ldl-c",
+               "트리글리세라이드","triglyceride","동맥경화","atherosclerosis",
+               "심혈관","cardiovascular","심근경색","myocardial infarction","심장마비"],
+    classLabel:"Statin·PCSK9i",
   },
+
   {
-    id: "lipitor", name: "리피토", generic: "atorvastatin",
-    color: "#fef3c7", textColor: "#92400e",
-    keywords: [
-      "리피토","lipitor","atorvastatin","아토르바스타틴","아토바스타틴",
-      "이상지질혈증","고지혈증","스타틴","statin","콜레스테롤","cholesterol",
-      "ldl","ldl-c","트리글리세라이드","triglyceride","동맥경화","atherosclerosis",
-      "심혈관","cardiovascular","심근경색","myocardial infarction"
-    ],
+    id:"lipitorplus", name:"리피토플러스", generic:"Statin+Ezetimibe",
+    color:"#fef3c7", textColor:"#b45309",
+    brandKw:  ["리피토플러스","lipitor plus"],
+    classKw:  ["에제티미브","ezetimibe","바이토린","vytorin","이지트롤","로수젯",
+               "rosuvastatin ezetimibe","스타틴 복합","statin combination","복합 지질"],
+    competKw: ["레파타","repatha","evolocumab","프랄런트","praluent","레크비오","inclisiran"],
+    diseaseKw:["이상지질혈증","고지혈증","콜레스테롤","cholesterol","ldl","ldl-c",
+               "복합제","combination therapy","이중 기전"],
+    classLabel:"Statin+Ezetimibe",
   },
+
   {
-    id: "lipitorplus", name: "리피토플러스", generic: "atorvastatin/ezetimibe",
-    color: "#fef3c7", textColor: "#92400e",
-    keywords: [
-      "리피토플러스","lipitor plus","에제티미브","ezetimibe",
-      "이상지질혈증","고지혈증","스타틴","statin","콜레스테롤","cholesterol",
-      "ldl","ldl-c","복합제","combination"
-    ],
+    id:"norvasc", name:"노바스크", generic:"CCB 계열",
+    color:"#dcfce7", textColor:"#166534",
+    brandKw:  ["노바스크","norvasc","amlodipine","암로디핀"],
+    classKw:  ["칼슘채널차단제","ccb","calcium channel blocker","dihydropyridine",
+               "아달라트","nifedipine","니페디핀","펠로디핀","felodipine",
+               "레르카니디핀","lercanidipine","자니딥","실니디핀","cilnidipine","시나롱"],
+    competKw: ["발사르탄","valsartan","올메사르탄","olmesartan","텔미사르탄","telmisartan",
+               "칸데사르탄","candesartan","arb","ace inhibitor","ace억제제",
+               "에날라프릴","enalapril","라미프릴","ramipril","리시노프릴","lisinopril",
+               "베타차단제","beta blocker","메토프롤롤","metoprolol"],
+    diseaseKw:["고혈압","hypertension","협심증","angina","혈압","blood pressure",
+               "심혈관","cardiovascular","뇌졸중","stroke","심부전","heart failure",
+               "좌심실비대","lvh","신장보호","renoprotection"],
+    classLabel:"CCB·ARB·항고혈압",
   },
+
   {
-    id: "norvasc", name: "노바스크", generic: "amlodipine",
-    color: "#dcfce7", textColor: "#166534",
-    keywords: [
-      "노바스크","norvasc","amlodipine","암로디핀","암로디핀베실산염",
-      "고혈압","hypertension","협심증","angina","칼슘채널차단제","ccb",
-      "calcium channel","혈압","blood pressure","심혈관","cardiovascular"
-    ],
+    id:"lyrica", name:"리리카", generic:"Gabapentinoid 계열",
+    color:"#ede9fe", textColor:"#5b21b6",
+    brandKw:  ["리리카","lyrica","pregabalin","프레가발린"],
+    classKw:  ["가바펜티노이드","gabapentinoid","뉴론틴","neurontin","gabapentin","가바펜틴",
+               "미로가바린","mirogabalin","타리제","tarlige"],
+    competKw: ["심발타","cymbalta","duloxetine","둘록세틴","밀나시프란","milnacipran",
+               "아미트리프틸린","amitriptyline","트라마돌","tramadol",
+               "날록세곤","tapentadol","타펜타돌","옥시코돈","oxycodone"],
+    diseaseKw:["신경병증성 통증","neuropathic pain","신경통","neuropathy",
+               "섬유근육통","fibromyalgia","뇌전증","간질","epilepsy","seizure",
+               "대상포진 후 신경통","postherpetic neuralgia","phn",
+               "당뇨병성 신경병증","diabetic neuropathy","dpn",
+               "척수손상 통증","spinal cord","중추 감작","central sensitization"],
+    classLabel:"Gabapentinoid·진통",
   },
+
   {
-    id: "lyrica", name: "리리카", generic: "pregabalin",
-    color: "#ede9fe", textColor: "#5b21b6",
-    keywords: [
-      "리리카","lyrica","pregabalin","프레가발린",
-      "신경병증성 통증","neuropathic pain","신경통","neuropathy",
-      "섬유근육통","fibromyalgia","뇌전증","간질","epilepsy","seizure",
-      "대상포진 후 신경통","postherpetic neuralgia","당뇨병성 신경병증","diabetic neuropathy"
-    ],
+    id:"celebrex", name:"쎄레브렉스", generic:"COX-2 억제제",
+    color:"#fce7f3", textColor:"#9d174d",
+    brandKw:  ["쎄레브렉스","celebrex","celecoxib","셀레콕시브","셀레브렉스"],
+    classKw:  ["cox-2","cox2","아르콕시아","arcoxia","etoricoxib","에토리콕시브",
+               "멜록시캄","meloxicam","모빅","mobic","디클로페낙","diclofenac","볼타렌","voltaren",
+               "나프록센","naproxen","이부프로펜","ibuprofen","nsaid","nsaids","비스테로이드"],
+    competKw: ["엔브렐","enbrel","etanercept","에타너셉트","레미케이드","remicade","infliximab",
+               "tnf","il-6","토파시티닙","tofacitinib","젤잔즈","xeljanz",
+               "메토트렉세이트","methotrexate","하이드록시클로로퀸","hydroxychloroquine",
+               "바리시티닙","baricitinib","올루미언트","olumiant"],
+    diseaseKw:["골관절염","osteoarthritis","류마티스관절염","rheumatoid arthritis","ra",
+               "관절염","arthritis","척추관절염","ankylosing spondylitis","강직성 척추염",
+               "통증","pain management","항염증","anti-inflammatory",
+               "가족성 선종성 용종증","familial adenomatous polyposis","fap"],
+    classLabel:"COX-2·NSAIDs·생물학적제제",
   },
+
   {
-    id: "celebrex", name: "쎄레브렉스", generic: "celecoxib",
-    color: "#fce7f3", textColor: "#9d174d",
-    keywords: [
-      "쎄레브렉스","celebrex","celecoxib","셀레콕시브","셀레브렉스",
-      "골관절염","osteoarthritis","류마티스관절염","rheumatoid arthritis",
-      "관절염","arthritis","cox-2","cox2","nsaid","nsaids","항염증",
-      "통증","pain management","척추관절염","ankylosing spondylitis"
-    ],
-  },
-  {
-    id: "caduet", name: "카듀엣", generic: "amlodipine/atorvastatin",
-    color: "#e0f2fe", textColor: "#0369a1",
-    keywords: [
-      "카듀엣","caduet","amlodipine","atorvastatin","암로디핀","아토르바스타틴",
-      "고혈압","hypertension","이상지질혈증","고지혈증","심혈관","cardiovascular",
-      "복합제","combination","혈압","blood pressure","콜레스테롤","cholesterol"
-    ],
+    id:"caduet", name:"카듀엣", generic:"CCB+Statin 복합",
+    color:"#e0f2fe", textColor:"#0369a1",
+    brandKw:  ["카듀엣","caduet"],
+    classKw:  ["암로디핀 아토르바스타틴","amlodipine atorvastatin","로수바스타틴 암로디핀",
+               "rosuvastatin amlodipine","로수바미브","듀카브","atozet","복합 항고혈압",
+               "복합 지질강하","fixed dose combination","fdc"],
+    competKw: ["텔미사르탄 암로디핀","telmisartan amlodipine","올메사르탄 암로디핀",
+               "발사르탄 암로디핀","로수바스타틴 복합","statin ccb combination"],
+    diseaseKw:["고혈압","hypertension","이상지질혈증","고지혈증","심혈관","cardiovascular",
+               "복합제","combination","혈압","콜레스테롤","cholesterol","동반 질환","comorbidity"],
+    classLabel:"CCB+Statin 복합제",
   },
 ];
 
-// 전체 탭의 keywords = 모든 제품 키워드 합산
-PRODUCTS[0].keywords = [...new Set(PRODUCTS.slice(1).flatMap(p=>p.keywords))];
+// 전체 탭 keywords = 모든 제품 합산
+PRODUCTS[0].allKw = [...new Set(
+  PRODUCTS.slice(1).flatMap(p=>[...p.brandKw,...p.classKw,...p.competKw,...p.diseaseKw])
+)];
 
-// ═══════════════════════════════════════════════
-//  유형 정의
-// ═══════════════════════════════════════════════
+// ══════════════════════════════════════════════════════════
+//  뉴스 유형
+// ══════════════════════════════════════════════════════════
 const TYPES = [
   { id:"all",      label:"전체 유형" },
-  { id:"disease",  label:"질환/임상",  keywords:["임상","치료","환자","질환","증상","처방","적응증","clinical","trial","patient","disease","efficacy","safety","치료제","요법"] },
-  { id:"policy",   label:"정책/규제",  keywords:["급여","허가","식약처","fda","보험","정책","규제","심평원","급여기준","승인","approval","reimbursement","regulation","처방전","보험급여"] },
-  { id:"research", label:"연구/학술",  keywords:["연구","학술","논문","발표","결과","데이터","study","research","journal","published","meta","analysis","guideline","가이드라인","학회"] },
+  { id:"disease",  label:"질환/임상",  kw:["임상","치료","환자","질환","증상","처방","적응증","부작용","안전성","효능","clinical","trial","patient","disease","efficacy","safety","adverse","치료제","요법","처방전"] },
+  { id:"policy",   label:"정책/규제",  kw:["급여","허가","식약처","fda","ema","보험","정책","규제","심평원","급여기준","승인","약가","보험급여","approval","reimbursement","regulation","guideline","가이드라인","급여확대","비급여"] },
+  { id:"research", label:"연구/학술",  kw:["연구","학술","논문","발표","결과","데이터","메타분석","리얼월드","real-world","study","research","journal","published","meta-analysis","rwe","rct","randomized","무작위","코호트","cohort"] },
 ];
 
-// ═══════════════════════════════════════════════
-//  뉴스 소스
-// ═══════════════════════════════════════════════
-const FLAGS = {KR:"🇰🇷",US:"🇺🇸"};
+// ══════════════════════════════════════════════════════════
+//  Google News RSS 소스 (제품·계열별 쿼리)
+//  — 개별 사이트 RSS 대신 구글 뉴스 RSS를 사용해 CORS 문제 우회
+// ══════════════════════════════════════════════════════════
+function gnKR(q){ return `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=ko&gl=KR&ceid=KR:ko`; }
+function gnEN(q){ return `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en-US&gl=US&ceid=US:en`; }
+
 const SOURCES = [
-  {id:"medigatenews",name:"메디게이트뉴스",  url:"https://www.medigatenews.com",  rss:"https://www.medigatenews.com/rss/all",            country:"KR",desc:"의약품·의료기기 전문 뉴스"},
-  {id:"medicaltimes",name:"메디칼타임즈",    url:"https://www.medicaltimes.com",  rss:"https://www.medicaltimes.com/Main/RssNews.html", country:"KR",desc:"의료계 전문 신문"},
-  {id:"docdocdoc",   name:"청년의사",        url:"https://www.docdocdoc.co.kr",   rss:"https://www.docdocdoc.co.kr/rss/allArticle.xml", country:"KR",desc:"의사 전문 뉴스 매체"},
-  {id:"yakup",       name:"약업신문",        url:"https://www.yakup.com",         rss:"https://www.yakup.com/rss/rss.html",             country:"KR",desc:"약업계 전문 신문"},
-  {id:"hitnews",     name:"히트뉴스",        url:"https://www.hitnews.co.kr",     rss:"https://www.hitnews.co.kr/rss/allArticle.xml",   country:"KR",desc:"제약·바이오 전문 뉴스"},
-  {id:"biopharma",   name:"바이오스펙테이터",url:"https://www.biospectator.com",  rss:"https://www.biospectator.com/rss/rss.xml",       country:"KR",desc:"바이오·제약 전문 미디어"},
-  {id:"pharmnews",   name:"팜뉴스",          url:"https://www.pharmnews.com",     rss:"https://www.pharmnews.com/rss/allArticle.xml",   country:"KR",desc:"제약·약업 뉴스"},
-  {id:"medipana",    name:"메디파나뉴스",    url:"https://www.medipana.com",      rss:"https://www.medipana.com/rss/rss.xml",           country:"KR",desc:"제약·의료 종합 뉴스"},
-  {id:"statnews",    name:"STAT News",       url:"https://www.statnews.com",      rss:"https://www.statnews.com/feed/",                 country:"US",desc:"Health & medicine reporting"},
-  {id:"fiercepharma",name:"Fierce Pharma",   url:"https://www.fiercepharma.com", rss:"https://www.fiercepharma.com/rss/xml",           country:"US",desc:"Pharma industry news"},
-  {id:"endpoints",   name:"Endpoints News",  url:"https://endpts.com",           rss:"https://endpts.com/feed/",                       country:"US",desc:"Biopharma news & analysis"},
-  {id:"medscape",    name:"Medscape",        url:"https://www.medscape.com",     rss:"https://www.medscape.com/rss/allnews",           country:"US",desc:"Clinical & medical news"},
-  {id:"reuters",     name:"Reuters Health",  url:"https://www.reuters.com/business/healthcare-pharmaceuticals",rss:"https://feeds.reuters.com/reuters/healthNews",country:"US",desc:"Global health & pharma news"},
+  // ── 리피토 / Statin 계열 ──
+  { id:"gn_lipitor_kr", name:"리피토·스타틴 (국내)", country:"KR",
+    rss: gnKR("리피토 OR 아토르바스타틴 OR 이상지질혈증 OR 고지혈증 OR 스타틴 OR 크레스토 OR 로수바스타틴 OR 에제티미브 OR PCSK9"),
+    desc:"리피토·스타틴 계열 국내 뉴스", prod:"lipitor" },
+  { id:"gn_statin_en",  name:"Lipitor·Statin (Global)", country:"US",
+    rss: gnEN("atorvastatin OR lipitor OR statin OR rosuvastatin OR LDL cholesterol OR PCSK9 inhibitor OR evolocumab OR inclisiran"),
+    desc:"Statin class & PCSK9 inhibitor global news", prod:"lipitor" },
+
+  // ── 노바스크 / CCB 계열 ──
+  { id:"gn_norvasc_kr", name:"노바스크·CCB (국내)", country:"KR",
+    rss: gnKR("노바스크 OR 암로디핀 OR 고혈압 OR 칼슘채널차단제 OR 협심증 OR ARB OR 발사르탄 OR 텔미사르탄"),
+    desc:"CCB·항고혈압 계열 국내 뉴스", prod:"norvasc" },
+  { id:"gn_htn_en",     name:"Norvasc·CCB (Global)", country:"US",
+    rss: gnEN("amlodipine OR norvasc OR hypertension treatment OR calcium channel blocker OR ARB antihypertensive OR blood pressure guideline"),
+    desc:"CCB & antihypertensive global news", prod:"norvasc" },
+
+  // ── 리리카 / Gabapentinoid 계열 ──
+  { id:"gn_lyrica_kr",  name:"리리카·신경통 (국내)", country:"KR",
+    rss: gnKR("리리카 OR 프레가발린 OR 신경병증성 통증 OR 섬유근육통 OR 뇌전증 OR 가바펜틴 OR 당뇨병성 신경병증 OR 대상포진 후 신경통"),
+    desc:"Gabapentinoid·신경통 국내 뉴스", prod:"lyrica" },
+  { id:"gn_neuro_en",   name:"Lyrica·Neuropathy (Global)", country:"US",
+    rss: gnEN("pregabalin OR lyrica OR gabapentin OR neuropathic pain OR fibromyalgia OR diabetic neuropathy OR postherpetic neuralgia"),
+    desc:"Gabapentinoid & neuropathic pain global news", prod:"lyrica" },
+
+  // ── 쎄레브렉스 / COX-2 계열 ──
+  { id:"gn_celebrex_kr",name:"쎄레브렉스·관절염 (국내)", country:"KR",
+    rss: gnKR("쎄레브렉스 OR 셀레콕시브 OR 골관절염 OR 류마티스관절염 OR COX-2 OR NSAID OR 에토리콕시브 OR 멜록시캄 OR TNF억제제"),
+    desc:"COX-2·관절염 국내 뉴스", prod:"celebrex" },
+  { id:"gn_arthritis_en",name:"Celebrex·Arthritis (Global)", country:"US",
+    rss: gnEN("celecoxib OR celebrex OR osteoarthritis OR rheumatoid arthritis OR COX-2 inhibitor OR etoricoxib OR NSAID OR TNF inhibitor"),
+    desc:"COX-2 & arthritis global news", prod:"celebrex" },
+
+  // ── 카듀엣 / CCB+Statin ──
+  { id:"gn_caduet_kr",  name:"카듀엣·복합제 (국내)", country:"KR",
+    rss: gnKR("카듀엣 OR 암로디핀 아토르바스타틴 OR 고혈압 이상지질혈증 복합제 OR 심혈관 복합 치료 OR 고정용량복합제"),
+    desc:"CCB+Statin 복합제 국내 뉴스", prod:"caduet" },
+  { id:"gn_caduet_en",  name:"Caduet·Combo (Global)", country:"US",
+    rss: gnEN("caduet OR amlodipine atorvastatin OR fixed dose combination hypertension dyslipidemia OR cardiovascular combination therapy"),
+    desc:"CCB+Statin combination global news", prod:"caduet" },
+
+  // ── 제약 정책 / 규제 (공통) ──
+  { id:"gn_policy_kr",  name:"의약품 정책 (국내)", country:"KR",
+    rss: gnKR("의약품 급여 OR 식약처 허가 OR 심평원 OR 약가 OR 보험급여 스타틴 OR 보험급여 고혈압 OR 보험급여 관절염"),
+    desc:"의약품 급여·정책 국내 뉴스", prod:"all" },
+  { id:"gn_policy_en",  name:"Drug Policy (Global)", country:"US",
+    rss: gnEN("FDA approval cardiovascular OR EMA approval statin OR drug pricing cholesterol OR reimbursement arthritis OR neuropathic pain guideline"),
+    desc:"Drug approval & policy global news", prod:"all" },
 ];
 
+// ══════════════════════════════════════════════════════════
+//  CORS 프록시 (allorigins 우선 — Google News RSS 호환)
+// ══════════════════════════════════════════════════════════
 const PROXIES = [
-  url=>`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`,
-  url=>`https://corsproxy.io/?${encodeURIComponent(url)}`,
-  url=>`https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`,
+  u=>`https://api.allorigins.win/get?url=${encodeURIComponent(u)}`,
+  u=>`https://corsproxy.io/?${encodeURIComponent(u)}`,
 ];
 
-// ═══════════════════════════════════════════════
+// ══════════════════════════════════════════════════════════
 //  State
-// ═══════════════════════════════════════════════
-let activeProd = "all";
-let activeType = "all";
-let selectedSources = new Set(SOURCES.map(s=>s.id));
-let searchQuery = "";
-let articles = [];
-let errors = {};
-let lastUpdated = null;
-let sidebarOpen = true;
-let currentTab = "feed";
+// ══════════════════════════════════════════════════════════
+let activeProd="all", activeType="all", searchQuery="";
+let selectedSources=new Set(SOURCES.map(s=>s.id));
+let articles=[], errors={}, lastUpdated=null;
+let sidebarOpen=true, currentTab="feed";
 
-// ═══════════════════════════════════════════════
+// ══════════════════════════════════════════════════════════
 //  Init
-// ═══════════════════════════════════════════════
-renderProdBar();
-renderTypeBar();
-renderSources();
-renderLinks();
-renderProdLegend();
+// ══════════════════════════════════════════════════════════
+renderProdBar(); renderTypeBar(); renderSources(); renderLinks(); renderLegend();
 loadFeeds();
 
 document.getElementById("searchInput").addEventListener("input",e=>{searchQuery=e.target.value;renderFeed();});
@@ -331,89 +396,87 @@ document.getElementById("sidebarToggle").addEventListener("click",()=>{
   document.getElementById("sidebarToggle").textContent=sidebarOpen?"◀ 소스":"▶ 소스";
 });
 
-function switchTab(tab){
-  currentTab=tab;
-  document.getElementById("panelFeed").style.display=tab==="feed"?"":"none";
-  document.getElementById("panelLinks").style.display=tab==="links"?"":"none";
-  document.getElementById("tabFeed").classList.toggle("active",tab==="feed");
-  document.getElementById("tabLinks").classList.toggle("active",tab==="links");
+function switchTab(t){
+  currentTab=t;
+  document.getElementById("panelFeed").style.display=t==="feed"?"":"none";
+  document.getElementById("panelLinks").style.display=t==="links"?"":"none";
+  document.getElementById("tabFeed").classList.toggle("active",t==="feed");
+  document.getElementById("tabLinks").classList.toggle("active",t==="links");
 }
 
-// ═══════════════════════════════════════════════
-//  Render filters
-// ═══════════════════════════════════════════════
+// ══════════════════════════════════════════════════════════
+//  Render filters & sidebar
+// ══════════════════════════════════════════════════════════
 function renderProdBar(){
-  const bar=document.getElementById("prodBar");
-  bar.innerHTML="";
+  const bar=document.getElementById("prodBar"); bar.innerHTML="";
   PRODUCTS.forEach(p=>{
     const btn=document.createElement("button");
     btn.className="prod-btn"+(p.id===activeProd?" active":"");
     btn.innerHTML=`<span class="pname">${p.name}</span><span class="pgen">${p.generic}</span>`;
-    btn.onclick=()=>{activeProd=p.id;renderProdBar();renderFeed();renderProdLegend();};
+    btn.onclick=()=>{activeProd=p.id;renderProdBar();renderFeed();renderLegend();};
     bar.appendChild(btn);
   });
 }
 
 function renderTypeBar(){
-  const bar=document.getElementById("typeBar");
-  bar.innerHTML="";
+  const bar=document.getElementById("typeBar"); bar.innerHTML="";
   TYPES.forEach(t=>{
     const btn=document.createElement("button");
     btn.className="type-btn"+(t.id===activeType?" active":"");
-    btn.textContent=t.id==="all"?"전체 유형":t.label;
+    btn.textContent=t.label;
     btn.onclick=()=>{activeType=t.id;renderTypeBar();renderFeed();};
     bar.appendChild(btn);
   });
 }
 
-function renderProdLegend(){
-  const el=document.getElementById("prodLegend");
-  el.innerHTML="";
-  const prods = activeProd==="all" ? PRODUCTS.slice(1) : PRODUCTS.filter(p=>p.id===activeProd);
+function renderLegend(){
+  const el=document.getElementById("prodLegend"); el.innerHTML="";
+  const prods=activeProd==="all"?PRODUCTS.slice(1):PRODUCTS.filter(p=>p.id===activeProd);
   prods.forEach(p=>{
-    const chip=document.createElement("span");
-    chip.className="legend-chip";
-    chip.style.background=p.color||"#fef3c7";
-    chip.style.color=p.textColor||"#92400e";
-    chip.style.border=`1px solid ${p.color||"#fde68a"}`;
-    chip.textContent=`${p.name} (${p.generic})`;
-    el.appendChild(chip);
+    const c=document.createElement("span");
+    c.className="legend-chip";
+    c.style.cssText=`background:${p.color};color:${p.textColor};border-color:${p.color}`;
+    c.textContent=`${p.name} (${p.generic}) · ${p.classLabel}`;
+    el.appendChild(c);
   });
 }
 
 function renderSources(){
-  document.getElementById("srcCount").textContent=`${SOURCES.length}개`;
-  const allOn=SOURCES.every(s=>selectedSources.has(s.id));
-  document.getElementById("toggleAll").textContent=allOn?"전체 해제":"전체 선택";
-  const list=document.getElementById("srcList");
-  list.innerHTML="";
-  SOURCES.forEach(src=>{
+  // 제품 탭에 맞는 소스만 표시
+  const visible = activeProd==="all" ? SOURCES : SOURCES.filter(s=>s.prod===activeProd||s.prod==="all");
+  document.getElementById("srcCount").textContent=`${visible.length}개 피드`;
+  const allOn=visible.every(s=>selectedSources.has(s.id));
+  document.getElementById("toggleAll").textContent=allOn?"해제":"전체";
+  const list=document.getElementById("srcList"); list.innerHTML="";
+  visible.forEach(src=>{
     const on=selectedSources.has(src.id);
     const item=document.createElement("label");
     item.className="src-item"+(on?" on":"");
     item.innerHTML=`
       <input type="checkbox" ${on?"checked":""} />
-      <span class="src-flag">${FLAGS[src.country]||""}</span>
+      <span class="src-flag">${{KR:"🇰🇷",US:"🇺🇸"}[src.country]||""}</span>
       <span class="src-name">${src.name}</span>
       <span class="src-desc">${src.desc}</span>
     `;
     item.querySelector("input").addEventListener("change",e=>{
       if(e.target.checked)selectedSources.add(src.id);else selectedSources.delete(src.id);
-      renderSources();renderFeed();
+      renderFeed();
     });
     list.appendChild(item);
   });
 }
 
 function renderLinks(){
-  const list=document.getElementById("linkList");
-  list.innerHTML="";
+  const list=document.getElementById("linkList"); list.innerHTML="";
   SOURCES.forEach(src=>{
     const card=document.createElement("a");
-    card.className="source-link-card";
-    card.href=src.url; card.target="_blank"; card.rel="noopener noreferrer";
+    card.className="slc";
+    // 구글뉴스 검색 링크로 변환
+    const searchUrl=src.rss.replace("/rss/search?","search?").replace("&ceid=","&ceid=");
+    card.href=src.rss.replace("https://news.google.com/rss/search?","https://news.google.com/search?");
+    card.target="_blank"; card.rel="noopener noreferrer";
     card.innerHTML=`
-      <span class="slc-flag">${FLAGS[src.country]||""}</span>
+      <span class="slc-flag">${{KR:"🇰🇷",US:"🇺🇸"}[src.country]||""}</span>
       <div class="slc-info">
         <div class="slc-name">${src.name}</div>
         <div class="slc-desc">${src.desc}</div>
@@ -425,79 +488,68 @@ function renderLinks(){
 }
 
 function toggleAll(){
-  const allOn=SOURCES.every(s=>selectedSources.has(s.id));
-  SOURCES.forEach(s=>allOn?selectedSources.delete(s.id):selectedSources.add(s.id));
-  renderSources();renderFeed();
+  const visible=activeProd==="all"?SOURCES:SOURCES.filter(s=>s.prod===activeProd||s.prod==="all");
+  const allOn=visible.every(s=>selectedSources.has(s.id));
+  visible.forEach(s=>allOn?selectedSources.delete(s.id):selectedSources.add(s.id));
+  renderSources(); renderFeed();
 }
 
-// ═══════════════════════════════════════════════
-//  키워드 매칭 유틸
-// ═══════════════════════════════════════════════
-function matchesKeywords(text, keywords){
-  const t=text.toLowerCase();
-  return keywords.some(k=>t.includes(k.toLowerCase()));
-}
+// ══════════════════════════════════════════════════════════
+//  키워드 매칭
+// ══════════════════════════════════════════════════════════
+function includes(text, kws){ const t=text.toLowerCase(); return kws.some(k=>t.includes(k.toLowerCase())); }
 
-// 기사가 어떤 제품에 해당하는지 찾기
-function detectProducts(text){
-  return PRODUCTS.slice(1).filter(p=>matchesKeywords(text,p.keywords));
+function detectProds(text){
+  return PRODUCTS.slice(1).filter(p=>
+    includes(text,[...p.brandKw,...p.classKw,...p.competKw,...p.diseaseKw])
+  );
 }
-
-// 기사 유형 감지
+function detectClasses(text){
+  return PRODUCTS.slice(1).filter(p=>includes(text,[...p.classKw,...p.competKw]));
+}
 function detectType(text){
-  for(const t of TYPES.slice(1)){
-    if(matchesKeywords(text,t.keywords)) return t.id;
-  }
-  return "disease"; // 기본값
+  for(const t of TYPES.slice(1)){ if(includes(text,t.kw)) return t.id; }
+  return "disease";
 }
 
-// ═══════════════════════════════════════════════
+// ══════════════════════════════════════════════════════════
 //  RSS Fetch
-// ═══════════════════════════════════════════════
-async function fetchWithProxy(rssUrl){
-  for(const makeProxy of PROXIES){
+// ══════════════════════════════════════════════════════════
+async function fetchWithProxy(url){
+  for(const mk of PROXIES){
     try{
-      const res=await fetch(makeProxy(rssUrl),{signal:AbortSignal.timeout(9000)});
-      if(!res.ok) continue;
-      const data=await res.json();
-      const text=data.contents||data.data||data;
-      if(typeof text!=="string"||!text.includes("<item>")) continue;
-      return text;
-    } catch(e){ continue; }
+      const r=await fetch(mk(url),{signal:AbortSignal.timeout(10000)});
+      if(!r.ok) continue;
+      const d=await r.json();
+      const txt=d.contents||d.data||"";
+      if(typeof txt==="string"&&(txt.includes("<item>")||txt.includes("<entry>"))) return txt;
+    }catch(e){ continue; }
   }
-  throw new Error("모든 프록시 실패");
+  throw new Error("프록시 연결 실패");
 }
 
-async function fetchRss(source){
-  const text=await fetchWithProxy(source.rss);
+async function fetchRss(src){
+  const text=await fetchWithProxy(src.rss);
   const xml=new DOMParser().parseFromString(text,"text/xml");
-  if(xml.querySelector("parsererror")) throw new Error("XML 파싱 오류");
-
+  if(xml.querySelector("parsererror")) throw new Error("XML 오류");
   return [...xml.querySelectorAll("item")].slice(0,15).map(item=>{
     const g=tag=>item.querySelector(tag)?.textContent?.trim()??"";
-    const pd=g("pubDate");
     const title=g("title");
     const desc=g("description").replace(/<[^>]+>/g,"").replace(/\s+/g," ").trim().slice(0,200);
-    const fullText=(title+" "+desc).toLowerCase();
-
-    // 마스터 키워드 필터 — 전체 제품 키워드에 해당하지 않으면 제외
-    if(!matchesKeywords(fullText, PRODUCTS[0].keywords)) return null;
-
-    const matchedProds=detectProducts(fullText);
-    const articleType=detectType(fullText);
-
+    const full=(title+" "+desc).toLowerCase();
+    // 마스터 필터 — 제품/계열/질환 키워드 없으면 제외
+    if(!includes(full, PRODUCTS[0].allKw)) return null;
     return {
       id:g("guid")||g("link"),
-      title,
-      link:g("link"),
-      desc,
-      date:pd?new Date(pd):new Date(),
-      sourceId:source.id, sourceName:source.name, country:source.country,
-      matchedProds,   // 매칭된 제품 배열
-      articleType,    // disease | policy | research
+      title, link:g("link"), desc,
+      date: (()=>{ const d=g("pubDate"); return d?new Date(d):new Date(); })(),
+      sourceId:src.id, sourceName:src.name, country:src.country,
+      matchedProds: detectProds(full),
+      matchedClasses: detectClasses(full),
+      articleType: detectType(full),
       demo:false,
     };
-  }).filter(Boolean).filter(a=>a.title&&a.link);
+  }).filter(a=>a&&a.title&&a.link);
 }
 
 async function loadFeeds(){
@@ -506,60 +558,58 @@ async function loadFeeds(){
   errors={};
   document.getElementById("feedArea").innerHTML=`<div class="skeleton-grid">${Array(6).fill('<div class="skeleton"></div>').join("")}</div>`;
   document.getElementById("reloadBtn").disabled=true;
-  document.getElementById("feedCount").textContent="뉴스 불러오는 중...";
+  document.getElementById("feedCount").textContent="로딩 중...";
   document.getElementById("noticeBanner").style.display="none";
 
   const results=await Promise.allSettled(sources.map(fetchRss));
-  const newArticles=[];
+  const raw=[];
   results.forEach((r,i)=>{
-    if(r.status==="fulfilled") newArticles.push(...r.value);
+    if(r.status==="fulfilled") raw.push(...r.value);
     else errors[sources[i].id]=r.reason?.message??"실패";
   });
-  newArticles.sort((a,b)=>b.date-a.date);
-  articles=newArticles;
-  lastUpdated=new Date();
 
-  if(newArticles.length===0){
+  // 중복 링크 제거
+  const seen=new Set();
+  const uniq=raw.filter(a=>{ if(seen.has(a.link)) return false; seen.add(a.link); return true; });
+  uniq.sort((a,b)=>b.date-a.date);
+  articles=uniq; lastUpdated=new Date();
+
+  if(articles.length===0){
     document.getElementById("noticeBanner").style.display="";
     articles=DEMO_ARTICLES;
   }
+  renderSources(); // 소스 패널 갱신 (체크 상태 유지)
   renderFeed();
 }
 
-// ═══════════════════════════════════════════════
+// ══════════════════════════════════════════════════════════
 //  Render Feed
-// ═══════════════════════════════════════════════
-function timeAgo(date){
-  const d=(Date.now()-date.getTime())/1000;
-  if(isNaN(d)||d<0) return "";
-  if(d<60) return "방금 전";
-  if(d<3600) return Math.floor(d/60)+"분 전";
-  if(d<86400) return Math.floor(d/3600)+"시간 전";
-  return Math.floor(d/86400)+"일 전";
+// ══════════════════════════════════════════════════════════
+function timeAgo(d){
+  const s=(Date.now()-d.getTime())/1000;
+  if(isNaN(s)||s<0) return "";
+  if(s<60) return "방금 전";
+  if(s<3600) return Math.floor(s/60)+"분 전";
+  if(s<86400) return Math.floor(s/3600)+"시간 전";
+  return Math.floor(s/86400)+"일 전";
 }
 
 function renderFeed(){
-  const errCount=Object.keys(errors).length;
-  const errBadge=document.getElementById("errBadge");
-  if(errCount&&articles.length>0&&!articles[0].demo){
-    errBadge.style.display="";
-    errBadge.textContent=`⚠ ${errCount}개 소스 오류`;
-    errBadge.title=Object.entries(errors).map(([k,v])=>`${k}: ${v}`).join("\n");
-  } else errBadge.style.display="none";
+  const ec=Object.keys(errors).length;
+  const eb=document.getElementById("errBadge");
+  if(ec&&articles.length&&!articles[0].demo){
+    eb.style.display=""; eb.textContent=`⚠ ${ec}개 소스 오류`;
+    eb.title=Object.entries(errors).map(([k,v])=>`${k}: ${v}`).join("\n");
+  } else eb.style.display="none";
 
   let list=articles.filter(a=>selectedSources.has(a.sourceId)||a.demo);
 
-  // 제품 필터
   if(activeProd!=="all"){
     list=list.filter(a=>a.demo||a.matchedProds.some(p=>p.id===activeProd));
   }
-
-  // 유형 필터
   if(activeType!=="all"){
     list=list.filter(a=>a.demo||a.articleType===activeType);
   }
-
-  // 검색어 필터
   if(searchQuery.trim()){
     const q=searchQuery.toLowerCase();
     list=list.filter(a=>a.title.toLowerCase().includes(q)||a.desc.toLowerCase().includes(q));
@@ -572,22 +622,27 @@ function renderFeed(){
   const area=document.getElementById("feedArea");
   if(!list.length){
     area.innerHTML=`<div class="empty">${
-      selectedSources.size===0?"뉴스 소스를 1개 이상 선택하세요.":
-      "선택한 조건에 해당하는 기사가 없습니다.<br><small>제품·유형 필터를 변경하거나 새로고침해 보세요.</small>"
+      selectedSources.size===0?"뉴스 소스를 선택하세요.":
+      "조건에 맞는 기사가 없습니다.<br><small>다른 제품·유형 탭을 선택하거나 새로고침해 보세요.</small>"
     }</div>`;
     return;
   }
 
-  const grid=document.createElement("div");
-  grid.className="article-grid";
+  const grid=document.createElement("div"); grid.className="article-grid";
+  const FLAGS={KR:"🇰🇷",US:"🇺🇸"};
   list.forEach(a=>{
     const typeLabel=TYPES.find(t=>t.id===a.articleType)?.label??"";
-    const prodTags=(a.matchedProds||[]).map(p=>`<span class="card-prod-tag" style="background:${p.color};color:${p.textColor}">${p.name}</span>`).join("");
+    const prodTags=(a.matchedProds||[]).slice(0,3).map(p=>
+      `<span class="tag-prod" style="background:${p.color};color:${p.textColor}">${p.name}</span>`
+    ).join("");
+    const classTags=(a.matchedClasses||[]).slice(0,2).map(p=>
+      `<span class="tag-class">${p.classLabel}</span>`
+    ).join("");
     const card=document.createElement("a");
     card.className="card"+(a.demo?" demo":"");
     card.href=a.link; card.target="_blank"; card.rel="noopener noreferrer";
     card.innerHTML=`
-      ${a.demo?'<span class="demo-label">샘플 미리보기</span>':""}
+      ${a.demo?'<span class="demo-label">샘플</span>':""}
       <div class="card-meta">
         <span class="card-source">${FLAGS[a.country]||""} ${a.sourceName}</span>
         <span>${timeAgo(a.date)}</span>
@@ -595,8 +650,8 @@ function renderFeed(){
       <div class="card-title">${a.title}</div>
       ${a.desc?`<div class="card-desc">${a.desc}…</div>`:""}
       <div class="card-footer">
-        ${prodTags}
-        ${typeLabel?`<span class="card-type-tag">${typeLabel}</span>`:""}
+        ${prodTags}${classTags}
+        ${typeLabel?`<span class="tag-type">${typeLabel}</span>`:""}
       </div>
     `;
     grid.appendChild(card);
@@ -604,16 +659,17 @@ function renderFeed(){
   area.innerHTML=""; area.appendChild(grid);
 }
 
-// ═══════════════════════════════════════════════
-//  샘플 데이터 (RSS 전부 실패 시)
-// ═══════════════════════════════════════════════
-const DEMO_ARTICLES = [
-  {id:"d1",title:"리피토(아토르바스타틴) 급여 기준 완화… LDL 목표치 조정 논의",link:"https://www.medigatenews.com",desc:"심평원이 이상지질혈증 치료제 급여 기준 개정을 검토 중이다. 스타틴 계열 약제의 LDL 콜레스테롤 목표치를 조정하는 방안이 포함됐다.",date:new Date(Date.now()-1*3600*1000),sourceId:"medigatenews",sourceName:"메디게이트뉴스",country:"KR",matchedProds:[PRODUCTS[1]],articleType:"policy",demo:true},
-  {id:"d2",title:"암로디핀 기반 복합제, 고혈압 환자 심혈관 사건 감소 효과 확인",link:"https://www.medicaltimes.com",desc:"노바스크(암로디핀) 성분 기반 칼슘채널차단제 복합제가 고혈압 환자에서 심혈관 사건을 유의미하게 감소시킨다는 연구 결과가 발표됐다.",date:new Date(Date.now()-3*3600*1000),sourceId:"medicaltimes",sourceName:"메디칼타임즈",country:"KR",matchedProds:[PRODUCTS[3]],articleType:"research",demo:true},
-  {id:"d3",title:"Pregabalin shows sustained efficacy in diabetic neuropathy — 12-month data",link:"https://www.medscape.com",desc:"A 12-month follow-up study confirms that pregabalin (Lyrica) maintains significant pain reduction in patients with diabetic neuropathic pain, with a manageable safety profile.",date:new Date(Date.now()-5*3600*1000),sourceId:"medscape",sourceName:"Medscape",country:"US",matchedProds:[PRODUCTS[4]],articleType:"research",demo:true},
-  {id:"d4",title:"쎄레브렉스(셀레콕시브), 골관절염 통증 관리 가이드라인 업데이트 반영",link:"https://www.hitnews.co.kr",desc:"대한류마티스학회가 골관절염 치료 가이드라인을 개정하며 COX-2 선택적 억제제의 위치를 재정립했다. 셀레콕시브의 위장 안전성이 주요 근거로 인용됐다.",date:new Date(Date.now()-7*3600*1000),sourceId:"hitnews",sourceName:"히트뉴스",country:"KR",matchedProds:[PRODUCTS[5]],articleType:"policy",demo:true},
-  {id:"d5",title:"카듀엣(암로디핀/아토르바스타틴), 고혈압·이상지질혈증 병용 환자 순응도 개선",link:"https://www.pharmnews.com",desc:"고혈압과 이상지질혈증을 동반한 환자에서 카듀엣 단일 복합제 처방이 개별 성분 병용 처방 대비 투약 순응도를 높인다는 국내 리얼월드 분석 결과가 공개됐다.",date:new Date(Date.now()-9*3600*1000),sourceId:"pharmnews",sourceName:"팜뉴스",country:"KR",matchedProds:[PRODUCTS[6]],articleType:"research",demo:true},
-  {id:"d6",title:"Atorvastatin generic competition intensifies as Lipitor market data released",link:"https://www.fiercepharma.com",desc:"New market analysis shows ongoing shifts in the statin market following patent expiry, with atorvastatin generics capturing significant cholesterol treatment market share.",date:new Date(Date.now()-11*3600*1000),sourceId:"fiercepharma",sourceName:"Fierce Pharma",country:"US",matchedProds:[PRODUCTS[1]],articleType:"disease",demo:true},
+// ══════════════════════════════════════════════════════════
+//  샘플 데이터
+// ══════════════════════════════════════════════════════════
+const P=PRODUCTS;
+const DEMO_ARTICLES=[
+  {id:"d1",title:"리피토(아토르바스타틴) LDL 목표치 강화 급여 기준 개정 논의",link:"https://news.google.com/search?q=리피토+이상지질혈증",desc:"심평원이 스타틴 계열 이상지질혈증 치료제 급여 기준 개정을 검토 중이다. LDL-C 목표치 강화 및 PCSK9 억제제 병용 급여 확대 방안이 포함됐다.",date:new Date(Date.now()-1*3600*1000),sourceId:"gn_lipitor_kr",sourceName:"Google News KR",country:"KR",matchedProds:[P[1]],matchedClasses:[P[1]],articleType:"policy",demo:true},
+  {id:"d2",title:"Statin therapy reduces cardiovascular risk in elderly patients — new meta-analysis",link:"https://news.google.com/search?q=atorvastatin+statin",desc:"A large meta-analysis confirms significant cardiovascular risk reduction with statin therapy including atorvastatin in patients over 75, supporting broader LDL-lowering treatment.",date:new Date(Date.now()-2*3600*1000),sourceId:"gn_statin_en",sourceName:"Google News US",country:"US",matchedProds:[P[1]],matchedClasses:[P[1]],articleType:"research",demo:true},
+  {id:"d3",title:"암로디핀 기반 복합제 고혈압 환자 심혈관 사건 감소 효과 확인",link:"https://news.google.com/search?q=암로디핀+고혈압",desc:"CCB 계열 암로디핀 성분 기반 복합제가 고혈압 환자에서 심혈관 사건을 유의미하게 감소시킨다는 리얼월드 연구 결과가 발표됐다.",date:new Date(Date.now()-4*3600*1000),sourceId:"gn_norvasc_kr",sourceName:"Google News KR",country:"KR",matchedProds:[P[3]],matchedClasses:[P[3]],articleType:"research",demo:true},
+  {id:"d4",title:"Pregabalin vs gabapentin in diabetic neuropathy: real-world outcomes study",link:"https://news.google.com/search?q=pregabalin+neuropathy",desc:"A real-world study comparing pregabalin (Lyrica) and gabapentin in diabetic neuropathic pain shows pregabalin with better pain score outcomes and fewer discontinuations.",date:new Date(Date.now()-6*3600*1000),sourceId:"gn_neuro_en",sourceName:"Google News US",country:"US",matchedProds:[P[4]],matchedClasses:[P[4]],articleType:"research",demo:true},
+  {id:"d5",title:"쎄레브렉스(셀레콕시브), 골관절염 가이드라인 COX-2 선택적 억제제 위치 재정립",link:"https://news.google.com/search?q=쎄레브렉스+골관절염",desc:"대한류마티스학회가 골관절염 치료 가이드라인을 개정하며 COX-2 선택적 억제제의 위장 안전성 우위를 근거로 NSAID 대비 선호 처방 등급을 높였다.",date:new Date(Date.now()-8*3600*1000),sourceId:"gn_celebrex_kr",sourceName:"Google News KR",country:"KR",matchedProds:[P[5]],matchedClasses:[P[5]],articleType:"policy",demo:true},
+  {id:"d6",title:"카듀엣(암로디핀/아토르바스타틴) 고혈압·이상지질혈증 병용 환자 투약 순응도 개선",link:"https://news.google.com/search?q=카듀엣+복합제",desc:"고혈압과 이상지질혈증 동반 환자에서 카듀엣 고정용량 복합제(FDC) 처방이 개별 성분 병용 대비 투약 순응도를 유의미하게 높인다는 국내 다기관 연구가 발표됐다.",date:new Date(Date.now()-10*3600*1000),sourceId:"gn_caduet_kr",sourceName:"Google News KR",country:"KR",matchedProds:[P[6]],matchedClasses:[P[6]],articleType:"research",demo:true},
 ];
 </script>
 </body>
