@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>MedicalNews Hub — 의학·제약 뉴스 통합</title>
+<title>Pfizer Product News Hub</title>
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 :root {
   --bg: #f4f6fb; --surface: #fff; --border: #e2e8f0;
   --text: #1e293b; --muted: #64748b;
-  --accent: #0ea5e9; --accent-dark: #0284c7;
+  --accent: #0050a0; --accent-light: #e8f0fb;
   --tag-bg: #e0f2fe; --tag-color: #0369a1;
   --error: #ef4444; --radius: 10px; --shadow: 0 1px 4px rgba(0,0,0,.08);
 }
@@ -18,89 +18,111 @@ a { color:inherit; text-decoration:none; }
 button { cursor:pointer; font-family:inherit; }
 input { font-family:inherit; }
 
+/* ── Header ── */
 .header { position:sticky; top:0; z-index:100; background:var(--surface); border-bottom:1px solid var(--border); box-shadow:var(--shadow); }
 .header-inner { display:flex; align-items:center; gap:14px; padding:12px 20px; flex-wrap:wrap; }
 .brand { display:flex; align-items:center; gap:8px; flex-shrink:0; }
 .brand-icon { font-size:22px; }
-.brand-title { font-size:18px; font-weight:700; color:var(--accent-dark); }
+.brand-title { font-size:17px; font-weight:700; color:var(--accent); }
 .brand-sub { font-size:12px; color:var(--muted); }
-.search-wrap { flex:1; min-width:180px; max-width:340px; }
-.search-input { width:100%; padding:8px 14px; border:1px solid var(--border); border-radius:20px; font-size:14px; background:var(--bg); outline:none; }
+.search-wrap { flex:1; min-width:160px; max-width:320px; }
+.search-input { width:100%; padding:7px 14px; border:1px solid var(--border); border-radius:20px; font-size:14px; background:var(--bg); outline:none; }
 .search-input:focus { border-color:var(--accent); }
-.sidebar-toggle { padding:7px 14px; border-radius:20px; border:1px solid var(--border); background:var(--bg); font-size:13px; color:var(--muted); white-space:nowrap; }
+.sidebar-toggle { padding:6px 13px; border-radius:20px; border:1px solid var(--border); background:var(--bg); font-size:13px; color:var(--muted); white-space:nowrap; }
 .sidebar-toggle:hover { background:var(--border); }
 
-.cat-bar { display:flex; gap:6px; padding:10px 20px; overflow-x:auto; border-top:1px solid var(--border); scrollbar-width:none; }
-.cat-bar::-webkit-scrollbar { display:none; }
-.cat-btn { padding:5px 14px; border-radius:16px; border:1px solid var(--border); background:transparent; font-size:13px; color:var(--muted); white-space:nowrap; transition:all .15s; }
-.cat-btn:hover { border-color:var(--accent); color:var(--accent); }
-.cat-btn.active { background:var(--accent); border-color:var(--accent); color:#fff; font-weight:600; }
+/* ── Product tabs (row 1) ── */
+.filter-row { display:flex; gap:6px; padding:8px 20px; overflow-x:auto; border-top:1px solid var(--border); scrollbar-width:none; }
+.filter-row::-webkit-scrollbar { display:none; }
+.filter-row + .filter-row { padding-top:4px; padding-bottom:10px; border-top:none; }
 
+.prod-btn { display:flex; flex-direction:column; align-items:center; padding:6px 14px; border-radius:16px; border:1px solid var(--border); background:transparent; font-size:12px; color:var(--muted); white-space:nowrap; transition:all .15s; line-height:1.3; }
+.prod-btn .pname { font-weight:700; font-size:13px; }
+.prod-btn .pgen  { font-size:10px; opacity:.75; }
+.prod-btn:hover { border-color:var(--accent); color:var(--accent); }
+.prod-btn.active { background:var(--accent); border-color:var(--accent); color:#fff; }
+.prod-btn.active .pgen { opacity:.85; }
+
+/* ── Type tabs (row 2) ── */
+.type-btn { padding:4px 13px; border-radius:14px; border:1px solid var(--border); background:transparent; font-size:12px; color:var(--muted); white-space:nowrap; transition:all .15s; }
+.type-btn:hover { border-color:var(--accent); color:var(--accent); }
+.type-btn.active { background:var(--accent-light); border-color:var(--accent); color:var(--accent); font-weight:600; }
+
+/* ── Layout ── */
 .layout { display:flex; }
-.sidebar { width:290px; flex-shrink:0; background:var(--surface); border-right:1px solid var(--border); overflow-y:auto; max-height:calc(100vh - 108px); position:sticky; top:108px; transition:width .2s; }
+.sidebar { width:280px; flex-shrink:0; background:var(--surface); border-right:1px solid var(--border); overflow-y:auto; max-height:calc(100vh - 130px); position:sticky; top:130px; transition:width .2s; }
 .sidebar.closed { width:0; overflow:hidden; border-right:none; }
-.main { flex:1; min-width:0; padding:20px; }
+.main { flex:1; min-width:0; padding:18px 20px; }
 
+/* ── Source Selector ── */
 .src-panel { padding:14px; }
 .src-header { display:flex; align-items:center; gap:8px; margin-bottom:12px; flex-wrap:wrap; }
 .src-title { font-weight:700; font-size:14px; }
 .src-count { font-size:12px; color:var(--muted); flex:1; }
-.toggle-all { padding:4px 10px; border-radius:12px; border:1px solid var(--accent); color:var(--accent); background:transparent; font-size:12px; }
-.toggle-all:hover { background:var(--tag-bg); }
-.src-list { display:flex; flex-direction:column; gap:6px; }
-.src-item { display:flex; align-items:flex-start; gap:8px; padding:10px; border-radius:var(--radius); border:1px solid var(--border); background:var(--bg); cursor:pointer; flex-wrap:wrap; transition:border-color .15s,background .15s; }
+.toggle-all { padding:3px 10px; border-radius:12px; border:1px solid var(--accent); color:var(--accent); background:transparent; font-size:12px; }
+.toggle-all:hover { background:var(--accent-light); }
+.src-list { display:flex; flex-direction:column; gap:5px; }
+.src-item { display:flex; align-items:flex-start; gap:8px; padding:9px; border-radius:var(--radius); border:1px solid var(--border); background:var(--bg); cursor:pointer; flex-wrap:wrap; transition:border-color .15s,background .15s; }
 .src-item:hover { border-color:var(--accent); }
-.src-item.on { border-color:var(--accent); background:#f0f9ff; }
+.src-item.on { border-color:var(--accent); background:#f0f6ff; }
 .src-item input[type=checkbox] { margin-top:2px; accent-color:var(--accent); flex-shrink:0; }
-.src-flag { font-size:15px; }
+.src-flag { font-size:14px; }
 .src-name { font-weight:600; font-size:13px; flex:1; }
-.src-desc { font-size:11px; color:var(--muted); width:100%; margin-left:24px; }
-.src-tags { display:flex; gap:4px; flex-wrap:wrap; margin-left:24px; }
-.src-tag { font-size:10px; padding:1px 6px; border-radius:8px; background:var(--tag-bg); color:var(--tag-color); }
+.src-desc { font-size:11px; color:var(--muted); width:100%; margin-left:22px; }
 
-.feed-bar { display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; gap:8px; flex-wrap:wrap; }
+/* ── Feed toolbar ── */
+.feed-bar { display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; gap:8px; flex-wrap:wrap; }
 .feed-count { font-size:13px; color:var(--muted); }
 .feed-actions { display:flex; gap:10px; align-items:center; }
-.err-badge { font-size:12px; color:var(--error); padding:4px 10px; border-radius:12px; border:1px solid var(--error); cursor:help; }
-.reload-btn { padding:6px 14px; border-radius:16px; border:1px solid var(--border); background:var(--surface); font-size:13px; }
+.err-badge { font-size:12px; color:var(--error); padding:3px 10px; border-radius:12px; border:1px solid var(--error); cursor:help; }
+.reload-btn { padding:5px 13px; border-radius:14px; border:1px solid var(--border); background:var(--surface); font-size:13px; }
 .reload-btn:hover:not(:disabled) { background:var(--bg); }
 .reload-btn:disabled { opacity:.5; cursor:not-allowed; }
 
-.notice { background:#fffbeb; border:1px solid #fcd34d; border-radius:var(--radius); padding:12px 16px; margin-bottom:16px; font-size:13px; color:#92400e; display:none; }
-.notice a { color:var(--accent-dark); text-decoration:underline; }
+/* ── Notice ── */
+.notice { background:#fffbeb; border:1px solid #fcd34d; border-radius:var(--radius); padding:10px 14px; margin-bottom:14px; font-size:13px; color:#92400e; display:none; }
 
-.article-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:16px; }
-.skeleton-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:16px; }
-.skeleton { height:160px; border-radius:var(--radius); background:linear-gradient(90deg,#e2e8f0 25%,#f1f5f9 50%,#e2e8f0 75%); background-size:200% 100%; animation:shimmer 1.4s infinite; }
+/* ── Article grid ── */
+.article-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(290px,1fr)); gap:14px; }
+.skeleton-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(290px,1fr)); gap:14px; }
+.skeleton { height:155px; border-radius:var(--radius); background:linear-gradient(90deg,#e2e8f0 25%,#f1f5f9 50%,#e2e8f0 75%); background-size:200% 100%; animation:shimmer 1.4s infinite; }
 @keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
 
-.card { display:flex; flex-direction:column; gap:8px; padding:16px; border-radius:var(--radius); border:1px solid var(--border); background:var(--surface); box-shadow:var(--shadow); transition:box-shadow .15s,border-color .15s,transform .1s; }
-.card:hover { box-shadow:0 4px 16px rgba(0,0,0,.1); border-color:var(--accent); transform:translateY(-1px); }
+/* ── Article card ── */
+.card { display:flex; flex-direction:column; gap:7px; padding:15px; border-radius:var(--radius); border:1px solid var(--border); background:var(--surface); box-shadow:var(--shadow); transition:box-shadow .15s,border-color .15s,transform .1s; }
+.card:hover { box-shadow:0 4px 14px rgba(0,0,0,.1); border-color:var(--accent); transform:translateY(-1px); }
 .card-meta { display:flex; justify-content:space-between; font-size:11px; color:var(--muted); }
 .card-source { font-weight:600; }
-.card-title { font-size:14px; font-weight:600; line-height:1.4; }
+.card-title { font-size:14px; font-weight:600; line-height:1.45; }
 .card-desc { font-size:12px; color:var(--muted); line-height:1.5; }
-.card-tags { display:flex; gap:4px; flex-wrap:wrap; margin-top:auto; }
-.card-tag { font-size:10px; padding:2px 8px; border-radius:10px; background:var(--tag-bg); color:var(--tag-color); }
+.card-footer { display:flex; gap:5px; flex-wrap:wrap; margin-top:auto; }
+.card-tag { font-size:10px; padding:2px 7px; border-radius:9px; background:var(--tag-bg); color:var(--tag-color); }
+.card-prod-tag { font-size:10px; padding:2px 7px; border-radius:9px; background:#fef3c7; color:#92400e; font-weight:600; }
+.card-type-tag { font-size:10px; padding:2px 7px; border-radius:9px; background:#f0fdf4; color:#166534; }
 .card.demo { border-style:dashed; opacity:.8; }
 .demo-label { font-size:10px; color:var(--muted); background:#f1f5f9; padding:1px 6px; border-radius:6px; align-self:flex-start; }
 
+/* ── Site links tab ── */
 .source-link-list { display:flex; flex-direction:column; gap:8px; }
-.source-link-card { display:flex; align-items:center; gap:12px; padding:14px 16px; border-radius:var(--radius); border:1px solid var(--border); background:var(--surface); box-shadow:var(--shadow); transition:border-color .15s,box-shadow .15s; }
-.source-link-card:hover { border-color:var(--accent); box-shadow:0 4px 12px rgba(0,0,0,.08); }
-.slc-flag { font-size:20px; }
+.source-link-card { display:flex; align-items:center; gap:12px; padding:13px 15px; border-radius:var(--radius); border:1px solid var(--border); background:var(--surface); box-shadow:var(--shadow); transition:border-color .15s; }
+.source-link-card:hover { border-color:var(--accent); }
+.slc-flag { font-size:18px; }
 .slc-info { flex:1; }
 .slc-name { font-weight:700; font-size:14px; }
 .slc-desc { font-size:12px; color:var(--muted); }
-.slc-tags { display:flex; gap:4px; flex-wrap:wrap; margin-top:4px; }
-.slc-tag { font-size:10px; padding:1px 6px; border-radius:8px; background:var(--tag-bg); color:var(--tag-color); }
-.slc-arrow { color:var(--muted); font-size:16px; }
+.slc-arrow { color:var(--muted); }
 
-.empty { text-align:center; padding:60px 20px; color:var(--muted); font-size:15px; }
+/* ── Empty ── */
+.empty { text-align:center; padding:50px 20px; color:var(--muted); font-size:14px; }
 
-.tab-bar { display:flex; gap:4px; margin-bottom:16px; border-bottom:2px solid var(--border); }
-.tab-btn { padding:8px 16px; border:none; background:transparent; font-size:14px; color:var(--muted); cursor:pointer; border-bottom:2px solid transparent; margin-bottom:-2px; transition:all .15s; }
+/* ── Tab bar ── */
+.tab-bar { display:flex; gap:4px; margin-bottom:14px; border-bottom:2px solid var(--border); }
+.tab-btn { padding:7px 15px; border:none; background:transparent; font-size:14px; color:var(--muted); cursor:pointer; border-bottom:2px solid transparent; margin-bottom:-2px; transition:all .15s; }
 .tab-btn.active { color:var(--accent); border-bottom-color:var(--accent); font-weight:600; }
+
+/* ── Product legend ── */
+.prod-legend { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:14px; }
+.legend-chip { font-size:11px; padding:3px 10px; border-radius:10px; background:#fef3c7; color:#92400e; border:1px solid #fde68a; }
 
 @media(max-width:768px){
   .sidebar { display:none !important; }
@@ -115,23 +137,26 @@ input { font-family:inherit; }
 <header class="header">
   <div class="header-inner">
     <div class="brand">
-      <span class="brand-icon">⚕</span>
-      <h1 class="brand-title">MedicalNews Hub</h1>
-      <span class="brand-sub">의학·제약 뉴스 통합 플랫폼</span>
+      <span class="brand-icon">💊</span>
+      <h1 class="brand-title">Pfizer Product News Hub</h1>
+      <span class="brand-sub">제품 관련 뉴스 모니터링</span>
     </div>
     <div class="search-wrap">
       <input class="search-input" type="search" placeholder="기사 검색..." id="searchInput" />
     </div>
     <button class="sidebar-toggle" id="sidebarToggle">◀ 소스</button>
   </div>
-  <div class="cat-bar" id="catBar"></div>
+  <!-- Row 1: 제품 탭 -->
+  <div class="filter-row" id="prodBar"></div>
+  <!-- Row 2: 유형 탭 -->
+  <div class="filter-row" id="typeBar"></div>
 </header>
 
 <div class="layout">
   <aside class="sidebar" id="sidebar">
     <div class="src-panel">
       <div class="src-header">
-        <span class="src-title">뉴스 소스 선택</span>
+        <span class="src-title">뉴스 소스</span>
         <span class="src-count" id="srcCount"></span>
         <button class="toggle-all" id="toggleAll">전체 선택</button>
       </div>
@@ -143,11 +168,14 @@ input { font-family:inherit; }
       <button class="tab-btn active" id="tabFeed" onclick="switchTab('feed')">📰 뉴스 피드</button>
       <button class="tab-btn" id="tabLinks" onclick="switchTab('links')">🔗 사이트 바로가기</button>
     </div>
+
     <div id="noticeBanner" class="notice">
-      ⚠ 일부 뉴스를 자동으로 불러오지 못했습니다. CORS 정책 또는 네트워크 문제일 수 있습니다.
-      <b>사이트 바로가기</b> 탭에서 직접 방문하거나, 브라우저 콘솔에서 오류를 확인하세요.
+      ⚠ RSS를 자동으로 불러오지 못했습니다. 네트워크 또는 CORS 문제일 수 있습니다.
+      <b>사이트 바로가기</b> 탭에서 직접 방문해 주세요.
     </div>
+
     <div id="panelFeed">
+      <div class="prod-legend" id="prodLegend"></div>
       <div class="feed-bar">
         <span class="feed-count" id="feedCount">로딩 중...</span>
         <div class="feed-actions">
@@ -157,6 +185,7 @@ input { font-family:inherit; }
       </div>
       <div id="feedArea"></div>
     </div>
+
     <div id="panelLinks" style="display:none">
       <div class="source-link-list" id="linkList"></div>
     </div>
@@ -164,40 +193,117 @@ input { font-family:inherit; }
 </div>
 
 <script>
-const CATEGORIES = [
-  {id:"all",label:"전체"},
-  {id:"drug",label:"의약품/신약"},
-  {id:"disease",label:"질환/임상"},
-  {id:"policy",label:"정책/규제"},
-  {id:"hospital",label:"병원/의료기관"},
-  {id:"research",label:"연구/학술"},
-  {id:"global",label:"해외/글로벌"},
+// ═══════════════════════════════════════════════
+//  제품 정의 — 브랜드명 / 성분명 / 관련 질환 키워드
+// ═══════════════════════════════════════════════
+const PRODUCTS = [
+  {
+    id: "all", name: "전체", generic: "모든 제품",
+    keywords: [], // 전체는 하위 제품 키워드 합산
+  },
+  {
+    id: "lipitor", name: "리피토", generic: "atorvastatin",
+    color: "#fef3c7", textColor: "#92400e",
+    keywords: [
+      "리피토","lipitor","atorvastatin","아토르바스타틴","아토바스타틴",
+      "이상지질혈증","고지혈증","스타틴","statin","콜레스테롤","cholesterol",
+      "ldl","ldl-c","트리글리세라이드","triglyceride","동맥경화","atherosclerosis",
+      "심혈관","cardiovascular","심근경색","myocardial infarction"
+    ],
+  },
+  {
+    id: "lipitorplus", name: "리피토플러스", generic: "atorvastatin/ezetimibe",
+    color: "#fef3c7", textColor: "#92400e",
+    keywords: [
+      "리피토플러스","lipitor plus","에제티미브","ezetimibe",
+      "이상지질혈증","고지혈증","스타틴","statin","콜레스테롤","cholesterol",
+      "ldl","ldl-c","복합제","combination"
+    ],
+  },
+  {
+    id: "norvasc", name: "노바스크", generic: "amlodipine",
+    color: "#dcfce7", textColor: "#166534",
+    keywords: [
+      "노바스크","norvasc","amlodipine","암로디핀","암로디핀베실산염",
+      "고혈압","hypertension","협심증","angina","칼슘채널차단제","ccb",
+      "calcium channel","혈압","blood pressure","심혈관","cardiovascular"
+    ],
+  },
+  {
+    id: "lyrica", name: "리리카", generic: "pregabalin",
+    color: "#ede9fe", textColor: "#5b21b6",
+    keywords: [
+      "리리카","lyrica","pregabalin","프레가발린",
+      "신경병증성 통증","neuropathic pain","신경통","neuropathy",
+      "섬유근육통","fibromyalgia","뇌전증","간질","epilepsy","seizure",
+      "대상포진 후 신경통","postherpetic neuralgia","당뇨병성 신경병증","diabetic neuropathy"
+    ],
+  },
+  {
+    id: "celebrex", name: "쎄레브렉스", generic: "celecoxib",
+    color: "#fce7f3", textColor: "#9d174d",
+    keywords: [
+      "쎄레브렉스","celebrex","celecoxib","셀레콕시브","셀레브렉스",
+      "골관절염","osteoarthritis","류마티스관절염","rheumatoid arthritis",
+      "관절염","arthritis","cox-2","cox2","nsaid","nsaids","항염증",
+      "통증","pain management","척추관절염","ankylosing spondylitis"
+    ],
+  },
+  {
+    id: "caduet", name: "카듀엣", generic: "amlodipine/atorvastatin",
+    color: "#e0f2fe", textColor: "#0369a1",
+    keywords: [
+      "카듀엣","caduet","amlodipine","atorvastatin","암로디핀","아토르바스타틴",
+      "고혈압","hypertension","이상지질혈증","고지혈증","심혈관","cardiovascular",
+      "복합제","combination","혈압","blood pressure","콜레스테롤","cholesterol"
+    ],
+  },
 ];
+
+// 전체 탭의 keywords = 모든 제품 키워드 합산
+PRODUCTS[0].keywords = [...new Set(PRODUCTS.slice(1).flatMap(p=>p.keywords))];
+
+// ═══════════════════════════════════════════════
+//  유형 정의
+// ═══════════════════════════════════════════════
+const TYPES = [
+  { id:"all",      label:"전체 유형" },
+  { id:"disease",  label:"질환/임상",  keywords:["임상","치료","환자","질환","증상","처방","적응증","clinical","trial","patient","disease","efficacy","safety","치료제","요법"] },
+  { id:"policy",   label:"정책/규제",  keywords:["급여","허가","식약처","fda","보험","정책","규제","심평원","급여기준","승인","approval","reimbursement","regulation","처방전","보험급여"] },
+  { id:"research", label:"연구/학술",  keywords:["연구","학술","논문","발표","결과","데이터","study","research","journal","published","meta","analysis","guideline","가이드라인","학회"] },
+];
+
+// ═══════════════════════════════════════════════
+//  뉴스 소스
+// ═══════════════════════════════════════════════
 const FLAGS = {KR:"🇰🇷",US:"🇺🇸"};
 const SOURCES = [
-  {id:"medigatenews",name:"메디게이트뉴스",  url:"https://www.medigatenews.com",  rss:"https://www.medigatenews.com/rss/all",            country:"KR",cats:["drug","disease","policy","hospital"],desc:"의약품·의료기기 전문 뉴스"},
-  {id:"medicaltimes",name:"메디칼타임즈",    url:"https://www.medicaltimes.com",  rss:"https://www.medicaltimes.com/Main/RssNews.html", country:"KR",cats:["policy","hospital","disease"],       desc:"의료계 전문 신문"},
-  {id:"docdocdoc",   name:"청년의사",        url:"https://www.docdocdoc.co.kr",   rss:"https://www.docdocdoc.co.kr/rss/allArticle.xml", country:"KR",cats:["policy","hospital","disease"],       desc:"의사 전문 뉴스 매체"},
-  {id:"yakup",       name:"약업신문",        url:"https://www.yakup.com",         rss:"https://www.yakup.com/rss/rss.html",             country:"KR",cats:["drug","policy"],                     desc:"약업계 전문 신문"},
-  {id:"hitnews",     name:"히트뉴스",        url:"https://www.hitnews.co.kr",     rss:"https://www.hitnews.co.kr/rss/allArticle.xml",   country:"KR",cats:["drug","disease","research"],         desc:"제약·바이오 전문 뉴스"},
-  {id:"biopharma",   name:"바이오스펙테이터",url:"https://www.biospectator.com",  rss:"https://www.biospectator.com/rss/rss.xml",       country:"KR",cats:["drug","research","global"],          desc:"바이오·제약 전문 미디어"},
-  {id:"pharmnews",   name:"팜뉴스",          url:"https://www.pharmnews.com",     rss:"https://www.pharmnews.com/rss/allArticle.xml",   country:"KR",cats:["drug","policy"],                     desc:"제약·약업 뉴스"},
-  {id:"medipana",    name:"메디파나뉴스",    url:"https://www.medipana.com",      rss:"https://www.medipana.com/rss/rss.xml",           country:"KR",cats:["drug","hospital","policy"],          desc:"제약·의료 종합 뉴스"},
-  {id:"statnews",    name:"STAT News",       url:"https://www.statnews.com",      rss:"https://www.statnews.com/feed/",                 country:"US",cats:["drug","research","global","disease"], desc:"Health & medicine reporting"},
-  {id:"fiercepharma",name:"Fierce Pharma",   url:"https://www.fiercepharma.com", rss:"https://www.fiercepharma.com/rss/xml",           country:"US",cats:["drug","global","policy"],            desc:"Pharma industry news"},
-  {id:"endpoints",   name:"Endpoints News",  url:"https://endpts.com",           rss:"https://endpts.com/feed/",                       country:"US",cats:["drug","research","global"],          desc:"Biopharma news & analysis"},
-  {id:"medscape",    name:"Medscape",        url:"https://www.medscape.com",     rss:"https://www.medscape.com/rss/allnews",           country:"US",cats:["disease","research","hospital"],     desc:"Clinical & medical news"},
-  {id:"reuters",     name:"Reuters Health",  url:"https://www.reuters.com/business/healthcare-pharmaceuticals", rss:"https://feeds.reuters.com/reuters/healthNews", country:"US",cats:["global","drug","policy"], desc:"Global health & pharma news"},
+  {id:"medigatenews",name:"메디게이트뉴스",  url:"https://www.medigatenews.com",  rss:"https://www.medigatenews.com/rss/all",            country:"KR",desc:"의약품·의료기기 전문 뉴스"},
+  {id:"medicaltimes",name:"메디칼타임즈",    url:"https://www.medicaltimes.com",  rss:"https://www.medicaltimes.com/Main/RssNews.html", country:"KR",desc:"의료계 전문 신문"},
+  {id:"docdocdoc",   name:"청년의사",        url:"https://www.docdocdoc.co.kr",   rss:"https://www.docdocdoc.co.kr/rss/allArticle.xml", country:"KR",desc:"의사 전문 뉴스 매체"},
+  {id:"yakup",       name:"약업신문",        url:"https://www.yakup.com",         rss:"https://www.yakup.com/rss/rss.html",             country:"KR",desc:"약업계 전문 신문"},
+  {id:"hitnews",     name:"히트뉴스",        url:"https://www.hitnews.co.kr",     rss:"https://www.hitnews.co.kr/rss/allArticle.xml",   country:"KR",desc:"제약·바이오 전문 뉴스"},
+  {id:"biopharma",   name:"바이오스펙테이터",url:"https://www.biospectator.com",  rss:"https://www.biospectator.com/rss/rss.xml",       country:"KR",desc:"바이오·제약 전문 미디어"},
+  {id:"pharmnews",   name:"팜뉴스",          url:"https://www.pharmnews.com",     rss:"https://www.pharmnews.com/rss/allArticle.xml",   country:"KR",desc:"제약·약업 뉴스"},
+  {id:"medipana",    name:"메디파나뉴스",    url:"https://www.medipana.com",      rss:"https://www.medipana.com/rss/rss.xml",           country:"KR",desc:"제약·의료 종합 뉴스"},
+  {id:"statnews",    name:"STAT News",       url:"https://www.statnews.com",      rss:"https://www.statnews.com/feed/",                 country:"US",desc:"Health & medicine reporting"},
+  {id:"fiercepharma",name:"Fierce Pharma",   url:"https://www.fiercepharma.com", rss:"https://www.fiercepharma.com/rss/xml",           country:"US",desc:"Pharma industry news"},
+  {id:"endpoints",   name:"Endpoints News",  url:"https://endpts.com",           rss:"https://endpts.com/feed/",                       country:"US",desc:"Biopharma news & analysis"},
+  {id:"medscape",    name:"Medscape",        url:"https://www.medscape.com",     rss:"https://www.medscape.com/rss/allnews",           country:"US",desc:"Clinical & medical news"},
+  {id:"reuters",     name:"Reuters Health",  url:"https://www.reuters.com/business/healthcare-pharmaceuticals",rss:"https://feeds.reuters.com/reuters/healthNews",country:"US",desc:"Global health & pharma news"},
 ];
 
-// CORS 프록시 목록 (순서대로 시도)
 const PROXIES = [
-  url => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`,
-  url => `https://corsproxy.io/?${encodeURIComponent(url)}`,
-  url => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`,
+  url=>`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`,
+  url=>`https://corsproxy.io/?${encodeURIComponent(url)}`,
+  url=>`https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`,
 ];
 
-let activeCategory = "all";
+// ═══════════════════════════════════════════════
+//  State
+// ═══════════════════════════════════════════════
+let activeProd = "all";
+let activeType = "all";
 let selectedSources = new Set(SOURCES.map(s=>s.id));
 let searchQuery = "";
 let articles = [];
@@ -206,9 +312,14 @@ let lastUpdated = null;
 let sidebarOpen = true;
 let currentTab = "feed";
 
-renderCategories();
+// ═══════════════════════════════════════════════
+//  Init
+// ═══════════════════════════════════════════════
+renderProdBar();
+renderTypeBar();
 renderSources();
 renderLinks();
+renderProdLegend();
 loadFeeds();
 
 document.getElementById("searchInput").addEventListener("input",e=>{searchQuery=e.target.value;renderFeed();});
@@ -228,27 +339,55 @@ function switchTab(tab){
   document.getElementById("tabLinks").classList.toggle("active",tab==="links");
 }
 
-function renderCategories(){
-  const bar=document.getElementById("catBar");
+// ═══════════════════════════════════════════════
+//  Render filters
+// ═══════════════════════════════════════════════
+function renderProdBar(){
+  const bar=document.getElementById("prodBar");
   bar.innerHTML="";
-  CATEGORIES.forEach(cat=>{
+  PRODUCTS.forEach(p=>{
     const btn=document.createElement("button");
-    btn.className="cat-btn"+(cat.id===activeCategory?" active":"");
-    btn.textContent=cat.label;
-    btn.onclick=()=>{activeCategory=cat.id;renderCategories();renderSources();renderFeed();renderLinks();};
+    btn.className="prod-btn"+(p.id===activeProd?" active":"");
+    btn.innerHTML=`<span class="pname">${p.name}</span><span class="pgen">${p.generic}</span>`;
+    btn.onclick=()=>{activeProd=p.id;renderProdBar();renderFeed();renderProdLegend();};
     bar.appendChild(btn);
   });
 }
 
+function renderTypeBar(){
+  const bar=document.getElementById("typeBar");
+  bar.innerHTML="";
+  TYPES.forEach(t=>{
+    const btn=document.createElement("button");
+    btn.className="type-btn"+(t.id===activeType?" active":"");
+    btn.textContent=t.id==="all"?"전체 유형":t.label;
+    btn.onclick=()=>{activeType=t.id;renderTypeBar();renderFeed();};
+    bar.appendChild(btn);
+  });
+}
+
+function renderProdLegend(){
+  const el=document.getElementById("prodLegend");
+  el.innerHTML="";
+  const prods = activeProd==="all" ? PRODUCTS.slice(1) : PRODUCTS.filter(p=>p.id===activeProd);
+  prods.forEach(p=>{
+    const chip=document.createElement("span");
+    chip.className="legend-chip";
+    chip.style.background=p.color||"#fef3c7";
+    chip.style.color=p.textColor||"#92400e";
+    chip.style.border=`1px solid ${p.color||"#fde68a"}`;
+    chip.textContent=`${p.name} (${p.generic})`;
+    el.appendChild(chip);
+  });
+}
+
 function renderSources(){
-  const filtered=activeCategory==="all"?SOURCES:SOURCES.filter(s=>s.cats.includes(activeCategory));
-  const catLabel=activeCategory==="all"?"전체":(CATEGORIES.find(c=>c.id===activeCategory)?.label??activeCategory);
-  document.getElementById("srcCount").textContent=`${catLabel} · ${filtered.length}개`;
-  const allOn=filtered.every(s=>selectedSources.has(s.id));
+  document.getElementById("srcCount").textContent=`${SOURCES.length}개`;
+  const allOn=SOURCES.every(s=>selectedSources.has(s.id));
   document.getElementById("toggleAll").textContent=allOn?"전체 해제":"전체 선택";
   const list=document.getElementById("srcList");
   list.innerHTML="";
-  filtered.forEach(src=>{
+  SOURCES.forEach(src=>{
     const on=selectedSources.has(src.id);
     const item=document.createElement("label");
     item.className="src-item"+(on?" on":"");
@@ -257,7 +396,6 @@ function renderSources(){
       <span class="src-flag">${FLAGS[src.country]||""}</span>
       <span class="src-name">${src.name}</span>
       <span class="src-desc">${src.desc}</span>
-      <div class="src-tags">${src.cats.map(c=>`<span class="src-tag">${CATEGORIES.find(x=>x.id===c)?.label}</span>`).join("")}</div>
     `;
     item.querySelector("input").addEventListener("change",e=>{
       if(e.target.checked)selectedSources.add(src.id);else selectedSources.delete(src.id);
@@ -268,21 +406,17 @@ function renderSources(){
 }
 
 function renderLinks(){
-  const filtered=activeCategory==="all"?SOURCES:SOURCES.filter(s=>s.cats.includes(activeCategory));
   const list=document.getElementById("linkList");
   list.innerHTML="";
-  filtered.forEach(src=>{
+  SOURCES.forEach(src=>{
     const card=document.createElement("a");
     card.className="source-link-card";
-    card.href=src.url;
-    card.target="_blank";
-    card.rel="noopener noreferrer";
+    card.href=src.url; card.target="_blank"; card.rel="noopener noreferrer";
     card.innerHTML=`
       <span class="slc-flag">${FLAGS[src.country]||""}</span>
       <div class="slc-info">
         <div class="slc-name">${src.name}</div>
         <div class="slc-desc">${src.desc}</div>
-        <div class="slc-tags">${src.cats.map(c=>`<span class="slc-tag">${CATEGORIES.find(x=>x.id===c)?.label}</span>`).join("")}</div>
       </div>
       <span class="slc-arrow">→</span>
     `;
@@ -291,17 +425,39 @@ function renderLinks(){
 }
 
 function toggleAll(){
-  const filtered=activeCategory==="all"?SOURCES:SOURCES.filter(s=>s.cats.includes(activeCategory));
-  const allOn=filtered.every(s=>selectedSources.has(s.id));
-  filtered.forEach(s=>allOn?selectedSources.delete(s.id):selectedSources.add(s.id));
+  const allOn=SOURCES.every(s=>selectedSources.has(s.id));
+  SOURCES.forEach(s=>allOn?selectedSources.delete(s.id):selectedSources.add(s.id));
   renderSources();renderFeed();
 }
 
+// ═══════════════════════════════════════════════
+//  키워드 매칭 유틸
+// ═══════════════════════════════════════════════
+function matchesKeywords(text, keywords){
+  const t=text.toLowerCase();
+  return keywords.some(k=>t.includes(k.toLowerCase()));
+}
+
+// 기사가 어떤 제품에 해당하는지 찾기
+function detectProducts(text){
+  return PRODUCTS.slice(1).filter(p=>matchesKeywords(text,p.keywords));
+}
+
+// 기사 유형 감지
+function detectType(text){
+  for(const t of TYPES.slice(1)){
+    if(matchesKeywords(text,t.keywords)) return t.id;
+  }
+  return "disease"; // 기본값
+}
+
+// ═══════════════════════════════════════════════
+//  RSS Fetch
+// ═══════════════════════════════════════════════
 async function fetchWithProxy(rssUrl){
   for(const makeProxy of PROXIES){
     try{
-      const proxyUrl=makeProxy(rssUrl);
-      const res=await fetch(proxyUrl,{signal:AbortSignal.timeout(8000)});
+      const res=await fetch(makeProxy(rssUrl),{signal:AbortSignal.timeout(9000)});
       if(!res.ok) continue;
       const data=await res.json();
       const text=data.contents||data.data||data;
@@ -316,19 +472,32 @@ async function fetchRss(source){
   const text=await fetchWithProxy(source.rss);
   const xml=new DOMParser().parseFromString(text,"text/xml");
   if(xml.querySelector("parsererror")) throw new Error("XML 파싱 오류");
-  return [...xml.querySelectorAll("item")].slice(0,10).map(item=>{
+
+  return [...xml.querySelectorAll("item")].slice(0,15).map(item=>{
     const g=tag=>item.querySelector(tag)?.textContent?.trim()??"";
     const pd=g("pubDate");
+    const title=g("title");
+    const desc=g("description").replace(/<[^>]+>/g,"").replace(/\s+/g," ").trim().slice(0,200);
+    const fullText=(title+" "+desc).toLowerCase();
+
+    // 마스터 키워드 필터 — 전체 제품 키워드에 해당하지 않으면 제외
+    if(!matchesKeywords(fullText, PRODUCTS[0].keywords)) return null;
+
+    const matchedProds=detectProducts(fullText);
+    const articleType=detectType(fullText);
+
     return {
       id:g("guid")||g("link"),
-      title:g("title"),
+      title,
       link:g("link"),
-      desc:g("description").replace(/<[^>]+>/g,"").replace(/\s+/g," ").trim().slice(0,160),
+      desc,
       date:pd?new Date(pd):new Date(),
-      sourceId:source.id,sourceName:source.name,country:source.country,cats:source.cats,
+      sourceId:source.id, sourceName:source.name, country:source.country,
+      matchedProds,   // 매칭된 제품 배열
+      articleType,    // disease | policy | research
       demo:false,
     };
-  }).filter(a=>a.title&&a.link);
+  }).filter(Boolean).filter(a=>a.title&&a.link);
 }
 
 async function loadFeeds(){
@@ -350,7 +519,6 @@ async function loadFeeds(){
   articles=newArticles;
   lastUpdated=new Date();
 
-  // 전부 실패한 경우 샘플 데이터 표시
   if(newArticles.length===0){
     document.getElementById("noticeBanner").style.display="";
     articles=DEMO_ARTICLES;
@@ -358,6 +526,9 @@ async function loadFeeds(){
   renderFeed();
 }
 
+// ═══════════════════════════════════════════════
+//  Render Feed
+// ═══════════════════════════════════════════════
 function timeAgo(date){
   const d=(Date.now()-date.getTime())/1000;
   if(isNaN(d)||d<0) return "";
@@ -377,8 +548,22 @@ function renderFeed(){
   } else errBadge.style.display="none";
 
   let list=articles.filter(a=>selectedSources.has(a.sourceId)||a.demo);
-  if(activeCategory!=="all") list=list.filter(a=>a.cats.includes(activeCategory));
-  if(searchQuery.trim()){const q=searchQuery.toLowerCase();list=list.filter(a=>a.title.toLowerCase().includes(q)||a.desc.toLowerCase().includes(q));}
+
+  // 제품 필터
+  if(activeProd!=="all"){
+    list=list.filter(a=>a.demo||a.matchedProds.some(p=>p.id===activeProd));
+  }
+
+  // 유형 필터
+  if(activeType!=="all"){
+    list=list.filter(a=>a.demo||a.articleType===activeType);
+  }
+
+  // 검색어 필터
+  if(searchQuery.trim()){
+    const q=searchQuery.toLowerCase();
+    list=list.filter(a=>a.title.toLowerCase().includes(q)||a.desc.toLowerCase().includes(q));
+  }
 
   const upd=lastUpdated?` · ${lastUpdated.toLocaleTimeString("ko-KR",{hour:"2-digit",minute:"2-digit"})} 업데이트`:"";
   document.getElementById("feedCount").textContent=`${list.length}개 기사${upd}`;
@@ -386,13 +571,18 @@ function renderFeed(){
 
   const area=document.getElementById("feedArea");
   if(!list.length){
-    area.innerHTML=`<div class="empty">${selectedSources.size===0?"뉴스 소스를 1개 이상 선택하세요.":"조건에 맞는 기사가 없습니다."}</div>`;
+    area.innerHTML=`<div class="empty">${
+      selectedSources.size===0?"뉴스 소스를 1개 이상 선택하세요.":
+      "선택한 조건에 해당하는 기사가 없습니다.<br><small>제품·유형 필터를 변경하거나 새로고침해 보세요.</small>"
+    }</div>`;
     return;
   }
+
   const grid=document.createElement("div");
   grid.className="article-grid";
   list.forEach(a=>{
-    const tags=a.cats.map(c=>`<span class="card-tag">${CATEGORIES.find(x=>x.id===c)?.label}</span>`).join("");
+    const typeLabel=TYPES.find(t=>t.id===a.articleType)?.label??"";
+    const prodTags=(a.matchedProds||[]).map(p=>`<span class="card-prod-tag" style="background:${p.color};color:${p.textColor}">${p.name}</span>`).join("");
     const card=document.createElement("a");
     card.className="card"+(a.demo?" demo":"");
     card.href=a.link; card.target="_blank"; card.rel="noopener noreferrer";
@@ -404,21 +594,26 @@ function renderFeed(){
       </div>
       <div class="card-title">${a.title}</div>
       ${a.desc?`<div class="card-desc">${a.desc}…</div>`:""}
-      <div class="card-tags">${tags}</div>
+      <div class="card-footer">
+        ${prodTags}
+        ${typeLabel?`<span class="card-type-tag">${typeLabel}</span>`:""}
+      </div>
     `;
     grid.appendChild(card);
   });
   area.innerHTML=""; area.appendChild(grid);
 }
 
-// 샘플 데이터 (RSS 완전 실패 시 레이아웃 확인용)
+// ═══════════════════════════════════════════════
+//  샘플 데이터 (RSS 전부 실패 시)
+// ═══════════════════════════════════════════════
 const DEMO_ARTICLES = [
-  {id:"d1",title:"국내 제약사 신약 임상 3상 결과 발표… 글로벌 시장 진출 기대",link:"https://www.medigatenews.com",desc:"국내 주요 제약사가 개발 중인 항암 신약의 임상 3상 결과가 발표됐다. 대조군 대비 유의미한 생존율 개선 효과가 확인돼 FDA 허가 신청을 준비 중이다.",date:new Date(Date.now()-1*3600*1000),sourceId:"medigatenews",sourceName:"메디게이트뉴스",country:"KR",cats:["drug","research"],demo:true},
-  {id:"d2",title:"건강보험심사평가원, 의약품 급여 기준 개정안 행정예고",link:"https://www.medicaltimes.com",desc:"심평원이 주요 항체 치료제 급여 기준을 완화하는 개정안을 행정예고했다. 희귀질환 환자의 접근성이 높아질 전망이다.",date:new Date(Date.now()-3*3600*1000),sourceId:"medicaltimes",sourceName:"메디칼타임즈",country:"KR",cats:["policy","drug"],demo:true},
-  {id:"d3",title:"FDA approves new GLP-1 receptor agonist for obesity treatment",link:"https://www.statnews.com",desc:"The FDA has approved a novel GLP-1 receptor agonist showing 22% average weight reduction in Phase 3 trials, marking a significant advance in obesity pharmacotherapy.",date:new Date(Date.now()-5*3600*1000),sourceId:"statnews",sourceName:"STAT News",country:"US",cats:["drug","global"],demo:true},
-  {id:"d4",title:"바이오시밀러 시장 경쟁 심화…국내 업체 유럽 점유율 확대",link:"https://www.biospectator.com",desc:"국내 주요 바이오기업들이 유럽 바이오시밀러 시장에서 점유율을 높이고 있다. 자가면역 질환 치료제 분야에서의 경쟁력이 특히 부각되고 있다.",date:new Date(Date.now()-7*3600*1000),sourceId:"biopharma",sourceName:"바이오스펙테이터",country:"KR",cats:["drug","global","research"],demo:true},
-  {id:"d5",title:"상급종합병원 구조전환 추진… 중증환자 집중 체계 개편",link:"https://www.docdocdoc.co.kr",desc:"정부가 상급종합병원의 역할을 중증·희귀질환 중심으로 재편하는 구조전환 정책을 발표했다. 경증 환자 쏠림 현상을 완화하기 위한 수가 개편도 포함됐다.",date:new Date(Date.now()-10*3600*1000),sourceId:"docdocdoc",sourceName:"청년의사",country:"KR",cats:["hospital","policy"],demo:true},
-  {id:"d6",title:"Fierce Pharma: Big pharma M&A activity surges in Q2 2026",link:"https://www.fiercepharma.com",desc:"Major pharmaceutical companies accelerated merger and acquisition activity in Q2 2026, with several multi-billion dollar deals targeting oncology and rare disease pipelines.",date:new Date(Date.now()-12*3600*1000),sourceId:"fiercepharma",sourceName:"Fierce Pharma",country:"US",cats:["drug","global","policy"],demo:true},
+  {id:"d1",title:"리피토(아토르바스타틴) 급여 기준 완화… LDL 목표치 조정 논의",link:"https://www.medigatenews.com",desc:"심평원이 이상지질혈증 치료제 급여 기준 개정을 검토 중이다. 스타틴 계열 약제의 LDL 콜레스테롤 목표치를 조정하는 방안이 포함됐다.",date:new Date(Date.now()-1*3600*1000),sourceId:"medigatenews",sourceName:"메디게이트뉴스",country:"KR",matchedProds:[PRODUCTS[1]],articleType:"policy",demo:true},
+  {id:"d2",title:"암로디핀 기반 복합제, 고혈압 환자 심혈관 사건 감소 효과 확인",link:"https://www.medicaltimes.com",desc:"노바스크(암로디핀) 성분 기반 칼슘채널차단제 복합제가 고혈압 환자에서 심혈관 사건을 유의미하게 감소시킨다는 연구 결과가 발표됐다.",date:new Date(Date.now()-3*3600*1000),sourceId:"medicaltimes",sourceName:"메디칼타임즈",country:"KR",matchedProds:[PRODUCTS[3]],articleType:"research",demo:true},
+  {id:"d3",title:"Pregabalin shows sustained efficacy in diabetic neuropathy — 12-month data",link:"https://www.medscape.com",desc:"A 12-month follow-up study confirms that pregabalin (Lyrica) maintains significant pain reduction in patients with diabetic neuropathic pain, with a manageable safety profile.",date:new Date(Date.now()-5*3600*1000),sourceId:"medscape",sourceName:"Medscape",country:"US",matchedProds:[PRODUCTS[4]],articleType:"research",demo:true},
+  {id:"d4",title:"쎄레브렉스(셀레콕시브), 골관절염 통증 관리 가이드라인 업데이트 반영",link:"https://www.hitnews.co.kr",desc:"대한류마티스학회가 골관절염 치료 가이드라인을 개정하며 COX-2 선택적 억제제의 위치를 재정립했다. 셀레콕시브의 위장 안전성이 주요 근거로 인용됐다.",date:new Date(Date.now()-7*3600*1000),sourceId:"hitnews",sourceName:"히트뉴스",country:"KR",matchedProds:[PRODUCTS[5]],articleType:"policy",demo:true},
+  {id:"d5",title:"카듀엣(암로디핀/아토르바스타틴), 고혈압·이상지질혈증 병용 환자 순응도 개선",link:"https://www.pharmnews.com",desc:"고혈압과 이상지질혈증을 동반한 환자에서 카듀엣 단일 복합제 처방이 개별 성분 병용 처방 대비 투약 순응도를 높인다는 국내 리얼월드 분석 결과가 공개됐다.",date:new Date(Date.now()-9*3600*1000),sourceId:"pharmnews",sourceName:"팜뉴스",country:"KR",matchedProds:[PRODUCTS[6]],articleType:"research",demo:true},
+  {id:"d6",title:"Atorvastatin generic competition intensifies as Lipitor market data released",link:"https://www.fiercepharma.com",desc:"New market analysis shows ongoing shifts in the statin market following patent expiry, with atorvastatin generics capturing significant cholesterol treatment market share.",date:new Date(Date.now()-11*3600*1000),sourceId:"fiercepharma",sourceName:"Fierce Pharma",country:"US",matchedProds:[PRODUCTS[1]],articleType:"disease",demo:true},
 ];
 </script>
 </body>
