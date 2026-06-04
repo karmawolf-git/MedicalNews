@@ -312,8 +312,8 @@ const TYPES = [
 //  Google News RSS 소스 (제품·계열별 쿼리)
 //  — 개별 사이트 RSS 대신 구글 뉴스 RSS를 사용해 CORS 문제 우회
 // ══════════════════════════════════════════════════════════
-function gnKR(q){ return `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=ko&gl=KR&ceid=KR:ko`; }
-function gnEN(q){ return `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en-US&gl=US&ceid=US:en`; }
+function gnKR(q){ return `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=ko&gl=KR&ceid=KR:ko&tbs=qdr:w`; }
+function gnEN(q){ return `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en-US&gl=US&ceid=US:en&tbs=qdr:w`; }
 
 const SOURCES = [
   // ── 리피토 / Statin 계열 ──
