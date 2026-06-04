@@ -97,8 +97,6 @@ input { font-family:inherit; }
 .tag-prod { font-size:10px; padding:2px 7px; border-radius:9px; font-weight:600; }
 .tag-type { font-size:10px; padding:2px 7px; border-radius:9px; background:#f0fdf4; color:#166534; }
 .tag-class { font-size:10px; padding:2px 7px; border-radius:9px; background:#f5f3ff; color:#6d28d9; }
-.card.demo { border-style:dashed; opacity:.8; }
-.demo-label { font-size:10px; color:var(--muted); background:#f1f5f9; padding:1px 6px; border-radius:6px; align-self:flex-start; }
 
 /* ── Links tab ── */
 .source-link-list { display:flex; flex-direction:column; gap:8px; }
@@ -585,7 +583,6 @@ async function loadFeeds(){
 
   if(articles.length===0){
     document.getElementById("noticeBanner").style.display="";
-    articles=DEMO_ARTICLES;
   }
   renderSources(); // 소스 패널 갱신 (체크 상태 유지)
   renderFeed();
@@ -606,7 +603,7 @@ function timeAgo(d){
 function renderFeed(){
   const ec=Object.keys(errors).length;
   const eb=document.getElementById("errBadge");
-  if(ec&&articles.length&&!articles[0].demo){
+  if(ec&&articles.length){
     eb.style.display=""; eb.textContent=`⚠ ${ec}개 소스 오류`;
     eb.title=Object.entries(errors).map(([k,v])=>`${k}: ${v}`).join("\n");
   } else eb.style.display="none";
@@ -618,10 +615,10 @@ function renderFeed(){
       : SOURCES.filter(s=>s.prod===activeProd||s.prod==="all").map(s=>s.id)
   );
 
-  let list=articles.filter(a=>(selectedSources.has(a.sourceId)&&prodSourceIds.has(a.sourceId))||a.demo);
+  let list=articles.filter(a=>selectedSources.has(a.sourceId)&&prodSourceIds.has(a.sourceId));
 
   if(activeType!=="all"){
-    list=list.filter(a=>a.demo||a.articleType===activeType);
+    list=list.filter(a=>a.articleType===activeType);
   }
   if(searchQuery.trim()){
     const q=searchQuery.toLowerCase();
@@ -657,10 +654,9 @@ function renderFeed(){
       ?`<span class="tag-class">${prodObj.classLabel}</span>`
       :(a.matchedClasses||[]).slice(0,1).map(p=>`<span class="tag-class">${p.classLabel}</span>`).join("");
     const card=document.createElement("a");
-    card.className="card"+(a.demo?" demo":"");
+    card.className="card";
     card.href=a.link; card.target="_blank"; card.rel="noopener noreferrer";
     card.innerHTML=`
-      ${a.demo?'<span class="demo-label">샘플</span>':""}
       <div class="card-meta">
         <span class="card-source">${FLAGS[a.country]||""} ${a.sourceName}</span>
         <span>${timeAgo(a.date)}</span>
@@ -677,18 +673,6 @@ function renderFeed(){
   area.innerHTML=""; area.appendChild(grid);
 }
 
-// ══════════════════════════════════════════════════════════
-//  샘플 데이터
-// ══════════════════════════════════════════════════════════
-const P=PRODUCTS;
-const DEMO_ARTICLES=[
-  {id:"d1",title:"리피토(아토르바스타틴) LDL 목표치 강화 급여 기준 개정 논의",link:"https://news.google.com/search?q=리피토+이상지질혈증",desc:"심평원이 스타틴 계열 이상지질혈증 치료제 급여 기준 개정을 검토 중이다. LDL-C 목표치 강화 및 PCSK9 억제제 병용 급여 확대 방안이 포함됐다.",date:new Date(Date.now()-1*3600*1000),sourceId:"gn_lipitor_kr",sourceName:"Google News KR",country:"KR",matchedProds:[P[1]],matchedClasses:[P[1]],articleType:"policy",demo:true},
-  {id:"d2",title:"Statin therapy reduces cardiovascular risk in elderly patients — new meta-analysis",link:"https://news.google.com/search?q=atorvastatin+statin",desc:"A large meta-analysis confirms significant cardiovascular risk reduction with statin therapy including atorvastatin in patients over 75, supporting broader LDL-lowering treatment.",date:new Date(Date.now()-2*3600*1000),sourceId:"gn_statin_en",sourceName:"Google News US",country:"US",matchedProds:[P[1]],matchedClasses:[P[1]],articleType:"research",demo:true},
-  {id:"d3",title:"암로디핀 기반 복합제 고혈압 환자 심혈관 사건 감소 효과 확인",link:"https://news.google.com/search?q=암로디핀+고혈압",desc:"CCB 계열 암로디핀 성분 기반 복합제가 고혈압 환자에서 심혈관 사건을 유의미하게 감소시킨다는 리얼월드 연구 결과가 발표됐다.",date:new Date(Date.now()-4*3600*1000),sourceId:"gn_norvasc_kr",sourceName:"Google News KR",country:"KR",matchedProds:[P[3]],matchedClasses:[P[3]],articleType:"research",demo:true},
-  {id:"d4",title:"Pregabalin vs gabapentin in diabetic neuropathy: real-world outcomes study",link:"https://news.google.com/search?q=pregabalin+neuropathy",desc:"A real-world study comparing pregabalin (Lyrica) and gabapentin in diabetic neuropathic pain shows pregabalin with better pain score outcomes and fewer discontinuations.",date:new Date(Date.now()-6*3600*1000),sourceId:"gn_neuro_en",sourceName:"Google News US",country:"US",matchedProds:[P[4]],matchedClasses:[P[4]],articleType:"research",demo:true},
-  {id:"d5",title:"쎄레브렉스(셀레콕시브), 골관절염 가이드라인 COX-2 선택적 억제제 위치 재정립",link:"https://news.google.com/search?q=쎄레브렉스+골관절염",desc:"대한류마티스학회가 골관절염 치료 가이드라인을 개정하며 COX-2 선택적 억제제의 위장 안전성 우위를 근거로 NSAID 대비 선호 처방 등급을 높였다.",date:new Date(Date.now()-8*3600*1000),sourceId:"gn_celebrex_kr",sourceName:"Google News KR",country:"KR",matchedProds:[P[5]],matchedClasses:[P[5]],articleType:"policy",demo:true},
-  {id:"d6",title:"카듀엣(암로디핀/아토르바스타틴) 고혈압·이상지질혈증 병용 환자 투약 순응도 개선",link:"https://news.google.com/search?q=카듀엣+복합제",desc:"고혈압과 이상지질혈증 동반 환자에서 카듀엣 고정용량 복합제(FDC) 처방이 개별 성분 병용 대비 투약 순응도를 유의미하게 높인다는 국내 다기관 연구가 발표됐다.",date:new Date(Date.now()-10*3600*1000),sourceId:"gn_caduet_kr",sourceName:"Google News KR",country:"KR",matchedProds:[P[6]],matchedClasses:[P[6]],articleType:"research",demo:true},
-];
 </script>
 </body>
 </html>
