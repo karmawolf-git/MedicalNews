@@ -348,12 +348,16 @@ const SOURCES = [
 ];
 
 // ══════════════════════════════════════════════════════════
-//  CORS 프록시
+//  Fetch helpers
 // ══════════════════════════════════════════════════════════
-const PROXIES = [
-  { mk: u=>`https://api.allorigins.win/get?url=${encodeURIComponent(u)}`, json:true,  field:"contents" },
-  { mk: u=>`https://corsproxy.io/?${encodeURIComponent(u)}`,              json:false },
-  { mk: u=>`https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(u)}`, json:false },
+// rss2json.com: RSS → JSON 전용 서비스 (CORS 지원, Google News RSS 호환)
+const RSS2JSON = u=>`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(u)}&count=20`;
+
+// CORS proxy fallback (raw XML 반환)
+const RAW_PROXIES = [
+  u=>`https://corsproxy.io/?${encodeURIComponent(u)}`,
+  u=>`https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(u)}`,
+  u=>`https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`,
 ];
 
 // ══════════════════════════════════════════════════════════
@@ -434,49 +438,69 @@ function detectType(text){
 // ══════════════════════════════════════════════════════════
 //  RSS Fetch
 // ══════════════════════════════════════════════════════════
-async function fetchWithProxy(url){
-  for(const proxy of PROXIES){
-    try{
-      const ctrl=new AbortController();
-      const tid=setTimeout(()=>ctrl.abort(),12000);
-      const r=await fetch(proxy.mk(url),{signal:ctrl.signal});
-      clearTimeout(tid);
-      if(!r.ok) continue;
-      let txt;
-      if(proxy.json){
-        const d=await r.json();
-        txt=d[proxy.field]||d.contents||d.data||"";
-      } else {
-        txt=await r.text();
-      }
-      if(typeof txt==="string"&&txt.length>200&&(txt.includes("<item>")||txt.includes("<entry>"))) return txt;
-    }catch(e){ continue; }
-  }
-  throw new Error("프록시 연결 실패");
+function fetchTimeout(url, ms=14000){
+  const ctrl=new AbortController();
+  const tid=setTimeout(()=>ctrl.abort(),ms);
+  return fetch(url,{signal:ctrl.signal}).finally(()=>clearTimeout(tid));
 }
 
-async function fetchRss(src){
-  const text=await fetchWithProxy(src.rss);
-  const xml=new DOMParser().parseFromString(text,"text/xml");
-  if(xml.querySelector("parsererror")) throw new Error("XML 오류");
-  return [...xml.querySelectorAll("item")].slice(0,15).map(item=>{
-    const g=tag=>item.querySelector(tag)?.textContent?.trim()??"";
-    const title=g("title");
-    const desc=g("description").replace(/<[^>]+>/g,"").replace(/\s+/g," ").trim().slice(0,200);
+function parseItems(items, src){
+  return items.map(item=>{
+    const title=(item.title||"").trim();
+    const link=item.link||item.guid||"";
+    const desc=(item.description||item.content||"").replace(/<[^>]+>/g,"").replace(/\s+/g," ").trim().slice(0,200);
+    if(!title||!link) return null;
     const full=(title+" "+desc).toLowerCase();
-    // 마스터 필터 — 제품/계열/질환 키워드 없으면 제외
     if(!includes(full, PRODUCTS[0].allKw)) return null;
     return {
-      id:g("guid")||g("link"),
-      title, link:g("link"), desc,
-      date: (()=>{ const d=g("pubDate"); return d?new Date(d):new Date(); })(),
+      id:item.guid||link, title, link, desc,
+      date: item.pubDate?new Date(item.pubDate):new Date(),
       sourceId:src.id, sourceName:src.name, country:src.country,
       matchedProds: detectProds(full),
       matchedClasses: detectClasses(full),
       articleType: detectType(full),
-      demo:false,
     };
-  }).filter(a=>a&&a.title&&a.link);
+  }).filter(Boolean);
+}
+
+function parseXmlItems(xmlText, src){
+  const xml=new DOMParser().parseFromString(xmlText,"text/xml");
+  if(xml.querySelector("parsererror")) throw new Error("XML 오류");
+  const g=(el,tag)=>el.querySelector(tag)?.textContent?.trim()??"";
+  return [...xml.querySelectorAll("item")].slice(0,20).map(item=>({
+    title: g(item,"title"),
+    link:  g(item,"link"),
+    guid:  g(item,"guid"),
+    pubDate: g(item,"pubDate"),
+    description: g(item,"description"),
+  }));
+}
+
+async function fetchRss(src){
+  // 1차: rss2json.com (CORS 지원 RSS→JSON 전용 서비스)
+  try{
+    const r=await fetchTimeout(RSS2JSON(src.rss));
+    if(r.ok){
+      const d=await r.json();
+      if(d.status==="ok"&&Array.isArray(d.items)&&d.items.length){
+        return parseItems(d.items, src);
+      }
+    }
+  }catch(e){}
+
+  // 2차: raw CORS 프록시로 XML 직접 파싱
+  for(const mk of RAW_PROXIES){
+    try{
+      const r=await fetchTimeout(mk(src.rss));
+      if(!r.ok) continue;
+      const txt=await r.text();
+      if(!txt.includes("<item>")&&!txt.includes("<entry>")) continue;
+      const rawItems=parseXmlItems(txt, src);
+      return parseItems(rawItems, src);
+    }catch(e){ continue; }
+  }
+
+  throw new Error("연결 실패");
 }
 
 async function loadFeeds(){
