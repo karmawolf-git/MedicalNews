@@ -417,7 +417,7 @@ function renderProdBar(){
     const btn=document.createElement("button");
     btn.className="prod-btn"+(p.id===activeProd?" active":"");
     btn.innerHTML=`<span class="pname">${p.name}</span><span class="pgen">${p.generic}</span>`;
-    btn.onclick=()=>{activeProd=p.id;renderProdBar();renderFeed();renderLegend();};
+    btn.onclick=()=>{activeProd=p.id;renderProdBar();renderSources();renderFeed();renderLegend();};
     bar.appendChild(btn);
   });
 }
@@ -512,8 +512,13 @@ function detectClasses(text){
   return PRODUCTS.slice(1).filter(p=>includes(text,[...p.classKw,...p.competKw]));
 }
 function detectType(text){
-  for(const t of TYPES.slice(1)){ if(includes(text,t.kw)) return t.id; }
-  return "disease";
+  // 각 유형 키워드 히트 수를 카운트해 가장 많이 매칭된 유형 선택
+  const scores = TYPES.slice(1).map(t=>({
+    id: t.id,
+    score: t.kw.filter(k=>text.includes(k.toLowerCase())).length
+  }));
+  const best = scores.reduce((a,b)=>a.score>=b.score?a:b);
+  return best.score>0 ? best.id : "disease";
 }
 
 // ══════════════════════════════════════════════════════════
@@ -606,11 +611,15 @@ function renderFeed(){
     eb.title=Object.entries(errors).map(([k,v])=>`${k}: ${v}`).join("\n");
   } else eb.style.display="none";
 
-  let list=articles.filter(a=>selectedSources.has(a.sourceId)||a.demo);
+  // 제품 탭 기준: 소스의 prod 필드로 필터 (키워드 매칭보다 신뢰성 높음)
+  const prodSourceIds = new Set(
+    activeProd==="all"
+      ? SOURCES.map(s=>s.id)
+      : SOURCES.filter(s=>s.prod===activeProd||s.prod==="all").map(s=>s.id)
+  );
 
-  if(activeProd!=="all"){
-    list=list.filter(a=>a.demo||a.matchedProds.some(p=>p.id===activeProd));
-  }
+  let list=articles.filter(a=>(selectedSources.has(a.sourceId)&&prodSourceIds.has(a.sourceId))||a.demo);
+
   if(activeType!=="all"){
     list=list.filter(a=>a.demo||a.articleType===activeType);
   }
@@ -634,14 +643,19 @@ function renderFeed(){
 
   const grid=document.createElement("div"); grid.className="article-grid";
   const FLAGS={KR:"🇰🇷",US:"🇺🇸"};
+  // 소스 id → prod 맵
+  const srcProdMap=Object.fromEntries(SOURCES.map(s=>[s.id,s.prod]));
   list.forEach(a=>{
     const typeLabel=TYPES.find(t=>t.id===a.articleType)?.label??"";
-    const prodTags=(a.matchedProds||[]).slice(0,3).map(p=>
-      `<span class="tag-prod" style="background:${p.color};color:${p.textColor}">${p.name}</span>`
-    ).join("");
-    const classTags=(a.matchedClasses||[]).slice(0,2).map(p=>
-      `<span class="tag-class">${p.classLabel}</span>`
-    ).join("");
+    // 소스의 prod로 제품 태그 결정 (더 정확)
+    const srcProd=srcProdMap[a.sourceId];
+    const prodObj=srcProd&&srcProd!=="all"?PRODUCTS.find(p=>p.id===srcProd):null;
+    const prodTags=prodObj
+      ?`<span class="tag-prod" style="background:${prodObj.color};color:${prodObj.textColor}">${prodObj.name}</span>`
+      :(a.matchedProds||[]).slice(0,2).map(p=>`<span class="tag-prod" style="background:${p.color};color:${p.textColor}">${p.name}</span>`).join("");
+    const classTags=prodObj
+      ?`<span class="tag-class">${prodObj.classLabel}</span>`
+      :(a.matchedClasses||[]).slice(0,1).map(p=>`<span class="tag-class">${p.classLabel}</span>`).join("");
     const card=document.createElement("a");
     card.className="card"+(a.demo?" demo":"");
     card.href=a.link; card.target="_blank"; card.rel="noopener noreferrer";
