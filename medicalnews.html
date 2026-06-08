@@ -18,9 +18,8 @@
   --radius: 12px;
   --shadow: 0 1px 6px rgba(0,0,0,.08);
   --shadow-md: 0 4px 16px rgba(0,0,0,.1);
-  --list-width: 520px;
 }
-body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",sans-serif; background:var(--bg); color:var(--text); font-size:14px; line-height:1.6; height:100vh; display:flex; flex-direction:column; overflow:hidden; }
+body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",sans-serif; background:var(--bg); color:var(--text); font-size:14px; line-height:1.6; }
 a { color:inherit; text-decoration:none; }
 button { cursor:pointer; font-family:inherit; }
 input { font-family:inherit; color:var(--text); }
@@ -82,98 +81,49 @@ input { font-family:inherit; color:var(--text); }
 .type-btn:hover { border-color:var(--accent); color:var(--accent); }
 .type-btn.active { background:#eff6ff; border-color:var(--accent); color:var(--accent); font-weight:600; }
 
-/* ── Split layout ── */
-.split-view { display:flex; flex:1; min-height:0; overflow:hidden; }
+/* ── Main content ── */
+.main { max-width:900px; margin:0 auto; padding:20px 24px; }
 
-/* ── Left list panel ── */
-.split-list {
-  width:var(--list-width); flex-shrink:0;
-  display:flex; flex-direction:column;
-  border-right:1px solid var(--border);
-  background:var(--surface);
-  overflow:hidden;
-}
-.split-list-inner { flex:1; overflow-y:auto; }
-.split-list-inner::-webkit-scrollbar { width:4px; }
-.split-list-inner::-webkit-scrollbar-thumb { background:var(--border); border-radius:2px; }
+/* ── Feed bar ── */
+.feed-bar { display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; gap:8px; flex-wrap:wrap; }
 
-/* ── Article row ── */
-.article-row {
-  display:flex; gap:0; padding:12px 14px;
-  border-bottom:1px solid var(--border);
-  cursor:pointer; transition:background .12s;
-  position:relative;
-}
-.article-row:hover { background:var(--surface2); }
-.article-row.selected { background:#eff6ff; }
-.row-accent { width:3px; border-radius:2px; flex-shrink:0; margin-right:12px; align-self:stretch; }
-.row-body { flex:1; min-width:0; display:flex; flex-direction:column; gap:3px; }
-.row-title { font-size:13px; font-weight:700; line-height:1.4; color:var(--text);
-  display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
-.row-desc { font-size:12px; color:var(--muted); line-height:1.5;
-  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; margin-top:2px; }
-.row-meta { display:flex; gap:6px; font-size:11px; color:var(--muted); flex-wrap:wrap; }
-.row-source { font-weight:600; }
-
-/* Skeleton rows */
-.skeleton-row { height:96px; border-bottom:1px solid var(--border); background:linear-gradient(90deg,#e2e8f0 25%,#f8fafc 50%,#e2e8f0 75%); background-size:200% 100%; animation:shimmer 1.4s infinite; }
+/* ── Skeleton ── */
+.skeleton-list { display:flex; flex-direction:column; gap:10px; }
+.skeleton-row { height:100px; border-radius:var(--radius); background:linear-gradient(90deg,#e2e8f0 25%,#f8fafc 50%,#e2e8f0 75%); background-size:200% 100%; animation:shimmer 1.4s infinite; }
 @keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
 
-/* ── Right detail panel ── */
-.split-detail {
-  flex:1; min-width:0;
-  overflow-y:auto; padding:32px 36px;
-  background:var(--bg);
-}
-.split-detail::-webkit-scrollbar { width:6px; }
-.split-detail::-webkit-scrollbar-thumb { background:var(--border); border-radius:3px; }
-
-.detail-empty {
-  height:100%; display:flex; flex-direction:column;
-  align-items:center; justify-content:center;
-  color:var(--muted); gap:12px; text-align:center;
-}
-.detail-empty-icon { font-size:48px; opacity:.3; }
-
-.detail-card {
+/* ── List item ── */
+.list-item {
+  display:flex; gap:0;
   background:var(--surface); border-radius:var(--radius);
-  border:1px solid var(--border); box-shadow:var(--shadow-md);
-  padding:28px 32px; max-width:740px;
+  border:1px solid var(--border); box-shadow:var(--shadow);
+  overflow:hidden; transition:box-shadow .18s, transform .15s;
+  text-decoration:none; color:inherit;
 }
-.detail-accent { height:4px; border-radius:var(--radius) var(--radius) 0 0; margin:-28px -32px 24px; }
-.detail-meta { display:flex; gap:10px; font-size:12px; color:var(--muted); align-items:center; flex-wrap:wrap; margin-bottom:14px; }
-.detail-meta-source { font-weight:700; color:var(--text); }
-.detail-title { font-size:20px; font-weight:800; line-height:1.45; color:var(--text); margin-bottom:16px; }
-.detail-desc { font-size:14px; color:#475569; line-height:1.85; margin-bottom:20px; white-space:pre-line; }
-.detail-full-hint { font-size:12px; color:var(--muted); margin-bottom:20px; padding:10px 14px; background:var(--surface2); border-radius:8px; border:1px solid var(--border); }
-.detail-tags { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:24px; }
-.tag-prod { font-size:11px; padding:3px 10px; border-radius:8px; font-weight:700; }
-.tag-type { font-size:11px; padding:3px 10px; border-radius:8px; background:#f0fdf4; color:#15803d; }
-.tag-class { font-size:11px; padding:3px 10px; border-radius:8px; background:#f5f3ff; color:#6d28d9; }
-.detail-link {
-  display:inline-flex; align-items:center; gap:6px;
-  padding:10px 22px; border-radius:10px;
-  font-size:14px; font-weight:700; color:#fff;
-  transition:opacity .15s, transform .12s;
-}
-.detail-link:hover { opacity:.88; transform:translateY(-1px); }
+.list-item:hover { box-shadow:var(--shadow-md); transform:translateY(-1px); }
+.list-accent { width:4px; flex-shrink:0; }
+.list-body { flex:1; min-width:0; padding:14px 18px; display:flex; flex-direction:column; gap:6px; }
+.list-title { font-size:15px; font-weight:700; line-height:1.45; color:var(--text); }
+.list-desc { font-size:13px; color:var(--muted); line-height:1.6;
+  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+.list-footer { display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-top:2px; }
+.list-meta { font-size:11px; color:var(--muted); display:flex; gap:6px; align-items:center; }
+.list-source { font-weight:700; color:var(--text); }
+.list-tags { display:flex; gap:4px; flex-wrap:wrap; }
+.tag-prod { font-size:10px; padding:2px 8px; border-radius:6px; font-weight:700; }
+.tag-type { font-size:10px; padding:2px 8px; border-radius:6px; background:#f0fdf4; color:#15803d; }
+.tag-class { font-size:10px; padding:2px 8px; border-radius:6px; background:#f5f3ff; color:#6d28d9; }
 
 /* ── Notice ── */
-.notice-bar {
-  background:#fffbeb; border-bottom:1px solid #fde68a;
-  padding:8px 24px; font-size:12px; color:#92400e;
-  display:none; flex-shrink:0;
-}
+.notice-bar { background:#fffbeb; border-bottom:1px solid #fde68a; padding:8px 24px; font-size:12px; color:#92400e; display:none; }
 
 /* ── Empty ── */
-.empty-list { text-align:center; padding:40px 16px; color:var(--muted); font-size:13px; }
+.empty { text-align:center; padding:60px 20px; color:var(--muted); font-size:14px; }
+
+#feedArea { display:flex; flex-direction:column; gap:10px; }
 
 @media(max-width:768px){
-  body { overflow:auto; }
-  .split-view { flex-direction:column; overflow:visible; }
-  .split-list { width:100%; border-right:none; border-bottom:1px solid var(--border); max-height:45vh; }
-  .split-detail { padding:20px 16px; }
-  .detail-card { padding:20px; }
+  .main { padding:14px; }
   .brand-sub { display:none; }
   .header-inner { padding:10px 14px; }
   .filter-row { padding:8px 12px; }
@@ -194,11 +144,6 @@ input { font-family:inherit; color:var(--text); }
     <div class="search-wrap">
       <input class="search-input" type="search" placeholder="기사 검색..." id="searchInput" />
     </div>
-    <div class="feed-meta">
-      <span class="feed-count" id="feedCount">로딩 중...</span>
-      <span class="err-badge" id="errBadge" style="display:none"></span>
-      <button class="reload-btn" id="reloadBtn">새로고침</button>
-    </div>
   </div>
   <div class="filter-row" id="prodBar"></div>
   <div class="filter-row type-row" id="typeBar"></div>
@@ -206,16 +151,15 @@ input { font-family:inherit; color:var(--text); }
 
 <div class="notice-bar" id="noticeBanner"></div>
 
-<div class="split-view">
-  <div class="split-list">
-    <div class="split-list-inner" id="listArea"></div>
-  </div>
-  <div class="split-detail" id="detailArea">
-    <div class="detail-empty">
-      <div class="detail-empty-icon">📄</div>
-      <div>기사를 선택하면 내용이 표시됩니다.</div>
+<div class="main">
+  <div class="feed-bar">
+    <span class="feed-count" id="feedCount">로딩 중...</span>
+    <div style="display:flex;gap:8px;align-items:center">
+      <span class="err-badge" id="errBadge" style="display:none"></span>
+      <button class="reload-btn" id="reloadBtn">새로고침</button>
     </div>
   </div>
+  <div id="feedArea"></div>
 </div>
 
 <script>
@@ -348,7 +292,6 @@ const SOURCES = [
 // ══════════════════════════════════════════════════════════
 let activeProd="all", activeType="all", searchQuery="";
 let articles=[], errors={}, lastUpdated=null;
-let selectedArticle=null;
 
 // ══════════════════════════════════════════════════════════
 //  Init
@@ -418,9 +361,7 @@ function detectType(text){
 // ══════════════════════════════════════════════════════════
 async function loadFeeds(){
   errors={};
-  selectedArticle=null;
-  document.getElementById("listArea").innerHTML=Array(8).fill('<div class="skeleton-row"></div>').join("");
-  document.getElementById("detailArea").innerHTML=`<div class="detail-empty"><div class="detail-empty-icon">📄</div><div>기사를 선택하면 내용이 표시됩니다.</div></div>`;
+  document.getElementById("feedArea").innerHTML=`<div class="skeleton-list">${Array(6).fill('<div class="skeleton-row"></div>').join("")}</div>`;
   document.getElementById("reloadBtn").disabled=true;
   document.getElementById("feedCount").textContent="로딩 중...";
   document.getElementById("noticeBanner").style.display="none";
@@ -516,84 +457,48 @@ function renderFeed(){
   document.getElementById("feedCount").textContent=`${list.length}개 기사${upd}`;
   document.getElementById("reloadBtn").disabled=false;
 
-  const listArea=document.getElementById("listArea");
+  const area=document.getElementById("feedArea");
 
   if(!list.length){
-    listArea.innerHTML=`<div class="empty-list">조건에 맞는 기사가 없습니다.<br><small>다른 탭을 선택하거나 새로고침해 보세요.</small></div>`;
-    document.getElementById("detailArea").innerHTML=`<div class="detail-empty"><div class="detail-empty-icon">🔍</div><div>조건에 맞는 기사가 없습니다.</div></div>`;
+    area.innerHTML=`<div class="empty">조건에 맞는 기사가 없습니다.<br><small>다른 제품·유형 탭을 선택하거나 새로고침해 보세요.</small></div>`;
     return;
   }
 
-  // 선택된 기사가 현재 목록에 있는지 확인
-  if(selectedArticle && !list.find(a=>a.id===selectedArticle.id)) selectedArticle=null;
-  if(!selectedArticle) selectedArticle=list[0];
-
-  listArea.innerHTML="";
+  area.innerHTML="";
   list.forEach(a=>{
     const srcProd=srcProdMap[a.sourceId];
     const prodObj=srcProd&&srcProd!=="all"?PRODUCTS.find(p=>p.id===srcProd):null;
-    const accentColor=prodObj?.iconBg||"#e2e8f0";
+    const accentBg=prodObj?.iconBg||"linear-gradient(135deg,#94a3b8,#64748b)";
+    const typeLabel=TYPES.find(t=>t.id===a.articleType)?.label??"";
+    const prodTags=prodObj
+      ?`<span class="tag-prod" style="background:${prodObj.color};color:${prodObj.textColor}">${prodObj.name}</span>`
+      :(a.matchedProds||[]).slice(0,2).map(p=>`<span class="tag-prod" style="background:${p.color};color:${p.textColor}">${p.name}</span>`).join("");
+    const classTags=prodObj
+      ?`<span class="tag-class">${prodObj.classLabel}</span>`
+      :(a.matchedClasses||[]).slice(0,1).map(p=>`<span class="tag-class">${p.classLabel}</span>`).join("");
 
-    const row=document.createElement("div");
-    row.className="article-row"+(a.id===selectedArticle?.id?" selected":"");
-    row.innerHTML=`
-      <div class="row-accent" style="background:${accentColor}"></div>
-      <div class="row-body">
-        <div class="row-title">${a.title}</div>
-        ${a.desc?`<div class="row-desc">${a.desc}</div>`:""}
-        <div class="row-meta">
-          <span class="row-source">${FLAGS[a.country]||""} ${a.sourceName}</span>
-          <span>${timeAgo(a.date)}</span>
+    const item=document.createElement("a");
+    item.className="list-item";
+    item.href=a.link; item.target="_blank"; item.rel="noopener noreferrer";
+    item.innerHTML=`
+      <div class="list-accent" style="background:${accentBg}"></div>
+      <div class="list-body">
+        <div class="list-title">${a.title}</div>
+        ${a.desc?`<div class="list-desc">${a.desc}</div>`:""}
+        <div class="list-footer">
+          <div class="list-meta">
+            <span class="list-source">${FLAGS[a.country]||""} ${a.sourceName}</span>
+            <span>·</span>
+            <span>${timeAgo(a.date)}</span>
+          </div>
+          <div class="list-tags">
+            ${prodTags}${classTags}${typeLabel?`<span class="tag-type">${typeLabel}</span>`:""}
+          </div>
         </div>
       </div>
     `;
-    row.onclick=()=>{
-      selectedArticle=a;
-      listArea.querySelectorAll(".article-row").forEach(r=>r.classList.remove("selected"));
-      row.classList.add("selected");
-      renderDetail(a);
-    };
-    listArea.appendChild(row);
+    area.appendChild(item);
   });
-
-  renderDetail(selectedArticle);
-}
-
-function renderDetail(a){
-  if(!a) return;
-  const detailArea=document.getElementById("detailArea");
-  const srcProd=srcProdMap[a.sourceId];
-  const prodObj=srcProd&&srcProd!=="all"?PRODUCTS.find(p=>p.id===srcProd):null;
-  const accentBg=prodObj?.iconBg||"linear-gradient(135deg,#94a3b8,#64748b)";
-  const typeLabel=TYPES.find(t=>t.id===a.articleType)?.label??"";
-
-  const prodTags=prodObj
-    ?`<span class="tag-prod" style="background:${prodObj.color};color:${prodObj.textColor}">${prodObj.name}</span>`
-    :(a.matchedProds||[]).slice(0,2).map(p=>`<span class="tag-prod" style="background:${p.color};color:${p.textColor}">${p.name}</span>`).join("");
-  const classTags=prodObj
-    ?`<span class="tag-class">${prodObj.classLabel}</span>`
-    :(a.matchedClasses||[]).slice(0,1).map(p=>`<span class="tag-class">${p.classLabel}</span>`).join("");
-
-  detailArea.innerHTML=`
-    <div class="detail-card">
-      <div class="detail-accent" style="background:${accentBg}"></div>
-      <div class="detail-meta">
-        <span class="detail-meta-source">${FLAGS[a.country]||""} ${a.sourceName}</span>
-        <span>·</span>
-        <span>${timeAgo(a.date)}</span>
-        ${a.date?`<span>· ${a.date.toLocaleDateString("ko-KR",{year:"numeric",month:"long",day:"numeric"})}</span>`:""}
-      </div>
-      <div class="detail-title">${a.title}</div>
-      ${a.desc?`<div class="detail-desc">${a.desc}</div><div class="detail-full-hint">💡 위 내용은 Google News RSS에서 제공하는 요약 본문입니다. 전체 기사를 읽으시려면 아래 원문 보기 버튼을 클릭하세요.</div>`:""}
-      <div class="detail-tags">
-        ${prodTags}${classTags}
-        ${typeLabel?`<span class="tag-type">${typeLabel}</span>`:""}
-      </div>
-      <a class="detail-link" href="${a.link}" target="_blank" rel="noopener noreferrer" style="background:${accentBg}">
-        기사 원문 보기 →
-      </a>
-    </div>
-  `;
 }
 </script>
 </body>
