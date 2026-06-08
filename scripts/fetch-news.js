@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 // 서버사이드 RSS fetch → news.json 생성 (GitHub Actions에서 실행)
-const https = require("https");
-const http = require("http");
-const { DOMParser } = require("@xmldom/xmldom");
+import https from "https";
+import http from "http";
+import { DOMParser } from "@xmldom/xmldom";
 
 function dateAfter(days) {
   const d = new Date();
@@ -37,7 +37,7 @@ const SOURCES = [
     rss: `https://news.google.com/rss/search?q=${encodeURIComponent("FDA approval cardiovascular OR EMA approval statin OR drug pricing cholesterol OR reimbursement arthritis OR neuropathic pain guideline after:" + dateAfter(14))}&hl=en-US&gl=US&ceid=US:en` },
 ];
 
-function fetch(url) {
+function fetchUrl(url) {
   return new Promise((resolve, reject) => {
     const mod = url.startsWith("https") ? https : http;
     const req = mod.get(url, {
@@ -48,7 +48,7 @@ function fetch(url) {
       timeout: 15000,
     }, (res) => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-        return fetch(res.headers.location).then(resolve).catch(reject);
+        return fetchUrl(res.headers.location).then(resolve).catch(reject);
       }
       if (res.statusCode !== 200) {
         reject(new Error(`HTTP ${res.statusCode}`));
@@ -83,10 +83,10 @@ async function main() {
   const results = await Promise.allSettled(
     SOURCES.map(async src => {
       try {
-        const xml = await fetch(src.rss);
+        const xml = await fetchUrl(src.rss);
         return parseRss(xml, src);
       } catch (e) {
-        console.error(`[FAIL] ${src.id}: ${e.message}`);
+        process.stderr.write(`[FAIL] ${src.id}: ${e.message}\n`);
         return [];
       }
     })
@@ -94,7 +94,6 @@ async function main() {
 
   const all = results.flatMap(r => r.status === "fulfilled" ? r.value : []);
 
-  // 중복 제거
   const seen = new Set();
   const uniq = all.filter(a => {
     if (seen.has(a.link)) return false;
@@ -106,7 +105,7 @@ async function main() {
 
   const out = { updatedAt: new Date().toISOString(), articles: uniq };
   process.stdout.write(JSON.stringify(out, null, 2));
-  console.error(`\n✅ ${uniq.length}개 기사 수집 완료`);
+  process.stderr.write(`\n✅ ${uniq.length}개 기사 수집 완료\n`);
 }
 
-main().catch(e => { console.error(e); process.exit(1); });
+main().catch(e => { process.stderr.write(e.stack + "\n"); process.exit(1); });
