@@ -18,14 +18,15 @@
   --radius: 12px;
   --shadow: 0 1px 6px rgba(0,0,0,.08);
   --shadow-md: 0 4px 16px rgba(0,0,0,.1);
+  --list-width: 380px;
 }
-body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",sans-serif; background:var(--bg); color:var(--text); font-size:14px; line-height:1.6; }
+body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",sans-serif; background:var(--bg); color:var(--text); font-size:14px; line-height:1.6; height:100vh; display:flex; flex-direction:column; overflow:hidden; }
 a { color:inherit; text-decoration:none; }
 button { cursor:pointer; font-family:inherit; }
 input { font-family:inherit; color:var(--text); }
 
 /* ── Header ── */
-.header { position:sticky; top:0; z-index:100; background:var(--surface); border-bottom:1px solid var(--border); box-shadow:var(--shadow); }
+.header { position:sticky; top:0; z-index:100; background:var(--surface); border-bottom:1px solid var(--border); box-shadow:var(--shadow); flex-shrink:0; }
 .header-inner { display:flex; align-items:center; gap:14px; padding:12px 24px; flex-wrap:wrap; }
 .brand { display:flex; align-items:center; gap:10px; flex-shrink:0; }
 .brand-icon {
@@ -50,12 +51,18 @@ input { font-family:inherit; color:var(--text); }
 .search-input:focus { border-color:var(--accent); box-shadow:0 0 0 3px rgba(59,130,246,.12); }
 .search-input::placeholder { color:var(--muted); }
 
+.feed-meta { display:flex; align-items:center; gap:8px; flex-shrink:0; }
+.feed-count { font-size:12px; color:var(--muted); }
+.err-badge { font-size:12px; color:var(--error); padding:3px 10px; border-radius:10px; border:1px solid rgba(239,68,68,.3); background:#fef2f2; cursor:help; }
+.reload-btn { padding:5px 14px; border-radius:14px; border:1px solid var(--border); background:var(--surface); font-size:12px; color:var(--text); transition:all .15s; }
+.reload-btn:hover:not(:disabled) { border-color:var(--accent); color:var(--accent); background:#eff6ff; }
+.reload-btn:disabled { opacity:.4; cursor:not-allowed; }
+
 /* ── Filter rows ── */
 .filter-row { display:flex; gap:6px; padding:8px 22px; overflow-x:auto; scrollbar-width:none; border-top:1px solid var(--border); background:var(--surface); }
 .filter-row::-webkit-scrollbar { display:none; }
 .filter-row.type-row { padding-top:6px; padding-bottom:10px; border-top:none; }
 
-/* 제품 버튼 — 각 제품 색상을 JS에서 style로 주입 */
 .prod-btn {
   display:flex; align-items:center; gap:7px;
   padding:6px 14px; border-radius:20px;
@@ -75,60 +82,98 @@ input { font-family:inherit; color:var(--text); }
 .type-btn:hover { border-color:var(--accent); color:var(--accent); }
 .type-btn.active { background:#eff6ff; border-color:var(--accent); color:var(--accent); font-weight:600; }
 
-/* ── Layout ── */
-.layout { display:flex; }
-.main { flex:1; min-width:0; padding:20px 24px; }
+/* ── Split layout ── */
+.split-view { display:flex; flex:1; min-height:0; overflow:hidden; }
 
-/* ── Feed bar ── */
-.feed-bar { display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; gap:8px; flex-wrap:wrap; }
-.feed-count { font-size:13px; color:var(--muted); }
-.feed-actions { display:flex; gap:8px; align-items:center; }
-.err-badge { font-size:12px; color:var(--error); padding:4px 12px; border-radius:12px; border:1px solid rgba(239,68,68,.3); background:#fef2f2; cursor:help; }
-.reload-btn { padding:6px 16px; border-radius:14px; border:1px solid var(--border); background:var(--surface); font-size:13px; color:var(--text); transition:all .15s; }
-.reload-btn:hover:not(:disabled) { border-color:var(--accent); color:var(--accent); background:#eff6ff; }
-.reload-btn:disabled { opacity:.4; cursor:not-allowed; }
+/* ── Left list panel ── */
+.split-list {
+  width:var(--list-width); flex-shrink:0;
+  display:flex; flex-direction:column;
+  border-right:1px solid var(--border);
+  background:var(--surface);
+  overflow:hidden;
+}
+.split-list-inner { flex:1; overflow-y:auto; }
+.split-list-inner::-webkit-scrollbar { width:4px; }
+.split-list-inner::-webkit-scrollbar-thumb { background:var(--border); border-radius:2px; }
 
-.notice { background:#fffbeb; border:1px solid #fde68a; border-radius:var(--radius); padding:10px 14px; margin-bottom:16px; font-size:13px; color:#92400e; display:none; }
-
-/* ── Grid ── */
-.article-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:14px; }
-.skeleton-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:14px; }
-.skeleton { height:160px; border-radius:var(--radius); background:linear-gradient(90deg,#e2e8f0 25%,#f8fafc 50%,#e2e8f0 75%); background-size:200% 100%; animation:shimmer 1.4s infinite; }
-@keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
-
-/* ── Card ── */
-.card {
-  display:flex; flex-direction:column; gap:8px; padding:16px;
-  border-radius:var(--radius); border:1px solid var(--border);
-  background:var(--surface); box-shadow:var(--shadow);
-  transition:box-shadow .18s, border-color .18s, transform .15s;
+/* ── Article row ── */
+.article-row {
+  display:flex; gap:0; padding:12px 14px;
+  border-bottom:1px solid var(--border);
+  cursor:pointer; transition:background .12s;
   position:relative;
 }
-/* 제품 색상 바 — 카드 상단에 얇은 선으로 표시 */
-.card-accent-bar { height:3px; border-radius:var(--radius) var(--radius) 0 0; margin:-16px -16px 0; }
-.card:hover { box-shadow:var(--shadow-md); transform:translateY(-2px); }
-.card-meta { display:flex; justify-content:space-between; font-size:11px; color:var(--muted); }
-.card-source { font-weight:600; }
-.card-title { font-size:14px; font-weight:700; line-height:1.5; color:var(--text); }
-.card-desc { font-size:12px; color:var(--muted); line-height:1.55; }
-.card-footer { display:flex; gap:4px; flex-wrap:wrap; margin-top:auto; padding-top:4px; }
-.tag-prod { font-size:10px; padding:2px 8px; border-radius:8px; font-weight:700; }
-.tag-type { font-size:10px; padding:2px 8px; border-radius:8px; background:#f0fdf4; color:#15803d; }
-.tag-class { font-size:10px; padding:2px 8px; border-radius:8px; background:#f5f3ff; color:#6d28d9; }
+.article-row:hover { background:var(--surface2); }
+.article-row.selected { background:#eff6ff; }
+.row-accent { width:3px; border-radius:2px; flex-shrink:0; margin-right:12px; align-self:stretch; }
+.row-body { flex:1; min-width:0; display:flex; flex-direction:column; gap:3px; }
+.row-title { font-size:13px; font-weight:700; line-height:1.4; color:var(--text);
+  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+.row-meta { display:flex; gap:6px; font-size:11px; color:var(--muted); flex-wrap:wrap; }
+.row-source { font-weight:600; }
 
-/* ── Legend ── */
-.prod-legend { display:flex; flex-wrap:wrap; gap:5px; margin-bottom:14px; }
-.legend-chip { font-size:11px; padding:3px 11px; border-radius:10px; border:1px solid; }
+/* Skeleton rows */
+.skeleton-row { height:72px; border-bottom:1px solid var(--border); background:linear-gradient(90deg,#e2e8f0 25%,#f8fafc 50%,#e2e8f0 75%); background-size:200% 100%; animation:shimmer 1.4s infinite; }
+@keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
+
+/* ── Right detail panel ── */
+.split-detail {
+  flex:1; min-width:0;
+  overflow-y:auto; padding:32px 36px;
+  background:var(--bg);
+}
+.split-detail::-webkit-scrollbar { width:6px; }
+.split-detail::-webkit-scrollbar-thumb { background:var(--border); border-radius:3px; }
+
+.detail-empty {
+  height:100%; display:flex; flex-direction:column;
+  align-items:center; justify-content:center;
+  color:var(--muted); gap:12px; text-align:center;
+}
+.detail-empty-icon { font-size:48px; opacity:.3; }
+
+.detail-card {
+  background:var(--surface); border-radius:var(--radius);
+  border:1px solid var(--border); box-shadow:var(--shadow-md);
+  padding:28px 32px; max-width:740px;
+}
+.detail-accent { height:4px; border-radius:var(--radius) var(--radius) 0 0; margin:-28px -32px 24px; }
+.detail-meta { display:flex; gap:10px; font-size:12px; color:var(--muted); align-items:center; flex-wrap:wrap; margin-bottom:14px; }
+.detail-meta-source { font-weight:700; color:var(--text); }
+.detail-title { font-size:20px; font-weight:800; line-height:1.45; color:var(--text); margin-bottom:16px; }
+.detail-desc { font-size:14px; color:#475569; line-height:1.75; margin-bottom:20px; }
+.detail-tags { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:24px; }
+.tag-prod { font-size:11px; padding:3px 10px; border-radius:8px; font-weight:700; }
+.tag-type { font-size:11px; padding:3px 10px; border-radius:8px; background:#f0fdf4; color:#15803d; }
+.tag-class { font-size:11px; padding:3px 10px; border-radius:8px; background:#f5f3ff; color:#6d28d9; }
+.detail-link {
+  display:inline-flex; align-items:center; gap:6px;
+  padding:10px 22px; border-radius:10px;
+  font-size:14px; font-weight:700; color:#fff;
+  transition:opacity .15s, transform .12s;
+}
+.detail-link:hover { opacity:.88; transform:translateY(-1px); }
+
+/* ── Notice ── */
+.notice-bar {
+  background:#fffbeb; border-bottom:1px solid #fde68a;
+  padding:8px 24px; font-size:12px; color:#92400e;
+  display:none; flex-shrink:0;
+}
 
 /* ── Empty ── */
-.empty { text-align:center; padding:60px 20px; color:var(--muted); font-size:14px; }
+.empty-list { text-align:center; padding:40px 16px; color:var(--muted); font-size:13px; }
 
 @media(max-width:768px){
+  body { overflow:auto; }
+  .split-view { flex-direction:column; overflow:visible; }
+  .split-list { width:100%; border-right:none; border-bottom:1px solid var(--border); max-height:45vh; }
+  .split-detail { padding:20px 16px; }
+  .detail-card { padding:20px; }
   .brand-sub { display:none; }
-  .main { padding:14px; }
-  .article-grid { grid-template-columns:1fr; }
-  .header-inner { padding:12px 16px; }
-  .filter-row { padding:8px 14px; }
+  .header-inner { padding:10px 14px; }
+  .filter-row { padding:8px 12px; }
 }
 </style>
 </head>
@@ -146,58 +191,49 @@ input { font-family:inherit; color:var(--text); }
     <div class="search-wrap">
       <input class="search-input" type="search" placeholder="기사 검색..." id="searchInput" />
     </div>
-    <div class="hdr-right">
+    <div class="feed-meta">
+      <span class="feed-count" id="feedCount">로딩 중...</span>
+      <span class="err-badge" id="errBadge" style="display:none"></span>
+      <button class="reload-btn" id="reloadBtn">새로고침</button>
     </div>
   </div>
   <div class="filter-row" id="prodBar"></div>
   <div class="filter-row type-row" id="typeBar"></div>
 </header>
 
-<div class="layout">
-  <main class="main">
-    <div id="noticeBanner" class="notice">
-      ⚠ Google News RSS를 불러오지 못했습니다. 네트워크 상태를 확인하거나 잠시 후 새로고침 해주세요.
+<div class="notice-bar" id="noticeBanner"></div>
+
+<div class="split-view">
+  <div class="split-list">
+    <div class="split-list-inner" id="listArea"></div>
+  </div>
+  <div class="split-detail" id="detailArea">
+    <div class="detail-empty">
+      <div class="detail-empty-icon">📄</div>
+      <div>기사를 선택하면 내용이 표시됩니다.</div>
     </div>
-    <div class="prod-legend" id="prodLegend"></div>
-    <div class="feed-bar">
-      <span class="feed-count" id="feedCount">로딩 중...</span>
-      <div class="feed-actions">
-        <span class="err-badge" id="errBadge" style="display:none"></span>
-        <button class="reload-btn" id="reloadBtn">새로고침</button>
-      </div>
-    </div>
-    <div id="feedArea"></div>
-  </main>
+  </div>
 </div>
 
 <script>
-// ══════════════════════════════════════════════════════════
-//  제품 정의 — 브랜드명, 계열약, 경쟁품 모두 포함
-// ══════════════════════════════════════════════════════════
 const PRODUCTS = [
   { id:"all", name:"전체", generic:"모든 제품", color:"#e8f0fb", textColor:"#0050a0", icon:"🏠", iconBg:"linear-gradient(135deg,#3b82f6,#6366f1)" },
-
   {
     id:"lipitor", name:"리피토", generic:"Statin 계열",
     color:"#fef3c7", textColor:"#92400e", icon:"💛", iconBg:"linear-gradient(135deg,#f59e0b,#f97316)",
-    // 자사 제품
     brandKw:  ["리피토","lipitor","atorvastatin","아토르바스타틴"],
-    // 계열약 (statin class)
     classKw:  ["스타틴","statin","hmg-coa","크레스토","rosuvastatin","로수바스타틴",
                "조코","simvastatin","심바스타틴","리바로","pitavastatin","피타바스타틴",
                "pravastatin","프라바스타틴","fluvastatin","플루바스타틴","lovastatin","로바스타틴"],
-    // 경쟁 기전 (PCSK9i, bempedoic acid)
     competKw: ["레파타","repatha","evolocumab","에보로쿠맙",
                "프랄런트","praluent","alirocumab","알리로쿠맙",
                "레크비오","leqvio","inclisiran","인클리시란",
                "넥스레톨","bempedoic acid","벰페도산"],
-    // 관련 질환/지표
     diseaseKw:["이상지질혈증","고지혈증","콜레스테롤","cholesterol","ldl","ldl-c",
                "트리글리세라이드","triglyceride","동맥경화","atherosclerosis",
                "심혈관","cardiovascular","심근경색","myocardial infarction","심장마비"],
     classLabel:"Statin·PCSK9i",
   },
-
   {
     id:"lipitorplus", name:"리피토플러스", generic:"Statin+Ezetimibe",
     color:"#fff7ed", textColor:"#b45309", icon:"🧡", iconBg:"linear-gradient(135deg,#f97316,#ef4444)",
@@ -209,7 +245,6 @@ const PRODUCTS = [
                "복합제","combination therapy","이중 기전"],
     classLabel:"Statin+Ezetimibe",
   },
-
   {
     id:"norvasc", name:"노바스크", generic:"CCB 계열",
     color:"#dcfce7", textColor:"#166534", icon:"💚", iconBg:"linear-gradient(135deg,#22c55e,#16a34a)",
@@ -226,7 +261,6 @@ const PRODUCTS = [
                "좌심실비대","lvh","신장보호","renoprotection"],
     classLabel:"CCB·ARB·항고혈압",
   },
-
   {
     id:"lyrica", name:"리리카", generic:"Gabapentinoid 계열",
     color:"#ede9fe", textColor:"#5b21b6", icon:"💜", iconBg:"linear-gradient(135deg,#8b5cf6,#6d28d9)",
@@ -243,7 +277,6 @@ const PRODUCTS = [
                "척수손상 통증","spinal cord","중추 감작","central sensitization"],
     classLabel:"Gabapentinoid·진통",
   },
-
   {
     id:"celebrex", name:"쎄레브렉스", generic:"COX-2 억제제",
     color:"#fce7f3", textColor:"#9d174d", icon:"❤️", iconBg:"linear-gradient(135deg,#ec4899,#be185d)",
@@ -261,7 +294,6 @@ const PRODUCTS = [
                "가족성 선종성 용종증","familial adenomatous polyposis","fap"],
     classLabel:"COX-2·NSAIDs·생물학적제제",
   },
-
   {
     id:"caduet", name:"카듀엣", generic:"CCB+Statin 복합",
     color:"#e0f2fe", textColor:"#0369a1", icon:"🩵", iconBg:"linear-gradient(135deg,#06b6d4,#0284c7)",
@@ -277,14 +309,10 @@ const PRODUCTS = [
   },
 ];
 
-// 전체 탭 keywords = 모든 제품 합산
 PRODUCTS[0].allKw = [...new Set(
   PRODUCTS.slice(1).flatMap(p=>[...p.brandKw,...p.classKw,...p.competKw,...p.diseaseKw])
 )];
 
-// ══════════════════════════════════════════════════════════
-//  뉴스 유형
-// ══════════════════════════════════════════════════════════
 const TYPES = [
   { id:"all",      label:"전체 유형" },
   { id:"disease",  label:"질환/임상",  kw:["임상","치료","환자","질환","증상","처방","적응증","부작용","안전성","효능","clinical","trial","patient","disease","efficacy","safety","adverse","치료제","요법","처방전"] },
@@ -292,62 +320,47 @@ const TYPES = [
   { id:"research", label:"연구/학술",  kw:["연구","학술","논문","발표","결과","데이터","메타분석","리얼월드","real-world","study","research","journal","published","meta-analysis","rwe","rct","randomized","무작위","코호트","cohort"] },
 ];
 
-// SOURCES는 renderFeed의 prod 필터용으로만 사용 (fetch는 news.json에서)
 const SOURCES = [
-  { id:"gn_lipitor_kr",   prod:"lipitor"  },
-  { id:"gn_statin_en",    prod:"lipitor"  },
+  { id:"gn_lipitor_kr",     prod:"lipitor"     },
+  { id:"gn_statin_en",      prod:"lipitor"     },
   { id:"gn_lipitorplus_kr", prod:"lipitorplus" },
   { id:"gn_lipitorplus_en", prod:"lipitorplus" },
-  { id:"gn_norvasc_kr",   prod:"norvasc"  },
-  { id:"gn_htn_en",       prod:"norvasc"  },
-  { id:"gn_lyrica_kr",    prod:"lyrica"   },
-  { id:"gn_neuro_en",     prod:"lyrica"   },
-  { id:"gn_celebrex_kr",  prod:"celebrex" },
-  { id:"gn_arthritis_en", prod:"celebrex" },
-  { id:"gn_caduet_kr",    prod:"caduet"   },
-  { id:"gn_caduet_en",    prod:"caduet"   },
-  { id:"gn_policy_kr",    prod:"all"      },
-  { id:"gn_policy_en",    prod:"all"      },
+  { id:"gn_norvasc_kr",     prod:"norvasc"     },
+  { id:"gn_htn_en",         prod:"norvasc"     },
+  { id:"gn_lyrica_kr",      prod:"lyrica"      },
+  { id:"gn_neuro_en",       prod:"lyrica"      },
+  { id:"gn_celebrex_kr",    prod:"celebrex"    },
+  { id:"gn_arthritis_en",   prod:"celebrex"    },
+  { id:"gn_caduet_kr",      prod:"caduet"      },
+  { id:"gn_caduet_en",      prod:"caduet"      },
+  { id:"gn_policy_kr",      prod:"all"         },
+  { id:"gn_policy_en",      prod:"all"         },
 ];
 
-// ══════════════════════════════════════════════════════════
-//  State
-// ══════════════════════════════════════════════════════════
 let activeProd="all", activeType="all", searchQuery="";
 let articles=[], errors={}, lastUpdated=null;
+let selectedArticle=null;
 
-// ══════════════════════════════════════════════════════════
-//  Init
-// ══════════════════════════════════════════════════════════
-renderProdBar(); renderTypeBar(); renderLegend();
+renderProdBar(); renderTypeBar();
 loadFeeds();
 
 document.getElementById("searchInput").addEventListener("input",e=>{searchQuery=e.target.value;renderFeed();});
 document.getElementById("reloadBtn").addEventListener("click",loadFeeds);
 
-// ══════════════════════════════════════════════════════════
-//  Render filters
-// ══════════════════════════════════════════════════════════
 function renderProdBar(){
   const bar=document.getElementById("prodBar"); bar.innerHTML="";
   PRODUCTS.forEach(p=>{
     const isActive=p.id===activeProd;
     const btn=document.createElement("button");
     btn.className="prod-btn"+(isActive?" active":"");
-    // 활성 시: 해당 제품 그라디언트 배경 / 비활성 시: 아이콘만 그라디언트
-    if(isActive && p.iconBg){
-      btn.style.background=p.iconBg;
-    }
+    if(isActive && p.iconBg) btn.style.background=p.iconBg;
     if(!isActive && p.textColor){
       btn.style.color=p.textColor;
       btn.style.borderColor=p.color||"";
       btn.style.background=p.color||"";
     }
-    btn.innerHTML=`
-      <span class="p-icon" style="background:${p.iconBg||"#e2e8f0"}">${p.icon||"💊"}</span>
-      ${p.name}
-    `;
-    btn.onclick=()=>{activeProd=p.id;renderProdBar();renderFeed();renderLegend();};
+    btn.innerHTML=`<span class="p-icon" style="background:${p.iconBg||"#e2e8f0"}">${p.icon||"💊"}</span>${p.name}`;
+    btn.onclick=()=>{activeProd=p.id;renderProdBar();renderFeed();};
     bar.appendChild(btn);
   });
 }
@@ -363,21 +376,6 @@ function renderTypeBar(){
   });
 }
 
-function renderLegend(){
-  const el=document.getElementById("prodLegend"); el.innerHTML="";
-  const prods=activeProd==="all"?PRODUCTS.slice(1):PRODUCTS.filter(p=>p.id===activeProd);
-  prods.forEach(p=>{
-    const c=document.createElement("span");
-    c.className="legend-chip";
-    c.style.cssText=`background:${p.color};color:${p.textColor};border-color:${p.color}`;
-    c.textContent=`${p.name} (${p.generic}) · ${p.classLabel}`;
-    el.appendChild(c);
-  });
-}
-
-// ══════════════════════════════════════════════════════════
-//  키워드 매칭
-// ══════════════════════════════════════════════════════════
 function includes(text, kws){ const t=text.toLowerCase(); return kws.some(k=>t.includes(k.toLowerCase())); }
 
 function detectProds(text){
@@ -389,7 +387,6 @@ function detectClasses(text){
   return PRODUCTS.slice(1).filter(p=>includes(text,[...p.classKw,...p.competKw]));
 }
 function detectType(text){
-  // 각 유형 키워드 히트 수를 카운트해 가장 많이 매칭된 유형 선택
   const scores = TYPES.slice(1).map(t=>({
     id: t.id,
     score: t.kw.filter(k=>text.includes(k.toLowerCase())).length
@@ -398,13 +395,11 @@ function detectType(text){
   return best.score>0 ? best.id : "disease";
 }
 
-// ══════════════════════════════════════════════════════════
-//  뉴스 로드 — GitHub Actions가 3시간마다 생성한 news.json 사용
-//  (CORS 프록시 불필요, 빠르고 안정적)
-// ══════════════════════════════════════════════════════════
 async function loadFeeds(){
   errors={};
-  document.getElementById("feedArea").innerHTML=`<div class="skeleton-grid">${Array(6).fill('<div class="skeleton"></div>').join("")}</div>`;
+  selectedArticle=null;
+  document.getElementById("listArea").innerHTML=Array(8).fill('<div class="skeleton-row"></div>').join("");
+  document.getElementById("detailArea").innerHTML=`<div class="detail-empty"><div class="detail-empty-icon">📄</div><div>기사를 선택하면 내용이 표시됩니다.</div></div>`;
   document.getElementById("reloadBtn").disabled=true;
   document.getElementById("feedCount").textContent="로딩 중...";
   document.getElementById("noticeBanner").style.display="none";
@@ -415,7 +410,7 @@ async function loadFeeds(){
     const data=await r.json();
 
     const raw=(data.articles||[]).map(a=>{
-      const title=(a.title||"").replace(/\s*-\s*[^-]+$/, "").trim(); // "제목 - 출처" → "제목"만
+      const title=(a.title||"").replace(/\s*-\s*[^-]+$/, "").trim();
       const desc=a.desc||"";
       const full=(title+" "+desc).toLowerCase();
       return {
@@ -434,20 +429,20 @@ async function loadFeeds(){
     lastUpdated=data.updatedAt?new Date(data.updatedAt):new Date();
 
     if(!articles.length){
-      document.getElementById("noticeBanner").style.display="";
-      document.getElementById("noticeBanner").textContent="뉴스 데이터가 아직 없습니다. GitHub Actions가 실행된 후 새로고침해 주세요.";
+      showNotice("뉴스 데이터가 아직 없습니다. GitHub Actions가 실행된 후 새로고침해 주세요.");
     }
   }catch(e){
-    document.getElementById("noticeBanner").style.display="";
-    document.getElementById("noticeBanner").textContent=`⚠ news.json 로드 실패: ${e.message}`;
+    showNotice(`⚠ news.json 로드 실패: ${e.message}`);
   }
 
   renderFeed();
 }
 
-// ══════════════════════════════════════════════════════════
-//  Render Feed
-// ══════════════════════════════════════════════════════════
+function showNotice(msg){
+  const el=document.getElementById("noticeBanner");
+  el.textContent=msg; el.style.display="";
+}
+
 function timeAgo(d){
   const s=(Date.now()-d.getTime())/1000;
   if(isNaN(s)||s<0) return "";
@@ -457,17 +452,7 @@ function timeAgo(d){
   return Math.floor(s/86400)+"일 전";
 }
 
-function renderFeed(){
-  const ec=Object.keys(errors).length;
-  const eb=document.getElementById("errBadge");
-  if(ec){
-    eb.style.display=""; eb.textContent=`⚠ ${ec}개 소스 오류`;
-    eb.title=Object.entries(errors).map(([k,v])=>`${k}: ${v}`).join("\n");
-  } else eb.style.display="none";
-
-  // 제품 탭 필터링
-  // - 전용 소스(prod===activeProd): 그대로 포함
-  // - 공통 소스(prod==="all"): 특정 제품 탭에서는 해당 제품 키워드와 매칭되는 기사만 포함
+function filterArticles(){
   const strictSourceIds = new Set(SOURCES.filter(s=>s.prod===activeProd).map(s=>s.id));
   const allSourceIds    = new Set(SOURCES.filter(s=>s.prod==="all").map(s=>s.id));
   const activeProdObj   = PRODUCTS.find(p=>p.id===activeProd);
@@ -479,67 +464,111 @@ function renderFeed(){
     if(activeProd==="all") return true;
     if(strictSourceIds.has(a.sourceId)) return true;
     if(allSourceIds.has(a.sourceId)){
-      // 공통 소스 기사는 해당 제품 키워드와 실제 매칭될 때만 포함
       return includes((a.title+" "+a.desc).toLowerCase(), activeProdKw);
     }
     return false;
   });
 
-  if(activeType!=="all"){
-    list=list.filter(a=>a.articleType===activeType);
-  }
+  if(activeType!=="all") list=list.filter(a=>a.articleType===activeType);
   if(searchQuery.trim()){
     const q=searchQuery.toLowerCase();
     list=list.filter(a=>(a.searchText||a.title.toLowerCase()).includes(q));
   }
+  return list;
+}
+
+const srcProdMap=Object.fromEntries(SOURCES.map(s=>[s.id,s.prod]));
+const FLAGS={KR:"🇰🇷",US:"🇺🇸"};
+
+function renderFeed(){
+  const ec=Object.keys(errors).length;
+  const eb=document.getElementById("errBadge");
+  if(ec){ eb.style.display=""; eb.textContent=`⚠ ${ec}개 소스 오류`; eb.title=Object.entries(errors).map(([k,v])=>`${k}: ${v}`).join("\n"); }
+  else eb.style.display="none";
+
+  const list=filterArticles();
 
   const upd=lastUpdated?` · ${lastUpdated.toLocaleTimeString("ko-KR",{hour:"2-digit",minute:"2-digit"})} 업데이트`:"";
   document.getElementById("feedCount").textContent=`${list.length}개 기사${upd}`;
   document.getElementById("reloadBtn").disabled=false;
 
-  const area=document.getElementById("feedArea");
+  const listArea=document.getElementById("listArea");
+
   if(!list.length){
-    area.innerHTML=`<div class="empty">조건에 맞는 기사가 없습니다.<br><small>다른 제품·유형 탭을 선택하거나 새로고침해 보세요.</small></div>`;
+    listArea.innerHTML=`<div class="empty-list">조건에 맞는 기사가 없습니다.<br><small>다른 탭을 선택하거나 새로고침해 보세요.</small></div>`;
+    document.getElementById("detailArea").innerHTML=`<div class="detail-empty"><div class="detail-empty-icon">🔍</div><div>조건에 맞는 기사가 없습니다.</div></div>`;
     return;
   }
 
-  const grid=document.createElement("div"); grid.className="article-grid";
-  const FLAGS={KR:"🇰🇷",US:"🇺🇸"};
-  // 소스 id → prod 맵
-  const srcProdMap=Object.fromEntries(SOURCES.map(s=>[s.id,s.prod]));
+  if(selectedArticle && !list.find(a=>a.id===selectedArticle.id)) selectedArticle=null;
+  if(!selectedArticle) selectedArticle=list[0];
+
+  listArea.innerHTML="";
   list.forEach(a=>{
-    const typeLabel=TYPES.find(t=>t.id===a.articleType)?.label??"";
-    // 소스의 prod로 제품 태그 결정 (더 정확)
     const srcProd=srcProdMap[a.sourceId];
     const prodObj=srcProd&&srcProd!=="all"?PRODUCTS.find(p=>p.id===srcProd):null;
-    const prodTags=prodObj
-      ?`<span class="tag-prod" style="background:${prodObj.color};color:${prodObj.textColor}">${prodObj.name}</span>`
-      :(a.matchedProds||[]).slice(0,2).map(p=>`<span class="tag-prod" style="background:${p.color};color:${p.textColor}">${p.name}</span>`).join("");
-    const classTags=prodObj
-      ?`<span class="tag-class">${prodObj.classLabel}</span>`
-      :(a.matchedClasses||[]).slice(0,1).map(p=>`<span class="tag-class">${p.classLabel}</span>`).join("");
-    const card=document.createElement("a");
-    card.className="card";
-    card.href=a.link; card.target="_blank"; card.rel="noopener noreferrer";
-    const barColor=prodObj?.iconBg||"#e2e8f0";
-    card.innerHTML=`
-      <div class="card-accent-bar" style="background:${barColor}"></div>
-      <div class="card-meta">
-        <span class="card-source">${FLAGS[a.country]||""} ${a.sourceName}</span>
-        <span>${timeAgo(a.date)}</span>
+    const accentColor=prodObj?.iconBg||"#e2e8f0";
+
+    const row=document.createElement("div");
+    row.className="article-row"+(a.id===selectedArticle?.id?" selected":"");
+    row.innerHTML=`
+      <div class="row-accent" style="background:${accentColor}"></div>
+      <div class="row-body">
+        <div class="row-title">${a.title}</div>
+        <div class="row-meta">
+          <span class="row-source">${FLAGS[a.country]||""} ${a.sourceName}</span>
+          <span>${timeAgo(a.date)}</span>
+        </div>
       </div>
-      <div class="card-title">${a.title}</div>
-      ${a.desc?`<div class="card-desc">${a.desc}…</div>`:""}
-      <div class="card-footer">
+    `;
+    row.onclick=()=>{
+      selectedArticle=a;
+      listArea.querySelectorAll(".article-row").forEach(r=>r.classList.remove("selected"));
+      row.classList.add("selected");
+      renderDetail(a);
+    };
+    listArea.appendChild(row);
+  });
+
+  renderDetail(selectedArticle);
+}
+
+function renderDetail(a){
+  if(!a) return;
+  const detailArea=document.getElementById("detailArea");
+  const srcProd=srcProdMap[a.sourceId];
+  const prodObj=srcProd&&srcProd!=="all"?PRODUCTS.find(p=>p.id===srcProd):null;
+  const accentBg=prodObj?.iconBg||"linear-gradient(135deg,#94a3b8,#64748b)";
+  const typeLabel=TYPES.find(t=>t.id===a.articleType)?.label??"";
+
+  const prodTags=prodObj
+    ?`<span class="tag-prod" style="background:${prodObj.color};color:${prodObj.textColor}">${prodObj.name}</span>`
+    :(a.matchedProds||[]).slice(0,2).map(p=>`<span class="tag-prod" style="background:${p.color};color:${p.textColor}">${p.name}</span>`).join("");
+  const classTags=prodObj
+    ?`<span class="tag-class">${prodObj.classLabel}</span>`
+    :(a.matchedClasses||[]).slice(0,1).map(p=>`<span class="tag-class">${p.classLabel}</span>`).join("");
+
+  detailArea.innerHTML=`
+    <div class="detail-card">
+      <div class="detail-accent" style="background:${accentBg}"></div>
+      <div class="detail-meta">
+        <span class="detail-meta-source">${FLAGS[a.country]||""} ${a.sourceName}</span>
+        <span>·</span>
+        <span>${timeAgo(a.date)}</span>
+        ${a.date?`<span>· ${a.date.toLocaleDateString("ko-KR",{year:"numeric",month:"long",day:"numeric"})}</span>`:""}
+      </div>
+      <div class="detail-title">${a.title}</div>
+      ${a.desc?`<div class="detail-desc">${a.desc}</div>`:""}
+      <div class="detail-tags">
         ${prodTags}${classTags}
         ${typeLabel?`<span class="tag-type">${typeLabel}</span>`:""}
       </div>
-    `;
-    grid.appendChild(card);
-  });
-  area.innerHTML=""; area.appendChild(grid);
+      <a class="detail-link" href="${a.link}" target="_blank" rel="noopener noreferrer" style="background:${accentBg}">
+        기사 원문 보기 →
+      </a>
+    </div>
+  `;
 }
-
 </script>
 </body>
 </html>
