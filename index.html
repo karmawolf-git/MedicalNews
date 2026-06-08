@@ -135,7 +135,7 @@ input { font-family:inherit; }
     <div class="brand">
       <span class="brand-icon">💊</span>
       <h1 class="brand-title">Product News Hub</h1>
-      <span class="brand-sub">제품 관련 뉴스 모니터링</span>
+      <span class="brand-sub">금일 기준 2주 이내의 기사만 검색됩니다.</span>
     </div>
     <div class="search-wrap">
       <input class="search-input" type="search" placeholder="기사 검색..." id="searchInput" />
@@ -396,16 +396,19 @@ async function loadFeeds(){
     const data=await r.json();
 
     const raw=(data.articles||[]).map(a=>{
-      const full=((a.title||"")+" "+(a.desc||"")).toLowerCase();
+      const title=(a.title||"").replace(/\s*-\s*[^-]+$/, "").trim(); // "제목 - 출처" → "제목"만
+      const desc=a.desc||"";
+      const full=(title+" "+desc).toLowerCase();
       return {
-        id:a.link, title:a.title, link:a.link, desc:a.desc||"",
+        id:a.link, title, link:a.link, desc,
         date: a.pubDate?new Date(a.pubDate):new Date(),
-        sourceId:a.sourceId, sourceName:a.sourceName, country:a.country,
+        sourceId:a.sourceId, sourceName:a.sourceName||"", country:a.country,
+        searchText: (title+" "+desc+" "+(a.sourceName||"")).toLowerCase(),
         matchedProds: detectProds(full),
         matchedClasses: detectClasses(full),
         articleType: detectType(full),
       };
-    }).filter(a=>a.title&&a.link&&includes((a.title+" "+a.desc).toLowerCase(), PRODUCTS[0].allKw));
+    }).filter(a=>a.title&&a.link);
 
     const seen=new Set();
     articles=raw.filter(a=>{ if(seen.has(a.link)) return false; seen.add(a.link); return true; });
@@ -468,7 +471,7 @@ function renderFeed(){
   }
   if(searchQuery.trim()){
     const q=searchQuery.toLowerCase();
-    list=list.filter(a=>a.title.toLowerCase().includes(q)||a.desc.toLowerCase().includes(q));
+    list=list.filter(a=>(a.searchText||a.title.toLowerCase()).includes(q));
   }
 
   const upd=lastUpdated?` · ${lastUpdated.toLocaleTimeString("ko-KR",{hour:"2-digit",minute:"2-digit"})} 업데이트`:"";
