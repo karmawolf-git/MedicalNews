@@ -134,7 +134,7 @@ input { font-family:inherit; color:var(--text); }
 .hero-body { padding:14px 18px 16px; flex:1; display:flex; flex-direction:column; gap:8px; }
 .hero-title { font-size:16px; font-weight:800; line-height:1.4; color:var(--text); }
 .hero-desc { font-size:13px; color:#475569; line-height:1.65;
-  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; flex:1; }
+  display:-webkit-box; -webkit-line-clamp:5; -webkit-box-orient:vertical; overflow:hidden; flex:1; }
 .hero-meta { display:flex; gap:8px; font-size:12px; color:var(--muted); align-items:center; margin-top:auto; }
 .hero-source { font-weight:700; color:var(--text); }
 
@@ -254,9 +254,6 @@ input { font-family:inherit; color:var(--text); }
 </div>
 
 <script>
-// ══════════════════════════════════════════════════════════
-//  제품 정의
-// ══════════════════════════════════════════════════════════
 const PRODUCTS = [
   { id:"all", name:"전체", generic:"모든 제품", color:"#e8f0fb", textColor:"#0050a0", icon:"🏠", iconBg:"linear-gradient(135deg,#3b82f6,#6366f1)" },
   {
@@ -378,24 +375,15 @@ const SOURCES = [
   { id:"gn_policy_en",      prod:"all"         },
 ];
 
-// ══════════════════════════════════════════════════════════
-//  State
-// ══════════════════════════════════════════════════════════
 let activeProd="all", activeType="all", searchQuery="";
 let articles=[], errors={}, lastUpdated=null;
 
-// ══════════════════════════════════════════════════════════
-//  Init
-// ══════════════════════════════════════════════════════════
 renderProdBar(); renderTypeBar();
 loadFeeds();
 
 document.getElementById("searchInput").addEventListener("input",e=>{searchQuery=e.target.value;renderFeed();});
 document.getElementById("reloadBtn").addEventListener("click",loadFeeds);
 
-// ══════════════════════════════════════════════════════════
-//  Render filters
-// ══════════════════════════════════════════════════════════
 function renderProdBar(){
   const bar=document.getElementById("prodBar"); bar.innerHTML="";
   PRODUCTS.forEach(p=>{
@@ -425,9 +413,6 @@ function renderTypeBar(){
   });
 }
 
-// ══════════════════════════════════════════════════════════
-//  키워드 매칭
-// ══════════════════════════════════════════════════════════
 function includes(text, kws){ const t=text.toLowerCase(); return kws.some(k=>t.includes(k.toLowerCase())); }
 
 function detectProds(text){
@@ -447,9 +432,6 @@ function detectType(text){
   return best.score>0 ? best.id : "disease";
 }
 
-// ══════════════════════════════════════════════════════════
-//  뉴스 로드
-// ══════════════════════════════════════════════════════════
 async function loadFeeds(){
   errors={};
   document.getElementById("feedArea").innerHTML=`<div class="skeleton-magazine"><div class="skeleton-row skeleton-hero"></div><div class="skeleton-side">${Array(4).fill('<div class="skeleton-row skeleton-card"></div>').join("")}</div></div>`;
@@ -496,9 +478,6 @@ function showNotice(msg){
   el.textContent=msg; el.style.display="";
 }
 
-// ══════════════════════════════════════════════════════════
-//  Render Feed
-// ══════════════════════════════════════════════════════════
 function timeAgo(d){
   const s=(Date.now()-d.getTime())/1000;
   if(isNaN(s)||s<0) return "";
@@ -536,6 +515,13 @@ function filterArticles(){
 const srcProdMap=Object.fromEntries(SOURCES.map(s=>[s.id,s.prod]));
 const FLAGS={KR:"🇰🇷",US:"🇺🇸"};
 
+function cleanDesc(title, desc){
+  if(!desc) return "";
+  const t = title.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
+  const cleaned = desc.replace(new RegExp("^"+t+"[\\s\\-–—:·|,]*","i"),"").trim();
+  return cleaned || desc;
+}
+
 function makeTags(a, prodObj){
   const typeLabel=TYPES.find(t=>t.id===a.articleType)?.label??"";
   const prodTags=prodObj
@@ -571,7 +557,6 @@ function renderFeed(){
   const grid=document.createElement("div");
   grid.className="mag-grid";
 
-  // ── Hero + side stack (first 5) ──
   const hero=list[0];
   const sides=list.slice(1,5);
 
@@ -581,14 +566,14 @@ function renderFeed(){
   heroEl.className="mag-hero";
   heroEl.href=hero.link; heroEl.target="_blank"; heroEl.rel="noopener noreferrer";
   heroEl.innerHTML=`
-    <div class="hero-thumb" style="">
+    <div class="hero-thumb">
       <div class="hero-thumb-gradient" style="background:${heroBg};opacity:.18"></div>
       <div class="hero-thumb-gradient" style="background:linear-gradient(to top,rgba(255,255,255,.95) 0%,transparent 60%)"></div>
       <div class="hero-badge">${makeTags(hero,heroProd)}</div>
     </div>
     <div class="hero-body">
       <div class="hero-title">${hero.title}</div>
-      ${hero.desc?`<div class="hero-desc">${hero.desc}</div>`:""}
+      ${hero.desc?`<div class="hero-desc">${cleanDesc(hero.title,hero.desc)}</div>`:""}
       <div class="hero-meta">
         <span class="hero-source">${FLAGS[hero.country]||""} ${hero.sourceName}</span>
         <span>·</span><span>${timeAgo(hero.date)}</span>
@@ -608,7 +593,7 @@ function renderFeed(){
     card.style.borderLeftColor=borderColor;
     card.innerHTML=`
       <div class="side-title">${a.title}</div>
-      ${a.desc?`<div class="side-desc">${a.desc}</div>`:""}
+      ${a.desc?`<div class="side-desc">${cleanDesc(a.title,a.desc)}</div>`:""}
       <div class="side-meta">
         <span class="side-source">${FLAGS[a.country]||""} ${a.sourceName}</span>
         <span>·</span><span>${timeAgo(a.date)}</span>
@@ -618,7 +603,6 @@ function renderFeed(){
   });
   grid.appendChild(sideEl);
 
-  // ── Rest as 3-col cards ──
   const rest=list.slice(5);
   if(rest.length){
     const div=document.createElement("div");
@@ -634,7 +618,7 @@ function renderFeed(){
       card.innerHTML=`
         <div class="card-top-bar" style="background:${accentBg}"></div>
         <div class="card-title">${a.title}</div>
-        ${a.desc?`<div class="card-desc">${a.desc}</div>`:""}
+        ${a.desc?`<div class="card-desc">${cleanDesc(a.title,a.desc)}</div>`:""}
         <div class="card-meta">
           <span class="card-source">${FLAGS[a.country]||""} ${a.sourceName}</span>
           <span>·</span><span>${timeAgo(a.date)}</span>
