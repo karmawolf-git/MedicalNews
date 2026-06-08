@@ -286,78 +286,20 @@ const TYPES = [
   { id:"research", label:"연구/학술",  kw:["연구","학술","논문","발표","결과","데이터","메타분석","리얼월드","real-world","study","research","journal","published","meta-analysis","rwe","rct","randomized","무작위","코호트","cohort"] },
 ];
 
-// ══════════════════════════════════════════════════════════
-//  Google News RSS 소스 (제품·계열별 쿼리)
-//  — 개별 사이트 RSS 대신 구글 뉴스 RSS를 사용해 CORS 문제 우회
-// ══════════════════════════════════════════════════════════
-function dateAfter(days){
-  const d=new Date(); d.setDate(d.getDate()-days);
-  return d.toISOString().slice(0,10);
-}
-function gnKR(q){ return `https://news.google.com/rss/search?q=${encodeURIComponent(q+" after:"+dateAfter(14))}&hl=ko&gl=KR&ceid=KR:ko`; }
-function gnEN(q){ return `https://news.google.com/rss/search?q=${encodeURIComponent(q+" after:"+dateAfter(14))}&hl=en-US&gl=US&ceid=US:en`; }
-
+// SOURCES는 renderFeed의 prod 필터용으로만 사용 (fetch는 news.json에서)
 const SOURCES = [
-  // ── 리피토 / Statin 계열 ──
-  { id:"gn_lipitor_kr", name:"리피토·스타틴 (국내)", country:"KR",
-    rss: gnKR("리피토 OR 아토르바스타틴 OR 이상지질혈증 OR 고지혈증 OR 스타틴 OR 크레스토 OR 로수바스타틴 OR 에제티미브 OR PCSK9"),
-    desc:"리피토·스타틴 계열 국내 뉴스", prod:"lipitor" },
-  { id:"gn_statin_en",  name:"Lipitor·Statin (Global)", country:"US",
-    rss: gnEN("atorvastatin OR lipitor OR statin OR rosuvastatin OR LDL cholesterol OR PCSK9 inhibitor OR evolocumab OR inclisiran"),
-    desc:"Statin class & PCSK9 inhibitor global news", prod:"lipitor" },
-
-  // ── 노바스크 / CCB 계열 ──
-  { id:"gn_norvasc_kr", name:"노바스크·CCB (국내)", country:"KR",
-    rss: gnKR("노바스크 OR 암로디핀 OR 고혈압 OR 칼슘채널차단제 OR 협심증 OR ARB OR 발사르탄 OR 텔미사르탄"),
-    desc:"CCB·항고혈압 계열 국내 뉴스", prod:"norvasc" },
-  { id:"gn_htn_en",     name:"Norvasc·CCB (Global)", country:"US",
-    rss: gnEN("amlodipine OR norvasc OR hypertension treatment OR calcium channel blocker OR ARB antihypertensive OR blood pressure guideline"),
-    desc:"CCB & antihypertensive global news", prod:"norvasc" },
-
-  // ── 리리카 / Gabapentinoid 계열 ──
-  { id:"gn_lyrica_kr",  name:"리리카·신경통 (국내)", country:"KR",
-    rss: gnKR("리리카 OR 프레가발린 OR 신경병증성 통증 OR 섬유근육통 OR 뇌전증 OR 가바펜틴 OR 당뇨병성 신경병증 OR 대상포진 후 신경통"),
-    desc:"Gabapentinoid·신경통 국내 뉴스", prod:"lyrica" },
-  { id:"gn_neuro_en",   name:"Lyrica·Neuropathy (Global)", country:"US",
-    rss: gnEN("pregabalin OR lyrica OR gabapentin OR neuropathic pain OR fibromyalgia OR diabetic neuropathy OR postherpetic neuralgia"),
-    desc:"Gabapentinoid & neuropathic pain global news", prod:"lyrica" },
-
-  // ── 쎄레브렉스 / COX-2 계열 ──
-  { id:"gn_celebrex_kr",name:"쎄레브렉스·관절염 (국내)", country:"KR",
-    rss: gnKR("쎄레브렉스 OR 셀레콕시브 OR 골관절염 OR 류마티스관절염 OR COX-2 OR NSAID OR 에토리콕시브 OR 멜록시캄 OR TNF억제제"),
-    desc:"COX-2·관절염 국내 뉴스", prod:"celebrex" },
-  { id:"gn_arthritis_en",name:"Celebrex·Arthritis (Global)", country:"US",
-    rss: gnEN("celecoxib OR celebrex OR osteoarthritis OR rheumatoid arthritis OR COX-2 inhibitor OR etoricoxib OR NSAID OR TNF inhibitor"),
-    desc:"COX-2 & arthritis global news", prod:"celebrex" },
-
-  // ── 카듀엣 / CCB+Statin ──
-  { id:"gn_caduet_kr",  name:"카듀엣·복합제 (국내)", country:"KR",
-    rss: gnKR("카듀엣 OR 암로디핀 아토르바스타틴 OR 고혈압 이상지질혈증 복합제 OR 심혈관 복합 치료 OR 고정용량복합제"),
-    desc:"CCB+Statin 복합제 국내 뉴스", prod:"caduet" },
-  { id:"gn_caduet_en",  name:"Caduet·Combo (Global)", country:"US",
-    rss: gnEN("caduet OR amlodipine atorvastatin OR fixed dose combination hypertension dyslipidemia OR cardiovascular combination therapy"),
-    desc:"CCB+Statin combination global news", prod:"caduet" },
-
-  // ── 제약 정책 / 규제 (공통) ──
-  { id:"gn_policy_kr",  name:"의약품 정책 (국내)", country:"KR",
-    rss: gnKR("의약품 급여 OR 식약처 허가 OR 심평원 OR 약가 OR 보험급여 스타틴 OR 보험급여 고혈압 OR 보험급여 관절염"),
-    desc:"의약품 급여·정책 국내 뉴스", prod:"all" },
-  { id:"gn_policy_en",  name:"Drug Policy (Global)", country:"US",
-    rss: gnEN("FDA approval cardiovascular OR EMA approval statin OR drug pricing cholesterol OR reimbursement arthritis OR neuropathic pain guideline"),
-    desc:"Drug approval & policy global news", prod:"all" },
-];
-
-// ══════════════════════════════════════════════════════════
-//  Fetch helpers
-// ══════════════════════════════════════════════════════════
-// rss2json.com: RSS → JSON 전용 서비스 (CORS 지원, Google News RSS 호환)
-const RSS2JSON = u=>`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(u)}&count=20`;
-
-// CORS proxy fallback (raw XML 반환)
-const RAW_PROXIES = [
-  u=>`https://corsproxy.io/?${encodeURIComponent(u)}`,
-  u=>`https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(u)}`,
-  u=>`https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`,
+  { id:"gn_lipitor_kr",   prod:"lipitor"  },
+  { id:"gn_statin_en",    prod:"lipitor"  },
+  { id:"gn_norvasc_kr",   prod:"norvasc"  },
+  { id:"gn_htn_en",       prod:"norvasc"  },
+  { id:"gn_lyrica_kr",    prod:"lyrica"   },
+  { id:"gn_neuro_en",     prod:"lyrica"   },
+  { id:"gn_celebrex_kr",  prod:"celebrex" },
+  { id:"gn_arthritis_en", prod:"celebrex" },
+  { id:"gn_caduet_kr",    prod:"caduet"   },
+  { id:"gn_caduet_en",    prod:"caduet"   },
+  { id:"gn_policy_kr",    prod:"all"      },
+  { id:"gn_policy_en",    prod:"all"      },
 ];
 
 // ══════════════════════════════════════════════════════════
@@ -436,101 +378,46 @@ function detectType(text){
 }
 
 // ══════════════════════════════════════════════════════════
-//  RSS Fetch — 프록시 경쟁 방식 (가장 빠른 응답 사용)
+//  뉴스 로드 — GitHub Actions가 3시간마다 생성한 news.json 사용
+//  (CORS 프록시 불필요, 빠르고 안정적)
 // ══════════════════════════════════════════════════════════
-function fetchTimeout(url, ms=10000){
-  const ctrl=new AbortController();
-  const tid=setTimeout(()=>ctrl.abort(),ms);
-  return fetch(url,{signal:ctrl.signal}).finally(()=>clearTimeout(tid));
-}
-
-function parseItems(items, src){
-  return items.map(item=>{
-    const title=(item.title||"").trim();
-    const link=item.link||item.guid||"";
-    const desc=(item.description||item.content||"").replace(/<[^>]+>/g,"").replace(/\s+/g," ").trim().slice(0,200);
-    if(!title||!link) return null;
-    const full=(title+" "+desc).toLowerCase();
-    if(!includes(full, PRODUCTS[0].allKw)) return null;
-    return {
-      id:item.guid||link, title, link, desc,
-      date: item.pubDate?new Date(item.pubDate):new Date(),
-      sourceId:src.id, sourceName:src.name, country:src.country,
-      matchedProds: detectProds(full),
-      matchedClasses: detectClasses(full),
-      articleType: detectType(full),
-    };
-  }).filter(Boolean);
-}
-
-function parseXmlItems(xmlText){
-  const xml=new DOMParser().parseFromString(xmlText,"text/xml");
-  if(xml.querySelector("parsererror")) throw new Error("XML 오류");
-  const g=(el,tag)=>el.querySelector(tag)?.textContent?.trim()??"";
-  return [...xml.querySelectorAll("item")].slice(0,20).map(item=>({
-    title: g(item,"title"), link: g(item,"link"), guid: g(item,"guid"),
-    pubDate: g(item,"pubDate"), description: g(item,"description"),
-  }));
-}
-
-async function fetchViaRss2Json(src){
-  const r=await fetchTimeout(RSS2JSON(src.rss));
-  if(!r.ok) throw new Error(`rss2json ${r.status}`);
-  const d=await r.json();
-  if(d.status!=="ok"||!d.items?.length) throw new Error("rss2json empty");
-  return parseItems(d.items, src);
-}
-
-async function fetchViaProxy(mk, src){
-  const r=await fetchTimeout(mk(src.rss));
-  if(!r.ok) throw new Error(`proxy ${r.status}`);
-  const txt=await r.text();
-  if(!txt.includes("<item>")&&!txt.includes("<entry>")) throw new Error("no items");
-  return parseItems(parseXmlItems(txt), src);
-}
-
-async function fetchRss(src){
-  try{
-    // Promise.any: 가장 먼저 성공한 결과 반환, 모두 실패 시 throw
-    return await Promise.any([
-      fetchViaRss2Json(src),
-      ...RAW_PROXIES.map(mk=>fetchViaProxy(mk,src)),
-    ]);
-  }catch(e){
-    throw new Error("연결 실패");
-  }
-}
-
 async function loadFeeds(){
-  const sources=SOURCES;
-  if(!sources.length){renderFeed();return;}
   errors={};
   document.getElementById("feedArea").innerHTML=`<div class="skeleton-grid">${Array(6).fill('<div class="skeleton"></div>').join("")}</div>`;
   document.getElementById("reloadBtn").disabled=true;
   document.getElementById("feedCount").textContent="로딩 중...";
   document.getElementById("noticeBanner").style.display="none";
 
-  const results=await Promise.allSettled(sources.map(fetchRss));
-  const raw=[];
-  results.forEach((r,i)=>{
-    if(r.status==="fulfilled") raw.push(...r.value);
-    else errors[sources[i].id]=r.reason?.message??"실패";
-  });
+  try{
+    const r=await fetch("news.json?v="+Date.now());
+    if(!r.ok) throw new Error(`HTTP ${r.status}`);
+    const data=await r.json();
 
-  // 중복 링크 제거
-  const seen=new Set();
-  const uniq=raw.filter(a=>{ if(seen.has(a.link)) return false; seen.add(a.link); return true; });
-  uniq.sort((a,b)=>b.date-a.date);
-  articles=uniq; lastUpdated=new Date();
+    const raw=(data.articles||[]).map(a=>{
+      const full=((a.title||"")+" "+(a.desc||"")).toLowerCase();
+      return {
+        id:a.link, title:a.title, link:a.link, desc:a.desc||"",
+        date: a.pubDate?new Date(a.pubDate):new Date(),
+        sourceId:a.sourceId, sourceName:a.sourceName, country:a.country,
+        matchedProds: detectProds(full),
+        matchedClasses: detectClasses(full),
+        articleType: detectType(full),
+      };
+    }).filter(a=>a.title&&a.link&&includes((a.title+" "+a.desc).toLowerCase(), PRODUCTS[0].allKw));
 
-  if(articles.length===0){
+    const seen=new Set();
+    articles=raw.filter(a=>{ if(seen.has(a.link)) return false; seen.add(a.link); return true; });
+    lastUpdated=data.updatedAt?new Date(data.updatedAt):new Date();
+
+    if(!articles.length){
+      document.getElementById("noticeBanner").style.display="";
+      document.getElementById("noticeBanner").textContent="뉴스 데이터가 아직 없습니다. GitHub Actions가 실행된 후 새로고침해 주세요.";
+    }
+  }catch(e){
     document.getElementById("noticeBanner").style.display="";
+    document.getElementById("noticeBanner").textContent=`⚠ news.json 로드 실패: ${e.message}`;
   }
-  const allFailed=Object.keys(errors).length===sources.length;
-  if(allFailed){
-    document.getElementById("noticeBanner").style.display="";
-    document.getElementById("noticeBanner").textContent="⚠ 모든 뉴스 소스 연결에 실패했습니다. 네트워크를 확인하거나 잠시 후 새로고침해 주세요.";
-  }
+
   renderFeed();
 }
 
