@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MedicalNews Layout Preview</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, 'Noto Sans KR', sans-serif; background: #f1f5f9; color: #1e293b; }
+  .page-header { background: #fff; border-bottom: 1px solid #e2e8f0; padding: 20px 32px; }
+  .page-header h1 { font-size: 20px; font-weight: 700; color: #0f172a; }
+  .page-header p { font-size: 13px; color: #64748b; margin-top: 4px; }
+  .section { margin: 32px auto; max-width: 1100px; padding: 0 16px; }
+  .section-label { font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #94a3b8; margin-bottom: 12px; }
+  .section-title { font-size: 16px; font-weight: 700; color: #0f172a; margin-bottom: 16px; padding-bottom: 10px; border-bottom: 2px solid #e2e8f0; }
+
+  /* ── COLOR TOKENS ── */
+  .c-amber  { color: #f59e0b; } .bg-amber  { background: #f59e0b; } .bdr-amber  { border-color: #f59e0b; }
+  .c-green  { color: #22c55e; } .bg-green  { background: #22c55e; } .bdr-green  { border-color: #22c55e; }
+  .c-purple { color: #8b5cf6; } .bg-purple { background: #8b5cf6; } .bdr-purple { border-color: #8b5cf6; }
+  .c-pink   { color: #ec4899; } .bg-pink   { background: #ec4899; } .bdr-pink   { border-color: #ec4899; }
+  .c-cyan   { color: #06b6d4; } .bg-cyan   { background: #06b6d4; } .bdr-cyan   { border-color: #06b6d4; }
+
+  /* ══════════════════════════════════════════
+     LAYOUT 1 — 리스트 뷰
+  ══════════════════════════════════════════ */
+  .list-view { background: #fff; border-radius: 10px; border: 1px solid #e2e8f0; overflow: hidden; }
+  .list-row {
+    display: flex; align-items: stretch;
+    border-bottom: 1px solid #f1f5f9;
+    transition: background .12s;
+    cursor: pointer;
+  }
+  .list-row:last-child { border-bottom: none; }
+  .list-row:hover { background: #f8fafc; }
+  .list-accent { width: 4px; flex-shrink: 0; }
+  .list-body { flex: 1; padding: 14px 16px; min-width: 0; }
+  .list-title { font-size: 15px; font-weight: 700; line-height: 1.4; color: #0f172a; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .list-desc { font-size: 13px; color: #64748b; line-height: 1.5; margin-top: 4px;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .list-meta { display: flex; flex-direction: column; align-items: flex-end; justify-content: center;
+    gap: 6px; padding: 14px 16px; flex-shrink: 0; min-width: 130px; }
+  .list-source { font-size: 12px; font-weight: 600; color: #475569; }
+  .list-time { font-size: 11px; color: #94a3b8; }
+  .tags { display: flex; gap: 4px; flex-wrap: wrap; justify-content: flex-end; }
+  .tag { font-size: 10px; font-weight: 600; padding: 2px 7px; border-radius: 99px; letter-spacing: .02em; }
+  .tag-product { color: #fff; }
+  .tag-type { background: #f1f5f9; color: #475569; }
+
+  /* ══════════════════════════════════════════
+     LAYOUT 2 — 매거진
+  ══════════════════════════════════════════ */
+  .magazine { background: #fff; border-radius: 10px; border: 1px solid #e2e8f0; overflow: hidden; }
+  .mag-featured { position: relative; height: 220px; display: flex; flex-direction: column; justify-content: flex-end;
+    padding: 24px; background: linear-gradient(135deg, #1e293b 0%, #334155 60%, #475569 100%); overflow: hidden; }
+  .mag-featured-img { position: absolute; inset: 0; background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 40%, #d97706 100%);
+    opacity: .18; }
+  .mag-featured-badge { position: relative; display: inline-block; font-size: 10px; font-weight: 700;
+    background: #f59e0b; color: #fff; padding: 3px 9px; border-radius: 4px; margin-bottom: 10px; letter-spacing: .05em; }
+  .mag-featured-title { position: relative; font-size: 18px; font-weight: 800; color: #fff; line-height: 1.35; margin-bottom: 10px; }
+  .mag-featured-desc { position: relative; font-size: 13px; color: #cbd5e1; line-height: 1.6;
+    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .mag-featured-foot { position: relative; display: flex; gap: 12px; align-items: center; margin-top: 12px; }
+  .mag-featured-foot .list-source { color: #94a3b8; }
+  .mag-featured-foot .list-time { color: #64748b; }
+
+  .mag-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; }
+  .mag-card { padding: 16px; border-top: 1px solid #f1f5f9; border-right: 1px solid #f1f5f9;
+    cursor: pointer; transition: background .12s; }
+  .mag-card:last-child { border-right: none; }
+  .mag-card:hover { background: #f8fafc; }
+  .mag-card-img { height: 80px; border-radius: 6px; margin-bottom: 10px; display: flex; align-items: center; justify-content: center; }
+  .mag-card-img span { font-size: 10px; font-weight: 600; color: #fff; letter-spacing: .05em; }
+  .mag-card-title { font-size: 13px; font-weight: 700; line-height: 1.4; color: #0f172a;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 6px; }
+  .mag-card-meta { display: flex; gap: 6px; align-items: center; }
+  .mag-card-source { font-size: 11px; font-weight: 600; color: #64748b; }
+  .mag-card-time { font-size: 11px; color: #94a3b8; }
+
+  /* ══════════════════════════════════════════
+     LAYOUT 3 — 2단 분할
+  ══════════════════════════════════════════ */
+  .split-view { display: flex; background: #fff; border-radius: 10px; border: 1px solid #e2e8f0; overflow: hidden; min-height: 420px; }
+  .split-list { width: 380px; flex-shrink: 0; border-right: 1px solid #e2e8f0; overflow-y: auto; }
+  .split-list-header { padding: 12px 16px; border-bottom: 1px solid #f1f5f9; font-size: 11px; font-weight: 700;
+    letter-spacing: .06em; text-transform: uppercase; color: #94a3b8; background: #fafafa; }
+  .split-row { display: flex; align-items: stretch; border-bottom: 1px solid #f1f5f9; cursor: pointer; transition: background .12s; }
+  .split-row:last-child { border-bottom: none; }
+  .split-row:hover { background: #f8fafc; }
+  .split-row.active { background: #eff6ff; }
+  .split-row-accent { width: 3px; flex-shrink: 0; }
+  .split-row-body { flex: 1; padding: 12px 14px; min-width: 0; }
+  .split-row-title { font-size: 13px; font-weight: 600; line-height: 1.4; color: #0f172a;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .split-row-sub { display: flex; gap: 8px; margin-top: 4px; }
+  .split-row-source { font-size: 11px; font-weight: 600; color: #64748b; }
+  .split-row-time { font-size: 11px; color: #94a3b8; }
+
+  .split-detail { flex: 1; padding: 28px 32px; display: flex; flex-direction: column; }
+  .split-detail-badge { display: inline-flex; gap: 6px; margin-bottom: 16px; }
+  .split-detail-title { font-size: 20px; font-weight: 800; line-height: 1.4; color: #0f172a; margin-bottom: 14px; }
+  .split-detail-meta { display: flex; gap: 12px; align-items: center; margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid #f1f5f9; }
+  .split-detail-source { font-size: 13px; font-weight: 600; color: #475569; }
+  .split-detail-time { font-size: 12px; color: #94a3b8; }
+  .split-detail-desc { font-size: 14px; color: #334155; line-height: 1.75; flex: 1; }
+  .split-detail-foot { margin-top: 24px; display: flex; align-items: center; justify-content: space-between; }
+  .split-detail-tags { display: flex; gap: 6px; }
+  .btn-read { font-size: 13px; font-weight: 700; color: #2563eb; background: #eff6ff;
+    border: 1px solid #bfdbfe; border-radius: 6px; padding: 8px 16px; cursor: pointer; text-decoration: none;
+    transition: background .12s; }
+  .btn-read:hover { background: #dbeafe; }
+</style>
+</head>
+<body>
+
+<div class="page-header">
+  <h1>MedicalNews — 레이아웃 프리뷰</h1>
+  <p>3가지 기사 목록 레이아웃 옵션 비교 · 리피토/스타틴 더미 콘텐츠 사용</p>
+</div>
+
+<!-- ══════════ LAYOUT 1 ══════════ -->
+<div class="section">
+  <div class="section-label">Option 1</div>
+  <div class="section-title">리스트 뷰 — Full-width 행, 컬러 액센트 바</div>
+  <div class="list-view">
+
+    <div class="list-row">
+      <div class="list-accent bg-amber"></div>
+      <div class="list-body">
+        <div class="list-title">리피토 20mg, 국내 LDL 목표 달성률 72% 기록… 타 스타틴 대비 우위</div>
+        <div class="list-desc">한국지질동맥경화학회가 발표한 2026년 상반기 리얼월드 데이터 분석 결과, 아토르바스타틴 계열의 리피토 20mg 투여군에서 LDL-C 70 mg/dL 미만 도달률이 72.4%에 달한 것으로 나타났다. 이는 로수바스타틴 대비 약 8%p 높은 수치다.</div>
+      </div>
+      <div class="list-meta">
+        <span class="list-source">메디컬투데이</span>
+        <span class="list-time">2시간 전</span>
+        <div class="tags">
+          <span class="tag tag-product bg-amber">리피토</span>
+          <span class="tag tag-type">임상</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="list-row">
+      <div class="list-accent bg-amber"></div>
+      <div class="list-body">
+        <div class="list-title">FDA, 아토르바스타틴 심혈관 예방 적응증 확대 심사 착수</div>
+        <div class="list-desc">미국 FDA가 화이자의 아토르바스타틴(리피토) 계열 약물에 대한 1차 심혈관 예방 적응증 확대 신청을 접수하고 정식 심사에 돌입했다. 주요 평가 지표는 심근경색 및 뇌졸중 발생률 감소였다.</div>
+      </div>
+      <div class="list-meta">
+        <span class="list-source">히트뉴스</span>
+        <span class="list-time">5시간 전</span>
+        <div class="tags">
+          <span class="tag tag-product bg-amber">리피토</span>
+          <span class="tag tag-type">규제</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="list-row">
+      <div class="list-accent bg-green"></div>
+      <div class="list-body">
+        <div class="list-title">노바스크 단일제, 고혈압 병용요법 1차 선택지로 가이드라인 개정 반영</div>
+        <div class="list-desc">대한고혈압학회 2026 진료지침 개정안에 암로디핀(노바스크)이 RAS 억제제와의 병용요법 1차 선택지로 명시됐다. 개정위원회는 칼슘채널차단제의 강력한 혈압 강하 효과와 내약성 데이터를 근거로 제시했다.</div>
+      </div>
+      <div class="list-meta">
+        <span class="list-source">데일리팜</span>
+        <span class="list-time">8시간 전</span>
+        <div class="tags">
+          <span class="tag tag-product bg-green">노바스크</span>
+          <span class="tag tag-type">가이드라인</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="list-row">
+      <div class="list-accent bg-purple"></div>
+      <div class="list-body">
+        <div class="list-title">리리카 CR, 당뇨병성 말초신경병증 통증 조절 6개월 추적 연구 발표</div>
+        <div class="list-desc">서울대병원 신경과 연구팀이 프레가발린 서방정(리리카 CR)을 투여받은 당뇨병성 말초신경병증 환자 240명을 6개월간 추적 관찰한 결과, 통증 NRS 점수가 평균 4.2점 감소한 것으로 확인됐다.</div>
+      </div>
+      <div class="list-meta">
+        <span class="list-source">의학신문</span>
+        <span class="list-time">어제</span>
+        <div class="tags">
+          <span class="tag tag-product bg-purple">리리카</span>
+          <span class="tag tag-type">연구</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="list-row">
+      <div class="list-accent bg-cyan"></div>
+      <div class="list-body">
+        <div class="list-title">카듀엣, 고혈압·고지혈증 복합제 시장 점유율 38% 돌파</div>
+        <div class="list-desc">암로디핀/아토르바스타틴 복합제 카듀엣이 올 1분기 국내 복합 심혈관제 시장에서 점유율 38.2%를 기록하며 1위를 유지했다. 복약 순응도 개선 효과가 처방 확대의 주요 요인으로 분석된다.</div>
+      </div>
+      <div class="list-meta">
+        <span class="list-source">팜뉴스</span>
+        <span class="list-time">2일 전</span>
+        <div class="tags">
+          <span class="tag tag-product bg-cyan">카듀엣</span>
+          <span class="tag tag-type">시장</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ══════════ LAYOUT 2 ══════════ -->
+<div class="section">
+  <div class="section-label">Option 2</div>
+  <div class="section-title">매거진 — 상단 피처드 카드 + 3단 그리드</div>
+  <div class="magazine">
+
+    <!-- Featured -->
+    <div class="mag-featured">
+      <div class="mag-featured-img"></div>
+      <div class="mag-featured-badge">⭐ 주요 기사</div>
+      <div class="mag-featured-title">리피토 20mg, 국내 LDL 목표 달성률 72% 기록…<br>타 스타틴 대비 뚜렷한 우위 확인</div>
+      <div class="mag-featured-desc">한국지질동맥경화학회가 발표한 2026년 상반기 리얼월드 데이터 분석 결과, 아토르바스타틴 계열의 리피토 20mg 투여군에서 LDL-C 70 mg/dL 미만 도달률이 72.4%에 달한 것으로 나타났다. 이는 로수바스타틴 대비 약 8%p 높은 수치이며, 당뇨병 동반 환자 하위군에서도 유사한 경향이 관찰됐다.</div>
+      <div class="mag-featured-foot">
+        <span class="list-source">메디컬투데이</span>
+        <span class="list-time">2시간 전</span>
+        <span class="tag tag-product bg-amber" style="font-size:11px;padding:3px 8px;">리피토</span>
+      </div>
+    </div>
+
+    <!-- 3-col grid -->
+    <div class="mag-grid">
+
+      <div class="mag-card">
+        <div class="mag-card-img bg-green" style="background:linear-gradient(135deg,#22c55e,#16a34a);">
+          <span>노바스크</span>
+        </div>
+        <div class="mag-card-title">노바스크 단일제, 고혈압 병용요법 1차 선택지로 가이드라인 개정 반영</div>
+        <div class="mag-card-meta">
+          <span class="mag-card-source">데일리팜</span>
+          <span class="mag-card-time">8시간 전</span>
+        </div>
+      </div>
+
+      <div class="mag-card">
+        <div class="mag-card-img" style="background:linear-gradient(135deg,#8b5cf6,#6d28d9);">
+          <span style="color:#fff;font-size:10px;font-weight:700;">리리카</span>
+        </div>
+        <div class="mag-card-title">리리카 CR, 당뇨병성 신경병증 통증 NRS 4.2점 감소 확인</div>
+        <div class="mag-card-meta">
+          <span class="mag-card-source">의학신문</span>
+          <span class="mag-card-time">어제</span>
+        </div>
+      </div>
+
+      <div class="mag-card">
+        <div class="mag-card-img" style="background:linear-gradient(135deg,#ec4899,#be185d);">
+          <span style="color:#fff;font-size:10px;font-weight:700;">쎄레브렉스</span>
+        </div>
+        <div class="mag-card-title">쎄레브렉스, 위장관 부작용 저위험군 분석 메타연구 NEJM 게재</div>
+        <div class="mag-card-meta">
+          <span class="mag-card-source">청년의사</span>
+          <span class="mag-card-time">2일 전</span>
+        </div>
+      </div>
+
+      <div class="mag-card" style="border-top:1px solid #f1f5f9;">
+        <div class="mag-card-img" style="background:linear-gradient(135deg,#f59e0b,#d97706);">
+          <span style="color:#fff;font-size:10px;font-weight:700;">리피토</span>
+        </div>
+        <div class="mag-card-title">FDA, 아토르바스타틴 1차 심혈관 예방 적응증 확대 심사 착수</div>
+        <div class="mag-card-meta">
+          <span class="mag-card-source">히트뉴스</span>
+          <span class="mag-card-time">5시간 전</span>
+        </div>
+      </div>
+
+      <div class="mag-card" style="border-top:1px solid #f1f5f9;">
+        <div class="mag-card-img" style="background:linear-gradient(135deg,#06b6d4,#0284c7);">
+          <span style="color:#fff;font-size:10px;font-weight:700;">카듀엣</span>
+        </div>
+        <div class="mag-card-title">카듀엣, 고혈압·고지혈증 복합제 시장 점유율 38% 돌파</div>
+        <div class="mag-card-meta">
+          <span class="mag-card-source">팜뉴스</span>
+          <span class="mag-card-time">2일 전</span>
+        </div>
+      </div>
+
+      <div class="mag-card" style="border-top:1px solid #f1f5f9;">
+        <div class="mag-card-img" style="background:linear-gradient(135deg,#22c55e,#059669);">
+          <span style="color:#fff;font-size:10px;font-weight:700;">노바스크</span>
+        </div>
+        <div class="mag-card-title">노바스크 5mg 장기 복용군, 신장 보호 효과 3년 코호트 분석 결과 공개</div>
+        <div class="mag-card-meta">
+          <span class="mag-card-source">후생신보</span>
+          <span class="mag-card-time">3일 전</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ LAYOUT 3 ══════════ -->
+<div class="section">
+  <div class="section-label">Option 3</div>
+  <div class="section-title">2단 분할 — 좌측 목록 + 우측 기사 상세</div>
+  <div class="split-view">
+
+    <!-- Left list -->
+    <div class="split-list">
+      <div class="split-list-header">최신 기사 5건</div>
+
+      <div class="split-row active">
+        <div class="split-row-accent bg-amber"></div>
+        <div class="split-row-body">
+          <div class="split-row-title">리피토 20mg, 국내 LDL 목표 달성률 72% 기록… 타 스타틴 대비 우위</div>
+          <div class="split-row-sub">
+            <span class="split-row-source">메디컬투데이</span>
+            <span class="split-row-time">2시간 전</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="split-row">
+        <div class="split-row-accent bg-amber"></div>
+        <div class="split-row-body">
+          <div class="split-row-title">FDA, 아토르바스타틴 심혈관 예방 적응증 확대 심사 착수</div>
+          <div class="split-row-sub">
+            <span class="split-row-source">히트뉴스</span>
+            <span class="split-row-time">5시간 전</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="split-row">
+        <div class="split-row-accent bg-green"></div>
+        <div class="split-row-body">
+          <div class="split-row-title">노바스크 단일제, 고혈압 병용요법 1차 선택지로 가이드라인 개정 반영</div>
+          <div class="split-row-sub">
+            <span class="split-row-source">데일리팜</span>
+            <span class="split-row-time">8시간 전</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="split-row">
+        <div class="split-row-accent bg-purple"></div>
+        <div class="split-row-body">
+          <div class="split-row-title">리리카 CR, 당뇨병성 말초신경병증 통증 NRS 4.2점 감소 확인</div>
+          <div class="split-row-sub">
+            <span class="split-row-source">의학신문</span>
+            <span class="split-row-time">어제</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="split-row">
+        <div class="split-row-accent bg-cyan"></div>
+        <div class="split-row-body">
+          <div class="split-row-title">카듀엣, 고혈압·고지혈증 복합제 시장 점유율 38% 돌파</div>
+          <div class="split-row-sub">
+            <span class="split-row-source">팜뉴스</span>
+            <span class="split-row-time">2일 전</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right detail -->
+    <div class="split-detail">
+      <div class="split-detail-badge">
+        <span class="tag tag-product bg-amber">리피토</span>
+        <span class="tag tag-type">임상</span>
+      </div>
+      <div class="split-detail-title">리피토 20mg, 국내 LDL 목표 달성률 72% 기록… 타 스타틴 대비 뚜렷한 우위 확인</div>
+      <div class="split-detail-meta">
+        <span class="split-detail-source">메디컬투데이</span>
+        <span class="split-detail-time">2026년 6월 8일 · 2시간 전</span>
+      </div>
+      <div class="split-detail-desc">
+        한국지질동맥경화학회가 발표한 2026년 상반기 리얼월드 데이터 분석 결과, 아토르바스타틴 계열의 리피토 20mg 투여군에서 LDL-C 70 mg/dL 미만 도달률이 72.4%에 달한 것으로 나타났다. 이는 동용량 로수바스타틴 대비 약 8%p 높은 수치이며, 당뇨병 동반 환자 하위군에서도 유사한 경향이 관찰됐다.
+        <br><br>
+        연구팀은 2024~2025년 국내 3차 의료기관 12곳에서 수집한 환자 데이터 4,812건을 분석했으며, 심혈관 고위험군 및 초고위험군을 별도 층화해 분석한 결과에서도 리피토 투여군의 목표 달성률이 일관되게 높았다고 밝혔다. 복약 순응도, 병용 약물 종류, BMI 등 교란 변수를 보정한 이후에도 결과는 유지됐다.
+      </div>
+      <div class="split-detail-foot">
+        <div class="split-detail-tags">
+          <span class="tag tag-type" style="font-size:11px;padding:3px 9px;">스타틴</span>
+          <span class="tag tag-type" style="font-size:11px;padding:3px 9px;">LDL</span>
+          <span class="tag tag-type" style="font-size:11px;padding:3px 9px;">리얼월드</span>
+        </div>
+        <a class="btn-read" href="#">기사 원문 보기 →</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div style="height:40px;"></div>
+</body>
+</html>
