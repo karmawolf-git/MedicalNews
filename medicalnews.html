@@ -443,14 +443,25 @@ function renderFeed(){
     eb.title=Object.entries(errors).map(([k,v])=>`${k}: ${v}`).join("\n");
   } else eb.style.display="none";
 
-  // 제품 탭 기준: 소스의 prod 필드로 필터 (키워드 매칭보다 신뢰성 높음)
-  const prodSourceIds = new Set(
-    activeProd==="all"
-      ? SOURCES.map(s=>s.id)
-      : SOURCES.filter(s=>s.prod===activeProd||s.prod==="all").map(s=>s.id)
-  );
+  // 제품 탭 필터링
+  // - 전용 소스(prod===activeProd): 그대로 포함
+  // - 공통 소스(prod==="all"): 특정 제품 탭에서는 해당 제품 키워드와 매칭되는 기사만 포함
+  const strictSourceIds = new Set(SOURCES.filter(s=>s.prod===activeProd).map(s=>s.id));
+  const allSourceIds    = new Set(SOURCES.filter(s=>s.prod==="all").map(s=>s.id));
+  const activeProdObj   = PRODUCTS.find(p=>p.id===activeProd);
+  const activeProdKw    = activeProdObj
+    ? [...(activeProdObj.brandKw||[]),...(activeProdObj.classKw||[]),...(activeProdObj.competKw||[]),...(activeProdObj.diseaseKw||[])]
+    : [];
 
-  let list=articles.filter(a=>prodSourceIds.has(a.sourceId));
+  let list=articles.filter(a=>{
+    if(activeProd==="all") return true;
+    if(strictSourceIds.has(a.sourceId)) return true;
+    if(allSourceIds.has(a.sourceId)){
+      // 공통 소스 기사는 해당 제품 키워드와 실제 매칭될 때만 포함
+      return includes((a.title+" "+a.desc).toLowerCase(), activeProdKw);
+    }
+    return false;
+  });
 
   if(activeType!=="all"){
     list=list.filter(a=>a.articleType===activeType);
