@@ -436,9 +436,6 @@ function detectType(text){
 }
 
 // ══════════════════════════════════════════════════════════
-//  RSS Fetch
-// ══════════════════════════════════════════════════════════
-// ══════════════════════════════════════════════════════════
 //  RSS Fetch — 프록시 경쟁 방식 (가장 빠른 응답 사용)
 // ══════════════════════════════════════════════════════════
 function fetchTimeout(url, ms=10000){
@@ -476,18 +473,6 @@ function parseXmlItems(xmlText){
   }));
 }
 
-// 하나라도 유효한 결과를 반환하면 즉시 resolve, 모두 실패 시 reject
-function raceValid(promises){
-  return new Promise((resolve,reject)=>{
-    let remaining=promises.length;
-    if(!remaining){ reject(new Error("no promises")); return; }
-    promises.forEach(p=>p.then(v=>{
-      if(v!==null) resolve(v);
-      else if(--remaining===0) reject(new Error("all null"));
-    }).catch(()=>{ if(--remaining===0) reject(new Error("all failed")); }));
-  });
-}
-
 async function fetchViaRss2Json(src){
   const r=await fetchTimeout(RSS2JSON(src.rss));
   if(!r.ok) throw new Error(`rss2json ${r.status}`);
@@ -505,13 +490,15 @@ async function fetchViaProxy(mk, src){
 }
 
 async function fetchRss(src){
-  // 모든 프록시를 동시에 시도 — 가장 먼저 성공한 결과 사용
-  const candidates=[
-    fetchViaRss2Json(src),
-    ...RAW_PROXIES.map(mk=>fetchViaProxy(mk,src)),
-  ];
-  return raceValid(candidates);
-}
+  try{
+    // Promise.any: 가장 먼저 성공한 결과 반환, 모두 실패 시 throw
+    return await Promise.any([
+      fetchViaRss2Json(src),
+      ...RAW_PROXIES.map(mk=>fetchViaProxy(mk,src)),
+    ]);
+  }catch(e){
+    throw new Error("연결 실패");
+  }
 }
 
 async function loadFeeds(){
