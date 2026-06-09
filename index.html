@@ -50,8 +50,6 @@ input { font-family:inherit; color:var(--text); }
 .search-input:focus { border-color:var(--accent); box-shadow:0 0 0 3px rgba(59,130,246,.12); }
 .search-input::placeholder { color:var(--muted); }
 
-.feed-meta { display:flex; align-items:center; gap:8px; flex-shrink:0; }
-.feed-count { font-size:12px; color:var(--muted); }
 .err-badge { font-size:12px; color:var(--error); padding:3px 10px; border-radius:10px; border:1px solid rgba(239,68,68,.3); background:#fef2f2; cursor:help; }
 .reload-btn { padding:5px 14px; border-radius:14px; border:1px solid var(--border); background:var(--surface); font-size:12px; color:var(--text); transition:all .15s; }
 .reload-btn:hover:not(:disabled) { border-color:var(--accent); color:var(--accent); background:#eff6ff; }
@@ -82,119 +80,74 @@ input { font-family:inherit; color:var(--text); }
 .type-btn.active { background:#eff6ff; border-color:var(--accent); color:var(--accent); font-weight:600; }
 
 /* ── Main content ── */
-.main { max-width:1200px; margin:0 auto; padding:24px 28px; }
+.main { max-width:960px; margin:0 auto; padding:24px 28px; }
 
 /* ── Feed bar ── */
-.feed-bar { display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; gap:8px; flex-wrap:wrap; border-bottom:2px solid var(--text); padding-bottom:10px; }
+.feed-bar { display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; gap:8px; flex-wrap:wrap; border-bottom:2px solid var(--text); padding-bottom:10px; }
 .feed-bar-left { display:flex; align-items:baseline; gap:12px; }
 .feed-section-title { font-size:18px; font-weight:900; letter-spacing:-.5px; text-transform:uppercase; }
 .feed-count { font-size:12px; color:var(--muted); }
 
 /* ── Skeleton ── */
-.skeleton-magazine { display:grid; grid-template-columns:2fr 1fr; gap:20px; }
-.skeleton-row { border-radius:var(--radius); background:linear-gradient(90deg,#e2e8f0 25%,#f8fafc 50%,#e2e8f0 75%); background-size:200% 100%; animation:shimmer 1.4s infinite; }
-.skeleton-hero { height:360px; }
-.skeleton-side { display:flex; flex-direction:column; gap:12px; }
-.skeleton-card { height:100px; }
+.skeleton-list { display:flex; flex-direction:column; gap:2px; }
+.skeleton-row { border-radius:8px; background:linear-gradient(90deg,#e2e8f0 25%,#f8fafc 50%,#e2e8f0 75%); background-size:200% 100%; animation:shimmer 1.4s infinite; }
+.skeleton-card { height:62px; }
 @keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
 
-/* ══ Magazine grid ══ */
-.mag-grid {
-  display:grid;
-  grid-template-columns:repeat(12, 1fr);
-  gap:20px;
-}
-
-/* Hero — spans 4 cols */
-.mag-hero {
-  grid-column: span 4;
+/* ══ List view ══ */
+.list-view {
   display:flex; flex-direction:column;
-  background:var(--surface); border-radius:var(--radius);
-  border:1px solid var(--border); box-shadow:var(--shadow-md);
-  overflow:hidden; transition:box-shadow .2s, transform .15s;
-  text-decoration:none; color:inherit;
-}
-.mag-hero:hover { box-shadow:0 8px 32px rgba(0,0,0,.14); transform:translateY(-2px); }
-
-.hero-thumb {
-  height:30px; position:relative; overflow:hidden;
-  display:flex; align-items:flex-end;
-}
-.hero-thumb-bg {
-  position:absolute; inset:0; opacity:.12;
-  background-size:cover; background-position:center;
-}
-.hero-thumb-gradient {
-  position:absolute; inset:0;
-}
-.hero-badge {
-  position:relative; z-index:1;
-  margin:10px; display:flex; gap:6px; flex-wrap:wrap;
-}
-.hero-body { padding:8px 12px 10px; flex:1; display:flex; flex-direction:column; gap:5px; }
-.hero-title { font-size:13px; font-weight:800; line-height:1.4; color:var(--text); }
-.hero-desc { font-size:12px; color:#475569; line-height:1.55;
-  display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden; flex:1; }
-.hero-meta { display:flex; gap:8px; font-size:12px; color:var(--muted); align-items:center; margin-top:auto; }
-.hero-source { font-weight:700; color:var(--text); }
-
-/* Side stack — 8 cols */
-.mag-side {
-  grid-column: span 8;
-  display:flex; flex-direction:column; gap:14px;
+  border:1px solid var(--border); border-radius:var(--radius);
+  overflow:hidden; background:var(--surface);
+  box-shadow:var(--shadow);
 }
 
-/* Side card */
-.mag-side-card {
-  display:flex; flex-direction:column; gap:7px;
-  padding:14px 16px;
-  background:var(--surface); border-radius:var(--radius);
-  border:1px solid var(--border); box-shadow:var(--shadow);
-  border-left:4px solid;
-  overflow:hidden; transition:box-shadow .18s, transform .12s;
-  text-decoration:none; color:inherit;
-}
-.mag-side-card:hover { box-shadow:var(--shadow-md); transform:translateY(-1px); }
-.side-title { font-size:13px; font-weight:700; line-height:1.45; color:var(--text);
-  display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
-.side-desc { font-size:12px; color:var(--muted); line-height:1.55;
-  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
-.side-meta { display:flex; gap:6px; font-size:11px; color:var(--muted); align-items:center; }
-.side-source { font-weight:700; color:var(--text); }
-
-/* ── Divider row label ── */
-.mag-divider {
-  grid-column: span 12;
+.list-item {
   display:flex; align-items:center; gap:12px;
-  font-size:12px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);
-  margin-top:4px;
+  padding:11px 16px;
+  border-bottom:1px solid var(--border);
+  text-decoration:none; color:inherit;
+  transition:background .12s;
+  min-width:0;
 }
-.mag-divider::after { content:""; flex:1; height:1px; background:var(--border); }
+.list-item:last-child { border-bottom:none; }
+.list-item:hover { background:var(--surface2); }
 
-/* Standard card — 4 cols */
-.mag-card {
-  grid-column: span 4;
-  display:flex; flex-direction:column; gap:8px;
-  padding:16px 18px;
-  background:var(--surface); border-radius:var(--radius);
-  border:1px solid var(--border); box-shadow:var(--shadow);
-  overflow:hidden; transition:box-shadow .18s, transform .12s;
-  text-decoration:none; color:inherit; position:relative;
+.list-accent {
+  width:3px; min-height:36px; align-self:stretch;
+  border-radius:2px; flex-shrink:0;
 }
-.mag-card:hover { box-shadow:var(--shadow-md); transform:translateY(-2px); }
-.card-top-bar { height:3px; border-radius:3px 3px 0 0; margin:-16px -18px 10px; }
-.card-title { font-size:14px; font-weight:700; line-height:1.45; color:var(--text);
-  display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
-.card-desc { font-size:12px; color:var(--muted); line-height:1.6;
-  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; flex:1; }
-.card-meta { display:flex; gap:6px; font-size:11px; color:var(--muted); align-items:center; margin-top:auto; padding-top:6px; }
-.card-source { font-weight:700; color:var(--text); }
-.card-tags { display:flex; gap:4px; flex-wrap:wrap; }
+
+.list-num {
+  font-size:11px; font-weight:700; color:#cbd5e1;
+  min-width:20px; text-align:right; flex-shrink:0;
+}
+
+.list-body { flex:1; min-width:0; }
+
+.list-title {
+  font-size:14px; font-weight:600; line-height:1.4; color:var(--text);
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.list-item:hover .list-title { color:var(--accent); }
+
+.list-desc {
+  font-size:12px; color:var(--muted); line-height:1.45; margin-top:1px;
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+
+.list-right {
+  display:flex; flex-direction:column; align-items:flex-end; gap:4px;
+  flex-shrink:0; min-width:130px;
+}
+.list-source { font-size:12px; font-weight:700; color:var(--text); white-space:nowrap; }
+.list-time { font-size:11px; color:var(--muted); white-space:nowrap; }
+.list-tags { display:flex; gap:3px; flex-wrap:wrap; justify-content:flex-end; }
 
 /* Tags */
-.tag-prod { font-size:10px; padding:2px 8px; border-radius:6px; font-weight:700; }
-.tag-type { font-size:10px; padding:2px 8px; border-radius:6px; background:#f0fdf4; color:#15803d; }
-.tag-class { font-size:10px; padding:2px 8px; border-radius:6px; background:#f5f3ff; color:#6d28d9; }
+.tag-prod { font-size:10px; padding:2px 7px; border-radius:5px; font-weight:700; white-space:nowrap; }
+.tag-type { font-size:10px; padding:2px 7px; border-radius:5px; background:#f0fdf4; color:#15803d; white-space:nowrap; }
+.tag-class { font-size:10px; padding:2px 7px; border-radius:5px; background:#f5f3ff; color:#6d28d9; white-space:nowrap; }
 
 /* ── Notice ── */
 .notice-bar { background:#fffbeb; border-bottom:1px solid #fde68a; padding:8px 24px; font-size:12px; color:#92400e; display:none; }
@@ -203,15 +156,10 @@ input { font-family:inherit; color:var(--text); }
 .empty { text-align:center; padding:80px 20px; color:var(--muted); font-size:14px; }
 
 @media(max-width:768px){
-  .mag-hero { grid-column:span 12; }
-  .mag-side { grid-column:span 12; flex-direction:row; flex-wrap:wrap; }
-  .mag-side-card { flex:1; min-width:220px; }
-  .mag-card { grid-column:span 6; }
-}
-@media(max-width:768px){
-  .main { padding:14px; }
-  .mag-card { grid-column:span 12; }
-  .mag-side-card { min-width:100%; }
+  .main { padding:12px; }
+  .list-desc { display:none; }
+  .list-right { min-width:auto; }
+  .list-tags { display:none; }
   .brand-sub { display:none; }
   .header-inner { padding:10px 14px; }
   .filter-row { padding:8px 12px; }
@@ -254,98 +202,60 @@ input { font-family:inherit; color:var(--text); }
 </div>
 
 <script>
-// ══════════════════════════════════════════════════════════
-//  제품 정의
-// ══════════════════════════════════════════════════════════
 const PRODUCTS = [
   { id:"all", name:"전체", generic:"모든 제품", color:"#e8f0fb", textColor:"#0050a0", icon:"🏠", iconBg:"linear-gradient(135deg,#3b82f6,#6366f1)" },
   {
     id:"lipitor", name:"리피토", generic:"Statin 계열",
     color:"#fef3c7", textColor:"#92400e", icon:"💛", iconBg:"linear-gradient(135deg,#f59e0b,#f97316)",
     brandKw:  ["리피토","lipitor","atorvastatin","아토르바스타틴"],
-    classKw:  ["스타틴","statin","hmg-coa","크레스토","rosuvastatin","로수바스타틴",
-               "조코","simvastatin","심바스타틴","리바로","pitavastatin","피타바스타틴",
-               "pravastatin","프라바스타틴","fluvastatin","플루바스타틴","lovastatin","로바스타틴"],
-    competKw: ["레파타","repatha","evolocumab","에보로쿠맙",
-               "프랄런트","praluent","alirocumab","알리로쿠맙",
-               "레크비오","leqvio","inclisiran","인클리시란",
-               "넥스레톨","bempedoic acid","벰페도산"],
-    diseaseKw:["이상지질혈증","고지혈증","콜레스테롤","cholesterol","ldl","ldl-c",
-               "트리글리세라이드","triglyceride","동맥경화","atherosclerosis",
-               "심혈관","cardiovascular","심근경색","myocardial infarction","심장마비"],
+    classKw:  ["스타틴","statin","hmg-coa","크레스토","rosuvastatin","로수바스타틴","조코","simvastatin","심바스타틴","리바로","pitavastatin","피타바스타틴","pravastatin","프라바스타틴","fluvastatin","플루바스타틴","lovastatin","로바스타틴"],
+    competKw: ["레파타","repatha","evolocumab","에보로쿠맙","프랄런트","praluent","alirocumab","알리로쿠맙","레크비오","leqvio","inclisiran","인클리시란","넥스레톨","bempedoic acid","벰페도산"],
+    diseaseKw:["이상지질혈증","고지혈증","콜레스테롤","cholesterol","ldl","ldl-c","트리글리세라이드","triglyceride","동맥경화","atherosclerosis","심혈관","cardiovascular","심근경색","myocardial infarction","심장마비"],
     classLabel:"Statin·PCSK9i",
   },
   {
     id:"lipitorplus", name:"리피토플러스", generic:"Statin+Ezetimibe",
     color:"#fff7ed", textColor:"#b45309", icon:"🧡", iconBg:"linear-gradient(135deg,#f97316,#ef4444)",
     brandKw:  ["리피토플러스","lipitor plus"],
-    classKw:  ["에제티미브","ezetimibe","바이토린","vytorin","이지트롤","로수젯",
-               "rosuvastatin ezetimibe","스타틴 복합","statin combination","복합 지질"],
+    classKw:  ["에제티미브","ezetimibe","바이토린","vytorin","이지트롤","로수젯","rosuvastatin ezetimibe","스타틴 복합","statin combination","복합 지질"],
     competKw: ["레파타","repatha","evolocumab","프랄런트","praluent","레크비오","inclisiran"],
-    diseaseKw:["이상지질혈증","고지혈증","콜레스테롤","cholesterol","ldl","ldl-c",
-               "복합제","combination therapy","이중 기전"],
+    diseaseKw:["이상지질혈증","고지혈증","콜레스테롤","cholesterol","ldl","ldl-c","복합제","combination therapy","이중 기전"],
     classLabel:"Statin+Ezetimibe",
   },
   {
     id:"norvasc", name:"노바스크", generic:"CCB 계열",
     color:"#dcfce7", textColor:"#166534", icon:"💚", iconBg:"linear-gradient(135deg,#22c55e,#16a34a)",
     brandKw:  ["노바스크","norvasc","amlodipine","암로디핀"],
-    classKw:  ["칼슘채널차단제","ccb","calcium channel blocker","dihydropyridine",
-               "아달라트","nifedipine","니페디핀","펠로디핀","felodipine",
-               "레르카니디핀","lercanidipine","자니딥","실니디핀","cilnidipine","시나롱"],
-    competKw: ["발사르탄","valsartan","올메사르탄","olmesartan","텔미사르탄","telmisartan",
-               "칸데사르탄","candesartan","arb","ace inhibitor","ace억제제",
-               "에날라프릴","enalapril","라미프릴","ramipril","리시노프릴","lisinopril",
-               "베타차단제","beta blocker","메토프롤롤","metoprolol"],
-    diseaseKw:["고혈압","hypertension","협심증","angina","혈압","blood pressure",
-               "심혈관","cardiovascular","뇌졸중","stroke","심부전","heart failure",
-               "좌심실비대","lvh","신장보호","renoprotection"],
+    classKw:  ["칼슘채널차단제","ccb","calcium channel blocker","dihydropyridine","아달라트","nifedipine","니페디핀","펠로디핀","felodipine","레르카니디핀","lercanidipine","자니딥","실니디핀","cilnidipine","시나롱"],
+    competKw: ["발사르탄","valsartan","올메사르탄","olmesartan","텔미사르탄","telmisartan","칸데사르탄","candesartan","arb","ace inhibitor","ace억제제","에날라프릴","enalapril","라미프릴","ramipril","리시노프릴","lisinopril","베타차단제","beta blocker","메토프롤롤","metoprolol"],
+    diseaseKw:["고혈압","hypertension","협심증","angina","혈압","blood pressure","심혈관","cardiovascular","뇌졸중","stroke","심부전","heart failure","좌심실비대","lvh","신장보호","renoprotection"],
     classLabel:"CCB·ARB·항고혈압",
   },
   {
     id:"lyrica", name:"리리카", generic:"Gabapentinoid 계열",
     color:"#ede9fe", textColor:"#5b21b6", icon:"💜", iconBg:"linear-gradient(135deg,#8b5cf6,#6d28d9)",
     brandKw:  ["리리카","lyrica","pregabalin","프레가발린"],
-    classKw:  ["가바펜티노이드","gabapentinoid","뉴론틴","neurontin","gabapentin","가바펜틴",
-               "미로가바린","mirogabalin","타리제","tarlige"],
-    competKw: ["심발타","cymbalta","duloxetine","둘록세틴","밀나시프란","milnacipran",
-               "아미트리프틸린","amitriptyline","트라마돌","tramadol",
-               "날록세곤","tapentadol","타펜타돌","옥시코돈","oxycodone"],
-    diseaseKw:["신경병증성 통증","neuropathic pain","신경통","neuropathy",
-               "섬유근육통","fibromyalgia","뇌전증","간질","epilepsy","seizure",
-               "대상포진 후 신경통","postherpetic neuralgia","phn",
-               "당뇨병성 신경병증","diabetic neuropathy","dpn",
-               "척수손상 통증","spinal cord","중추 감작","central sensitization"],
+    classKw:  ["가바펜티노이드","gabapentinoid","뉴론틴","neurontin","gabapentin","가바펜틴","미로가바린","mirogabalin","타리제","tarlige"],
+    competKw: ["심발타","cymbalta","duloxetine","둘록세틴","밀나시프란","milnacipran","아미트리프틸린","amitriptyline","트라마돌","tramadol","날록세곤","tapentadol","타펜타돌","옥시코돈","oxycodone"],
+    diseaseKw:["신경병증성 통증","neuropathic pain","신경통","neuropathy","섬유근육통","fibromyalgia","뇌전증","간질","epilepsy","seizure","대상포진 후 신경통","postherpetic neuralgia","phn","당뇨병성 신경병증","diabetic neuropathy","dpn","척수손상 통증","spinal cord","중추 감작","central sensitization"],
     classLabel:"Gabapentinoid·진통",
   },
   {
     id:"celebrex", name:"쎄레브렉스", generic:"COX-2 억제제",
     color:"#fce7f3", textColor:"#9d174d", icon:"❤️", iconBg:"linear-gradient(135deg,#ec4899,#be185d)",
     brandKw:  ["쎄레브렉스","celebrex","celecoxib","셀레콕시브","셀레브렉스"],
-    classKw:  ["cox-2","cox2","아르콕시아","arcoxia","etoricoxib","에토리콕시브",
-               "멜록시캄","meloxicam","모빅","mobic","디클로페낙","diclofenac","볼타렌","voltaren",
-               "나프록센","naproxen","이부프로펜","ibuprofen","nsaid","nsaids","비스테로이드"],
-    competKw: ["엔브렐","enbrel","etanercept","에타너셉트","레미케이드","remicade","infliximab",
-               "tnf","il-6","토파시티닙","tofacitinib","젤잔즈","xeljanz",
-               "메토트렉세이트","methotrexate","하이드록시클로로퀸","hydroxychloroquine",
-               "바리시티닙","baricitinib","올루미언트","olumiant"],
-    diseaseKw:["골관절염","osteoarthritis","류마티스관절염","rheumatoid arthritis","ra",
-               "관절염","arthritis","척추관절염","ankylosing spondylitis","강직성 척추염",
-               "통증","pain management","항염증","anti-inflammatory",
-               "가족성 선종성 용종증","familial adenomatous polyposis","fap"],
+    classKw:  ["cox-2","cox2","아르콕시아","arcoxia","etoricoxib","에토리콕시브","멜록시캄","meloxicam","모빅","mobic","디클로페낙","diclofenac","볼타렌","voltaren","나프록센","naproxen","이부프로펜","ibuprofen","nsaid","nsaids","비스테로이드"],
+    competKw: ["엔브렐","enbrel","etanercept","에타너셉트","레미케이드","remicade","infliximab","tnf","il-6","토파시티닙","tofacitinib","젤잔즈","xeljanz","메토트렉세이트","methotrexate","하이드록시클로로퀸","hydroxychloroquine","바리시티닙","baricitinib","올루미언트","olumiant"],
+    diseaseKw:["골관절염","osteoarthritis","류마티스관절염","rheumatoid arthritis","ra","관절염","arthritis","척추관절염","ankylosing spondylitis","강직성 척추염","통증","pain management","항염증","anti-inflammatory","가족성 선종성 용종증","familial adenomatous polyposis","fap"],
     classLabel:"COX-2·NSAIDs·생물학적제제",
   },
   {
     id:"caduet", name:"카듀엣", generic:"CCB+Statin 복합",
     color:"#e0f2fe", textColor:"#0369a1", icon:"🩵", iconBg:"linear-gradient(135deg,#06b6d4,#0284c7)",
     brandKw:  ["카듀엣","caduet"],
-    classKw:  ["암로디핀 아토르바스타틴","amlodipine atorvastatin","로수바스타틴 암로디핀",
-               "rosuvastatin amlodipine","로수바미브","듀카브","atozet","복합 항고혈압",
-               "복합 지질강하","fixed dose combination","fdc"],
-    competKw: ["텔미사르탄 암로디핀","telmisartan amlodipine","올메사르탄 암로디핀",
-               "발사르탄 암로디핀","로수바스타틴 복합","statin ccb combination"],
-    diseaseKw:["고혈압","hypertension","이상지질혈증","고지혈증","심혈관","cardiovascular",
-               "복합제","combination","혈압","콜레스테롤","cholesterol","동반 질환","comorbidity"],
+    classKw:  ["암로디핀 아토르바스타틴","amlodipine atorvastatin","로수바스타틴 암로디핀","rosuvastatin amlodipine","로수바미브","듀카브","atozet","복합 항고혈압","복합 지질강하","fixed dose combination","fdc"],
+    competKw: ["텔미사르탄 암로디핀","telmisartan amlodipine","올메사르탄 암로디핀","발사르탄 암로디핀","로수바스타틴 복합","statin ccb combination"],
+    diseaseKw:["고혈압","hypertension","이상지질혈증","고지혈증","심혈관","cardiovascular","복합제","combination","혈압","콜레스테롤","cholesterol","동반 질환","comorbidity"],
     classLabel:"CCB+Statin 복합제",
   },
 ];
@@ -378,24 +288,15 @@ const SOURCES = [
   { id:"gn_policy_en",      prod:"all"         },
 ];
 
-// ══════════════════════════════════════════════════════════
-//  State
-// ══════════════════════════════════════════════════════════
 let activeProd="all", activeType="all", searchQuery="";
 let articles=[], errors={}, lastUpdated=null;
 
-// ══════════════════════════════════════════════════════════
-//  Init
-// ══════════════════════════════════════════════════════════
 renderProdBar(); renderTypeBar();
 loadFeeds();
 
 document.getElementById("searchInput").addEventListener("input",e=>{searchQuery=e.target.value;renderFeed();});
 document.getElementById("reloadBtn").addEventListener("click",loadFeeds);
 
-// ══════════════════════════════════════════════════════════
-//  Render filters
-// ══════════════════════════════════════════════════════════
 function renderProdBar(){
   const bar=document.getElementById("prodBar"); bar.innerHTML="";
   PRODUCTS.forEach(p=>{
@@ -403,11 +304,7 @@ function renderProdBar(){
     const btn=document.createElement("button");
     btn.className="prod-btn"+(isActive?" active":"");
     if(isActive && p.iconBg) btn.style.background=p.iconBg;
-    if(!isActive && p.textColor){
-      btn.style.color=p.textColor;
-      btn.style.borderColor=p.color||"";
-      btn.style.background=p.color||"";
-    }
+    if(!isActive && p.textColor){ btn.style.color=p.textColor; btn.style.borderColor=p.color||""; btn.style.background=p.color||""; }
     btn.innerHTML=`<span class="p-icon" style="background:${p.iconBg||"#e2e8f0"}">${p.icon||"💊"}</span>${p.name}`;
     btn.onclick=()=>{activeProd=p.id;renderProdBar();renderFeed();};
     bar.appendChild(btn);
@@ -425,80 +322,48 @@ function renderTypeBar(){
   });
 }
 
-// ══════════════════════════════════════════════════════════
-//  키워드 매칭
-// ══════════════════════════════════════════════════════════
 function includes(text, kws){ const t=text.toLowerCase(); return kws.some(k=>t.includes(k.toLowerCase())); }
 
 function detectProds(text){
-  return PRODUCTS.slice(1).filter(p=>
-    includes(text,[...p.brandKw,...p.classKw,...p.competKw,...p.diseaseKw])
-  );
+  return PRODUCTS.slice(1).filter(p=>includes(text,[...p.brandKw,...p.classKw,...p.competKw,...p.diseaseKw]));
 }
 function detectClasses(text){
   return PRODUCTS.slice(1).filter(p=>includes(text,[...p.classKw,...p.competKw]));
 }
 function detectType(text){
-  const scores = TYPES.slice(1).map(t=>({
-    id: t.id,
-    score: t.kw.filter(k=>text.includes(k.toLowerCase())).length
-  }));
+  const scores = TYPES.slice(1).map(t=>({id:t.id,score:t.kw.filter(k=>text.includes(k.toLowerCase())).length}));
   const best = scores.reduce((a,b)=>a.score>=b.score?a:b);
   return best.score>0 ? best.id : "disease";
 }
 
-// ══════════════════════════════════════════════════════════
-//  뉴스 로드
-// ══════════════════════════════════════════════════════════
 async function loadFeeds(){
   errors={};
-  document.getElementById("feedArea").innerHTML=`<div class="skeleton-magazine"><div class="skeleton-row skeleton-hero"></div><div class="skeleton-side">${Array(4).fill('<div class="skeleton-row skeleton-card"></div>').join("")}</div></div>`;
+  document.getElementById("feedArea").innerHTML=`<div class="skeleton-list">${Array(8).fill('<div class="skeleton-row skeleton-card"></div>').join("")}</div>`;
   document.getElementById("reloadBtn").disabled=true;
   document.getElementById("feedCount").textContent="로딩 중...";
   document.getElementById("noticeBanner").style.display="none";
-
   try{
     const r=await fetch("news.json?v="+Date.now());
     if(!r.ok) throw new Error(`HTTP ${r.status}`);
     const data=await r.json();
-
     const raw=(data.articles||[]).map(a=>{
-      const title=(a.title||"").replace(/\s*-\s*[^-]+$/, "").trim();
+      const title=(a.title||"").replace(/\s*-\s*[^-]+$/,"").trim();
       const desc=a.desc||"";
       const full=(title+" "+desc).toLowerCase();
-      return {
-        id:a.link, title, link:a.link, desc,
-        date: a.pubDate?new Date(a.pubDate):new Date(),
-        sourceId:a.sourceId, sourceName:a.sourceName||"", country:a.country,
-        searchText: (title+" "+desc+" "+(a.sourceName||"")).toLowerCase(),
-        matchedProds: detectProds(full),
-        matchedClasses: detectClasses(full),
-        articleType: detectType(full),
-      };
+      return {id:a.link,title,link:a.link,desc,date:a.pubDate?new Date(a.pubDate):new Date(),sourceId:a.sourceId,sourceName:a.sourceName||"",country:a.country,searchText:(title+" "+desc+" "+(a.sourceName||"")).toLowerCase(),matchedProds:detectProds(full),matchedClasses:detectClasses(full),articleType:detectType(full)};
     }).filter(a=>a.title&&a.link);
-
     const seen=new Set();
     articles=raw.filter(a=>{ if(seen.has(a.link)) return false; seen.add(a.link); return true; });
     lastUpdated=data.updatedAt?new Date(data.updatedAt):new Date();
-
-    if(!articles.length){
-      showNotice("뉴스 데이터가 아직 없습니다. GitHub Actions가 실행된 후 새로고침해 주세요.");
-    }
+    if(!articles.length) showNotice("뉴스 데이터가 아직 없습니다. GitHub Actions가 실행된 후 새로고침해 주세요.");
   }catch(e){
     showNotice(`⚠ news.json 로드 실패: ${e.message}`);
   }
-
   renderFeed();
 }
 
-function showNotice(msg){
-  const el=document.getElementById("noticeBanner");
-  el.textContent=msg; el.style.display="";
-}
+function showNotice(msg){ const el=document.getElementById("noticeBanner"); el.textContent=msg; el.style.display=""; }
 
-// ══════════════════════════════════════════════════════════
-//  Render Feed
-// ══════════════════════════════════════════════════════════
 function timeAgo(d){
   const s=(Date.now()-d.getTime())/1000;
   if(isNaN(s)||s<0) return "";
@@ -509,41 +374,32 @@ function timeAgo(d){
 }
 
 function filterArticles(){
-  const strictSourceIds = new Set(SOURCES.filter(s=>s.prod===activeProd).map(s=>s.id));
-  const allSourceIds    = new Set(SOURCES.filter(s=>s.prod==="all").map(s=>s.id));
-  const activeProdObj   = PRODUCTS.find(p=>p.id===activeProd);
-  const activeProdKw    = activeProdObj
-    ? [...(activeProdObj.brandKw||[]),...(activeProdObj.classKw||[]),...(activeProdObj.competKw||[]),...(activeProdObj.diseaseKw||[])]
-    : [];
-
+  const strictSourceIds=new Set(SOURCES.filter(s=>s.prod===activeProd).map(s=>s.id));
+  const allSourceIds=new Set(SOURCES.filter(s=>s.prod==="all").map(s=>s.id));
+  const activeProdObj=PRODUCTS.find(p=>p.id===activeProd);
+  const activeProdKw=activeProdObj?[...(activeProdObj.brandKw||[]),...(activeProdObj.classKw||[]),...(activeProdObj.competKw||[]),...(activeProdObj.diseaseKw||[])]:[];
   let list=articles.filter(a=>{
     if(activeProd==="all") return true;
     if(strictSourceIds.has(a.sourceId)) return true;
-    if(allSourceIds.has(a.sourceId)){
-      return includes((a.title+" "+a.desc).toLowerCase(), activeProdKw);
-    }
+    if(allSourceIds.has(a.sourceId)) return includes((a.title+" "+a.desc).toLowerCase(),activeProdKw);
     return false;
   });
-
   if(activeType!=="all") list=list.filter(a=>a.articleType===activeType);
-  if(searchQuery.trim()){
-    const q=searchQuery.toLowerCase();
-    list=list.filter(a=>(a.searchText||a.title.toLowerCase()).includes(q));
-  }
+  if(searchQuery.trim()){ const q=searchQuery.toLowerCase(); list=list.filter(a=>(a.searchText||a.title.toLowerCase()).includes(q)); }
   return list;
 }
 
 const srcProdMap=Object.fromEntries(SOURCES.map(s=>[s.id,s.prod]));
 const FLAGS={KR:"🇰🇷",US:"🇺🇸"};
 
-function cleanDesc(title, desc){
+function cleanDesc(title,desc){
   if(!desc) return "";
-  const t = title.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
-  const cleaned = desc.replace(new RegExp("^"+t+"[\\s\\-–—:·|,]*","i"),"").trim();
-  return cleaned || desc;
+  const t=title.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
+  const cleaned=desc.replace(new RegExp("^"+t+"[\\s\\-–—:·|,]*","i"),"").trim();
+  return cleaned||desc;
 }
 
-function makeTags(a, prodObj){
+function makeTags(a,prodObj){
   const typeLabel=TYPES.find(t=>t.id===a.articleType)?.label??"";
   const prodTags=prodObj
     ?`<span class="tag-prod" style="background:${prodObj.color};color:${prodObj.textColor}">${prodObj.name}</span>`
@@ -559,101 +415,40 @@ function renderFeed(){
   const eb=document.getElementById("errBadge");
   if(ec){ eb.style.display=""; eb.textContent=`⚠ ${ec}개 소스 오류`; eb.title=Object.entries(errors).map(([k,v])=>`${k}: ${v}`).join("\n"); }
   else eb.style.display="none";
-
   const list=filterArticles();
-
-  const upd=lastUpdated?` · ${lastUpdated.toLocaleTimeString("ko-KR",{hour:"2-digit",minute:"2-digit"})} 업데이트`:"";
+  const upd=lastUpdated?` · ${lastUpdated.toLocaleTimeString("ko-KR",{hour:"2-digit",minute:"2-digit"})} 업데이트}`:"";
   document.getElementById("feedCount").textContent=`${list.length}개 기사${upd}`;
   document.getElementById("reloadBtn").disabled=false;
-
   const activeProdObj=PRODUCTS.find(p=>p.id===activeProd);
   document.getElementById("sectionTitle").textContent=activeProdObj?.name==="전체"?"최신 뉴스":(activeProdObj?.name||"최신 뉴스")+" 뉴스";
-
   const area=document.getElementById("feedArea");
-  if(!list.length){
-    area.innerHTML=`<div class="empty">조건에 맞는 기사가 없습니다.<br><small>다른 제품·유형 탭을 선택하거나 새로고침해 보세요.</small></div>`;
-    return;
-  }
-
-  const grid=document.createElement("div");
-  grid.className="mag-grid";
-
-  // ── Hero + side stack (first 5) ──
-  const hero=list[0];
-  const sides=list.slice(1,5);
-
-  const heroProd=PRODUCTS.find(p=>p.id===srcProdMap[hero.sourceId])||null;
-  const heroBg=heroProd?.iconBg||"linear-gradient(135deg,#3b82f6,#6366f1)";
-  const heroEl=document.createElement("a");
-  heroEl.className="mag-hero";
-  heroEl.href=hero.link; heroEl.target="_blank"; heroEl.rel="noopener noreferrer";
-  heroEl.innerHTML=`
-    <div class="hero-thumb" style="">
-      <div class="hero-thumb-gradient" style="background:${heroBg};opacity:.18"></div>
-      <div class="hero-thumb-gradient" style="background:linear-gradient(to top,rgba(255,255,255,.95) 0%,transparent 60%)"></div>
-      <div class="hero-badge">${makeTags(hero,heroProd)}</div>
-    </div>
-    <div class="hero-body">
-      <div class="hero-title">${hero.title}</div>
-      ${hero.desc?`<div class="hero-desc">${cleanDesc(hero.title,hero.desc)}</div>`:""}
-      <div class="hero-meta">
-        <span class="hero-source">${FLAGS[hero.country]||""} ${hero.sourceName}</span>
-        <span>·</span><span>${timeAgo(hero.date)}</span>
-      </div>
-    </div>
-  `;
-  grid.appendChild(heroEl);
-
-  const sideEl=document.createElement("div");
-  sideEl.className="mag-side";
-  sides.forEach(a=>{
+  if(!list.length){ area.innerHTML=`<div class="empty">조건에 맞는 기사가 없습니다.<br><small>다른 제품·유형 탭을 선택하거나 새로고침해 보세요.</small></div>`; return; }
+  const listEl=document.createElement("div");
+  listEl.className="list-view";
+  list.forEach((a,i)=>{
     const prodObj=PRODUCTS.find(p=>p.id===srcProdMap[a.sourceId])||null;
-    const borderColor=prodObj?.color||"#e2e8f0";
-    const card=document.createElement("a");
-    card.className="mag-side-card";
-    card.href=a.link; card.target="_blank"; card.rel="noopener noreferrer";
-    card.style.borderLeftColor=borderColor;
-    card.innerHTML=`
-      <div class="side-title">${a.title}</div>
-      ${a.desc?`<div class="side-desc">${cleanDesc(a.title,a.desc)}</div>`:""}
-      <div class="side-meta">
-        <span class="side-source">${FLAGS[a.country]||""} ${a.sourceName}</span>
-        <span>·</span><span>${timeAgo(a.date)}</span>
+    const accentColor=prodObj?.iconBg ? prodObj.iconBg.match(/#[0-9a-f]{6}/i)?.[0]||"#3b82f6" : "#3b82f6";
+    const item=document.createElement("a");
+    item.className="list-item";
+    item.href=a.link; item.target="_blank"; item.rel="noopener noreferrer";
+    const cleanedDesc=cleanDesc(a.title,a.desc);
+    item.innerHTML=`
+      <div class="list-accent" style="background:${accentColor}"></div>
+      <div class="list-num">${i+1}</div>
+      <div class="list-body">
+        <div class="list-title">${a.title}</div>
+        ${cleanedDesc?`<div class="list-desc">${cleanedDesc}</div>`:""}
+      </div>
+      <div class="list-right">
+        <span class="list-source">${FLAGS[a.country]||""} ${a.sourceName}</span>
+        <span class="list-time">${timeAgo(a.date)}</span>
+        <div class="list-tags">${makeTags(a,prodObj)}</div>
       </div>
     `;
-    sideEl.appendChild(card);
+    listEl.appendChild(item);
   });
-  grid.appendChild(sideEl);
-
-  // ── Rest as 3-col cards ──
-  const rest=list.slice(5);
-  if(rest.length){
-    const div=document.createElement("div");
-    div.className="mag-divider"; div.textContent="더 많은 기사";
-    grid.appendChild(div);
-
-    rest.forEach(a=>{
-      const prodObj=PRODUCTS.find(p=>p.id===srcProdMap[a.sourceId])||null;
-      const accentBg=prodObj?.iconBg||"linear-gradient(135deg,#94a3b8,#64748b)";
-      const card=document.createElement("a");
-      card.className="mag-card";
-      card.href=a.link; card.target="_blank"; card.rel="noopener noreferrer";
-      card.innerHTML=`
-        <div class="card-top-bar" style="background:${accentBg}"></div>
-        <div class="card-title">${a.title}</div>
-        ${a.desc?`<div class="card-desc">${cleanDesc(a.title,a.desc)}</div>`:""}
-        <div class="card-meta">
-          <span class="card-source">${FLAGS[a.country]||""} ${a.sourceName}</span>
-          <span>·</span><span>${timeAgo(a.date)}</span>
-        </div>
-        <div class="card-tags">${makeTags(a,prodObj)}</div>
-      `;
-      grid.appendChild(card);
-    });
-  }
-
   area.innerHTML="";
-  area.appendChild(grid);
+  area.appendChild(listEl);
 }
 </script>
 </body>
