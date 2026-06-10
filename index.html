@@ -111,7 +111,8 @@ input { font-family:inherit; color:var(--text); }
   min-width:0;
 }
 .list-item:last-child { border-bottom:none; }
-.list-item:hover { background:var(--surface2); }
+.list-item:nth-child(even) { background:#f8fafd; }
+.list-item:hover { background:#eef4ff !important; }
 
 .list-accent {
   width:3px; min-height:36px; align-self:stretch;
@@ -146,7 +147,7 @@ input { font-family:inherit; color:var(--text); }
 
 /* Tags */
 .tag-prod { font-size:10px; padding:2px 7px; border-radius:5px; font-weight:700; white-space:nowrap; }
-.tag-type { font-size:10px; padding:2px 7px; border-radius:5px; background:#f0fdf4; color:#15803d; white-space:nowrap; }
+.tag-type { font-size:13px; line-height:1; padding:1px 3px; border-radius:4px; background:transparent; white-space:nowrap; }
 .tag-class { font-size:10px; padding:2px 7px; border-radius:5px; background:#f5f3ff; color:#6d28d9; white-space:nowrap; }
 
 /* ── Notice ── */
@@ -265,10 +266,10 @@ PRODUCTS[0].allKw = [...new Set(
 )];
 
 const TYPES = [
-  { id:"all",      label:"전체 유형" },
-  { id:"disease",  label:"질환/임상",  kw:["임상","치료","환자","질환","증상","처방","적응증","부작용","안전성","효능","clinical","trial","patient","disease","efficacy","safety","adverse","치료제","요법","처방전"] },
-  { id:"policy",   label:"정책/규제",  kw:["급여","허가","식약처","fda","ema","보험","정책","규제","심평원","급여기준","승인","약가","보험급여","approval","reimbursement","regulation","guideline","가이드라인","급여확대","비급여"] },
-  { id:"research", label:"연구/학술",  kw:["연구","학술","논문","발표","결과","데이터","메타분석","리얼월드","real-world","study","research","journal","published","meta-analysis","rwe","rct","randomized","무작위","코호트","cohort"] },
+  { id:"all",      label:"전체 유형",  icon:"📰" },
+  { id:"disease",  label:"질환/임상",  icon:"💊", kw:["임상","치료","환자","질환","증상","처방","적응증","부작용","안전성","효능","clinical","trial","patient","disease","efficacy","safety","adverse","치료제","요법","처방전"] },
+  { id:"policy",   label:"정책/규제",  icon:"📋", kw:["급여","허가","식약처","fda","ema","보험","정책","규제","심평원","급여기준","승인","약가","보험급여","approval","reimbursement","regulation","guideline","가이드라인","급여확대","비급여"] },
+  { id:"research", label:"연구/학술",  icon:"🔬", kw:["연구","학술","논문","발표","결과","데이터","메타분석","리얼월드","real-world","study","research","journal","published","meta-analysis","rwe","rct","randomized","무작위","코호트","cohort"] },
 ];
 
 const SOURCES = [
@@ -331,9 +332,9 @@ function detectClasses(text){
   return PRODUCTS.slice(1).filter(p=>includes(text,[...p.classKw,...p.competKw]));
 }
 function detectType(text){
-  const scores = TYPES.slice(1).map(t=>({id:t.id,score:t.kw.filter(k=>text.includes(k.toLowerCase())).length}));
-  const best = scores.reduce((a,b)=>a.score>=b.score?a:b);
-  return best.score>0 ? best.id : "disease";
+  const scores=TYPES.slice(1).map(t=>({id:t.id,score:t.kw.filter(k=>text.includes(k.toLowerCase())).length}));
+  const best=scores.reduce((a,b)=>a.score>=b.score?a:b);
+  return best.score>0?best.id:"disease";
 }
 
 async function loadFeeds(){
@@ -364,13 +365,13 @@ async function loadFeeds(){
 
 function showNotice(msg){ const el=document.getElementById("noticeBanner"); el.textContent=msg; el.style.display=""; }
 
-function timeAgo(d){
+function formatDate(d){
+  if(!d||isNaN(d.getTime())) return "";
   const s=(Date.now()-d.getTime())/1000;
-  if(isNaN(s)||s<0) return "";
-  if(s<60) return "방금 전";
-  if(s<3600) return Math.floor(s/60)+"분 전";
-  if(s<86400) return Math.floor(s/3600)+"시간 전";
-  return Math.floor(s/86400)+"일 전";
+  const mmdd=(d.getMonth()+1).toString().padStart(2,"0")+"/"+(d.getDate()).toString().padStart(2,"0");
+  if(s<3600) return "방금·"+mmdd;
+  if(s<86400) return Math.floor(s/3600)+"시간 전·"+mmdd;
+  return mmdd;
 }
 
 function filterArticles(){
@@ -400,14 +401,15 @@ function cleanDesc(title,desc){
 }
 
 function makeTags(a,prodObj){
-  const typeLabel=TYPES.find(t=>t.id===a.articleType)?.label??"";
+  const typeObj=TYPES.find(t=>t.id===a.articleType);
   const prodTags=prodObj
     ?`<span class="tag-prod" style="background:${prodObj.color};color:${prodObj.textColor}">${prodObj.name}</span>`
     :(a.matchedProds||[]).slice(0,2).map(p=>`<span class="tag-prod" style="background:${p.color};color:${p.textColor}">${p.name}</span>`).join("");
   const classTags=prodObj
     ?`<span class="tag-class">${prodObj.classLabel}</span>`
     :(a.matchedClasses||[]).slice(0,1).map(p=>`<span class="tag-class">${p.classLabel}</span>`).join("");
-  return prodTags+classTags+(typeLabel?`<span class="tag-type">${typeLabel}</span>`:"");
+  const typeTag=typeObj?.id!=="all"?`<span class="tag-type" title="${typeObj?.label||""}}">${typeObj?.icon||""}</span>`:"";
+  return prodTags+classTags+typeTag;
 }
 
 function renderFeed(){
@@ -416,7 +418,7 @@ function renderFeed(){
   if(ec){ eb.style.display=""; eb.textContent=`⚠ ${ec}개 소스 오류`; eb.title=Object.entries(errors).map(([k,v])=>`${k}: ${v}`).join("\n"); }
   else eb.style.display="none";
   const list=filterArticles();
-  const upd=lastUpdated?` · ${lastUpdated.toLocaleTimeString("ko-KR",{hour:"2-digit",minute:"2-digit"})} 업데이트}`:"";
+  const upd=lastUpdated?` · ${lastUpdated.toLocaleTimeString("ko-KR",{hour:"2-digit",minute:"2-digit"})} 업데이트`:"";
   document.getElementById("feedCount").textContent=`${list.length}개 기사${upd}`;
   document.getElementById("reloadBtn").disabled=false;
   const activeProdObj=PRODUCTS.find(p=>p.id===activeProd);
@@ -427,7 +429,7 @@ function renderFeed(){
   listEl.className="list-view";
   list.forEach((a,i)=>{
     const prodObj=PRODUCTS.find(p=>p.id===srcProdMap[a.sourceId])||null;
-    const accentColor=prodObj?.iconBg ? prodObj.iconBg.match(/#[0-9a-f]{6}/i)?.[0]||"#3b82f6" : "#3b82f6";
+    const accentColor=prodObj?.iconBg?prodObj.iconBg.match(/#[0-9a-f]{6}/i)?.[0]||"#3b82f6":"#3b82f6";
     const item=document.createElement("a");
     item.className="list-item";
     item.href=a.link; item.target="_blank"; item.rel="noopener noreferrer";
@@ -441,7 +443,7 @@ function renderFeed(){
       </div>
       <div class="list-right">
         <span class="list-source">${FLAGS[a.country]||""} ${a.sourceName}</span>
-        <span class="list-time">${timeAgo(a.date)}</span>
+        <span class="list-time">${formatDate(a.date)}</span>
         <div class="list-tags">${makeTags(a,prodObj)}</div>
       </div>
     `;
