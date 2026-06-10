@@ -491,7 +491,7 @@ function filterArticles(){
 }
 
 const srcProdMap=Object.fromEntries(SOURCES.map(s=>[s.id,s.prod]));
-const FLAGS={KR:"🇰🇷",US:"🇺🇸"};
+const FLAGS={KR:"🇰🇷",kr:"🇰🇷",US:"🇺🇸",us:"🇺🇸"};
 
 function cleanDesc(title, desc){
   if(!desc) return "";
