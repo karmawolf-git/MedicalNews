@@ -114,11 +114,22 @@ input { font-family:inherit; color:var(--text); }
 .list-item:nth-child(even) { background:#f8fafd; }
 .list-item:hover { background:#eef4ff !important; }
 
-.list-prod-icon {
-  width:28px; height:28px; border-radius:8px;
+.list-prod-badge {
+  display:flex; align-items:center; gap:5px;
+  padding:4px 9px 4px 5px;
+  border-radius:20px; flex-shrink:0;
+  box-shadow:0 1px 5px rgba(0,0,0,.18);
+  white-space:nowrap;
+}
+.list-prod-badge .lp-icon {
+  width:20px; height:20px; border-radius:6px;
   display:flex; align-items:center; justify-content:center;
-  font-size:15px; flex-shrink:0;
-  box-shadow:0 1px 4px rgba(0,0,0,.15);
+  font-size:12px; flex-shrink:0;
+  background:rgba(255,255,255,.25);
+}
+.list-prod-badge .lp-name {
+  font-size:11px; font-weight:800; color:#fff;
+  letter-spacing:-.2px;
 }
 
 .list-num {
@@ -173,6 +184,8 @@ input { font-family:inherit; color:var(--text); }
   .brand-sub { display:none; }
   .header-inner { padding:10px 14px; }
   .filter-row { padding:8px 12px; }
+  .list-prod-badge .lp-name { display:none; }
+  .list-prod-badge { padding:4px 5px; }
 }
 </style>
 </head>
@@ -212,9 +225,6 @@ input { font-family:inherit; color:var(--text); }
 </div>
 
 <script>
-// ══════════════════════════════════════════════════════════
-//  제품 정의
-// ══════════════════════════════════════════════════════════
 const PRODUCTS = [
   { id:"all", name:"전체", generic:"모든 제품", color:"#e8f0fb", textColor:"#0050a0", icon:"🏠", iconBg:"linear-gradient(135deg,#3b82f6,#6366f1)" },
   {
@@ -336,24 +346,15 @@ const SOURCES = [
   { id:"gn_policy_en",      prod:"all"         },
 ];
 
-// ══════════════════════════════════════════════════════════
-//  State
-// ══════════════════════════════════════════════════════════
 let activeProd="all", activeType="all", searchQuery="";
 let articles=[], errors={}, lastUpdated=null;
 
-// ══════════════════════════════════════════════════════════
-//  Init
-// ══════════════════════════════════════════════════════════
 renderProdBar(); renderTypeBar();
 loadFeeds();
 
 document.getElementById("searchInput").addEventListener("input",e=>{searchQuery=e.target.value;renderFeed();});
 document.getElementById("reloadBtn").addEventListener("click",loadFeeds);
 
-// ══════════════════════════════════════════════════════════
-//  Render filters
-// ══════════════════════════════════════════════════════════
 function renderProdBar(){
   const bar=document.getElementById("prodBar"); bar.innerHTML="";
   PRODUCTS.forEach(p=>{
@@ -383,9 +384,6 @@ function renderTypeBar(){
   });
 }
 
-// ══════════════════════════════════════════════════════════
-//  키워드 매칭
-// ══════════════════════════════════════════════════════════
 function includes(text, kws){ const t=text.toLowerCase(); return kws.some(k=>t.includes(k.toLowerCase())); }
 
 function detectProds(text){
@@ -405,9 +403,6 @@ function detectType(text){
   return best.score>0 ? best.id : "disease";
 }
 
-// ══════════════════════════════════════════════════════════
-//  뉴스 로드
-// ══════════════════════════════════════════════════════════
 async function loadFeeds(){
   errors={};
   document.getElementById("feedArea").innerHTML=`<div class="skeleton-list">${Array(8).fill('<div class="skeleton-row skeleton-card"></div>').join("")}</div>`;
@@ -454,9 +449,6 @@ function showNotice(msg){
   el.textContent=msg; el.style.display="";
 }
 
-// ══════════════════════════════════════════════════════════
-//  Render Feed
-// ══════════════════════════════════════════════════════════
 function formatDate(d){
   if(!d||isNaN(d.getTime())) return "";
   const s=(Date.now()-d.getTime())/1000;
@@ -549,6 +541,7 @@ function renderFeed(){
     const prodObj=PRODUCTS.find(p=>p.id===srcProdMap[a.sourceId])||null;
     const iconBg=prodObj?.iconBg||"linear-gradient(135deg,#94a3b8,#64748b)";
     const icon=prodObj?.icon||"📰";
+    const prodName=prodObj?.name||"기타";
 
     const item=document.createElement("a");
     item.className="list-item";
@@ -558,7 +551,10 @@ function renderFeed(){
 
     const todayBadge=isToday(a.date)?`<span class="badge-new">NEW</span>`:"";
     item.innerHTML=`
-      <div class="list-prod-icon" style="background:${iconBg}">${icon}</div>
+      <div class="list-prod-badge" style="background:${iconBg}">
+        <span class="lp-icon">${icon}</span>
+        <span class="lp-name">${prodName}</span>
+      </div>
       <div class="list-num">${i+1}</div>
       <div class="list-body">
         <div class="list-title-row">
