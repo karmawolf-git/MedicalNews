@@ -1,9 +1,49 @@
 {
-  "updatedAt": "2026-06-10T10:14:40.284Z",
+  "updatedAt": "2026-06-10T15:53:57.730Z",
   "articles": [
     {
+      "title": "세계 최고 학술지, 고혈압 관리 1등으로 '한국' 꼽았다 - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE13OVE1SndfdnVnakV2UEh5MTNiUVRLbzhxWXJTTVlvNkk3QmxvRTlTQVJBcmp1ZEhzdklIT1lkcWI5Zm91VDVZdmw4X2xBc0RGY3dn?oc=5",
+      "desc": "세계 최고 학술지, 고혈압 관리 1등으로 '한국' 꼽았다&nbsp;&nbsp;네이트",
+      "pubDate": "Wed, 10 Jun 2026 15:44:00 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "\"건강정보, 유튜브보다 임상근거 믿어야\" - 헬스이슈앤뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11NkR6X25nSk1vNkRYZ0ZYMklXZGlDeExtZUsxYkRQZktsblY2ZTBEbmpCQl82WjVaOXF0dHl5SlloY3REekZlXzd6MTdBRmtOeWZtRFBRSVVQR09vY0ZWSnNGWmhSXzNX?oc=5",
+      "desc": "\"건강정보, 유튜브보다 임상근거 믿어야\"&nbsp;&nbsp;헬스이슈앤뉴스",
+      "pubDate": "Wed, 10 Jun 2026 14:26:15 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
+    {
+      "title": "“‘스타틴 먹지 마세요’···잘못된 의학정보 공포가 뇌졸중 불러” - 의사신문",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4xdEgyczUxeWlYZ2RmU29rRDR6cTJfZVdYYi1YMVhNaW00VnZnSUxIekJPYmIyRE9Ec0pvWkJXNnVTWFQtRmhMM1hFRVpaVHQwWjlRVDNVU0oxMmp4TWZFX1Fhd2JHcFRycFoyNlNFZw?oc=5",
+      "desc": "“‘스타틴 먹지 마세요’···잘못된 의학정보 공포가 뇌졸중 불러”&nbsp;&nbsp;의사신문",
+      "pubDate": "Wed, 10 Jun 2026 13:08:45 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
+    {
+      "title": "Cullinan Therapeutics Shares New Clinical Data Across Its Portfolio of T Cell Engager Programs Targeting CD19 and BCMA in Autoimmune Diseases - Yahoo! Finance Canada",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVHVnOVhWM05QTFozY1JValJJX3g1alZuVDExM08wOXZvdjNLek9QSHRubjRtYVh4Qzl0ZERhWlloSmZ6MHo5MkIwLTdTc1dtMTBxVlc2dFlwTURiSEdja0IwTUNfZEVCY2JsdjBkSUhabnV2R3NjVG1EM0tlVE5wUWh6Z3QzWWRmUHZBb0JzOVR2b3BrVEE?oc=5",
+      "desc": "Cullinan Therapeutics Shares New Clinical Data Across Its Portfolio of T Cell Engager Programs Targeting CD19 and BCMA in Autoimmune Diseases&nbsp;&nbsp;Yahoo! Finance Canada",
+      "pubDate": "Wed, 10 Jun 2026 11:30:00 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
+    },
+    {
       "title": "\"스타틴 부작용 우려 과장…조기·지속 복용 공식이 실익 커\" - 메디칼타임즈",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE56TmJhU0Z6b0RFaFgyTVgxY0JJR2c4VFNUc2JmY3FYSDNjTE5Mam0wNkwyUTZIb090a1pLblBOd18xUkFiY0tfNDhWNGEyVU1GY2J2dGtDQnZnQ3pQc2FxY1hrNVhOUTFBd1Q4blJNTUdaM1U?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9vOTF3Y01QMUZDMW1QX0hKbkNQanV1ZTh5Q3I3WXZTQnBPOVp4VGJvRnRVNkczRm9nbU5lYXJFSmd3ZGRZYkpfVU4yWGJfdklaYktzRW5kaU5IMjZab1hHS0NFNzNnQm9iamk4NkE3WU0?oc=5",
       "desc": "\"스타틴 부작용 우려 과장…조기·지속 복용 공식이 실익 커\"&nbsp;&nbsp;메디칼타임즈",
       "pubDate": "Wed, 10 Jun 2026 09:04:23 GMT",
       "sourceId": "gn_lipitor_kr",
@@ -53,9 +93,19 @@
     },
     {
       "title": "“온라인서 퍼지는 ‘스타틴’ 관련 오해, 질환 악화로 이어져…‘치료 이점’ 명백” - 더바이오",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1IRXYzcU5vODRGS3hGNkpydjFvZEkzd3lHenJJRlpDcDd4amhKNXVCNVdRVkpkNjZMUUR4MTgxTWpWbzFMVWp4UHMxV1lDa3pCNUptS2ZvSVAwMjJES3Bsb1pKNGtJSkE1QTJ6TtIBcEFVX3lxTFBpMXQyQmktUE5aa1RESl95aXFfbDlSeFVwWFV1Rnp6MlA5d285QzZFSWVDV2ZSR3J3TmY2WFl6UW1ZczB3VW9tWWMxMXRDeHZDMEpDSEVZNTdNVWJRSS1yZncweTlKZENmN3h0N0JjZ00?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBpMXQyQmktUE5aa1RESl95aXFfbDlSeFVwWFV1Rnp6MlA5d285QzZFSWVDV2ZSR3J3TmY2WFl6UW1ZczB3VW9tWWMxMXRDeHZDMEpDSEVZNTdNVWJRSS1yZncweTlKZENmN3h0N0JjZ03SAXBBVV95cUxQaTF0MkJpLVBOWmtUREpfeWlxX2w5UnhVcFhVdUZ6ejJQOXdvOUM2RUllQ1dmUkdyd05mNlhZelFtWXMwd1VvbVljMTF0Q3h2QzBKQ0hFWTU3TVViUUktcmZ3MHk5SmRDZjd4dDdCY2dN?oc=5",
       "desc": "“온라인서 퍼지는 ‘스타틴’ 관련 오해, 질환 악화로 이어져…‘치료 이점’ 명백”&nbsp;&nbsp;더바이오",
-      "pubDate": "Wed, 10 Jun 2026 08:08:11 GMT",
+      "pubDate": "Wed, 10 Jun 2026 08:12:55 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
+    {
+      "title": "스타틴 오정보 확산 우려…AI 시대 건강정보 판별력 중요해졌다 - 메디코파마",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xMzhHX3Z3Y1JlRDMzSVJoM2pCUVdydkdhS1pGcDFiVzludXNfdHh6dFhvWURRcFZxRkxSN29wOTRBbGhOekZqNUdtMkVLeVVVc29lSVpkZjM3bEQ2TUR2d25JMDB1N1dTTndLUkF1bmgwUQ?oc=5",
+      "desc": "스타틴 오정보 확산 우려…AI 시대 건강정보 판별력 중요해졌다&nbsp;&nbsp;메디코파마",
+      "pubDate": "Wed, 10 Jun 2026 07:55:41 GMT",
       "sourceId": "gn_lipitor_kr",
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
@@ -70,16 +120,6 @@
       "sourceName": "쎄레브렉스·관절염 (국내)",
       "country": "KR",
       "prod": "celebrex"
-    },
-    {
-      "title": "“수영으로 당뇨·고혈압 싹 다 털어냈어요” - 헤럴드경제",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBySmQ0NUNNdzRQUUdacUt5TlljMUx6My0yWXZXRmYwdjI2WjVKWXluT0ZnQncxNzJ0NVZTeEQtYU1ZWUJVQjBpLUt2bmRYNUZIeGx4LVZ3?oc=5",
-      "desc": "“수영으로 당뇨·고혈압 싹 다 털어냈어요”&nbsp;&nbsp;헤럴드경제",
-      "pubDate": "Wed, 10 Jun 2026 06:13:40 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
     },
     {
       "title": "줄기세포 'SVF 치료' 무릎 골관절염 통증 완화 효과 입증 - 서울경제TV",
@@ -122,16 +162,6 @@
       "prod": "celebrex"
     },
     {
-      "title": "로수젯, 당뇨병 동반 이상지질혈증 환자서 LDL-C 목표 도달률 60% 이상 - e-의료정보",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE04LXlYS2syQUg2MmVOY05nMTlDSExxdTgwSTZoTXI4alpYVm5GUWxKNk1zRFFZTzNLbnEtNUZpNl9MWEFxbUtTRjdHc0EtM0h1dU1ob0J1OHVDbGt4ZVNDUk1kZkdxZEFqamNsRXI1d9IBb0FVX3lxTE04LXlYS2syQUg2MmVOY05nMTlDSExxdTgwSTZoTXI4alpYVm5GUWxKNk1zRFFZTzNLbnEtNUZpNl9MWEFxbUtTRjdHc0EtM0h1dU1ob0J1OHVDbGt4ZVNDUk1kZkdxZEFqamNsRXI1dw?oc=5",
-      "desc": "로수젯, 당뇨병 동반 이상지질혈증 환자서 LDL-C 목표 도달률 60% 이상&nbsp;&nbsp;e-의료정보",
-      "pubDate": "Wed, 10 Jun 2026 03:53:00 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
-    },
-    {
       "title": "무릎 골관절염 환자의 SVF 주사, 3주 내 통증 감소 경향 확인 - 팜뉴스",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MTlNNNXVaTXBSWTFVODRSVEJnbzliWjhqdXdhYmMzTTg0NDVZR0pGWDJFaEhfRXd1Qy1QQUFkVzVFRTBBdEZoVlEzTjFnd2l2Y25IdGd0N2VmUGJmS0NxV1NIZHUxd2gzUEtlMA?oc=5",
       "desc": "무릎 골관절염 환자의 SVF 주사, 3주 내 통증 감소 경향 확인&nbsp;&nbsp;팜뉴스",
@@ -152,6 +182,16 @@
       "prod": "norvasc"
     },
     {
+      "title": "'로수젯 저용량', 당뇨병 환자 이상지질혈증 관리 전략 제시 - 메디칼타임즈",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5WdTNGVWM2eWpqRzl1S3hIVzNDRDh0SzZ5OXlzS19xVjlwMWdkLXFMOWdhSk94ZXNrbjFUQURONDl1Q0JDUW1kMGtCOFIzVHhhRUd2UUpnQWhHRW84VWRBNHptRjN4ZXVPZVJlTzVnZE9HZw?oc=5",
+      "desc": "'로수젯 저용량', 당뇨병 환자 이상지질혈증 관리 전략 제시&nbsp;&nbsp;메디칼타임즈",
+      "pubDate": "Wed, 10 Jun 2026 02:17:15 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
+    {
       "title": "밤마다 ‘욱씬욱씬’…골관절염, 관리 핵심은 ‘이것’ - 동아일보",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBaaTA1cEhBM1RGcC1welh6eHNpcUY1NzlsamZGZWJEdnZ4ZFA1Vkxkdm5pb0hxUW1PemwyakpvQnhYc2FRaFgzTmQzaUtwQTVLWE4zVURlRmhTNkZIQjFmZU9SMTkzQdIBZkFVX3lxTFBaaTA1cEhBM1RGcC1welh6eHNpcUY1NzlsamZGZWJEdnZ4ZFA1Vkxkdm5pb0hxUW1PemwyakpvQnhYc2FRaFgzTmQzaUtwQTVLWE4zVURlRmhTNkZIQjFmZU9SMTkzQQ?oc=5",
       "desc": "밤마다 ‘욱씬욱씬’…골관절염, 관리 핵심은 ‘이것’&nbsp;&nbsp;동아일보",
@@ -162,16 +202,6 @@
       "prod": "celebrex"
     },
     {
-      "title": "삼성서울병원 심장뇌혈관병원, 19일 ‘제5회 폐고혈압 심포지엄’ 개최 … 치료전략, 급성 폐색전증 등 지견 공유 - 헬스오",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE00YVg5aktqWWROQ2dTS1ZBN2hUc3c2YnJkQ2I0WjRtajJPc3BOMGZiZzhFM0REVnk2T05seW1jb1ludDkxVXByS1BlZ3lHdWxZMm51cFJMVUk?oc=5",
-      "desc": "삼성서울병원 심장뇌혈관병원, 19일 ‘제5회 폐고혈압 심포지엄’ 개최 … 치료전략, 급성 폐색전증 등 지견 공유&nbsp;&nbsp;헬스오",
-      "pubDate": "Wed, 10 Jun 2026 01:38:36 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
       "title": "한미약품, 당뇨병학회서 '로수젯 저용량' 임상적 유용성 및 안전성 발표 - 팜뉴스",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRc3NFSEt1VlY3WGtTMFViTGN5NTZ2dHV2QUJfbl9xQW5Jam9LbDZ1ZTlDVnBFZ1d3YlNzNjVON09wTHpTZ3dUQnRDRGpXYWFDaTM3d0tlQTIxMFY2NzlqYUVoVnRrR0t2QUV4bA?oc=5",
       "desc": "한미약품, 당뇨병학회서 '로수젯 저용량' 임상적 유용성 및 안전성 발표&nbsp;&nbsp;팜뉴스",
@@ -180,6 +210,36 @@
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
       "prod": "lipitor"
+    },
+    {
+      "title": "로수젯, 당뇨병 동반 이상지질혈증 환자서 LDL-C 목표 도달률 60% 이상 - e-의료정보",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBpb2huY0tnY2ttblFxVHZpNHAwVjBLRGk2V2dpdE41Qm5TcjJWMi1idVRLRGJNUWRDWGZ5a3ZzMXc2UWxQZUpsOTFodmlQTzZoTDc2bE8yTlNJTFY1eUpCeUdUajAxcEJxZGtj0gFvQVVfeXFMTTgteVhLazJBSDYyZU5jTmcxOUNITHF1ODBJNmhNcjhqWlhWbkZRbEo2TXNEUVlPM0tucS01Rmk2X0xYQXFtS1NGN0dzQS0zSHV1TWhvQnU4dUNsa3hlU0NSTWRmR3FkQWpqY2xFcjV3?oc=5",
+      "desc": "로수젯, 당뇨병 동반 이상지질혈증 환자서 LDL-C 목표 도달률 60% 이상&nbsp;&nbsp;e-의료정보",
+      "pubDate": "Wed, 10 Jun 2026 01:13:46 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
+    {
+      "title": "삼성서울병원 심장뇌혈관병원, 폐고혈압 심포지엄’ 개최 - 메드월드뉴스",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBZR2VPZmhNSGsyTmF2Y1YxNXlmdDlKMXVSZDdLcy1CdzZlNjRlOFlRREVOc0YwTHB2N003VmJMVGVYWkxlYzl4ZFpjVWpTTzFneENwT21raTVlc1NCY1B2ZEJ6Sl9QUXhJUkJJa1NB?oc=5",
+      "desc": "삼성서울병원 심장뇌혈관병원, 폐고혈압 심포지엄’ 개최&nbsp;&nbsp;메드월드뉴스",
+      "pubDate": "Wed, 10 Jun 2026 01:02:44 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "Menopausal Status and Disease Outcomes in Women With Rheumatoid Arthritis Receiving Anti-tumor Necrosis Factor (TNF) and Anti-IL-6 Therapies - Cureus",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQUzVCSmRXcWNiT3BQX1BYY0tXaDJOYVZoUVRkSVBrYUlPNmtfTW85SVBLUEZ0bUdwV2t4MU5Odms4dUVjeVRTTkVLRjNVcU5qVTl5M0RVaHpOUWtlaS1JSFNzcUl0bExlSDB0T2pXcWVJU0ZaN3VEUG9KYm84NzVLOEkwOWRtVmNzZWl2bTIyM09HUUJtMTBtT0Vjc3VTNDI4alc0aW1JRXB4Um1oZWZScWRlWjZkQW1xXzlDcEFWb1hvSFVsdm1FRktJUDVXTHgwVUo5UXBNWUt3aW9tYWQ5Qng1X3pRRVU2TUhMZTJYVkUtQ2t1SVhrVzltY3pPRWZ3aVdmZWo0c00?oc=5",
+      "desc": "Menopausal Status and Disease Outcomes in Women With Rheumatoid Arthritis Receiving Anti-tumor Necrosis Factor (TNF) and Anti-IL-6 Therapies&nbsp;&nbsp;Cureus",
+      "pubDate": "Wed, 10 Jun 2026 01:02:37 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
     },
     {
       "title": "삼성서울병원, ‘제5회 SMC 폐고혈압 심포지엄’ 19일 개최 - 간호사신문",
@@ -282,16 +342,6 @@
       "prod": "norvasc"
     },
     {
-      "title": "Menopausal Status and Disease Outcomes in Women With Rheumatoid Arthritis Receiving Anti-tumor Necrosis Factor (TNF) and Anti-IL-6 Therapies - Cureus",
-      "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPb21nU0dVOXJFakM2YXpXSmV4Y1lfdGZxZVNDcUc4NzdLOVJWeXNtSlIydnJVa2RDWTIzam83R0RkVE1Oc1pONDJwQXZfbzZpa2FfU3BPRWRKaTA0UFNYYjk0dl9qZzJjUlJ2Sy1LQmR5WTVaZFBSei1Gcmh3TFcyTVlPLS1uN19LT01oU2RZSVNDb1BxTXQzcTE5ZlBNRmR1QkZDb3pNbWwtdmphYWU4TEVlSU9qRHRtMlAxdF9CY1pqV21jVHVVUS15MC03RHlrdExtbTIwOS0zSWxkRWd5ODU3Z1V3UjhtVnF5VzFSYUZDTlFqdzRFbDNEaWhvc25RaU5xWmZBb1JrOWxINjhKVWhoMUJtVXIzbnRNQlVmeVRSdw?oc=5",
-      "desc": "Menopausal Status and Disease Outcomes in Women With Rheumatoid Arthritis Receiving Anti-tumor Necrosis Factor (TNF) and Anti-IL-6 Therapies&nbsp;&nbsp;Cureus",
-      "pubDate": "Tue, 09 Jun 2026 18:34:09 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
-    },
-    {
       "title": "고혈압 3제 복합제 대세...상반기 48개 품목 무더기 등재 - 데일리팜",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE50NktvdTlrNGhCX0x2cGJaZV9ydFBXRC0wYmcxQTBLcFhsckFlQzV3OFgzY29NSzdFU3c5cjNGSW5ybXp1TlJIVjVIVGlQWWFP?oc=5",
       "desc": "고혈압 3제 복합제 대세...상반기 48개 품목 무더기 등재&nbsp;&nbsp;데일리팜",
@@ -352,16 +402,6 @@
       "prod": "celebrex"
     },
     {
-      "title": "[인터뷰] 뉴패러다임 박제현 \"14조 실버시장 주목…'요양이' 프리A 투자\" - 글로벌경제신문",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83S2Q3QXdwVUN4YXlkUGVqQWxybTZyX0k2RnhMR3ZKWC1iT2dwRUV6S0liTUQ4RVo0NFVjVnhGRnBuQVRZdnliU1BhTTQ0RjhwUWhTRG5zRFRGLWdmNFBDZGhET0RFMktOcWptddIBcEFVX3lxTE5YUnF1d05YcWxvVEZQOEg5Q2pJUVpoMmdPR1lTNjVtclE3LUNiS0xVX1Q0WUc0V2hOVFRsTjRMbURlVF9Gcjk4dzBqRkRwTWZ2U0pjc1pDbWxSSmxGRlV2QnNJUWhSUUhEamdHcUFkQ1U?oc=5",
-      "desc": "[인터뷰] 뉴패러다임 박제현 \"14조 실버시장 주목…'요양이' 프리A 투자\"&nbsp;&nbsp;글로벌경제신문",
-      "pubDate": "Tue, 09 Jun 2026 01:28:59 GMT",
-      "sourceId": "gn_policy_kr",
-      "sourceName": "의약품 정책 (국내)",
-      "country": "KR",
-      "prod": "all"
-    },
-    {
       "title": "FDA Approves Immgolis and Immgolis Intri as First Biosimilars to Golimumab Reference Products for RA and UC - Center for Biosimilars",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPb0VmNk5ta29TODZPdVo5dlNMdDVPNjJ1OFJEeWg3UGxSajRXeFROdGZVV2RFSVR2UFg4S1EtNkVfOHVnaXpBeTdhTm1XTEZJejBvQUxpTHBoVm5FSF92NjZ4cDNFQ1JIcFQtMk5pYy03dFNKbmh0Y1BPdGJ1V2NmUExvTC05UUN5RHEyV1dhTFBfenVwcDZ6RTYyQ1lPUVc5SFg1cUlKQ1VWem5jelhER0dSS3BwMWdoazNPbjhzTThGdVpHVm9DV2xocEljVFBHX3BZaWYyZGs5azdoUVhxcEtTdw?oc=5",
       "desc": "FDA Approves Immgolis and Immgolis Intri as First Biosimilars to Golimumab Reference Products for RA and UC&nbsp;&nbsp;Center for Biosimilars",
@@ -386,10 +426,10 @@
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeXdRUnozYUg3R1ozdHc0YnlhUjJTc2FhajhKcURMR0FXT2U1X0Vac0U1bHpNWUNGSk1OSDdrNnJTaVZ0bl81NUJxazVCRFVhS0g1bGRnRGF0VHhpZUdrazlSVVFENGNVM09qVFU0Y3JOb3F6Q3QzYnZObTMyblBSZ3NPcjlwOEZEWVN0b3g4ZmxuZlg1c0hYWHpTVk1MT3NQcmc?oc=5",
       "desc": "Rethinking cholesterol care for a healthier future&nbsp;&nbsp;MSN",
       "pubDate": "Mon, 08 Jun 2026 19:16:21 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
+      "sourceId": "gn_lipitorplus_en",
+      "sourceName": "LipitorPlus·Ezetimibe (Global)",
       "country": "US",
-      "prod": "lipitor"
+      "prod": "lipitorplus"
     },
     {
       "title": "'폭염 영향예보 직접 전달 서비스'로 고혈압인 부모님 안부 확인해볼까 - 대한민국 정책브리핑",
@@ -413,9 +453,9 @@
     },
     {
       "title": "Billionaire Stanley Druckenmiller Likes This Small-Cap Pharma Stock in 2026 - Insider Monkey",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZnkxZl9CMGJlY3U4LVVfSWp1RFRGME9Gd2xaZ0FKSE1UeGZEZkg2N1M1N2JZOVpVcFNacTBiV1FSdkt5dUd3NjVMVktJczVyOFF6Umt5aE1lQ2tieFdjMHB4bTk0c1RZeUdDd3BsbUhmel9TU0JPdDFXMDZSYTU5OW1qbjU0WThuaUNwakZfcmJNeUtkazFBOHN2MTRPd08zUEk0ZUZ2alptMjIyN2U1V3hVUGpEaThuN3JJ0gHDAUFVX3lxTE5mUG5iTXZrajhwZFp1TDY0ZFVfZ0R6NkQ3UGJ0SmtUcXlmZ2hnQTdrZVRoTjVUOVJwMEYtVzloT2dfOW9wRDU2bjhOQmNiX2RBSHNPbDBydkFVU205NElNNktKaVhvQ19uUkRWb3BnM3NlQlNNbUdIVFVNX0VzaXRRczlTbXdBRGZNdnhEcHNaWFAwdW40ekdZWHV3ZThQc0lDaTRMMmpFU2tGTlpfUDRhZkhLRUIxVXE3bTdsZGVpMVBCcw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZlBuYk12a2o4cGRadUw2NGRVX2dEejZEN1BidEprVHF5ZmdoZ0E3a2VUaE41VDlScDBGLVc5aE9nXzlvcEQ1Nm44TkJjYl9kQUhzT2wwcnZBVVNtOTRJTTZLSmlYb0NfblJEVm9wZzNzZUJTTW1HSFRVTV9Fc2l0UXM5U213QURmTXZ4RHBzWlhQMHVuNHpHWVh1d2U4UHNJQ2k0TDJqRVNrRk5aX1A0YWZIS0VCMVVxN203bGRlaTFQQnPSAcMBQVVfeXFMTmZQbmJNdmtqOHBkWnVMNjRkVV9nRHo2RDdQYnRKa1RxeWZnaGdBN2tlVGhONVQ5UnAwRi1XOWhPZ185b3BENTZuOE5CY2JfZEFIc09sMHJ2QVVTbTk0SU02S0ppWG9DX25SRFZvcGczc2VCU01tR0hUVU1fRXNpdFFzOVNtd0FEZk12eERwc1pYUDB1bjR6R1lYdXdlOFBzSUNpNEwyakVTa0ZOWl9QNGFmSEtFQjFVcTdtN2xkZWkxUEJz?oc=5",
       "desc": "Billionaire Stanley Druckenmiller Likes This Small-Cap Pharma Stock in 2026&nbsp;&nbsp;Insider Monkey",
-      "pubDate": "Mon, 08 Jun 2026 14:34:24 GMT",
+      "pubDate": "Mon, 08 Jun 2026 14:36:43 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
@@ -453,9 +493,9 @@
     },
     {
       "title": "307만 명 앓는 ‘무릎 골관절염’, 진단 격차 줄일까… 코넥티브 AI 국제 검증 잇따라 - 스타트업엔",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9VaXFDLTBCakZ2WlZnTkZDbVo4SEFxRlZsMHg0ZGVOV2hjZVctSHM3eXFyMEFsbEdCTEo2a2xXY09uMFl2VlZUYXNxYkdCTi01emlVM3hxZmM5VjhweG9XOXcxeFhiMXN4MWotVdIBbEFVX3lxTE9VaXFDLTBCakZ2WlZnTkZDbVo4SEFxRlZsMHg0ZGVOV2hjZVctSHM3eXFyMEFsbEdCTEo2a2xXY09uMFl2VlZUYXNxYkdCTi01emlVM3hxZmM5VjhweG9XOXcxeFhiMXN4MWotVQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5WnlyQmJsVkxwN3loRjJlTHdocllVVENsVXYwdTBlalh6bWxtaldhLTEzVERWOVJyVFZzdExMazU2TW1GYW5DdzFkZFN3R29iZ0dFWUNndGtmTlZaWlVtQlEyYVZBVktp0gFsQVVfeXFMT1VpcUMtMEJqRnZaVmdORkNtWjhIQXFGVmwweDRkZU5XaGNlVy1Iczd5cXIwQWxsR0JMSjZrbFdjT24wWXZWVlRhc3FiR0JOLTV6aVUzeHFmYzlWOHB4b1c5dzF4WGIxc3gxai1V?oc=5",
       "desc": "307만 명 앓는 ‘무릎 골관절염’, 진단 격차 줄일까… 코넥티브 AI 국제 검증 잇따라&nbsp;&nbsp;스타트업엔",
-      "pubDate": "Mon, 08 Jun 2026 12:35:36 GMT",
+      "pubDate": "Mon, 08 Jun 2026 12:27:20 GMT",
       "sourceId": "gn_celebrex_kr",
       "sourceName": "쎄레브렉스·관절염 (국내)",
       "country": "KR",
@@ -592,6 +632,16 @@
       "prod": "celebrex"
     },
     {
+      "title": "식약처, 고혈압 환자 초음파수술기 신개발의료기기 허가 - 청년의사",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBpbHgwVm53a0Z3TlM0eC04RjFXencyY0wyU0RZUnpaZjZja0xjSVhjRFVzQzJpUG8zTFBBTS02VHVUVEZDSFZoQlozTXJPMkZPckRKcHFrSkJZZEN4ZUFFeUFsZGZvYjFmX29qc29MMNIBc0FVX3lxTFBOT1dILXh6bzVlMFUxOFJZU0lYQzRZTHBvR3RuV1ZxMmFDamd2OE1BYWNiUDdDSTQ0RFhFWEYzS3dKMlpqcU5La1BMX29BYzRJOXFmcU9UaEtQaFJCeXFtUjJYd1FvSzZPaXVXa1NySWFFZE0?oc=5",
+      "desc": "식약처, 고혈압 환자 초음파수술기 신개발의료기기 허가&nbsp;&nbsp;청년의사",
+      "pubDate": "Sun, 07 Jun 2026 21:13:43 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
       "title": "이상지질혈증? 실체가 무엇인가요?: 이름부터 헷갈리는 용어 정리 - 메디칼업저버",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9QZGtxU245V1E1OUNqaU8tdkxlbjNoVGgyb1poX2U5V1lWSDhfNTJmU29WVm9ad0tRYnM3RWxmbzkzVzdBbURISnhxMGpkdE1ob3B0Y0ZhN0YtZF9EcHFKam5CSWp5cHNGMC1v?oc=5",
       "desc": "이상지질혈증? 실체가 무엇인가요?: 이름부터 헷갈리는 용어 정리&nbsp;&nbsp;메디칼업저버",
@@ -612,9 +662,9 @@
       "prod": "norvasc"
     },
     {
-      "title": "Lipid-Lowering Medications Demonstrate Cardiometabolic Benefits in Populations with High-Risk Diabetes - PR Newswire",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQNmJkWlZaNllETkMyS2s5U1ZVS0ptR3BYV0ViOXNTZUprTktDT0hlUlFmYlRzRl9mWGNOeFI3MWIzUUVldDMySWJzUDBPUGZ5c2JTV3RkNnRkaEFRQVoxa0pQczZ4MDA3SjRHWUNKX1NGQ3h1VFNCWDlVbXpsUkJ2QlUtZHZzeFpMV283ZDBsejBXME5INkxTZnJ2VmtmMUlfaEN4YTlxcVhLVUduY05yVUM1SzNHcEZqWVp0dU9ZMUNESDBSTUFHM0pHZlk3ckRUcDdZWFNVbmNrUmh0NXZGNnlfdGtMS0lIdHZuaEswbw?oc=5",
-      "desc": "Lipid-Lowering Medications Demonstrate Cardiometabolic Benefits in Populations with High-Risk Diabetes&nbsp;&nbsp;PR Newswire",
+      "title": "AMGEN PRESENTS NEW DATA ACROSS ITS CARDIOMETABOLIC PORTFOLIO AT AMERICAN DIABETES ASSOCIATION 86TH SCIENTIFIC SESSIONS - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNWmFjY0RrV2MtV1FfcUhkN0NSU0Q5d3RBNlFfWkVNN0t5bjBVT04wdFhHdWhmbkRCaDNTLXZLM0prdWV6X3QtM3NRM0Y5TDNvdGw5MG5fazlEV19WMWFuQUdRaDFwN011c2lVNU9ZTkNQVlc0eU5Ba3lCNGZSaFBqOEthd19lYXgyU0RMMURuMjZEQUdSMWZjTTdTaEg0dHFJUWJhZk9OQlBYUVE0YlB3aHFZWnY4cjY0bkktb2NFX2c1dXRtSkZKbGY3R3NQY0lKMVhMTlV0by1mUzhJSDlUZGlWekxQNFNtc1hHZ2Y3YkY2NzAzamhFNEVSd0p2bTgtbWNlcw?oc=5",
+      "desc": "AMGEN PRESENTS NEW DATA ACROSS ITS CARDIOMETABOLIC PORTFOLIO AT AMERICAN DIABETES ASSOCIATION 86TH SCIENTIFIC SESSIONS&nbsp;&nbsp;PR Newswire",
       "pubDate": "Sun, 07 Jun 2026 20:45:00 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
@@ -622,9 +672,9 @@
       "prod": "lipitor"
     },
     {
-      "title": "AMGEN PRESENTS NEW DATA ACROSS ITS CARDIOMETABOLIC PORTFOLIO AT AMERICAN DIABETES ASSOCIATION 86TH SCIENTIFIC SESSIONS - Santa Maria Times",
-      "link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxOZmx3SG84dUlRRFQxUTVsZTR3NW8zcGdodlJsSWJIc08zN3hsaEM5aWpCOENtcHZrY3NBODBXREpWMFBWSzNoeFlFRjN1SjJrb1Z0aXg5ZzNHeWtvTmVtMC1IQmdncFYxSjNaMjV4M0NRUkxEZkpFbnJjN1V1NHB5SmJsR1JDU0ZhS3l6dVJGWXRhdHFHTFBSbHd0QVVqVXVCY1ZxX280a21KZHlzVktvS3hkRW1nVV9zZEhRaEgxemM0UEVoVFBTSVlld1IwdmF5djlQdGM3aFk1dThkR0NqT05jX1BJZldaWTZDWmg5SEp2WE9vb2ZDUnhvdXhNOXBMVkl1X2VQdDJFaVJ1OHpDd1VIWGpaRTZLNWxzYWFiX29HSWg3YkRSY1JGRG5xZHZBOUY1akdyQjlCeU95U2tBZTBJemozR0UwdDdVZVF0MnI?oc=5",
-      "desc": "AMGEN PRESENTS NEW DATA ACROSS ITS CARDIOMETABOLIC PORTFOLIO AT AMERICAN DIABETES ASSOCIATION 86TH SCIENTIFIC SESSIONS&nbsp;&nbsp;Santa Maria Times",
+      "title": "Lipid-Lowering Medications Demonstrate Cardiometabolic Benefits in Populations with High-Risk Diabetes - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQNmJkWlZaNllETkMyS2s5U1ZVS0ptR3BYV0ViOXNTZUprTktDT0hlUlFmYlRzRl9mWGNOeFI3MWIzUUVldDMySWJzUDBPUGZ5c2JTV3RkNnRkaEFRQVoxa0pQczZ4MDA3SjRHWUNKX1NGQ3h1VFNCWDlVbXpsUkJ2QlUtZHZzeFpMV283ZDBsejBXME5INkxTZnJ2VmtmMUlfaEN4YTlxcVhLVUduY05yVUM1SzNHcEZqWVp0dU9ZMUNESDBSTUFHM0pHZlk3ckRUcDdZWFNVbmNrUmh0NXZGNnlfdGtMS0lIdHZuaEswbw?oc=5",
+      "desc": "Lipid-Lowering Medications Demonstrate Cardiometabolic Benefits in Populations with High-Risk Diabetes&nbsp;&nbsp;PR Newswire",
       "pubDate": "Sun, 07 Jun 2026 20:45:00 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
@@ -656,16 +706,6 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9hNEU0TXZTX3VQSGJKVkhzU3FXSEdtZVkwSzNwTWZSZG1lRWFhc0ZSaDBfN0tyOTVVU2VBcll4SlFsWVdtWmJlZENQc09jUzhaVnl1dFJIV0wza1pHeldGb0NLcFR5cTY2WWtF?oc=5",
       "desc": "내약성과 효능을 고려한 Pitavastatin/Ezetimibe 병용요법 치료 전략&nbsp;&nbsp;메디칼업저버",
       "pubDate": "Sun, 07 Jun 2026 15:00:00 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
-    },
-    {
-      "title": "\"부작용 줄이고 처방 정교하게\"… 제약사, 저용량 전략 속속 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5DcTY4WDNkXzJub2FadExPazhUdUtyajhqMlphaFFjczBDWHdnTXd1WEZCTHYtNjNHdjJhbHRCRlIxMGNoRFE?oc=5",
-      "desc": "\"부작용 줄이고 처방 정교하게\"… 제약사, 저용량 전략 속속&nbsp;&nbsp;v.daum.net",
-      "pubDate": "Sun, 07 Jun 2026 14:00:58 GMT",
       "sourceId": "gn_lipitor_kr",
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
@@ -732,9 +772,9 @@
       "prod": "lipitor"
     },
     {
-      "title": "Rheumatoid Arthritis Pipeline Shows Strong Momentum as 75+ Pharma Companies in the Race | DelveInsight - Barchart.com",
+      "title": "Rheumatoid Arthritis Pipeline Shows Strong Momentum as 75+ Pharma Companies in the Race | DelveInsight - Barchart",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVnFJS24xelhzQTJGUnA5aFNSVGtEazN3ZTY4dzVYT2xKX2dJWDRkU1hNWlMtREhkMlp4cGg0em43SktBYlhSLWlBdzNLZmZUUXdUcE1fMVRqQXNnX3FGUXJ0bldNX3FyQk52ZG5FM0pDUzZpM0c4ZDlpV195dkQyel9leDRkTktoV2psWUM5V0tlUHNfbzBpY2RDUzRWZmpIY2ExLUh6SjRidFNTdWUyQm02TjZYMEV4OV9YWldtMTVQUFhlWk4xUC1QSXZDUFpWUUJ0MTVfWUZUNDQ?oc=5",
-      "desc": "Rheumatoid Arthritis Pipeline Shows Strong Momentum as 75+ Pharma Companies in the Race | DelveInsight&nbsp;&nbsp;Barchart.com",
+      "desc": "Rheumatoid Arthritis Pipeline Shows Strong Momentum as 75+ Pharma Companies in the Race | DelveInsight&nbsp;&nbsp;Barchart",
       "pubDate": "Sat, 06 Jun 2026 06:28:49 GMT",
       "sourceId": "gn_arthritis_en",
       "sourceName": "Celebrex·Arthritis (Global)",
@@ -750,16 +790,6 @@
       "sourceName": "Norvasc·CCB (Global)",
       "country": "US",
       "prod": "norvasc"
-    },
-    {
-      "title": "경동제약, '페노로반정' 출시…복합형 이상지질혈증 치료 전략 제시 - 약업신문",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYk5RQXA0YUZucERXeFFvZ2E3RzEzbWZRVUZ2TXl4RmxqWUxOTXQyVG1SR0ZpUXRGOTdVdFliTFk2NldWTHRZeHZCMHd4TXVBSnhmNk40X0ZtZ2lzSWV6Zjk3NXZ4R21DRGh0VnAzeU9YQVJ4c2k0Y09ETlVnTHdxY2hDSUxuN3JoaDgxVWtMMzlnTVhHc015QmgtclFaR3Jw?oc=5",
-      "desc": "경동제약, '페노로반정' 출시…복합형 이상지질혈증 치료 전략 제시&nbsp;&nbsp;약업신문",
-      "pubDate": "Fri, 05 Jun 2026 18:28:08 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
     },
     {
       "title": "Personalizing Therapy Across High-Risk Conditions and Comorbidities in ASCVD - HCPLive",
@@ -820,16 +850,6 @@
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
       "prod": "celebrex"
-    },
-    {
-      "title": "한국유나이티드제약, 이상지질혈증 복합제 '페노듀오캡슐' 허가 - 한국의약통신",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBWRFlZX29rZ3M1empNNGV2ZTNaVGlISVVuenRaZkFxNm53RWcwVzFNNWhrb1RkVkZydTNRZmkyWEhMaTNqaHU2WFhONk9VdGNqbkJaX25FRDZoT25GcjZ3cnFpSVFia1VkT3JZ?oc=5",
-      "desc": "한국유나이티드제약, 이상지질혈증 복합제 '페노듀오캡슐' 허가&nbsp;&nbsp;한국의약통신",
-      "pubDate": "Fri, 05 Jun 2026 04:46:16 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
     },
     {
       "title": "JW중외제약, 대한가정의학회 ICPC 2026서 ‘리바로하이’ 심포지엄 성료 - 메디포뉴스",
@@ -896,26 +916,6 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBDTVIwWVBtTXViREoyQzlUMXNxbTNqMWY3S3VfaTFPTFdqMFJaWmY3ZFQ3anBEZ3YxelhieDM4WlpVaHQxdXZDVTQ0S3B0LUlKU1ZEWU16aWVuSlBPTmJ4VmZ5TVpzMFhuSlVhVw?oc=5",
       "desc": "약물로 조절 어려운 고혈압 환자…새 치료 선택지 열렸다&nbsp;&nbsp;약사공론",
       "pubDate": "Fri, 05 Jun 2026 02:43:10 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
-      "title": "한국유나이티드제약, 이상지질혈증 2제 복합제 ‘페노듀오캡슐’ 품목허가 - 약업신문",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBTY2RhSG5KZHVNa2FOWTRGMXBuQ1dORW55UG9FbFhMN3ZKcUQ4eGlUeVJLQl9iTUZWdWNiajZyOE84c2RWaTYwdkN3U3E3SS1FV0ZSLWt1NENZS1FzVUFFem5mMDZCZw?oc=5",
-      "desc": "한국유나이티드제약, 이상지질혈증 2제 복합제 ‘페노듀오캡슐’ 품목허가&nbsp;&nbsp;약업신문",
-      "pubDate": "Fri, 05 Jun 2026 02:34:00 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
-    },
-    {
-      "title": "고혈압 환자 신장 신경 차단용 초음파수술기 허가 - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zU3hrcmVGcGhORFd5TDRaeVRRck81Vk9Dd0FjMkdwT3JobzRzbld1WFVpSEo5aU1IU05KMzRLVy1Xal9JQW1aV3VWWXhOcWpEY25XSk43ZUNjdUnSAWBBVV95cUxPWjRuaWZHeU1JUUlLb2trVllIdDRMb1hBcDBMZGJqTWZPUGNlVmtnT0xlbmxaanNUckVBdVV3WDZjRF9sY3Npb3BSV0hhVS1ubmZDcmg5UXdBTjh4dF9Bazk?oc=5",
-      "desc": "고혈압 환자 신장 신경 차단용 초음파수술기 허가&nbsp;&nbsp;연합뉴스",
-      "pubDate": "Fri, 05 Jun 2026 01:51:10 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
@@ -1042,14 +1042,14 @@
       "prod": "lipitorplus"
     },
     {
-      "title": "Race-Based Medicine in the Modern Era: Historical Practice, Current Evidence, and the Pharmacist’s Role - Pharmacy Times",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORjNBZlRLYUphaE5iczJGN2VJdmZZZ09wLUNYUWVYb3M5Nk5iaElKeUM3QWl4aDJPamk4N1NoWS1WNDhZeDdvTHR6ZFhiTkUxVkNUOHVjRW5SLXFNd2lhQk1sMG1Zb1E0ZDFPNmthWnJ2a2dlYU50M1djWmhISmZ1aFhDS1l1aWUxano3QlUzaWFaYjliNDN3V0JmOWk5UVNkVGVuRExQTlk5djhfUFIzb2Nld0ZXaU85c2kzMkNTNzVYUFhMaUZKb1Q3Yy0wQTJI?oc=5",
-      "desc": "Race-Based Medicine in the Modern Era: Historical Practice, Current Evidence, and the Pharmacist’s Role&nbsp;&nbsp;Pharmacy Times",
-      "pubDate": "Wed, 03 Jun 2026 07:00:00 GMT",
-      "sourceId": "gn_htn_en",
-      "sourceName": "Norvasc·CCB (Global)",
+      "title": "Bempedoic Acid Appears to Curb VTE Risk in Statin-Intolerant Patients - Cleveland Clinic",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNHNlRUVjMTNoZDR6OTFGVEhpRF9TN19YV0JqaFVSRnF0TXJJS3dTeGZmZmZXRTNNcWhfb0ZEZFdZdjdHNHcyelV3UDczYl9EZldLSEpfS0ZmUG5yMUZFLVRnYmxfaHJ0TmtoTHZZZWpISmZLNGZOeFM2UksyQS1uR1BYaW9GR09aMF9XZS1FVlQ2amg0UGkxZEVNaGxPcUpLOG42OGhVeUdzeWc?oc=5",
+      "desc": "Bempedoic Acid Appears to Curb VTE Risk in Statin-Intolerant Patients&nbsp;&nbsp;Cleveland Clinic",
+      "pubDate": "Wed, 03 Jun 2026 10:40:41 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
-      "prod": "norvasc"
+      "prod": "lipitor"
     },
     {
       "title": "Ranking high blood pressure drug combinations from most to least tolerated - Medical Xpress",
@@ -1102,14 +1102,14 @@
       "prod": "lyrica"
     },
     {
-      "title": "Stem Cell Particles Target and Reset Chronic Nerve Pain - Neuroscience News",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4tRHBXQVZfek1GTVNDUmxuYmc1bXlZRENrMWl5MGlBSktHRHhaTjdnMG04blhpcXZhd2kteEJ1NVpaTS1SNF9IaV9YTWFGc0FtVjR3cVNHbjVlNjdaX1ZESzN3REVqMUQydUEwVjBINDM3R1N4QWxHa2Jlck0?oc=5",
-      "desc": "Stem Cell Particles Target and Reset Chronic Nerve Pain&nbsp;&nbsp;Neuroscience News",
-      "pubDate": "Mon, 01 Jun 2026 17:48:27 GMT",
-      "sourceId": "gn_neuro_en",
-      "sourceName": "Lyrica·Neuropathy (Global)",
-      "country": "US",
-      "prod": "lyrica"
+      "title": "JW중외제약, 피타바스타틴 저용량 복합제 '리바로젯 1/10㎎' 출시 - 뉴스엔뷰",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBieXQ1OGIzVkZGTkJjUU5PX0FPOGJrc08zOUpFTEFLcGRFWjhGV2RWWUpQb3FJVTQyU3drLV93T1NfR2ZpVzVwVnlyVVlzVmk3TUdfWk1NOEdIcG5fU01IQzViS2dfZw?oc=5",
+      "desc": "JW중외제약, 피타바스타틴 저용량 복합제 '리바로젯 1/10㎎' 출시&nbsp;&nbsp;뉴스엔뷰",
+      "pubDate": "Mon, 01 Jun 2026 14:07:02 GMT",
+      "sourceId": "gn_lipitorplus_kr",
+      "sourceName": "리피토플러스·에제티미브 (국내)",
+      "country": "KR",
+      "prod": "lipitorplus"
     },
     {
       "title": "Gene-Editing Therapy Safely Lowers PCSK9, LDL Cholesterol in Phase I: Heart-2 - TCTMD.com",
@@ -1125,6 +1125,16 @@
       "title": "VERVE-102: One-and-Done Cholesterol Cure–Miracle or Mirage? - The People's Pharmacy",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQR2NYQUV2eHhNdkJlRlBfRkp1QjZyZEp2dEg5Q3d6Y1hKSUl0WU5IQk5rSkFkWDR1VVd2eXIyZGE1MWJkRWZFd3Q2a0pUSmVMU09CZzZacXJmcDNNX3VTRmlqLW84LXZNMWRLX3lHRC01d2hyVS1nM1U1SkJ0cDFsa1A5a0ViaGNZaGZMdmk0emwwU1QxUDRmeUFQY0F1Wlk?oc=5",
       "desc": "VERVE-102: One-and-Done Cholesterol Cure–Miracle or Mirage?&nbsp;&nbsp;The People's Pharmacy",
+      "pubDate": "Mon, 01 Jun 2026 07:00:00 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
+      "prod": "lipitor"
+    },
+    {
+      "title": "Big Pharma Turns to Gene Therapy After Obesity Treatments - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU1MwTk1KSVJrMVRpakJWaDhFYkdEa19YZjVnVFpSSVNIdUhoTnpvclNBWWNCS042NlBDWU03X2F2dVZXc2FUSGJfeEpuYXk1UnpnTGxpVEd0MUdtNUdqUHNCTUNtbU1UN2diRFBGOFMtU3l3SndjZ2pZTXpaZGlNMjVlR0RNaDRF?oc=5",
+      "desc": "Big Pharma Turns to Gene Therapy After Obesity Treatments&nbsp;&nbsp;조선일보",
       "pubDate": "Mon, 01 Jun 2026 07:00:00 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
@@ -1152,6 +1162,16 @@
       "prod": "lipitorplus"
     },
     {
+      "title": "한국화이자제약 ‘젤잔즈’, 강직척추염·건선성관절염 1차 표적치료제 건강보험 급여 확대 - 헬스오",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16NU9TYWkxWXFwTXJOVjNKZkttX05jVWFCTHRIalZ2S1BrSWhIYVkyWG14dWRPcmpTVXNVZm1xeDZfcHdidTFGSlVzd0d4Z1ZuRlZOdHdiRE1wVWZ0bnhTZ0g0RC1raktDdGc5UU1ZOTRucG5raXc?oc=5",
+      "desc": "한국화이자제약 ‘젤잔즈’, 강직척추염·건선성관절염 1차 표적치료제 건강보험 급여 확대&nbsp;&nbsp;헬스오",
+      "pubDate": "Mon, 01 Jun 2026 07:00:00 GMT",
+      "sourceId": "gn_policy_kr",
+      "sourceName": "의약품 정책 (국내)",
+      "country": "KR",
+      "prod": "all"
+    },
+    {
       "title": "한국애브비, '린버크' 강직성 척추염 치료 건강보험 급여 확대 - 뉴스1",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBCRWxobkthakgwX2J1bE1fQkNSNnQ2X09ESjBJNzVOTTluaUx1dV84M3VfN0VfSHhjYnZoWWNfR0hnZ051akI1dHNiSnhjaTdfR1RjSWRoUGtNeWdnLUpaOA?oc=5",
       "desc": "한국애브비, '린버크' 강직성 척추염 치료 건강보험 급여 확대&nbsp;&nbsp;뉴스1",
@@ -1176,6 +1196,16 @@
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE15TUVEalUzaGI3Z0RrMDNLNC1iQy1lTk5TVUtxTnZmdmlpaDRQOGVFbjdwb28wbEo4Zm1kVjF5YnByM1AxcFdNT2k5Mk9MSTJGSDlIYnlkdko4VFRueHFjdDZxdU9BdFhBcVMxQVdNQQ?oc=5",
       "desc": "JW중외제약, ‘리바로젯’ 저용량 복합제 출시로 이상지질혈증 치료 옵션 확대&nbsp;&nbsp;이코노미사이언스",
       "pubDate": "Mon, 01 Jun 2026 06:44:48 GMT",
+      "sourceId": "gn_lipitorplus_kr",
+      "sourceName": "리피토플러스·에제티미브 (국내)",
+      "country": "KR",
+      "prod": "lipitorplus"
+    },
+    {
+      "title": "JW중외제약, 이상지질혈증 복합제 ‘리바로젯’ 저용량 1/10㎎ 출시 - 뉴스티앤티",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fcldKSFA2eVVVS0xkSjFmSFFBTzJyNjNnQU1QZFFONjNMM0ZkLVVrTmRCLW9pQTBBNjhud3pVRnNTeTl5bFdoTzgwWkNUNTZrbU9qMHExQmJoLTAtaUp4eGlGajNXNVIzRmc?oc=5",
+      "desc": "JW중외제약, 이상지질혈증 복합제 ‘리바로젯’ 저용량 1/10㎎ 출시&nbsp;&nbsp;뉴스티앤티",
+      "pubDate": "Mon, 01 Jun 2026 03:50:01 GMT",
       "sourceId": "gn_lipitorplus_kr",
       "sourceName": "리피토플러스·에제티미브 (국내)",
       "country": "KR",
@@ -1382,6 +1412,16 @@
       "prod": "lipitorplus"
     },
     {
+      "title": "보령, 고혈압 등 3제 복합제 '카나브젯' 출시 - 팜이데일리",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAyd1hRQzRrV3FuRjU2TkZOcEFhNzlSOFRDLVlVX0ZkdUQzd2xQajJSdVIxNlNKNHpiYXN4eEFSZTB6SG15NnhpOWcxdmFRbGhfcGJaa3JHdXRiVU1meWk5NV83WG9IOXpSaFh5ZzNR?oc=5",
+      "desc": "보령, 고혈압 등 3제 복합제 '카나브젯' 출시&nbsp;&nbsp;팜이데일리",
+      "pubDate": "Thu, 28 May 2026 07:00:00 GMT",
+      "sourceId": "gn_lipitorplus_kr",
+      "sourceName": "리피토플러스·에제티미브 (국내)",
+      "country": "KR",
+      "prod": "lipitorplus"
+    },
+    {
       "title": "Boryung launches triple therapy Kanarbjet for hypertension, dyslipidemia in Korea - CHOSUNBIZ - Chosunbiz",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaVpfQzdZSlZVX1EzTUNISVVLaTFmU3BEQWhQcktDdXJXb2ZfLXdJYmstc3dFbVdYcm5ieTVfYnF4Mko5WDdKX0k3MnhYOG9CWFN2M1FRQkg1bzhmZTZlaWY0OWx3dFFYQ0ZKc0U3NUdzOTdHbE1Sdl9yM0RRT2lNLdIBlAFBVV95cUxPSkFaM3RsVENTbFZWUDdOTTJKb213Vl9jem9pMmZTMk5vRGZCckxUY01RbTZmbXI3Vk1VcEFuamwzcUdCZ1lOckhDVXU0ckZabXpfaENXM2lHdzk2OXpwZVZ0elNUY2hfemk2WUFkWkJpemZKQWFSUUJOSWVOYXJBQ3JTaTVIS3gwY3dlRkdoWmN4LU1Y?oc=5",
       "desc": "Boryung launches triple therapy Kanarbjet for hypertension, dyslipidemia in Korea - CHOSUNBIZ&nbsp;&nbsp;Chosunbiz",
@@ -1422,16 +1462,6 @@
       "prod": "caduet"
     },
     {
-      "title": "보령, 고혈압 등 3제 복합제 '카나브젯' 출시 - 팜이데일리",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAyd1hRQzRrV3FuRjU2TkZOcEFhNzlSOFRDLVlVX0ZkdUQzd2xQajJSdVIxNlNKNHpiYXN4eEFSZTB6SG15NnhpOWcxdmFRbGhfcGJaa3JHdXRiVU1meWk5NV83WG9IOXpSaFh5ZzNR?oc=5",
-      "desc": "보령, 고혈압 등 3제 복합제 '카나브젯' 출시&nbsp;&nbsp;팜이데일리",
-      "pubDate": "Thu, 28 May 2026 00:26:40 GMT",
-      "sourceId": "gn_lipitorplus_kr",
-      "sourceName": "리피토플러스·에제티미브 (국내)",
-      "country": "KR",
-      "prod": "lipitorplus"
-    },
-    {
       "title": "보령, 고혈압·이상지질혈증 3제 복합제 '카나브젯' 6월 1일 출시 - 팜뉴스",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ndmxBQWZzdGQyOEhlcFdlcl8xa0dQMmtYQ1F1Y2ZteVdTZ19uVVVUejdnYnp6aV96SXQ5cFlxZnd6R0NZRmdCdUVFZFJNRjNwaXNLYjhPLWFQRGxhWFZLcjNTOFVWRC1fbzJVeg?oc=5",
       "desc": "보령, 고혈압·이상지질혈증 3제 복합제 '카나브젯' 6월 1일 출시&nbsp;&nbsp;팜뉴스",
@@ -1442,9 +1472,9 @@
       "prod": "lipitorplus"
     },
     {
-      "title": "Cleveland Clinic Analysis Finds Bempedoic Acid Reduces Risk of Serious Blood Clots in Statin-Intolerant Patients - Cleveland Clinic",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPY3Noa0RGa3dDdWtYUEViWnhTVGpVd1ZUZnNUeEpldDBVak1CaXNJVG5HbGc0WGluMlRseXJGZXJ0dlUycmI3T1IyX045SHhBQnR0TjdGYkJpR0ZyV2VueUh4LVpUTnZpSHB0aEdMNWcteVRPTnAxbFRGSVVqeC1SajVPTWVtNTJoMWFvUXRlMzRiQ2ZhQVNNY2hTSFJfUENnbDZPeHNsZUhacjF1Tk9OT3pUUVhvckhjSi1XN0RYZVpnMnI2VEV6elBuVjBtWldmQ05QWVRjMEhCWlB3c2t5TUhab0tGZFEwVlVJamFSd3BpUQ?oc=5",
-      "desc": "Cleveland Clinic Analysis Finds Bempedoic Acid Reduces Risk of Serious Blood Clots in Statin-Intolerant Patients&nbsp;&nbsp;Cleveland Clinic",
+      "title": "UT Southwestern identifies HELZ2 as key cholesterol control point - MSN",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNY1loWG1vWWdJbUVaS2xlX3R6Yk0zc1NXa1hfcnVoYjVReE1TYlM2Y2hNTjdGMXdfSGVDVmhWaTd3NkRmRWdoUi1wNU1yT2dEU0N6cHZDTWdBTE1pbkVOeFFiNi1sby1RSzZkZ280LXdUZTNlWk5OdUs4dDVOOWV6ZE84bDgzMThRYjIwTTJjTGZZNjVDSU9vTDRzdHM5T09vZzUxZ2Y2Q3A0VzFnZTNPZmVDVFdCTzAxYzBOMUpCY0RfcWFXN2xLQ2M4bFlXMGh1a0o4Z044c0RhOE90QndxOThPYlJReFpOZzR3?oc=5",
+      "desc": "UT Southwestern identifies HELZ2 as key cholesterol control point&nbsp;&nbsp;MSN",
       "pubDate": "Wed, 27 May 2026 07:00:00 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
@@ -1455,16 +1485,6 @@
       "title": "Gene-editing drugs are opening a new frontier in medicine - The Spectator Australia",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZGhDbW9Za0hUUER6d24yZG5IdDFBSkhwR096ZEx6QlM3bWxlQXBabm1sYVJPVW9VMUNlbTRCaVVDTElhZ1JLamhBVDVicXpjdWU0a3VqaWZ3WjJIOENPR3F4YVQ2V0JIdlJieGEtQW90YUN3WFdvcFRQQk05NllTVWR0TXhsNXlQV01odkxQVWZKbE15Qks4UlJuZw?oc=5",
       "desc": "Gene-editing drugs are opening a new frontier in medicine&nbsp;&nbsp;The Spectator Australia",
-      "pubDate": "Wed, 27 May 2026 07:00:00 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
-      "country": "US",
-      "prod": "lipitor"
-    },
-    {
-      "title": "UT Southwestern identifies HELZ2 as key cholesterol control point - MSN",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNY1loWG1vWWdJbUVaS2xlX3R6Yk0zc1NXa1hfcnVoYjVReE1TYlM2Y2hNTjdGMXdfSGVDVmhWaTd3NkRmRWdoUi1wNU1yT2dEU0N6cHZDTWdBTE1pbkVOeFFiNi1sby1RSzZkZ280LXdUZTNlWk5OdUs4dDVOOWV6ZE84bDgzMThRYjIwTTJjTGZZNjVDSU9vTDRzdHM5T09vZzUxZ2Y2Q3A0VzFnZTNPZmVDVFdCTzAxYzBOMUpCY0RfcWFXN2xLQ2M4bFlXMGh1a0o4Z044c0RhOE90QndxOThPYlJReFpOZzR3?oc=5",
-      "desc": "UT Southwestern identifies HELZ2 as key cholesterol control point&nbsp;&nbsp;MSN",
       "pubDate": "Wed, 27 May 2026 07:00:00 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
@@ -1492,14 +1512,24 @@
       "prod": "norvasc"
     },
     {
-      "title": "Case Report: Paradoxical psoriasis under TNF-α blockade may represent generalized abscessing staphyloderma – GASD syndrome by TNF antagonists - Frontiers",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON2diZDBISDBUVmxQQzZwalZVcjdfd04xZVU3aWY5NU9PcUtJdFpiTGZUUlROZWtTU1JHWEFadEI0N1BMb1ZvV19qRHJWVFZXX2I1RjBORzFENzd0UkpFdm5VTkxvMERfTnAtdU1OSGhPamktcmlTbkV3UE82bGRMbTBSdTJTel9ESzE3YzVKRXlNQQ?oc=5",
-      "desc": "Case Report: Paradoxical psoriasis under TNF-α blockade may represent generalized abscessing staphyloderma – GASD syndrome by TNF antagonists&nbsp;&nbsp;Frontiers",
-      "pubDate": "Wed, 13 May 2026 10:38:09 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
+      "title": "Targeting endoplasmic reticulum stress: a novel therapeutic strategy for neuropathic pain - Frontiers",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTFV4cTRZT2EtMWpTOXlkWFhZdmFiUUJQcE83amdmSzhVU1ptelJYbXB2YkQtUm9SV2w5LXhHc09rY2Jqc1IyWThhVHFPTENuVnNLY1UtZjJhYWtiYUhtYjVKRVpGanRScTRkaVB6a1AzYURnWnRTZHFJanNYR0dQRXFjNmxUYmZ4Z25qcV9GeUxQZ3VDU0E?oc=5",
+      "desc": "Targeting endoplasmic reticulum stress: a novel therapeutic strategy for neuropathic pain&nbsp;&nbsp;Frontiers",
+      "pubDate": "Tue, 12 May 2026 02:38:42 GMT",
+      "sourceId": "gn_neuro_en",
+      "sourceName": "Lyrica·Neuropathy (Global)",
       "country": "US",
-      "prod": "celebrex"
+      "prod": "lyrica"
+    },
+    {
+      "title": "Interpretable photoplethysmography-based machine-learning model for noninvasive assessment of systolic blood pressure - Frontiers",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRkdBRGZjaDhPX3A0VUZlQ1BpUklLdVAwczlVY25EUENHdTlKREJwNHdkclo1eEpVN2VrQXdVaFkwVmZTZloyYTdtMEdRdWR0XzNiLS1DckFkd0paQ09OVXpWSGZxeUJVczVaMXlPMjNPSVpoVERBZ21zZnZ0Z0xsME1UdzF2ekxORHJfQ3o1a2gwQQ?oc=5",
+      "desc": "Interpretable photoplethysmography-based machine-learning model for noninvasive assessment of systolic blood pressure&nbsp;&nbsp;Frontiers",
+      "pubDate": "Fri, 08 May 2026 18:47:25 GMT",
+      "sourceId": "gn_htn_en",
+      "sourceName": "Norvasc·CCB (Global)",
+      "country": "US",
+      "prod": "norvasc"
     }
   ]
 }
