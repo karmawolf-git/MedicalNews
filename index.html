@@ -148,13 +148,14 @@ input { font-family:inherit; color:var(--text); }
 
 .list-right {
   display:flex; flex-direction:column; align-items:flex-end; gap:4px;
-  flex-shrink:0; min-width:60px;
+  flex-shrink:0; min-width:130px;
 }
 .list-source { font-size:16px; line-height:1; white-space:nowrap; }
 .list-time { font-size:11px; color:var(--muted); white-space:nowrap; }
 .list-tags { display:flex; gap:3px; flex-wrap:wrap; justify-content:flex-end; }
 
 /* Tags */
+.tag-prod { font-size:10px; padding:2px 7px; border-radius:5px; font-weight:700; white-space:nowrap; }
 .tag-class { font-size:10px; padding:2px 7px; border-radius:5px; background:#f5f3ff; color:#6d28d9; white-space:nowrap; }
 
 /* ── Notice ── */
@@ -210,6 +211,9 @@ input { font-family:inherit; color:var(--text); }
 </div>
 
 <script>
+// ══════════════════════════════════════════════════════════
+//  제품 정의
+// ══════════════════════════════════════════════════════════
 const PRODUCTS = [
   { id:"all", name:"전체", generic:"모든 제품", color:"#e8f0fb", textColor:"#0050a0", icon:"🏠", iconBg:"linear-gradient(135deg,#3b82f6,#6366f1)" },
   {
@@ -331,15 +335,24 @@ const SOURCES = [
   { id:"gn_policy_en",      prod:"all"         },
 ];
 
+// ══════════════════════════════════════════════════════════
+//  State
+// ══════════════════════════════════════════════════════════
 let activeProd="all", activeType="all", searchQuery="";
 let articles=[], errors={}, lastUpdated=null;
 
+// ══════════════════════════════════════════════════════════
+//  Init
+// ══════════════════════════════════════════════════════════
 renderProdBar(); renderTypeBar();
 loadFeeds();
 
 document.getElementById("searchInput").addEventListener("input",e=>{searchQuery=e.target.value;renderFeed();});
 document.getElementById("reloadBtn").addEventListener("click",loadFeeds);
 
+// ══════════════════════════════════════════════════════════
+//  Render filters
+// ══════════════════════════════════════════════════════════
 function renderProdBar(){
   const bar=document.getElementById("prodBar"); bar.innerHTML="";
   PRODUCTS.forEach(p=>{
@@ -369,6 +382,9 @@ function renderTypeBar(){
   });
 }
 
+// ══════════════════════════════════════════════════════════
+//  키워드 매칭
+// ══════════════════════════════════════════════════════════
 function includes(text, kws){ const t=text.toLowerCase(); return kws.some(k=>t.includes(k.toLowerCase())); }
 
 function detectProds(text){
@@ -388,6 +404,9 @@ function detectType(text){
   return best.score>0 ? best.id : "disease";
 }
 
+// ══════════════════════════════════════════════════════════
+//  뉴스 로드
+// ══════════════════════════════════════════════════════════
 async function loadFeeds(){
   errors={};
   document.getElementById("feedArea").innerHTML=`<div class="skeleton-list">${Array(8).fill('<div class="skeleton-row skeleton-card"></div>').join("")}</div>`;
@@ -434,6 +453,9 @@ function showNotice(msg){
   el.textContent=msg; el.style.display="";
 }
 
+// ══════════════════════════════════════════════════════════
+//  Render Feed
+// ══════════════════════════════════════════════════════════
 function formatDate(d){
   if(!d||isNaN(d.getTime())) return "";
   const s=(Date.now()-d.getTime())/1000;
@@ -469,7 +491,7 @@ function filterArticles(){
 }
 
 const srcProdMap=Object.fromEntries(SOURCES.map(s=>[s.id,s.prod]));
-const FLAGS={KR:"🇰🇷",US:"🇺🇸"};
+const FLAGS={KR:"🇰🇷",kr:"🇰🇷",US:"🇺🇸",us:"🇺🇸"};
 
 function cleanDesc(title, desc){
   if(!desc) return "";
