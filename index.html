@@ -317,7 +317,7 @@ function renderTypeBar(){
   TYPES.forEach(t=>{
     const btn=document.createElement("button");
     btn.className="type-btn"+(t.id===activeType?" active":"");
-    btn.textContent=t.label;
+    btn.textContent=(t.icon?t.icon+" ":"")+t.label;
     btn.onclick=()=>{activeType=t.id;renderTypeBar();renderFeed();};
     bar.appendChild(btn);
   });
