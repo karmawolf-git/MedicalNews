@@ -114,9 +114,11 @@ input { font-family:inherit; color:var(--text); }
 .list-item:nth-child(even) { background:#f8fafd; }
 .list-item:hover { background:#eef4ff !important; }
 
-.list-accent {
-  width:3px; min-height:36px; align-self:stretch;
-  border-radius:2px; flex-shrink:0;
+.list-prod-icon {
+  width:28px; height:28px; border-radius:8px;
+  display:flex; align-items:center; justify-content:center;
+  font-size:15px; flex-shrink:0;
+  box-shadow:0 1px 4px rgba(0,0,0,.15);
 }
 
 .list-num {
@@ -545,9 +547,8 @@ function renderFeed(){
 
   list.forEach((a, i)=>{
     const prodObj=PRODUCTS.find(p=>p.id===srcProdMap[a.sourceId])||null;
-    const accentColor=prodObj?.iconBg
-      ? prodObj.iconBg.match(/#[0-9a-f]{6}/i)?.[0] || "#3b82f6"
-      : "#3b82f6";
+    const iconBg=prodObj?.iconBg||"linear-gradient(135deg,#94a3b8,#64748b)";
+    const icon=prodObj?.icon||"📰";
 
     const item=document.createElement("a");
     item.className="list-item";
@@ -557,7 +558,7 @@ function renderFeed(){
 
     const todayBadge=isToday(a.date)?`<span class="badge-new">NEW</span>`:"";
     item.innerHTML=`
-      <div class="list-accent" style="background:${accentColor}"></div>
+      <div class="list-prod-icon" style="background:${iconBg}">${icon}</div>
       <div class="list-num">${i+1}</div>
       <div class="list-body">
         <div class="list-title-row">
