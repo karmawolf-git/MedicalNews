@@ -114,22 +114,12 @@ input { font-family:inherit; color:var(--text); }
 .list-item:nth-child(even) { background:#f8fafd; }
 .list-item:hover { background:#eef4ff !important; }
 
-.list-prod-badge {
-  display:flex; align-items:center; gap:3px;
-  padding:2px 6px 2px 3px;
-  border-radius:12px; flex-shrink:0;
-  box-shadow:0 1px 4px rgba(0,0,0,.18);
-  white-space:nowrap;
-}
-.list-prod-badge .lp-icon {
-  width:12px; height:12px; border-radius:3px;
-  display:flex; align-items:center; justify-content:center;
-  font-size:8px; flex-shrink:0;
-  background:rgba(255,255,255,.25);
-}
-.list-prod-badge .lp-name {
-  font-size:9px; font-weight:800; color:#fff;
-  letter-spacing:-.2px;
+.list-prod-dot {
+  width:16px; height:16px; border-radius:4px;
+  display:inline-flex; align-items:center; justify-content:center;
+  font-size:9px; flex-shrink:0;
+  box-shadow:0 1px 3px rgba(0,0,0,.2);
+  vertical-align:middle;
 }
 
 .list-num {
@@ -513,13 +503,10 @@ function cleanDesc(title, desc){
 }
 
 function makeTags(a, prodObj){
-  const prodTags=prodObj
-    ?`<span class="tag-prod" style="background:${prodObj.color};color:${prodObj.textColor}">${prodObj.name}</span>`
-    :(a.matchedProds||[]).slice(0,2).map(p=>`<span class="tag-prod" style="background:${p.color};color:${p.textColor}">${p.name}</span>`).join("");
   const classTags=prodObj
     ?`<span class="tag-class">${prodObj.classLabel}</span>`
     :(a.matchedClasses||[]).slice(0,1).map(p=>`<span class="tag-class">${p.classLabel}</span>`).join("");
-  return prodTags+classTags;
+  return classTags;
 }
 
 function typeIcon(articleType){
@@ -570,13 +557,10 @@ function renderFeed(){
 
     const todayBadge=isToday(a.date)?`<span class="badge-new">NEW</span>`:"";
     item.innerHTML=`
-      <div class="list-prod-badge" style="background:${iconBg}">
-        <span class="lp-icon">${icon}</span>
-        <span class="lp-name">${prodName}</span>
-      </div>
       <div class="list-num">${i+1}</div>
       <div class="list-body">
         <div class="list-title-row">
+          <span class="list-prod-dot" style="background:${iconBg}">${icon}</span>
           <span class="list-type-icon">${typeIcon(a.articleType)}</span>
           ${todayBadge}
           <span class="list-title">${a.title}</span>
