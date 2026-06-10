@@ -1,6 +1,76 @@
 {
-  "updatedAt": "2026-06-10T20:40:20.691Z",
+  "updatedAt": "2026-06-10T22:54:28.370Z",
   "articles": [
+    {
+      "title": "[건강포커스] \"콜레스테롤약 '스타틴' 복용 노년층, 노쇠 위험 24% 낮아\" - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5KbUpZdkV3WGlvakp1WFVmSEZhblpYMFlYbU9BakxNUEdwX2tfVlVsN05sa0RMOFlfVHBNdFhUR1FjRjFxeDhuUUViU196MzA?oc=5",
+      "desc": "[건강포커스] \"콜레스테롤약 '스타틴' 복용 노년층, 노쇠 위험 24% 낮아\"&nbsp;&nbsp;v.daum.net",
+      "pubDate": "Wed, 10 Jun 2026 22:44:51 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
+    {
+      "title": "Drug reduces the risk of developing rheumatoid arthritis, clinical trial finds - Medical Xpress",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcmRNMnFjd3hzUVFBSkw4V2E2eHZjUS1GTzM2OUFGVUNGOFp2c2Nyck5BemxLMVk0UG5ZMWtMOUs1amJ4NEpsZ09ycXBmdFp0SWJzT0xkNENOYTVLeDh2SlhGei05SzJnQkVpX1YzUzItTDIxOWNOdlJmeU1zUlQ0TENyTlBLSzA0RFRoYQ?oc=5",
+      "desc": "Drug reduces the risk of developing rheumatoid arthritis, clinical trial finds&nbsp;&nbsp;Medical Xpress",
+      "pubDate": "Wed, 10 Jun 2026 21:20:04 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
+    },
+    {
+      "title": "How modern rheumatoid arthritis treatments can protect bone health - Medical Xpress",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQlBHelVUNGJPOF9QaWFEZ1NfZkVCNjZkc2Y3TjU2TWw3djRwcjF1RmtzbFpHWmYtYTRjU3VwbXdUM2FXcU5IMDBFbjNidS04Z19mT3R4RDBMWEZySWtLSThWR2twbm5XczJNdXRaTTFlWXl5VVFJeEd4bmNRNDlveXp1Mnc1V3pxazNtZFNZRUg?oc=5",
+      "desc": "How modern rheumatoid arthritis treatments can protect bone health&nbsp;&nbsp;Medical Xpress",
+      "pubDate": "Wed, 10 Jun 2026 21:10:06 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
+    },
+    {
+      "title": "온라인 오정보에 흔들리는 스타틴 치료…전문가들 \"위험보다 이익이 훨씬 커\" - 뉴스더보이스헬스케어",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5udjkxWVlndi1Vekk5OW00ei1nbHJvNE15MjJVaWtMZXo2eWJKTzNRSzFRaTBZZ3plSHdYMG9pbDdVdjBlY1FqbmIzWDJyZ3BzNGNWRnZpaDgxR09aa0RSNFBHMEhVdkN4dWw4NkNVYw?oc=5",
+      "desc": "온라인 오정보에 흔들리는 스타틴 치료…전문가들 \"위험보다 이익이 훨씬 커\"&nbsp;&nbsp;뉴스더보이스헬스케어",
+      "pubDate": "Wed, 10 Jun 2026 21:10:00 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
+    {
+      "title": "스타틴 치료 지연→심근경색·뇌졸중… \"스타틴 치료 전략 중요\" - 히트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5JeEZ2SHlRZnR6M3EzdE1qbHNXMTV1MUlHZmlSem1lcGdJTHFpMGxfR293cUFRVWpLMVNTMzdaNUhsN3RHNW9KWDFFeFpjMm4tZXYwOHRNSVRkUXFyQTZrTlpBTmR3cXdCNTRV?oc=5",
+      "desc": "스타틴 치료 지연→심근경색·뇌졸중… \"스타틴 치료 전략 중요\"&nbsp;&nbsp;히트뉴스",
+      "pubDate": "Wed, 10 Jun 2026 21:01:00 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
+    {
+      "title": "코 고는 사람, 아침에 ‘이 증상’ 있다면… “혈압 경고등” - 헬스조선",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBROVNBQmZvNFFvLU9jYkFsb0E3cmV0XzNnbTFaOGNIQ3l3ZXAwNUFZSkVmUlg3NVJfSXZyS3E0Zjc1Wl9wMUJoNzFlVlluZmZHR08xNEx5eWVpYVducENfdVdSd0xxdkI4VjBQeFdaSkwtMThDQ1E?oc=5",
+      "desc": "코 고는 사람, 아침에 ‘이 증상’ 있다면… “혈압 경고등”&nbsp;&nbsp;헬스조선",
+      "pubDate": "Wed, 10 Jun 2026 21:00:00 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "유튜브 오정보가 키운 스타틴 기피…이상지질혈증 치료 지연 우려 - 약사공론",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QZ05TWUtYZVNLNUtnQzVfa094eTQ1YzB5NHZVR0ZKdEJUR0VObEtnajN4TVFNYXZZTGxHMDJFc2d3MzdWdmp2aUtURlZYNnZVTUwwNlU4S3pMNkRObHlHM3dXZFNyUnV4SUMtQg?oc=5",
+      "desc": "유튜브 오정보가 키운 스타틴 기피…이상지질혈증 치료 지연 우려&nbsp;&nbsp;약사공론",
+      "pubDate": "Wed, 10 Jun 2026 20:52:00 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
     {
       "title": "텍토닉, TX45 폐동맥 고혈압 임상 2상 환자 등록 마쳐 - Investing.com 한국어",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfR1F3dmxaSzc1Si1seldXajZRdmViWDNUMmpDQlo3WXhnblpreVhjQnBOMW5QZFFCaFJOT002ZkNsQmJ3M2Rqd1poelN2V3k5ODZRdlhOcXpoV1hjY1B6R3h5M0p2ejhWejBTRTlTa2Y?oc=5",
@@ -22,6 +92,16 @@
       "prod": "lyrica"
     },
     {
+      "title": "'폭염 영향예보 직접 전달 서비스'로 고혈압인 부모님 안부 확인해볼까 - 대한민국 정책브리핑",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9CME9nTUotM3ZVT3o3RTVOS3JEZERTRDFYVE1XNWJQeHNtLVYyUjNhaUlVNGVVNWxDWkFhM0hzMnFmWjZ3THVGSXpWakJ1RXhQRk9lWmM1Y2ZLc0RXRTJDemM1bXFoZmR1XzhYNg?oc=5",
+      "desc": "'폭염 영향예보 직접 전달 서비스'로 고혈압인 부모님 안부 확인해볼까&nbsp;&nbsp;대한민국 정책브리핑",
+      "pubDate": "Wed, 10 Jun 2026 17:38:05 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
       "title": "LDL-C Targets in Primary vs Secondary Prevention: What Pharmacists Need to Know - Pharmacy Times",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT1JxLThZeUZIOVFKTTNuZ3BzTHBKdlZFU0xRNm9sS2hWMUNnLVFGSldISE5uS1laZFhxVHFXd0ZobERseTlPQ3hEZHh5RHUtYWRVS081dWRWcTBPVVZ5U1piUmlYdnNpN1ZjRW90YTRfTmpOYngyTlh1SDItV282Vl9RdTlTM1VqRFNNMGJpU3VMS2VMbmk2NG53aVhiRzNWWUZtWDhwMmxRRXFHVVkwcnB3WQ?oc=5",
       "desc": "LDL-C Targets in Primary vs Secondary Prevention: What Pharmacists Need to Know&nbsp;&nbsp;Pharmacy Times",
@@ -36,10 +116,10 @@
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVlY5UFVpT0VpQTZxbXYyb253bURJUms3dkRiV3ppZ0RISTVTM1pnSF9HUVRCdWhjcTRYQXVwc3FfS2lNTDB5XzJ6eXBRSmJ5MXVFR3UwTUtFSjA4UWpSVzY5akQ3QV84cnI3NzN2RF9aZGt3RXk4Z3BrR28xc3pDcHZwLXlEMVFBRXgyNV90V0VOY0s1NnNHanFDb2RRamEtNjZz?oc=5",
       "desc": "Rethinking cholesterol care for a healthier future&nbsp;&nbsp;MSN",
       "pubDate": "Wed, 10 Jun 2026 16:47:44 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
+      "sourceId": "gn_lipitorplus_en",
+      "sourceName": "LipitorPlus·Ezetimibe (Global)",
       "country": "US",
-      "prod": "lipitor"
+      "prod": "lipitorplus"
     },
     {
       "title": "냉면 한 그릇에 담긴 하루치 나트륨 - 대한급식신문",
@@ -60,6 +140,16 @@
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
       "prod": "norvasc"
+    },
+    {
+      "title": "\"스타틴 치료 미루다 심근경색 위험 키운다\" - e-의료정보",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE91UnMwblk3ZXN6cklTQzBSRVBKRlZmTXBWN3g5a2xaVldGTUoxNWFlQVdaeGM4UjJpTWlJUkxhX20zVUlRdVRNcWw0SVhFd1hwMGtkYXVHZDZwRHllTll4dXVGVUNKRmZHanAw0gFvQVVfeXFMTlZ5dWU5X0RYTlcxWVhReG5veW5JekhFWXZlNFZpWC1JakJHM0hoOC0tZVVnaWR0UUJOVGRKU3J1WnpkRmp2dzNIOEpGTEFRelhqc1FhRmZvVnM1a2xzSnJLRzAtNDFvZUVtdF9ZTGFr?oc=5",
+      "desc": "\"스타틴 치료 미루다 심근경색 위험 키운다\"&nbsp;&nbsp;e-의료정보",
+      "pubDate": "Wed, 10 Jun 2026 14:51:58 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
     },
     {
       "title": "“‘스타틴 먹지 마세요’···잘못된 의학정보 공포가 뇌졸중 불러” - 의사신문",
@@ -143,7 +233,7 @@
     },
     {
       "title": "'스타틴 먹지 마라'는 말의 대가…심뇌혈관질환 위험 키운다 - 약업신문",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9OUGltTHVxRS1xTi1wUTRUZHRwRm53RzNRRTI0WXpab1RGSkxJN3NwYkJ6U1JqMkxCSkJMRkhUdmdfRW1CT2pFSGxYLXJiS0RMRHlfUUVxVHdRMmc3Sy11MGtBSlM5NXp4VDNwNURRek5TUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8yLURaQUFCNmhiQmM4MU1mcFZVY1hPTUdLQ0dLTFVPeHJZUnhNTEl5Zll4T0YwMm1TQ2ltNngxeGhWVlNBUFhQMTNuSjFwNUZ2U0c2UjhLTnd5NkFhWDJna096Y2MyWFB2MTcxZlpTVQ?oc=5",
       "desc": "'스타틴 먹지 마라'는 말의 대가…심뇌혈관질환 위험 키운다&nbsp;&nbsp;약업신문",
       "pubDate": "Wed, 10 Jun 2026 08:13:00 GMT",
       "sourceId": "gn_lipitor_kr",
@@ -156,16 +246,6 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBpMXQyQmktUE5aa1RESl95aXFfbDlSeFVwWFV1Rnp6MlA5d285QzZFSWVDV2ZSR3J3TmY2WFl6UW1ZczB3VW9tWWMxMXRDeHZDMEpDSEVZNTdNVWJRSS1yZncweTlKZENmN3h0N0JjZ03SAXBBVV95cUxQaTF0MkJpLVBOWmtUREpfeWlxX2w5UnhVcFhVdUZ6ejJQOXdvOUM2RUllQ1dmUkdyd05mNlhZelFtWXMwd1VvbVljMTF0Q3h2QzBKQ0hFWTU3TVViUUktcmZ3MHk5SmRDZjd4dDdCY2dN?oc=5",
       "desc": "“온라인서 퍼지는 ‘스타틴’ 관련 오해, 질환 악화로 이어져…‘치료 이점’ 명백”&nbsp;&nbsp;더바이오",
       "pubDate": "Wed, 10 Jun 2026 08:12:55 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
-    },
-    {
-      "title": "\"건강정보, 유튜브보다 임상근거 믿어야\" - 헬스이슈앤뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11NkR6X25nSk1vNkRYZ0ZYMklXZGlDeExtZUsxYkRQZktsblY2ZTBEbmpCQl82WjVaOXF0dHl5SlloY3REekZlXzd6MTdBRmtOeWZtRFBRSVVQR09vY0ZWSnNGWmhSXzNX?oc=5",
-      "desc": "\"건강정보, 유튜브보다 임상근거 믿어야\"&nbsp;&nbsp;헬스이슈앤뉴스",
-      "pubDate": "Wed, 10 Jun 2026 08:05:00 GMT",
       "sourceId": "gn_lipitor_kr",
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
@@ -252,16 +332,6 @@
       "prod": "norvasc"
     },
     {
-      "title": "'로수젯 저용량', 당뇨병 환자 이상지질혈증 관리 전략 제시 - 메디칼타임즈",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5WdTNGVWM2eWpqRzl1S3hIVzNDRDh0SzZ5OXlzS19xVjlwMWdkLXFMOWdhSk94ZXNrbjFUQURONDl1Q0JDUW1kMGtCOFIzVHhhRUd2UUpnQWhHRW84VWRBNHptRjN4ZXVPZVJlTzVnZE9HZw?oc=5",
-      "desc": "'로수젯 저용량', 당뇨병 환자 이상지질혈증 관리 전략 제시&nbsp;&nbsp;메디칼타임즈",
-      "pubDate": "Wed, 10 Jun 2026 02:17:15 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
-    },
-    {
       "title": "밤마다 ‘욱씬욱씬’…골관절염, 관리 핵심은 ‘이것’ - 동아일보",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBaaTA1cEhBM1RGcC1welh6eHNpcUY1NzlsamZGZWJEdnZ4ZFA1Vkxkdm5pb0hxUW1PemwyakpvQnhYc2FRaFgzTmQzaUtwQTVLWE4zVURlRmhTNkZIQjFmZU9SMTkzQdIBZkFVX3lxTFBaaTA1cEhBM1RGcC1welh6eHNpcUY1NzlsamZGZWJEdnZ4ZFA1Vkxkdm5pb0hxUW1PemwyakpvQnhYc2FRaFgzTmQzaUtwQTVLWE4zVURlRmhTNkZIQjFmZU9SMTkzQQ?oc=5",
       "desc": "밤마다 ‘욱씬욱씬’…골관절염, 관리 핵심은 ‘이것’&nbsp;&nbsp;동아일보",
@@ -312,16 +382,6 @@
       "prod": "norvasc"
     },
     {
-      "title": "[알립니다] 헬스조선 건강 토크쇼 '건강똑똑'에 무료 초대합니다 - 헬스조선",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5sS19qaVFYcXRnSXVPWV8yVGdHMVlHS2dnLUJRSl9JZzlmdzZpWVVSTnNxU05IdUhRUktfNWZSUXFoQTNqaUN3bFNjLV85LTNlNGdvamd1d3NxN2gxSGtVb3B4MWtmWkhNOHg0cnF0ZnE4Y0tEdWc?oc=5",
-      "desc": "[알립니다] 헬스조선 건강 토크쇼 '건강똑똑'에 무료 초대합니다&nbsp;&nbsp;헬스조선",
-      "pubDate": "Wed, 10 Jun 2026 00:52:00 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
-    },
-    {
       "title": "삼성서울병원, '제5회 SMC 폐고혈압 심포지엄'(6/19) - 메디파나뉴스",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zRkJNUjZjWVJ1emFQMHktWTNxTi1pOWZMR0tsWElzd0l2LWJlajBLbVBWV3lmTTdJX3ZtcGFIekRBVkdVd2NHajEtMFVaZF9xRlpjXzRUTlpZZ1FoNWU5R3pJSWJ4and5NXg4?oc=5",
       "desc": "삼성서울병원, '제5회 SMC 폐고혈압 심포지엄'(6/19)&nbsp;&nbsp;메디파나뉴스",
@@ -352,10 +412,10 @@
       "prod": "norvasc"
     },
     {
-      "title": "국내 최다 폐고혈압 치료 '이 병원'…성과 공유한다 - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4taWV4MG45Q3F5V1ZubDZvTmpkOXZ1bnJZaEJpSTIyU0xmOGtQZFpTUDlHWXhadXluc1g1X1JyR3JYMXQ5cGx0U01wRFprYVJlRjJFT1NPaUE5SDBpSDNHbE1oN2FCcExfemZJRFl3TUhoUWtNYUFuY9IBeEFVX3lxTE4taWV4MG45Q3F5V1ZubDZvTmpkOXZ1bnJZaEJpSTIyU0xmOGtQZFpTUDlHWXhadXluc1g1X1JyR3JYMXQ5cGx0U01wRFprYVJlRjJFT1NPaUE5SDBpSDNHbE1oN2FCcExfemZJRFl3TUhoUWtNYUFuYw?oc=5",
-      "desc": "국내 최다 폐고혈압 치료 '이 병원'…성과 공유한다&nbsp;&nbsp;뉴시스",
-      "pubDate": "Tue, 09 Jun 2026 23:28:07 GMT",
+      "title": "삼성서울병원, 6월 19일 ‘‘제5회 폐고혈압 심포지엄’ 개최 - 후생신보",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBsc0d5ZlJQSkFwdHpfSVlkY1pvNEtvN1A4WDB1c2RvcVpJUGp2VU9KX2pUdUFodnBDREUzODlMWGZUbzBk?oc=5",
+      "desc": "삼성서울병원, 6월 19일 ‘‘제5회 폐고혈압 심포지엄’ 개최&nbsp;&nbsp;후생신보",
+      "pubDate": "Tue, 09 Jun 2026 23:23:00 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
@@ -380,6 +440,16 @@
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
       "prod": "lipitor"
+    },
+    {
+      "title": "고혈압 3제 복합제 대세...상반기 48개 품목 무더기 등재 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE50NktvdTlrNGhCX0x2cGJaZV9ydFBXRC0wYmcxQTBLcFhsckFlQzV3OFgzY29NSzdFU3c5cjNGSW5ybXp1TlJIVjVIVGlQWWFP?oc=5",
+      "desc": "고혈압 3제 복합제 대세...상반기 48개 품목 무더기 등재&nbsp;&nbsp;데일리팜",
+      "pubDate": "Tue, 09 Jun 2026 18:20:17 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
     },
     {
       "title": "Cholesterol Drug’s Immunotherapy Boost May Benefit Mesothelioma Patients - Mesothelioma.net",
@@ -452,16 +522,6 @@
       "prod": "celebrex"
     },
     {
-      "title": "고혈압 3제 복합제 대세...상반기 48개 품목 무더기 등재 - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB6UmY2N3pWazZxMk1SbDdZcmdtczFIN1hOV2s5U0Jmb182Y3E0UFNEd3FDc2xMNEF0RWhmdTRBZEFhSjdhSUt6QXg1RTE2WDdQMVptTUhR?oc=5",
-      "desc": "고혈압 3제 복합제 대세...상반기 48개 품목 무더기 등재&nbsp;&nbsp;데일리팜",
-      "pubDate": "Mon, 08 Jun 2026 23:05:35 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
       "title": "이상지질혈증 등 만성질환 관리 중요…리바로하이 좋은 옵션 - 메디칼타임즈",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE55TGhXXzRUZ2ZreF9ic1pKTUVKOE4wbW5WdV8wTzg5WkVVVEdSbkpYVTY3QThWcF9ralhlV1BaZ2syN2t4OUpYWDV3SURTNkR5YWpBc3kzeUNXMWZHUXluZXlLaVNNaDVMTmlGMWdTdW95Zw?oc=5",
       "desc": "이상지질혈증 등 만성질환 관리 중요…리바로하이 좋은 옵션&nbsp;&nbsp;메디칼타임즈",
@@ -470,16 +530,6 @@
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
       "prod": "lipitor"
-    },
-    {
-      "title": "'폭염 영향예보 직접 전달 서비스'로 고혈압인 부모님 안부 확인해볼까 - 대한민국 정책브리핑",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9CME9nTUotM3ZVT3o3RTVOS3JEZERTRDFYVE1XNWJQeHNtLVYyUjNhaUlVNGVVNWxDWkFhM0hzMnFmWjZ3THVGSXpWakJ1RXhQRk9lWmM1Y2ZLc0RXRTJDemM1bXFoZmR1XzhYNg?oc=5",
-      "desc": "'폭염 영향예보 직접 전달 서비스'로 고혈압인 부모님 안부 확인해볼까&nbsp;&nbsp;대한민국 정책브리핑",
-      "pubDate": "Mon, 08 Jun 2026 19:11:22 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
     },
     {
       "title": "해남군, 고혈압 건강교실 참가자 모집 - v.daum.net",
@@ -712,16 +762,6 @@
       "prod": "celebrex"
     },
     {
-      "title": "내약성과 효능을 고려한 Pitavastatin/Ezetimibe 병용요법 치료 전략 - 메디칼업저버",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9hNEU0TXZTX3VQSGJKVkhzU3FXSEdtZVkwSzNwTWZSZG1lRWFhc0ZSaDBfN0tyOTVVU2VBcll4SlFsWVdtWmJlZENQc09jUzhaVnl1dFJIV0wza1pHeldGb0NLcFR5cTY2WWtF?oc=5",
-      "desc": "내약성과 효능을 고려한 Pitavastatin/Ezetimibe 병용요법 치료 전략&nbsp;&nbsp;메디칼업저버",
-      "pubDate": "Sun, 07 Jun 2026 15:00:00 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
-    },
-    {
       "title": "부작용 줄이고 처방 정교하게… 제약사, 저용량 전략 속속 - 아주경제",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE51NGxReW1KS2g1WkRFbFlaU1RnZjZ6ZXpuek9VWTdBX1J6QlVwOGFnRDA1bTRlajZfUmdBS1RwOWItcjcyU1Z5Y21CNFRhUVRhelZxcUp1eDdhZ9IBWEFVX3lxTFBoQ202WEIxMjNScmRZNmxpc2Zwb1RleVNYYkZNMmk4TFRKMFJZWVBJVzNaSzZMYnBFRzVHLXR1MVl3NXVpUlBFUnp3LU9yeEZscEd2dDRrY20?oc=5",
       "desc": "부작용 줄이고 처방 정교하게… 제약사, 저용량 전략 속속&nbsp;&nbsp;아주경제",
@@ -822,14 +862,14 @@
       "prod": "celebrex"
     },
     {
-      "title": "USFDA Clears Aurobindo Pharma's Generic Xeljanz Tablets for Arthritis, Ulcerative Colitis - Medical Dialogues",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONTRUcm53aFpoSTRNY3pyX0l4UkI2WEVXdmt2ZHU1SGlwblpsY0NZWk1IQVhELS1kdXlJRmxNb21XenNSQ19SN2R5ZWluWTNyMlEyTDhnTzc5SXNZQV9NZ25OOU5UOTM4U21yMEg2SUJGSWNicVdiSmU0QnVEcHRsUGp5eVltRVFDdXNBaTdsMFNyV0FvWVdVcEFZSEN6NGZaM1BSTy1YWEtGUDJyOHVPV1ZLSnVwVFBRZ0lTeUVZclB5cUp5Q3AwTVg1SmhmZms2eXY3Nms4TVRGVUnSAeABQVVfeXFMUGRqOTJoNTNPN1RUc0FObTIwOURma3JJTjJ0b0lxRk45aHE0YjRpVXpVb0hkUk5zTXNIaWtwenp2TGlxTy1KLVFtaTZmZmRMbjcwcFpJWm1FbGs5VXMyTkZsR2pYd0ZabmRuZ2FkX1hROFIySXVyc0I2OFZ6UnpzYVJoZjM3ejFueVVqMFZlSjRyNENTUkNtOTBRQmt3THJTZmh2SlVZUmNLZ0diaHlLZDhYTVpDQzFxMzM2X0gxU3NKVTRqbXZFelcwRXd5d3F6TFc0b1pxWEJ0ektOdG5iQzE?oc=5",
-      "desc": "USFDA Clears Aurobindo Pharma's Generic Xeljanz Tablets for Arthritis, Ulcerative Colitis&nbsp;&nbsp;Medical Dialogues",
-      "pubDate": "Fri, 05 Jun 2026 12:27:40 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
+      "title": "JW중외제약, 대한가정의학회 ICPC 2026에서 ‘리바로하이’ 심포지엄 개최 - 의약뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVWjVKQ0pEX3pHZGFXcjhiSXc3UzJWUEFPbWJxcmlZelZzcjRMVE9DTVpXMENHRlFsR2x0ejFqbHdCVnByZjZGc2dEODZYcWFPT28yOFZoRVctUXBLNW1yUEFqZHZkRFhK?oc=5",
+      "desc": "JW중외제약, 대한가정의학회 ICPC 2026에서 ‘리바로하이’ 심포지엄 개최&nbsp;&nbsp;의약뉴스",
+      "pubDate": "Fri, 05 Jun 2026 10:04:32 GMT",
+      "sourceId": "gn_caduet_kr",
+      "sourceName": "카듀엣·복합제 (국내)",
+      "country": "KR",
+      "prod": "caduet"
     },
     {
       "title": "“관절 통증, 연골 손상 개선”… 뇌전증 치료제, 퇴행성 골관절염 치료 효과 기대 - 하이닥",
@@ -840,16 +880,6 @@
       "sourceName": "쎄레브렉스·관절염 (국내)",
       "country": "KR",
       "prod": "celebrex"
-    },
-    {
-      "title": "“피타바스타틴 3제 복합제, 주요 치료 전략으로 자리 잡아” - 헬스조선",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5pbzBmWHRlaE5RTGc0N2dFU1kzbzFhYTRHbjY5OGFrbEh6ejBiT1V2OG5MdGRRaHdNVXkxdW5BOTk5S05PZ1NYbW1CVDRKbnpva3lsRk1KWWJlX215ZTJQTkRSU0kwUDgzbXlMUG9qdmhmN0hlckE?oc=5",
-      "desc": "“피타바스타틴 3제 복합제, 주요 치료 전략으로 자리 잡아”&nbsp;&nbsp;헬스조선",
-      "pubDate": "Fri, 05 Jun 2026 07:43:00 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
     },
     {
       "title": "Aurobindo Pharma receives USFDA nod for generic Tofacitinib tablets - Indian Pharma Post",
@@ -863,7 +893,7 @@
     },
     {
       "title": "JW중외제약, 대한가정의학회 ICPC 2026서 ‘리바로하이’ 심포지엄 성료 - 메디포뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lV0lFOXhHYmQwWXo3SGlxXzZVT1p3TXZTR1NSUVFpSXJESTBFaUs2aGJwQms2XzM2TjlaaXlYRjMyYWZwcXVFVUUyQVVQUVNPazZFcW94TlRUZmZTUXVaZ1VWOVY?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBub1VNUXltelJncGVTQnluY2M4eTVzUVIwMUhqemR1d2RiVVZTeVhQMmtoVHYzZE5QTXZUR0VyZUhLVm9GMGkwYVFOemlwcllFQVRXN0lzUmh1eWk3d1RxVVRYNklzT2s?oc=5",
       "desc": "JW중외제약, 대한가정의학회 ICPC 2026서 ‘리바로하이’ 심포지엄 성료&nbsp;&nbsp;메디포뉴스",
       "pubDate": "Fri, 05 Jun 2026 04:36:02 GMT",
       "sourceId": "gn_caduet_kr",
@@ -920,26 +950,6 @@
       "sourceName": "카듀엣·복합제 (국내)",
       "country": "KR",
       "prod": "caduet"
-    },
-    {
-      "title": "약물로 조절 어려운 고혈압 환자…새 치료 선택지 열렸다 - 약사공론",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBDTVIwWVBtTXViREoyQzlUMXNxbTNqMWY3S3VfaTFPTFdqMFJaWmY3ZFQ3anBEZ3YxelhieDM4WlpVaHQxdXZDVTQ0S3B0LUlKU1ZEWU16aWVuSlBPTmJ4VmZ5TVpzMFhuSlVhVw?oc=5",
-      "desc": "약물로 조절 어려운 고혈압 환자…새 치료 선택지 열렸다&nbsp;&nbsp;약사공론",
-      "pubDate": "Fri, 05 Jun 2026 02:43:10 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
-      "title": "고혈압 환자 신장 신경 차단용 초음파수술기 허가 - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zU3hrcmVGcGhORFd5TDRaeVRRck81Vk9Dd0FjMkdwT3JobzRzbld1WFVpSEo5aU1IU05KMzRLVy1Xal9JQW1aV3VWWXhOcWpEY25XSk43ZUNjdUnSAWBBVV95cUxPWjRuaWZHeU1JUUlLb2trVllIdDRMb1hBcDBMZGJqTWZPUGNlVmtnT0xlbmxaanNUckVBdVV3WDZjRF9sY3Npb3BSV0hhVS1ubmZDcmg5UXdBTjh4dF9Bazk?oc=5",
-      "desc": "고혈압 환자 신장 신경 차단용 초음파수술기 허가&nbsp;&nbsp;연합뉴스",
-      "pubDate": "Fri, 05 Jun 2026 01:51:10 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
     },
     {
       "title": "“명의 30년 노하우 담겼다”…액티메디, 무릎 골관절염 디지털 치료제 내년 승인 도전 - 전자신문",
@@ -1042,6 +1052,16 @@
       "prod": "lipitorplus"
     },
     {
+      "title": "Bempedoic Acid Appears to Curb VTE Risk in Statin-Intolerant Patients - Cleveland Clinic",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNHNlRUVjMTNoZDR6OTFGVEhpRF9TN19YV0JqaFVSRnF0TXJJS3dTeGZmZmZXRTNNcWhfb0ZEZFdZdjdHNHcyelV3UDczYl9EZldLSEpfS0ZmUG5yMUZFLVRnYmxfaHJ0TmtoTHZZZWpISmZLNGZOeFM2UksyQS1uR1BYaW9GR09aMF9XZS1FVlQ2amg0UGkxZEVNaGxPcUpLOG42OGhVeUdzeWc?oc=5",
+      "desc": "Bempedoic Acid Appears to Curb VTE Risk in Statin-Intolerant Patients&nbsp;&nbsp;Cleveland Clinic",
+      "pubDate": "Wed, 03 Jun 2026 10:40:41 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
+      "prod": "lipitor"
+    },
+    {
       "title": "Ranking high blood pressure drug combinations from most to least tolerated - Medical Xpress",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObUlWdDBNaFc2cXJMNTVmeUZzSTlMWkRHWTVUSXJ2WENMVU1mWWMySlllbVlpbEh4WUtIMFhSVm8wR3pxeUhUbDJXUkpXRzFReG9GRDBrUWg1ejQ5NUdGX0kxbzdiNHJsUTlIZHhGbTRpc3NIalhlc3JOWFowN3plaGhmbDZsa0Za?oc=5",
       "desc": "Ranking high blood pressure drug combinations from most to least tolerated&nbsp;&nbsp;Medical Xpress",
@@ -1076,16 +1096,6 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fQ2RpRXROQ1V3TWYwM1hTTWxjbDk5MmhxWldaRUx6SXlwZWN5M3BBdWp2bUxOY1NYMU1yX1gwQmRJUVRkSU8wdW1QZTI1aUl0aks2YUlINkZ4MlYzMkpSc1pRUjNKUkQyN0E?oc=5",
       "desc": "급여 장벽 깬 다국적제약사 의약품 영토 확장 꾀한다&nbsp;&nbsp;의학신문",
       "pubDate": "Mon, 01 Jun 2026 21:00:00 GMT",
-      "sourceId": "gn_policy_kr",
-      "sourceName": "의약품 정책 (국내)",
-      "country": "KR",
-      "prod": "all"
-    },
-    {
-      "title": "젤잔즈, 강직 척추염·건선성 관절염 1차 경구 표적치료제로 급여 확대 - MEDI:GATE NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ka0JFMXhzNUZlb0hFSU11Zi1Ga2pTTTV2MEYtMjVCaTdwb2txTE5ySGpVLVAzeXBCbzY2R1BTQWVReUJzMWZHX2EzTUd4Uk9hZHpNUw?oc=5",
-      "desc": "젤잔즈, 강직 척추염·건선성 관절염 1차 경구 표적치료제로 급여 확대&nbsp;&nbsp;MEDI:GATE NEWS",
-      "pubDate": "Mon, 01 Jun 2026 20:44:00 GMT",
       "sourceId": "gn_policy_kr",
       "sourceName": "의약품 정책 (국내)",
       "country": "KR",
@@ -1132,6 +1142,16 @@
       "prod": "lipitorplus"
     },
     {
+      "title": "한국화이자제약 ‘젤잔즈’, 강직척추염·건선성관절염 1차 표적치료제 건강보험 급여 확대 - 헬스오",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16NU9TYWkxWXFwTXJOVjNKZkttX05jVWFCTHRIalZ2S1BrSWhIYVkyWG14dWRPcmpTVXNVZm1xeDZfcHdidTFGSlVzd0d4Z1ZuRlZOdHdiRE1wVWZ0bnhTZ0g0RC1raktDdGc5UU1ZOTRucG5raXc?oc=5",
+      "desc": "한국화이자제약 ‘젤잔즈’, 강직척추염·건선성관절염 1차 표적치료제 건강보험 급여 확대&nbsp;&nbsp;헬스오",
+      "pubDate": "Mon, 01 Jun 2026 07:00:00 GMT",
+      "sourceId": "gn_policy_kr",
+      "sourceName": "의약품 정책 (국내)",
+      "country": "KR",
+      "prod": "all"
+    },
+    {
       "title": "한국애브비, '린버크' 강직성 척추염 치료 건강보험 급여 확대 - 뉴스1",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBCRWxobkthakgwX2J1bE1fQkNSNnQ2X09ESjBJNzVOTTluaUx1dV84M3VfN0VfSHhjYnZoWWNfR0hnZ051akI1dHNiSnhjaTdfR1RjSWRoUGtNeWdnLUpaOA?oc=5",
       "desc": "한국애브비, '린버크' 강직성 척추염 치료 건강보험 급여 확대&nbsp;&nbsp;뉴스1",
@@ -1142,6 +1162,16 @@
       "prod": "all"
     },
     {
+      "title": "JW중외제약, 피타바스타틴 저용량 복합제 ‘리바로젯 1/10㎎’ 출시 - 금융경제신문",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1IdDk1ZDRhN2VLc1lqSExzUlAyTnVCeHIxTXVqSFM5UERPNVhYRXFxcFhoQkp5WlFIMFJtOEEyOXR1R1dNZzBvc0dDeUthSUxHNHpaaFpndTZCU2ZBS1BXazlyd1pZdEllUDVQUtIBb0FVX3lxTE4xaFk5bEVNOHAzdm5Eb0VhcWN4Z2xwU2xZd3N0cFRSNDBwRXFFV3FEWllXNVZoNmstSTQ5TERrekdRQ1VKcWNIUVpzOGxHay0wOXlYS3QySVJCdGhMQlQ1YmpVSTBrU0lkaE5EMHJiSQ?oc=5",
+      "desc": "JW중외제약, 피타바스타틴 저용량 복합제 ‘리바로젯 1/10㎎’ 출시&nbsp;&nbsp;금융경제신문",
+      "pubDate": "Mon, 01 Jun 2026 06:58:55 GMT",
+      "sourceId": "gn_lipitorplus_kr",
+      "sourceName": "리피토플러스·에제티미브 (국내)",
+      "country": "KR",
+      "prod": "lipitorplus"
+    },
+    {
       "title": "한국화이자 '젤잔즈', 강직성 척추염·건선성 관절염 급여 확대 - 메디코파마",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0T3h4NUZmeU1TT2dWaGMzbGFGRWk0YWpObUs0UW03VDBBaER1RFA0X2diZENJNE9HRmsydW9qOWZLUG9JSTN4Z01QeEFpQmR4XzhPRUJJMmhuVmpYM1JHVll6dVJQTk9WY2pOWG10SE1NUQ?oc=5",
       "desc": "한국화이자 '젤잔즈', 강직성 척추염·건선성 관절염 급여 확대&nbsp;&nbsp;메디코파마",
@@ -1150,6 +1180,16 @@
       "sourceName": "의약품 정책 (국내)",
       "country": "KR",
       "prod": "all"
+    },
+    {
+      "title": "LDL 콜레스테롤 43.9% 감소 확인…대웅제약, 맞춤형 이상지질혈증 치료 전략으로 심혈관질환 예방 강화 - 이코노미사이언스",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9rSmFtVlIzSDVvcWd2WlRFOWlFbjNucjZOaHNlZkVVam9SbTFDM2o5SHlnT2pGQWExaGthT2dTMHVUM2VLdG1Hak5UY05HazRpcWgxcnRZVUpyMm5WY2E2T0J4TVhHX3BiZ0tZa01hQQ?oc=5",
+      "desc": "LDL 콜레스테롤 43.9% 감소 확인…대웅제약, 맞춤형 이상지질혈증 치료 전략으로 심혈관질환 예방 강화&nbsp;&nbsp;이코노미사이언스",
+      "pubDate": "Mon, 01 Jun 2026 02:36:13 GMT",
+      "sourceId": "gn_lipitorplus_kr",
+      "sourceName": "리피토플러스·에제티미브 (국내)",
+      "country": "KR",
+      "prod": "lipitorplus"
     },
     {
       "title": "AbbVie, Pfizer win broader reimbursement for oral JAK inhibitors in Korea - koreabiomed.com",
@@ -1172,16 +1212,6 @@
       "prod": "all"
     },
     {
-      "title": "JW중외제약, 피타바스타틴 저용량 복합제 ‘리바로젯 1/10㎎’ 출시 - 더바이오",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xMEF2YlN2Q29ubWNKazJBcEo3NHFKQ1MwS19XYVdFWFhjYjRYeWdMN2pFb3BjV0FsRXFUU2c0Q1Y2a3B6bzl1RXd2cnRvY2MtakpjMmVQaXBMMjREWDdNb0N3R1JXNndUV3JQTNIBcEFVX3lxTE1xQW9NVktLVjczaHQ2eWtXVGZZUjhJeTMwY3VJbmNlZC1SQThNcGVXd1Q2OWw5MGlIYlRJcTN2V1dVVGx6cGMwZHJUMWNkUmlSSFJncDRwVUVaVlRWQnFVbnVhNTBRVi1BWTFPbmNyVEk?oc=5",
-      "desc": "JW중외제약, 피타바스타틴 저용량 복합제 ‘리바로젯 1/10㎎’ 출시&nbsp;&nbsp;더바이오",
-      "pubDate": "Mon, 01 Jun 2026 01:34:01 GMT",
-      "sourceId": "gn_lipitorplus_kr",
-      "sourceName": "리피토플러스·에제티미브 (국내)",
-      "country": "KR",
-      "prod": "lipitorplus"
-    },
-    {
       "title": "'젤잔즈', 강직 척추염·건선성 관절염 급여 확대 - 데일리팜",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAwU2lEM0J5RnluS1ZmYlJ4NDd3c3RZZVVZeC1yN0VjUnBDX0RFczR1RXdSOXcyOUdXUVBEYTVCTlpVR3dKSlJ6Um1icmRBcHJRMC1CQW1FY3dEb3pXUVk3NEln?oc=5",
       "desc": "'젤잔즈', 강직 척추염·건선성 관절염 급여 확대&nbsp;&nbsp;데일리팜",
@@ -1200,16 +1230,6 @@
       "sourceName": "의약품 정책 (국내)",
       "country": "KR",
       "prod": "all"
-    },
-    {
-      "title": "Tackling Barriers to Lipid Management in Primary Care - Medscape",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQb3FwRG1uWW9nbzVQNmlPQVg4elRVSmQwVjl6amU5Sm1LdWdUU3RJajdLQl9KXzg4YXhEY1UxdFlQYTltUEd3eE1pV1JWX24wQThXaHNTaWIyeFd4X2hTRWNFekhkcjJmNl93c2RHbjBkcVRTam5jT2txZDVYazRzeE82aGZNdjJ1RVNERUFSdFV1dVYwRGdKaHhVYllLUQ?oc=5",
-      "desc": "Tackling Barriers to Lipid Management in Primary Care&nbsp;&nbsp;Medscape",
-      "pubDate": "Sun, 31 May 2026 12:41:18 GMT",
-      "sourceId": "gn_lipitorplus_en",
-      "sourceName": "LipitorPlus·Ezetimibe (Global)",
-      "country": "US",
-      "prod": "lipitorplus"
     },
     {
       "title": "Certain BP Drugs and Combos Better Tolerated Than Others - Medscape",
@@ -1382,16 +1402,6 @@
       "prod": "caduet"
     },
     {
-      "title": "People's Pharmacy:Does vitamin C really prevent colds? - The Crescent-News",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPc2Vpc2gzN2Fsc0pkUDI5UV8yVHhnQlBZdVBOd0N4dElEZnluSWdkNFFTUzFVRmhEanlCOWtBNEt5Wk9lVnlMN2lFZTgyZlNXLXhzVU53dDZZcVFqMzU5Q1VqMEg2OGlaSm5MaFpDd2xydEc3VnFqbVhVRG9XbFotOTVaNkJqZzhPVkFqZF9hWkxRWFd3ZVRxWEtjY0ZYdTNtSTZNZ0NKZ2xmV05uSURxN2FtVE9WNVp6LUFGOFlRR0lubWxLdVlxSmJFTkUySy1kVWIzTzB6TWxIbkhpZTUwUkRaNUxvTUh5cEZncXN3MXZySXJwaHR2Ng?oc=5",
-      "desc": "People's Pharmacy:Does vitamin C really prevent colds?&nbsp;&nbsp;The Crescent-News",
-      "pubDate": "Thu, 28 May 2026 01:00:00 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
-    },
-    {
       "title": "Gene-editing drugs are opening a new frontier in medicine - The Spectator Australia",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZGhDbW9Za0hUUER6d24yZG5IdDFBSkhwR096ZEx6QlM3bWxlQXBabm1sYVJPVW9VMUNlbTRCaVVDTElhZ1JLamhBVDVicXpjdWU0a3VqaWZ3WjJIOENPR3F4YVQ2V0JIdlJieGEtQW90YUN3WFdvcFRQQk05NllTVWR0TXhsNXlQV01odkxQVWZKbE15Qks4UlJuZw?oc=5",
       "desc": "Gene-editing drugs are opening a new frontier in medicine&nbsp;&nbsp;The Spectator Australia",
@@ -1426,6 +1436,16 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3MlkzN3NLUGlPc3dnWkZOUVM5SGhNa2RnNXBScVVuZmF1TUNXUEU0VmdqTzVHQ1NSQld5VTVoemk5QnFVdmdWZ1o5alZRZzNNMHJJV0kxX0t3bEtUS3ZMY0MtM3o?oc=5",
       "desc": "Hypertension: Background, Etiology, Pathophysiology&nbsp;&nbsp;Medscape",
       "pubDate": "Wed, 27 May 2026 07:00:00 GMT",
+      "sourceId": "gn_htn_en",
+      "sourceName": "Norvasc·CCB (Global)",
+      "country": "US",
+      "prod": "norvasc"
+    },
+    {
+      "title": "Interpretable photoplethysmography-based machine-learning model for noninvasive assessment of systolic blood pressure - Frontiers",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRkdBRGZjaDhPX3A0VUZlQ1BpUklLdVAwczlVY25EUENHdTlKREJwNHdkclo1eEpVN2VrQXdVaFkwVmZTZloyYTdtMEdRdWR0XzNiLS1DckFkd0paQ09OVXpWSGZxeUJVczVaMXlPMjNPSVpoVERBZ21zZnZ0Z0xsME1UdzF2ekxORHJfQ3o1a2gwQQ?oc=5",
+      "desc": "Interpretable photoplethysmography-based machine-learning model for noninvasive assessment of systolic blood pressure&nbsp;&nbsp;Frontiers",
+      "pubDate": "Fri, 08 May 2026 18:47:25 GMT",
       "sourceId": "gn_htn_en",
       "sourceName": "Norvasc·CCB (Global)",
       "country": "US",
