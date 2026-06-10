@@ -126,9 +126,17 @@ input { font-family:inherit; color:var(--text); }
 
 .list-body { flex:1; min-width:0; }
 
+.list-title-row { display:flex; align-items:center; gap:6px; min-width:0; }
+.list-type-icon { font-size:13px; flex-shrink:0; line-height:1; }
+.badge-new {
+  font-size:9px; font-weight:800; letter-spacing:.04em;
+  padding:1px 5px; border-radius:4px;
+  background:#ef4444; color:#fff; flex-shrink:0;
+  vertical-align:middle;
+}
 .list-title {
   font-size:14px; font-weight:600; line-height:1.4; color:var(--text);
-  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis; min-width:0;
 }
 .list-item:hover .list-title { color:var(--accent); }
 
@@ -147,7 +155,6 @@ input { font-family:inherit; color:var(--text); }
 
 /* Tags */
 .tag-prod { font-size:10px; padding:2px 7px; border-radius:5px; font-weight:700; white-space:nowrap; }
-.tag-type { font-size:10px; padding:2px 7px; border-radius:5px; background:#f0fdf4; color:#15803d; white-space:nowrap; }
 .tag-class { font-size:10px; padding:2px 7px; border-radius:5px; background:#f5f3ff; color:#6d28d9; white-space:nowrap; }
 
 /* ── Notice ── */
@@ -493,15 +500,23 @@ function cleanDesc(title, desc){
 }
 
 function makeTags(a, prodObj){
-  const typeObj=TYPES.find(t=>t.id===a.articleType);
   const prodTags=prodObj
     ?`<span class="tag-prod" style="background:${prodObj.color};color:${prodObj.textColor}">${prodObj.name}</span>`
     :(a.matchedProds||[]).slice(0,2).map(p=>`<span class="tag-prod" style="background:${p.color};color:${p.textColor}">${p.name}</span>`).join("");
   const classTags=prodObj
     ?`<span class="tag-class">${prodObj.classLabel}</span>`
     :(a.matchedClasses||[]).slice(0,1).map(p=>`<span class="tag-class">${p.classLabel}</span>`).join("");
-  const typeTag=typeObj?.id!=="all"?`<span class="tag-type" title="${typeObj?.label||""}">${typeObj?.icon||""}</span>`:"";
-  return prodTags+classTags+typeTag;
+  return prodTags+classTags;
+}
+
+function typeIcon(articleType){
+  return TYPES.find(t=>t.id===articleType)?.icon||"";
+}
+
+function isToday(d){
+  if(!d||isNaN(d.getTime())) return false;
+  const now=new Date();
+  return d.getFullYear()===now.getFullYear()&&d.getMonth()===now.getMonth()&&d.getDate()===now.getDate();
 }
 
 function renderFeed(){
@@ -540,11 +555,16 @@ function renderFeed(){
 
     const cleanedDesc=cleanDesc(a.title, a.desc);
 
+    const todayBadge=isToday(a.date)?`<span class="badge-new">NEW</span>`:"";
     item.innerHTML=`
       <div class="list-accent" style="background:${accentColor}"></div>
       <div class="list-num">${i+1}</div>
       <div class="list-body">
-        <div class="list-title">${a.title}</div>
+        <div class="list-title-row">
+          <span class="list-type-icon">${typeIcon(a.articleType)}</span>
+          ${todayBadge}
+          <span class="list-title">${a.title}</span>
+        </div>
         ${cleanedDesc?`<div class="list-desc">${cleanedDesc}</div>`:""}
       </div>
       <div class="list-right">
