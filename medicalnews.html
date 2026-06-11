@@ -150,7 +150,9 @@ input { font-family:inherit; color:var(--text); }
   display:flex; flex-direction:column; align-items:flex-end; gap:4px;
   flex-shrink:0; min-width:130px;
 }
-.list-source { font-size:16px; line-height:1; white-space:nowrap; }
+.list-source { font-size:10px; font-weight:700; padding:2px 7px; border-radius:5px; white-space:nowrap; line-height:1.6; }
+.list-source.country-kr { background:#fff0f0; color:#c0392b; border:1px solid #f5c6c6; }
+.list-source.country-us { background:#f0f4ff; color:#1a56db; border:1px solid #c3d0f7; }
 .list-time { font-size:11px; color:var(--muted); white-space:nowrap; }
 .list-tags { display:flex; gap:3px; flex-wrap:wrap; justify-content:flex-end; }
 
@@ -491,7 +493,8 @@ function filterArticles(){
 }
 
 const srcProdMap=Object.fromEntries(SOURCES.map(s=>[s.id,s.prod]));
-const FLAGS={KR:"🇰🇷",kr:"🇰🇷",US:"🇺🇸",us:"🇺🇸"};
+const COUNTRY_LABEL={KR:"🇰🇷 국내",kr:"🇰🇷 국내",US:"🇺🇸 해외",us:"🇺🇸 해외"};
+const COUNTRY_CLASS={KR:"country-kr",kr:"country-kr",US:"country-us",us:"country-us"};
 
 function cleanDesc(title, desc){
   if(!desc) return "";
@@ -566,7 +569,7 @@ function renderFeed(){
         ${cleanedDesc?`<div class="list-desc">${cleanedDesc}</div>`:""}
       </div>
       <div class="list-right">
-        <span class="list-source">${FLAGS[a.country]||""}</span>
+        ${a.country&&COUNTRY_LABEL[a.country]?`<span class="list-source ${COUNTRY_CLASS[a.country]||""}">${COUNTRY_LABEL[a.country]}</span>`:""}
         <span class="list-time">${formatDate(a.date)}</span>
         <div class="list-tags">${makeTags(a,prodObj)}</div>
       </div>
