@@ -150,7 +150,9 @@ input { font-family:inherit; color:var(--text); }
   display:flex; flex-direction:column; align-items:flex-end; gap:4px;
   flex-shrink:0; min-width:130px;
 }
-.list-source { font-size:16px; line-height:1; white-space:nowrap; }
+.list-source { font-size:10px; font-weight:700; padding:2px 7px; border-radius:5px; white-space:nowrap; line-height:1.6; }
+.list-source.country-kr { background:#fff0f0; color:#c0392b; border:1px solid #f5c6c6; }
+.list-source.country-us { background:#f0f4ff; color:#1a56db; border:1px solid #c3d0f7; }
 .list-time { font-size:11px; color:var(--muted); white-space:nowrap; }
 .list-tags { display:flex; gap:3px; flex-wrap:wrap; justify-content:flex-end; }
 
@@ -211,9 +213,6 @@ input { font-family:inherit; color:var(--text); }
 </div>
 
 <script>
-// ══════════════════════════════════════════════════════════
-//  제품 정의
-// ══════════════════════════════════════════════════════════
 const PRODUCTS = [
   { id:"all", name:"전체", generic:"모든 제품", color:"#e8f0fb", textColor:"#0050a0", icon:"🏠", iconBg:"linear-gradient(135deg,#3b82f6,#6366f1)" },
   {
@@ -335,24 +334,15 @@ const SOURCES = [
   { id:"gn_policy_en",      prod:"all"         },
 ];
 
-// ══════════════════════════════════════════════════════════
-//  State
-// ══════════════════════════════════════════════════════════
 let activeProd="all", activeType="all", searchQuery="";
 let articles=[], errors={}, lastUpdated=null;
 
-// ══════════════════════════════════════════════════════════
-//  Init
-// ══════════════════════════════════════════════════════════
 renderProdBar(); renderTypeBar();
 loadFeeds();
 
 document.getElementById("searchInput").addEventListener("input",e=>{searchQuery=e.target.value;renderFeed();});
 document.getElementById("reloadBtn").addEventListener("click",loadFeeds);
 
-// ══════════════════════════════════════════════════════════
-//  Render filters
-// ══════════════════════════════════════════════════════════
 function renderProdBar(){
   const bar=document.getElementById("prodBar"); bar.innerHTML="";
   PRODUCTS.forEach(p=>{
@@ -382,9 +372,6 @@ function renderTypeBar(){
   });
 }
 
-// ══════════════════════════════════════════════════════════
-//  키워드 매칭
-// ══════════════════════════════════════════════════════════
 function includes(text, kws){ const t=text.toLowerCase(); return kws.some(k=>t.includes(k.toLowerCase())); }
 
 function detectProds(text){
@@ -404,9 +391,6 @@ function detectType(text){
   return best.score>0 ? best.id : "disease";
 }
 
-// ══════════════════════════════════════════════════════════
-//  뉴스 로드
-// ══════════════════════════════════════════════════════════
 async function loadFeeds(){
   errors={};
   document.getElementById("feedArea").innerHTML=`<div class="skeleton-list">${Array(8).fill('<div class="skeleton-row skeleton-card"></div>').join("")}</div>`;
@@ -453,9 +437,6 @@ function showNotice(msg){
   el.textContent=msg; el.style.display="";
 }
 
-// ══════════════════════════════════════════════════════════
-//  Render Feed
-// ══════════════════════════════════════════════════════════
 function formatDate(d){
   if(!d||isNaN(d.getTime())) return "";
   const s=(Date.now()-d.getTime())/1000;
@@ -491,7 +472,8 @@ function filterArticles(){
 }
 
 const srcProdMap=Object.fromEntries(SOURCES.map(s=>[s.id,s.prod]));
-const FLAGS={KR:"🇰🇷",kr:"🇰🇷",US:"🇺🇸",us:"🇺🇸"};
+const COUNTRY_LABEL={KR:"국내",kr:"국내",US:"해외",us:"해외"};
+const COUNTRY_CLASS={KR:"country-kr",kr:"country-kr",US:"country-us",us:"country-us"};
 
 function cleanDesc(title, desc){
   if(!desc) return "";
@@ -552,8 +534,11 @@ function renderFeed(){
     item.href=a.link; item.target="_blank"; item.rel="noopener noreferrer";
 
     const cleanedDesc=cleanDesc(a.title, a.desc);
-
     const todayBadge=isToday(a.date)?`<span class="badge-new">NEW</span>`:"";
+    const countryBadge=a.country&&COUNTRY_LABEL[a.country]
+      ?`<span class="list-source ${COUNTRY_CLASS[a.country]||""}"> ${COUNTRY_LABEL[a.country]}</span>`
+      :"";
+
     item.innerHTML=`
       <div class="list-accent" style="background:${iconBg}"></div>
       <div class="list-num">${i+1}</div>
@@ -566,7 +551,7 @@ function renderFeed(){
         ${cleanedDesc?`<div class="list-desc">${cleanedDesc}</div>`:""}
       </div>
       <div class="list-right">
-        <span class="list-source">${FLAGS[a.country]||""}</span>
+        ${countryBadge}
         <span class="list-time">${formatDate(a.date)}</span>
         <div class="list-tags">${makeTags(a,prodObj)}</div>
       </div>
