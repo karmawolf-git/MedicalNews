@@ -1,11 +1,21 @@
 {
-  "updatedAt": "2026-06-14T16:27:30.531Z",
+  "updatedAt": "2026-06-14T19:46:25.977Z",
   "articles": [
+    {
+      "title": "데일리팜코리아, 데일리팜 영문뉴스, dailypharmkorea - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5UQ2hNNWZRV2trV1FrOWg3NHU2cVBzYzdHWDZkLTdZek9HRXNWcUNpejJVYzZfSGhsaGlNcGt4UE1WSWtqTUdSbEsyaw?oc=5",
+      "desc": "데일리팜코리아, 데일리팜 영문뉴스, dailypharmkorea&nbsp;&nbsp;데일리팜",
+      "pubDate": "Sun, 14 Jun 2026 13:11:17 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
+    },
     {
       "title": "덥다고 아이스크림 자주 먹으면 당뇨·고혈압 등 '대사질환' 위험 ↑ - 네이트",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5uSDY4MXVMVzJfSDlPVHhVMVNaQmQ1TktvU3Fac0tkN3ZVRUpHYXdUNXZWYUhJaVdlclZTT0Rkb0J3eUR0R2JuSmhBN0o2dHJNdlBr?oc=5",
       "desc": "덥다고 아이스크림 자주 먹으면 당뇨·고혈압 등 '대사질환' 위험 ↑&nbsp;&nbsp;네이트",
-      "pubDate": "Sun, 14 Jun 2026 12:16:07 GMT",
+      "pubDate": "Sun, 14 Jun 2026 12:16:00 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
@@ -232,6 +242,16 @@
       "prod": "lyrica"
     },
     {
+      "title": "\"스타틴 부작용 과도한 우려...복용 혜택이 더 크다\" - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5xTFBOVEw4blI0TlJWUE9kZFo1UEhtTENvVmM3OEFrQ0huU1dvdnNfNDZ1YjFXS1hPcnB4bWNYVkR5NVVVeE5oWDJ6S1pnQS1tYmlV?oc=5",
+      "desc": "\"스타틴 부작용 과도한 우려...복용 혜택이 더 크다\"&nbsp;&nbsp;데일리팜",
+      "pubDate": "Fri, 12 Jun 2026 00:27:19 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
+    {
       "title": "넥스트바이오, ‘넥스피어F’ 무한진화 가능성...잇따른 임상 성공으로 증명 - 이데일리",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRjMtdnlyUTYwdXdrT0ZscG81UHY0aW0yY3RPQnpnZnFlQ3R5NURBZGtOR2hQZWxhZDJzVHFXbXRwSVVhM2xfVmVGZTl1enB6Mnd3R0VhQ2ktM1o5S2VmRU1YSDkwNnRoSEowdDBFVEhUcHNMSV9oOXl3QWJYMFAxSA?oc=5",
       "desc": "넥스트바이오, ‘넥스피어F’ 무한진화 가능성...잇따른 임상 성공으로 증명&nbsp;&nbsp;이데일리",
@@ -250,6 +270,16 @@
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
       "prod": "lipitor"
+    },
+    {
+      "title": "'서너알 말고 한알로'…제약사 만성질환 복합제 경쟁 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9hLTdtNDBxaExLRE1uM0JqdmdNRmRLWVFMY3ZaZTY1elZKY3d6SVVnLWdva0NVVDFKTmZRNVJvaDBtOU1IUTJYM0dNSzlraXQ4ZXJhbQ?oc=5",
+      "desc": "'서너알 말고 한알로'…제약사 만성질환 복합제 경쟁&nbsp;&nbsp;v.daum.net",
+      "pubDate": "Thu, 11 Jun 2026 22:52:02 GMT",
+      "sourceId": "gn_caduet_kr",
+      "sourceName": "카듀엣·복합제 (국내)",
+      "country": "KR",
+      "prod": "caduet"
     },
     {
       "title": "Lawrence Leiter, M.D., on evolocumab in high-risk patients with diabetes and elevated cholesterol | ADA 2026 - Managed Healthcare Executive",
@@ -496,16 +526,6 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5JeEZ2SHlRZnR6M3EzdE1qbHNXMTV1MUlHZmlSem1lcGdJTHFpMGxfR293cUFRVWpLMVNTMzdaNUhsN3RHNW9KWDFFeFpjMm4tZXYwOHRNSVRkUXFyQTZrTlpBTmR3cXdCNTRV?oc=5",
       "desc": "스타틴 치료 지연→심근경색·뇌졸중… \"스타틴 치료 전략 중요\"&nbsp;&nbsp;히트뉴스",
       "pubDate": "Wed, 10 Jun 2026 21:01:00 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
-    },
-    {
-      "title": "\"스타틴 부작용 과도한 우려...복용 혜택이 더 크다\" - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95MmZ4RFBxOWRmS1JtZHMzd0JpZHY3YkstNHZNN2Q1YjQ5VlE3VGJabnNVallVMHZkRTNmZWoybHdEN0tnZXpaa2FUZ0Z1OFpGZXlsdWRR?oc=5",
-      "desc": "\"스타틴 부작용 과도한 우려...복용 혜택이 더 크다\"&nbsp;&nbsp;데일리팜",
-      "pubDate": "Wed, 10 Jun 2026 21:00:52 GMT",
       "sourceId": "gn_lipitor_kr",
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
@@ -1072,16 +1092,6 @@
       "prod": "lyrica"
     },
     {
-      "title": "After $665 mil. Agios deal, Oscotec maps 2028 phase 3 path for blood disorder drug - koreabiomed.com",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA2VEFTa2xBOG8wcWpNcnhYemVEOUoyWlFuanpmbkl4S3A0QkQ5a3FtR2RTeFhSaGY1LUdGSTF2eGVDdkNnNVdrOVAzY2Z3akxWazRUR1pJTnlTT1hhb2lVYUZqcEF1OE1GaXF6TlJB0gFyQVVfeXFMTlA4VEx4OG9PN25iUlBhdVd1eTM3TDdUTV96bFJvckcxSy0ycjhlUDlubFYtSmxPNFdoWWRuOEthVEl6cUswSXRSczhKMzNHMEtSVjF4VGJkLXlFSk1wMVVHdmhlNUVUdTNZOUxIUXZFR3d3?oc=5",
-      "desc": "After $665 mil. Agios deal, Oscotec maps 2028 phase 3 path for blood disorder drug&nbsp;&nbsp;koreabiomed.com",
-      "pubDate": "Thu, 04 Jun 2026 08:13:46 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
-    },
-    {
       "title": "Can a FT-IR Spectroscopy Method Offer Solvent-Free Testing for Common Blood Pressure Drug Combinations? - Spectroscopy Online",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPS2E0VFVnOXRvMzZLeXU1ZXdMVEp2SkVLYmtVaGZkenRfS1RYWU9OUFJmdEJ5U0ZfSTkyTk1jT0NNRFBubERIYXpXb2lIQzh5NWJLRzd0U1F4WVV3bEh6c2tVYWxMdUdqZERqaTRXY1E4M2hoeFdLemxLY1czbEtWcVdoNnl4RXJuVFRweGlYbURkUjlzSUtNcW9FSGo3VDRYdWdUQ2E3Q0FVV0tiQlYwQ3pDbU9wVEhPYlU3NTllcmV5Yk1FZnVIUDJQX3FBQTlqN1Q4cUJITjA?oc=5",
       "desc": "Can a FT-IR Spectroscopy Method Offer Solvent-Free Testing for Common Blood Pressure Drug Combinations?&nbsp;&nbsp;Spectroscopy Online",
@@ -1090,16 +1100,6 @@
       "sourceName": "Norvasc·CCB (Global)",
       "country": "US",
       "prod": "norvasc"
-    },
-    {
-      "title": "Experiencing intense pain for a minor ache? Doctor explains reasons - Onmanorama",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORkdTM1lxYWJjVkdvT05ZRFE1QWV3cklmTWFuY1dyb0FfTHI2aF9wWHNvaFhKdk9hNE1RaURxRnJWR3pGM1ZSMURjN2RYemZaR190eTZGYV9XbFdhaW13aHZETWlKN19xZmRWMkZOMm53NWFmWDk3RmNoSy1VQXV0elVyUXI1UURmeUs2cFVYZ29ZODNTVmFsMWQ5ZzVSX0w2RTJn0gGjAUFVX3lxTE5GR1MzWXFhYmNWR29PTllEUTVBZXdySWZNYW5jV3JvQV9McjZoX3BYc29oWEp2T2E0TVFpRHFGclZHekYzVlIxRGM3ZFh6ZlpHX3R5NkZhX1dsV2FpbXdodkRNaUo3X3FmZFYyRk4ybnc1YWZYOTdGY2hLLVVBdXR6VXJRcjVRRGZ5SzZwVVhnb1k4M1NWYWwxZDlnNVJfTDZFMmc?oc=5",
-      "desc": "Experiencing intense pain for a minor ache? Doctor explains reasons&nbsp;&nbsp;Onmanorama",
-      "pubDate": "Thu, 04 Jun 2026 07:00:00 GMT",
-      "sourceId": "gn_neuro_en",
-      "sourceName": "Lyrica·Neuropathy (Global)",
-      "country": "US",
-      "prod": "lyrica"
     },
     {
       "title": "Novel Concept, 'Immune Dimming,' Explored in Rheumatoid Arthritis - MedPage Today",
@@ -1150,16 +1150,6 @@
       "sourceName": "LipitorPlus·Ezetimibe (Global)",
       "country": "US",
       "prod": "lipitorplus"
-    },
-    {
-      "title": "Race-Based Medicine in the Modern Era: Historical Practice, Current Evidence, and the Pharmacist’s Role - Pharmacy Times",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORjNBZlRLYUphaE5iczJGN2VJdmZZZ09wLUNYUWVYb3M5Nk5iaElKeUM3QWl4aDJPamk4N1NoWS1WNDhZeDdvTHR6ZFhiTkUxVkNUOHVjRW5SLXFNd2lhQk1sMG1Zb1E0ZDFPNmthWnJ2a2dlYU50M1djWmhISmZ1aFhDS1l1aWUxano3QlUzaWFaYjliNDN3V0JmOWk5UVNkVGVuRExQTlk5djhfUFIzb2Nld0ZXaU85c2kzMkNTNzVYUFhMaUZKb1Q3Yy0wQTJI?oc=5",
-      "desc": "Race-Based Medicine in the Modern Era: Historical Practice, Current Evidence, and the Pharmacist’s Role&nbsp;&nbsp;Pharmacy Times",
-      "pubDate": "Wed, 03 Jun 2026 07:00:00 GMT",
-      "sourceId": "gn_htn_en",
-      "sourceName": "Norvasc·CCB (Global)",
-      "country": "US",
-      "prod": "norvasc"
     },
     {
       "title": "Anti-Inflammatory Therapeutics Market Size, Share, Growth, 2034 - Straits Research",
@@ -1292,6 +1282,16 @@
       "prod": "all"
     },
     {
+      "title": "\"주사제 전 단계 환자까지\" 젤잔즈 강직성 척추염·건선성 관절염 1차 급여 확대 - 팜뉴스",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBDdVJhamxSX1F3RXdqSm5TWnlCeXY0LUdaQklPb0N1Y01GQndBSWtmWVlHdlRTd2JVOG9VOWIyd0hrOWduOTJDbHdKWWhSVUhLalowaTI0NXhSOVVleWNFaV9GSmx4ajVqc29nXw?oc=5",
+      "desc": "\"주사제 전 단계 환자까지\" 젤잔즈 강직성 척추염·건선성 관절염 1차 급여 확대&nbsp;&nbsp;팜뉴스",
+      "pubDate": "Mon, 01 Jun 2026 07:00:00 GMT",
+      "sourceId": "gn_policy_kr",
+      "sourceName": "의약품 정책 (국내)",
+      "country": "KR",
+      "prod": "all"
+    },
+    {
       "title": "한국애브비, '린버크' 강직성 척추염 치료 건강보험 급여 확대 - 뉴스1",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBCRWxobkthakgwX2J1bE1fQkNSNnQ2X09ESjBJNzVOTTluaUx1dV84M3VfN0VfSHhjYnZoWWNfR0hnZ051akI1dHNiSnhjaTdfR1RjSWRoUGtNeWdnLUpaOA?oc=5",
       "desc": "한국애브비, '린버크' 강직성 척추염 치료 건강보험 급여 확대&nbsp;&nbsp;뉴스1",
@@ -1310,16 +1310,6 @@
       "sourceName": "리피토플러스·에제티미브 (국내)",
       "country": "KR",
       "prod": "lipitorplus"
-    },
-    {
-      "title": "\"주사제 전 단계 환자까지\" 젤잔즈 강직성 척추염·건선성 관절염 1차 급여 확대 - 팜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBDdVJhamxSX1F3RXdqSm5TWnlCeXY0LUdaQklPb0N1Y01GQndBSWtmWVlHdlRTd2JVOG9VOWIyd0hrOWduOTJDbHdKWWhSVUhLalowaTI0NXhSOVVleWNFaV9GSmx4ajVqc29nXw?oc=5",
-      "desc": "\"주사제 전 단계 환자까지\" 젤잔즈 강직성 척추염·건선성 관절염 1차 급여 확대&nbsp;&nbsp;팜뉴스",
-      "pubDate": "Mon, 01 Jun 2026 03:56:27 GMT",
-      "sourceId": "gn_policy_kr",
-      "sourceName": "의약품 정책 (국내)",
-      "country": "KR",
-      "prod": "all"
     },
     {
       "title": "한국화이자 '젤잔즈', 강직성 척추염·건선성 관절염 급여 확대 - 메디코파마",
