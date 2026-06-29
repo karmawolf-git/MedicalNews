@@ -38,6 +38,13 @@ input { font-family:inherit; color:var(--text); }
 .brand-text { display:flex; flex-direction:column; gap:1px; }
 .brand-title { font-size:16px; font-weight:800; color:var(--text); letter-spacing:-.3px; }
 .brand-sub { font-size:11px; color:var(--muted); }
+.brand-title-row { display:flex; align-items:center; gap:8px; }
+.internal-badge {
+  font-size:9px; font-weight:800; letter-spacing:.05em;
+  padding:2px 7px; border-radius:5px;
+  background:#fef2f2; color:#dc2626; border:1px solid #fecaca;
+  text-transform:uppercase; white-space:nowrap;
+}
 
 .search-wrap { flex:1; min-width:160px; max-width:340px; position:relative; }
 .search-wrap::before { content:"🔍"; position:absolute; left:12px; top:50%; transform:translateY(-50%); font-size:13px; pointer-events:none; opacity:.45; }
@@ -184,7 +191,10 @@ input { font-family:inherit; color:var(--text); }
     <div class="brand">
       <div class="brand-icon">📰</div>
       <div class="brand-text">
-        <h1 class="brand-title">Medical News</h1>
+        <div class="brand-title-row">
+          <h1 class="brand-title">Medical News</h1>
+          <span class="internal-badge">Internal Use Only</span>
+        </div>
         <span class="brand-sub">금일 기준 2주 이내의 기사만 검색됩니다.</span>
       </div>
     </div>
