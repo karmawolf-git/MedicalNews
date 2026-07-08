@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-07-08T16:44:12.883Z",
+  "updatedAt": "2026-07-08T19:43:47.958Z",
   "articles": [
+    {
+      "title": "Personalized medicine opens new strategies against immune-mediated inflammatory diseases, according to a report - Demócrata",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTjJRUWwybFNfYTk3QXpOLXhHaU5tRm1QWkxFMVZMY3ZVUjV4MHJzYWYySUE2YnhHR1QtRVZsajFnNWNkUGlfMENmOGFaYXVlTzVuUG9HX19VNkdFaXNlT2ppckRZc25abU5sSGE5OGplMkh2ang0S3dxT3ZZMUZDWEluR3pkLWVBSWc1WUkxYUp6Sl9EUXdGZnc4VkFQQ3NIQWg1TmZVd0xvcjluWnNjS0RoblczT3p4YzRmN2ZULVBKMmtJTjBjY2pPajZFd1ZTZnNCeHFQNjJERzJpTmQ4dERXUETSAeQBQVVfeXFMUE4yUVFsMmxTX2E5N0F6Ti14R2lObUZtUFpMRTFWTGN2VVI1eDByc2FmMklBNmJ4R0dULUVWbGoxZzVjZFBpXzBDZjhhWmF1ZU81blBvR19fVTZHRWlzZU9qaXJEWXNuWm1ObEhhOThqZTJIdmp4NEt3cU92WTFGQ1hJbkd6ZC1lQUlnNVlJMWFKekpfRFF3RmZ3OFZBUENzSEFoNU5mVXdMb3I5blpzY0tEaG5XM096eGM0ZjdmVC1QSjJrSU4wY2NqT2o2RXdWU2ZzQnhxUDYyREcyaU5kOHREV1BE?oc=5",
+      "desc": "Personalized medicine opens new strategies against immune-mediated inflammatory diseases, according to a report&nbsp;&nbsp;Demócrata",
+      "pubDate": "Wed, 08 Jul 2026 16:10:49 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
+    },
     {
       "title": "안국, 국내 첫 인다파미드 3제 출시…고혈압 시장 공략 - 데일리팜",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04bndkcVQzMEg4WkhWUWVwT2FOVHBQRUpKMTN4dnRaLXJVYmZBZDdCZzZTM0hGOFI4TEFEcGpBbHJtQVZlZjZKZEhGVk45MmdRZ2R0a3R3?oc=5",
@@ -20,6 +30,16 @@
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
       "prod": "celebrex"
+    },
+    {
+      "title": "“권장량이 정해져 있는지 몰랐어요...” 사료 대신 간식이 주식? 고지혈증 ’리치’ - 채널A",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5vRVh4N1IzdW1OV2VaNG1icnJ5Q24xQnpwaklTNmd6S2w5bEU1Yms4b0t0b3dWMy1zakpfc0tzS2R0R3hCM2xTbmx1aG5DTi1kczVvTUZvWFNORy1wdVlJ?oc=5",
+      "desc": "“권장량이 정해져 있는지 몰랐어요...” 사료 대신 간식이 주식? 고지혈증 ’리치’&nbsp;&nbsp;채널A",
+      "pubDate": "Wed, 08 Jul 2026 14:16:00 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
     },
     {
       "title": "안국약품, 국내 최초 인다파미드 기반 3제 복합제 레보살탄플러스 출시 - 의약뉴스",
@@ -142,6 +162,16 @@
       "prod": "norvasc"
     },
     {
+      "title": "노인 심혈관질환 위험인자의 관리 - mostonline.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vcVh2WFVJNVB6MjI2OWVFSm9EUnhSbjN4empZZlplRWlZYWtJLXIxeHhQOGl0MDNNdUt1U3Bra2t5U0ZmVlIycnhBNzFuY1U0SGpHVEVYLVZsSEpLTHZ6NjdGUVhBN3hZVHYzbmg1Tng?oc=5",
+      "desc": "노인 심혈관질환 위험인자의 관리&nbsp;&nbsp;mostonline.co.kr",
+      "pubDate": "Wed, 08 Jul 2026 06:41:55 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
       "title": "메디포스트, 카티스템 미국 3상 첫 환자 투약… 글로벌 공략 시동 - 아주경제",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAtbGtsZVlfelMwSERFTGZ2dnQ1aktjWmp0aUR2ZzYwQm91TkxUczBsM0RnOGhLb1dvdDdpNTZZX2hBWHJxREZxNTllTk5IcDNvMEFUaEFma2zSAVhBVV95cUxQLWxrbGVZX3pTMEhERUxmdnZ0NWpLY1pqdGlEdmc2MEJvdU5MVHMwbDNEZzhoS29Xb3Q3aTU2WV9oQVhycURGcTU5ZU5OSHAzbzBBVGhBZmts?oc=5",
       "desc": "메디포스트, 카티스템 미국 3상 첫 환자 투약… 글로벌 공략 시동&nbsp;&nbsp;아주경제",
@@ -175,6 +205,16 @@
       "title": "농진청, 국산 잡곡 '황금비율' 첫 개발…당뇨·고혈압 메디푸드 시장 공략 - 전자신문",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9qTzdBQzlPa1A3Rjhod2hLbklESUd6VTRQaHpfZHczb05qWmloaFNaaVpIYXotbU1vOXo4RVZCVERCVlhEWWZFc0hheC1aZw?oc=5",
       "desc": "농진청, 국산 잡곡 '황금비율' 첫 개발…당뇨·고혈압 메디푸드 시장 공략&nbsp;&nbsp;전자신문",
+      "pubDate": "Wed, 08 Jul 2026 05:00:00 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "국산 잡곡 '항당뇨·항고혈압' 최적 혼합비율 규명 … 특허·제품화 성공 - 뉴데일리",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQR0ZTUmtsdndBZWY0c1hBR0tSejYtYmpRNHRVeTEzeEVRNUJsN21qd183djhVTjZoMTV2SDNudmxROGJRd1JUWXVLTnQ0OFBhODRoUDFBSDZYeFJ6dkFUSVJ5dXFsZVVKUDBUaGRoYm9xY1Z0c2pORnl4WWhKVnNNdtIBgAFBVV95cUxQR0ZTUmtsdndBZWY0c1hBR0tSejYtYmpRNHRVeTEzeEVRNUJsN21qd183djhVTjZoMTV2SDNudmxROGJRd1JUWXVLTnQ0OFBhODRoUDFBSDZYeFJ6dkFUSVJ5dXFsZVVKUDBUaGRoYm9xY1Z0c2pORnl4WWhKVnNNdg?oc=5",
+      "desc": "국산 잡곡 '항당뇨·항고혈압' 최적 혼합비율 규명 … 특허·제품화 성공&nbsp;&nbsp;뉴데일리",
       "pubDate": "Wed, 08 Jul 2026 05:00:00 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
@@ -222,16 +262,6 @@
       "prod": "norvasc"
     },
     {
-      "title": "\"치료옵션 확대\"…안국약품, 고혈압 치료제 출시 - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9fVldSTTM2Z3FoZGpzaDdpZG56czNNemFCTGp0T295UVZ1aXM5WWx5Zkh2V1JVSjVYMU55ek5oRW9YM1Y1QVNnaEZhbFlvc0xiaFp6bkZSTWt4QThMZTZXcG5ac3lKTy16MzJMak9Zb1FBYnctLVBBUtIBeEFVX3lxTE9fVldSTTM2Z3FoZGpzaDdpZG56czNNemFCTGp0T295UVZ1aXM5WWx5Zkh2V1JVSjVYMU55ek5oRW9YM1Y1QVNnaEZhbFlvc0xiaFp6bkZSTWt4QThMZTZXcG5ac3lKTy16MzJMak9Zb1FBYnctLVBBUg?oc=5",
-      "desc": "\"치료옵션 확대\"…안국약품, 고혈압 치료제 출시&nbsp;&nbsp;뉴시스",
-      "pubDate": "Wed, 08 Jul 2026 00:59:52 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
       "title": "[신제품]안국약품 고혈압치료제 ‘레보살탄플러스’ - 병원신문",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zZWZnR2FyVGF1TVlPM0Z2Rm5wWXZQazd5ZWVNTDdqVlM5Y0NxRml2bFFSMzFSMk93bUFpNWh0LTJqbUV3aEdWNnY3cU9FMk10RmdLQVQzb1B2YmRqdzc1TXB2eUhsVTctZVE?oc=5",
       "desc": "[신제품]안국약품 고혈압치료제 ‘레보살탄플러스’&nbsp;&nbsp;병원신문",
@@ -260,16 +290,6 @@
       "sourceName": "쎄레브렉스·관절염 (국내)",
       "country": "KR",
       "prod": "celebrex"
-    },
-    {
-      "title": "청년 고혈압 환자 급증…30대 남성·1인 가구 취약 - 알파경제",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1UeENRRDcxMXhvdllMNTJNX2VUQlBKU1hoTF96Nkd0bVYzRjdtTzdVTlFWRmFzMmtYVy1JR2NwQzcyNHg4ODVmWk5kRk9zSHgxLWFWbzFTUkFEaWNmOU81OE9tU0lXYk43b196NFFn?oc=5",
-      "desc": "청년 고혈압 환자 급증…30대 남성·1인 가구 취약&nbsp;&nbsp;알파경제",
-      "pubDate": "Tue, 07 Jul 2026 23:56:14 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
     },
     {
       "title": "혼자 사는 30대 남성, 고혈압 최고 위험군 - 메디칼업저버",
@@ -302,16 +322,6 @@
       "prod": "lyrica"
     },
     {
-      "title": "혼자 사는 30대 남성, 고혈압 최고 위험군 부상 - 의약뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zbXlGRGtaU0VHdy1uQk1mdXVMZExMb3o3LW1DeTRHUWFURGwybzFmek5xZGwzMk5IblB6cTJzV2I4WnUzeGlQUGVNYlNjMGFyY0wweWVZVXF5bmo3SmJVVVNwYmdHOGhQ?oc=5",
-      "desc": "혼자 사는 30대 남성, 고혈압 최고 위험군 부상&nbsp;&nbsp;의약뉴스",
-      "pubDate": "Tue, 07 Jul 2026 20:58:00 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
       "title": "\"리바로젯, 동양인에 최적화된 스타틴···혈당 안전성까지 갖춘 지질 관리 해법\" - 메디칼업저버",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10NTJsUjY1QnowYVFzTEFhdWlUbFdrSzQzSHFiempsSmt3ZlJNYlBhcW4xVU1XT2ZsZjhpRjFVb0dXb3IyNEl2QXlnNFkzWEtxaDU3US00blF0djBaMnBrZEFhR1FMTzY1TTFF?oc=5",
       "desc": "\"리바로젯, 동양인에 최적화된 스타틴···혈당 안전성까지 갖춘 지질 관리 해법\"&nbsp;&nbsp;메디칼업저버",
@@ -320,6 +330,16 @@
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
       "prod": "lipitor"
+    },
+    {
+      "title": "From Systemic Autoimmunity to the Local Immune Niche of the Synovium: | JIR - Dove Medical Press",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNHpPZGo3Q1M4MDVPcHJYT2FmeTJFSTlRWTcyUGVjYXJXVm80M09keE9BdHQ2bnI5VW9kWjFYUzVYM2VGdXpFdjdMLW9KUkpIVklqek5nb19WTy1kSWdfdjFEckJzaXU1RDY3Z0Vvckh2aHQzVDBLOW5FME9CMzRmNDM0Qmk4T2JiXzRSNmI1YjVvWEtoclJuUGFYbU82eGF0c2p1VkFJaXZwbGEzQ2w0T2VQNWRQMll4SDk4V09UX0J0ZUNfUV9EczVMdw?oc=5",
+      "desc": "From Systemic Autoimmunity to the Local Immune Niche of the Synovium: | JIR&nbsp;&nbsp;Dove Medical Press",
+      "pubDate": "Tue, 07 Jul 2026 19:19:54 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
     },
     {
       "title": "PCSK9 Inhibitors Market Size Expected to Witness Significant Growth by 2034, estimates DelveInsight - openPR.com",
@@ -362,6 +382,16 @@
       "prod": "celebrex"
     },
     {
+      "title": "\"30대 1인 가구 남성, 고혈압 사각지대\"…맞춤 관리 촉구 - 메디파나뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5pMG8tUlVlSVR0REpNalcxWTdQbllBTlNBdjdoXzBzbGtTbEJmVXNydDF2dU1hblZvYXYtUjY1QmhrVm5fZGl3RVpDU1ZVLWxvREE5R2I2MlBia3RnczZGeTh4d1hyZ3lOYUVn?oc=5",
+      "desc": "\"30대 1인 가구 남성, 고혈압 사각지대\"…맞춤 관리 촉구&nbsp;&nbsp;메디파나뉴스",
+      "pubDate": "Tue, 07 Jul 2026 15:02:50 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
       "title": "국제약품, 고혈압ㆍ이상지질혈증 복합제 ‘로수디핀정’ 3종 출시 - 의약뉴스",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mekptcmxQaHl6QTBuUU5VQ3JzSTRYMEpfRDIxUlZra1F0dW1EczRKYXdra3oyZEttRTBXTGRNdURqeERVZ01XUTgtR1dFNF9sM2hRaDBNNnpteW9pUzdOaEhFNzY4dTFr?oc=5",
       "desc": "국제약품, 고혈압ㆍ이상지질혈증 복합제 ‘로수디핀정’ 3종 출시&nbsp;&nbsp;의약뉴스",
@@ -390,6 +420,16 @@
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
       "prod": "lipitor"
+    },
+    {
+      "title": "국제약품, 고혈압·이상지질혈증 복합제 '로수디핀정' 출시 - e-의료정보",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE42S0NQUzN0aGtkNlBjaWdaekNVWXY4X081VWZPd24xcFRuMFRubEM0dkdHLVVVeXlqZ0lzLU1lcXphTjNYU3RWdkxwVUQ5ejBHWEdxWUlwT3pEWWtMLThYN0xsQ0VXQV9XZnl6djBZNNIBb0FVX3lxTE42S0NQUzN0aGtkNlBjaWdaekNVWXY4X081VWZPd24xcFRuMFRubEM0dkdHLVVVeXlqZ0lzLU1lcXphTjNYU3RWdkxwVUQ5ejBHWEdxWUlwT3pEWWtMLThYN0xsQ0VXQV9XZnl6djBZNA?oc=5",
+      "desc": "국제약품, 고혈압·이상지질혈증 복합제 '로수디핀정' 출시&nbsp;&nbsp;e-의료정보",
+      "pubDate": "Tue, 07 Jul 2026 10:40:56 GMT",
+      "sourceId": "gn_caduet_kr",
+      "sourceName": "카듀엣·복합제 (국내)",
+      "country": "KR",
+      "prod": "caduet"
     },
     {
       "title": "Semnur Pharmaceuticals, Inc. ('Semnur”), a Majority-Owned Subsidiary of Scilex Holding Company (Nasdaq: SCLX, 'Scilex”), Announces Signing of Binding Term Sheet for Proposed $100 Million Strategic Investment from iHolding Group LLP - The Manila Times",
@@ -442,18 +482,8 @@
       "prod": "lipitor"
     },
     {
-      "title": "국제약품, 고혈압·이상지질혈증 복합제 '로수디핀정' 출시 - e-의료정보",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9rQ0psWG5RdmFxaXItdGdVdlF5NXAwWHBvV004WXU0WVc3Z05va3BmUWJVU3IwU2MtY1l2MVdmQmRPNXpFMVJyYjRCUlQxYkU4S1NIenVJUTR2V2E4VjhOWFdrRDBzVHNTNlhB0gFvQVVfeXFMTjZLQ1BTM3Roa2Q2UGNpZ1p6Q1VZdjhfTzVVZk93bjFwVG4wVG5sQzR2R0ctVVV5eWpnSXMtTWVxemFOM1hTdFZ2THBVRDl6MEdYR3FZSXBPekRZa0wtOFg3TGxDRVdBX1dmeXp2MFk0?oc=5",
-      "desc": "국제약품, 고혈압·이상지질혈증 복합제 '로수디핀정' 출시&nbsp;&nbsp;e-의료정보",
-      "pubDate": "Tue, 07 Jul 2026 07:50:33 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
-    },
-    {
       "title": "류마티스관절염약 '레플루노미드', 생명위협 HLH·MAS 발현 - 메디소비자뉴스",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5lbGdxMnY3US11TUVVTWdKaTNURm5DYlIzNUlnQWtTZU41QnpHcUVjUndfQ3ZNMmRHQWpFZ2xsaU4tN0llWjh0MDZHY1Z6bXByc0NHR0l3Um1sb1RLREFNVW9UVEppY3hTQzAzZjFLUnQ2QdIBdkFVX3lxTE5kdXM1dnprRFZ2N3l5OFBpY1RKUTA0WEk0WS1HMm14MTlBSFRJbW81ZnR5TElVal9lVTJvSkJ4NVVQZWpZdGNlYmtHc3p1MHJQTlpzblZreDRJS0Nvel9oRGQ5OXE3TjJMUm53eF9qV2hyMEJobnc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8zYVdlV3FzMGp5OWpoVWEtbG00bjdLd1hNazhrMU54b1NuMmh6ekI5VFNxTDJrNGczbTBpbFBCSHdocmtBVEUwOFZZWVU1MEhIbzNXWFZNSWpnLVlXZ2lXUWJOdzVNY1FacUxDczNxRmFtQ1XSAXZBVV95cUxOZHVzNXZ6a0RWdjd5eThQaWNUSlEwNFhJNFktRzJteDE5QUhUSW1vNWZ0eUxJVWpfZVUyb0pCeDVVUGVqWXRjZWJrR3N6dTByUE5ac25Wa3g0SUtDb3pfaERkOTlxN04yTFJud3hfaldocjBCaG53?oc=5",
       "desc": "류마티스관절염약 '레플루노미드', 생명위협 HLH·MAS 발현&nbsp;&nbsp;메디소비자뉴스",
       "pubDate": "Tue, 07 Jul 2026 07:39:50 GMT",
       "sourceId": "gn_celebrex_kr",
@@ -466,16 +496,6 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBsYnhuZi1kbkV2SU9fUE5Xc05FR1lEVjkxc000NWh2THdNTFRCSVU5SlJNSUt3TmV0ZGJPLU9WZGkzMU03Yk1TV1Y5YjRtR3dSUWJrWFZwS0x2MjZiVGc1bnpYTXRDN3B2RWNj?oc=5",
       "desc": "국제약품, 고혈압·이상지질혈증 복합제 '로수디핀정' 출시&nbsp;&nbsp;메디파나뉴스",
       "pubDate": "Tue, 07 Jul 2026 07:35:00 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
-    },
-    {
-      "title": "국제약품, ‘로수디핀정’ 3개 용량 출시…고혈압·이상지질혈증 동시 치료 겨냥 - PRESS9",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1uOEpoTjNhbDNublUxRW9Gell3cDlHMzFKOTlWSDhYcllLY1ZZTFFzTmlPMkVRcXdPMzd0N2pRNVJRZkxlakswbTJOeTdtOFRFUXB3aGpXUy00QXFvU3p4QWZNZjc?oc=5",
-      "desc": "국제약품, ‘로수디핀정’ 3개 용량 출시…고혈압·이상지질혈증 동시 치료 겨냥&nbsp;&nbsp;PRESS9",
-      "pubDate": "Tue, 07 Jul 2026 07:21:11 GMT",
       "sourceId": "gn_lipitor_kr",
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
@@ -530,16 +550,6 @@
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
       "prod": "lipitor"
-    },
-    {
-      "title": "국제약품, 고혈압·이상지질혈증 복합제 ‘로수디핀정’ 출시 - 더바이오",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXWUFlYmFSY2RCZFB3NG5ENFhnU1p1dng2bmVZYmliSUpIZ1Z0eUVFWFFkcnNCMnppLXpVVzJ1c3VxSXFWdFhWNzFvSndTZzAtM2ppSjVWd0ZfSWx0enZtdktET3p1d2Z1b09qbkxiYi3SAXBBVV95cUxQV1lBZWJhUmNkQmRQdzRuRDRYZ1NadXZ4Nm5lWWJpYklKSGdWdHlFRVhRZHJzQjJ6aS16VVcydXN1cUlxVnRYVjcxb0p3U2cwLTNqaUo1VndGX0lsdHp2bXZLRE96dXdmdW9Pam5MYmIt?oc=5",
-      "desc": "국제약품, 고혈압·이상지질혈증 복합제 ‘로수디핀정’ 출시&nbsp;&nbsp;더바이오",
-      "pubDate": "Tue, 07 Jul 2026 05:55:07 GMT",
-      "sourceId": "gn_caduet_kr",
-      "sourceName": "카듀엣·복합제 (국내)",
-      "country": "KR",
-      "prod": "caduet"
     },
     {
       "title": "국제약품, 고혈압·이상지질혈증 복합제 ‘로수디핀정’ 출시 - 더바이오",
@@ -712,6 +722,16 @@
       "prod": "lyrica"
     },
     {
+      "title": "\"대장암 수술 위치 따라 이상지질혈증 위험 달라진다\" - 의학신문",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1EeEp0SUZlV2dJbThVcG1hcmZJZk1wS0ZtWUt1SjVST19PZEZhTkVzX0RFQVBMdG1YLUFabWhRbjdDU18yTjQwYzY3RmNuaTRYczRreDgxZ01ZN2w0NmNJQ3MtZHpBa2NrYVdV?oc=5",
+      "desc": "\"대장암 수술 위치 따라 이상지질혈증 위험 달라진다\"&nbsp;&nbsp;의학신문",
+      "pubDate": "Mon, 06 Jul 2026 06:13:49 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
+    {
       "title": "서울대병원 교수팀 'AI영상 지표' 기술, 골관절염 신약 임상 첫 투입 - 전자신문",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5McDBRdXplQzN2T2o4RnhvMER5OXZPVm1yTjN4bXFnRWxxUm5NOXY1OXFDVklDQmZ5WDZnTXNkcEI0dkpQSkloVmE0VUNldw?oc=5",
       "desc": "서울대병원 교수팀 'AI영상 지표' 기술, 골관절염 신약 임상 첫 투입&nbsp;&nbsp;전자신문",
@@ -850,6 +870,16 @@
       "sourceName": "쎄레브렉스·관절염 (국내)",
       "country": "KR",
       "prod": "celebrex"
+    },
+    {
+      "title": "A one-time gene edit safely lowered cholesterol in people for the first time - MSN",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPM2x0WE54eGpWTmhwaG81R0RHcjdlQTdvOV9HMjdreV8xNXRBME9YLTkwSkVWRFNUMmRPUDBEbXRNR2pnWVo0NjlPNm1lS0JUbzZKWEVORW81Q1pLbEREbjJxczkyNjg0SzVtQ2ZPY0paYVYxWENCNUgzb1V4TjhiQVdyMko4UUVzbmxISm5kMVYwMDZ5N0htYjVIR2ZZcndyQVRmVUJWTWVJMEpUbnE4cno5QXdFU2JBYVZtaU1QUms5dW9heFE?oc=5",
+      "desc": "A one-time gene edit safely lowered cholesterol in people for the first time&nbsp;&nbsp;MSN",
+      "pubDate": "Fri, 03 Jul 2026 15:22:02 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
+      "prod": "lipitor"
     },
     {
       "title": "[특징주] 강스템바이오텍, 무릎 골관절염 치료제 2상 결과 기대감에 급등 - 바이오타임즈",
@@ -1240,26 +1270,6 @@
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
       "prod": "lipitor"
-    },
-    {
-      "title": "Genistein in autoimmune diseases: from experimental evidence to emerging clinical data - Frontiers",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZzNZMlphMkY3VXJBd1hvN3RWc01lazNabUFTWFd0bDU0Vk1uRXlERXAzMXlNRFA3M25aTHY4Zmdjdmd4UEpNcjVxY2pPcG5mbUZyZlJxUlA4QmItdHhBaUFHa3ZpcWc1ZGtMZkllRUR6cUJuOGpFY3g1Sno3WkhRXzBvUTk4YlhreXREV3U1OWRLZw?oc=5",
-      "desc": "Genistein in autoimmune diseases: from experimental evidence to emerging clinical data&nbsp;&nbsp;Frontiers",
-      "pubDate": "Wed, 17 Jun 2026 09:38:54 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
-    },
-    {
-      "title": "Tofacitinib or Adalimumab versus Placebo in Rheumatoid Arthritis - The New England Journal of Medicine",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pLXk1WURDeGF4SG9xY3M1YnoyNWVKaWl5cUhic0ZYTVRPSXJiS2NweXh2Q2VCZGJfMXFoQW11aHUwd3dHRE04Ym95RXAzSVhVVkhxOGJpVVlrRTlMWTFv?oc=5",
-      "desc": "Tofacitinib or Adalimumab versus Placebo in Rheumatoid Arthritis&nbsp;&nbsp;The New England Journal of Medicine",
-      "pubDate": "Wed, 09 Jul 2025 07:51:02 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
     },
     {
       "title": "5 Outdated High Blood Pressure Medications - GoodRx",
