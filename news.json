@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-07-11T03:21:33.246Z",
+  "updatedAt": "2026-07-11T08:05:22.333Z",
   "articles": [
+    {
+      "title": "\"약 대신 잡곡밥\"…당뇨·고혈압에 효과 - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9WVmx5b1RmWTdxU2NISzNBMFNFX0l2a2s4Q0FGUGhaZ2R5YjZrdTZ5cklaR1BfaVV6RmhIbFFVcm1BbWNoTEh2aWJQNVp0SkthLW1B?oc=5",
+      "desc": "\"약 대신 잡곡밥\"…당뇨·고혈압에 효과&nbsp;&nbsp;네이트",
+      "pubDate": "Sat, 11 Jul 2026 04:07:00 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
     {
       "title": "한미약품 ‘로수젯’, 2년 연속 국내 전문의약품 처방 1위 - 글로벌뉴스통신GNA",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9kLWdFdXp6bnhfWkJtanRDMXdQbkhDdXJldG94YWtMWFNiV2k3c0pMZm5KSGNWQkVZRllKdHEtNkNVWWx3SXl4bnJQdDV0VFlPUEFnX3BrSWtaRnpOdHBvX091cGtTUERrdTRIUVgzenI4NEpy?oc=5",
@@ -233,7 +243,7 @@
     },
     {
       "title": "[녹색] 당뇨·고혈압 잡는 국산 잡곡, '황금비율' 찾았다 - YTN",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUWdRc1RWMlVxUEh6NmRvUnlyRXl6U19wNmZCRG5nZVZENGxJczVBWW8tY2w1QTVadGltNHlPMkpwcV9maWRqMm5aUGoyUDA3RFFrX2NaUXlWU3NtNjZkVGlubkJkMEFHWXl5Z2VvaXdoTHFtV2R0X2VaWjlNYk0wRVZNZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BaWk3M3pYM1N6MkxHb0FUbVY0X2VNVDh6YXNLTnBBU3ZjbWVlTkdmc3hDYl9oMmsyRUZudEZqMVAyQjhNQkdxMnlhN2hGN195ZXJkazhlTzJ3dFRTNHc?oc=5",
       "desc": "[녹색] 당뇨·고혈압 잡는 국산 잡곡, '황금비율' 찾았다&nbsp;&nbsp;YTN",
       "pubDate": "Thu, 09 Jul 2026 12:18:00 GMT",
       "sourceId": "gn_norvasc_kr",
@@ -272,13 +282,13 @@
       "prod": "celebrex"
     },
     {
-      "title": "한미약품 로수젯, 임상 근거·처방 실적 모두 입증하며 이상지질혈증 치료 전략 변화 이끌어 - e-의료정보",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE90REdBQ2JLZGN3bUk1NktCSVIwZVVabFBlUmVubS1vLW9EY1pHT0llR3FOYVRNNWJYQVhzbkZLckkzME5wQ0RIODdMcnlqMkpERTVVV0p6MTEwVmJzb1ozUWozdUlJUVFCbXNz0gFvQVVfeXFMUDVvcElid0oteEZQdW1FaWdUU1p5anpxWTVhNS1fajdnY1hBUEhjYmxDRHd0RDZhcF92ZEhOQUlpc0JTRHRYczZnSDJmQ2s1clpLLWdsWnhNVEV5cXFZbHV3ZXV2UkdiY0hkblZBS2JJ?oc=5",
-      "desc": "한미약품 로수젯, 임상 근거·처방 실적 모두 입증하며 이상지질혈증 치료 전략 변화 이끌어&nbsp;&nbsp;e-의료정보",
-      "pubDate": "Thu, 09 Jul 2026 05:35:58 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
+      "title": "Amgen highlights its biotech pipeline as a driver for long-term growth - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQR014Vlpqb2JFVlUtdzEtMHMteWRFaUViYlh2a2tzanBrMGtRZEpwZGVzUk9sd19keTB0M0xDcG5jbzVqRzRBRUNuZkpITVltNnR2Nm9CYzBLMk5fUXdnY3NtNmVMX0tIU2lFTkVDUXYtS2JwMFJJUzJsOVFtNC1WVVV3N1cwNEU5QnREWndCa1RNaTVxQm42OVJiTjZlOUFnemJRS3FSSWFKaExBZjdLa1BBQ2RNV3JSbElRMWNseThYLS1TcVFZLQ?oc=5",
+      "desc": "Amgen highlights its biotech pipeline as a driver for long-term growth&nbsp;&nbsp;ad-hoc-news.de",
+      "pubDate": "Thu, 09 Jul 2026 05:45:20 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
       "prod": "lipitor"
     },
     {
@@ -290,16 +300,6 @@
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
       "prod": "lipitor"
-    },
-    {
-      "title": "\"관절 아픈데 숨차고 기침까지\"…류마티스 관절염 환자 10명 중 1명 '이것' 발생 - 네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1hY1JqNmY0RjBVZV8zbnhkenhRRzRqZWRXZDVFMUdvdVRpdGo5TktneWVPdk9qbS1fSUVsdzBrRTI5VVh2a2t6MjFPSkRJUVhFaDhr?oc=5",
-      "desc": "\"관절 아픈데 숨차고 기침까지\"…류마티스 관절염 환자 10명 중 1명 '이것' 발생&nbsp;&nbsp;네이트",
-      "pubDate": "Thu, 09 Jul 2026 05:03:00 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
     },
     {
       "title": "\"관절 아픈데 숨차고 기침까지\"…류마티스 관절염 환자 10명 중 1명 ‘이것’ 발생 - 코메디닷컴",
@@ -330,26 +330,6 @@
       "sourceName": "리리카·신경통 (국내)",
       "country": "KR",
       "prod": "lyrica"
-    },
-    {
-      "title": "10 popular statin medications - AOL.com",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1rTnlIS1RYaEkxNmNHT0E0Rnp1SjVXbXNLdzJTeDVHQnFXTjQzckhGallQOVExbERRcUxmSG9lTWF6V090OUdNdDBTd2xmcVk4OFZJV1Q0OTNOclNIU3dOT2RSZ2txTW1iS2MxaFlqTm5vTEhCY3EtNWZzSW1ydw?oc=5",
-      "desc": "10 popular statin medications&nbsp;&nbsp;AOL.com",
-      "pubDate": "Thu, 09 Jul 2026 01:51:24 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
-      "country": "US",
-      "prod": "lipitor"
-    },
-    {
-      "title": "큐로셀, 국산 첫 카티 치료제 ‘림카토’ 암질심 통과… 하반기 출시 ‘파란불’ - 조선비즈 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSnJrVVlGMl9JUjJwLW5iQjB1TUp4eUVBRVBqVGxGTElIX0lYSFJ3SXowTWxlbmhVUDd2UnNqTVY5RGNmeFNkcjhrTFE0eVV4bkVoRHNJUUhUeVRlM2JmcTNFVXJSN3pMYlVLU3FlYmQxQlprOG9iYzktNE95d0FMajdDa0JtQ2PSAZsBQVVfeXFMUGU1ejNMV0JUTVFjMlpWckJuWkJHWm5tcXUyTTF0a2gyOWZxSWNPTlNteEhHOGYteEZYTlJ4NTQ1QzFObnF2VUxncGpRcTRIX0JuVFVueVRGT3BjREJzSlJzZ3lkdjl5Q1l4NWxNQ1c2SmY3OE1wOWdnZGhkRGlnYWdMMXl3SFlKSlFtMlVoSG5qU21EUUQyYjJ2VVk?oc=5",
-      "desc": "큐로셀, 국산 첫 카티 치료제 ‘림카토’ 암질심 통과… 하반기 출시 ‘파란불’ - 조선비즈&nbsp;&nbsp;Chosunbiz",
-      "pubDate": "Thu, 09 Jul 2026 00:06:00 GMT",
-      "sourceId": "gn_policy_kr",
-      "sourceName": "의약품 정책 (국내)",
-      "country": "KR",
-      "prod": "all"
     },
     {
       "title": "잡곡 황금비율 찾았다…“당뇨·고혈압에 효과” - KBS 뉴스",
@@ -422,20 +402,10 @@
       "prod": "celebrex"
     },
     {
-      "title": "잡곡 황금비율 찾았다…“당뇨·고혈압에 효과” - KBS 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SX0NsUWdxTXdMal9GNnlOcWk2SjFzRGgyc0xucDNDdzhfWWZWLVFVQ0l0d3ZYRDR6bHlvRXJ5cURIZ1V4SGRrRTg5bnRtYlZVZTBRRWNybWRmekE?oc=5",
-      "desc": "잡곡 황금비율 찾았다…“당뇨·고혈압에 효과”&nbsp;&nbsp;KBS 뉴스",
-      "pubDate": "Wed, 08 Jul 2026 12:42:00 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
       "title": "People's Pharmacy: Allergy to meat faded with time - The Crescent-News",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNQ1kySGxEblJMVk5xSUU1Vk1nRlo1UUotYUpZSlA4aDBLMEFIQ1l1ZmFRbGFhMy0yXzhhbEVvWnoteHZPODBRM25FYXdTUVBTeUNIdjBqUnpyWnJCZkQxNDJNWHRoMVAtTDREb1lBQzU1ejZHOWIwUktMOTk2RG1rNXF6eWJhMDhiTnlCa25CbGFDS0ZzMDBHdE9Mb29GUFVSeXV3aW1GSnFraGFXVGNwenRhYjFLSmlCTGE0QkVkR0lBM0xiTHo2bVRJT1BFeFFfcUtHYXlqLWVlOUduenFvSS1xSHZQTXFETFFpanZQbmNBQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPNWVzR09RY3gxc3lodFdEV3c2ZTVhQ25hUkw2aDJmQ19NTC1iS1A4SE41NHVaTks3V0h2Ui1tYzBHX3ktUHU2dGp2NXJCWnRUTFJGZm1YcVMxYUNPazZBQnVMcXFPRzJyWVZNV2ZsdFNJalFWTEE3SmkxelNUMTduVG9ITTZwWWpHTUJDQWhBVVdqbHp6aHZZbXFuRzhlMUo2YjNCVTBxODRRQnNUMDE0SmtYaENRZF9JVmRwTlJVcjNKNlZiWEJOT1JOYnoxNlpNMkZ0dV9fV051eEV1cFpqaFRqdC1Mb2VWMGh5Y29JSHlLT3c?oc=5",
       "desc": "People's Pharmacy: Allergy to meat faded with time&nbsp;&nbsp;The Crescent-News",
-      "pubDate": "Wed, 08 Jul 2026 11:29:12 GMT",
+      "pubDate": "Wed, 08 Jul 2026 11:38:07 GMT",
       "sourceId": "gn_arthritis_en",
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
@@ -482,6 +452,16 @@
       "prod": "lipitor"
     },
     {
+      "title": "“협심증 약물치료, 니코란딜 전·후로 나뉜다” - mostonline.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zTjhHZVl1Ny05X2ZPYmt5X1JkVWFPc3F2enVDZGdUSGlVTlV1c0sxZHZPUENWYXc1d3VWM1YweFZuazJxRnVsWUtWbmFQRnRXSzQwbDItZExQU1NUWjBQR0hPLXRjOFkwSEFYTmxXQW8?oc=5",
+      "desc": "“협심증 약물치료, 니코란딜 전·후로 나뉜다”&nbsp;&nbsp;mostonline.co.kr",
+      "pubDate": "Wed, 08 Jul 2026 06:57:28 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
       "title": "안국약품, 고협압 치료제 '레보살탄플러스' 발매 - 의협신문",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE52MHljRnBSYllxd0M4WkE0M21WN09FVnZra0FtZEZsVF85MHRCODJabm5FMXBpUnVxTDM2SURHcUs5eDFxUE03RTY4U2tZd0tRSFBOSkZzYWFQOHhlYjN3RURTdkxZS1puMlNMYWc2bkIyUQ?oc=5",
       "desc": "안국약품, 고협압 치료제 '레보살탄플러스' 발매&nbsp;&nbsp;의협신문",
@@ -516,16 +496,6 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zZWZnR2FyVGF1TVlPM0Z2Rm5wWXZQazd5ZWVNTDdqVlM5Y0NxRml2bFFSMzFSMk93bUFpNWh0LTJqbUV3aEdWNnY3cU9FMk10RmdLQVQzb1B2YmRqdzc1TXB2eUhsVTctZVE?oc=5",
       "desc": "[신제품]안국약품 고혈압치료제 ‘레보살탄플러스’&nbsp;&nbsp;병원신문",
       "pubDate": "Wed, 08 Jul 2026 00:36:15 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
-      "title": "혼자 사는 30대 남성, 고혈압 최고 위험군 - 메디칼업저버",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1YVjZYZ2dTcW9XOEhKd0RoT3VHM2RGeWdWZU4wa1J2ZDVIUlAtY2VVQkR1VU9rbzBLU2NKM0VSajMtc21ydmgxdkpndXZpZ2l2bVNlaG9Kc09LMWx3QVVFSE5aa2pCQWZNWXVv?oc=5",
-      "desc": "혼자 사는 30대 남성, 고혈압 최고 위험군&nbsp;&nbsp;메디칼업저버",
-      "pubDate": "Tue, 07 Jul 2026 23:41:15 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
@@ -702,16 +672,6 @@
       "prod": "lipitor"
     },
     {
-      "title": "국제약품, 고혈압·이상지질혈증 복합제 '로수디핀정' 3종 출시 - 보건신문",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZU0RTWmp1Z1ZYemplWFVpUm4wYkZ5SkF6ZU1SbFhGZVowYVVQdHlxMTE0aXhvYzJaSm80X1czajVuQnBiOVFLeWI4bGl0QXJfa0Y2U3cxSEptX0RGMmlRcEJR?oc=5",
-      "desc": "국제약품, 고혈압·이상지질혈증 복합제 '로수디핀정' 3종 출시&nbsp;&nbsp;보건신문",
-      "pubDate": "Tue, 07 Jul 2026 07:03:07 GMT",
-      "sourceId": "gn_caduet_kr",
-      "sourceName": "카듀엣·복합제 (국내)",
-      "country": "KR",
-      "prod": "caduet"
-    },
-    {
       "title": "국제약품, 로수바스타틴·암로디핀 복합제 시장 가세 - 메디코파마",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9BZU9xUUU1WG1SbEUxNEJTV1dDU1VyVVY1Z01kZUVNNHFLWnVwY2tMWUM1UGdTejNHZUFBYmlLemwwMm42N2QzUDB5QUd5R3EtSHhsOEVZNHUzc3BRMmlveTg1eHNkbi1NYkc3bHhGeFNEQQ?oc=5",
       "desc": "국제약품, 로수바스타틴·암로디핀 복합제 시장 가세&nbsp;&nbsp;메디코파마",
@@ -726,10 +686,10 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGbm1weVZLMFZYZ3BvMUxRT25GX1ZwakxDWHFiSV9lZzR2amozMHd6N3N1a3pyY2ZBNTAyaEZadGZQaEdzcGJza0t6NFM4cG5yWUZsaGtnQXBYakQ4M09pTS1Tb0R3c19pTDVLatIBcEFVX3lxTFBXWUFlYmFSY2RCZFB3NG5ENFhnU1p1dng2bmVZYmliSUpIZ1Z0eUVFWFFkcnNCMnppLXpVVzJ1c3VxSXFWdFhWNzFvSndTZzAtM2ppSjVWd0ZfSWx0enZtdktET3p1d2Z1b09qbkxiYi0?oc=5",
       "desc": "국제약품, 고혈압·이상지질혈증 복합제 ‘로수디핀정’ 출시&nbsp;&nbsp;더바이오",
       "pubDate": "Tue, 07 Jul 2026 05:37:42 GMT",
-      "sourceId": "gn_lipitorplus_kr",
-      "sourceName": "리피토플러스·에제티미브 (국내)",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
-      "prod": "lipitorplus"
+      "prod": "lipitor"
     },
     {
       "title": "Recent advances in the development of GRK2 inhibitors: blocking the interaction of GRK2 with its partners - Nature",
@@ -882,10 +842,10 @@
       "prod": "celebrex"
     },
     {
-      "title": "Scilex Holding Company Announces Binding Term Sheet for $100 Million Strategic Investment from iHolding Group LLP - Quiver Quantitative",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMTZlWE1XTkkyRDF5M0VicVVHTGdtQlZjaEt3N0FEWEt5bUU0ZDFaOUVXaGp6TXNwVG4yRGVEODhpdm5qdkYxUHhaT3hseUpBeUVjakJuVGdkNy1Ncy1UWTZBQW5lMjZzTUJfcTlJbDQ3bkUyc0xJcUtQbjRKNWYwYkdYVlgyR1VzaHFJcFNiZXhfSjhLWDVDMDRuZWN3emhZeTB4NnVZSk43Q1ZqTlFyX2pMY2MyUFNIN0l0MTRXMjBZaUZOQlp2S05mV1ZvbVQwZWNWOUFXYl9nWXlEWm51ZENn?oc=5",
-      "desc": "Scilex Holding Company Announces Binding Term Sheet for $100 Million Strategic Investment from iHolding Group LLP&nbsp;&nbsp;Quiver Quantitative",
-      "pubDate": "Mon, 06 Jul 2026 10:11:00 GMT",
+      "title": "Scilex Holding Company Announces Signing of Binding Term Sheet for Proposed $100 Million Strategic Investment from iHolding Group LLP - The Manila Times",
+      "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPSm5kbEZMRkxkZ0RROFlNUjljNmJwS3BsVGJ0V3JSR1BpMTNFaWNXcGRtaHQxdkM1SlY3b192RFVvZ0RLSURCWXI1bkF3WXBtbXVaYWcwcXdTY2RMLW1NbXQ5Nl9ldXdpeEk5dk5zcEFLSXZhTklQaFdTTE1STngxdzhSS2kxWTEySVU3eVM2a2VZekUwQ0ktbk1qLVBMSGRfeVRwTWhsNTU3QWtValY2U2pKbndwUHgwMkFrYXlKamd2RGRFMHZNWjA0N1lsSk9FUTllZEJfZmRpdHozNko0TU0xUzZkNzVnZ3M5OERfY092S2VzZElTcG9iUEZLdGxsOVUtY2h3Z2JWS0wzZVBYcGJNVnRGZ2cwejluQVc1S21BX2tNajNJbVlzN2RsNVnSAbQCQVVfeXFMT1RGNG5obTlmbGZYZmJMVzZTaHdRUzM4ZDFUVUpOaUpSdEprYTZaTE45VXFsSmdDeDdGbFBXemhXZGNWRldyTUZ5dGFvX0JzNWF5UThzMndoZlAwbEZ0Q1hBUzVCaGNiM1YwZ0VaXzYwRFE1T3gzcWR3WlRPckFNbDZ2U0JZT3FiMWhoLTBZbXlhMFFpUGh6NGN6clVIVFdqX2lTbUdkbkVQaWU5RUZVdWljZ0ttZnZkWmhmelVRRDZ3ZHhVUWMtdXU5MkhzTU1RMUhha21pZ0NUUTc0X1g1N2xvRlVoS29hRzV5X3dCUDNrWnpfT1RRbnpYaDlIdXB4blFld2gtVGx4ZzRKVTItcFkyMTB2MUtEUFlhbkhOS0p6ZWtLWkVneVo3Wk84QlN4NHcxZmU?oc=5",
+      "desc": "Scilex Holding Company Announces Signing of Binding Term Sheet for Proposed $100 Million Strategic Investment from iHolding Group LLP&nbsp;&nbsp;The Manila Times",
+      "pubDate": "Mon, 06 Jul 2026 10:07:12 GMT",
       "sourceId": "gn_neuro_en",
       "sourceName": "Lyrica·Neuropathy (Global)",
       "country": "US",
@@ -896,6 +856,16 @@
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWlpTcUhCZnZGMEZLVU1hR1R6aHltT3pLNldpRXlRRXUxVXlDYnVPdkwwYVJKTUpNTThNbW9XNjQtTTlSemVHRmVPdXVBSzNBaVpVZ25KYWRrN0pfS19TWVUtSERpbHBOcGlXLVJwWGFnV3VSUzg3S281TFdjTmtHT0R3YXJnMEZISzMtRko4ZmtsVG1HN3VVazZUOWZsc0p0eUI5ZkhmOA?oc=5",
       "desc": "Lowering Cholesterol: How Fast and Effective Strategies&nbsp;&nbsp;MSN",
       "pubDate": "Mon, 06 Jul 2026 08:14:32 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
+      "prod": "lipitor"
+    },
+    {
+      "title": "The Livazo from Recordati - cholesterol control with flexible dosing - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ085Ujh0NFpLbU5aTzhKVlBWeHhkUGs5RExILXBrNTl0dm16VjNrTHZZQTY4ckNNWkt5bjVMMFo1d1F2NHpoZEN1aU81N09xaVF5b1B4RzBRWnVieFlnZnZ3TzlEWVpsMXdKY3JvMGNzYUZsOVRXTFpOQWt1XzUwYkFibVdYcWphUWxEYkJ5UnRtZXl3bUdHdV8zUWNGekxRNzNEZ0VwZXBJdGZzUXh2ZEJ3SlBoV0tTX2h5Smp5MDNQcGs?oc=5",
+      "desc": "The Livazo from Recordati - cholesterol control with flexible dosing&nbsp;&nbsp;ad-hoc-news.de",
+      "pubDate": "Mon, 06 Jul 2026 07:44:28 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
@@ -1012,6 +982,16 @@
       "prod": "lipitor"
     },
     {
+      "title": "피타바스타틴 3제 복합제, 주요 치료 전략으로 자리 잡아 - MSN",
+      "link": "https://news.google.com/rss/articles/CBMiigRBVV95cUxQeWVBeUJ2LVN1d0FIS2h5Sm9DZ3ZZaHV6UlpZWm1QT1N6V1RobVppekQ5NFJEV0tvcXI1Q3U1WVJ3VVU2S3c5UFZMRHk0UEl6R1JDQ3hCVmx1R0o1YVF4MTlHQW1aMXRzUmE5RU5UNWJLeElSYm9jeGN1Q0YtMVJqVVBvRFk4QUFQSWhMOUlCcjJxazdKUjl0bld1TXN1NVJ4b0Y1eURzRmJlUlF3Uk9jMGNwQWhaZWd2VVY4eXpnYk85cVYzNGg0ZURncDdneHpLMENjZ19tTWYtOVpDeTRZc2s0a3Framx2U1hYbmJvbVhBZVdxRVlpcHFMSTdDbDJyYUJpYklncUxGZS1wMG1NSG4wLTktMXZOelY5V1d1UUoySVQ5LUpVc3pOMjBnNTVvc2lZWjZ6SGhUd0Iya0FnMS05QWo0Y2c0dFRia3lGdmVmUXE2VS1hdmR0T0FoS0xvMmc5dkhlOFBDRFkwWTRNZ0puakRWSjJId3JGdW5vWHJFVzNoOS1lUVNJU1dSWFFrTG9FVEp1Tjgyck1wT216Z0wyckpKUGVXdURwMUVITkk5c2RwTW00NURtc3UwbUpqLV9rdVhKSzc3OFI0RmEyV0lTYlY2U0xIeTFtamZIa1Rhd3p6cnJGVmd5UjNoTzFjLVNsQUxjclcwUjh1c2VwWWFrQUt0RkNxQmc?oc=5",
+      "desc": "피타바스타틴 3제 복합제, 주요 치료 전략으로 자리 잡아&nbsp;&nbsp;MSN",
+      "pubDate": "Sun, 05 Jul 2026 12:35:29 GMT",
+      "sourceId": "gn_lipitorplus_kr",
+      "sourceName": "리피토플러스·에제티미브 (국내)",
+      "country": "KR",
+      "prod": "lipitorplus"
+    },
+    {
       "title": "[특징주] 강스템바이오텍, 무릎 골관절염 치료제 2상 결과 기대감에 급등 - 바이오타임즈",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE50R0IxYUQxNXUxVDRkdmpBSDhUVVZIOUVfNzNUdkpfQVIzM1RMWl81cTRtX0ROc28tT21vSTZ6ZlJfUDBiOU1pRTJYcE9QaEY2eHRULVhyR1d1T0w0TkJqZ3ZxYm8wX1BFbjVYTg?oc=5",
       "desc": "[특징주] 강스템바이오텍, 무릎 골관절염 치료제 2상 결과 기대감에 급등&nbsp;&nbsp;바이오타임즈",
@@ -1112,6 +1092,16 @@
       "prod": "celebrex"
     },
     {
+      "title": "강스템 '오스카' 이달 성적표…골관절염 세포치료제 분수령 - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1PTG5MSHEtRF9CamNVcXpGZWZiVW5XekMxZ2djRENCNkxjdEo0eGp6bTNuNEhpWDRKMUxPSUxRYVJxVnp0SkY5VXRIQ21GeXdYNlBNQThJRnBHMzlreXN6dw?oc=5",
+      "desc": "강스템 '오스카' 이달 성적표…골관절염 세포치료제 분수령&nbsp;&nbsp;뉴스1",
+      "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
       "title": "At 32, her LDL cholesterol stayed high although she didn’t smoke, ate clean and exercised: What triggered it? - The Indian Express",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbWNlWkhZc2pOWDZkSDZqMEVMc0VFNzNtcE90R2hGeXRoelY5X2RxeDJYR1BWNWg0dDJ2akEtRzVKZVo2RnVNbjZzemJXZTZVeEZLLS0xR2VhcndySENTZDR3cG9uWkd6c2x6MFVTV3ROSDZQYnZWcnRtZUdjUVFEYUEzOHB2RUJBa3pMQkdYeEk4N0FqMm9HaUtRaDR0Q1JlbkdlOHltdnV6TjZvWWlodFZ1dVNDbDVMY3d0NHdzejJaWmdVTHpKSmc5bGxZTXlrNlJrX1d3bDFaTHEzOHfSAeQBQVVfeXFMUGpNZjN0VUZpRTh5YXJZemJKRFZiOU84R004R3hSdHotY1FINmlsN2N2YTRKMEl2aEVtYk1LTGRLZnZET0ZDbTdjb1FXVzRndGNfc29JOTRmeGRDSS1heHpDUFFzMFNYaUtqWG1leDBMbGtWdC1pMXJDQ2FJeDZSdUw2YUYwZ0EzblBzbUZxbExLd3B5QkZHNzM5Z1RVNWV0TjA1eG5mYmZOYTBKZUpQRWpIMkVWYWxJTXg1dnpTQ0V2Uks4VGJmeGhVZFlpQ3dnRHhlQ3lpTl9XbWFjbzRNejNVXzBf?oc=5",
       "desc": "At 32, her LDL cholesterol stayed high although she didn’t smoke, ate clean and exercised: What triggered it?&nbsp;&nbsp;The Indian Express",
@@ -1150,16 +1140,6 @@
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
       "prod": "celebrex"
-    },
-    {
-      "title": "Structure-guided PCSK9 vaccine shows preclinical promise - EurekAlert!",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1SMTlNYVZodHFqQ3p4THNMM3hxYnQ3SnBBRndrU21MV2drV3EzcDE2QlIzeFNnT011ZmFtYTFQa2Z4eVh2VmFZX0F6dlJnUFY5Nk5vc2p5dzNUVTNf?oc=5",
-      "desc": "Structure-guided PCSK9 vaccine shows preclinical promise&nbsp;&nbsp;EurekAlert!",
-      "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
-      "country": "US",
-      "prod": "lipitor"
     },
     {
       "title": "Doctor shares habits that may naturally help lower ‘bad’ cholesterol - The Indian Express",
@@ -1246,16 +1226,6 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4yVUM1MGxmY3VucFl4NDhUS1YxVFZ1M0xpMHU4OFRlVXNYaXk1Tld1MGdhUk5jT2Q4UHczVGpVanQ4NnhHTDdXZDZTV3ZpUllXZnI3ZTZjTGhhTkZXSXd6YjRVTmdnQ0VzLWc?oc=5",
       "desc": "Suzetrigine (Journavx), an Opioid Alternative for Pain&nbsp;&nbsp;GoodRx",
       "pubDate": "Fri, 08 Mar 2024 18:51:09 GMT",
-      "sourceId": "gn_neuro_en",
-      "sourceName": "Lyrica·Neuropathy (Global)",
-      "country": "US",
-      "prod": "lyrica"
-    },
-    {
-      "title": "Scilex (SCLX) Stock Price, News & Analysis - MarketBeat",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SdE5TX3JIVG5CU3dMMG8tSHg2bk5ycTZwZW94OTNmb1o1UjNORFZuUkk5cUFReEp5blhWcTVXR0VYZ2pYc2NOb0hRdDk4elJSbnFsdWdCb1k4QQ?oc=5",
-      "desc": "Scilex (SCLX) Stock Price, News & Analysis&nbsp;&nbsp;MarketBeat",
-      "pubDate": "Wed, 16 Nov 2022 11:31:31 GMT",
       "sourceId": "gn_neuro_en",
       "sourceName": "Lyrica·Neuropathy (Global)",
       "country": "US",
