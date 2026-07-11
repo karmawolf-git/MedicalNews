@@ -1,9 +1,29 @@
 {
-  "updatedAt": "2026-07-11T10:19:44.548Z",
+  "updatedAt": "2026-07-11T13:40:54.551Z",
   "articles": [
     {
+      "title": "젊은 당뇨병 환자, ‘가벼운 고혈압’도 위험…심장·뇌혈관 ‘빨간불’ - 세계일보",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBYTThJekU4QXdkRTZtdUZLekJ1cExrZlFJamlvSlJiQndSUGZJTEF2WWJBMGdxdEJXdDlIUGE5WjdjMDZBOHJoYXhnQV9pVEkySEFVSUlxSFfSAVRBVV95cUxQbnAza1RWVUFqR3hnZUJhUHJYZ1VCQXZJTGM1cXdyMEdWdmhXSEdjVFJSUXFMci15elRpVWlCWFdOblBRLWkxS3g3RC1QcVhURlNwQXA?oc=5",
+      "desc": "젊은 당뇨병 환자, ‘가벼운 고혈압’도 위험…심장·뇌혈관 ‘빨간불’&nbsp;&nbsp;세계일보",
+      "pubDate": "Sat, 11 Jul 2026 10:59:30 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "과학 세미나 \"골관절염 치료의 새로운 동향\" - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNalQ1TURFVnpSWjR6dFp1R1hhWmprMTNyaG9TYjhWTm9fY2M1MVRYMlI4SDgzOU9tNUt1cFhjN1B5MXVjbDl5RG5PV1FRUGRCc1R1NHZCRnF0c19NaURUUFNQMWVabEVnLWlNSF9OX3VWa1V1YVlCdWhZb3FCN1pINFJXQklDTTM0LWk1TmdTQQ?oc=5",
+      "desc": "과학 세미나 \"골관절염 치료의 새로운 동향\"&nbsp;&nbsp;Vietnam.vn",
+      "pubDate": "Sat, 11 Jul 2026 09:02:03 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
       "title": "\"약 대신 잡곡밥\"…당뇨·고혈압에 효과 - 네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9WVmx5b1RmWTdxU2NISzNBMFNFX0l2a2s4Q0FGUGhaZ2R5YjZrdTZ5cklaR1BfaVV6RmhIbFFVcm1BbWNoTEh2aWJQNVp0SkthLW1B?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80dzdYQnJMMFZlbFRaRFh5QzRPNDEtWmVtakdvbG9ydU1PdWx0ZU1RUC1NUE01dUZsWXpOb3RGWk1WVERkNnJOcDdWNTVaTXVQQ0RQRVkxeU9sdkN0R0R3eg?oc=5",
       "desc": "\"약 대신 잡곡밥\"…당뇨·고혈압에 효과&nbsp;&nbsp;네이트",
       "pubDate": "Sat, 11 Jul 2026 04:07:00 GMT",
       "sourceId": "gn_norvasc_kr",
@@ -90,16 +110,6 @@
       "sourceName": "쎄레브렉스·관절염 (국내)",
       "country": "KR",
       "prod": "celebrex"
-    },
-    {
-      "title": "한미약품 ‘아모프렐’, ESH 2026서 “초기 고혈압 치료 새 옵션\" 주목 - 메디소비자뉴스",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5wMTJyblBYQTEyUG81WkpmQ0JSOERuR2oxWUJMMmctZ2sxZGxaYWNIdS1obW9wU2FXZGptTjFCZWFOYXlFdlE2MXQxZE83VWlMVFNTbWdWMXBnZDRtd0ZMbExNTHJ4TzlLUklDLS1wdE13QQ?oc=5",
-      "desc": "한미약품 ‘아모프렐’, ESH 2026서 “초기 고혈압 치료 새 옵션\" 주목&nbsp;&nbsp;메디소비자뉴스",
-      "pubDate": "Fri, 10 Jul 2026 11:28:51 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
     },
     {
       "title": "Just 3 shots a year: Questions you must ask doctor before switching to cholesterol injections - The Indian Express",
@@ -233,7 +243,7 @@
     },
     {
       "title": "Investigational drug could control cholesterol, suggests study - Medical Dialogues",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSjZpMzZaQ1ppZUJfRENtNWNzbkVlX2JZbjNiSldPUnJLcnBZR2ljdDNXandLNWtjQXA1YUZyUDRhZkhsUnhmWkVEUUtLdzZoTlJYVmFET3hnX0QzdExuaElXV21MYVZfQmxRNkVZbTdLWklzdVkwYTRFNUh5NEZYZUlYYXh4YTEzdnpLdU85Mk5ESTVPQzU5UnpaNk5LWXBtaXA1dkUxRl8xSWw0LTRRNW16eGE4dnVyWjhkQ09n0gG-AUFVX3lxTE9KNmkzNlpDWmllQl9EQ201Y3NuRWVfYlluM2JKV09ScktycFlHaWN0M1dqd0s1a2NBcDVhRnJQNGFmSGxSeGZaRURRS0t3NmhOUlhWYURPeGdfRDN0TG5oSVdXbUxhVl9CbFE2RVltN0taSXN1WTBhNEU1SHk0RlhlSVhheHhhMTN2ekt1TzkyTkRJNU9DNTlSelo2TktZcG1pcDV2RTFGXzFJbDQtNFE1bXp4YTh2dXJaOGRDT2c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWUNxNUx6YlBYV3Q3ZUFkRllZWU9lQTU4Rm5xWVRHNEp0dXpCQmZpRTRiSFk3SzdqRGZ0SC1NWUpjQ2tKX0tEWm96UTdrdEtFM0NVd2NqRlJ3U1JSMlN0d3A5Vi16bGs2NEp1Q0FTUUlaMHgzTWhpQVdRb1lNbDhkU3ExdVZLQVNSODB6a3VyM09fZzJILVJsSUVSektRYUNSZTgtS0pvZUg3ajAyMUhNaGNzTWdyTlRi0gG-AUFVX3lxTE9KNmkzNlpDWmllQl9EQ201Y3NuRWVfYlluM2JKV09ScktycFlHaWN0M1dqd0s1a2NBcDVhRnJQNGFmSGxSeGZaRURRS0t3NmhOUlhWYURPeGdfRDN0TG5oSVdXbUxhVl9CbFE2RVltN0taSXN1WTBhNEU1SHk0RlhlSVhheHhhMTN2ekt1TzkyTkRJNU9DNTlSelo2TktZcG1pcDV2RTFGXzFJbDQtNFE1bXp4YTh2dXJaOGRDT2c?oc=5",
       "desc": "Investigational drug could control cholesterol, suggests study&nbsp;&nbsp;Medical Dialogues",
       "pubDate": "Thu, 09 Jul 2026 15:15:02 GMT",
       "sourceId": "gn_statin_en",
@@ -312,6 +322,16 @@
       "prod": "celebrex"
     },
     {
+      "title": "한미약품 “‘로수젯’, 올 상반기도 시장 선두…‘용량 선택지·임상 데이터‘ 경쟁력” - 더바이오",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xQUdKcFZDS0xnVzdGNVRWVVJ2WE9KYVVuYl9zdHJBV21HTVVqWlE4THNaNXN0SExmTzRZbk9keVpQYkM2WmdrTXU2cFQzNzdxOGJ5MXJrbndWQVJQbHN5NExPT1ZSX2FKYmNLSWVudUPSAXBBVV95cUxPcUFHSnBWQ0tMZ1c3RjVUVlVSdlhPSmFVbmJfc3RyQVdtR01ValpROExzWjVzdEhMZk80WW5PZHlaUGJDNlpna011NnBUMzc3cThieTFya253VkFSUGxzeTRMT09WUl9hSmJjS0llbnVD?oc=5",
+      "desc": "한미약품 “‘로수젯’, 올 상반기도 시장 선두…‘용량 선택지·임상 데이터‘ 경쟁력”&nbsp;&nbsp;더바이오",
+      "pubDate": "Thu, 09 Jul 2026 02:27:46 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
+    {
       "title": "한미약품 로수젯, 임상 근거 앞세워 이상지질혈증 시장 1위 굳힌다 - 헬스오",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9hS2dqRW5pMVpfd3JvSXhrcjliaE5qaWdicXZSV1NabkZibDBkTGg5OHVIYU1HRzZvTjZJYnFwb0hxVW9vR1czQ2xqamhsMDJ0UnMxdlloYUdIUQ?oc=5",
       "desc": "한미약품 로수젯, 임상 근거 앞세워 이상지질혈증 시장 1위 굳힌다&nbsp;&nbsp;헬스오",
@@ -356,10 +376,10 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGdEVrVktBUnV5VkNUT3RjVnpuVGl2WGFyc0JsQW45emYyNEtHMmo3UzZ5bWY0RjRnMTFXU3B3R2szWjFfdlg4UmlSOHJHa2prYi1oNG9zajdIVHRvc0xaRTRmejRsa05Z?oc=5",
       "desc": "국제약품, 심혈관계 복합제 확장…로수디핀정 발매&nbsp;&nbsp;데일리메디",
       "pubDate": "Wed, 08 Jul 2026 21:51:00 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
-      "prod": "lipitor"
+      "prod": "norvasc"
     },
     {
       "title": "메디포스트의 무릎 골관절염 줄기세포 치료제 카티스템, 미국 임상 3상 첫 환자 치료 개시 - 비즈트리뷴",
@@ -386,16 +406,6 @@
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNb2hyZ0I4VndGbkkwaTRYRktxRTlXZGpGWG1mX0tZaGZzaGJJbzA0cXBtWGFXdWFSWmRuSURtZHU4dHZEbXlvVzY2NUdoM2djSFB6UExNejc4cWNMemloNlV1YVdMbU15QW50MWluTnVzX1E4cFdscGhLMU9UaUo0ck4yNElGRGJQTVFkeHlBSnhHS2lHM3JZR2hTci01Qjd2Z183VUdzOWJqdGgtSkNlU05xT0hGcE5TLXZoTHlBajctenhINlgxZW5B?oc=5",
       "desc": "Biotech Merger Tests AI Patient Stratification Against RA’s 70% Treatment Gap&nbsp;&nbsp;Tech Times",
       "pubDate": "Wed, 08 Jul 2026 19:41:34 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
-    },
-    {
-      "title": "JAK Inhibitors, Oral Minoxidil Reshape Hair Loss Care - HCP Live",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQd2RIMExHNGhuYVNaMWxpeVRWV1dnUVhxZktSNVhMRHl4WGFHdXFOOWhhN0thTHAyNmpqMnkzNHkxZlIwT0FDTkZUbW1kZ0JNcjFtWmFBb2gtSTVnUFI3cDd2RFdRUFZ3dlJXRWt5OHFCQnU1bmExU1Z3RFFlQ0Q0M0J5bnJ0RjJq?oc=5",
-      "desc": "JAK Inhibitors, Oral Minoxidil Reshape Hair Loss Care&nbsp;&nbsp;HCP Live",
-      "pubDate": "Wed, 08 Jul 2026 16:01:45 GMT",
       "sourceId": "gn_arthritis_en",
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
@@ -460,6 +470,16 @@
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
       "prod": "lipitor"
+    },
+    {
+      "title": "Ankylosing spondylitis: It may all start in your gut - Medical Journal of Australia (MJA)",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYXVvSmxsaVFFdzI0OWNkNHM3ZTVwWjBIdk0xSHkzSmgxc00tSldoVDltcTB2WmFBLVk4ZnAzdFo1SHpPYURJU05GMm8yenF4THB4dDZxcmQtaVVSdHl3TGstbk5jT3J5b01JNFJybTNCVGxlclN1RGxFY3psTTdRVk5Ub19IdkR6eDUwUkhCWnc5V28?oc=5",
+      "desc": "Ankylosing spondylitis: It may all start in your gut&nbsp;&nbsp;Medical Journal of Australia (MJA)",
+      "pubDate": "Wed, 08 Jul 2026 07:00:00 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
     },
     {
       "title": "안국약품, 고협압 치료제 '레보살탄플러스' 발매 - 의협신문",
@@ -1092,16 +1112,6 @@
       "prod": "celebrex"
     },
     {
-      "title": "강스템 '오스카' 이달 성적표…골관절염 세포치료제 분수령 - 뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1PTG5MSHEtRF9CamNVcXpGZWZiVW5XekMxZ2djRENCNkxjdEo0eGp6bTNuNEhpWDRKMUxPSUxRYVJxVnp0SkY5VXRIQ21GeXdYNlBNQThJRnBHMzlreXN6dw?oc=5",
-      "desc": "강스템 '오스카' 이달 성적표…골관절염 세포치료제 분수령&nbsp;&nbsp;뉴스1",
-      "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
       "title": "류마티스 관절염, 조기 진단과 꾸준한 관리가 핵심 - 팜뉴스",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2cDhKeVhIeUpYS0VYbWZTYmY4ZF9VZFg1dURCRVVfTm1wOGRKdmlpaEx0TGFObS1USVBvTjlSRnJObURLMjVrdy1QbEk2cGNmby0yUzVtWGhhaVdDb2VLVnkxWHlHYkZVRGFmNw?oc=5",
       "desc": "류마티스 관절염, 조기 진단과 꾸준한 관리가 핵심&nbsp;&nbsp;팜뉴스",
@@ -1112,29 +1122,19 @@
       "prod": "celebrex"
     },
     {
-      "title": "A New Way to Lower High Cholesterol Levels is Found - Labroots",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT3JMM3BjRDVwa3ZaaDN6LWlveW54M1JsMHgxNWNtUXRKOHFIOGpKWTVUNVpEUlhzVFhqVDhuanpMUGZiVm1yRi1HTEtpUS1kUlA1N19yX0l3Zl9ldVVmSGNncTE5emhycmRMSWx5VEJLbWNrR2RRS2k3Ynp2OWh0dUZMRDRKaWdFQ0Fzb3FZSm1OVGE1dGFaM2c0bjFld9IBowFBVV95cUxPclVyWGdlcEtYUzR4R1g4TlpnVjdqRWljeGY2RXhXMWlNd2F0WE1wSVM2Q3BSYTBNZWg1OEJnanRrY0M3T0V5aUJLZUt3QUl4VWVOTGNYU2R2UTh5c0o2QTAyRWstZ2tNdGFrdHRuRHN3S2JodEZrVlZXOGZjQ3pzdm9mWXlmdjVqN0FrY09sWnI3ajNGR0kwY082US1icGpUY1JJ?oc=5",
-      "desc": "A New Way to Lower High Cholesterol Levels is Found&nbsp;&nbsp;Labroots",
-      "pubDate": "Mon, 29 Jun 2026 22:51:00 GMT",
+      "title": "Scientists found a hidden mechanism in your liver that attacks LDL receptors, and it could change the fight against high cholesterol for you - OkDiario",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPTUdscnNQeURkQlc1WHh1cmFPWkdRd0xVajUtSzUyNEw2LTFNVi1GMTA1WmcwSVU0QTBmU0RpeEx2QnZ3X2RWUm5iNGs5dDZLam1hT2lncGxhU2sxcHdyRXRzWDBGQ1lVMEVIUHh1b05BV1FkWmpOcFoydzlEN2hVeFAwTFI2SHI2LXUtbDV0cjhfc3NFLVh1QzhUalZJMXFJaVVGX3dkX0lwNU9MdUFnMDdEaVpEdHhmbTczU3M2OVB0SmxqUWo5MV9MWjQtaF81TDgyYWVpMHc4cGYydFYydEhrX2VWUDhNV3VYZFNZSTFBM0Q0bkNyUDJpSkpDeTdvV2YtdVp0S0pYZ3dyNjZac3F2ai0xZw?oc=5",
+      "desc": "Scientists found a hidden mechanism in your liver that attacks LDL receptors, and it could change the fight against high cholesterol for you&nbsp;&nbsp;OkDiario",
+      "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
       "prod": "lipitor"
     },
     {
-      "title": "Telitacicept Improves Clinical Response but Increases Infection and Hypogammaglobulinemia Risk in Adults with Active SLE: Phase 3 Trial Results - Vera Health",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB1TmNKbkE5Sk9ERzVETkNIeVJKOHBMLW9jQTZ4WEotUTd1VS1ZZnM4QkdkU2Y1Rjk3OXNNdHVXUXZZVy1NTHYxYlY2NTd3S2c?oc=5",
-      "desc": "Telitacicept Improves Clinical Response but Increases Infection and Hypogammaglobulinemia Risk in Adults with Active SLE: Phase 3 Trial Results&nbsp;&nbsp;Vera Health",
-      "pubDate": "Mon, 29 Jun 2026 08:08:51 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
-    },
-    {
-      "title": "Structure-guided PCSK9 vaccine shows preclinical promise - EurekAlert!",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1SMTlNYVZodHFqQ3p4THNMM3hxYnQ3SnBBRndrU21MV2drV3EzcDE2QlIzeFNnT011ZmFtYTFQa2Z4eVh2VmFZX0F6dlJnUFY5Nk5vc2p5dzNUVTNf?oc=5",
-      "desc": "Structure-guided PCSK9 vaccine shows preclinical promise&nbsp;&nbsp;EurekAlert!",
+      "title": "A New Way to Lower High Cholesterol Levels is Found - Labroots",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT3JMM3BjRDVwa3ZaaDN6LWlveW54M1JsMHgxNWNtUXRKOHFIOGpKWTVUNVpEUlhzVFhqVDhuanpMUGZiVm1yRi1HTEtpUS1kUlA1N19yX0l3Zl9ldVVmSGNncTE5emhycmRMSWx5VEJLbWNrR2RRS2k3Ynp2OWh0dUZMRDRKaWdFQ0Fzb3FZSm1OVGE1dGFaM2c0bjFld9IBowFBVV95cUxPclVyWGdlcEtYUzR4R1g4TlpnVjdqRWljeGY2RXhXMWlNd2F0WE1wSVM2Q3BSYTBNZWg1OEJnanRrY0M3T0V5aUJLZUt3QUl4VWVOTGNYU2R2UTh5c0o2QTAyRWstZ2tNdGFrdHRuRHN3S2JodEZrVlZXOGZjQ3pzdm9mWXlmdjVqN0FrY09sWnI3ajNGR0kwY082US1icGpUY1JJ?oc=5",
+      "desc": "A New Way to Lower High Cholesterol Levels is Found&nbsp;&nbsp;Labroots",
       "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
@@ -1216,6 +1216,16 @@
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQb1l3VDZMN1dwT3ZGUkp4TmpfMTBkeWV2T2llN3kyY3UxVnlIZkRfaWNZcTVNbU9ld0FzTl9DWW5aLW9na3Jtd2xVT0wzb1NVY3dTVExheDhpbWo1cmtMWk1FWDJ4QnEzUHA3ejhDSU5hRm12ZkxjendINEpyYnhDVnZlOHpQZmtuZjBSVkF0V21TZw?oc=5",
       "desc": "Extracellular vesicle–mediated immunomodulation and targeted delivery: breakthroughs and challenges in rheumatoid arthritis therapy&nbsp;&nbsp;Frontiers",
       "pubDate": "Sat, 20 Jun 2026 01:26:09 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
+    },
+    {
+      "title": "Genistein in autoimmune diseases: from experimental evidence to emerging clinical data - Frontiers",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZzNZMlphMkY3VXJBd1hvN3RWc01lazNabUFTWFd0bDU0Vk1uRXlERXAzMXlNRFA3M25aTHY4Zmdjdmd4UEpNcjVxY2pPcG5mbUZyZlJxUlA4QmItdHhBaUFHa3ZpcWc1ZGtMZkllRUR6cUJuOGpFY3g1Sno3WkhRXzBvUTk4YlhreXREV3U1OWRLZw?oc=5",
+      "desc": "Genistein in autoimmune diseases: from experimental evidence to emerging clinical data&nbsp;&nbsp;Frontiers",
+      "pubDate": "Wed, 17 Jun 2026 09:38:54 GMT",
       "sourceId": "gn_arthritis_en",
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
