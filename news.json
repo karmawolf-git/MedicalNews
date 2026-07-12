@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T13:41:20.261Z",
+  "updatedAt": "2026-07-12T16:03:28.351Z",
   "articles": [
     {
       "title": "뇌졸중·심근경색 유발하는 '고혈압'…몸 속 나트륨만 배출해도 도움된다 - 네이트",
@@ -72,16 +72,6 @@
       "prod": "norvasc"
     },
     {
-      "title": "젊은 당뇨병 환자도 안심 금물…초기 고혈압만으로 심근경색·뇌졸중 위험 크게 높아져 - 진주인터넷뉴스",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1vcXVzelR2UnpNc1N6MnU0ZTZFSnFNd2RNbUdwVEhyZXdnOGxXY2g1dUhxNDJkZklMYXJtcExfODI2Z0FkY2ZFLVZEeWxDS3VqbVRKZVpLazJqQUx3NEhOWjRmRWZUUENibHpOSGF4QVJoQUcwa2c?oc=5",
-      "desc": "젊은 당뇨병 환자도 안심 금물…초기 고혈압만으로 심근경색·뇌졸중 위험 크게 높아져&nbsp;&nbsp;진주인터넷뉴스",
-      "pubDate": "Sat, 11 Jul 2026 21:00:05 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
       "title": "Lowering Cholesterol: How Fast and Effective Strategies - MSN",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWlpTcUhCZnZGMEZLVU1hR1R6aHltT3pLNldpRXlRRXUxVXlDYnVPdkwwYVJKTUpNTThNbW9XNjQtTTlSemVHRmVPdXVBSzNBaVpVZ25KYWRrN0pfS19TWVUtSERpbHBOcGlXLVJwWGFnV3VSUzg3S281TFdjTmtHT0R3YXJnMEZISzMtRko4ZmtsVG1HN3VVazZUOWZsc0p0eUI5ZkhmOA?oc=5",
       "desc": "Lowering Cholesterol: How Fast and Effective Strategies&nbsp;&nbsp;MSN",
@@ -110,6 +100,16 @@
       "sourceName": "쎄레브렉스·관절염 (국내)",
       "country": "KR",
       "prod": "celebrex"
+    },
+    {
+      "title": "젊은 당뇨병 환자도 안심 금물…초기 고혈압만으로 심근경색·뇌졸중 위험 크게 높아져 - 진주인터넷뉴스",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1vcXVzelR2UnpNc1N6MnU0ZTZFSnFNd2RNbUdwVEhyZXdnOGxXY2g1dUhxNDJkZklMYXJtcExfODI2Z0FkY2ZFLVZEeWxDS3VqbVRKZVpLazJqQUx3NEhOWjRmRWZUUENibHpOSGF4QVJoQUcwa2c?oc=5",
+      "desc": "젊은 당뇨병 환자도 안심 금물…초기 고혈압만으로 심근경색·뇌졸중 위험 크게 높아져&nbsp;&nbsp;진주인터넷뉴스",
+      "pubDate": "Sat, 11 Jul 2026 08:00:05 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
     },
     {
       "title": "\"약 대신 잡곡밥\"…당뇨·고혈압에 효과 - 연합뉴스",
@@ -162,6 +162,16 @@
       "prod": "celebrex"
     },
     {
+      "title": "로수젯·케이캡 선두 각축…K-신약·복합제 전성시대 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1nTjY5emU0bWNwbHdYS0Rnc21sMnpZRVI4UFhnaGVHOVBSTUJtRkU4YWJ0WEJOMEQwRTN6a1VNcHZ4M3VlZVljZ1o3Z0dqWVptQ1ZDRWRB?oc=5",
+      "desc": "로수젯·케이캡 선두 각축…K-신약·복합제 전성시대&nbsp;&nbsp;데일리팜",
+      "pubDate": "Fri, 10 Jul 2026 16:32:09 GMT",
+      "sourceId": "gn_lipitorplus_kr",
+      "sourceName": "리피토플러스·에제티미브 (국내)",
+      "country": "KR",
+      "prod": "lipitorplus"
+    },
+    {
       "title": "[건강상식 19]아침마다 손가락이 뻣뻣? ‘류마티스 관절염’ 의심해봐야 - 당진시대",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9rRmNWb2Fic2tOZ1pmMzJZd1VBNEFsQlROSXN5Yzg2WmFhc0dJR0JwNmQta2VNa3RqYV91YVhOcnNlQTRFX3VuOFdqMXNoMUcxUDRTdFVMOUdSLUhDVUZoOG1maWt4Wk9TV3dLN0pkZ9IBb0FVX3lxTE9rRmNWb2Fic2tOZ1pmMzJZd1VBNEFsQlROSXN5Yzg2WmFhc0dJR0JwNmQta2VNa3RqYV91YVhOcnNlQTRFX3VuOFdqMXNoMUcxUDRTdFVMOUdSLUhDVUZoOG1maWt4Wk9TV3dLN0pkZw?oc=5",
       "desc": "[건강상식 19]아침마다 손가락이 뻣뻣? ‘류마티스 관절염’ 의심해봐야&nbsp;&nbsp;당진시대",
@@ -202,6 +212,16 @@
       "prod": "norvasc"
     },
     {
+      "title": "Scilex (NASDAQ:SCLX) Trading Up 0.8% - Here's What Happened - MarketBeat",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaHNhV2VNbnlHTlZZemNZWWlXZ2tHMXpHcF9MNGVNOVRiYlJtSlVtVjZzbVBlVlIxcjY4LVNEZDBvTnFnM0FhWHQwV0thV29GNFhqUGFXWk1OVndQdzhoYkpzdGVZMEFsYTdqY2hFYV84Q1NjVFBKbDFXXzBfeGU4Rm9Qck9POVktU3U0ODY5eERFRUVjZFNZTW9KX050NGVrOUNES0FETnY?oc=5",
+      "desc": "Scilex (NASDAQ:SCLX) Trading Up 0.8% - Here's What Happened&nbsp;&nbsp;MarketBeat",
+      "pubDate": "Fri, 10 Jul 2026 06:05:11 GMT",
+      "sourceId": "gn_neuro_en",
+      "sourceName": "Lyrica·Neuropathy (Global)",
+      "country": "US",
+      "prod": "lyrica"
+    },
+    {
       "title": "1인 병원을 위한 골관절염 관리 방법은? 전남대 수의대 재경동문회 세미나 성료 - 데일리벳",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAyUFdSRjRaN2N4NERPU0pscEVGX3AxT1hDSVNXWm5DWm96UFU0X1hNeDdERFVjd2tpQlF3a3A3NXFldXhHNXNyeklNMUNzeHdHbnl5S0MzdDU?oc=5",
       "desc": "1인 병원을 위한 골관절염 관리 방법은? 전남대 수의대 재경동문회 세미나 성료&nbsp;&nbsp;데일리벳",
@@ -220,16 +240,6 @@
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
       "prod": "lipitor"
-    },
-    {
-      "title": "로수젯·케이캡 선두 각축…K-신약·복합제 전성시대 - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5RV2Y2b25BSklYdzN6Y0xrTlEwM0VwRXlCQkktT0dmdjFUdHJ4QUdKV1JCTGNoR2tWdUVxSUxRTnpNVzVoWm5veFVXSXExRjBva1ZvbUswVEdQVkU4ZUZqN3R3?oc=5",
-      "desc": "로수젯·케이캡 선두 각축…K-신약·복합제 전성시대&nbsp;&nbsp;데일리팜",
-      "pubDate": "Fri, 10 Jul 2026 02:59:54 GMT",
-      "sourceId": "gn_lipitorplus_kr",
-      "sourceName": "리피토플러스·에제티미브 (국내)",
-      "country": "KR",
-      "prod": "lipitorplus"
     },
     {
       "title": "CU Anschutz Cancer Center a Site for Clinical Trial for Treatment of Myocarditis Caused By Checkpoint Inhibitors - University of Colorado Anschutz",
@@ -260,16 +270,6 @@
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
       "prod": "lipitor"
-    },
-    {
-      "title": "5 supplements that may help manage neuropathy - MSN",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM21DMGZfOUhGYWkwUEtBUUVYY2JMWTNYVm5BZzF0cHRQYnJQaDJzak9sTTBNdWZHWWc5UDVtQk1qSF9zTDJoOUhjbE5kcUFvVmRqd3JGdGp4S3RSQ2R0aHUxMEp1X1FmelNleFp1M2Fic2c2b2R5ZElRVGt3QjVacF9sdndJVTRkaWI5T1JkMi04NTQ1WHNmU2RXQ2s?oc=5",
-      "desc": "5 supplements that may help manage neuropathy&nbsp;&nbsp;MSN",
-      "pubDate": "Thu, 09 Jul 2026 23:41:47 GMT",
-      "sourceId": "gn_neuro_en",
-      "sourceName": "Lyrica·Neuropathy (Global)",
-      "country": "US",
-      "prod": "lyrica"
     },
     {
       "title": "심혈관-신장-대사(CKM) 증후군 환자 증가로 혈압·지질 통합 관리 중요성 확대 - 메디칼업저버",
@@ -330,16 +330,6 @@
       "sourceName": "Lyrica·Neuropathy (Global)",
       "country": "US",
       "prod": "lyrica"
-    },
-    {
-      "title": "[녹색] 당뇨·고혈압 잡는 국산 잡곡, '황금비율' 찾았다 - YTN",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GYlpfRnRZWG1COFE2Rml1eXQxNkxVcjc3TUFsbTdjcEhPd2Q1N05HVWk2UnQ5b1dHLWZOazgwQTM4aFdXMFZEblhEeHVEMExtS0l3Rld1cFJZbXJ6Ym5n?oc=5",
-      "desc": "[녹색] 당뇨·고혈압 잡는 국산 잡곡, '황금비율' 찾았다&nbsp;&nbsp;YTN",
-      "pubDate": "Thu, 09 Jul 2026 12:18:00 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
     },
     {
       "title": "한미약품 로수젯, 임상 근거와 처방 실적으로 이상지질혈증 시장 대표 품목 자리매김 - 의약뉴스",
@@ -532,6 +522,16 @@
       "prod": "celebrex"
     },
     {
+      "title": "“협심증 약물치료, 니코란딜 전·후로 나뉜다” - mostonline.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zTjhHZVl1Ny05X2ZPYmt5X1JkVWFPc3F2enVDZGdUSGlVTlV1c0sxZHZPUENWYXc1d3VWM1YweFZuazJxRnVsWUtWbmFQRnRXSzQwbDItZExQU1NUWjBQR0hPLXRjOFkwSEFYTmxXQW8?oc=5",
+      "desc": "“협심증 약물치료, 니코란딜 전·후로 나뉜다”&nbsp;&nbsp;mostonline.co.kr",
+      "pubDate": "Wed, 08 Jul 2026 06:57:28 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
       "title": "안국약품, 고협압 치료제 '레보살탄플러스' 발매 - 의협신문",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE52MHljRnBSYllxd0M4WkE0M21WN09FVnZra0FtZEZsVF85MHRCODJabm5FMXBpUnVxTDM2SURHcUs5eDFxUE03RTY4U2tZd0tRSFBOSkZzYWFQOHhlYjN3RURTdkxZS1puMlNMYWc2bkIyUQ?oc=5",
       "desc": "안국약품, 고협압 치료제 '레보살탄플러스' 발매&nbsp;&nbsp;의협신문",
@@ -572,9 +572,9 @@
       "prod": "celebrex"
     },
     {
-      "title": "메디포스트, 카티스템 美 무릎골관절염 임상 3상 첫 환자 투약 - asiae.co.kr",
+      "title": "메디포스트, 카티스템 美 무릎골관절염 임상 3상 첫 환자 투약 - 아시아경제",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9jZkFlck92bnl6bzRSTXlXY2R3QThFTGFYWU1waHVSZTUydElxQ2tReUlzZmlBVEdEeXBuOG1MNjNWb0h2cUtxWHRjMTZaaW81NjVmbEtnb2hTLXRfX0FtMA?oc=5",
-      "desc": "메디포스트, 카티스템 美 무릎골관절염 임상 3상 첫 환자 투약&nbsp;&nbsp;asiae.co.kr",
+      "desc": "메디포스트, 카티스템 美 무릎골관절염 임상 3상 첫 환자 투약&nbsp;&nbsp;아시아경제",
       "pubDate": "Tue, 07 Jul 2026 23:19:44 GMT",
       "sourceId": "gn_celebrex_kr",
       "sourceName": "쎄레브렉스·관절염 (국내)",
@@ -752,6 +752,16 @@
       "prod": "lipitorplus"
     },
     {
+      "title": "Recent advances in the development of GRK2 inhibitors: blocking the interaction of GRK2 with its partners - Nature",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ZTUFQeDJfbmY3cDZtX0pBWEMzMjN6bHhOcVVmQkxWX1hjMDV3akVYNHdEMlloYkhYOEVhcTU4bVBjVW82ZkZIZExTcndMOEJlakFPZ0lvc0U5T3J3V0NZ?oc=5",
+      "desc": "Recent advances in the development of GRK2 inhibitors: blocking the interaction of GRK2 with its partners&nbsp;&nbsp;Nature",
+      "pubDate": "Tue, 07 Jul 2026 05:26:27 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
+    },
+    {
       "title": "류마티스 관절염, 붓는 관절 따라 치료 반응 달라… 약 교체 서두르지 말아야 - 하이닥",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PSzJPa3JKdUl4ZDVWcThWcWxodWFTUHE0SlFINWEyMW5BUUh6Z3pNNHlwbTVHeFpiZnZBcHBweWYwREdPQ29HbmpTUVRMc25pY0piQUtGbllOSGNTQnB3elBsQlBsMndnSWc?oc=5",
       "desc": "류마티스 관절염, 붓는 관절 따라 치료 반응 달라… 약 교체 서두르지 말아야&nbsp;&nbsp;하이닥",
@@ -770,16 +780,6 @@
       "sourceName": "의약품 정책 (국내)",
       "country": "KR",
       "prod": "all"
-    },
-    {
-      "title": "장마철이면 더 아픈 관절…자가면역질환, 생활 리듬 관리가 중요 - 매경헬스",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJSGYzenNjU0ltMF82alItR0NpanhFZk9ldVRzOW9XRlFlUW0tTjdwUlFLTklhbGxqR1ZxRzdPNWJBZlFlN241Q0hobFZEdktDWDRJSVdHQ0k1OHVfM1pyZUJhWVhlU2FXTzd2Yw?oc=5",
-      "desc": "장마철이면 더 아픈 관절…자가면역질환, 생활 리듬 관리가 중요&nbsp;&nbsp;매경헬스",
-      "pubDate": "Tue, 07 Jul 2026 02:40:00 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
     },
     {
       "title": "심평원, 올루미언트 급여기준 개정… 중증 원형탈모 새 보험 적용 - 헬스이슈앤뉴스",
@@ -856,16 +856,6 @@
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1iUUhBc2ZJbW1Fc1ItZnJ2NGEzbFVPYkNMNVdFNFRKT3prVm9CT1ZUSXJmUThzd0xqbVhtUHEtQUJpYUlvRFNtNnpRWlFPZ08tSmJoVkZvWkJxRE5KbWh5SzAxY203dDV5Mlp5M2FXRlQ0SWFOQ3pJYWx2QdIBgAFBVV95cUxNRWxCaGgza09IV0VYc3VEVUpmeUhuNUZZbjU4U2lqWGtPbXYtdGtpOWd4QmFrOC13S3IyQVpCUlcyeVo5NVZ0bHhvaGdmaGp6Ym0yZTlFa2U2WFdGLW5peV96NTB5LWxMZGtzd1g3VG43WUJOakJmaDYtYmJlbXB3bg?oc=5",
       "desc": "NHS 'do not eat fruit' reminder if taking amlodipine for blood pressure&nbsp;&nbsp;Wales Online",
       "pubDate": "Mon, 06 Jul 2026 14:40:46 GMT",
-      "sourceId": "gn_htn_en",
-      "sourceName": "Norvasc·CCB (Global)",
-      "country": "US",
-      "prod": "norvasc"
-    },
-    {
-      "title": "NHS fruit reminder to millions of people taking amlodipine for blood pressure - Daily Express",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVnM5ZVQzcXRpREoteV90YklCOXkwcGluR0RUVF9vS216VG82N2c0N3BpQ3pyeU03bFphSy1HOEdMbEFsRGFHRl9CQTk5bWJPLXhkMFVmVWc5TDBKd0I2MUdPSW5td0N2VkdBN0xSVE5kVld1bllLX0xGMUlhS19nWmhrOWFfbmJIb1MyWkctRElFajJY0gGaAUFVX3lxTE1Xd2NmVjRrNnprTlkydVM2MTQ1RmRoV0Y2NVR2LWZPcG1tMHZKYWVmUG1GOUxKVkJxUWZIX1lYOUJyWkpILWNnSHg4bldsVUxILXpLTy1fSmhzQ3FlOXgyZGUxbUlhYTRoeUx5bnV5T3daTTlfa2J6dTk0dDlCOWl5cG0zUmtzdkZuTExaLXFuRWVsZTRlM0V6bnc?oc=5",
-      "desc": "NHS fruit reminder to millions of people taking amlodipine for blood pressure&nbsp;&nbsp;Daily Express",
-      "pubDate": "Mon, 06 Jul 2026 13:47:00 GMT",
       "sourceId": "gn_htn_en",
       "sourceName": "Norvasc·CCB (Global)",
       "country": "US",
@@ -1020,6 +1010,26 @@
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
       "prod": "lipitor"
+    },
+    {
+      "title": "5 supplements that may help manage neuropathy - MSN",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM21DMGZfOUhGYWkwUEtBUUVYY2JMWTNYVm5BZzF0cHRQYnJQaDJzak9sTTBNdWZHWWc5UDVtQk1qSF9zTDJoOUhjbE5kcUFvVmRqd3JGdGp4S3RSQ2R0aHUxMEp1X1FmelNleFp1M2Fic2c2b2R5ZElRVGt3QjVacF9sdndJVTRkaWI5T1JkMi04NTQ1WHNmU2RXQ2s?oc=5",
+      "desc": "5 supplements that may help manage neuropathy&nbsp;&nbsp;MSN",
+      "pubDate": "Sun, 05 Jul 2026 15:16:33 GMT",
+      "sourceId": "gn_neuro_en",
+      "sourceName": "Lyrica·Neuropathy (Global)",
+      "country": "US",
+      "prod": "lyrica"
+    },
+    {
+      "title": "골관절염 치료제 판도 바뀌나…국내 DMOAD 개발 속도 - 아주경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4tSXRJN2ZnRzZpYzA2SWlnbDE2bl84Q1lORjdUTFVRMFdfY2VRTzdMeEFkRWpxblFhckhLbXplMHdxNXBMbTljTHpmaHBuaHpoNEhSdkVmQUVUUdIBWEFVX3lxTE5PTFdYZFdqcWkwbzh5dHdUQk1vcWJhbEtEWXg4bnF2cGxoSFNhcmVoQ2pycGt4clY5UnNTbTdtRHduZGluVUFJellvZTBHQlRnbFA5NWRZMmc?oc=5",
+      "desc": "골관절염 치료제 판도 바뀌나…국내 DMOAD 개발 속도&nbsp;&nbsp;아주경제",
+      "pubDate": "Sat, 04 Jul 2026 01:00:00 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
     },
     {
       "title": "[특징주] 강스템바이오텍, 무릎 골관절염 치료제 2상 결과 기대감에 급등 - 바이오타임즈",
@@ -1195,16 +1205,6 @@
       "title": "AbbVie’s RINVOQ moves closer to Europe’s first vitiligo pill - Stock Titan",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaEhZR21qcTZTajBoSjF3OTRzUXduRms5WWhFLTJCSW1VNXZSUGQ5RUIweGV6UllQaDdYdzFITzU2OUk2QW5ZeTBUZHpTdjd4ZmwxdTAwc1l0ZkotdjZEbnR5c2txQnQ1dW1NOTMtdldXS1Uzd2tFelZua2c2a2hHWmhqX2NjZ1VGQkRaQUZVY0RRT19rQ2Q1aVZsaGdxb2ZKOGhKbnM0Qmx4VUpyaHVKVi1LMkRQNEVHNkxBWXdR?oc=5",
       "desc": "AbbVie’s RINVOQ moves closer to Europe’s first vitiligo pill&nbsp;&nbsp;Stock Titan",
-      "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
-    },
-    {
-      "title": "AbbVie moves RINVOQ toward EU approval in severe alopecia areata - Stock Titan",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSmlKMGt4bk9sNG9RcHBvQlJBWExxRHpWS3h5dXRQeHlYZE5vcW5HdXBZNEdLbHRZbTFOTlRXLWUyV0tHbll0QVRzM0VBazNiQjhQZlBqY0tERlo0eFJ6ek5BWjF4dTNic3k1eHozVE8ydW94UG5NUG9HcGQ0d29hMmRPbDFJRGNHNHRwc2RJUkxCT3VVNUI4RFItQkFxQlhGZnp2dmRDdDhXOGx1U2tOSkY1eDVUaDh5TlZSQnN3?oc=5",
-      "desc": "AbbVie moves RINVOQ toward EU approval in severe alopecia areata&nbsp;&nbsp;Stock Titan",
       "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT",
       "sourceId": "gn_arthritis_en",
       "sourceName": "Celebrex·Arthritis (Global)",
