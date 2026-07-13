@@ -1,11 +1,31 @@
 {
-  "updatedAt": "2026-07-13T14:49:32.890Z",
+  "updatedAt": "2026-07-13T17:19:06.359Z",
   "articles": [
     {
-      "title": "Biosimilars pass their decade test as regulators settle the safety question - euractiv.com",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNF9VWEVDMjVldzhNeFQwYWlDUUZUbjJzU1FESDRYcUQtdDZvWWF4RmxmZnU2T1RuWk1pNDJGTE5Ddy1zRlNnUEdQNDdrOG9ac1dJS3BESGZlazJLMFM0cTlqM0ozOG11S2hhbUtjNkJJaENzdk5DR0tNV0dMUE5tQkQ1NGwwX3NrYWZiamN4cUpwNFREbG1fMlhGSWtYallTT0lIQkdGbkdvM2NmUE14VQ?oc=5",
-      "desc": "Biosimilars pass their decade test as regulators settle the safety question&nbsp;&nbsp;euractiv.com",
-      "pubDate": "Mon, 13 Jul 2026 13:32:33 GMT",
+      "title": "고혈압 3제 신규 조합 등장...트루셋 제네릭 또 시장 진입 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1yVkZPem82UlBMM1JWVVJnMXQ3TTRBYlpzcVdHMTk5OFdkSnQ5ZTJGcTVrR2I0aXlweGppWUxvdFpiTGtHd24xREhGN0sya3BVeVo2ZXNR?oc=5",
+      "desc": "고혈압 3제 신규 조합 등장...트루셋 제네릭 또 시장 진입&nbsp;&nbsp;데일리팜",
+      "pubDate": "Mon, 13 Jul 2026 15:50:23 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "Blood Pressure Roulette: Is Finding the Right Drug Hit or Miss? - The People's Pharmacy",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNLXhXbUZEcWVfUTB6dFNmYkdmcGhUQ0FCRDN3Mm1Od3BhN0lvTF9zRzBWdHFhUE1md0FmSFRFZUZXLW8zYmZRQ3BpTEJ2anZvVmkwVVlpZGRaZnNDdHRoMWdudXdoTlRKN05ELXZqOF9hM2w3UUdDb2t0MENHLUhIcWJRQW1ub3prcE8wQXplbF9SQjloWkw0UlN2UDZxLVRBRW45Mw?oc=5",
+      "desc": "Blood Pressure Roulette: Is Finding the Right Drug Hit or Miss?&nbsp;&nbsp;The People's Pharmacy",
+      "pubDate": "Mon, 13 Jul 2026 15:45:57 GMT",
+      "sourceId": "gn_htn_en",
+      "sourceName": "Norvasc·CCB (Global)",
+      "country": "US",
+      "prod": "norvasc"
+    },
+    {
+      "title": "NF-κB: Key Driver in Immunological Disease Therapy - Mirage News",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcWhoS1hvRzV1eTQxVFQ0R2txa2U3WWZVeW50UllES0cwT2xJVUotSTFCWVFmbF9rbjhRNDVPYW5CLVIzaEdSUWlzSkNQVmEyY2dON2F0X25nT3lhUURVR0tzdUdkNlJOTXg4SThfTGxGd3A1bXNWdDRldFJaMzI5RGk4Qm0yRXFDQWIyMg?oc=5",
+      "desc": "NF-κB: Key Driver in Immunological Disease Therapy&nbsp;&nbsp;Mirage News",
+      "pubDate": "Mon, 13 Jul 2026 15:38:00 GMT",
       "sourceId": "gn_arthritis_en",
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
@@ -13,7 +33,7 @@
     },
     {
       "title": "한미약품 ‘아모프렐’, ESH 2026서 주목 - 의약뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EcnphLXdmZDhPMVZ5bklIQUJwaVVIVU51WlZnb3ZFdFJ1TFhYYVBRRGJpSHpUT0lMc21aeXRpdU1obzlGTmFueWZoWVdNY1lmWjFSOExieVlkYm5MNzFvZ2VXUG9sX0k?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ySXgxQjhJbVBBM0tNR2JSLURKQ0dEV19WOGV1Q0JRYW1qR2hRTzJFYnNJRkRVemdRWWVsOUdDOGlldWlyNTV1a2gxbExncFRiU0tZdFc2dVpVQnl4cTJ5Sk5SOEUxM29G?oc=5",
       "desc": "한미약품 ‘아모프렐’, ESH 2026서 주목&nbsp;&nbsp;의약뉴스",
       "pubDate": "Mon, 13 Jul 2026 13:26:15 GMT",
       "sourceId": "gn_norvasc_kr",
@@ -82,9 +102,9 @@
       "prod": "celebrex"
     },
     {
-      "title": "한국 중고령층 낮은 교육 수준이 치매 ‘복병’ - 조선일보",
+      "title": "낮은 교육 수준이 고혈압·비만보다 치매에 더 위험 - 조선일보",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUHpMd2ZyT1lFVXJ2bXZxdEsxQ21XTFlIVmZ0ZGdhNEhxaFdNVmNpVFBQWTNMdTktdnJjZjhaZ1VGWjlRMjBUSTBNNDlRTHNRdDZHblFtUHlwRE56WWVMSE9wbVI1WENlN3lWWkRpNTVTVXVVZDlwYTF2V2h5OWRnWjVNMA?oc=5",
-      "desc": "한국 중고령층 낮은 교육 수준이 치매 ‘복병’&nbsp;&nbsp;조선일보",
+      "desc": "낮은 교육 수준이 고혈압·비만보다 치매에 더 위험&nbsp;&nbsp;조선일보",
       "pubDate": "Mon, 13 Jul 2026 05:19:02 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
@@ -112,19 +132,9 @@
       "prod": "lyrica"
     },
     {
-      "title": "고혈압 3제 신규 조합 등장...트루셋 제네릭 또 시장 진입 - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1yVkZPem82UlBMM1JWVVJnMXQ3TTRBYlpzcVdHMTk5OFdkSnQ5ZTJGcTVrR2I0aXlweGppWUxvdFpiTGtHd24xREhGN0sya3BVeVo2ZXNR?oc=5",
-      "desc": "고혈압 3제 신규 조합 등장...트루셋 제네릭 또 시장 진입&nbsp;&nbsp;데일리팜",
-      "pubDate": "Mon, 13 Jul 2026 03:08:38 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
-      "title": "[BioS]한미약품, '아모프렐' 초기 고혈압 新옵션 \"ESH서 발표\" - 이투데이",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9SY2doYS1DOGNCTXp1NkJ4UlV2dFBLTkxKQjlyQllQTmdSM204Rzd2T01NQ2pjTmVoX2dLR3ZubF9yRHAwY3NEOFdMZ0I5aWtxdGMyNg?oc=5",
-      "desc": "[BioS]한미약품, '아모프렐' 초기 고혈압 新옵션 \"ESH서 발표\"&nbsp;&nbsp;이투데이",
+      "title": "한미약품, '아모프렐' 초기 고혈압 新옵션 \"ESH서 발표\" - 바이오스펙테이터",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RWTZOV21YV2E4ZlR4YVVsM1lYREpNZzRFM0FCOXBVWGpjcEpUOXVmNERvT2lpRjhXZXZ4OUtVeEo5SGVZV2JnVURkRnZwVXc2d0ExZGloaw?oc=5",
+      "desc": "한미약품, '아모프렐' 초기 고혈압 新옵션 \"ESH서 발표\"&nbsp;&nbsp;바이오스펙테이터",
       "pubDate": "Mon, 13 Jul 2026 02:51:00 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
@@ -146,16 +156,6 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HSWZGX0NWaXdsVzR4NVZVRFg2UUg2eUtRLVM4eDFudjRTLWljRTNIMDl4dkhjYzRaX0Z1TGVRblJWMWxvWTBFcC1DZDJjMnV2OE1zTFVYRTVxVFHSAWBBVV95cUxQdTVMVDZiNDB0eldCWmpoUS1tQmdmT1NRODRXWmFfRnJudGZlVGdQX0ZNS2lnRlQtTXVmYWh5bERnTFdZcWxITUtIMDF3aF8xNVJsVVdXbEVlUWU1ZkNhZlY?oc=5",
       "desc": "[건강포커스] \"치매 위험요인 나라마다 달라…한국은 교육·고혈압·흡연 순\"&nbsp;&nbsp;연합뉴스",
       "pubDate": "Mon, 13 Jul 2026 00:45:45 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
-      "title": "한미약품 '아모프렐', ESH 2026서 초저용량 3제 복합제 임상 이점 입증 - 보건신문",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5OdWdOUFVlRHpHVUtBaHZFTHcwQ1hnWEtpTnJTNm9xOXVLTjFfY0wyRURZY2RkLUhWaTZUcUJyaDBiSWpmM3FrYUVOczRVdlZBblQ5aDlSNDNGdnA1dlN2bW15dw?oc=5",
-      "desc": "한미약품 '아모프렐', ESH 2026서 초저용량 3제 복합제 임상 이점 입증&nbsp;&nbsp;보건신문",
-      "pubDate": "Sun, 12 Jul 2026 23:50:05 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
@@ -222,6 +222,26 @@
       "prod": "lipitorplus"
     },
     {
+      "title": "밤마다 '욱씬욱씬'…골관절염, 관리 핵심은 '이것' - MSN",
+      "link": "https://news.google.com/rss/articles/CBMi1wNBVV95cUxOU1kxZ0RibjZ2RVFPV2JYTUVKSTk5Z3REbmJtVHpwRHloeUx2dEZid3dkOS1Zb3lIbTNwcHBTdnlsSWRDTUo5SHg2Q01mNnRRazdzVHFBRDdJOTBHYUE1TDhzS045cDlpcjFpdzg4d1ZfTFVoLXJEWkNjb2VMZVNzbmZtOVh6MVd1eE9RWGowZEY5dGd4WjcySjJ4U0U3UkpWZGtLWDBYY29IZ0ZZVzExdG9hdDZ3SzI5UF9PWmdEUUo2WUxJUUtQV2FOaElfcHhoR0prY3FlN0RGQkZadEdHZm1XYzh2UTBwVWJMcFJqaHhXOE5PN3ZJSXRnWi1hTENZT0RueWtXcUhuVTF0QTNEUDl3bllaeFNFaHhNWFFkUDN5am8yQVZlbER1eEVidnlzWGlhb3hXVXV5TXozTEpNaG4zMDNHNUxjMWVHb2R4Y1FQcUZfWUk0R29nZnNWUVVLMFpNR1J0bnlnN1c0Z1dWeDNMTmptNzZfbWJ5Sk1KcGUyUzAyaWxISEhhVElWM0pMTVlKOUxybkdTUHhjT0tiWDhvbldhY3pRRVM3RkZpUGs1VXlweElfRFpvVWltb1hDZVJxcGNFVlB1VUYzN0VMaHVFODR6UzQ?oc=5",
+      "desc": "밤마다 '욱씬욱씬'…골관절염, 관리 핵심은 '이것'&nbsp;&nbsp;MSN",
+      "pubDate": "Sun, 12 Jul 2026 05:16:16 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "2026 cholesterol guidelines and at‑home monitoring - MSN",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWkQ3bEFGSjc0UGhIYVhsYlAzcGtWZk1qSTFIVF9UYnplbkZfa01rdF8xWm5EQXpaZUVYbFh6REFCVmJkSkVoMVhHZWFjcUlkd3Q2bnBEZHVubGlXUWRDMWo0RjNybExLbzBKdXl4dmlOQmd4VVlmZE16bHVJbXpSRkRvOVRreEJtRUZEeER6S2Z1T01KNmtmc3JuUjFEZGh6Snc?oc=5",
+      "desc": "2026 cholesterol guidelines and at‑home monitoring&nbsp;&nbsp;MSN",
+      "pubDate": "Sun, 12 Jul 2026 01:16:04 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
+      "prod": "lipitor"
+    },
+    {
       "title": "잠 잤을 뿐인데 ‘피떡’ 생겼다…아침 돌연사 부르는 이것 - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBxTGVNTWVlY2c5SjUzcVZnOTY3YVZfcEJMdWc3VkRVYlNaVGQzcUlYaHV1U09CbDZFdVo3U1RkSTdSMXIwSVJMd29VdHBQb3M?oc=5",
       "desc": "잠 잤을 뿐인데 ‘피떡’ 생겼다…아침 돌연사 부르는 이것&nbsp;&nbsp;v.daum.net",
@@ -230,16 +250,6 @@
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
       "prod": "norvasc"
-    },
-    {
-      "title": "Lowering Cholesterol: How Fast and Effective Strategies - MSN",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWlpTcUhCZnZGMEZLVU1hR1R6aHltT3pLNldpRXlRRXUxVXlDYnVPdkwwYVJKTUpNTThNbW9XNjQtTTlSemVHRmVPdXVBSzNBaVpVZ25KYWRrN0pfS19TWVUtSERpbHBOcGlXLVJwWGFnV3VSUzg3S281TFdjTmtHT0R3YXJnMEZISzMtRko4ZmtsVG1HN3VVazZUOWZsc0p0eUI5ZkhmOA?oc=5",
-      "desc": "Lowering Cholesterol: How Fast and Effective Strategies&nbsp;&nbsp;MSN",
-      "pubDate": "Sat, 11 Jul 2026 19:11:12 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
-      "country": "US",
-      "prod": "lipitor"
     },
     {
       "title": "젊은 당뇨병 환자, ‘가벼운 고혈압’도 위험…심장·뇌혈관 ‘빨간불’ - v.daum.net",
@@ -263,7 +273,7 @@
     },
     {
       "title": "\"약 대신 잡곡밥\"…당뇨·고혈압에 효과 - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RdEFiQkRwdWI3SFpXOG9sajZILTBBck5iYWk5bzk1TFhnQTg0MWlfbnV4bEtqVDBBYVFod3k0U3RuV09TWDk0UWhCT2xybHZObEpzVTkyVWRETW_SAWBBVV95cUxQVE1kTUtkRUs2dlU3REl3b3VLZWNKRmZBdW5YSXgxd0puZEZMd1VyM1hXcjl2djdoWHBrNUF3QTgwaGUydXdwVTlnbTJiM0tUdkVDaHBjMGw5Q0V0bC1aaE4?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUTWRNS2RFSzZ2VTdESXdvdUtlY0pGZkF1blhJeDF3Sm5kRkx3VXIzWFdyOXZ2N2hYcGs1QXdBODBoZTJ1d3BVOWdtMmIzS1R2RUNocGMwbDlDRXRsLVpoTtIBYEFVX3lxTFBUTWRNS2RFSzZ2VTdESXdvdUtlY0pGZkF1blhJeDF3Sm5kRkx3VXIzWFdyOXZ2N2hYcGs1QXdBODBoZTJ1d3BVOWdtMmIzS1R2RUNocGMwbDlDRXRsLVpoTg?oc=5",
       "desc": "\"약 대신 잡곡밥\"…당뇨·고혈압에 효과&nbsp;&nbsp;연합뉴스",
       "pubDate": "Sat, 11 Jul 2026 04:05:17 GMT",
       "sourceId": "gn_norvasc_kr",
@@ -522,6 +532,16 @@
       "prod": "lipitor"
     },
     {
+      "title": "청년 고혈압 환자 9년 새 68.2% 증가...30대 남성 가장 취약 - 의학신문",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5HdkJ1NzZWXzRjb3JENDZ6azRJVVQtMGhadGxpcFlselFicDZsZkJ6eWgzWEpPRUV4NjMzVG9CUWF4OXYzbV9TZmVVa001WmJHRGNCLWRCWEpGUU14NERfRUlUMjlBcmhOMEE?oc=5",
+      "desc": "청년 고혈압 환자 9년 새 68.2% 증가...30대 남성 가장 취약&nbsp;&nbsp;의학신문",
+      "pubDate": "Wed, 08 Jul 2026 21:19:36 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
       "title": "When Guidelines Collide: Cardiometabolic Medication Optimization for Older Adults - Physician's Weekly",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbzlTdGROQjFpVmotcjRtR2tGQ0dKdExCeTAtRDZfZFdqcTJHZjdIcTdHZHRmc2pCbnRMNWlTOGdJYVVKcmsybTdnTkdWUVZzMUpfMkpJUTctY00tdl9ncU9TazFJY0NmOUlyRzk5Tjh4SUw0c2xJc2dPSl9aUW12ekRJdTRJZzBJMjBGVnRRT1YtTVhTRHZESUlqSkRsdkZrazVDRGZYSVNwRUtsZ1lzZk9OZERKMzFxZnc?oc=5",
       "desc": "When Guidelines Collide: Cardiometabolic Medication Optimization for Older Adults&nbsp;&nbsp;Physician's Weekly",
@@ -612,16 +632,6 @@
       "prod": "celebrex"
     },
     {
-      "title": "안국약품, 공격적 R&D 투자 CV 시장 존재감 확대 이어져 - 약사공론",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QMlBsVWNCcHFTczdiTGRiRXgzT0JGZnl5Z0ZZUVBxVVZWbmhneXFxR3oweUY2OFFGZW1sblVPeFp2aEw1cWlWUDRmeUV5dWFQTTU3VXhibFhDc0hmLVB6UlNXMjZZc0ZHdWxCWg?oc=5",
-      "desc": "안국약품, 공격적 R&D 투자 CV 시장 존재감 확대 이어져&nbsp;&nbsp;약사공론",
-      "pubDate": "Wed, 08 Jul 2026 06:59:05 GMT",
-      "sourceId": "gn_caduet_kr",
-      "sourceName": "카듀엣·복합제 (국내)",
-      "country": "KR",
-      "prod": "caduet"
-    },
-    {
       "title": "골관절염 시장 신약으로 꾸준한 성장 전망 - 의학신문",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE96ZFZFYWZCcjJYbkZoSndrN2NCTUx4aFBVdjkyUExEMjZwX3AwYUgzWmFwelJFOWJXWjBqRU84MWRkMUItR0lsNm9rRnpnZm14cUdpZWRUQ1JoTnN5Uk0zbi1QNmIyeDFscVE?oc=5",
       "desc": "골관절염 시장 신약으로 꾸준한 성장 전망&nbsp;&nbsp;의학신문",
@@ -630,6 +640,16 @@
       "sourceName": "쎄레브렉스·관절염 (국내)",
       "country": "KR",
       "prod": "celebrex"
+    },
+    {
+      "title": "안국약품, '공격적 R&D 투자로 CV 시장 존재감' 확대…강화되는 혈압 관리 기조 맞춰 '레보살탄플러스' 출시 - 메디컬헤럴드",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9JMHo1R09HWnNpMW1aelFyZ0x2WUV3NUpWX0RScmo1dmlBc1NNMlV0ZC11S3hCZDZUM0htRkNydHBwOEpYMm1NQkhBZXR4QTdwQ2xmeG5FMm4ySVVIbjhfTFR5UmE2WHY3Y2xB0gFvQVVfeXFMUHlKUHpucFFiLVp4NlFobmZJd0k0SE1XREhRdlphbFN0cXpGNlVkZDU4c19HRjg3Zmd6MnZxM2xid2tVNUVfYnA0QXFha1pGWEFLc0ZmS0ZYbmlrZ1NNZmVvMDZXXzJkaHFYQ2FfSnE0?oc=5",
+      "desc": "안국약품, '공격적 R&D 투자로 CV 시장 존재감' 확대…강화되는 혈압 관리 기조 맞춰 '레보살탄플러스' 출시&nbsp;&nbsp;메디컬헤럴드",
+      "pubDate": "Wed, 08 Jul 2026 00:05:29 GMT",
+      "sourceId": "gn_caduet_kr",
+      "sourceName": "카듀엣·복합제 (국내)",
+      "country": "KR",
+      "prod": "caduet"
     },
     {
       "title": "메디포스트, 카티스템 美 무릎골관절염 임상 3상 첫 환자 투약 - v.daum.net",
@@ -662,16 +682,6 @@
       "prod": "lipitor"
     },
     {
-      "title": "From Systemic Autoimmunity to the Local Immune Niche of the Synovium: | JIR - Dove Medical Press",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNHpPZGo3Q1M4MDVPcHJYT2FmeTJFSTlRWTcyUGVjYXJXVm80M09keE9BdHQ2bnI5VW9kWjFYUzVYM2VGdXpFdjdMLW9KUkpIVklqek5nb19WTy1kSWdfdjFEckJzaXU1RDY3Z0Vvckh2aHQzVDBLOW5FME9CMzRmNDM0Qmk4T2JiXzRSNmI1YjVvWEtoclJuUGFYbU82eGF0c2p1VkFJaXZwbGEzQ2w0T2VQNWRQMll4SDk4V09UX0J0ZUNfUV9EczVMdw?oc=5",
-      "desc": "From Systemic Autoimmunity to the Local Immune Niche of the Synovium: | JIR&nbsp;&nbsp;Dove Medical Press",
-      "pubDate": "Tue, 07 Jul 2026 19:19:54 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
-    },
-    {
       "title": "BioAge advances inflammaging drug into Phase 2 - Longevity.Technology",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQzJOMnVLU1BYTTNfQzdFQWlGM0dMSWpBMFAxel9tNzdYd0M5N015ZVd0X1haWHFobWY0cXFURlpSOTdXOG9FTkFqU1k5Q0xSejVndThoNXpTcXBnVHV3bHk3dzJiMExYUFVRMmhSejRReFQwUWp3THQ1R1Y1MElqVV9XTldOVVdM?oc=5",
       "desc": "BioAge advances inflammaging drug into Phase 2&nbsp;&nbsp;Longevity.Technology",
@@ -696,26 +706,6 @@
       "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQNDQ4cm1oZDhEWDVwb2dvQmI3UkFfWXctZVJDYTRUazBpNG5EcFJ5VHFhUDJsMUl2M2NyQTQwN2ZVbGlNRF91WnZWazZqOGU3NjcxemdEOVFYRHhWMXJTVmtZMmQ5eWtPVzRiUW5sOXVqTDVIa01fQjNpdnFVZjNQYXRSSHBUaUhqcS1hc2Z4MHFoRUR5bVVjWFM1T3BuelUwMk1YUTMzMTNmSjhjUHZqQ2VhZnVxTnZHczA0UVMwbGt1QXgteXJ1TWpUNjRHUjFNNDVKeGQ1a3AxU21zZGZHT3pBOUlDRkNwRm5QaVg4ckxPOEVfV0M2QmF6VGFiaW1nSXdmNVlRWGh1U2xYYkZIUkcyV0h5NVBJQ2wxdzlNYWZPajQ?oc=5",
       "desc": "Heart disease from high cholesterol still kills more people than anything, and researchers say a breakthrough against stubborn LDL may finally be near&nbsp;&nbsp;OkDiario",
       "pubDate": "Tue, 07 Jul 2026 15:35:00 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
-      "country": "US",
-      "prod": "lipitor"
-    },
-    {
-      "title": "China Pharmaceutical University discovers new PCSK9 inhibitors - BioWorld News",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcEJvMDJVUWQ0T1NNSk81dmIwMGJaUmZYXzgtbHRnWFNMb29DanFNVDVob1BaSHN4cTRxYWNGLVdpWk5WSklmYkhzVnFJZW13T1ZrOE1XbXFPbjRsTFFSX1RSYjdBVmZaTXh6eVE1Z2czYW01TXduTWtOc1Z6OEV5NkRkV2R2TUV6dl95emhRVFFycTZfNDBtZWNfSHBYOFA5VVkzZGp3?oc=5",
-      "desc": "China Pharmaceutical University discovers new PCSK9 inhibitors&nbsp;&nbsp;BioWorld News",
-      "pubDate": "Tue, 07 Jul 2026 13:00:00 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
-      "country": "US",
-      "prod": "lipitor"
-    },
-    {
-      "title": "Hyperlipidemia Drug Market to reach USD 35.82 Billion by 2035 at 3.54% CAGR - EIN Presswire",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQkx6ZE0zb0tHdVFkVW9ZS1RuQzRJVXIwWHdjMGJMLTNnQm5ILUg0OHYtS2cwWkVxZzMteEdZQ0dPVkFKMGdZMENjcGo1dF9SSjMwaV9SbndhV2N3RFozNFhpay10RTBzZlZ3aGZoWlNYYzB6R0o0TEtyc29sR1BjV01jNDBQOExOaHFMTXNSakg5ZTdOanMzTllHczJKeGk1SG1GYWZ4SXFCWkdrQlhlM2I1cFRKSEhrb1NKejN3?oc=5",
-      "desc": "Hyperlipidemia Drug Market to reach USD 35.82 Billion by 2035 at 3.54% CAGR&nbsp;&nbsp;EIN Presswire",
-      "pubDate": "Tue, 07 Jul 2026 12:04:00 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
@@ -759,16 +749,6 @@
       "sourceId": "gn_lipitor_kr",
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
-      "prod": "lipitor"
-    },
-    {
-      "title": "2026 cholesterol guidelines and at‑home monitoring - MSN",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWkQ3bEFGSjc0UGhIYVhsYlAzcGtWZk1qSTFIVF9UYnplbkZfa01rdF8xWm5EQXpaZUVYbFh6REFCVmJkSkVoMVhHZWFjcUlkd3Q2bnBEZHVubGlXUWRDMWo0RjNybExLbzBKdXl4dmlOQmd4VVlmZE16bHVJbXpSRkRvOVRreEJtRUZEeER6S2Z1T01KNmtmc3JuUjFEZGh6Snc?oc=5",
-      "desc": "2026 cholesterol guidelines and at‑home monitoring&nbsp;&nbsp;MSN",
-      "pubDate": "Tue, 07 Jul 2026 07:55:34 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
-      "country": "US",
       "prod": "lipitor"
     },
     {
@@ -820,16 +800,6 @@
       "sourceName": "의약품 정책 (국내)",
       "country": "KR",
       "prod": "all"
-    },
-    {
-      "title": "장마철이면 더 아픈 관절…자가면역질환, 생활 리듬 관리가 중요 - 매경헬스",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJSGYzenNjU0ltMF82alItR0NpanhFZk9ldVRzOW9XRlFlUW0tTjdwUlFLTklhbGxqR1ZxRzdPNWJBZlFlN241Q0hobFZEdktDWDRJSVdHQ0k1OHVfM1pyZUJhWVhlU2FXTzd2Yw?oc=5",
-      "desc": "장마철이면 더 아픈 관절…자가면역질환, 생활 리듬 관리가 중요&nbsp;&nbsp;매경헬스",
-      "pubDate": "Tue, 07 Jul 2026 02:40:00 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
     },
     {
       "title": "심평원, 올루미언트 급여기준 개정… 중증 원형탈모 새 보험 적용 - 헬스이슈앤뉴스",
@@ -892,16 +862,6 @@
       "prod": "norvasc"
     },
     {
-      "title": "NHS fruit reminder to millions of people taking amlodipine for blood pressure - Daily Express",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVnM5ZVQzcXRpREoteV90YklCOXkwcGluR0RUVF9vS216VG82N2c0N3BpQ3pyeU03bFphSy1HOEdMbEFsRGFHRl9CQTk5bWJPLXhkMFVmVWc5TDBKd0I2MUdPSW5td0N2VkdBN0xSVE5kVld1bllLX0xGMUlhS19nWmhrOWFfbmJIb1MyWkctRElFajJY0gGaAUFVX3lxTE1Xd2NmVjRrNnprTlkydVM2MTQ1RmRoV0Y2NVR2LWZPcG1tMHZKYWVmUG1GOUxKVkJxUWZIX1lYOUJyWkpILWNnSHg4bldsVUxILXpLTy1fSmhzQ3FlOXgyZGUxbUlhYTRoeUx5bnV5T3daTTlfa2J6dTk0dDlCOWl5cG0zUmtzdkZuTExaLXFuRWVsZTRlM0V6bnc?oc=5",
-      "desc": "NHS fruit reminder to millions of people taking amlodipine for blood pressure&nbsp;&nbsp;Daily Express",
-      "pubDate": "Mon, 06 Jul 2026 13:47:00 GMT",
-      "sourceId": "gn_htn_en",
-      "sourceName": "Norvasc·CCB (Global)",
-      "country": "US",
-      "prod": "norvasc"
-    },
-    {
       "title": "The Cimzia from UCB - targeted relief for moderate to severe Crohn’s patients - ad-hoc-news.de",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa215NUZKak83c2FQZkdlS0FVc1lwQmliZGlMSjFUWnl6MmpXaTdhNFJjTDdmX2JSRE9RUFhzY2gyX2tteVQ0dmxQZkhvTE1vWmpmLVR5UEhUWVlSeDV3QlBOTzJfb241OXA5U3pzZFhRUTBWMFZHN3B5R2RjcW9WSmM2NnM4ZmItR3BlNVNHMVlaUXMzMWFObXNOTmJpNHZ5cW1ib2RsRi00UTFLNk92RjIySWdnMjdNMzZvRGloQVZsWDA?oc=5",
       "desc": "The Cimzia from UCB - targeted relief for moderate to severe Crohn’s patients&nbsp;&nbsp;ad-hoc-news.de",
@@ -922,10 +882,40 @@
       "prod": "celebrex"
     },
     {
-      "title": "Scilex Holding Company Announces Binding Term Sheet for $100 Million Strategic Investment from iHolding Group LLP - Quiver Quantitative",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMTZlWE1XTkkyRDF5M0VicVVHTGdtQlZjaEt3N0FEWEt5bUU0ZDFaOUVXaGp6TXNwVG4yRGVEODhpdm5qdkYxUHhaT3hseUpBeUVjakJuVGdkNy1Ncy1UWTZBQW5lMjZzTUJfcTlJbDQ3bkUyc0xJcUtQbjRKNWYwYkdYVlgyR1VzaHFJcFNiZXhfSjhLWDVDMDRuZWN3emhZeTB4NnVZSk43Q1ZqTlFyX2pMY2MyUFNIN0l0MTRXMjBZaUZOQlp2S05mV1ZvbVQwZWNWOUFXYl9nWXlEWm51ZENn?oc=5",
-      "desc": "Scilex Holding Company Announces Binding Term Sheet for $100 Million Strategic Investment from iHolding Group LLP&nbsp;&nbsp;Quiver Quantitative",
-      "pubDate": "Mon, 06 Jul 2026 10:11:00 GMT",
+      "title": "Scribe notes down IPO ambition to fund lipid-lowering genetic meds through clinical trials - Fierce Biotech",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYklMendrcW9ielRBSUxmaTRPQkQ2ZFlCQmEwbDEwNExpUjJuQUR2QWVRUTNHU2JJYWJ6QVJIa1NHeDJ6MDdEdkVTaU44SjdOX0J0U1QtdXVfRnFrNGlXbVp3aW9zRVY1cHBuMTdab3VOMV9hNl9sVm15NmhRcFJFWVFsc3dWU29zaFJyTXZ4V3BOV2dpdllpRnAxQ3R4T1JfbzJVRGpRYTBNQlpvOWhFOXl1ZUZNSFQtRUE?oc=5",
+      "desc": "Scribe notes down IPO ambition to fund lipid-lowering genetic meds through clinical trials&nbsp;&nbsp;Fierce Biotech",
+      "pubDate": "Mon, 06 Jul 2026 11:54:55 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
+      "prod": "lipitor"
+    },
+    {
+      "title": "Lowering Cholesterol: How Fast and Effective Strategies - MSN",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWlpTcUhCZnZGMEZLVU1hR1R6aHltT3pLNldpRXlRRXUxVXlDYnVPdkwwYVJKTUpNTThNbW9XNjQtTTlSemVHRmVPdXVBSzNBaVpVZ25KYWRrN0pfS19TWVUtSERpbHBOcGlXLVJwWGFnV3VSUzg3S281TFdjTmtHT0R3YXJnMEZISzMtRko4ZmtsVG1HN3VVazZUOWZsc0p0eUI5ZkhmOA?oc=5",
+      "desc": "Lowering Cholesterol: How Fast and Effective Strategies&nbsp;&nbsp;MSN",
+      "pubDate": "Mon, 06 Jul 2026 08:14:32 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
+      "prod": "lipitor"
+    },
+    {
+      "title": "The Livazo from Recordati - cholesterol control with flexible dosing - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ085Ujh0NFpLbU5aTzhKVlBWeHhkUGs5RExILXBrNTl0dm16VjNrTHZZQTY4ckNNWkt5bjVMMFo1d1F2NHpoZEN1aU81N09xaVF5b1B4RzBRWnVieFlnZnZ3TzlEWVpsMXdKY3JvMGNzYUZsOVRXTFpOQWt1XzUwYkFibVdYcWphUWxEYkJ5UnRtZXl3bUdHdV8zUWNGekxRNzNEZ0VwZXBJdGZzUXh2ZEJ3SlBoV0tTX2h5Smp5MDNQcGs?oc=5",
+      "desc": "The Livazo from Recordati - cholesterol control with flexible dosing&nbsp;&nbsp;ad-hoc-news.de",
+      "pubDate": "Mon, 06 Jul 2026 07:44:28 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
+      "prod": "lipitor"
+    },
+    {
+      "title": "Scilex Holding Company Announces Signing of Binding Term Sheet for Proposed $100 Million Strategic Investment from iHolding Group LLP - Sahm",
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPRXZQakRSbk1selE2dmg2N2NvVC0tSlpkWm1GbVRzbXhaX1k0THBKZEhSZ0tUa0FpSkZKdmx3NVFNeXZiNHdRSjc4T3FUNjF0cW9JR3h1U1I5dk81RTJjMnJmNF9Fcnl2Tjk4a1d5QzN6bm9NNmFSU0JsNE5EeHY5YkVncmpLX2FXbl9Xc25fbUptVWJHNWlwUkZvbHB2d0VlajhhazAzRFI3T1hmb0hoVlN4S2NiOEJGYWlqVnE0QnkzZzM3WEpkT09ORVBjTk1OZkpZM1huY3ZxbGJ0YXJtSmVJZjlSRjcwUTJLRDNaVDR6ZEdHenQyaUxHaVFWeWdOeE83ZGFWWmpmMFFTbXY5b2pB?oc=5",
+      "desc": "Scilex Holding Company Announces Signing of Binding Term Sheet for Proposed $100 Million Strategic Investment from iHolding Group LLP&nbsp;&nbsp;Sahm",
+      "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT",
       "sourceId": "gn_neuro_en",
       "sourceName": "Lyrica·Neuropathy (Global)",
       "country": "US",
@@ -1212,9 +1202,19 @@
       "prod": "norvasc"
     },
     {
-      "title": "Scientists found a hidden mechanism in your liver that attacks LDL receptors, and it could change the fight against high cholesterol for you - OkDiario",
-      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPTUdscnNQeURkQlc1WHh1cmFPWkdRd0xVajUtSzUyNEw2LTFNVi1GMTA1WmcwSVU0QTBmU0RpeEx2QnZ3X2RWUm5iNGs5dDZLam1hT2lncGxhU2sxcHdyRXRzWDBGQ1lVMEVIUHh1b05BV1FkWmpOcFoydzlEN2hVeFAwTFI2SHI2LXUtbDV0cjhfc3NFLVh1QzhUalZJMXFJaVVGX3dkX0lwNU9MdUFnMDdEaVpEdHhmbTczU3M2OVB0SmxqUWo5MV9MWjQtaF81TDgyYWVpMHc4cGYydFYydEhrX2VWUDhNV3VYZFNZSTFBM0Q0bkNyUDJpSkpDeTdvV2YtdVp0S0pYZ3dyNjZac3F2ai0xZw?oc=5",
-      "desc": "Scientists found a hidden mechanism in your liver that attacks LDL receptors, and it could change the fight against high cholesterol for you&nbsp;&nbsp;OkDiario",
+      "title": "Telitacicept Improves Clinical Response but Increases Infection and Hypogammaglobulinemia Risk in Adults with Active SLE: Phase 3 Trial Results - Vera Health",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB1TmNKbkE5Sk9ERzVETkNIeVJKOHBMLW9jQTZ4WEotUTd1VS1ZZnM4QkdkU2Y1Rjk3OXNNdHVXUXZZVy1NTHYxYlY2NTd3S2c?oc=5",
+      "desc": "Telitacicept Improves Clinical Response but Increases Infection and Hypogammaglobulinemia Risk in Adults with Active SLE: Phase 3 Trial Results&nbsp;&nbsp;Vera Health",
+      "pubDate": "Mon, 29 Jun 2026 08:08:51 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
+    },
+    {
+      "title": "A New Way to Lower High Cholesterol Levels is Found - Labroots",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT3JMM3BjRDVwa3ZaaDN6LWlveW54M1JsMHgxNWNtUXRKOHFIOGpKWTVUNVpEUlhzVFhqVDhuanpMUGZiVm1yRi1HTEtpUS1kUlA1N19yX0l3Zl9ldVVmSGNncTE5emhycmRMSWx5VEJLbWNrR2RRS2k3Ynp2OWh0dUZMRDRKaWdFQ0Fzb3FZSm1OVGE1dGFaM2c0bjFld9IBowFBVV95cUxPclVyWGdlcEtYUzR4R1g4TlpnVjdqRWljeGY2RXhXMWlNd2F0WE1wSVM2Q3BSYTBNZWg1OEJnanRrY0M3T0V5aUJLZUt3QUl4VWVOTGNYU2R2UTh5c0o2QTAyRWstZ2tNdGFrdHRuRHN3S2JodEZrVlZXOGZjQ3pzdm9mWXlmdjVqN0FrY09sWnI3ajNGR0kwY082US1icGpUY1JJ?oc=5",
+      "desc": "A New Way to Lower High Cholesterol Levels is Found&nbsp;&nbsp;Labroots",
       "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
@@ -1222,9 +1222,9 @@
       "prod": "lipitor"
     },
     {
-      "title": "A New Way to Lower High Cholesterol Levels is Found - Labroots",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT3JMM3BjRDVwa3ZaaDN6LWlveW54M1JsMHgxNWNtUXRKOHFIOGpKWTVUNVpEUlhzVFhqVDhuanpMUGZiVm1yRi1HTEtpUS1kUlA1N19yX0l3Zl9ldVVmSGNncTE5emhycmRMSWx5VEJLbWNrR2RRS2k3Ynp2OWh0dUZMRDRKaWdFQ0Fzb3FZSm1OVGE1dGFaM2c0bjFld9IBowFBVV95cUxPclVyWGdlcEtYUzR4R1g4TlpnVjdqRWljeGY2RXhXMWlNd2F0WE1wSVM2Q3BSYTBNZWg1OEJnanRrY0M3T0V5aUJLZUt3QUl4VWVOTGNYU2R2UTh5c0o2QTAyRWstZ2tNdGFrdHRuRHN3S2JodEZrVlZXOGZjQ3pzdm9mWXlmdjVqN0FrY09sWnI3ajNGR0kwY082US1icGpUY1JJ?oc=5",
-      "desc": "A New Way to Lower High Cholesterol Levels is Found&nbsp;&nbsp;Labroots",
+      "title": "Scientists found a hidden mechanism in your liver that attacks LDL receptors, and it could change the fight against high cholesterol for you - OkDiario",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPTUdscnNQeURkQlc1WHh1cmFPWkdRd0xVajUtSzUyNEw2LTFNVi1GMTA1WmcwSVU0QTBmU0RpeEx2QnZ3X2RWUm5iNGs5dDZLam1hT2lncGxhU2sxcHdyRXRzWDBGQ1lVMEVIUHh1b05BV1FkWmpOcFoydzlEN2hVeFAwTFI2SHI2LXUtbDV0cjhfc3NFLVh1QzhUalZJMXFJaVVGX3dkX0lwNU9MdUFnMDdEaVpEdHhmbTczU3M2OVB0SmxqUWo5MV9MWjQtaF81TDgyYWVpMHc4cGYydFYydEhrX2VWUDhNV3VYZFNZSTFBM0Q0bkNyUDJpSkpDeTdvV2YtdVp0S0pYZ3dyNjZac3F2ai0xZw?oc=5",
+      "desc": "Scientists found a hidden mechanism in your liver that attacks LDL receptors, and it could change the fight against high cholesterol for you&nbsp;&nbsp;OkDiario",
       "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
