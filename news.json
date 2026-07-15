@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-15T13:56:11.281Z",
+  "updatedAt": "2026-07-15T16:37:55.525Z",
   "articles": [
+    {
+      "title": "Machine Learning Simplifies Accurate LDL Cholesterol Calculation - Inside Precision Medicine",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSC10cWpiMnpBeDZTeFBTa2ZNTG9aLWpwVFZTVDdTdnZIQTEwNVJ3akFBX29lbDZYR3EyNk9PTl81ZG5RYXZMT3R5VWQ4YmZ5ZUVic2Ytb1NCQmI4Uklnb243OEIwcDREalVON3ExTWRzR294SjZQQXZfbmZITWV6czV5Rlk3b3V6NVpuaGZMUGt6ek9qaEszcUJZbzRnYUs5V2FJYVoteTdtWmlWajE0NjFEeUltTGIxWE9QZkwtNDV6Z1k?oc=5",
+      "desc": "Machine Learning Simplifies Accurate LDL Cholesterol Calculation&nbsp;&nbsp;Inside Precision Medicine",
+      "pubDate": "Wed, 15 Jul 2026 15:10:34 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
+      "prod": "lipitor"
+    },
+    {
+      "title": "Pair of La Jolla-led studies dive deep into cholesterol, possible treatments - San Diego Union-Tribune",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNnhyamp0WkRtel9ma18zcXNIcUpJWWFEeU0yYmVPM3otX19uX3hXWnhyYmRUQjlsd2dNMGhnSXNFRkduQ2FNQ1VtQU5oRXNoWlFmTk9RWDJHN1g0N0NleTlBN2Y2UEJoaEZPNzNkczRlb0hwSEVfQUZlcXBPWWxKUnlqNUhPaFBpLWE1aktyYThRSGhqSGpGa3VCemlrWkV5X2ZYM3Y0UFBKRlNiQ1NDWHhLTUdfdUgxR2NkVWJLOHp0UQ?oc=5",
+      "desc": "Pair of La Jolla-led studies dive deep into cholesterol, possible treatments&nbsp;&nbsp;San Diego Union-Tribune",
+      "pubDate": "Wed, 15 Jul 2026 15:00:43 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
+      "prod": "lipitor"
+    },
+    {
+      "title": "New machine-learning equation accurately assess LDL cholesterol risk - Medical Xpress",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV2RWTDktQnBBdHdZbWt5a3pRX0lLaFVJc1p0b0FqVnB5Smh4OXBsODFOSldHZ3QwVHNrcWZCU280N2tQanpuamcyQUtiWVRPU1QtS3I5UUs5d3pvOTBlcVAwYjRtOWRtbmhmQnpheF9sOXM5aEZUYmpodDAtY2VOZ1RZbVJOSkRLUk5RTVB2VFU?oc=5",
+      "desc": "New machine-learning equation accurately assess LDL cholesterol risk&nbsp;&nbsp;Medical Xpress",
+      "pubDate": "Wed, 15 Jul 2026 15:00:21 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
+      "prod": "lipitor"
+    },
     {
       "title": "조에티스, 캐나다 및 EU에서 반려견 골관절염 치료제 레니비아 출시 - Investing.com 한국어",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9MZ1BBZ3FnSEo5R09HNEt6MGxoR2phei1TRWwzQmNiNURlSjgwbzVrZmh2ZjFkVWRLR0FPRzl4dWdTbG5RX2dScERfaTZpRks5LXNsOWpwd2VpY2tRLWszdDM1OHFYbjNjRkZNamE2V2c?oc=5",
@@ -10,6 +40,16 @@
       "sourceName": "쎄레브렉스·관절염 (국내)",
       "country": "KR",
       "prod": "celebrex"
+    },
+    {
+      "title": "보험사, ‘노후 병원비’ 겨냥…시니어 상품 확대 - DFT 대한금융신문",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nV25IZVJXVHU1VzZDRWlxbzdOaDg3RVg3QXY3b01zdXJQeUE2bFBDb1RXVDh3Rk5lYlhkTWRPa2NJV0VUMl9vTVZabUN3cFVveGl0RXVVM0tEanFVdllnS0R6azRXNUFXTEdrYWZGaXfSAXBBVV95cUxNZ1duSGVSV1R1NVc2Q0VpcW83Tmg4N0VYN0F2N29Nc3VyUHlBNmxQQ29UV1Q4d0ZOZWJYZE1kT2tjSVdFVDJfb01WWm1Dd3BVb3hpdEV1VTNLRGpxVXZZZ0tEems0VzVBV0xHa2FmRml3?oc=5",
+      "desc": "보험사, ‘노후 병원비’ 겨냥…시니어 상품 확대&nbsp;&nbsp;DFT 대한금융신문",
+      "pubDate": "Wed, 15 Jul 2026 11:00:20 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
     },
     {
       "title": "“근육 녹을까봐” 안 먹는 콜레스테롤약 ‘이것’…위험군은 0.4%뿐 - 농민신문",
@@ -282,6 +322,16 @@
       "prod": "celebrex"
     },
     {
+      "title": "고혈압약 한 알로 효과 충분…초저용량 3제 복합제 효과 입증 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Jbmo2ejh2R0hDSzAzYmpETUpuV1BZeEtyTGthdVlmRlI4YkViSlFXNzJDWnZLRGp5bW9sVE9Ed0pjVi1FZkgtSWt5TXlVbkk?oc=5",
+      "desc": "고혈압약 한 알로 효과 충분…초저용량 3제 복합제 효과 입증&nbsp;&nbsp;v.daum.net",
+      "pubDate": "Wed, 15 Jul 2026 01:22:42 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
       "title": "고혈압약 한 알로 효과 충분…초저용량 3제 복합제 효과 입증 - 뉴스1",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBjZ08xd1AwQ2dZVlFIT1FVdTVkdWpTcUZlaC1nbmVIb1ZRTGppa2twV080VVJaQXViM0dkM1ItT0hYYV9MOHc3dEZpdnMydlUxeEtTN19HWGxxbmtf?oc=5",
       "desc": "고혈압약 한 알로 효과 충분…초저용량 3제 복합제 효과 입증&nbsp;&nbsp;뉴스1",
@@ -322,10 +372,10 @@
       "prod": "norvasc"
     },
     {
-      "title": "“초저용량 고혈압 3제 복합제, 단일제보다 초기치료 우수” - 메디소비자뉴스",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5xMUJJdFVjU1BDUkV5UUZYUXhqMUJ1YnJ1OEpOVTNYbGFCRDBxak1xUkZFWlM2WVNmNDU5R1UxWlhZY09iZGc0c3hRNEFNendtZGRtYWlZVFV1U3Q1REU4ZFZPa2V4TUpybkNLVGF6dFdaSzjSAXZBVV95cUxPeUJwcUd1M1FYRzlNQkNFVV8wSEpBSm81TFVMTmlNXzQ4WGl0Y29HTjJNRmZZaW5qMDFDOXNJTnBHOEFqUXRackxBdnIxQzREdnp3cXJnUGNfRWt3bmxUazRYM21jSUN3MUdLbFRvQ1B6NlJoWWtR?oc=5",
-      "desc": "“초저용량 고혈압 3제 복합제, 단일제보다 초기치료 우수”&nbsp;&nbsp;메디소비자뉴스",
-      "pubDate": "Wed, 15 Jul 2026 00:55:36 GMT",
+      "title": "동양생명, '우리WON하는mini고혈압당뇨보험' 출시…고혈압·당뇨 보장 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9RNmRaUVoxYklKZFFKdWM3dkVYOWpPT1dlX0dWVzFrWFI4V0RrUkV2YWJWRlpZUEZkLWE1TzVGNHpaaHdqUUE?oc=5",
+      "desc": "동양생명, '우리WON하는mini고혈압당뇨보험' 출시…고혈압·당뇨 보장&nbsp;&nbsp;v.daum.net",
+      "pubDate": "Wed, 15 Jul 2026 00:37:51 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
@@ -360,26 +410,6 @@
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
       "prod": "lipitor"
-    },
-    {
-      "title": "동양생명, 고혈압·당뇨 보장 '우리WON하는mini고혈압당뇨보험' 출시 - 뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE54aWxOTHA2bUg1cTFxNU5lekV5UzlvRXl3enBlc01pYk9yWThKYl9PUmhvVFFESklHWXU1ekpRcDQ2LUxtWWFFOXA2bGt4U2NqdnZ6ZktTMFF0QjhkSjE2Rw?oc=5",
-      "desc": "동양생명, 고혈압·당뇨 보장 '우리WON하는mini고혈압당뇨보험' 출시&nbsp;&nbsp;뉴스1",
-      "pubDate": "Wed, 15 Jul 2026 00:14:00 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
-      "title": "동양생명, '우리WON하는 mini 고혈압 당뇨보험' 출시 - 전자신문",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBrT1QzVEFuWEtTUm0ycER0WVpwRFRLMHB1TjQ2dkVralVnX1VvX3lueTd4bjdMTXlsTHNHSm9HdEtCTktQcmZZTm1BRDVIdw?oc=5",
-      "desc": "동양생명, '우리WON하는 mini 고혈압 당뇨보험' 출시&nbsp;&nbsp;전자신문",
-      "pubDate": "Wed, 15 Jul 2026 00:08:50 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
     },
     {
       "title": "임신 중 고혈압성 질환 '전자간증', 조기 예측 AI 모델 개발 - 메디칼업저버",
@@ -682,6 +712,16 @@
       "prod": "lipitor"
     },
     {
+      "title": "Alopecia Drug Bempikibart Clears Phase 2a Bar, Works in Patients JAK Inhibitors Failed - Tech Times",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRm80OXc3VFVORUk3akhmMXdlRWxiYlVvMWRmVy1ULWlNWE1PR2dpaEJjU1BxLTVjQ3k4ZmNxRlVZYlIxb1ZPaWFQXzVkaE1rZ2hyYVN0eXBHdTVXbFplMmpaUnQ1Qjd4MzNBTmwtTUpzTjRSOWJZNXFPY3VIM2JrN05vWTExX0s0YVNNRUNzZkUxcVMwbVMwM2xPRTBPVkF5V1R1d3ZRSmNzR2oxVkFVUFZycUxVUVRfSlFQUXFzTG96YkNEUVlrS21UX0tVVkE4Rk1z?oc=5",
+      "desc": "Alopecia Drug Bempikibart Clears Phase 2a Bar, Works in Patients JAK Inhibitors Failed&nbsp;&nbsp;Tech Times",
+      "pubDate": "Mon, 13 Jul 2026 20:49:44 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
+    },
+    {
       "title": "JW중외제약, 저용량 이상지질혈증 치료제 리바로젯 1/10㎎ 출시 - MSN",
       "link": "https://news.google.com/rss/articles/CBMiiwRBVV95cUxOam1DV3FJTERpOExMUmpXNGNZZHJ0NzF5SldfSVB6WWlCaUEyWkN4dTJ1T1dkR0t1ZnVHRnUzbXlyT2prOTJmaFd5aGNXLUNiRXJQQ3ptMXRsbm8wdkV6cTNGbjRYdWJhVXVDd1lYM0ppZ2lhdDF6NEpNYjBXRkxqM0Jnb2UxeXZBNFdXS2ZyN0Y1b0hNaHVkVVJrdEo1cGdBSDQzbGt6ZjVBSUxLdmdXVnlaVW95MTJWVTlGdWdNbHhWb0I3YnZCQ1gtMFBobUZMQTFoUEpjdmtBejFvSGlRR2Y2U0RhdTVLdjhjX0F6WmtmTzBHU3IzamV3SzNCaGF3UTZPT3NtSkNnWGJLcUMwLTROZ1BWR0hSYmU2OC0zR2ZtSnNCbTlyWUNJRTBhUjhGSHZSVThjanFDY2o3RGd3M1dGX2dFRkpWc19wbTMwQUNMMks5ZXdyVGJySXRiRE0zRVRLaFdmR2wtS01kal81dzYyZ21QLU96bWpSSC15bXlpSk1hTXh6el92Q3NNRXdpNW9CZWRsWG9jQ0I1RUpjTWtqUDJiWlBlZ2JObUlMaVNmQkw5ZTNUNzA0N0REbTZ1Zl9mdDdMdTFnM0tndGxsVl9IYmJ5RTAteUhnamo5cTRXR01XTl9SZHJOS0dQakNjUmk5bllJR0xfU3RxZ1dWY1pOcWxOc0QyZVRz?oc=5",
       "desc": "JW중외제약, 저용량 이상지질혈증 치료제 리바로젯 1/10㎎ 출시&nbsp;&nbsp;MSN",
@@ -922,6 +962,16 @@
       "prod": "celebrex"
     },
     {
+      "title": "한미약품 로수젯, 임상 근거 앞세워 이상지질혈증 시장 1위 굳힌다 - 헬스오",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLM2lPLWYyUnA4djkxLXlGbE4ybVFUdGMxZ2E0c0MwNlQ5TmZrRGROcUJSa3FLMVFoTGhJSHFFaDUzbWhENEdkOW4tYnRYRTBRVFJYZ1dIX1BURjBFUEpBeG5vb015QmRyZXVB?oc=5",
+      "desc": "한미약품 로수젯, 임상 근거 앞세워 이상지질혈증 시장 1위 굳힌다&nbsp;&nbsp;헬스오",
+      "pubDate": "Thu, 09 Jul 2026 02:06:48 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
+    {
       "title": "“옷깃만 스쳐도 아프다”… 대상포진 후 신경통, 방치하면 만성 통증 된다 - 하이닥",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54eHNNdG1NWHRJOVRoTXhlaXd0Ukl3ZkdyV2lsRGVfSDhaT19ndWhhR2Nnbk9sYm9mUVRsRlRidkJVUjNNRUVxRjRHU2ZtbkpYMld4di1qdXdOZHJHX0g3UXlwQ3VRNTJZTFE?oc=5",
       "desc": "“옷깃만 스쳐도 아프다”… 대상포진 후 신경통, 방치하면 만성 통증 된다&nbsp;&nbsp;하이닥",
@@ -982,16 +1032,6 @@
       "prod": "lipitor"
     },
     {
-      "title": "국제약품, 고혈압·이상지질혈증 복합제 ‘로수디핀정’ 3종 출시 - 약사공론",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aU0ppZGU0ZlltSkYtMktRN09sWThSYVNKaFQ5Q3RlNndUaU93VldYdGZGdUhYMjNPTGlmdUY3N2UwZEVrUGVXaUJsM2R0RnZEVHJDTlFZaDVLNTlDdzZCWW12SXVaOWNkVVNLaw?oc=5",
-      "desc": "국제약품, 고혈압·이상지질혈증 복합제 ‘로수디핀정’ 3종 출시&nbsp;&nbsp;약사공론",
-      "pubDate": "Wed, 08 Jul 2026 07:10:26 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
-    },
-    {
       "title": "Lemon Healthcare's Wild Debut, Vivozon's Clinical Boost [K-bio pulse] - edaily.co.kr",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUTlXMFVRSUIyeFhsaFdKdGk3R3dLWFhfY2FqUzFNYjJOcy1oSDNNSUNOa3p4bmlycG5oUXlFM2VsREFVUlptaDFka09LUFN3VDZBNW9lRm92bDBJU3NibDd6UXBZZjYydUIxV01LMTFOME1VejNUR1E1dUpOd2YwNQ?oc=5",
       "desc": "Lemon Healthcare's Wild Debut, Vivozon's Clinical Boost [K-bio pulse]&nbsp;&nbsp;edaily.co.kr",
@@ -1010,16 +1050,6 @@
       "sourceName": "리피토플러스·에제티미브 (국내)",
       "country": "KR",
       "prod": "lipitorplus"
-    },
-    {
-      "title": "BioAge advances inflammaging drug into Phase 2 - Longevity.Technology",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQzJOMnVLU1BYTTNfQzdFQWlGM0dMSWpBMFAxel9tNzdYd0M5N015ZVd0X1haWHFobWY0cXFURlpSOTdXOG9FTkFqU1k5Q0xSejVndThoNXpTcXBnVHV3bHk3dzJiMExYUFVRMmhSejRReFQwUWp3THQ1R1Y1MElqVV9XTldOVVdM?oc=5",
-      "desc": "BioAge advances inflammaging drug into Phase 2&nbsp;&nbsp;Longevity.Technology",
-      "pubDate": "Tue, 07 Jul 2026 16:37:22 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
-      "country": "US",
-      "prod": "lipitor"
     },
     {
       "title": "Q&A: Are Extracellular Vesicles the Future of Multiple Sclerosis and Systemic Lupus Erythematosus Therapy? - Physician's Weekly",
@@ -1059,16 +1089,6 @@
       "sourceId": "gn_lipitor_kr",
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
-      "prod": "lipitor"
-    },
-    {
-      "title": "2026 cholesterol guidelines and at‑home monitoring - MSN",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWkQ3bEFGSjc0UGhIYVhsYlAzcGtWZk1qSTFIVF9UYnplbkZfa01rdF8xWm5EQXpaZUVYbFh6REFCVmJkSkVoMVhHZWFjcUlkd3Q2bnBEZHVubGlXUWRDMWo0RjNybExLbzBKdXl4dmlOQmd4VVlmZE16bHVJbXpSRkRvOVRreEJtRUZEeER6S2Z1T01KNmtmc3JuUjFEZGh6Snc?oc=5",
-      "desc": "2026 cholesterol guidelines and at‑home monitoring&nbsp;&nbsp;MSN",
-      "pubDate": "Tue, 07 Jul 2026 07:55:34 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
-      "country": "US",
       "prod": "lipitor"
     },
     {
@@ -1272,16 +1292,6 @@
       "prod": "lyrica"
     },
     {
-      "title": "Colorado's pathfinder medicine price-cap move stalls - pharmaphorum",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdkk4REw0VS00WGpONTFCeDRnbmN4OFc2QjRsMHAyRzFLT3R2VnZWYnFQcnVMNHRQX1pHNEJrQjdpcXVzWnVYNnE0Szhfb3hZT2NPZlowdWV2OC16aDRPd01kUDZabmZpLU1ZNWlVeU1iclNKZzA2WFNoMHVqdkhGMlhQb1lNVkNr?oc=5",
-      "desc": "Colorado's pathfinder medicine price-cap move stalls&nbsp;&nbsp;pharmaphorum",
-      "pubDate": "Thu, 02 Jul 2026 07:54:50 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
-    },
-    {
       "title": "NewAmsterdam Pharma Announces Upcoming Presentations at the Alzheimer's Association International Conference (AAIC) 2026 - The Manila Times",
       "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNcG9JdnJDTUxJTnNOd25rczExV1psM1F3MXpvOFNqZnE2NzV3X3VxZG1SazJaRFBCMEpVQm1GVkgwbGs3WkZsRUJOcGVNQWt2dXNnNlFQeTVfazduU29pTUlhZDJFaVBZMGMyNC11TmdsWHNMNEw1Z0l0OHA3dFNWdkFMWjZ1M2dsTWprd3JwX0EwLWpNTUpsNGRNbkV2cUNzX0sxMFd3QlBoQzNFY3FaR0FOWDBjbktQRkJ0cjJHWTA4MXZhd0lJS3o1Qk9Hdmk0VUhBY1R4TnZqTFltb0NWTGs2dGxlNThMYVZHYmREM3JpTW9ORVJTRk9XSjZqREJPZzRpWWJhR1FSZ09rUWEyb05Xc1M3OVg5QXI40gGgAkFVX3lxTFBWYUt5eGZFbWpwNDhpczNYcFctVjJ0OGVVN3Nxc2pURHNGUjF1eG1RZkZzQ1VLWXluSm96STJYSzFHaEVmSTBoYzlCVmt6Q1AwTzFLWjJ6SG9RVFhGTHlxaTlTMUhwd3JDUnBhb1JUUEM5VE92YUdLNGJaSjNZS2dhTmJGZzJ0VFlqSDQ5bHl2VmdVNlc4eFZ4TlNqV3FzSHR4N09Lc29aNnc4VE1iZFN4WDIzczM4ZGRnMWY3WGdVQmZGVEFVLUJqdWhKWGh4bXpsS0cxV0o0VmlZZzltT1pkVWR2ZjBoSXdSX3o1UkRnSmk0aWtYVTJnSHB4ZzRtR1MwdGx6LUdCcnBkeTh0am1VS3Bhc0dTM0x2VUVkNXFRaw?oc=5",
       "desc": "NewAmsterdam Pharma Announces Upcoming Presentations at the Alzheimer's Association International Conference (AAIC) 2026&nbsp;&nbsp;The Manila Times",
@@ -1290,16 +1300,6 @@
       "sourceName": "LipitorPlus·Ezetimibe (Global)",
       "country": "US",
       "prod": "lipitorplus"
-    },
-    {
-      "title": "Statins and blood pressure drugs changing health risks of obesity, study suggests - STAT",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOODJvbHJCb3Rna053YlZfOFJKbGlYMjFIcUtuVU5VZXJ6WUkzclNCOWF5MHlWOUZRdU90Q1hxbk5Udlp6NWJPWjF1blRZcjByMzlUNEM0b1U3NEY1TkhRNXZRaUh5Um9fX21wOEdhZjJ0QlloU1lBSDd3T0JTaUZqWlVpVTlpdThrc2ZZdQ?oc=5",
-      "desc": "Statins and blood pressure drugs changing health risks of obesity, study suggests&nbsp;&nbsp;STAT",
-      "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
-      "country": "US",
-      "prod": "lipitor"
     },
     {
       "title": "NewAmsterdam Pharma puts obicetrapib in Alzheimer’s spotlight at AAIC 2026 - Stock Titan",
