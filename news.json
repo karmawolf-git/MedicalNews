@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-07-18T16:01:31.545Z",
+  "updatedAt": "2026-07-18T19:12:51.836Z",
   "articles": [
+    {
+      "title": "AbbVie stock trades steady as investors focus on Skyrizi and Rinvoq growth after mixed quarter - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOTBDdUdJMDZZbElQWlNBSUU4Nm9GbHBmLWFzWWZHOXB5bXdld2ZZSU5pWDc5a3pVVWZ6NWRKZUU0c0VhNy1VeFptWmZjeGVob0RSMmJXU0liTU1Bc0pJS2czdUNHSXI4X0w5V1BHVmJnQmhzdmJHeG8tUWpkM2t4bEpmX3JUWEp4RGxmNEVDd0RnTmFGLVFPQ3Frc2JUZ05Qb25RLVI2Y2FtQTVGbHBDdG5FT3EtcE5CQWcxRWJqSEZBRVFPUG5nSkxpNGlnZw?oc=5",
+      "desc": "AbbVie stock trades steady as investors focus on Skyrizi and Rinvoq growth after mixed quarter&nbsp;&nbsp;ad-hoc-news.de",
+      "pubDate": "Sat, 18 Jul 2026 16:02:20 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
+    },
     {
       "title": "서울시, 고혈압·당뇨 관리 위한 제철농산물 교육 운영 - 글로벌뉴스통신GNA",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0bkJWb014MTNocEw1WmdJbERUNTFqRWtucnl1blFxbkRFM2tiODY5ZGZtVUZPaGpvc09CS04xUjdqWk1JUF8yeUczQllqelVvaHl3VV9hbmZKaXJ5anluV0pBRU1NNW4yOGJVODN0N1N4b1Vz?oc=5",
@@ -22,6 +32,16 @@
       "prod": "norvasc"
     },
     {
+      "title": "고혈압·당뇨 걱정된다면?…서울시, 건강 식단 무료 교육 [오늘, 특별시] - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5WaFNDRk01elZJSkw5MUdlTGMzcGx0Y1dVS2tzSXotVnpXdENCaVlnVWFNMHVrd2QySm1uWGs1MEpPRmtodGZqbUs3OGN4emM?oc=5",
+      "desc": "고혈압·당뇨 걱정된다면?…서울시, 건강 식단 무료 교육 [오늘, 특별시]&nbsp;&nbsp;v.daum.net",
+      "pubDate": "Sat, 18 Jul 2026 02:02:40 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
       "title": "혈압약 한 알만 먹는 시대 올까… 복합제 효과 입증 - 헬스조선",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fbnBpdXNZMmg4dzFPdzd1VVBsRjB3eGVFVFFTYlp1WlhPNDJPRHAzVUd2S1lhTzdNdFpjQzNoZDV3T1VXLXlocEhremhHWnh6N2FxVEdjWmtzV0dLRGVKODY2MUg3T1V2TTd3Y0VONldEZzgzU2c3UE0tZW9xS3M?oc=5",
       "desc": "혈압약 한 알만 먹는 시대 올까… 복합제 효과 입증&nbsp;&nbsp;헬스조선",
@@ -32,39 +52,9 @@
       "prod": "norvasc"
     },
     {
-      "title": "서울시, 중장년 대상 '제철농산물 건강식생활 교육' 운영…고혈압·당뇨 예방 실습까지 - 톱뉴스",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE55LXp3YUF0a3QyT0oycmpGVWhFcnRfc1F3cnVLeF93QUV0Zk5pYlhVWUhMYlJ1djVrOFVMTE1Kc3pTX1NHQ3lPcFdQTmpjbGtGU1ZBQm5DRmM2bnNEcllfekFuTUt6MjZfcmN0QQ?oc=5",
-      "desc": "서울시, 중장년 대상 '제철농산물 건강식생활 교육' 운영…고혈압·당뇨 예방 실습까지&nbsp;&nbsp;톱뉴스",
-      "pubDate": "Sat, 18 Jul 2026 00:40:49 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
-      "title": "'대상포진 후 신경통, 뇌 연결망 변화와 연관성 밝혀져' - edaily.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPT18yLTJCX0xHWnRTTHZPcHRyYVJZZ1VrR1lxS3ZCQnE4MWc3aXlzaDEycUJiSUZGQ04tX1lPRGU1MWRlTFdQODlfVzhCNDhETEstRzQybm5yUEVCZHlnUmI5czZYTVVwSk1WYkJDTWptWWd0T2RpV2toTHRJYlExeA?oc=5",
-      "desc": "'대상포진 후 신경통, 뇌 연결망 변화와 연관성 밝혀져'&nbsp;&nbsp;edaily.co.kr",
-      "pubDate": "Sat, 18 Jul 2026 00:05:03 GMT",
-      "sourceId": "gn_lyrica_kr",
-      "sourceName": "리리카·신경통 (국내)",
-      "country": "KR",
-      "prod": "lyrica"
-    },
-    {
-      "title": "[바이오브리핑] 바이오솔루션, 주사형 골관절염 치료제 임상 진입 - 시사저널e",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1yQWpKdEJ4UXQzVy1XdGYxU1dZd0VaYzk0ZHVRaldqTm9zSzNTNFljTGtJZmRqdF82Q010MklxOUh2MkVWV1lkVDZINjlMSmJnbTlzNEx0SDNWVUt3QXpDQzVrSFVaejlNSkFVTXcxeUFXaS0xTnfSAXZBVV95cUxNckFqSnRCeFF0M1ctV3RmMVNXWXdFWmM5NGR1UWpXak5vc0szUzRZY0xrSWZkanRfNkNNdDJJcTlIdjJFVldZZFQ2SDY5TEpiZ205czRMdEgzVlVLd0F6Q0M1a0hVWno5TUpBVU13MXlBV2ktMU53?oc=5",
-      "desc": "[바이오브리핑] 바이오솔루션, 주사형 골관절염 치료제 임상 진입&nbsp;&nbsp;시사저널e",
-      "pubDate": "Fri, 17 Jul 2026 22:24:12 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
-      "title": "New Cholesterol Pill Lipfendra Now Approved: How It Stacks up to Statins - Yahoo Health",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTUlnamxTcjJ2OU9fd3J4ZzFUUTl4N1B5RHZLT3ZoTTlVcW1zRVZSOVpUZXNxU2VsMUVWYlhxNU5KUjFiMV9yT3ZPYjdjNFFtUEVSUG5iQ3JCS3pGX1dDaUtQbFkzem94R1JrNzZ1bk1adU9yaU5Xa3dXa0VuTTh1MlFVdVZuMWhLdTVld3otdU9RQnJDbHdBd3U1aXBwbkFGMWpyNC0tTXJvWnlmaUJhdVZkSE4?oc=5",
-      "desc": "New Cholesterol Pill Lipfendra Now Approved: How It Stacks up to Statins&nbsp;&nbsp;Yahoo Health",
+      "title": "New Cholesterol Pill Lipfendra Now Approved: How It Stacks up to Statins - Woman's World",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQM1g2dWFGWGllMURzOHRUZE9fUExTeWk4R0Fxc3hiR1RoamFXVlBUZ2lMOU9LVWpsR0NRalYxcVNCT3NETlpCYWZZempNLVR3SW9WV1FFSGd2RWljNXo3OV9PZFF4dVRFS1NRQS1yeWNnNXQwbVhPdWZiOVpJVUxKRkNrUlNmWkhwMnlVRm9fdmtHbXNvX3Rwa2VQc3hZM3JpRGRVNzVpTGlTOThvSHhLSlZGOXM?oc=5",
+      "desc": "New Cholesterol Pill Lipfendra Now Approved: How It Stacks up to Statins&nbsp;&nbsp;Woman's World",
       "pubDate": "Fri, 17 Jul 2026 22:00:10 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
@@ -72,24 +62,14 @@
       "prod": "lipitor"
     },
     {
-      "title": "New cholesterol pill Lipfendra gets FDA approval: 2 experts weigh in - AOL.com",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeWZNRXVsVTlYTzlvcUc2X21DVXNuamFmdXlYZkdVRmkzdkZ0aVpvLVBIZ2NkbTVRcUJYNUJwSVIycnNFaEstOXpJNWFaNWEtZWduNnFjLU1VaGs2X3o5MldpTl9MZlFyemxnSG1hVHlJY3dXSmFJSWwwNEVQVUZPb3NRRkRmZw?oc=5",
-      "desc": "New cholesterol pill Lipfendra gets FDA approval: 2 experts weigh in&nbsp;&nbsp;AOL.com",
-      "pubDate": "Fri, 17 Jul 2026 21:50:06 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
-      "country": "US",
-      "prod": "lipitor"
-    },
-    {
-      "title": "New cholesterol drug receives FDA approval - McKnight's Long-Term Care News",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zajFHV2YzNHBJUzdJdDRFalpLMkVHUlpTUDExUElEZ0RRNG1wVDY0OFFUaFJlNmpFRTZjbDNoaURfTmU2ZV9kX0NlX25JVEJrVExWQkptZmszMGtkeTJVNHJkeFR6OXZwbGU0aDlXVl9Zd1VCUUtsVHRrSk1JbWs?oc=5",
-      "desc": "New cholesterol drug receives FDA approval&nbsp;&nbsp;McKnight's Long-Term Care News",
-      "pubDate": "Fri, 17 Jul 2026 21:34:04 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
-      "country": "US",
-      "prod": "lipitor"
+      "title": "[바이오브리핑] 바이오솔루션, 주사형 골관절염 치료제 임상 진입 - 시사저널e",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBaekJDdDZvUWNhVEJVbzB3SmI1VFhaNGc1S2txMVVRRHF6NEVmSzJoZU5IRkFIOGRRMkNCa0dZX0toRWJ5V2JrbTVkQnZTU1R0TnVDanJkMm1teTRUT1hUWlpiN0FjODd0dktTc0duUFFLZ9IBdkFVX3lxTE1yQWpKdEJ4UXQzVy1XdGYxU1dZd0VaYzk0ZHVRaldqTm9zSzNTNFljTGtJZmRqdF82Q010MklxOUh2MkVWV1lkVDZINjlMSmJnbTlzNEx0SDNWVUt3QXpDQzVrSFVaejlNSkFVTXcxeUFXaS0xTnc?oc=5",
+      "desc": "[바이오브리핑] 바이오솔루션, 주사형 골관절염 치료제 임상 진입&nbsp;&nbsp;시사저널e",
+      "pubDate": "Fri, 17 Jul 2026 22:00:00 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
     },
     {
       "title": "​​A New Non-Statin Cholesterol Pill Is on the Market - inc.com",
@@ -102,20 +82,10 @@
       "prod": "lipitor"
     },
     {
-      "title": "[이달의 신상품] 동양생명, ‘고혈압보험’ 출시…보험료 1000원대 - fetv.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE45T19nZHdHOVlpTFl0T3VtenBNQmt5ODkyMlpQejF4MjBGS1F0ZDdxeGw0ZVhtNnFCZnlFTE8xSkExbUpyb3dSc0VRZVlWVk5LRzA5LVBjQzNkazJfdHFENkJTMVpSZUhG?oc=5",
-      "desc": "[이달의 신상품] 동양생명, ‘고혈압보험’ 출시…보험료 1000원대&nbsp;&nbsp;fetv.co.kr",
-      "pubDate": "Fri, 17 Jul 2026 21:00:00 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
-      "title": "FDA Approves First Oral PCSK9 Inhibitor to Lower LDL Cholesterol in Adults with High Cholesterol - GlobeNewswire",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNVkp3QXZxY0ZoOFBKNjVyc283bDUyVGNQNVFFdUtDZk0xc1VUVnB0VjZxamhQakstOUV1ZWNiUUhuTUlqOEc4bHZaakR6aVFmX0Y5bkhzRk5JVVNnNFNCNE5GYkhSenBaUk52M3o5Sk1EWWRmQ2RUaGlYVjNXRXpjTnJMb0NUX3VPR1hvQ0IweXljdWRhS1BsSElfSlAycVdPZ3JmZW5Qci1XZFlIWlNxa0sxYTR5ZzUyTVc2QXdjZGFUVkRITDJ4dEdmUUlSaDc0eVF4aVVNcDNNYVM3ZEdjZmt3QTlqeGNwZmtnYmZkTGdWSC1KejA5alVlWXo?oc=5",
-      "desc": "FDA Approves First Oral PCSK9 Inhibitor to Lower LDL Cholesterol in Adults with High Cholesterol&nbsp;&nbsp;GlobeNewswire",
-      "pubDate": "Fri, 17 Jul 2026 19:14:13 GMT",
+      "title": "FDA Approves First Oral PCSK9 Inhibitor to Lower LDL Cholesterol in Adults with High Cholesterol - markets.businessinsider.com",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdGlwX2VjVkRWVEhaVFMydGFWbFBZMkJ4NDNJUHF6bVduTHJITV8zbUFoOUZCSWJNczBRTHRUVlkyTU90NS1CMWszWnl5SmJGS1J4c3ZIVlYxYXdEUEdWS3NWdjBNRXh6emRueExwX1k0Um1Mamc5RHhyMWtTRGRCRTZFM1h1ZGotTHd2Z3M0ZXZmZ19ZSG4tMkd5ejREckJXajZ0WEpqMmJNTTIwZ09Va1MwOG56R2NKOWNQQ3hJQ2pnWEZVNEdhdEE5MEZwcVpoQkFVSWNrYi1ZVWw0cGM3RmF6SGM5ZDhjcDcw?oc=5",
+      "desc": "FDA Approves First Oral PCSK9 Inhibitor to Lower LDL Cholesterol in Adults with High Cholesterol&nbsp;&nbsp;markets.businessinsider.com",
+      "pubDate": "Fri, 17 Jul 2026 20:25:01 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
@@ -212,6 +182,16 @@
       "prod": "lipitor"
     },
     {
+      "title": "[김공필 칼럼] 비만이 부른 2030 고혈압·당뇨, 이대로 괜찮나 - 여성경제신문",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0wU1R1Nk1PSG1vYTJoZmhKSFJzVVZyUExOcDRTYkJpUHFfajZHWE1jbTFtS2lVUnROWkl1MXB5eVJMVUVid1pmQ3lmVDcydkFNZUdGY1gyNTh3VXFzMjQzVUZHa2M3Mm85dVNPV0pKa2FFQkHSAXdBVV95cUxOc0dDdDZoZTlLN1VKZ2ZXSGdTd3VHZkhrQ3FFR2l1YnV4V19ubXFsb0g1REdqWmpHZFRuazZKWW9kY0VvVDJQRnNJNE9fYTF1MWZSa25FbHdDQl9BRnJ3d2UtczlOWlFJeGppQ08wTVZMcER5N2xydw?oc=5",
+      "desc": "[김공필 칼럼] 비만이 부른 2030 고혈압·당뇨, 이대로 괜찮나&nbsp;&nbsp;여성경제신문",
+      "pubDate": "Thu, 16 Jul 2026 23:00:00 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
       "title": "주사제 독점 깨졌다…FDA, 첫 경구용 PCSK9 억제제 승인 - 헬스코리아뉴스",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE95VnNEZmZ3X0lXOFNhbzYtY1B0V3Rnc0hKSHBNVXBkVlF6SERSbkZyc2FmMnlPb25BbkIzcWhHTVV0M3lWc082S0pzSWxfWkVtaHZhLVF1cE5MclNSaW1zbDVHRS0ta1k?oc=5",
       "desc": "주사제 독점 깨졌다…FDA, 첫 경구용 PCSK9 억제제 승인&nbsp;&nbsp;헬스코리아뉴스",
@@ -252,6 +232,16 @@
       "prod": "lipitor"
     },
     {
+      "title": "FDA approves first oral PCSK9 inhibitor for managing cholesterol - Chemical & Engineering News",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQ00zV3FPRi1oUjgxX0xhcl9WMjR0c1lWRG0wMUd1UlVpbGdua2dYTFBNdndON1AwWGNmN2RBSVBwRnRucDhDUFh5YWZVdktjN09WdmtuTG9FeTI1d09kUlFWTGdid2U4R1pyQ0JERmlhMkFudWVEekFlNHVlVlZwcmVzYzh6ZnVYVE0zajJVclFhMEY2UzB5LWNCZUphTFRCZFZhYkwwbWpKM2djY0lqNmljcw?oc=5",
+      "desc": "FDA approves first oral PCSK9 inhibitor for managing cholesterol&nbsp;&nbsp;Chemical & Engineering News",
+      "pubDate": "Thu, 16 Jul 2026 19:41:42 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
+      "prod": "lipitor"
+    },
+    {
       "title": "FDA approves new kind of cholesterol pill - NBC News",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPX2lzS3dhaEZMYlhWSTY4RGg0VlNwVGgwY1dmbVJ3M1AtV29DeG1EVU9DYWgwX0wyZFRuYjNoYlAwYVVvVE5nMVVfT2s3a0hKa2M0UTREa21GWmcyaWhPbk00M2swR3RhakZwR1BfRHhCV21HZ0NRUlR5Y3RnaFNZRFVWZHE3ZHBCSTJJaEd1b2xOSW9BbThFMw?oc=5",
       "desc": "FDA approves new kind of cholesterol pill&nbsp;&nbsp;NBC News",
@@ -266,6 +256,16 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQd1VQZEQ4WkdGdUcyaXV5dXBHZk5WdnVXbWM0STltWVpkNTVkdm9YMVZIWVRqdFNTQms3am5NMENZUVFOaWZTX3hiSG5DM2JsRGxlWlBMckJZX3VaeUVYeWIzSTJPOGpCZHhDOHdPcGZib2Utdk82MTVkSGVkQzB2LWx0bW84NVpHSnozNw?oc=5",
       "desc": "FDA Approves Enlicitide, an Oral PCSK9 Inhibitor, for LDL-Lowering&nbsp;&nbsp;TCTMD.com",
       "pubDate": "Thu, 16 Jul 2026 19:01:32 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
+      "prod": "lipitor"
+    },
+    {
+      "title": "FDA Approves Enlicitide, the First Oral PCSK9 Inhibitor for High Cholesterol - Pharmacy Times",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ3J3cjNxV2xGam1aTjJxbHdWdllCTmE5NFM5YjJqOGF3T052OGxXekw0OGNXWmExTnZnSmVFWDliUHA3YWRDVklmblBWNVVjb0FnMlZENVRsMkhBLXpZRENuSm9JYkpPRVRXckc2MS05eldvb1ZRemZZWWtFaXktVTEtak1XTFR6eTF2Y0VuUUdQTUJtbHRxY0NtTVN4NG1ZWWNXQVZkRllwWFRDUmNr?oc=5",
+      "desc": "FDA Approves Enlicitide, the First Oral PCSK9 Inhibitor for High Cholesterol&nbsp;&nbsp;Pharmacy Times",
+      "pubDate": "Thu, 16 Jul 2026 18:56:15 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
@@ -712,6 +712,26 @@
       "prod": "norvasc"
     },
     {
+      "title": "절개없는 주사형 골관절염 치료제 바이오솔루션 '스페로큐어' 임상 돌입 - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBJOUVCbEtVa0ZwZHcwYXYyUk40bndnLURZaEtlWmZSLTVmZWFtMjZ1VEQtN2N1U0hsSDJOVHk3UGE5dlAzMk1paWxWSGNRU19TMmVJ?oc=5",
+      "desc": "절개없는 주사형 골관절염 치료제 바이오솔루션 '스페로큐어' 임상 돌입&nbsp;&nbsp;네이트",
+      "pubDate": "Wed, 15 Jul 2026 02:29:00 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "대상포진 후 통증, 왜 오래갈까?…MRI 분석, 신경통 환자 뇌 구조적 연결 변화 확인 - medicalworldnews.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5TaF9aN2JfSzI1R3BOWl9WR3lRQmNfa2JSa3djOHVRSjI4b1NVdG1PRVhLNmdDWGZoNXR2YnI0X2E1UVRmRUFJSmhXb2ZPMEpXRW1LYW91ci1tMkVEU3JnaHJYYkNSaS12Q0ZN?oc=5",
+      "desc": "대상포진 후 통증, 왜 오래갈까?…MRI 분석, 신경통 환자 뇌 구조적 연결 변화 확인&nbsp;&nbsp;medicalworldnews.co.kr",
+      "pubDate": "Wed, 15 Jul 2026 02:23:08 GMT",
+      "sourceId": "gn_lyrica_kr",
+      "sourceName": "리리카·신경통 (국내)",
+      "country": "KR",
+      "prod": "lyrica"
+    },
+    {
       "title": "초저용량 3제 복합제, 고혈압 치료 효과 세계 최초 입증 - MEDI:GATE NEWS",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1OM0xXUTYxU2dnS0pTbEMwYVBtYmZHUXpRZFhuMlZRdlE1NkpzYmphcGItZ25FYWVtSXB6RzFpY0lZc0MyWFA0cEdGdkk3anMxd0tyckRQRQ?oc=5",
       "desc": "초저용량 3제 복합제, 고혈압 치료 효과 세계 최초 입증&nbsp;&nbsp;MEDI:GATE NEWS",
@@ -822,14 +842,14 @@
       "prod": "celebrex"
     },
     {
-      "title": "GLP-1 weight-loss drug use surges as arthritis risk flagged - MSN",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWGNpSmpfZzZiZWl2VEt3UGJuVjRfM1Y4SWZDR0ZzZ28xV3F6MEhTWVJNMl9pU3dja0hYaDVmakJOejZuM2szSDFWWTR0YzYydmJhQncydDRndjdyd0pMYUxmT2pRVjB5Q3A3SUhkbXJXUmMxTnhKQmFUZFFZT3Z0cnNFM0pfZWU2MTFkbUFoWHBFWG9EZkZoTTdVdGRJcW5DLWxTNGRnaEdYUmZCQ21Bc2Z5elNMUzRaVmpBajdJTWQ3djQxd0NLWTRWNXZGUm9GdUJ3c204MjVNa1pzS2pobHlFaFdzTEpDNXBsQ2ljNTJSVU0?oc=5",
-      "desc": "GLP-1 weight-loss drug use surges as arthritis risk flagged&nbsp;&nbsp;MSN",
-      "pubDate": "Tue, 14 Jul 2026 11:46:27 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
+      "title": "급여 확대·신약 출시 통했다···일본계 제약사 실적 '방긋' - 메디칼업저버",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBDeU9wenJ4MnNEWWJaLWt0ajJzNW1Ca2ZkMUZHSzVuRGlFZFhBTXg2X2R4U3dsVko5Qi1icnhMRkNFRUZLNkwtc002UWx5UUs5Z3UxcWZWdDRvdkF0ekdnbTltSTk1b0hua3I0?oc=5",
+      "desc": "급여 확대·신약 출시 통했다···일본계 제약사 실적 '방긋'&nbsp;&nbsp;메디칼업저버",
+      "pubDate": "Tue, 14 Jul 2026 21:02:37 GMT",
+      "sourceId": "gn_policy_kr",
+      "sourceName": "의약품 정책 (국내)",
+      "country": "KR",
+      "prod": "all"
     },
     {
       "title": "‘굳’모닝… 과도한 냉방, 류마티스 관절염 악화 - 경인일보",
@@ -1052,16 +1072,6 @@
       "prod": "lipitor"
     },
     {
-      "title": "티슈진보다 앞선 오가노제네시스, FDA BLA 접수…무릎 OA 재생치료제 선례 될까 - 메디코파마",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9nS21OcVpCdWxvYWRGUDRJcTYwSnI2VmpGcG5MR1V3bmRuejFsQ0t2a1hpdjk2NnBITHJqRV90VmVDMjR5UmxLa25ia2xzOWtvQTc1NXJySmJnbGsxd2NfUW5QTnMxeXktdkNLWm0wMXhuZw?oc=5",
-      "desc": "티슈진보다 앞선 오가노제네시스, FDA BLA 접수…무릎 OA 재생치료제 선례 될까&nbsp;&nbsp;메디코파마",
-      "pubDate": "Sun, 12 Jul 2026 22:10:00 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
       "title": "Gene Therapy for Lipid Management: Dawn of a New Era - Cureus",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeHhKbGJhWnRwYl9hSm5nb1dPbUU3MmYyUGxVeExpRENFSzFhR3NHUTNYUFhhLUNob3FXcTE1ZlFpczJxYXktNlpPYl90all4MXcxZnZkUHRwY2IzRVFpOXRRRWlvR1VsbkVQb1B2d3Y0Q29aY2VnNlNCaDFOSXlteU81U0YxRlIxNXpNZWduWjk0bExf?oc=5",
       "desc": "Gene Therapy for Lipid Management: Dawn of a New Era&nbsp;&nbsp;Cureus",
@@ -1162,6 +1172,16 @@
       "prod": "norvasc"
     },
     {
+      "title": "큐로셀 ‘림카토’, 심평원 암질심 ‘급여 기준 적합’ 의결 - 헬스경향",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Zc1dtMDY2dnF3UWMwRmZ5QmFCTjFXYnRWbEtsTFNZdkZraUJzTEdrR05yOXZJRWJEYl9jVndLMXBjWXdNTGRQMlQ3NjEzTlhwYy0zbWwtM1FfQmxCUE03SFMzODVPV2xEcUE?oc=5",
+      "desc": "큐로셀 ‘림카토’, 심평원 암질심 ‘급여 기준 적합’ 의결&nbsp;&nbsp;헬스경향",
+      "pubDate": "Thu, 09 Jul 2026 07:00:00 GMT",
+      "sourceId": "gn_policy_kr",
+      "sourceName": "의약품 정책 (국내)",
+      "country": "KR",
+      "prod": "all"
+    },
+    {
       "title": "'연 처방 2000억' 로수젯, 이상지질혈증 시장 대표 치료제로 자리매김 - 헬스이슈앤뉴스",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVc1JvcnlpcHVWWTk5cldDREJBMUJsRUxLbnh3djkwSWYzZzQ3ZG51QWozVFNFNHU5akJNZEQwS0xyUkhaODR6XzdVdzd0eWcyX0tEVWRDeTQxYVh5STlWSXZ5cGhCZzNv?oc=5",
       "desc": "'연 처방 2000억' 로수젯, 이상지질혈증 시장 대표 치료제로 자리매김&nbsp;&nbsp;헬스이슈앤뉴스",
@@ -1225,7 +1245,7 @@
       "title": "Lemon Healthcare's Wild Debut, Vivozon's Clinical Boost [K-bio pulse] - edaily.co.kr",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUTlXMFVRSUIyeFhsaFdKdGk3R3dLWFhfY2FqUzFNYjJOcy1oSDNNSUNOa3p4bmlycG5oUXlFM2VsREFVUlptaDFka09LUFN3VDZBNW9lRm92bDBJU3NibDd6UXBZZjYydUIxV01LMTFOME1VejNUR1E1dUpOd2YwNQ?oc=5",
       "desc": "Lemon Healthcare's Wild Debut, Vivozon's Clinical Boost [K-bio pulse]&nbsp;&nbsp;edaily.co.kr",
-      "pubDate": "Tue, 07 Jul 2026 23:01:03 GMT",
+      "pubDate": "Wed, 08 Jul 2026 07:00:00 GMT",
       "sourceId": "gn_neuro_en",
       "sourceName": "Lyrica·Neuropathy (Global)",
       "country": "US",
