@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-20T14:21:29.941Z",
+  "updatedAt": "2026-07-20T16:36:30.950Z",
   "articles": [
+    {
+      "title": "심바스타틴 대신 암로디핀 조제한 약사, 1·2심 무죄받은 이유 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8yNFB6MjZPV0xBX2dfVmUzT1BMNUt5RDhqNGMybVBkMmdYeUdBRDVLNHptMmEtRExRYURwQXJDRlltQTVGLWREZHpUd0J5S3Qt?oc=5",
+      "desc": "심바스타틴 대신 암로디핀 조제한 약사, 1·2심 무죄받은 이유&nbsp;&nbsp;데일리팜",
+      "pubDate": "Mon, 20 Jul 2026 14:45:13 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "코오롱티슈진, 골관절염 신약 미국 임상3상서 효과 입증 실패 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBHYUd0RDEyT0xKZC05ZlhDbjJxcDg1WFQwUjNhd3ZhWTBvSE50SUI4M283UGZFdWc4YjFXU1J2WlhKZUxUVEdwTXp2RGJMMzNQ?oc=5",
+      "desc": "코오롱티슈진, 골관절염 신약 미국 임상3상서 효과 입증 실패&nbsp;&nbsp;데일리팜",
+      "pubDate": "Mon, 20 Jul 2026 14:25:28 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "MSD, 첫 경구용 PCSK9 억제제 개발…시장 변화 예고 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBVVlZLT3ZIdGtxMXA3UF9Ic0lFbXdxeFlfTV9tVk5qYWsyYWNqVUw1OGFPWkRUT2RWRW1MbzdyczZHZ0VtMDgybGF2WTQwbjlw?oc=5",
+      "desc": "MSD, 첫 경구용 PCSK9 억제제 개발…시장 변화 예고&nbsp;&nbsp;데일리팜",
+      "pubDate": "Mon, 20 Jul 2026 14:25:24 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
     {
       "title": "New once-daily pill to lower bad cholesterol approved by FDA: how it works and who may benefit - The Indian Express",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWWNScEtmSUk1SWNjM01kOFo4LV9pR0trN1FCTllCRWhxSUdiZFZTeFRRSXN1enoxMGswMWtoWXNkdG1MUUVLV05RWE55MlpydHUxbF8xV182a0h4N0VlSW1kSGZoZktWSl94VUlNX3czVnI5R04ycnUyRHJCdHlEM01JVWxfZVpGaFVEX01mMWQtLUVEZGE3NjhNUGlVclhlY2MwUVdGS1NiOTh5ZmE0aVY1N2lYQdIBvAFBVV95cUxQSFFPNjM5VWk0a0tPZC0tZWg5TEFKaWZzNlFNQnlhX1JXX0FrNVctWm42akt2WUMtM1F5YkFBUHREOGc0VDVUeVlXZWNkblVXVExKM0w2V3JOY2JVMWVVX1VueGtnR2U1djF5NE9USVpYTHFVZEthcDN4aTJvbDFqdG12dG5QM0VaVW9BVGJYcFByeEZIOEs2VzRmX1BvRnozMEdHMFlBV0J1bW40c05oeERsdExPcHZnTnBicQ?oc=5",
@@ -20,16 +50,6 @@
       "sourceName": "쎄레브렉스·관절염 (국내)",
       "country": "KR",
       "prod": "celebrex"
-    },
-    {
-      "title": "심바스타틴 대신 암로디핀 조제한 약사, 1·2심 무죄받은 이유 - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8yNFB6MjZPV0xBX2dfVmUzT1BMNUt5RDhqNGMybVBkMmdYeUdBRDVLNHptMmEtRExRYURwQXJDRlltQTVGLWREZHpUd0J5S3Qt?oc=5",
-      "desc": "심바스타틴 대신 암로디핀 조제한 약사, 1·2심 무죄받은 이유&nbsp;&nbsp;데일리팜",
-      "pubDate": "Mon, 20 Jul 2026 11:40:37 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
     },
     {
       "title": "코오롱티슈진 골관절염약 TG-C 美 3상 임상 실패 - 메디칼트리뷴",
@@ -62,28 +82,8 @@
       "prod": "celebrex"
     },
     {
-      "title": "코오롱티슈진, 골관절염 신약 미국 임상3상서 효과 입증 실패 - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBHYUd0RDEyT0xKZC05ZlhDbjJxcDg1WFQwUjNhd3ZhWTBvSE50SUI4M283UGZFdWc4YjFXU1J2WlhKZUxUVEdwTXp2RGJMMzNQ?oc=5",
-      "desc": "코오롱티슈진, 골관절염 신약 미국 임상3상서 효과 입증 실패&nbsp;&nbsp;데일리팜",
-      "pubDate": "Mon, 20 Jul 2026 09:20:27 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
-      "title": "MSD, 첫 경구용 PCSK9 억제제 개발…시장 변화 예고 - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBVVlZLT3ZIdGtxMXA3UF9Ic0lFbXdxeFlfTV9tVk5qYWsyYWNqVUw1OGFPWkRUT2RWRW1MbzdyczZHZ0VtMDgybGF2WTQwbjlw?oc=5",
-      "desc": "MSD, 첫 경구용 PCSK9 억제제 개발…시장 변화 예고&nbsp;&nbsp;데일리팜",
-      "pubDate": "Mon, 20 Jul 2026 09:20:25 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
-    },
-    {
       "title": "코오롱티슈진 골관절염치료제, 美 3상 유효성 입증 실패 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBfZ2NtZHU0TU9yakwxeEdZWUtManV0eGN5eHpFUmd5ZXJob2tfVlpzN1hQTngwSHNBTmVLd0NxZzdxaG1mcjJwWWJGUFZ0Z1U?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1IMlVVS1NHYjdfQ2JXT0lhbldyRm1teDFMbGtaa0QzN3BCRHN6RTV2djNySXR3RHFlNG81Z2xEcHRqdmpGMEE?oc=5",
       "desc": "코오롱티슈진 골관절염치료제, 美 3상 유효성 입증 실패&nbsp;&nbsp;v.daum.net",
       "pubDate": "Mon, 20 Jul 2026 08:48:12 GMT",
       "sourceId": "gn_celebrex_kr",
@@ -172,9 +172,9 @@
       "prod": "celebrex"
     },
     {
-      "title": "코오롱티슈진, 골관절염 세포유전자치료제 미국 임상 3상에서 1차지표 미충족 - 비즈니스포스트",
+      "title": "코오롱티슈진 골관절염 세포유전자치료제, 미국 임상 3상에서 1차지표 미충족 - 비즈니스포스트",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBPYUxpRkVSVUJHaFM3VkhDQndQa0xiVTlrbkQyZ0NmYk53aENZSEFNMTNOWVRNWXpuRkY3cE1DWElsX1ZEUVV3VjZEUHlSdmRzRHZqSU4xTzE3a2cyLTNlMHpSWTVNMVNRYkNUM2VaQnZmRUE?oc=5",
-      "desc": "코오롱티슈진, 골관절염 세포유전자치료제 미국 임상 3상에서 1차지표 미충족&nbsp;&nbsp;비즈니스포스트",
+      "desc": "코오롱티슈진 골관절염 세포유전자치료제, 미국 임상 3상에서 1차지표 미충족&nbsp;&nbsp;비즈니스포스트",
       "pubDate": "Mon, 20 Jul 2026 08:14:41 GMT",
       "sourceId": "gn_celebrex_kr",
       "sourceName": "쎄레브렉스·관절염 (국내)",
@@ -382,16 +382,6 @@
       "prod": "norvasc"
     },
     {
-      "title": "\"연달아 잰 혈압 차이 클수록 심혈관질환 위험 커져\" - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5NZ1RVeFR1OG5yT3VQV2RQd3owb1d0d3hBQUNUMEh0SGtlNkN5U2VuSE0zVHpfOG1DYlFkTTFMNGJ0RV9TU2ROZGNHOWNtelFiLVdBeXBERTdXVTTSAWBBVV95cUxPM1drNl93RVBZXzVxOEt6R0xoaUNIX040MkZKZzhmWjJaNWhUaWV4YzNaaXc4ZUdPakh6eTRkU3hrdG0xaWxldEtFYWNNRDBTX09nUjRzYlJXZ09OaWRkV2Q?oc=5",
-      "desc": "\"연달아 잰 혈압 차이 클수록 심혈관질환 위험 커져\"&nbsp;&nbsp;연합뉴스",
-      "pubDate": "Mon, 20 Jul 2026 01:04:22 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
       "title": "한국MSD 폐동맥고혈압 치료제 윈레브에어 ② - 의학신문",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9MVjFQRVdYQzF6MURkdHR2N1pYdnZ0TGJLeERZSGVDeXhnVmdNVGw0aldhZDRzbTlSa2dSN1JnM2ZjRUo5SUFoVVZwZWF2MDFEYVU2ejk5ZWt2ZXZWZi1mT1VlWC1XajRBZHc?oc=5",
       "desc": "한국MSD 폐동맥고혈압 치료제 윈레브에어 ②&nbsp;&nbsp;의학신문",
@@ -420,16 +410,6 @@
       "sourceName": "쎄레브렉스·관절염 (국내)",
       "country": "KR",
       "prod": "celebrex"
-    },
-    {
-      "title": "커프리스 혈압계, 국내 고혈압 진료지침에 첫 포함 - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBiOXc4Q2hEbzJ6WVltZjQtaE1YSXlqUHhxZldpYlRVY0FWUFBXRFBkdFFzV2tfVHdXX2V2ZFFrdTFYTlhrRGM4RmxGTzhnXzNwU2NKNjZB?oc=5",
-      "desc": "커프리스 혈압계, 국내 고혈압 진료지침에 첫 포함&nbsp;&nbsp;데일리팜",
-      "pubDate": "Sun, 19 Jul 2026 22:45:26 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
     },
     {
       "title": "미 경구 PCSK9 억제제 첫 허가 - 의학신문",
@@ -472,19 +452,19 @@
       "prod": "norvasc"
     },
     {
-      "title": "대한고혈압학회, 세계 최초 커프리스 혈압계 권고 - 의학신문",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1aSmszeVpGb1lxT1hnM0Y1NTZ6ZmZTaFJXUVFMcko0dkxxRDJxWjIyRU1hbDJQeDRFR3Z1MnVTQVpzRXd1VjVaOU8zMnRXTGxfQjFEaTM5Z1VvUEgxTWE4U3FjS0NNOEZ0Q3c?oc=5",
-      "desc": "대한고혈압학회, 세계 최초 커프리스 혈압계 권고&nbsp;&nbsp;의학신문",
-      "pubDate": "Sun, 19 Jul 2026 21:00:00 GMT",
+      "title": "커프리스 혈압계, 국내 고혈압 진료지침에 첫 포함 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0zSURTZDhtYktCSldJVVlRelpDLVF5MTFhZE15b1FXbDQ0SmRUVUFSXzlVTXY5SUNfMG1mUFdQWDlpOWtnMkNvRnJKWXNkd1F5?oc=5",
+      "desc": "커프리스 혈압계, 국내 고혈압 진료지침에 첫 포함&nbsp;&nbsp;데일리팜",
+      "pubDate": "Sun, 19 Jul 2026 21:00:44 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
       "prod": "norvasc"
     },
     {
-      "title": "‘커프리스’ 혈압계, 세계 최초로 진료지침 반영 - 후생신보",
-      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9iV05VTmRUclJGUkRyeER1X2c1RU0yTU5IeGpPSzR3ZXRid181R2tqSG1WSFhOYmNMMDdYT0VSZHd1STVr?oc=5",
-      "desc": "‘커프리스’ 혈압계, 세계 최초로 진료지침 반영&nbsp;&nbsp;후생신보",
+      "title": "대한고혈압학회, 세계 최초 커프리스 혈압계 권고 - 의학신문",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1aSmszeVpGb1lxT1hnM0Y1NTZ6ZmZTaFJXUVFMcko0dkxxRDJxWjIyRU1hbDJQeDRFR3Z1MnVTQVpzRXd1VjVaOU8zMnRXTGxfQjFEaTM5Z1VvUEgxTWE4U3FjS0NNOEZ0Q3c?oc=5",
+      "desc": "대한고혈압학회, 세계 최초 커프리스 혈압계 권고&nbsp;&nbsp;의학신문",
       "pubDate": "Sun, 19 Jul 2026 21:00:00 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
@@ -552,6 +532,16 @@
       "prod": "celebrex"
     },
     {
+      "title": "혈압약 한 알만 먹는 시대 올까… 복합제 효과 입증 - 헬스조선",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fbnBpdXNZMmg4dzFPdzd1VVBsRjB3eGVFVFFTYlp1WlhPNDJPRHAzVUd2S1lhTzdNdFpjQzNoZDV3T1VXLXlocEhremhHWnh6N2FxVEdjWmtzV0dLRGVKODY2MUg3T1V2TTd3Y0VONldEZzgzU2c3UE0tZW9xS3M?oc=5",
+      "desc": "혈압약 한 알만 먹는 시대 올까… 복합제 효과 입증&nbsp;&nbsp;헬스조선",
+      "pubDate": "Sat, 18 Jul 2026 02:00:00 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
       "title": "​​A New Non-Statin Cholesterol Pill Is on the Market - inc.com",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZGx2TTRnZFl5b3NXTFk2cGt6Z213SVdkRUN4S0ZKT1VkYmd6aUU5RTZXQ0FyZWJCS3phaEFNTW1tb05UR29rVVBqVFdEOXpjc1hCZlY0bEluVjEwR1drUS1RRGM3cm9CSDh4ZTNNekJPNFBFUWk1NTBhem5kOTZtUG9ldVE5Y1YtY203XzQ2ckotQVljYnc?oc=5",
       "desc": "​​A New Non-Statin Cholesterol Pill Is on the Market&nbsp;&nbsp;inc.com",
@@ -576,6 +566,16 @@
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbGRHVTE0cmdOZU8ySzlWTHFwZldEZi1uRy1BWDV1dC1YVlUyVGgzb3dqUm5tVlhDc0MzRHVYa2laRnlMS3NLaUJudjExTFpOd1BEUTA3NXhUWFg3YUc1OE9kVUFqVlo5Vnk5eEhVNmdSZ0I1T0F3V2N1Yi15eUVJMnFMT2FCWndYMWwyeTl3dHhKN19rcUp2Q1BxRmlGUWl4amVubEJkdVNXa1hma3c?oc=5",
       "desc": "FDA approves first-of-its-kind cholesterol pill Lipfendra&nbsp;&nbsp;Medical News Today",
       "pubDate": "Fri, 17 Jul 2026 17:29:09 GMT",
+      "sourceId": "gn_lipitorplus_en",
+      "sourceName": "LipitorPlus·Ezetimibe (Global)",
+      "country": "US",
+      "prod": "lipitorplus"
+    },
+    {
+      "title": "A Novel Pill For Cholesterol: FDA Approves Lipfendra - Forbes",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV2xmWExMUW44dzVfcDNyYnhVY0t2SU1oelF6b01hVmdZRmRZOUtFTVVxLTgyZEZPdGx5c2hLNTVJcU9XM1BHYjRmSVE0cEhVSmFxeHh4Xy1YMTNySDdaS3BFS3E5NEdnM3NrcDY1bEI2VHFRU25ObDFMeE5ESnFjUzVRVEhNRDl2dW5rdnRDVU41SkhTbHo0blh1UWg3bktTR3RtcWk4cDRlUQ?oc=5",
+      "desc": "A Novel Pill For Cholesterol: FDA Approves Lipfendra&nbsp;&nbsp;Forbes",
+      "pubDate": "Fri, 17 Jul 2026 15:39:33 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
@@ -892,6 +892,16 @@
       "prod": "lipitor"
     },
     {
+      "title": "고혈압 치료, 알약 하나로 끝?… 초저용량 3제 복합제 효과 입증 - 하이닥",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1YMHFvSm1mNEdCZWFBajlRSDBIcl9LaE5pMndJekIwSUFhOEd0YXhZYXRUZHNPSU03TFNHblpQMHlYMC1fRmNOeUpOdEExSlF1b0dVX3Y0c3E0V1VaeFFWWVRuM0t6dUxYcnc?oc=5",
+      "desc": "고혈압 치료, 알약 하나로 끝?… 초저용량 3제 복합제 효과 입증&nbsp;&nbsp;하이닥",
+      "pubDate": "Thu, 16 Jul 2026 03:30:00 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
       "title": "Clonidine Erectile Dysfunction: Why This Blood Pressure Pill Is Not the Solution You’re Looking For - KMU",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPUVkwLW43ZzdSakFfQ1J6cnJQelJPd0MwVjhpSmI0ZERjS1VPcDcwYldXWUtDR0N6Q1pndHhiTUtBY2dYS3R2dWh2eWhkbU01Y3pXeW53VENNU0dBbXR3emNyRWpmSlVqVVhIa1FOQk9WVEJib3JLVWhpWEdpdkxYX2hOaTlVMThXeFRTRG8zNy16d3VJSk1Td3RFcDVWdTMwOERheGZ2WUIzUFdiaTZPcTNHT3JBZ2haQmZFZEcwYUtuVVVYblljeFZhRTV5OTZHRldqc2FpdllpcWNpblNmbXN3amZ1MGNYSzh2ek1XR1Ixc1B1NmVjc3BMYUg3NDJVTlhzeUV2TEtyN0U?oc=5",
       "desc": "Clonidine Erectile Dysfunction: Why This Blood Pressure Pill Is Not the Solution You’re Looking For&nbsp;&nbsp;KMU",
@@ -930,6 +940,16 @@
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
       "prod": "celebrex"
+    },
+    {
+      "title": "Best Mattress for Neuropathy Relief of 2026 - Eachnight",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fQWxyZ3I3SG5ENlo1d1RKWE04T092eXNZdHUzOGJSSU1CX1JDajh0WURyR1BwMkxyUXlwSHVyb2lGblJuTjRFcXNHQUYwMGhONmZ4bW93QXFIQnR6QWtadlZzUGlILWJDZzV5dV9pejZ3QjZmX1ZkOFhCelkwZzg?oc=5",
+      "desc": "Best Mattress for Neuropathy Relief of 2026&nbsp;&nbsp;Eachnight",
+      "pubDate": "Wed, 15 Jul 2026 17:56:00 GMT",
+      "sourceId": "gn_neuro_en",
+      "sourceName": "Lyrica·Neuropathy (Global)",
+      "country": "US",
+      "prod": "lyrica"
     },
     {
       "title": "Autoimmune Disease Therapeutics Market Size to Reach USD - GlobeNewswire",
@@ -1120,16 +1140,6 @@
       "sourceName": "Norvasc·CCB (Global)",
       "country": "US",
       "prod": "norvasc"
-    },
-    {
-      "title": "Cannabis — Latest Stories - Pain News Network",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BMlAxUTM3Z3d0cy10LVIzUko1RFFZZWFzcnBnODluZ0NreElXdUc3WUtUbzY3aUpLZGI4eldCRjI4NmxLTGkzZ2R4aW52eGVYVXBDYkpKMGswSmpuWm45dVp0MWxHQWJf?oc=5",
-      "desc": "Cannabis — Latest Stories&nbsp;&nbsp;Pain News Network",
-      "pubDate": "Sat, 11 Jul 2026 07:00:00 GMT",
-      "sourceId": "gn_neuro_en",
-      "sourceName": "Lyrica·Neuropathy (Global)",
-      "country": "US",
-      "prod": "lyrica"
     },
     {
       "title": "한미약품 ‘로수젯’, 2년 연속 국내 전문의약품 처방 1위 - 글로벌뉴스통신GNA",
