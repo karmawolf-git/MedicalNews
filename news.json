@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-07-25T08:15:53.643Z",
+  "updatedAt": "2026-07-25T10:38:15.437Z",
   "articles": [
+    {
+      "title": "부천시, ‘내 혈압 바로알기’ 캠페인으로 고혈압 예방 실천 - 경기종합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zSWVNSy1INERiano1ZzRGeE9kelZSQXNpXzFtYlZqUFBha2JLZ1VQcjhwNlhDR2tCajZqRVNQWkNqUjFNZFMxb29HS0ZtZkRDZ3JoRl9VdFZpTGhQZGRMOHp0ZmR3UDVCUURmQ0Fyb2dWS2Fn?oc=5",
+      "desc": "부천시, ‘내 혈압 바로알기’ 캠페인으로 고혈압 예방 실천&nbsp;&nbsp;경기종합뉴스",
+      "pubDate": "Sat, 25 Jul 2026 04:12:03 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
     {
       "title": "‘인공관절 늦춘다’…빅파마도 실패한 무릎 골관절염에 K바이오 도전 - 이투데이",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA3YTBhSWN0ZEk1eDdTN25MYm5jZ3JxV1NFV0pVelZtOWNmYmZpajU4OTlxdTlwcExObjVGblhBZmJVR29faVg2bzh3WUhwekdzcDIzRg?oc=5",
@@ -70,16 +80,6 @@
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
       "prod": "celebrex"
-    },
-    {
-      "title": "부천시, '내 혈압 바로알기' 캠페인으로 고혈압 예방 실천 - 엔디엔뉴스",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5NZ290SzEwd19UbHVBNGdtRkZoaVl3cWZOaERDWnBaX0JXTUdFc3FPSGhLOHpOUExsM3NmWmNTZEFUSDBlY0c2ZkxpaVVTc19yU0I5eTBDSm5GRzVTQ21QVUIwSlQ4ZXRSTURqRm5iT2RnZ9IBckFVX3lxTE5NZ290SzEwd19UbHVBNGdtRkZoaVl3cWZOaERDWnBaX0JXTUdFc3FPSGhLOHpOUExsM3NmWmNTZEFUSDBlY0c2ZkxpaVVTc19yU0I5eTBDSm5GRzVTQ21QVUIwSlQ4ZXRSTURqRm5iT2RnZw?oc=5",
-      "desc": "부천시, '내 혈압 바로알기' 캠페인으로 고혈압 예방 실천&nbsp;&nbsp;엔디엔뉴스",
-      "pubDate": "Fri, 24 Jul 2026 16:03:58 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
     },
     {
       "title": "Some antihypertensive drug combinations better tolerated than monotherapy, meta-analysis shows - Hospital Healthcare Europe",
@@ -302,10 +302,10 @@
       "prod": "lipitor"
     },
     {
-      "title": "The FDA Just Approved a New Cholesterol Pill—Here’s What Cardiologists Want You to Know - EatingWell",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUl9iT25ZcVRkbUs3TW1WdTZhT2FRcU9vZ2xabEM5XzdTTkhSaVlMNGhrbDFjVkRxR2NxdUVIRXMxbXZnRk5feVRUdS1kQjE2OElZNUFFUDVHX0pUM2VQSGg5NVREMnZhUVdCSXVKOGRiUGppMTdna01tS3VQVzFfTEJRYTdIUQ?oc=5",
-      "desc": "The FDA Just Approved a New Cholesterol Pill—Here’s What Cardiologists Want You to Know&nbsp;&nbsp;EatingWell",
-      "pubDate": "Thu, 23 Jul 2026 04:00:45 GMT",
+      "title": "The FDA Just Approved a New Cholesterol Pill—Here’s What Cardiologists Want You to Know - Yahoo Health",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSTBaTmdKd21PQW9YQVFPeVZHYzg0c2ctSWUtNDlxWERyNldORHp3alI1Qm9EYk0zLTZNcGtYOGhnLS1VTmw1Zkp2bFNjOTRUVVVIRjlUWjhGNHJYd1VTVlBXODd4VE5ZMml2LTBQdWI5Z0RZMzkxU3dJaVJjeklPdTBBdEJua0Y0eGo2U0FQNE56YU94Q09COXNtN0FUM0hrbjVvRTk4UmNFd1preGc?oc=5",
+      "desc": "The FDA Just Approved a New Cholesterol Pill—Here’s What Cardiologists Want You to Know&nbsp;&nbsp;Yahoo Health",
+      "pubDate": "Thu, 23 Jul 2026 04:00:00 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
@@ -952,16 +952,6 @@
       "prod": "lyrica"
     },
     {
-      "title": "People’s Pharmacy | Finding the best blood pressure medicine is challenging - Raleigh News & Observer",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9rb0NKcU9henhfN0FvN0pQYWNnNV9aelREbzZiY2dvV2JpSkFnWmU1NGNxbnNSZnI1ZjVZNnZuYm9ONWFwejYteDZSQ1R3QUhydWp0SjFRSW0zUkRGZm1Ha2hmeHdUWEcx0gFoQVVfeXFMTXVTa2RqV3FhRGlZR2VhT0RaSDFGN1c4RnBSZFNIXzhYS2Q4MlFtbG9rWXh0WWVITTNrTGNaSGtjc1dSLVBReHBaR3k5NTBnVmpTMDFyMmJ4UEFxX0FhbHNySEsyS1hkN3Y?oc=5",
-      "desc": "People’s Pharmacy | Finding the best blood pressure medicine is challenging&nbsp;&nbsp;Raleigh News & Observer",
-      "pubDate": "Fri, 17 Jul 2026 13:00:00 GMT",
-      "sourceId": "gn_htn_en",
-      "sourceName": "Norvasc·CCB (Global)",
-      "country": "US",
-      "prod": "norvasc"
-    },
-    {
       "title": "Taking Amlodipine? NHS Issues Safety Warnings For Blood Pressure Patients, Here’s Why - Health and Me",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaVRZblVPUHNwVWtmdzRNSFBhWmJVdkZYRDRoSkMzaVZXblB6Sko3NC1wZ3lLNGFUbHcyX044ZzVKcFJLY1FLWjlZbnJ4Z2xvN1NjS1ZLS2ZUdFp5LW52Zm9RSGpsWXBzTWc1WkhuVEhlNUxVRl9GRkNfOTE2cndNZVpXM2Q2R0E1cVhadnFZbzExRklDWnRwbFIwbkNpTnA2YllsOGJUSXZCSHRSdWdjY3VoazRsMnlqQTNodHZYd3AxZTQzaXZ2WDl5REkyd2dMWlBrQlV1dw?oc=5",
       "desc": "Taking Amlodipine? NHS Issues Safety Warnings For Blood Pressure Patients, Here’s Why&nbsp;&nbsp;Health and Me",
@@ -1062,6 +1052,16 @@
       "prod": "lipitor"
     },
     {
+      "title": "Oral PCSK9 Inhibitor Lipfendra Cleared for Hypercholesterolemia - Medical Professionals Reference",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObGtBaG1Kem9YSmQxemVaX1JHNHdVNWg0TENvajFpNzJMVXhJSXZLbmZLVUVkZ3h0MU9xeU03em1tYTZvdUZnQU4yNnJXX2ZOZHRKNHc2TXhCc1ItRWJmaFlBNEZ0OXZ5RVFPbDlGVGU0NUlrMEd3SUNWdVpLV2laWHVscnJSZFRqRzZXWVhXVzk?oc=5",
+      "desc": "Oral PCSK9 Inhibitor Lipfendra Cleared for Hypercholesterolemia&nbsp;&nbsp;Medical Professionals Reference",
+      "pubDate": "Thu, 16 Jul 2026 07:00:00 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
+      "prod": "lipitor"
+    },
+    {
       "title": "The F.D.A. Approves a New Pill to Slash Cholesterol Levels - The New York Times",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZ2xHS0V3RXJWbVRPM19NRUpmbU90TWpJRUZ0TUhFc0psaW9hRHhlLWFpblRVbFV5YUJrOGtydWtObm03dV8xS2JNZ2lzZElyZlBQQlZwVEs2dGlfbEE3QzFWUkVTbVBQTW5td0Q2ZTRaUWprTTZoLWN6d2JnVGJyaFZKWjQwaWp5d1pxU0RHSTFObVowSGxCNzZjSmZQX2pWV0NhWWFn?oc=5",
       "desc": "The F.D.A. Approves a New Pill to Slash Cholesterol Levels&nbsp;&nbsp;The New York Times",
@@ -1100,16 +1100,6 @@
       "sourceName": "Drug Policy (Global)",
       "country": "US",
       "prod": "all"
-    },
-    {
-      "title": "Oral PCSK9 Inhibitor Lipfendra Cleared for Hypercholesterolemia - Medical Professionals Reference",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObGtBaG1Kem9YSmQxemVaX1JHNHdVNWg0TENvajFpNzJMVXhJSXZLbmZLVUVkZ3h0MU9xeU03em1tYTZvdUZnQU4yNnJXX2ZOZHRKNHc2TXhCc1ItRWJmaFlBNEZ0OXZ5RVFPbDlGVGU0NUlrMEd3SUNWdVpLV2laWHVscnJSZFRqRzZXWVhXVzk?oc=5",
-      "desc": "Oral PCSK9 Inhibitor Lipfendra Cleared for Hypercholesterolemia&nbsp;&nbsp;Medical Professionals Reference",
-      "pubDate": "Thu, 16 Jul 2026 04:00:00 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
-      "country": "US",
-      "prod": "lipitor"
     },
     {
       "title": "Best Mattress for Neuropathy Relief of 2026 - Eachnight",
