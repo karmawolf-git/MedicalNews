@@ -1,11 +1,131 @@
 {
-  "updatedAt": "2026-07-29T03:17:38.375Z",
+  "updatedAt": "2026-07-29T08:49:51.484Z",
   "articles": [
     {
-      "title": "강스템바이오텍 \"골관절염 2a상서 유효성 확보\" - 네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YbVJZQ05OZGpKYlJQakk1X1dJTF9xWUgzOVNNcVg0TGp1a2daRFZHd1d2SWZraHN0dnd0SnBVQkpUYTl4X1NMNW5VYlp4cjBpVHlB?oc=5",
-      "desc": "강스템바이오텍 \"골관절염 2a상서 유효성 확보\"&nbsp;&nbsp;네이트",
-      "pubDate": "Wed, 29 Jul 2026 02:41:00 GMT",
+      "title": "동광제약, 텔미스타엑스 제형 개선…원형정제∙병포장 적용 - 메디칼타임즈",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50MmstRXJBYzZBZXo1a1hQRm1BMjBTNmpxOFd3Z3lleFRubzBtZ3hFcFVFQmtPVlBLU1ZZdEczV0VMNTlKTkQ5ZjIybVRzRjc4WDdSbW9qb2xsSEdqRFpHMlFWdHBfYjltS3JMN1F5LU0?oc=5",
+      "desc": "동광제약, 텔미스타엑스 제형 개선…원형정제∙병포장 적용&nbsp;&nbsp;메디칼타임즈",
+      "pubDate": "Wed, 29 Jul 2026 08:02:34 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "마운자로도 이겨낸 윤남노 \"177㎝ 101㎏, 고혈압→지방간\" 관리 시급 건강 상태(윤남노포) - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1JT1ZyUTdKTkZqemtBRm5kMTc1bElRRFExUDVhaXFBdFIzYnpYY2V2b3ZhUEs2ZmstSi1TTFB1WU9yWFY3VGNqaGZrVERCWlA1ZUJz?oc=5",
+      "desc": "마운자로도 이겨낸 윤남노 \"177㎝ 101㎏, 고혈압→지방간\" 관리 시급 건강 상태(윤남노포)&nbsp;&nbsp;네이트",
+      "pubDate": "Wed, 29 Jul 2026 07:24:00 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "의사들은 골관절염 치료에 PRP 주사를 권장합니다. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNM2FZa0JyQWp1VDUzYXFyMldUcGp5RnlsTUN3RGQwa0o1eTZidzRrNjRLMk1ybFhBWExicEFJYkR5Qnc4WWlXWXZqTWV4UlJaNmgxcXNDdFBnSm9JWjh4VGNHcUZFRHBYSlc3Yk9QemxrZ3JjcThfMkNaQ3RmelhCWVFva0dFSV9YbFE?oc=5",
+      "desc": "의사들은 골관절염 치료에 PRP 주사를 권장합니다.&nbsp;&nbsp;Vietnam.vn",
+      "pubDate": "Wed, 29 Jul 2026 06:32:44 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "'마운자로 실패' 윤남노, 몸무게 최초 공개 \"키 177cm·101kg, 지방간+고지혈증 위험\" - 스포츠조선",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNYkFDcVJfazBtenNfcUhhMVdPVDJNNFZkOWRpenhhSzcza0hEU1FYMzIxVlpaeEZyTHhCa0pTeHJKRENsQXkxQzVJZ0wtU0RkaUxjX3ZpUTdWbTMxQXYtT0FqQXRMdlVZSjUzOEZuT0o0LWpDYXhDaHB2RU95dnhjOGxHMEQ?oc=5",
+      "desc": "'마운자로 실패' 윤남노, 몸무게 최초 공개 \"키 177cm·101kg, 지방간+고지혈증 위험\"&nbsp;&nbsp;스포츠조선",
+      "pubDate": "Wed, 29 Jul 2026 06:32:37 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
+    {
+      "title": "강스템바이오텍 \"골관절염치료제 2상 성공…4조 기술이전 목표\" - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8xZHJFMFJrVXUtYnFoTDhpVWFfWHdRdjVkWHpLWTZLbkhYYlcyTk5HWHdXZ3lWTWdKQWQwZU9YcENJMWxNMDQ0cVkydXNWMjM2bnR1b2N0MWFGc1hNSUFjbw?oc=5",
+      "desc": "강스템바이오텍 \"골관절염치료제 2상 성공…4조 기술이전 목표\"&nbsp;&nbsp;뉴스1",
+      "pubDate": "Wed, 29 Jul 2026 05:40:06 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "강스템 \"골관절염 치료제, 4조원대 기술수출 기대\" - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5pV1g4YWFNQjRGY2RxLXpvMlFwNHpUblhURndMb1pIS3l2MHZ3R1ctdmI3V21iN0V0Wk1QZTRLVnZmOTJxVzBnRmZMUFNQSE0?oc=5",
+      "desc": "강스템 \"골관절염 치료제, 4조원대 기술수출 기대\"&nbsp;&nbsp;v.daum.net",
+      "pubDate": "Wed, 29 Jul 2026 05:35:28 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "강스템바이오텍 OSCA, 골관절염 통증·기능 개선…기술이전 '청신호' - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAzdXhRbENXQldlVU9hV1lxN0EyZGxYa0hsXy12clpFNjVXUC1TcnhvaDdQekRYN1lVbUQwdF93WW4tVVpjbE9mdnQ3MkxUZGVjVDln?oc=5",
+      "desc": "강스템바이오텍 OSCA, 골관절염 통증·기능 개선…기술이전 '청신호'&nbsp;&nbsp;네이트",
+      "pubDate": "Wed, 29 Jul 2026 05:28:00 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "평택시 송탄보건소, '고혈압 약물 교육' 실시…약물 정보등 제공 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE04VE83T0hwY3JtUkNwTDdCTEVIYUhEU3NYTU5hQm0wZGo1X3JGUjZvRUxZbDhlbjMtX3VqdXlnUDFHU1ZwRmVBM1dBN3N4REpiNXBWM1BnM3ZwN1la?oc=5",
+      "desc": "평택시 송탄보건소, '고혈압 약물 교육' 실시…약물 정보등 제공&nbsp;&nbsp;뉴스핌",
+      "pubDate": "Wed, 29 Jul 2026 05:14:00 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "김제시, 만성질환자 합병증 예방을 위한 지속 관리 - 아시아뉴스전북",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jODBidnNvWFB4MDBtYVJURjBsVmhqMDhZdzhOWFByUlZpUEtRT19BS2VXcDZBMnA5OTZvUmx1MEQxUzVoY1FZekdXM29ZZTVVNFREaGxzNWpyUmxWLTlrVW1uTF9BemVFZTIycUZn0gFuQVVfeXFMT2M4MGJ2c29YUHgwMG1hUlRGMGxWaGowOFl3OE5YUHJSVmlQS1FPX0FLZVdwNkEycDk5Nm9SbHUwRDFTNWhjUVl6R1czb1llNVU0VERobHM1anJSbFYtOWtVbW5MX0F6ZUVlMjJxRmc?oc=5",
+      "desc": "김제시, 만성질환자 합병증 예방을 위한 지속 관리&nbsp;&nbsp;아시아뉴스전북",
+      "pubDate": "Wed, 29 Jul 2026 05:00:44 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "평택시 송탄보건소, ‘고혈압·당뇨병 약물 바로알기’ 교육 실시 - 경기뉴스광장",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5XcEFIQVJQNjVSM0hhTFR1Tk5RMXNmM3Z3TTYwZk1CZzhMUGlJLWVPd0MzeGtFaWluekwyU2FzQVAxX0FNajgtRmMwMjlaM1FZMTR2cVF6OW1Rd2RXOE5wT0FR?oc=5",
+      "desc": "평택시 송탄보건소, ‘고혈압·당뇨병 약물 바로알기’ 교육 실시&nbsp;&nbsp;경기뉴스광장",
+      "pubDate": "Wed, 29 Jul 2026 04:47:21 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "강스템바이오텍 “골관절염 2a상 유효성 확인…후속 임상 속도” - 팜이데일리",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9kOFpnakJLU0RLckRxYklydGtIeGNJRmVzWXhLbjZjeXUtN1RTQnJRUEFyZlIyOEpKSktCMFB3cHZsMFRHSjdzbmJiUnZVb1N5THdKQUxtdDJOSFR5Y3VaZzBKZjFxdDIwWEYxYW5B?oc=5",
+      "desc": "강스템바이오텍 “골관절염 2a상 유효성 확인…후속 임상 속도”&nbsp;&nbsp;팜이데일리",
+      "pubDate": "Wed, 29 Jul 2026 04:05:37 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "강스템바이오텍 \"골관절염 2a상서 유효성 확보\" - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1IeUVlUlE0Yl9kSmxuSkpFd2hKYm4zUmwyWFZ2Z1FlQzl6X3BVcmFWUWhYWmJZOFNPSnF0REY0Q1FseE1meS14bzBPaTcxRDRIXzluRGdOUTh6TWJFREttcnk0VmpReWpXN0dpYzlMQUdnLVY2eEJWT9IBeEFVX3lxTE1IeUVlUlE0Yl9kSmxuSkpFd2hKYm4zUmwyWFZ2Z1FlQzl6X3BVcmFWUWhYWmJZOFNPSnF0REY0Q1FseE1meS14bzBPaTcxRDRIXzluRGdOUTh6TWJFREttcnk0VmpReWpXN0dpYzlMQUdnLVY2eEJWTw?oc=5",
+      "desc": "강스템바이오텍 \"골관절염 2a상서 유효성 확보\"&nbsp;&nbsp;뉴시스",
+      "pubDate": "Wed, 29 Jul 2026 02:40:23 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "강스템바이오텍, 골관절염 치료제 개발 ‘순항’…‘오스카’ 임상 2a ‘통증 완화·연골 손상 복구’ - 더나은미래",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5TU1fZmxiUVNtM1dDVHF3WnBTMWFxNG5QVG40RS1hV1piYkhmQkVMSHo4R0pJZzdvNzZwZHhzenJIVFh2SVJnalNvSTR6MEd3ZkE?oc=5",
+      "desc": "강스템바이오텍, 골관절염 치료제 개발 ‘순항’…‘오스카’ 임상 2a ‘통증 완화·연골 손상 복구’&nbsp;&nbsp;더나은미래",
+      "pubDate": "Wed, 29 Jul 2026 02:25:00 GMT",
       "sourceId": "gn_celebrex_kr",
       "sourceName": "쎄레브렉스·관절염 (국내)",
       "country": "KR",
@@ -20,6 +140,36 @@
       "sourceName": "쎄레브렉스·관절염 (국내)",
       "country": "KR",
       "prod": "celebrex"
+    },
+    {
+      "title": "김제보건소, 고혈압‧당뇨 등 만성질환자 분기별 '무료 정기검진' 실시 - gukjenews.com",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxd01yX05McmVubnN5R2Y5NGw2UHVCZnFrQVh3SkFDNkxmRFI5YWpfTE9KNkJ6X05KdzBpc0lVZ2h4Mng0M3hqYWtFM2RJZkNySkw4aFZHb1lrelhrb2p1djhDNS1weW5RUzV6cFhR?oc=5",
+      "desc": "김제보건소, 고혈압‧당뇨 등 만성질환자 분기별 '무료 정기검진' 실시&nbsp;&nbsp;gukjenews.com",
+      "pubDate": "Wed, 29 Jul 2026 02:16:12 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "강스템바이오텍 골관절염 치료제 '오스카', 2a상 유효성 확인 - SBS Biz",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oMi1TdmxWVTZXMWVPUy15R3N0Y1JaTHU3SGk5SUZNUHFfbDVqalFXSjBoTGk5Y2g1am1pMUdfZXVYOGN2M0t6RWxyTUc4MGowVTU5SjRUVC3SAVhBVV95cUxPaDItU3ZsVlU2VzFlT1MteUdzdGNSWkx1N0hpOUlGTVBxX2w1ampRV0owaExpOWNoNWptaTFHX2V1WDhjdjNLekVsck1HODBqMFU1OUo0VFQt?oc=5",
+      "desc": "강스템바이오텍 골관절염 치료제 '오스카', 2a상 유효성 확인&nbsp;&nbsp;SBS Biz",
+      "pubDate": "Wed, 29 Jul 2026 02:15:00 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "DKSH코리아, 노바티스와 전략적 파트너십…전문의약품 사업 확대 - 바이오타임즈",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1MTIzVzR3TkUxdk94Qkgtdk1rRDFvdDRCeEtZY1lFOFhwMUNQeE8xUzAxWWtFeTN6SDE0WVZrLXU4Zk5qbDlFbmV6SzB1VWVvR1ZVLUhUNVVMVXJNd2k5cUk0Ry1DRGVDeE0zeQ?oc=5",
+      "desc": "DKSH코리아, 노바티스와 전략적 파트너십…전문의약품 사업 확대&nbsp;&nbsp;바이오타임즈",
+      "pubDate": "Wed, 29 Jul 2026 02:01:38 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
     },
     {
       "title": "[DKSH] 노바티스와 손잡고 전문약 사업 확대…디오반·엑스포지 판매 맡는다 - 뉴스더보이스헬스케어",
@@ -72,16 +222,6 @@
       "prod": "norvasc"
     },
     {
-      "title": "ARBB|ARB IOT Group Ltd|가격:4.070|Chg%:+0.070 - TradingKey",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5VLXZuM2QtbFJOa2xUZW9lcXVuUXNoRTFvS3RPZ2xZaVlMS1NLQWk4cTR5UmdGT1pBc3JWLVkzcWxLQVFBVDRxVm9CQlR5SXowd1ZTM3JrZk8tam0wN0FJcHVJVXpYT3NDNm45Qw?oc=5",
-      "desc": "ARBB|ARB IOT Group Ltd|가격:4.070|Chg%:+0.070&nbsp;&nbsp;TradingKey",
-      "pubDate": "Wed, 29 Jul 2026 00:03:26 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
       "title": "강스템바이오텍, 골관절염 치료제 ‘오스카’ 2a상서 통증·기능 개선 확인 - 조선비즈 - Chosunbiz",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQX0paYnFlUlZ5ZFh0WkNIVEJVTG9ObHI4LVhPeFB0UGlYbmR3aTUzYmd2dEFLZnRWX093aUFxbFNJcVNWUEpxUFpYaU1YMzR5cG9Da1d1c01yMWM5OV9VX190MU1fekc1YV83Nm5JYWhUV0czYVljTFNUa1YxZmpMUDQ3Q1RVdmvSAZsBQVVfeXFMTjdXbUVobGVwYlV4c0tuLWVRYVZEOHVQTFRvUjdNWDZGa3R3bGp0dl9JSEpZSXRRZVkzMFZkLS02TlBtUk16MjhiNm41cHRCckswTDBrTlVzTTVjOEpaazU5VHNoZ1MyUHhBcnkzNmcwS20teUsyaDBTQmhuZFlpTEJRQjB4TnhIWHJxV0hxRU1IUDQ3OGM4Mk9pekE?oc=5",
       "desc": "강스템바이오텍, 골관절염 치료제 ‘오스카’ 2a상서 통증·기능 개선 확인 - 조선비즈&nbsp;&nbsp;Chosunbiz",
@@ -103,7 +243,7 @@
     },
     {
       "title": "식약처, 줄기세포치료제 허가 반려…법원 “기존 치료제보다 우월할 필요 없어” - MEDI:GATE NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBxc3czMzV3QlloT1VYUE9rMm1OQzNabUNpTXBtRFVIbVM1RVJrMWd3MWxpTDRBSFc0OGJaVmU4LXpNbjRsczFKel9Bc1owcUJCazE2eTVPcw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5V3hTbGh0d0YydEtsdnJoLTVaVDZ2ZzFiMElPRVVUMUdSbFR0WVhJZzdDb0xNRDZtOGx3bEZzc3c2THQ1cGxYZTBtX2xld09BaVE?oc=5",
       "desc": "식약처, 줄기세포치료제 허가 반려…법원 “기존 치료제보다 우월할 필요 없어”&nbsp;&nbsp;MEDI:GATE NEWS",
       "pubDate": "Tue, 28 Jul 2026 21:59:00 GMT",
       "sourceId": "gn_policy_kr",
@@ -172,6 +312,16 @@
       "prod": "norvasc"
     },
     {
+      "title": "오가논, 아토젯·바이토린 단독 판매…종근당과 협업 마침표 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sXzNrWHUtSFZyV1dKajZraWVLaWhEcmtNT3ZYUkRRdml5RndzOUtnTGZwNDNGUEdkYnZEQ1BSN0VHRnpCS05oOGREY2J4Z3MzNmtSTllB?oc=5",
+      "desc": "오가논, 아토젯·바이토린 단독 판매…종근당과 협업 마침표&nbsp;&nbsp;데일리팜",
+      "pubDate": "Tue, 28 Jul 2026 16:55:15 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
+    {
       "title": "First OTC Acetaminophen-Naproxen Combination Approved Benefits, risks, and who should avoid the new 12-hour pain-relief pill - Business Upturn",
       "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPak95RU5wdjJXMXZNajR5U0xnSUZwTklWODJqYUR0ekZkbDNKNGJNODZ3ZkpkeDFYRXFyV0xnUTY1ZDJxUExWNW54OERacjdmWWtTbHBiZm9HR012a2RoU0xPOVZNLTZpZ1huWjBvcElPQUJFQ2p3ek1YdXNHdC1EUnpjb214eUItTFpJdEJQZ3J6V0toNzY3VHFWQWVHTzlZQnh1VWdNTFRNLURyX0NmUDZhZkt4TTRfaW1FektPS0lNMGdGc2FRb3RqZTJ0THdvaEQxNUwwVkFMOG9HczFuQUh3RlBqQUR5T1l2dTY0dlI3RU8xVjRlUg?oc=5",
       "desc": "First OTC Acetaminophen-Naproxen Combination Approved Benefits, risks, and who should avoid the new 12-hour pain-relief pill&nbsp;&nbsp;Business Upturn",
@@ -182,16 +332,6 @@
       "prod": "all"
     },
     {
-      "title": "DKSH코리아, 노바티스와 손잡고 전문의약품 사업 확대…고혈압 치료제 포트폴리오 추가 - 벤처스퀘어",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE03d3RBdEI3VXFVX0UwdzRVX3oybjBvZVlBN0lGSndFa0o1a3BXTXo1dTN6SzhXM3BXQXJHaUJBdzd4T2plNDlxb0FDVHFTVlE?oc=5",
-      "desc": "DKSH코리아, 노바티스와 손잡고 전문의약품 사업 확대…고혈압 치료제 포트폴리오 추가&nbsp;&nbsp;벤처스퀘어",
-      "pubDate": "Tue, 28 Jul 2026 15:46:06 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
       "title": "2025 drugs cost: Employers saw slowest pace of growth in recent years - Canadian HR Reporter",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQ29zZ2tCTTg4dEtEV19Qd2JDbW4wQkM1R3FvRHFoQXhxSmVwYmtkNXFJb29VY1VteW9rdlBhQ2dnVjNKMzc5LTlEZ3BWZ1A4Z3N1RFgzZkVDVzMwNjYwS1ZXS0hLdzRsbHV3VXFCanpNd0FCLXRBOWVNTEFORndVZjlVU3NjMmJMc09mcFJSR0gxRDlIN3htSkdWaGdzOFJkU2Q0Y19FMkJmZTBjbUFyckdhWlJjeHBubk9udFBic0RlSFNZTkt6bWJwN285WHBXdFRCVjh2SQ?oc=5",
       "desc": "2025 drugs cost: Employers saw slowest pace of growth in recent years&nbsp;&nbsp;Canadian HR Reporter",
@@ -200,16 +340,6 @@
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
       "prod": "celebrex"
-    },
-    {
-      "title": "동광제약, 텔미스타엑스 제형 개선…원형정제∙병포장 적용 - 메디칼타임즈",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8yVVpxRVg2S2JfR2h3b0V1ekFkWkwxX3BnVUJtOUNhVGdIZnFYTXZieERVb1pNSUh2WkhvMnU2bDEtNGFJOE9hNTVFTTRlNzZBWjZVY0s2TjRqZG55VmVSd0hjdTVRZ1Zsd3FDS1gzTTZmcDA?oc=5",
-      "desc": "동광제약, 텔미스타엑스 제형 개선…원형정제∙병포장 적용&nbsp;&nbsp;메디칼타임즈",
-      "pubDate": "Tue, 28 Jul 2026 13:59:20 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
     },
     {
       "title": "강스템바이오텍, 골관절염 치료제 ‘오스카’ 2a상서 유효성 확인 - 데일리한국",
@@ -242,40 +372,10 @@
       "prod": "celebrex"
     },
     {
-      "title": "강스템, 골관절염치료제 2a상서 안전성 확인…연골 구조 개선은 일부 입증 - edaily.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSXBYTjQxMzFJc0IwcmhUYVVrRkpJdVNmbndzSjJYMzgwWWw1bWNKWEFQZENKRHpVbTNldTZ2NXJDdHpmZ1hyWEhldzNVb3VvYW1mRzhpczdZR1RUZ21WcUdfaEhrMUpsak1rem9sZzhIcGJFUEJPY093OVdaeUU4Rg?oc=5",
-      "desc": "강스템, 골관절염치료제 2a상서 안전성 확인…연골 구조 개선은 일부 입증&nbsp;&nbsp;edaily.co.kr",
-      "pubDate": "Tue, 28 Jul 2026 10:04:03 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
       "title": "강스템 \"골관절염 치료물질 OSCA, 2a상 톱라인서 유효성 확인\" - 히트뉴스",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFByWHN0bkJPRmRJdWNkTWxmWHd6WTFPLUgtb3JRNXZLZUl3N3ljbUFVbEk0REp1Tm9pUkZOWjJoTHBQOHlWaWlYTk5mODNfRzBOZmMtUWdEX0RsVnEyRjZCdkVlM1Jxa1hQTDlJ?oc=5",
       "desc": "강스템 \"골관절염 치료물질 OSCA, 2a상 톱라인서 유효성 확인\"&nbsp;&nbsp;히트뉴스",
       "pubDate": "Tue, 28 Jul 2026 10:03:59 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
-      "title": "강스템바이오텍 “골관절염 치료제 ‘오스카’, 2a상서 통증·관절 기능 지표 유의” - 디지틀조선일보",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTVRrSGk2SjBDNzB4QWZHNnhWNnI0U2ZXYkNYYXdmRnB0Sm5lZ09iaDFuY1dwNktQNjdKLTh3R0pMQXZoTURqUFBySWlaUk91QjhSa2RjUzZjTjFJY0x6QTBpR016TVBVT1JjOVJ0QXpUX0czSV9QRXZMbG00eExQTWlLTTRuRkHSAXtBVV95cUxObGxZbXV6QmI0d3JtUDlvaUYxZml6d2VWbWpLRVc3cDlnSjJYU1RQSWJ0ODJ3cnRfMEx2cXZtZFFpb0NZV2NfYkk5TktXRjF1emRTWjloZm5RcTVnejFUZFlBaWttSnUtd0R5N3hGSnJKdnFZNWcyM1RROVk?oc=5",
-      "desc": "강스템바이오텍 “골관절염 치료제 ‘오스카’, 2a상서 통증·관절 기능 지표 유의”&nbsp;&nbsp;디지틀조선일보",
-      "pubDate": "Tue, 28 Jul 2026 10:00:00 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
-      "title": "강스템바이오텍, 무릎 골관절염 줄기세포치료제 OSCA 제2a상 임상 톱라인 결과 수령…모든 통증·기능 지표서 위약 대비 유의한 개선 - 디지털투데이",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1JX01MYmFfMFJRd1ZFeUFGYzN3anlBV3VuQk5XV1NFMWhPbk1hV3EyMlFhM0FiMzBTMGl0WWtFRkJyZjF4NjVCY3BKU3pfWFllNWZ1R1pkWm5XU2YxRHFTSEZpTFpEWFdBbjVRWk5YRlNVX28?oc=5",
-      "desc": "강스템바이오텍, 무릎 골관절염 줄기세포치료제 OSCA 제2a상 임상 톱라인 결과 수령…모든 통증·기능 지표서 위약 대비 유의한 개선&nbsp;&nbsp;디지털투데이",
-      "pubDate": "Tue, 28 Jul 2026 09:53:06 GMT",
       "sourceId": "gn_celebrex_kr",
       "sourceName": "쎄레브렉스·관절염 (국내)",
       "country": "KR",
@@ -312,16 +412,6 @@
       "prod": "lyrica"
     },
     {
-      "title": "HK이노엔 케이캡, 6번째 적응증 확보…NSAID 궤양 예방시장 가세 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBLSS1QREYxMXdoTzJNdHhpU3RObllkcmZCYUh5bTZMSThoM2pYR081RFMyTXhOWWpod0pLRVJhcVdIZ1p2eDVyRFA3b0FQcTg?oc=5",
-      "desc": "HK이노엔 케이캡, 6번째 적응증 확보…NSAID 궤양 예방시장 가세&nbsp;&nbsp;v.daum.net",
-      "pubDate": "Tue, 28 Jul 2026 08:08:04 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
       "title": "New Twice-Yearly Inclisiran Therapy Shows Major Reduction in LDL Cholesterol - Medscape",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOM0JJZjYydlVuTUJSQ0F0WVVBbUpkb2NuMXRPcDZickpXbW94cUVFampwb1BxeEdfa0Qtb0Z4TzI5ZHBUa251MWdXWExoZ0xMSzBYR2V2OEFDRE9wTjhEMllpeGFZaDFSZ2dkYUp4a0RsYlZxYkxzcmpEclY3RnRwRmo0X1ZKVl9SNVJXYzdZdkZYVUprME1ZNnphOWlpdnM0N2FhVHRtVHVUcWs?oc=5",
       "desc": "New Twice-Yearly Inclisiran Therapy Shows Major Reduction in LDL Cholesterol&nbsp;&nbsp;Medscape",
@@ -329,26 +419,6 @@
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
-      "prod": "lipitor"
-    },
-    {
-      "title": "종근당, 고혈압 신약 개발 ‘분수령’…국내 3상 돌입 - 한스경제",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE84SGJ0VGVfTjN2SXg0LU53RC14czVsR3dEU0F3MWJPODhtU1lqUmZpUG5zVHBxQWZaLXA2ck9fQ1lTeUtNbzZPMUhoVUxmX0F5ZFEtZXpkTVBOZE84MTlYNVlfSklrRmZLMDI5TtIBb0FVX3lxTE1HMlBVYWpmbGZHYXJuVUp0UVBiOHJEandaVnoxVk1vcG5DQS1pRk9HMWtSM0VjcU16ME81Tm40NV94WVNMeFh5UGFYUDRmU1FfWlQ0bGdWLWNHMjA0WnBLLU94X0NLU0NlTnNHS1puSQ?oc=5",
-      "desc": "종근당, 고혈압 신약 개발 ‘분수령’…국내 3상 돌입&nbsp;&nbsp;한스경제",
-      "pubDate": "Tue, 28 Jul 2026 06:41:10 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
-      "title": "오가논, 아토젯·바이토린 단독 판매…종근당과 협업 마침표 - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sXzNrWHUtSFZyV1dKajZraWVLaWhEcmtNT3ZYUkRRdml5RndzOUtnTGZwNDNGUEdkYnZEQ1BSN0VHRnpCS05oOGREY2J4Z3MzNmtSTllB?oc=5",
-      "desc": "오가논, 아토젯·바이토린 단독 판매…종근당과 협업 마침표&nbsp;&nbsp;데일리팜",
-      "pubDate": "Tue, 28 Jul 2026 05:39:32 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
       "prod": "lipitor"
     },
     {
@@ -392,6 +462,16 @@
       "prod": "lipitor"
     },
     {
+      "title": "Potential Retatrutide Benefits You Should Know About - GoodRx",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9nSUFsZFFLTWNsbm9fd2drN1pDQjY1RHZJaGpWR3BiUW1Gcm5lRDc0NlJBeTJPUnI0LUlZcndJRHpScG16cTAtRHdBWkVlalFqZHhobFoySldZNUxSLW41RFNlOW95NzJ2bzZtNVJCYmVOSkNu?oc=5",
+      "desc": "Potential Retatrutide Benefits You Should Know About&nbsp;&nbsp;GoodRx",
+      "pubDate": "Tue, 28 Jul 2026 01:41:03 GMT",
+      "sourceId": "gn_policy_en",
+      "sourceName": "Drug Policy (Global)",
+      "country": "US",
+      "prod": "all"
+    },
+    {
       "title": "종근당, 고혈압 복합제 'CKD-339' 국내 3상 승인…상업화 한걸음 더 - 메디팜스투데이",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mRUN6ZnB2UEh6eTh3M01sUzEyRk9vTzJrNWxxZHNBT09DbUhlalFVLUgteGZEVGwzcktmSnBubmhIZGtqYi1MU2tWcHR6UDZvY1lINlBxdm0tTDEwMEJFYmZRX1cyS25I?oc=5",
       "desc": "종근당, 고혈압 복합제 'CKD-339' 국내 3상 승인…상업화 한걸음 더&nbsp;&nbsp;메디팜스투데이",
@@ -432,26 +512,6 @@
       "prod": "lipitor"
     },
     {
-      "title": "종근당, 고혈압 신약 'CKD-339' 국내 3상 승인 - 서울경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4tWW1jM1h1QXBHSmxrbnR1U2UxR3p6bTh2dTI4YzUyZDIwVjVQQmxUdGRmZldfRkxOaTEyYTBSaV9wMzdBbk0tU01pbmFLb050YVdnd1ZRV291cHVWbWx3SDlCQlk?oc=5",
-      "desc": "종근당, 고혈압 신약 'CKD-339' 국내 3상 승인&nbsp;&nbsp;서울경제TV",
-      "pubDate": "Mon, 27 Jul 2026 23:25:43 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
-      "title": "종근당, 고혈압 복합제 ‘CKD-339’ 임상3상 승인…심혈관 포트폴리오 확대 - PRESS9",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE02cTZJVWpfSU8tekZSNGlBbC1QdFNUQjJVWnRyUE1GbVNwZGNHc05uVnFKVEtkZ2xTT0ZwT3dIRFhoSWdIQ1cxUHBNeTFhdUpHckdXVURKRWE4SVpBMzRRSWp6a0g?oc=5",
-      "desc": "종근당, 고혈압 복합제 ‘CKD-339’ 임상3상 승인…심혈관 포트폴리오 확대&nbsp;&nbsp;PRESS9",
-      "pubDate": "Mon, 27 Jul 2026 23:25:16 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
       "title": "Jacobio Starts Phase IIa Trial of First BET Inhibitor for Rheumatoid Arthritis in China - The Globe and Mail",
       "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNSkRFdU83bVBEZTJpaGd2ZTg2aWZ1cEJSMlA3b2szcU1PQ2o1WXduc0NETzlfTldFelRKUmZZeEdFLUZ4Vm52cktrU2ZUQlV4a0QzTWUtT1RrOEgyREJ0UjdVRjU3VXdUcmxRbDRJbmxnbC03TmZrSWFsUk5lWDUtd2prNzdOVWRLamt6b3VUc3BqRC1nMmNhamFNWlE0YTF1NTR1cHZsZ2c5UTAzbktPbW5OTzhEREgtVmR3ZzMyWi1pOW1tdU1TazNEOTNwS0M0andZUFNvRWJ6dUozem9GQ3JKMThRb2h2Q3g5RU1BZHF1M2lrYTZkRG9HWGY?oc=5",
       "desc": "Jacobio Starts Phase IIa Trial of First BET Inhibitor for Rheumatoid Arthritis in China&nbsp;&nbsp;The Globe and Mail",
@@ -460,16 +520,6 @@
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
       "prod": "celebrex"
-    },
-    {
-      "title": "Potential Retatrutide Benefits You Should Know About - GoodRx",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9nSUFsZFFLTWNsbm9fd2drN1pDQjY1RHZJaGpWR3BiUW1Gcm5lRDc0NlJBeTJPUnI0LUlZcndJRHpScG16cTAtRHdBWkVlalFqZHhobFoySldZNUxSLW41RFNlOW95NzJ2bzZtNVJCYmVOSkNu?oc=5",
-      "desc": "Potential Retatrutide Benefits You Should Know About&nbsp;&nbsp;GoodRx",
-      "pubDate": "Mon, 27 Jul 2026 22:41:03 GMT",
-      "sourceId": "gn_policy_en",
-      "sourceName": "Drug Policy (Global)",
-      "country": "US",
-      "prod": "all"
     },
     {
       "title": "FDA approves oral drug meant to help reduce LDL cholesterol - NorthcentralPA.com",
@@ -526,6 +576,16 @@
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWVRlQ0tTOW9wVHVlOTdnemtiYzlSMWJIZU5rMFR5cERLcHFpcGh0YUR2VFZ3aC03Wi1HMjlsV1VtbzRFaWJvSjJIV3B4eVVSVkFtRUVvT1MyTjZLZ3VYVDNwRkhOMEpURlEtd2xvMC1vcVJud0h2V1V5SFI5enVENkF5MTAtT2lFSGdZOWtQOXo0cXJKdWR1OEM1SjQ?oc=5",
       "desc": "FDA Approves the First Oral PCSK9 Inhibitor, Ending the Injection-Only Era for a Major Cholesterol Drug Class&nbsp;&nbsp;Medical Daily",
       "pubDate": "Mon, 27 Jul 2026 11:20:08 GMT",
+      "sourceId": "gn_policy_en",
+      "sourceName": "Drug Policy (Global)",
+      "country": "US",
+      "prod": "all"
+    },
+    {
+      "title": "New Cholesterol Drugs Move Closer to EU Approval - Medscape",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeGNOb3RJV2lNc3hfdm1aSm5OdUVmTFN1bHQzT1puWlNOSEI2RE50dkVWemFUNDR3R3VaNTdob2hveU1GVHp5V1FtOXVRRFQ0cG1zNFY2THQySFd2S2dZT2kxR1MzTkhmN3NkTWNDVVE3MmZIME9DbnpXcmMyVWRWNm84RDgtOERmTWRzYVBVOVFfZ3poMjlXSzZPUQ?oc=5",
+      "desc": "New Cholesterol Drugs Move Closer to EU Approval&nbsp;&nbsp;Medscape",
+      "pubDate": "Mon, 27 Jul 2026 11:13:22 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
@@ -592,16 +652,6 @@
       "prod": "lipitor"
     },
     {
-      "title": "개량신약 강자 한국유나이티드제약도 고지혈 3제 복합제 ‘등판’ - 메디소비자뉴스",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9LZEo5N0VDS1JDcjJ1R3ZfSVpmWGN6M2VlUnhSS29WUFA3bTVRNmxEVmJvUFhDcURmVzNUMDVkbkViMkhaRTZvdEtRSXE0YnNsRkJuRU1CUEFnOGNVSmVvMHhlbE9SUkp4ZjA4U2FrMy1KRmQ2cHfSAXZBVV95cUxPS2RKOTdFQ0tSQ3IydUd2X0laZlhjejNlZVJ4UktvVlBQN201UTZsRFZib1BYQ3FEZlczVDA1ZG5FYjJIWkU2b3RLUUlxNGJzbEZCbkVNQlBBZzhjVUplbzB4ZWxPUlJKeGYwOFNhazMtSkZkNnB3?oc=5",
-      "desc": "개량신약 강자 한국유나이티드제약도 고지혈 3제 복합제 ‘등판’&nbsp;&nbsp;메디소비자뉴스",
-      "pubDate": "Mon, 27 Jul 2026 00:39:40 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
-    },
-    {
       "title": "피타+에제 저용량 경쟁 심화...대원 등 4개사 급여 진입 - 데일리팜",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA2UzVPUVpUa1BjSTdZN1FCN1dzSGRtcEdvUUdDYzFuQ3BESFdWU3hhWUFROVphZHhsSWNlNThtWlM1TC1mdVJpbklZcmgyTlhK?oc=5",
       "desc": "피타+에제 저용량 경쟁 심화...대원 등 4개사 급여 진입&nbsp;&nbsp;데일리팜",
@@ -613,13 +663,23 @@
     },
     {
       "title": "[개량신약 열전]유한양행 ‘트루셋정’, 24시간 균일한 혈압 조절 가능 - 의학신문",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LRm04SnZYT2F4SzFTRzZ2eTFFWk13c1Z4Q3FWQXYxQnBub0ZGczZFNXpjTFhnMEZHaS1YRWdFNzFVeTJvSHVFU2piRVJzZ0dDY1NTN0I2WmZNQUZqX3hxd1NKN1Jld2xKTlE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vcHRsV1Z3VHEteUp3cmZrM3BHc3pQR01pWHhlUW9WVlRhbkZlNDhkM1pwWl8wMUFDUVpNakxRbXh3YjVSeXJkYVprZGZCWDJXb3lwanpibDQ4eWRvZ1d2UkZ2cDdQRnBpSVVN?oc=5",
       "desc": "[개량신약 열전]유한양행 ‘트루셋정’, 24시간 균일한 혈압 조절 가능&nbsp;&nbsp;의학신문",
       "pubDate": "Sun, 26 Jul 2026 21:00:00 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
       "prod": "norvasc"
+    },
+    {
+      "title": "개량신약 강자 한국유나이티드제약도 고지혈 3제 복합제 ‘등판’ - 메디소비자뉴스",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ZUXNoendVY194TjZJOTJrQ1N2M3JpTGZENTRXZ3owRlpVaVVTZUlUQl9XcGF6bmFiZFFhYjRCV1dIWWRGOHZ2MGdzaHJiV2N4dWhxNEdNOWo5N2ZpTU91b3U2bW4tb3dFSlpJczNKM0JPRlHSAXZBVV95cUxPS2RKOTdFQ0tSQ3IydUd2X0laZlhjejNlZVJ4UktvVlBQN201UTZsRFZib1BYQ3FEZlczVDA1ZG5FYjJIWkU2b3RLUUlxNGJzbEZCbkVNQlBBZzhjVUplbzB4ZWxPUlJKeGYwOFNhazMtSkZkNnB3?oc=5",
+      "desc": "개량신약 강자 한국유나이티드제약도 고지혈 3제 복합제 ‘등판’&nbsp;&nbsp;메디소비자뉴스",
+      "pubDate": "Sun, 26 Jul 2026 20:31:35 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
     },
     {
       "title": "A blockbuster new drug to consider | Dr. Loh - Ventura County Star",
@@ -662,26 +722,6 @@
       "prod": "lipitor"
     },
     {
-      "title": "바이오솔루션, 골관절염 치료제 차별화 전략 부각 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5QRFVKWW92dzlKN2NpWEFpWlZoTTF5RXdWeXN5NXgyOGxxcW5wcUFWcC1VM2I5dC1yUXFleTJ5QlBUYVZ1MTBsblBQcEhUZjFGbHY5TQ?oc=5",
-      "desc": "바이오솔루션, 골관절염 치료제 차별화 전략 부각&nbsp;&nbsp;v.daum.net",
-      "pubDate": "Sun, 26 Jul 2026 05:06:10 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
-      "title": "바이오솔루션, 골관절염 치료제 차별화 전략 부각 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8zNE51ZGFSajJ6aWZZYjlHS24tMkVOd1kyX2Q2YU1WRUFVUlRYemNUb2tpU04tRjR3TDlHdk9ERUZOaVZ1d3c?oc=5",
-      "desc": "바이오솔루션, 골관절염 치료제 차별화 전략 부각&nbsp;&nbsp;v.daum.net",
-      "pubDate": "Sun, 26 Jul 2026 05:06:10 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
       "title": "고기는 안 먹는데 콜레스테롤이 높다? - 강북인터넷뉴스",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPaXJOTG5FOEQtWWZTRUk2RF9PMTQySXZqWjBJUUs3ck1zM0Jld1EyZC11S3BxRVFZSWxTajFOR3l3Z2NxcVdDal80c1pVUzM2eS1CS3BubE1qNnVtMGpZeTU0VHlvcHRk?oc=5",
       "desc": "고기는 안 먹는데 콜레스테롤이 높다?&nbsp;&nbsp;강북인터넷뉴스",
@@ -720,6 +760,16 @@
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
       "prod": "lipitor"
+    },
+    {
+      "title": "새 정책에 묻어가려던 약 양도양수, 급변침... '고배' 마신 TG-C - 히트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBnQ3hjOWtZcS1xYjVUTlVLMnpIWlZOT1VTZnhSeENkMHpsRl9qR2FrSGtkc05heHQ2S1EwU055R1J3MzRqbVR6SW94MjJlaE9fZWRwWXZvYjNhNFU2V01kaHNJNlNVbWFCdEtF?oc=5",
+      "desc": "새 정책에 묻어가려던 약 양도양수, 급변침... '고배' 마신 TG-C&nbsp;&nbsp;히트뉴스",
+      "pubDate": "Fri, 24 Jul 2026 21:02:00 GMT",
+      "sourceId": "gn_lipitorplus_kr",
+      "sourceName": "리피토플러스·에제티미브 (국내)",
+      "country": "KR",
+      "prod": "lipitorplus"
     },
     {
       "title": "This New Oral Pill Could Make Lowering LDL Cholesterol Easier - Verywell Health",
@@ -790,16 +840,6 @@
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
       "prod": "lipitor"
-    },
-    {
-      "title": "세브란스, 줄기세포 기반 무릎 골관절염 임상연구 착수 - 메디칼업저버",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBOendCVkxTUGFnY3hDQW51Rnhjc05Zb2kxYkZjR1dzTklKei1Zd0RoZHU1S0V6d1BPRGc3cVpYc2dNSkdCYjRCMk16Sjl3ZW43cXhUaGtDMEgyN2pzc0hMelJHaXdTNDNVZFpz?oc=5",
-      "desc": "세브란스, 줄기세포 기반 무릎 골관절염 임상연구 착수&nbsp;&nbsp;메디칼업저버",
-      "pubDate": "Fri, 24 Jul 2026 01:10:49 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
     },
     {
       "title": "애로우헤드, ‘apoC-III RNAi’ 고지혈증 3상 \"동종최고\" - 바이오스펙테이터",
@@ -930,16 +970,6 @@
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
       "prod": "celebrex"
-    },
-    {
-      "title": "[창간 25주년] 과학적 근거 부족한 영양제·건기식이 스타틴 대체 못해-③ - 메디칼업저버",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4xQXZsUnpQY01XbWktRUVZdkdwWUFrbk9JNlo3VjN3NFA4cTE1c2pYeC1iRXZlTER0RHJXNC00b0wxdDlqMXpWaXpJb0lZSW96ZFJrZjlrUlZZMHVqaDBTbF9JNzhMYURhdDhv?oc=5",
-      "desc": "[창간 25주년] 과학적 근거 부족한 영양제·건기식이 스타틴 대체 못해-③&nbsp;&nbsp;메디칼업저버",
-      "pubDate": "Tue, 21 Jul 2026 20:56:49 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
     },
     {
       "title": "His doctor’s prescription for his unbearable pain seemed absurd. It worked. - The Washington Post",
@@ -1132,9 +1162,9 @@
       "prod": "lyrica"
     },
     {
-      "title": "FDA Approves Enlicitide, First Oral PCSK9 for High Cholesterol - The American Journal of Managed Care® (AJMC®)",
+      "title": "FDA Approves Enlicitide, First Oral PCSK9 for High Cholesterol - The American Journal of Managed Care",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcmxmTlBGbElNNkItMFdXcVVYUDVJY1JPeW9WZHJzTTVXWHZTSTA1RHoyRnV0OUo2UkN0cENtaUtLakJ2VnBPMk1xS1FiRzg3UHBfTWJKTDd0bWhaWjh0SDRFX085U3hQNnlCTzdjcDFicm1wRFRMdkU4UDBiZEZGN2pLRXVzaldpLVQxc2dLSUo?oc=5",
-      "desc": "FDA Approves Enlicitide, First Oral PCSK9 for High Cholesterol&nbsp;&nbsp;The American Journal of Managed Care® (AJMC®)",
+      "desc": "FDA Approves Enlicitide, First Oral PCSK9 for High Cholesterol&nbsp;&nbsp;The American Journal of Managed Care",
       "pubDate": "Thu, 16 Jul 2026 07:00:00 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
@@ -1212,6 +1242,16 @@
       "prod": "celebrex"
     },
     {
+      "title": "Best Mattress for Neuropathy Relief of 2026 - Eachnight",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fQWxyZ3I3SG5ENlo1d1RKWE04T092eXNZdHUzOGJSSU1CX1JDajh0WURyR1BwMkxyUXlwSHVyb2lGblJuTjRFcXNHQUYwMGhONmZ4bW93QXFIQnR6QWtadlZzUGlILWJDZzV5dV9pejZ3QjZmX1ZkOFhCelkwZzg?oc=5",
+      "desc": "Best Mattress for Neuropathy Relief of 2026&nbsp;&nbsp;Eachnight",
+      "pubDate": "Wed, 15 Jul 2026 07:00:00 GMT",
+      "sourceId": "gn_neuro_en",
+      "sourceName": "Lyrica·Neuropathy (Global)",
+      "country": "US",
+      "prod": "lyrica"
+    },
+    {
       "title": "Gabapentin Lawsuit 2026: Payouts (Updated July 2026) - LawFold.com",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAtUnlrc1FvbkI5eEcwMnFlNzR6Y1Fhb09ZbTRuc2lKWDdTRWFHTG5RX2hXSlItVWpsSm5abk9nTWF5TFQwLWdlVlM4a3A3NG41TXdfVGw2VQ?oc=5",
       "desc": "Gabapentin Lawsuit 2026: Payouts (Updated July 2026)&nbsp;&nbsp;LawFold.com",
@@ -1243,7 +1283,7 @@
     },
     {
       "title": "고혈압약 한 알로 효과 충분…초저용량 3제 복합제 효과 입증 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBFOWptb21SSmtIREpWOU9vUDJENUtWbGNaQTIwNGVoWXRva3V1dnRjZTVOUC1lVU42Z0lxU2EydnhFVVRJS0tuMUQyYm1fZ0RaOVNXRw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Jbmo2ejh2R0hDSzAzYmpETUpuV1BZeEtyTGthdVlmRlI4YkViSlFXNzJDWnZLRGp5bW9sVE9Ed0pjVi1FZkgtSWt5TXlVbkk?oc=5",
       "desc": "고혈압약 한 알로 효과 충분…초저용량 3제 복합제 효과 입증&nbsp;&nbsp;v.daum.net",
       "pubDate": "Wed, 15 Jul 2026 07:00:00 GMT",
       "sourceId": "gn_caduet_kr",
