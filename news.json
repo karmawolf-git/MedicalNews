@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-08-21T18:45:30.558Z",
+  "updatedAt": "2026-08-21T21:30:07.022Z",
   "articles": [
+    {
+      "title": "평생 먹던 스타틴 끝?…콜레스테롤 190→50 낮춘 한방 찾았다 - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE02MUc0cUpMcVR0ZFhsQzdzSUtVMWhid0tocWc3dkktNi1Dbm1wSTNDN0lGRDAya0NvU09jdXNKZS15ZzNzRmtyTGJqbGt3bTJQd0pv?oc=5",
+      "desc": "평생 먹던 스타틴 끝?…콜레스테롤 190→50 낮춘 한방 찾았다&nbsp;&nbsp;네이트",
+      "pubDate": "Fri, 21 Aug 2026 21:01:00 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
+    {
+      "title": "마운자로·위고비 등 고도비만 급여화 언제쯤? - 약사공론",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12RDFNT0x3bXVGS0JZeVRLa1ZGREIwN1p2UE96NmlETlZEeXB4S1pSSWtnbFZDYkZTa0dfU255Z0JEdVFSY29jNFE2a0daSTlQMnpLeS00aC1meFo1S1dWVEtLTkx1aGl5amh0OQ?oc=5",
+      "desc": "마운자로·위고비 등 고도비만 급여화 언제쯤?&nbsp;&nbsp;약사공론",
+      "pubDate": "Fri, 21 Aug 2026 20:48:00 GMT",
+      "sourceId": "gn_policy_kr",
+      "sourceName": "의약품 정책 (국내)",
+      "country": "KR",
+      "prod": "all"
+    },
     {
       "title": "Cobratide Injection Shows Comparable Pain Relief to Pregabalin in Herpes Zoster: Study - Medical Dialogues",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPR1ZEOUFYVVpUb1ZJQXBNNmdJX2VrbE5DNUZ4aXJsLTRQWmoxMTVqYm9wOEZMU2J0eldhSjFSMlRFckhuTGpTczZzbFRHdWtxa0tXYTlRLTdlbWdzVW1QYzdtTVlqVFVtZmN6Mm9lWWZVa2hLWXdPM0oySFc3ZkM4ckVOa1JvMTl1bW44cmlPWG5vT0lnLThURUlHUlhPNDFCUXFEM1JVQldqOG9KYWM5elZqa2FlRU5BVFViTGNCZ1hCT3NGOWQwMURNNjRReWxpNVHSAdcBQVVfeXFMTUVGRFRseTUwSnBRT3BqazJFdGlrRWtObkdIM1VYZjMtNXN4V3F5ZWdxbjdFd3JRbkdieWZaWnFhVjMxdnBGSklOQWlvVGpvcEpLdVNFZ2VSRUlwYjl4ai0xX0d5R0RQdWpsNnhZaHNoSHc5ZTZkTkpIOWZLZkJ0X05VQkVFdGxpS1JUTXREOVd5bThfZEhkeGhwczlma3FFZTJVZWxmX1psX0ZHdklJeTFyQnB5V29tN1RvQWRXSEZ6QWxab011RzN1S2x5Tm1HV3BLWk9FWjQ?oc=5",
@@ -10,16 +30,6 @@
       "sourceName": "Lyrica·Neuropathy (Global)",
       "country": "US",
       "prod": "lyrica"
-    },
-    {
-      "title": "삼겹살 먹고 남은 기름에 볶음밥…“너무 맛있어” 진짜 위험한 조합 [헬시타임] - 서울경제",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE02bzl5TVJDNmNrRE1UeFAzVS1ZakI5bWh6SURyd3pLSFpaUEVlMVlHRkpCdmk4c2NyZk1BYjA1Qkg2U2xuVHJhX3d0aHRWWS03Sktr?oc=5",
-      "desc": "삼겹살 먹고 남은 기름에 볶음밥…“너무 맛있어” 진짜 위험한 조합 [헬시타임]&nbsp;&nbsp;서울경제",
-      "pubDate": "Fri, 21 Aug 2026 11:33:46 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
     },
     {
       "title": "명문제약, 266억 로젯정 잇는다…고지혈증 신제품 줄줄이 출격 - 데일리팜",
@@ -122,10 +132,10 @@
       "prod": "lyrica"
     },
     {
-      "title": "Winter Garden Practice Offers Non-Surgical Relief for Nerve Pain and Neuropathy - FinancialContent",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcFUyWUo4Z2hKSFNjd3NQamRHUC1ieGU0dEt6SkUzT2NhR1hCRjNLNmE1RFEzMFZlcDA3YldvLXo3Q2xzSlY2X184RzcxdjcyR1AxQVlqR1E1dFBBWEJWSzcyZXFTeXhwdi1zR0hCUjNhclctMloxTi1faGtZSllYRml6X3NVMGljbTR0dnNVU0R4QVlUWUR1R1pQVk5xeE8wc29JRF9SLTg5c2NyR0dBN0M2MmlqMzJCQVZ5U1owNUNhNXRBcnFMM0VvcHh3U1F4YjZTWg?oc=5",
-      "desc": "Winter Garden Practice Offers Non-Surgical Relief for Nerve Pain and Neuropathy&nbsp;&nbsp;FinancialContent",
-      "pubDate": "Thu, 20 Aug 2026 08:24:00 GMT",
+      "title": "Winter Garden Practice Offers Non-Surgical Relief for Nerve Pain and Neuropathy - WBOC TV",
+      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOMDB3OVV4S19IXzJieVctZFFVNVByenVkUWc4QXJpSkdhS21MSnlLRllLZW9rU2NXSWtLQV92QndLSUFKbzRqWkREMU1ndTBiMFhIZU1ZeHl5ODNCRUk3WlQzcTFQOTVyY1Rqc1VMcHJaRGZWNTdDb09TMUZKcWxQcUdUQ0UtY09sUFotYUkyYjZnS0R0bkduZmd4aWZ2bHJrWEpadUs4WkIwMU9rcmF1elJzTWhLWmUwYzE1TGZSYkllSzRZXy1NNFlDbERUZTFEbWI4SjZEMlA2SjBEdDN0by1mekk1NzhNZ2VveHlSeGVsTWpKdnlYYURmTW5oZF9KeDVrMjNOZUNmaHRDaVE?oc=5",
+      "desc": "Winter Garden Practice Offers Non-Surgical Relief for Nerve Pain and Neuropathy&nbsp;&nbsp;WBOC TV",
+      "pubDate": "Thu, 20 Aug 2026 08:25:03 GMT",
       "sourceId": "gn_neuro_en",
       "sourceName": "Lyrica·Neuropathy (Global)",
       "country": "US",
@@ -153,7 +163,7 @@
     },
     {
       "title": "“대안 없이 45만 노인 지원 끊나”…고혈압·당뇨병 관리사업 개편에 현장 반발 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE04ejVQeUwxMl9OTmdZZVgwejN5S0R0TFpaQlhhM2E3ZS1iVWxVNEswN1VNcXJoeWdaR3J6ZXdtQmtmNzJvaEIyTy1QRQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE14VlI4S0RmV1c5RlFvWThnX3E5bndqMnlYQnQxLXc0TGZrNGVzYW9YcTBpcEI0WmczbndLaHZMWTZDSVpqS2JUSXdpT3R4LUE?oc=5",
       "desc": "“대안 없이 45만 노인 지원 끊나”…고혈압·당뇨병 관리사업 개편에 현장 반발&nbsp;&nbsp;v.daum.net",
       "pubDate": "Thu, 20 Aug 2026 05:44:06 GMT",
       "sourceId": "gn_norvasc_kr",
@@ -372,6 +382,16 @@
       "prod": "lipitor"
     },
     {
+      "title": "\"손가락 관절 통증이 시작\"…전신 염증 부르는 '이것' - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9Uamg5WUNZQmVlYkkyYWVlNW02Ylg1X2dlRllRVmtPN2hpVnh1UHNKMTdDNU5uS0JJeS14SUp1SFluME1LeTFnV2VTdVdRd1N1SExj?oc=5",
+      "desc": "\"손가락 관절 통증이 시작\"…전신 염증 부르는 '이것'&nbsp;&nbsp;네이트",
+      "pubDate": "Wed, 19 Aug 2026 00:36:00 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
       "title": "\"손가락 관절 통증이 시작\"…전신 염증 부르는 '이것' - 뉴시스",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UUldId3VMbTBFTHUzWUZRX3JYa3lwUWhlYWZYMmc2aF9HM0xsVjBGTFVlX1RCQ2RUblIzQmZwSktIVnBOd1VxMzJkWTFGQ2FmTmx0SFRTd0hKVGV4alJTTtIBeEFVX3lxTFBUWEUzcDF2c1RwWUpVdG1KZUJReURhMHVNODRpNEJ0cnU4ZEtqa2lkcEVrWmZLZldQUllGdEVmRUpycWN1ZW03QnN1dmlXcFowNjBIay1KTXZYSkVvRFhzdTlNaGptR1ZWaDJFQzFFcmZfUnZMVWlZVw?oc=5",
       "desc": "\"손가락 관절 통증이 시작\"…전신 염증 부르는 '이것'&nbsp;&nbsp;뉴시스",
@@ -430,6 +450,16 @@
       "sourceName": "쎄레브렉스·관절염 (국내)",
       "country": "KR",
       "prod": "celebrex"
+    },
+    {
+      "title": "TO YOUR GOOD HEALTH: Shingles patient doesn't experience pain due to vaccination - Clinton Herald",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPQWtfOW1vNjVuQ3ZTRmRJaFg0ZW5vcFNMVEVBdkI5YmdVVUJKY2JDVThYSkYxcF9LU1ViWDh0bzduZE5VbXVPT1Nlc0VUYzNQalRxRUIySFNzUUxOOWI4dU1KN1A5QVJlcmRmQXdjamdJWE5uOG9UVUlhbHpRazBBTllGb2o4ZVJZMl9qQ2tzOEtFbDR2bnR6NFl4QkNGbk9LX21ydWZMclQwZlFLYjFUb3JNdzdFUW9RQXR3UFNhMXJQdkFtN0FxRmdCSmxFbzJmNzB4ZWJocTlCQzZWQl9ZN1B6SlZVNFlPemVhOHpkZ1Y4VXhpUzVNQWItckFMODVFTnJvNA?oc=5",
+      "desc": "TO YOUR GOOD HEALTH: Shingles patient doesn't experience pain due to vaccination&nbsp;&nbsp;Clinton Herald",
+      "pubDate": "Tue, 18 Aug 2026 11:00:00 GMT",
+      "sourceId": "gn_neuro_en",
+      "sourceName": "Lyrica·Neuropathy (Global)",
+      "country": "US",
+      "prod": "lyrica"
     },
     {
       "title": "Hypertension: A Handful of Nuts a Day May Help Lower Your Risk 20% - Healthline",
@@ -632,6 +662,16 @@
       "prod": "lipitor"
     },
     {
+      "title": "How Treatment Choice Impacts Patient-Reported Outcomes in RA - Physician's Weekly",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxObENIZEZibUxkMWl3UjhzUE41czFqaE5nT09NU0U0aTVQcmlBYm1ZV3k1MHlyckxVcXVicHRKVkVSRVdNMHIwRXcwNDIzYkFBVHBFTnc1U1JINTBVWUVBQ3RIU1RMbHppT1JCV19ZdnYwTTFwUS1wanNISmlRazk5RW9Pd0dwZWpvaWZZcjJtTnlGZFZkV3o5Rnhnc1FKRmhlMTdkektwLWVPaWtjZjZhWFdCQ0ZtczBUZE4tM3laQ3NseWZPNEF3b3h5S1RkSUxZZmUxdUdqT0w0cy02TXVqcnBrOF9TOWZCQWx0U0RPeEVzS2M?oc=5",
+      "desc": "How Treatment Choice Impacts Patient-Reported Outcomes in RA&nbsp;&nbsp;Physician's Weekly",
+      "pubDate": "Mon, 17 Aug 2026 20:33:27 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
+    },
+    {
       "title": "FDA Clears Lerodalcibep-Liga Autoinjector, Widens LDL-C Indication - The American Journal of Managed Care",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMVVTSzk2MWZCVzl4cDhtb0pNU2QyOTNzS3pHYzJ4blUzTkU0U3ZnV1lHMEgwZ3lySUl1elhPdXhENU1KQnNtWXlYRXVYYlhKaHlPOEVhS2FRLTMtZUlJaWpNWHZSZkdvY2xwNzdndmxETWNqdnBfZlN0R3Z5UTUyUXg0RG0xUDViaDlNaVB1MXVtZWtqUVE?oc=5",
       "desc": "FDA Clears Lerodalcibep-Liga Autoinjector, Widens LDL-C Indication&nbsp;&nbsp;The American Journal of Managed Care",
@@ -640,16 +680,6 @@
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
       "prod": "lipitor"
-    },
-    {
-      "title": "How Treatment Choice Impacts Patient-Reported Outcomes in RA - Physician's Weekly",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOSmpwLUh6dFVsQ3NpUldIclBPS0w1eDQ4S2dJandDS1dGd2JLdUJtSlVNUElma2JvLVdjcUJDNzVSZWJ3SzNmSmVHbXdXS1owZGVQdHZvWi1RVllsNVA1TFFhbXo0c0xOUjk4R1FWMlp2SGRtTFF3NFRvcENMRmNUcEJUQzlJcjU4Q3BZWXRQMW1GbzhHVmVjODhsUlJlSXNvSTdxUnBHazBWNDFFUUhybjVMSnNEWnZpVFZXZHFJbzNtcG1ZMFgtNi1lbEFnZFVuRmxVRF96RVNjQTg3Wm5qVGxiMEN3emFnSkVmX2VTaFREdEU?oc=5",
-      "desc": "How Treatment Choice Impacts Patient-Reported Outcomes in RA&nbsp;&nbsp;Physician's Weekly",
-      "pubDate": "Mon, 17 Aug 2026 18:36:25 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
     },
     {
       "title": "Mechanism Matters in Rheumatoid Arthritis Treatment - Physician's Weekly",
@@ -800,16 +830,6 @@
       "sourceName": "리리카·신경통 (국내)",
       "country": "KR",
       "prod": "lyrica"
-    },
-    {
-      "title": "후덕해진 황제성 “8㎏ 쪄” 강호동 건강 걱정 “고지혈증 있어 보여”(아형) - 뉴스엔",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Ic0lhY2hZbmVhMUZSODlKb2xBbjVnMnBHd0xDc25CUldqdzRIb2ZJRnB6bkN2WXJmTUE1OE5qdjZSSFlWVk1YMkpVNDBtNEtPTGZGX0FqMkRtMkdQY3RBNk9qMHBJX3k1?oc=5",
-      "desc": "후덕해진 황제성 “8㎏ 쪄” 강호동 건강 걱정 “고지혈증 있어 보여”(아형)&nbsp;&nbsp;뉴스엔",
-      "pubDate": "Sat, 15 Aug 2026 12:14:57 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
     },
     {
       "title": "New hypertension drugs show no advantage over older generics - Managed Healthcare Executive",
@@ -1020,16 +1040,6 @@
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
       "prod": "lipitor"
-    },
-    {
-      "title": "TG-C 허가 불확실성 커져…코오롱생명과학 CDMO 사업도 '먹구름' - 매경헬스",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TWFJsLXFnTmpGRFFVT1hmWGxoTVpWZXY0eklFVmhwSG1Kb2M5Ni1odE1mbm5nekJPSTYzOGRhVFJSZ2dpbnAxWVpJekphbVQxalIwdmQydzRUbF9ycUxRMFZ2NTM1WDBFOHctRQ?oc=5",
-      "desc": "TG-C 허가 불확실성 커져…코오롱생명과학 CDMO 사업도 '먹구름'&nbsp;&nbsp;매경헬스",
-      "pubDate": "Wed, 12 Aug 2026 07:00:00 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
     },
     {
       "title": "Therapeutic drug monitoring of anti-TNF-α inhibitor in inflammatory diseases using the N Latex aTNFα assay - Siemens Healthineers",
@@ -1260,6 +1270,16 @@
       "sourceName": "쎄레브렉스·관절염 (국내)",
       "country": "KR",
       "prod": "celebrex"
+    },
+    {
+      "title": "애드파마, 고지혈증·당뇨 복합제 ‘AD-236’ 1상 임상 착수 - 헬스코리아뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5jSWJsUzE5Z3JzV0V3XzVaZDJPbXgtUXhGMTNSTFFHY1k5SWNjLXFTX3V1Q09kUHVGOHliX1dVdU5nYTRGdUEwVWJEekF0Q2NDYUZjczA2WHBSOWw4cE1aZGQxWUFQQXM?oc=5",
+      "desc": "애드파마, 고지혈증·당뇨 복합제 ‘AD-236’ 1상 임상 착수&nbsp;&nbsp;헬스코리아뉴스",
+      "pubDate": "Sat, 08 Aug 2026 04:50:26 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
     },
     {
       "title": "텔미누보 독점시장 종료…피타바스타틴 ODT 첫 선 - 데일리팜",
