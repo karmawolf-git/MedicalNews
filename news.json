@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T01:46:35.838Z",
+  "updatedAt": "2026-08-23T03:54:56.334Z",
   "articles": [
     {
       "title": "일산서구보건소, ‘굿바이 고당! 교실’ 4기 모집 - 고양신문",
@@ -10,6 +10,16 @@
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
       "prod": "norvasc"
+    },
+    {
+      "title": "“차라리 쌀밥을…” 아침에 먹는 소금빵, 고지혈증 주범 지목된 이유 - 뉴스와",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5XdW1OT3AyOEZNbUJqaVg5anliYm52dU9CTnpPNEswOTgzRmRTSFlGd25oX2liOUd4WENvU2Q2emJJOWUzRUxkcWV6MGszVjloNkItQXJZWjlCUjFKWGRWLW1lUzNqakExZXYyYWN4YUhqbUlWLTdjTQ?oc=5",
+      "desc": "“차라리 쌀밥을…” 아침에 먹는 소금빵, 고지혈증 주범 지목된 이유&nbsp;&nbsp;뉴스와",
+      "pubDate": "Sun, 23 Aug 2026 01:07:00 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
     },
     {
       "title": "[비즈톡톡] 코오롱티슈진 임상 실패 후폭풍…주가 하락 조사에 해고 칼바람 - 조선비즈 - Chosunbiz",
@@ -180,16 +190,6 @@
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
       "prod": "celebrex"
-    },
-    {
-      "title": "매일 '이것' 한 줌 먹었더니…고혈압 위험 20% '뚝' - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Sb1B5b3E0VEJGLWhXVlI0ZEoxU2FVVkJKRTlUWXV1YmdHSlZwM0x5UlF2TWEyaEJRMWpvaExsSmhIYTJBUXMxLWRvMExTVTJTdUlIXw?oc=5",
-      "desc": "매일 '이것' 한 줌 먹었더니…고혈압 위험 20% '뚝'&nbsp;&nbsp;v.daum.net",
-      "pubDate": "Thu, 20 Aug 2026 20:11:08 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
     },
     {
       "title": "Nationwide Japanese study examines shingles risk among breast cancer survivors - Bioengineer.org",
@@ -372,16 +372,6 @@
       "prod": "norvasc"
     },
     {
-      "title": "\"고도비만 급여 필요, 기준 어떻게 만들지 아직 검토 단계\" - 약사공론",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tSTJXOEdsMTVMMjRRYVZwaWc3R1FrdFFCX0ZiaFdKNE1OaFo0U0FJUHBmbUExNUN4VFVpdW9PNmd1UVR6ZUJ6bnVBOHJISmkzTlV2YnF5UkRJbE1maUZ4YVQwSmd1blQzYkZEdw?oc=5",
-      "desc": "\"고도비만 급여 필요, 기준 어떻게 만들지 아직 검토 단계\"&nbsp;&nbsp;약사공론",
-      "pubDate": "Wed, 19 Aug 2026 10:39:00 GMT",
-      "sourceId": "gn_policy_kr",
-      "sourceName": "의약품 정책 (국내)",
-      "country": "KR",
-      "prod": "all"
-    },
-    {
       "title": "손가락 붓고 아픈 66세女…3년간 숨찬 이유 알고보니 - 네이트",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1sUURRN1ViN0pHc21uMnB3Wl9pZmMzNENEcVROTlFZSks3QTRGekdLSVlZOHF5MWZFYUw2SHlwa3dfY0tteXc1NGlBMzVHel9zT3pR?oc=5",
       "desc": "손가락 붓고 아픈 66세女…3년간 숨찬 이유 알고보니&nbsp;&nbsp;네이트",
@@ -459,6 +449,16 @@
       "sourceId": "gn_lipitor_kr",
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
+      "prod": "lipitor"
+    },
+    {
+      "title": "One shot to lower bad cholesterol? Expert explains how new gene-editing therapy works - The Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaTJPS3U1cU5iNk54dnJyRjdhM3FZZEQxTkI0SkZ4SUg3MzlBSl9ubXJYemZyOHl0TU5CVFZrZUEwV3h3S2YzOERzTkhyMzJpSUwxWDZLaG5lajQ3clJDUlZwdV9NWmwtLWVJUDc3TDRweDJEMnE0ZVY5OHBxeWNTSG85VXQxbGJOT285TFotZDVWTjNLcVl3WXZsVnlWOHBZdzFYWTVGeGNpSUVWbHo3RDFsdDdwRG9LcDFUazhGUm5KdEVaclJvZtIBzwFBVV95cUxOZHlLMDRKTzE1dVJOLVduRnRVdEE3N0tHZ1ZfcXMwNnJNQlR3SnIwa1BwWE40dHBkSGpjM1dNS3Y0SDVQQXZCcnFpR0JTWEJzWkxseUY4ZGNlMWhfbzQ4NnFsNWtYYXVZeUI2enZoSHI0WndTMzdzT3hxZTRqMHJTN1BZclpEcHdWb1BPWldXdVpJSW9GLVFCTVQ2SC1SSGEtRUFWUVdxZ3BGalFDMmFYTEowVFFpck9sMEYxRDlOeFExTHhhaE5uTVVJeENhQzQ?oc=5",
+      "desc": "One shot to lower bad cholesterol? Expert explains how new gene-editing therapy works&nbsp;&nbsp;The Indian Express",
+      "pubDate": "Wed, 19 Aug 2026 00:36:07 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
       "prod": "lipitor"
     },
     {
@@ -576,6 +576,16 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZZDIwVjZQakY4S2ptSkxTTDRMWW1WWU9TN3RWMW9MZ2daRmpuUURQNmJ1OEVWVFNKRjJzN1REbnU2NUNFTUFzR0FBYTRSU3BfMnAwT3VGRFB2MnPSAWBBVV95cUxPd2ZYRFo5RVl4UVA4Vl81OGFXRUFOUHNKWHh1cko5ZW5QdTVfNlYzNzV0Q2ZNVi0tQWVwYVlmUEMweTZ4dGdFWWUwSmZZeDBfcUtvQkNOSWNOMS03SWJyLXQ?oc=5",
       "desc": "병역검사서 고혈압 확인 20대, 중증 심장병 발견 조기 치료&nbsp;&nbsp;연합뉴스",
       "pubDate": "Tue, 18 Aug 2026 07:30:53 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "어지럽고 두통·구토…몸이 보내는 탈수 경고 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VdkdvQk5JbnBBZVF5a21KVG04a2IwWS1MMXRhTGVIdWR3M293cWx4blNJV00xamdadWN4b0JITHpaamRwYlVnUlVWb3BoUjlKVmlpdFkxX2hSZw?oc=5",
+      "desc": "어지럽고 두통·구토…몸이 보내는 탈수 경고&nbsp;&nbsp;한국경제",
+      "pubDate": "Tue, 18 Aug 2026 07:00:04 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
@@ -822,26 +832,6 @@
       "prod": "lipitor"
     },
     {
-      "title": "FDA Approves Lerochol Autoinjector for Adults With Hypercholesterolemia, Updates LDL-C Labeling - Consultant360",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeE0zVVhWSktKVXFZSzE0clRfVllKRHpVVWYtaWRiaXNheC1YXzI1eW1tVFRoUEktLXV0Tm9GV3pyZldobDlrMnptc0xKWG1iRndMblVUcFYwMW9iRWU5SjA5WGx1LXVRRDJleGJ2Wmw5a2ZMSktLSU1BMUJvWGV4MVFucjhKUExCVl9WakE5MU5HZFpnVkNtUXNkU3praFRQTlJxVlBoSmEwUVloX3NkcVFuLXNLYXI5V3NHSlljTnRNRm1u?oc=5",
-      "desc": "FDA Approves Lerochol Autoinjector for Adults With Hypercholesterolemia, Updates LDL-C Labeling&nbsp;&nbsp;Consultant360",
-      "pubDate": "Mon, 17 Aug 2026 07:00:00 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
-      "country": "US",
-      "prod": "lipitor"
-    },
-    {
-      "title": "Vestibular Schwannoma may Compress Both Trigeminal and Vestibulocochlear Nerves: Case Report Finds - Medical Dialogues",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQX0lZbHdDVC15YWJkdWlqdFVGaEkwQzkzV0trcWFldkFVcFIxYnpXQ2Ixb05lUld4QkE5MkV3T1VsU09BMkdlS0t4VlYxZGd1ZnVWbFBkaXZpU2lXWHBERjVQLVREYnpxaFNaZFBDeHlMYU1BZDhTR0ZMRHVfTzN2THlGWGIyVWZUMnBHdndONlRyQ1QzTHJ3Slc2b0VsT09XdDFGUU1NREpLLTQ3eXNrSGc1ZXF5QXBPNkluWVV2cDdod1M2MHZ4RDNRRmhET1VVeGFVZmNMZGxxZ9IB3wFBVV95cUxQUmNJaDc1V25aZThoVFNUc3FVVU9STUUydEtOWnF2M1gycmZPN0QzTUoxendGZ0FfMV9iMjBXUS13SzlWeXNrZkp2WVFGT05qZ1N2Z0puSW10YWk4Ny1WMml2Z2x2VURremtWWTBfa1JRYnZTWlBGRkNNV1k3alQ0c3lVell5ZndmRjNKVV9CaUJ4Sm1Wanl0TmF1TWN1WHFiUXN2NGhYZHhaa2g2ZGRHekhyTjRNRGdtc1FpNHZkYVJoVllsTkFTX2xtZ2pvSTNwSDZ0ZU1ZX0FMamtDaDNB?oc=5",
-      "desc": "Vestibular Schwannoma may Compress Both Trigeminal and Vestibulocochlear Nerves: Case Report Finds&nbsp;&nbsp;Medical Dialogues",
-      "pubDate": "Mon, 17 Aug 2026 02:30:00 GMT",
-      "sourceId": "gn_neuro_en",
-      "sourceName": "Lyrica·Neuropathy (Global)",
-      "country": "US",
-      "prod": "lyrica"
-    },
-    {
       "title": "“고혈압·당뇨·고지혈증 관리하는 한의사 주치의는 가능하다” > 뉴스 - 한의신문",
       "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQN1pWdld6amZBX2RKY3RzWWxmVE81Vnh1UFZHdVVvb3ZLaENqM0JXRG55VFZkemx1Y1E2MkpkUWM1OEJzbVd2WGdXX0FudnIyTVJVb2JoVVBicUhNSWVNbjRKQkVEVXZWcFNXUl9hY2NqMENUbVB6WmFSNDZiSlJBVlpiX1ZYZWh3MGxJTEZ5NmJRN0dmdzFBczB4ZjRRTEJzeEpxOEUxZElKQWgxN2cydHpqS0xfcTFGSi0ycE9fYk5mNEJ2OFJjRE4wUE9jS3hpQzdmeE9EeGpScXBmc0l1Ny1rSzYyeUNLOVlOaFhhdUI2QUZZ?oc=5",
       "desc": "“고혈압·당뇨·고지혈증 관리하는 한의사 주치의는 가능하다” > 뉴스&nbsp;&nbsp;한의신문",
@@ -859,6 +849,16 @@
       "sourceId": "gn_lipitor_kr",
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
+      "prod": "lipitor"
+    },
+    {
+      "title": "US Cardiologists Issue New Guidelines For How to Manage Cholesterol - ScienceAlert",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRTZxM2FMaUpQOGVIaTlzdHRkVEhKZzMzLUxreVY3OGZaeFhmZUdtaEFoMVZFUE4wNUJRYlVSVlRfbzMzbGwtaGh6ZmtMaXJ2Z1FZcXhYdW1ucm90OG9qMUxlbDNiREtiQ2VqNWV2TzBuRV9YY1JycV9iQll5U0JXSDlhT3ZwWEJjdWZIakU0aWRnakVibVhPY3dvMlI?oc=5",
+      "desc": "US Cardiologists Issue New Guidelines For How to Manage Cholesterol&nbsp;&nbsp;ScienceAlert",
+      "pubDate": "Sat, 15 Aug 2026 19:03:59 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
       "prod": "lipitor"
     },
     {
@@ -900,16 +900,6 @@
       "sourceName": "리리카·신경통 (국내)",
       "country": "KR",
       "prod": "lyrica"
-    },
-    {
-      "title": "When Heart Biomarkers Mislead: LDL Cholesterol, HDL and CRP Under Fire - The People's Pharmacy",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdFJWQzc2LVFlWWRRV0lJYmV6RGVDcDB6UFRwX3VBOU9JcVBlZ2JNb3o2RHJmWWI1MF93blNEX2ZpUGY4NXBuUXFDLXVyQ0JBSTZTSjRwR3RNenNNaVJjeGNLenlrcTlqNkRsaFNWNzZUOWRmTTVLa0hidk5qdGhzT2Eyd21QdG9UWDNOeFY3SVJZOFZvZnRBMHV5aTMzbEd2ZkdxZ3FxR2dnNXktaUE?oc=5",
-      "desc": "When Heart Biomarkers Mislead: LDL Cholesterol, HDL and CRP Under Fire&nbsp;&nbsp;The People's Pharmacy",
-      "pubDate": "Fri, 14 Aug 2026 01:43:55 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
-      "country": "US",
-      "prod": "lipitor"
     },
     {
       "title": "안트로젠 상반기 매출 43억…알로스템 일본 수출 - 바이오북미디어",
@@ -1202,16 +1192,6 @@
       "prod": "lipitorplus"
     },
     {
-      "title": "\"먹는 PCSK9 시대 열렸다\"…FDA 7월 신약, ‘정밀화·경구화·편의성’ 정조준 - 약사공론",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE40bkxaVlhpM25FaC1VWW8zZFg4SEZ1WWVwV2tEeXdIeVVDd2JqcHkyMmlsdmptVTd3dnUxSTlIcEZTQmdtOVl6ZjNMaE5MUkNaV0NBeGVLTERWXzFCRFhHcnhyQnpkWHlNRkg4OA?oc=5",
-      "desc": "\"먹는 PCSK9 시대 열렸다\"…FDA 7월 신약, ‘정밀화·경구화·편의성’ 정조준&nbsp;&nbsp;약사공론",
-      "pubDate": "Mon, 10 Aug 2026 20:50:00 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
-    },
-    {
       "title": "OA Tied to Arthritis AE Risk in ICI-Treated Patients - Medscape",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPa183eDJ6cGdvaGhlQ2swVGpIcVktSUhrT2VucjlvQXJfdDJrUDJiUjlLQmtUcnFjckVKcHo1TUZCNU1QcE0wcjAtWUdiVnkwWVQ5Nk5yZjd5QlF1QV9ERkoxUzZyU0xNcnJiWlV2RGhfb29YdG93TkhUNGJiUTNiX2NVenVFNzIyblptOXAyZVVsNlZJcEFNVDhKbG1vZjNxUFRZRllCSTA5N2c?oc=5",
       "desc": "OA Tied to Arthritis AE Risk in ICI-Treated Patients&nbsp;&nbsp;Medscape",
@@ -1339,6 +1319,16 @@
       "sourceId": "gn_lyrica_kr",
       "sourceName": "리리카·신경통 (국내)",
       "country": "KR",
+      "prod": "lyrica"
+    },
+    {
+      "title": "Best CBD for Nerve Pain: 5 Products to Try in 2026 - Healthline",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA1Q2lsMnowbnQwM3l6cTNsMENXY2JZTDVLLXAzOFFlcXNhZ0N0LU9ZaWFsamNZRVJBWDVXdWZ1SVBDMWNRUDNrWjk1RkJ5cm5vWHFTTTZxenhwcEpzc1F6RWtFYjQzS1NJ?oc=5",
+      "desc": "Best CBD for Nerve Pain: 5 Products to Try in 2026&nbsp;&nbsp;Healthline",
+      "pubDate": "Tue, 14 Jul 2020 00:21:31 GMT",
+      "sourceId": "gn_neuro_en",
+      "sourceName": "Lyrica·Neuropathy (Global)",
+      "country": "US",
       "prod": "lyrica"
     }
   ]
