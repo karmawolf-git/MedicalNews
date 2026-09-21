@@ -1,9 +1,259 @@
 {
-  "updatedAt": "2026-09-20T23:06:50.071Z",
+  "updatedAt": "2026-09-21T04:27:41.315Z",
   "articles": [
     {
+      "title": "[최신 과학 이슈 해설] 비타민C까지 포함됐다...가공식품 속 방부제 8종, 고혈압·심장병 위험↑ - 이로운넷",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBxc1p5WV8yQ09qMlI1c0Y2RXMzVHprRnJFcDVTODd2LWZmbjNKTGNEbE9nS1dWTEF4WWhZamxLbnVtOUVvVTIyS3VjTWp2UjhVeXJzZFhZRS1HT3JucUJ0RWlHamFnUQ?oc=5",
+      "desc": "[최신 과학 이슈 해설] 비타민C까지 포함됐다...가공식품 속 방부제 8종, 고혈압·심장병 위험↑&nbsp;&nbsp;이로운넷",
+      "pubDate": "Mon, 21 Sep 2026 03:32:57 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "대원제약, 골관절염 치료제 ‘신바로’ 자체 생산 돌입 - 한국식품의약신문",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9HRFpkN2VLMkdXbFJnRTV5TUhGTlJnWmlqMy1HSGhMVzhJcTJwMk5CeTFQTDJTbTRFNlp4T2hKakd2VklCbG1BVTBDY2hzbUROYVVwNjBJcUFnMFFBbGdtOHA0TkdSV1k?oc=5",
+      "desc": "대원제약, 골관절염 치료제 ‘신바로’ 자체 생산 돌입&nbsp;&nbsp;한국식품의약신문",
+      "pubDate": "Mon, 21 Sep 2026 02:48:58 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "\"아직 젊으니까 괜찮겠지\"…20대부터 챙겨야 할 혈관 숫자 - mkhealth.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44d0dmbjJWS0FYdERsWnZvVFFvRUN6NE5TR3VkcVlsWGdQWjlza1AtZjNRR3pkWGtIbkplaWhvdkJ0QlF0NnVWczlaMV8zXzhyQ1pGRDROeEFZZG1vNURrNDFiWlAxdnV1R1NQNA?oc=5",
+      "desc": "\"아직 젊으니까 괜찮겠지\"…20대부터 챙겨야 할 혈관 숫자&nbsp;&nbsp;mkhealth.co.kr",
+      "pubDate": "Mon, 21 Sep 2026 02:41:40 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "밤잠까지 설치는 어깨 통증…회전근개 파열·골관절염 동반 여부 확인 - 미디어인뉴스",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9GOFdxbHl3QTVmV196RjhlWmFDdmQtdWNTbGZraTAzUnR3X1V2M1E3V01hanlhMWdURGk2c2tpLWNadVB6TFpucUtXLUJ1ZkNXX2t5MnB4c254WjdnSjRRWmpiLXltQi1BUmJuTnJB?oc=5",
+      "desc": "밤잠까지 설치는 어깨 통증…회전근개 파열·골관절염 동반 여부 확인&nbsp;&nbsp;미디어인뉴스",
+      "pubDate": "Mon, 21 Sep 2026 02:36:48 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "대원제약, 골관절염 치료제 ‘신바로’ 자체 생산 나선다…제품 경쟁력↑ - econovill.com",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DRlEtMHAyQld5Vy1kVnBXS25yYm5ibDdZS25XU3QzbFN5NVVMOVg2X1V5VnA4Qm1kbDJxSVQ2YmZBRFBpZU9abGhYaHNqZEp3dW5LTTZqblhOdkRfX01RTDdXeXczeTVoak91aA?oc=5",
+      "desc": "대원제약, 골관절염 치료제 ‘신바로’ 자체 생산 나선다…제품 경쟁력↑&nbsp;&nbsp;econovill.com",
+      "pubDate": "Mon, 21 Sep 2026 02:33:09 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "대원 \"골관절염 치료제 '신바로' 자체생산 돌입\" - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAyU1dnSmhRWGplSnB5NGpxMEVnRTZGcFNRbldrelp0aDVGUkh1cW1nYXl3YUFZZ210cXlOaWpSVEtTb0VDTk1oOGl2WTdkY05vXzZxT3FfeVhkVWZzQWZSMkNmcVBfU2JCN3JjLUExRm9HLTVPYkZoetIBeEFVX3lxTFAyU1dnSmhRWGplSnB5NGpxMEVnRTZGcFNRbldrelp0aDVGUkh1cW1nYXl3YUFZZ210cXlOaWpSVEtTb0VDTk1oOGl2WTdkY05vXzZxT3FfeVhkVWZzQWZSMkNmcVBfU2JCN3JjLUExRm9HLTVPYkZoeg?oc=5",
+      "desc": "대원 \"골관절염 치료제 '신바로' 자체생산 돌입\"&nbsp;&nbsp;뉴시스",
+      "pubDate": "Mon, 21 Sep 2026 02:15:46 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "제목 3주마다 1000만원 '윈레브에어'…100일 신속등재 촉구 - 메디파나뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xTldOangxM3BxYVpJbTVKLS1OS0FVU2RMamhncktzaUVSY1JQUE5yNFc1dURXNW5LWU5tS1Bwc2lkMDFKbk1rb3dmd0tNMC1KY0ZYc0U5VVZuTlJ1bHR2REx3NTlBbmhxTGZN?oc=5",
+      "desc": "제목 3주마다 1000만원 '윈레브에어'…100일 신속등재 촉구&nbsp;&nbsp;메디파나뉴스",
+      "pubDate": "Mon, 21 Sep 2026 02:00:28 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "[바이오스냅] 대원제약, 골관절염 치료제 '신바로정' 생산 - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAtQk5kXzl1WHlXVUwxV1lGV2Z3WXA2NktWaGJhSEhiTVA2WENZLWJELVpieFRBSnFPRVlGVEF3aEN3aTF4Mlc1X2xtZnZEZWU0bkE?oc=5",
+      "desc": "[바이오스냅] 대원제약, 골관절염 치료제 '신바로정' 생산&nbsp;&nbsp;매일경제 마켓",
+      "pubDate": "Mon, 21 Sep 2026 01:55:58 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "“건강식인 줄 알았는데…” 밥상 위 흔한 보존제, 고혈압·심혈관 질환 키운다 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1NSk5YaERnQng4eG5NMlpoS0lLTHl3cENrQXJhelM2cDFVdUxRZVU5X2VxbWFjTVA5eXhrdGQwOGVuOUdsRVd3dlo5akpvNzg?oc=5",
+      "desc": "“건강식인 줄 알았는데…” 밥상 위 흔한 보존제, 고혈압·심혈관 질환 키운다&nbsp;&nbsp;v.daum.net",
+      "pubDate": "Mon, 21 Sep 2026 01:48:03 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "대원제약, 골관절염 치료제 '신바로' 자체 생산…50억 규모 설비 투자 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1KVHhIQ2E5SWstay15OTQzanQ4d2J3ZDNvT3o1WDBKSHpObnVCbmZtS0c1S3BTM3RrZ3NlcWJfRWlNcmMzaUM0NzdoWVZqcnJMdUlSc1I5clc1enN1X1ZVRGVaaFFGQWV6THdSOC1JNNIBb0FVX3lxTE1KVHhIQ2E5SWstay15OTQzanQ4d2J3ZDNvT3o1WDBKSHpObnVCbmZtS0c1S3BTM3RrZ3NlcWJfRWlNcmMzaUM0NzdoWVZqcnJMdUlSc1I5clc1enN1X1ZVRGVaaFFGQWV6THdSOC1JNA?oc=5",
+      "desc": "대원제약, 골관절염 치료제 '신바로' 자체 생산…50억 규모 설비 투자 - 머니투데이&nbsp;&nbsp;머니투데이",
+      "pubDate": "Mon, 21 Sep 2026 01:42:31 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "대원제약, 골관절염 치료제 ‘신바로’ 자체 생산 돌입…생산·판매 일원화 - 더임팩트",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKWDFvaHpnSmRxTnV0NkRwVVdyQ1RFNE5NX0NSVVk3eWV4TkRjXy11Z2RNdGRrNGdaYkpXbUVXdUt2dVhrbDRkbnhsejJQTFdVWjRONlVNeEJ2UGlSbHA5Qm0yaGxfejNiSVHSAW5BVV95cUxOWlhOQVNSOUw0WVhfVGplNk9GRTlYSHRmYVV5bHcwY0ljR0F6VWJ4R0JsM2RQdV9GSTFBWTVqelJWNDFybG1LaWdOX2dyYTAxTmhpbWJGMDVycnluS1dQWkRaM3V5eEs3NFFGOHVhQQ?oc=5",
+      "desc": "대원제약, 골관절염 치료제 ‘신바로’ 자체 생산 돌입…생산·판매 일원화&nbsp;&nbsp;더임팩트",
+      "pubDate": "Mon, 21 Sep 2026 01:31:13 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "대원제약, 골관절염 치료제 '신바로' 자체 생산…생산·판매 일원화 - 전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0xUG1fUV8wSE80U1lVLWJGbU52dTlzQkN5UU5pOWUyYnZ6WnJHTlZqZ3hjWGt3MHBNVVdzTWM1Z0kwbUpfNTBrR2E0dENzdw?oc=5",
+      "desc": "대원제약, 골관절염 치료제 '신바로' 자체 생산…생산·판매 일원화&nbsp;&nbsp;전자신문",
+      "pubDate": "Mon, 21 Sep 2026 01:21:33 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "비보존, 비마약성 진통제 후보 'VVZ-2471' 韓·이스라엘 특허 등록 마쳐 - pharmnews.com",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vNDV4SGxLeGJxRTBBUVdEeXdMcDhTTTVIYk1rMzdqeXJzejRjYWhydFB3blpLLV96cnBsXzdyRlVhY0ltbFRidHZNV3FFSDE0VmNFSm1ITVdINUtLTlZON05rTWhWUVlzSFRsNQ?oc=5",
+      "desc": "비보존, 비마약성 진통제 후보 'VVZ-2471' 韓·이스라엘 특허 등록 마쳐&nbsp;&nbsp;pharmnews.com",
+      "pubDate": "Mon, 21 Sep 2026 01:09:27 GMT",
+      "sourceId": "gn_lyrica_kr",
+      "sourceName": "리리카·신경통 (국내)",
+      "country": "KR",
+      "prod": "lyrica"
+    },
+    {
+      "title": "대원제약, 골관절염약 '신바로' 공장 가동... 제조·판매 전 과정 내재화 - pharmnews.com",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00SFE4Q2ZZWHlaTzYyOWo5YUNucHE2cU96N3lzQ0E3YmVRNUFKc3FtZGdITTBQMk52cUJHc1FVZEpqRVRoYnl4UUVPNFhwcENKem8zeDF6cWQ0VmdVZG9mQUhhRThlWl9GTGhPRA?oc=5",
+      "desc": "대원제약, 골관절염약 '신바로' 공장 가동... 제조·판매 전 과정 내재화&nbsp;&nbsp;pharmnews.com",
+      "pubDate": "Mon, 21 Sep 2026 01:03:42 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "대원제약 '골관절염 치료제 '신바로' 자체 생산 전환' - 한국아이닷컴",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE93Uk1MTmszemk2Z2ZqYmk0SE1HWUU5c1RubnVlVFdrZUNNSUtnM2wzUTV2TlBUNW9OeEdPcWNtUUZ1elFSZzc1TnlQOTZKSDFWOE1TUkcydlpUZEUtWWpyY09MVmdNSzZMRDQwU3ktd9IBb0FVX3lxTE93Uk1MTmszemk2Z2ZqYmk0SE1HWUU5c1RubnVlVFdrZUNNSUtnM2wzUTV2TlBUNW9OeEdPcWNtUUZ1elFSZzc1TnlQOTZKSDFWOE1TUkcydlpUZEUtWWpyY09MVmdNSzZMRDQwU3ktdw?oc=5",
+      "desc": "대원제약 '골관절염 치료제 '신바로' 자체 생산 전환'&nbsp;&nbsp;한국아이닷컴",
+      "pubDate": "Mon, 21 Sep 2026 01:02:51 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "대원제약, 골관절염 치료제 '신바로' 자체 생산 돌입 - 핀포인트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBNZV9nZm5iaUN6N3Y5OG54LTFoNFJrZW16THNXTVZVNjI2dnR6TC0tSHQ2angtVUYxZE04ajh6TFgxa05yaWlDYlkzWjdkOEhTWnJ2WkVGUnNnclhJclFuTERKSW9YQ1BqWlVNMExhSjJ1OUVSTFY40gF3QVVfeXFMUE1lX2dmbmJpQ3o3djk4bngtMWg0UmtlbXpMc1dNVlU2MjZ2dHpMLS1IdDZqeC1VRjFkTThqOHpMWDFrTnJpaUNiWTNaN2Q4SFNacnZaRUZSc2dyWElyUW5MREpJb1hDUGpaVU0wTGFKMnU5RVJMVjg?oc=5",
+      "desc": "대원제약, 골관절염 치료제 '신바로' 자체 생산 돌입&nbsp;&nbsp;핀포인트뉴스",
+      "pubDate": "Mon, 21 Sep 2026 00:57:14 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "대원제약, 골관절염 치료제 ‘신바로’ 자체 생산 돌입…생산·판매 일원화 - 문화일보",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9mZkpNdHJCQ05HdUpFeFJpa3ZFNTNscXhPSmdpeXVvLURTQndxYkFqRXUwVE9wbXFBZDBlTEI1SXF3THptT2VSQkMzQ3g3RU9P?oc=5",
+      "desc": "대원제약, 골관절염 치료제 ‘신바로’ 자체 생산 돌입…생산·판매 일원화&nbsp;&nbsp;문화일보",
+      "pubDate": "Mon, 21 Sep 2026 00:48:46 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "대원제약, 골관절염 치료제 '신바로' 자체 생산 돌입 - 비즈워치",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBQWi0zYkY3U0J6RFhqb005LUFRNkxKU1lPTDBhX3daVEpEVnc1M3kzOWd0NWhsQmZNZzhuNzVVY21VdXJRby1UQzZpNnpnZ05qX1FRNlJDR0xJVUFLdWw0dUloamNIeERQSDcxMWl5Yw?oc=5",
+      "desc": "대원제약, 골관절염 치료제 '신바로' 자체 생산 돌입&nbsp;&nbsp;비즈워치",
+      "pubDate": "Mon, 21 Sep 2026 00:37:03 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "대원제약, 골관절염 치료제 '신바로' 자체 생산 돌입 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1FbXg4WXpRZTVlSUFyQ0xkbUhyRlZObTZmaktRYldiTm9rSU15ZGRwM3BnY3FFbVppRDR1Tnk5ZkVxdW5keEE?oc=5",
+      "desc": "대원제약, 골관절염 치료제 '신바로' 자체 생산 돌입&nbsp;&nbsp;v.daum.net",
+      "pubDate": "Mon, 21 Sep 2026 00:30:43 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "대원제약, 골관절염 치료제 '신바로' 자체 생산 돌입 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9idkUxZG1RczI2X3VGeGNodEwxQjdzNm42ejRmaThUQzF2eks0MjZaNjVhdWNvR0p0ZFIyQ3VpWjZucjZjQVp5aWY5WW93eTVhY0hYTA?oc=5",
+      "desc": "대원제약, 골관절염 치료제 '신바로' 자체 생산 돌입&nbsp;&nbsp;v.daum.net",
+      "pubDate": "Mon, 21 Sep 2026 00:30:00 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "대원제약, 골관절염 치료제 '신바로' 자체 생산 돌입 - 파이낸셜뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBOdmFCLThJQmpmZzJEMDAzMUNOQ3dKYnVqRnZ4RzFTRUZtQWY2M3lUZ1FIYUZWUkR6WWRORktuSWRXdkRIdUk3TV9jbzVfTjdZYjdEWmtJbDNDdw?oc=5",
+      "desc": "대원제약, 골관절염 치료제 '신바로' 자체 생산 돌입&nbsp;&nbsp;파이낸셜뉴스",
+      "pubDate": "Mon, 21 Sep 2026 00:28:52 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "대원제약, 골관절염 치료제 ‘신바로’ 생산 내재화 - 메디코파마",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1jRTdmUnZzektHNmlSRWY2bFYxVnFCWGRrcWdKZVd4a2N2VVE5dTZUM2lEZkVGMkJjWno0TVhmQkhTTGR1NWRXY3RRSGpJMVdYODRfMVpEWHZxOUYtV2dibDlPbkRUWFdCYXJicXpnQnRlZw?oc=5",
+      "desc": "대원제약, 골관절염 치료제 ‘신바로’ 생산 내재화&nbsp;&nbsp;메디코파마",
+      "pubDate": "Mon, 21 Sep 2026 00:28:19 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "대원제약, 골관절염약 ‘신바로’ 자체 제조 체제 가동 - 헤럴드경제",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGOVNCUGlHbFo5Q2hXd0h1UjhLMTZzZzFPVnBCTW5uc2Q1cjN4Qi1ZRlBxZ2lWVzNvdW1wUGZkU1JndGNiaXBCS19HRnhTakNUek8xck5R?oc=5",
+      "desc": "대원제약, 골관절염약 ‘신바로’ 자체 제조 체제 가동&nbsp;&nbsp;헤럴드경제",
+      "pubDate": "Mon, 21 Sep 2026 00:18:37 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "대원제약, 골관절염 치료제 '신바로' 자체 생산 돌입 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0yYlZDSUJYd0tsQlZ0VWRBT041V254NzhPTHR1MEd1WUtNQ0QtSXhaalJJQWNudENYOFF5NVJfVlNCTjdRUmhVa2p1ZHdyV1UyRU9lbFdRN2RaYWVSbWF3aw?oc=5",
+      "desc": "대원제약, 골관절염 치료제 '신바로' 자체 생산 돌입&nbsp;&nbsp;아시아경제",
+      "pubDate": "Mon, 21 Sep 2026 00:16:57 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "한우리장애인주간보호센터, 발달장애인 대상 구강·고혈압 예방교육 - 한국장애인신문",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE42Q2VjY0NxdC1XTnB6OFlIZ0p3VHVfUXpXRHM3eUp6UWU5YUVuX0c1UnpRN0RPOVE4R0ZGNVhwTENaaUlkU0ZHOU82d0xSQ1gwU19zcEE5aC1SLVJza1V0akFSdHdNX0hDVGxVbTFyVGd3QUZEWnfSAXhBVV95cUxQMEVHZzdPMTIyRkxOZm5OR2hwUTZxbEFKS0tGdDhDcTNpYXRsSVdnMlJLd25kdmRhc1FkSVpkZzhWTWJZNjRjSEhocWhqbkR3eWFwZUluUkNKTTMyQkM1UU5ka0hHejNXME9PYkhLa09MZHR5d2d2cGE?oc=5",
+      "desc": "한우리장애인주간보호센터, 발달장애인 대상 구강·고혈압 예방교육&nbsp;&nbsp;한국장애인신문",
+      "pubDate": "Mon, 21 Sep 2026 00:05:00 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
       "title": "아이씨엠 “ICM-203, 골관절염 치료 패러다임 바꾸는 DMOAD로 키운다” - 약업신문",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9MSERqYzBwRmNISU5EcUY5N0gwV0k4a0pCVHlwNU1rcXVTZTlBTmZDajI4V2JQNmVodXhleng0TzBabzRZejR3VGlFR05LNWsxdHFVUk1MdU5uRzlkMHlkc1B6SFZkUG53aEhkaFhnZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8tS0pqN1VESnpjTHJIRGNhU3NsdjJJWTlzWjlrSTFRNUc5SGVEcEhOcTJEZFlTOE14Mm1FSjZBVmoySzVvbTF5X3VFNWo5cE9NbDl0NVY1UGpPN3c3cFBPbHNEZTV4MjBOVjg0TUFDRDVWeGJRdzB0VHh3?oc=5",
       "desc": "아이씨엠 “ICM-203, 골관절염 치료 패러다임 바꾸는 DMOAD로 키운다”&nbsp;&nbsp;약업신문",
       "pubDate": "Sun, 20 Sep 2026 21:20:00 GMT",
       "sourceId": "gn_celebrex_kr",
@@ -22,14 +272,14 @@
       "prod": "lipitor"
     },
     {
-      "title": "A Small Dose With Large Movements: Suspected Gabapentin-Associated Mixed Hyperkinetic Movement Disorder in End-Stage Renal Disease: A Case Report - Cureus",
-      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbkF2T05Xcm5ndTBDMEhuTGtrVl9RVENBMVZveEVVemo2d1JtX0dlaVF0UGFPMnE5UFBPNEppRk95SVNISjhCaEpfNmUyZGpGbmJ5Ulo2dkJBWEZ0WFROR2NmdVctZTRfUDhxT2syRDl0LUFOZ2wwT05Nb3pUM1UyTVZCRkxsek5xdlBmTTh1VTVTcHpsMjNybHp0cllYRlBFUUVnN1M3am9OemVnR2xYY2ZSX1hfTjJLUVA1NnlKWFQ4MGk0RTNPaDdVVTdzWkZneGh6aGVObTVqcjhIN0J2eEY5Nl9yb09CMTJSbE5rak4wd0F6Y1VKUklkbnhKT2Z0MFlFRGpoYVFPN2M3VVRn?oc=5",
-      "desc": "A Small Dose With Large Movements: Suspected Gabapentin-Associated Mixed Hyperkinetic Movement Disorder in End-Stage Renal Disease: A Case Report&nbsp;&nbsp;Cureus",
-      "pubDate": "Sun, 20 Sep 2026 17:12:41 GMT",
-      "sourceId": "gn_neuro_en",
-      "sourceName": "Lyrica·Neuropathy (Global)",
+      "title": "Mechanism Matters in Rheumatoid Arthritis Treatment - Physician's Weekly",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUVNlQkhlVks0bXpoOG9zX2ItU1pZdzN5QWdZczJob3ZsLTF6RUhOSHBUMEZIUld0UlhxNlpDcjE3cnJoUVJwdVdYbXF2bjRnbmVWWjB5ODJFRjFJbE0tNFMxMzNlTHFvM2hsbXdkc1FNbEJNeGJPSzJDVzRzQkkwV2NNRmtsS3U4YnY5bEViMFVQMFAwM0g5Qk5ET0JfMWxEY0lpNVg2eVlTM2VjWXdhV1N4Y3Rta1VXUDhmc1ZiQlJOcTV6RlpqZFlQNS15QzZh?oc=5",
+      "desc": "Mechanism Matters in Rheumatoid Arthritis Treatment&nbsp;&nbsp;Physician's Weekly",
+      "pubDate": "Sun, 20 Sep 2026 20:05:19 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
-      "prod": "lyrica"
+      "prod": "celebrex"
     },
     {
       "title": "화려한 효과와 실제 결과 표시, 스파이더 토토 먹튀 구분하기 - Calgary Roughnecks",
@@ -52,40 +302,20 @@
       "prod": "norvasc"
     },
     {
-      "title": "청송군, '고당교실' 운영…고혈압·당뇨 관리 교육 실시 - gukjenews.com",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBhcEFvNmZoenNIVzA2b2JuR3ZPMklkSC14Y1VrOTJLUEZEb2FqWGNIT1pEVl92bnd1TXRkVk1BWHRQMUVDS3FqSzRKdXd5em53VnJMbVktbHdOODBPVHFoZm1ZS2JVSTZ0dk8xMGln?oc=5",
-      "desc": "청송군, '고당교실' 운영…고혈압·당뇨 관리 교육 실시&nbsp;&nbsp;gukjenews.com",
-      "pubDate": "Sun, 20 Sep 2026 06:54:05 GMT",
+      "title": "군산의료원, 고혈압·당뇨병 환자 위한 영양교육 실시 - 전북도민일보",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeEVyaDd4SVhuV1ktUGU1TFY4RjVLRG5FenRJdk40NkpXR2trTHNhQlFpalllMFltMDgzS3RIb3lCVXY5eXV0TTFtLTRCOTZhUmZlQ29WLW1LT2tKTXo1R1Q1Z21qRVY0V3ViV0ZJQUc2QTNTcEh2OGJocFAxVmVzVWJDc2xxbnc?oc=5",
+      "desc": "군산의료원, 고혈압·당뇨병 환자 위한 영양교육 실시&nbsp;&nbsp;전북도민일보",
+      "pubDate": "Sun, 20 Sep 2026 06:51:01 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
       "prod": "norvasc"
     },
     {
-      "title": "청송군, 주민 203명 대상 ‘고당교실’ 운영…만성질환 관리 돕는다 - 경북매일",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5jUFVjblB1ZTVYaFRTVThsMDhqanVwdDVfQmNOM3lDejlYcVUzdXdEZjhSZUlrVnJELWZIWkNoRVpSbnF1N0QxS2xubllJTWVvYnU3bGZFSUtOUQ?oc=5",
-      "desc": "청송군, 주민 203명 대상 ‘고당교실’ 운영…만성질환 관리 돕는다&nbsp;&nbsp;경북매일",
-      "pubDate": "Sun, 20 Sep 2026 04:20:00 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
-      "title": "비 플러스 토토 사이트 특수 심벌의 중복 적용 규칙 - Calgary Roughnecks",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWV9kTndhTHNrcU95dHZ2a25FX25zbGo1SElFVlNPV0ZlYzQtbHpCSWZMd3M1c2c4MkJWb1NUelFZWEhQQjRlNXJWckpQSmR6WldWSldtZFlNNHhwN29EcHdYOWtBb3RsT2RvaGg2Qm5kN3FRVnhoRkpaQzI5Smlpd0lUQlV6eVFadGpZM1JOZXh2TWdxRzhXM05EenVjY1d2a2pBVXJ0X0RjYlE0M05zRnNkR2ZuODI2WkkwbW5zVVM4MVpCR1MzSDg3cmhaM0huM0Eyb0NUYXhBT3BIczdn?oc=5",
-      "desc": "비 플러스 토토 사이트 특수 심벌의 중복 적용 규칙&nbsp;&nbsp;Calgary Roughnecks",
-      "pubDate": "Sun, 20 Sep 2026 02:14:50 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
-      "title": "군산의료원, 고혈압·당뇨병 환자 건강한 식생활 정보 제공 - 전민일보",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DTHhNWHZ2U3IwY0wwc210aHkwTUUwTW5ocGs4dWFTYTlEcFBmSkJwdG1lN3ppRW1Hckk3cFNtdjJ4U3c1MzI5dEdvMzRzdjRKdHJTMF9VVi1SNXUyUl9NV1o4dXkyc05PWW1N?oc=5",
-      "desc": "군산의료원, 고혈압·당뇨병 환자 건강한 식생활 정보 제공&nbsp;&nbsp;전민일보",
-      "pubDate": "Sun, 20 Sep 2026 01:36:50 GMT",
+      "title": "여러 숫자 중 무엇부터 읽을지 알려주는 필리핀 토토 - Calgary Roughnecks",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWjhoM2JlY3RwcTljamZfWW5ONXdBTS0tUHhKQXJPVlpiekNfczBneWR3ZUdtVl9Nb094X3NUOXVoSmEyTEtINlhpY1ZERl9ZaFFvWlZyaDFGX21senFlY0VveWRqelVDbldhTkFRWjFwN19GTlRaTUlCSmgxYWRrX1BMZk84d0lsUkN6TTAzdk45ZUVtbk9GdVFncVFIZ2kwZTljQTlxZHcxNWxKemFjSGxBaXY5emZvY3ZlSTB3?oc=5",
+      "desc": "여러 숫자 중 무엇부터 읽을지 알려주는 필리핀 토토&nbsp;&nbsp;Calgary Roughnecks",
+      "pubDate": "Sun, 20 Sep 2026 02:18:02 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
@@ -132,16 +362,6 @@
       "prod": "lipitor"
     },
     {
-      "title": "한미약품 골관절염 주사제 미국판매 개시 - 미주조선일보",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZWNHblhlSU8yRHFXR2lGYjVqS0ozNHhpbC1sVDJmWkFWTGhpUm04NFNfY1hBWV9oRzZkUURmNDF2LWJPd1Bob1NGbVY5b1JnV2NCNk9xbm5TQjE3OExkalQwdjhiZDBKaXZ2dkl5eGxRZVd0WE9XSFd2UXlrMzU4ZUZqZmJQekFON3RiVERIenBpbGFqWHJadnFkZXUweENTbHROWlRqaXgyV1FwcEdfUDc2UTdwSlYzTVI2ajd1XzQzUEVLbVlxYW1YekZtU2VrbFRyY3VSLTlQNXd4NEhQWm5FLWI?oc=5",
-      "desc": "한미약품 골관절염 주사제 미국판매 개시&nbsp;&nbsp;미주조선일보",
-      "pubDate": "Sat, 19 Sep 2026 11:12:09 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
       "title": "Iron Supplementation Brought Lasting Relief from Chronic Neuropathic Pain in a Rare Case - Medical Dialogues",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOazY4Ui1KdTB0X3YtMVcyRHpUYUJRbERfWXc4bjdZRDVNWHBFaUpHXzZ2QTlYUUlxdmFycXZMaks1N1FNbEZUbmpPNTZpeWhMaGkwd3lieHdfSzVqSmRYVEFmMUVVaHVNMGV6Z1FVZ3Iza3FiM1A5WmRLNG1sRDJSTlZSb043enByY2ppY3RSTVMxamt2bzUtVEh1VGdSRlgtT1QxMjl5N05GczZoMkFFRFVWS2F2LVNnOTh4UUk0azVrSGpfdVR0MkVxZm9uSXp6TzRLMFBWbHVMazBYQldFbVBpSG9DX282MEFfedIB7AFBVV95cUxOazY4Ui1KdTB0X3YtMVcyRHpUYUJRbERfWXc4bjdZRDVNWHBFaUpHXzZ2QTlYUUlxdmFycXZMaks1N1FNbEZUbmpPNTZpeWhMaGkwd3lieHdfSzVqSmRYVEFmMUVVaHVNMGV6Z1FVZ3Iza3FiM1A5WmRLNG1sRDJSTlZSb043enByY2ppY3RSTVMxamt2bzUtVEh1VGdSRlgtT1QxMjl5N05GczZoMkFFRFVWS2F2LVNnOTh4UUk0azVrSGpfdVR0MkVxZm9uSXp6TzRLMFBWbHVMazBYQldFbVBpSG9DX282MEFfeQ?oc=5",
       "desc": "Iron Supplementation Brought Lasting Relief from Chronic Neuropathic Pain in a Rare Case&nbsp;&nbsp;Medical Dialogues",
@@ -166,6 +386,16 @@
       "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxNQ252ckNZVS1NcTYxeEVHRE5leGJmeGNaQUFTU1V0RVR3YlByZTN4RnlWQnE1eVZELTlnXzJBbTMzNVM4THhBQ0NOVTMtTkFkZndKblJmcjJCeXdGd0ZWMWljUk9KQ2s0bThUOU5wTkFoODhMbmdiWEsyNDBhcEFQWlJjRHR4ZnZhZ0w5MF9YMWtVdTBPSUFZU2lxQ0VUd2ktMXRiUlc3WkhpbnlVZ3JOd3BfZmtFTjlGb0tlMXF3aC1hQ1JacTFKVklNSUtpMGJxbWwzZmVhWFFXUmZnZWRpeWlRNHNlQzBVV0hiNEl4RzExTEJxcjRKdDVoUTQ3c21mekFqaDV4RE9ONFhCUzhBUkRNYmw0b0JuZnhOblhrZEtZTXMyYXpYcjlNNUJiQkNITzRTXzl4UjlvY3ctMG1MYVY5TG5qbDRHVzltcVFrNlNjdWRVazlDbmFuU09Vdw?oc=5",
       "desc": "Cleveland Clinic study tests Scrambler Therapy for chemo-related nerve pain&nbsp;&nbsp;WKYC",
       "pubDate": "Fri, 18 Sep 2026 20:49:00 GMT",
+      "sourceId": "gn_neuro_en",
+      "sourceName": "Lyrica·Neuropathy (Global)",
+      "country": "US",
+      "prod": "lyrica"
+    },
+    {
+      "title": "After Early Ovarian Cancer Diagnosis, Woman Finds Relief From Chemotherapy-Related Nerve Pain - Cleveland Clinic",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOd0I5N2FOdXVkQldfMGY5T0t4YVJZMExYWXQ5WUZDQnlFRk1XRkJxdk13MUVTSEdqTjRHLTQ5U1RiSXBDTkxIYTB5RG4yY0VqaFRGZGY0MkV4WEZDQ3dLd09DOWZlc2VrMllQWWZ2ZGVuYWktU2hBWjBFQTJlcENGQWloS1V5cmFaOC1saU92QVlxdU1vVFdyLWxjQnN0eVROaFRwVjdaRm9xd25EMnljQnBua1M1Ujh5OHUwOXZmMkNjbVpVRTNINGhSMnNrN0hhNHNYVXp5cTdHUUtZ?oc=5",
+      "desc": "After Early Ovarian Cancer Diagnosis, Woman Finds Relief From Chemotherapy-Related Nerve Pain&nbsp;&nbsp;Cleveland Clinic",
+      "pubDate": "Fri, 18 Sep 2026 19:54:48 GMT",
       "sourceId": "gn_neuro_en",
       "sourceName": "Lyrica·Neuropathy (Global)",
       "country": "US",
@@ -202,6 +432,16 @@
       "prod": "norvasc"
     },
     {
+      "title": "Ramipril side effect alert as pharmacist says 'it's not well known but persistent' - The Mirror",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZkplaXJDdTFMcWIyOERGQXFlRzdoSDhYTklkd0JDS1FIVXlpVlA3Zng4eVZRcFI4Q2t2NXlQem00Zjc2TkZCLUtTNTdmdElPUVdleDFZN1dMSGo0R2N1NGNiMjI3R3QxdjdBbm9HTHlPQWg4SzBIdlRvcXQ1S0Vrc0pocjYyaEpxTFdJ0gGQAUFVX3lxTFBQMGZmbXd5OWlXbVZic3piUE9kdmp3MkpiM2Q3MVk0QXVCVjh1ZGkwTW1aa3lwN3d5R3lVSmdvRUQ5M0JodHdPSkRVWmF2c2FFemtxcWUtVGFKNFRDbVZsSGpXaTRHTS1WeW1tSHRiN3pVMDl3TUZsb0FlR295NVZ2YnhlWGZ0c0c0OGdjMTRMUQ?oc=5",
+      "desc": "Ramipril side effect alert as pharmacist says 'it's not well known but persistent'&nbsp;&nbsp;The Mirror",
+      "pubDate": "Fri, 18 Sep 2026 11:26:05 GMT",
+      "sourceId": "gn_htn_en",
+      "sourceName": "Norvasc·CCB (Global)",
+      "country": "US",
+      "prod": "norvasc"
+    },
+    {
       "title": "로딩 중 표시를 이해하는 카지노 카드사용 접속 안내 - Histoire pour tous",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZjhDVnlHUDBST1R6WllRRkNJYXBGMDJQell3RXhmZVBDWFNyX2ZhWW9ocWY1bExyVUdjM2laYk5XYklVcmhUMTJ1Nkg3bDY0dkZMTmM3TXhfYjA4S2Z4RzliTl9jR1NhenNlNE13eTNwWlo3dDY5VnlqRnZGS1dVTklCR0V0dVZsa0dGZ2hZNFRhZG1admtnU0JGV1A3Z2tyYkNuRG5JLWFWS2lYSlRIOTNjN2JNRjB4Qm1Z?oc=5",
       "desc": "로딩 중 표시를 이해하는 카지노 카드사용 접속 안내&nbsp;&nbsp;Histoire pour tous",
@@ -212,9 +452,9 @@
       "prod": "lipitorplus"
     },
     {
-      "title": "고혈압·고지혈증·성장호르몬 약 가격 낮아졌다…80개 품목 약가 인하 - 머니투데이 - mt.co.kr",
+      "title": "고혈압·고지혈증·성장호르몬 약 가격 낮아졌다…80개 품목 약가 인하 - 머니투데이 - 머니투데이",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE50UVYybkp1VWNabVBITF80M2NFUFJkMjNhNDN0VzE1V25icUw4OHV6STlJejJkX25nLWVuOWNnR2JWb3ZYaVluc3VfUmJEVUNDa2RYOHFORkNjTW13ejBVbENfajJxMHZyekRTUFBWRdIBb0FVX3lxTE50UVYybkp1VWNabVBITF80M2NFUFJkMjNhNDN0VzE1V25icUw4OHV6STlJejJkX25nLWVuOWNnR2JWb3ZYaVluc3VfUmJEVUNDa2RYOHFORkNjTW13ejBVbENfajJxMHZyekRTUFBWRQ?oc=5",
-      "desc": "고혈압·고지혈증·성장호르몬 약 가격 낮아졌다…80개 품목 약가 인하 - 머니투데이&nbsp;&nbsp;mt.co.kr",
+      "desc": "고혈압·고지혈증·성장호르몬 약 가격 낮아졌다…80개 품목 약가 인하 - 머니투데이&nbsp;&nbsp;머니투데이",
       "pubDate": "Fri, 18 Sep 2026 05:16:15 GMT",
       "sourceId": "gn_lipitor_kr",
       "sourceName": "리피토·스타틴 (국내)",
@@ -252,16 +492,6 @@
       "prod": "caduet"
     },
     {
-      "title": "류마티스 관절염에 걸려버린 그리움 - 영암신문",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB3Ynd0eEYzdEpjMGpxQW01a3VvMkxUMDVyOFZJQVZYWTBiVXJ1ZXB5WUFCeTRuYXdUUWNqbGdodGktQUdSQnhIZmwtV1U5NEpmSDZPYlJoeDdwdDR5bGVCa1M0Q2xzQXREam5V?oc=5",
-      "desc": "류마티스 관절염에 걸려버린 그리움&nbsp;&nbsp;영암신문",
-      "pubDate": "Fri, 18 Sep 2026 01:50:05 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
       "title": "PVA 80품목 평균 4.6% 인하...고혈압·고지혈약제 43% 차지 - 히트뉴스",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE02di1UaWRqUGN4UUNNZ0N5bFhJOHpHdjZYemZPTWpBZ19wWEpocDJ4cWFDeVRuWWtIc24wVWdWRjJXVmpTSUJXR1UyMUFreTF0Q1BwVXBZZHg3dTkxWENqbVRoX2dSZlY2ZmIw?oc=5",
       "desc": "PVA 80품목 평균 4.6% 인하...고혈압·고지혈약제 43% 차지&nbsp;&nbsp;히트뉴스",
@@ -270,16 +500,6 @@
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
       "prod": "norvasc"
-    },
-    {
-      "title": "건보공단, 약값 81개 품목 손질…혈압약·고지혈증약 인하 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5wSVU3bzhlT3Rna2psYkFnWldFV2ZualRnWThwWWNSTzNLSVNDZks4d2FLeVZfT3VHVFd1SUlpLThfM2hFWFE?oc=5",
-      "desc": "건보공단, 약값 81개 품목 손질…혈압약·고지혈증약 인하&nbsp;&nbsp;v.daum.net",
-      "pubDate": "Fri, 18 Sep 2026 01:30:07 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
     },
     {
       "title": "연구로 확인된 혈관 건강에 좋은 음식 5가지… “동맥경화·고혈압 위험 낮춘다” - 하이닥",
@@ -299,16 +519,6 @@
       "sourceId": "gn_arthritis_en",
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
-      "prod": "celebrex"
-    },
-    {
-      "title": "[초록] 자돈의 단일·이중 절개 거세 시 통증 감소를 위한 염화에틸 및 멜록시캄의 효과 연구 - 돼지와사람",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1iR0IzdHBOMl9pbHJDb3NLMGlnUTVWR0NaNGd4algtUE5LTElKczF1ak5haEt5aWdRNGRoTDZIQ2RVSmt0ODk0RXZGM1BkN2o5SFFSOUxGcDZCd0pJWDY5MlhB?oc=5",
-      "desc": "[초록] 자돈의 단일·이중 절개 거세 시 통증 감소를 위한 염화에틸 및 멜록시캄의 효과 연구&nbsp;&nbsp;돼지와사람",
-      "pubDate": "Thu, 17 Sep 2026 11:44:11 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
       "prod": "celebrex"
     },
     {
@@ -332,44 +542,14 @@
       "prod": "lipitorplus"
     },
     {
-      "title": "오브이메디, MEST 美 FDA 혁신의료기기 지정∙무릎 골관절염 美 임상∙허가 본격화 - 바이오타임즈",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1mMmdYNzRna2czMG5QWjkzNDNONEpNRmFwOWg2cWxZd1ZEV1BUQ29YWWtRbFJ0RHA1SHZVS0lRUzJNUXI0cTlWQ0pzeEVuUzJVN0x1N3BsR3g1TW5veGRoLVh4YU5VV0lzMk4xdQ?oc=5",
-      "desc": "오브이메디, MEST 美 FDA 혁신의료기기 지정∙무릎 골관절염 美 임상∙허가 본격화&nbsp;&nbsp;바이오타임즈",
-      "pubDate": "Thu, 17 Sep 2026 06:28:11 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "title": "회심의 '페바로젯' 특허 등록 실패, 권토중래 나선 안국약품 - 히트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB2dGQwSThIM3hNVTdGNnB6S3JPTTZqN010RUZ6VXktdFFGaUJxbVp5UGRwOU96eWRDajZxMUxrVjFIUW5HWTYxUU9obm9QZlZQT2szS0VRLWlYTG83X0Jlb3J0M3Y4cUtXX3hF?oc=5",
+      "desc": "회심의 '페바로젯' 특허 등록 실패, 권토중래 나선 안국약품&nbsp;&nbsp;히트뉴스",
+      "pubDate": "Thu, 17 Sep 2026 03:06:19 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
-      "prod": "celebrex"
-    },
-    {
-      "title": "ARBs emerge as blood pressure’s best-tolerated bet - Medical Republic",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMnNYTGxMeWN2aFRuaVlVTlRaQXZteHkxWUpZY2pXN1BoUXh4dDgtcVVQZVVkMFhHUk5Mc2g1RmxqNmtESFpmc2kzZzB0WjEzMXFxVTA4OHFCTU5sRjhkRkVQdmc4SFM0WE1fZzRHTk5paGFtdzZhR01vc3hPNHdUcVlpcjA2ZjVGMnYwalRoMnZYWFh5WUE?oc=5",
-      "desc": "ARBs emerge as blood pressure’s best-tolerated bet&nbsp;&nbsp;Medical Republic",
-      "pubDate": "Thu, 17 Sep 2026 06:19:17 GMT",
-      "sourceId": "gn_htn_en",
-      "sourceName": "Norvasc·CCB (Global)",
-      "country": "US",
-      "prod": "norvasc"
-    },
-    {
-      "title": "오브이메디, 무릎 골관절염 치료기술 ‘MEST’ 美 FDA 혁신의료기기 최종 지정 - 한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB4TFRyamp5YmlVUDdVSkpXTS1nSWhNNk50ZEJ1TTRWSUtjSGU1cEhlX3pnWXh1UnFuNzd0M2VJcEZBYnE3RUE2ZHRFV0swdnpQUzhBVk56Ny1wZw?oc=5",
-      "desc": "오브이메디, 무릎 골관절염 치료기술 ‘MEST’ 美 FDA 혁신의료기기 최종 지정&nbsp;&nbsp;한국경제",
-      "pubDate": "Thu, 17 Sep 2026 05:51:45 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
-      "title": "2026년 최신 지침에 따르면 류마티스 관절염 환자는 무엇을 먹어야 하고 무엇을 먹지 말아야 할까요? - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQR0VfZ0VPdndOV2pGa2xHZFlOMmNQczNkQTBlRUNzRGhRY0c5aFZtNkozNFlBcTgwckN3WElCRWZoOXg5M1E0Y01kbnZQLW04X211d1V4RjJfYkp6WGc3amVrclloMVRHVGt0RHpueGpwdFdZcVdKaWluY3pXVTc3Vm5DRXFuRnVKa1FIdm5zQjhTVklIVnBCaWdLMC1idFZxemFz?oc=5",
-      "desc": "2026년 최신 지침에 따르면 류마티스 관절염 환자는 무엇을 먹어야 하고 무엇을 먹지 말아야 할까요?&nbsp;&nbsp;Vietnam.vn",
-      "pubDate": "Thu, 17 Sep 2026 01:47:18 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
+      "prod": "lipitor"
     },
     {
       "title": "Zileuton Beyond Asthma: A Multifaceted 5-Lipoxygenase Inhibitor With Emerging Therapeutic Potential Across Inflammation, Cancer, Neuroprotection, and Fibrosis - Cureus",
@@ -396,10 +576,10 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1OTThhLUU1eUgyRFY0WDhaaUJzQ0dKYWcwMkVwVXVFWlh3czhqQXBjUE4zMW9YM2wweXo4ZkJ5YmQtUWs2QjhpVU1oX0otc2VPeXppcG1wTVVmM1F4RDNTLVZSaTlIcTA?oc=5",
       "desc": "보령 ‘듀카로’ 첫 경쟁자 출현 … 동구바이오, ‘에스암로디핀’ 앞세워 도전장&nbsp;&nbsp;헬스코리아뉴스",
       "pubDate": "Wed, 16 Sep 2026 17:08:44 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
+      "sourceId": "gn_caduet_kr",
+      "sourceName": "카듀엣·복합제 (국내)",
       "country": "KR",
-      "prod": "norvasc"
+      "prod": "caduet"
     },
     {
       "title": "Comparative Outcomes of Beta-Blockers vs Non-Dihydropyridine Calcium Channel Blockers in Heart Failure With Preserved Ejection Fraction: A Systematic Review and Meta-Analysis - Cureus",
@@ -420,6 +600,16 @@
       "sourceName": "리리카·신경통 (국내)",
       "country": "KR",
       "prod": "lyrica"
+    },
+    {
+      "title": "Burnley surgeon calls for greater access to cholesterol-lowering NHS drug inclisiran - Burnley Express",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQN2dIeVQwN25KWks2U3l0Z0lmMmVJTmRUSGJSaWlYVmROSV9YVXZMeERxaUtNRmJGTnRWaFNQRlVieEZIT0EtN2xKdWM3eWJVYksySTBIQ3BOMzZaQTVhc0Mwbl9lQm15RUtjdUlqTEhVMjhGeXA2bHFLZGJvaFVoN25NcWR0d3VKS21KNkdyVGZKN0lkTnQzaG05Q0dFVkhKZnI5WkFWN2VHNVNVd1RLeTI3SlhYVVFfQVpiWTh4bC1Lc2k0elJSLU1R?oc=5",
+      "desc": "Burnley surgeon calls for greater access to cholesterol-lowering NHS drug inclisiran&nbsp;&nbsp;Burnley Express",
+      "pubDate": "Wed, 16 Sep 2026 10:02:00 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
+      "prod": "lipitor"
     },
     {
       "title": "유통기한 늘리는 ‘식품 보존제’, 심혈관 질환·고혈압 위험 높인다? - 하이닥",
@@ -450,16 +640,6 @@
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
       "prod": "lipitor"
-    },
-    {
-      "title": "안산대 간호학과 안산시 고혈압/당뇨병 등록교육센터와 시민 대상 건강증진 캠페인 운영 - 베리타스알파",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE90UU9wcWVmRjVjWER2V3l5U2gxMHhCbm5BQWdMZEwzakNPVElxeEdKMnpER0s0aFpVUlh2QnM3dlBtX0V2NlFxM2hyNGdLTF81VnBMSktGMVR3ZVBaWk13M2hQX3JmSnAzeEg4dQ?oc=5",
-      "desc": "안산대 간호학과 안산시 고혈압/당뇨병 등록교육센터와 시민 대상 건강증진 캠페인 운영&nbsp;&nbsp;베리타스알파",
-      "pubDate": "Wed, 16 Sep 2026 07:09:02 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
     },
     {
       "title": "보령·한국오가논, 이상지질혈증치료제 '아토젯' 영업·마케팅 협력 확대 - 글로벌E",
@@ -503,7 +683,7 @@
     },
     {
       "title": "당뇨·고혈압이 한국인 뇌 늙게 만든다 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1TZlBrNnljRlNJVGZ4clNwLWZMQ0VTZElSQk9STHdlR29VUkllYTNQblpUTS1XbHpsYkhXcnp5MW9JMmdiUVZGRXVFdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9QOUM2UjNnMVZWRERqdGhEU002UUVSNTZ0Sjh6Yms5dWJJY0J1dnZHUFktZnM3V05iUlMtV1RabU1lcW5RdDFGOTduQlBSdmgwZzNXSA?oc=5",
       "desc": "당뇨·고혈압이 한국인 뇌 늙게 만든다&nbsp;&nbsp;v.daum.net",
       "pubDate": "Wed, 16 Sep 2026 04:54:18 GMT",
       "sourceId": "gn_norvasc_kr",
@@ -523,7 +703,7 @@
     },
     {
       "title": "코호트로 추적해보니…당뇨·고혈압이 한국인 뇌 나이 유독 높여 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5BR2xXRWlOUmJoZEdmV2MteDlFTEM2WVJvY0toNkU1TUlQSEh1bnZHdURsQnJyMWwwOHhZdnNFSEhNQkZEbFJkczFTVm1leUU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA3bU9rQXZXNU1PQkd2UEllVzFsUnFjbjBOVDc2MUFsZUhjX3k2b0dSWlhGVzZsY2ZFVjBVQVhYbEpWanBuM1E?oc=5",
       "desc": "코호트로 추적해보니…당뇨·고혈압이 한국인 뇌 나이 유독 높여&nbsp;&nbsp;v.daum.net",
       "pubDate": "Wed, 16 Sep 2026 03:02:56 GMT",
       "sourceId": "gn_norvasc_kr",
@@ -532,14 +712,24 @@
       "prod": "norvasc"
     },
     {
-      "title": "\"한국여성 뇌 노화 빨랐다\"...당뇨·고혈압 환자, 서양인과 비교했더니 - 머니투데이 - mt.co.kr",
+      "title": "\"한국여성 뇌 노화 빨랐다\"...당뇨·고혈압 환자, 서양인과 비교했더니 - 머니투데이 - 머니투데이",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvV1VscXRULUY1bDlCTnlrY1ZKLXFhY29Oc1hYMGdNLThCdEFWa3JOM1UxTk16OFlnOFhwMzhTVHBoSkFHMUV2bDAwbzlvQTc1UWlGdjJ3VHVHZ2dZLWNINWFvVnY3a3VxanfSAW9BVV95cUxQbkk4dkZJTURZRDBNVW1lRzZzSjFFcnJPRU83YUwzV1ZhRmVXRHBZN1NqV1l2RnI2a2ZwZE1JWmxWalEyaWozVkJuUmFsZHZpazk2UmZ1Zmc1eWV2NlkyNEtkMHhkc2FDZ0djaUpuQ2s?oc=5",
-      "desc": "\"한국여성 뇌 노화 빨랐다\"...당뇨·고혈압 환자, 서양인과 비교했더니 - 머니투데이&nbsp;&nbsp;mt.co.kr",
+      "desc": "\"한국여성 뇌 노화 빨랐다\"...당뇨·고혈압 환자, 서양인과 비교했더니 - 머니투데이&nbsp;&nbsp;머니투데이",
       "pubDate": "Wed, 16 Sep 2026 03:00:00 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
       "prod": "norvasc"
+    },
+    {
+      "title": "Boryung, Organon Korea Team Up on Cholesterol Drug Atozet - Seoul Economic Daily",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSFNickt4YkRXcTZZbHllaDRDZnl1cFA2Z0E1RnhKY2RiUF8zbjcxNGo0Qjd3OTFscm9oYUpid2tzanVDQlUyY3lFcnU2VHByajItR3RnRGhEMTd2aDY2Z0FSclFsZGZ2TmJiQWprVWZydE1tNktDVWdHTURFTHJCeTB6aFV0TVZWUkw2R1U1VEZhMElSMG1CYkZibFNzYnM?oc=5",
+      "desc": "Boryung, Organon Korea Team Up on Cholesterol Drug Atozet&nbsp;&nbsp;Seoul Economic Daily",
+      "pubDate": "Wed, 16 Sep 2026 01:48:07 GMT",
+      "sourceId": "gn_lipitorplus_en",
+      "sourceName": "LipitorPlus·Ezetimibe (Global)",
+      "country": "US",
+      "prod": "lipitorplus"
     },
     {
       "title": "[건강 칼럼] 대상포진 치료 후에도 통증 지속된다면...대상포진후신경통 확인 필요 - thefairnews.co.kr",
@@ -572,9 +762,9 @@
       "prod": "lipitor"
     },
     {
-      "title": "보령-한국오가논, '아토젯' 공동판매…이상지질혈증 시장 공략 확대 - apsk.co.kr",
+      "title": "보령-한국오가논, '아토젯' 공동판매…이상지질혈증 시장 공략 확대 - 메디팜스투데이",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zaUNCSFdvXzBhLVY4UGZpTTl3Ynp0UnllTjlOcWNLS2gyVWliZHltVGltaW1jWTY1X21fSENnNnBjUWM0RnFfNFpvQVBhVDhhb19mVTMzUG1RQ0h0d1RaQ1hwTllWNnRH?oc=5",
-      "desc": "보령-한국오가논, '아토젯' 공동판매…이상지질혈증 시장 공략 확대&nbsp;&nbsp;apsk.co.kr",
+      "desc": "보령-한국오가논, '아토젯' 공동판매…이상지질혈증 시장 공략 확대&nbsp;&nbsp;메디팜스투데이",
       "pubDate": "Wed, 16 Sep 2026 00:30:14 GMT",
       "sourceId": "gn_lipitor_kr",
       "sourceName": "리피토·스타틴 (국내)",
@@ -596,6 +786,16 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlSEU4ZjNJTElpWW5IdFdwcDF3MFV0TVJHVWtKTW4yVDlsb0ZpeUo3UGtqTDA0WWdiak11WFBpUUZuSkhmTWtka19QZzlzN1FhaG13dHlsT2FaRHVCazdmQkt5U2cyemRDNTEyUQ?oc=5",
       "desc": "보령·한국오가논, 이상지질혈증 치료제 '아토젯' 공동 영업·마케팅 협약 체결&nbsp;&nbsp;pharmnews.com",
       "pubDate": "Wed, 16 Sep 2026 00:26:51 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
+    {
+      "title": "보령·한국오가논, 이상지질혈증 치료제 '아토젯' 공동 영업·마케팅 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBlXzZwYlVXbU5DaXZ6dUNDSUhKYVo4SkRWaE5URDhvZTJQQXBuR0ZEck9VQ0JreFdVSlRXQ2JHamRhR0NjdFpXQUlGS0JKN3kzMERDN20wczF3WXpFXzBGcjJMVm9fMTczcUlkem1LV1hmRUdSdmtr0gF8QVVfeXFMTnlGbkhZRmxVYjF0TTFZMUlMQXRkeGtYN091VG9IWFU3S0RqXzN0Ml9nUVNJcUREdF9mTFdKSUdjci1VNXB0dTdZSURsc0lEcXNkM1JJMkZkcWpCeVRuT2s1WnNabExtNmR2bFZrT052X2hsazNmRjhxLXMxeQ?oc=5",
+      "desc": "보령·한국오가논, 이상지질혈증 치료제 '아토젯' 공동 영업·마케팅 - 머니투데이&nbsp;&nbsp;머니투데이",
+      "pubDate": "Wed, 16 Sep 2026 00:22:43 GMT",
       "sourceId": "gn_lipitor_kr",
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
@@ -650,26 +850,6 @@
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
       "prod": "lipitor"
-    },
-    {
-      "title": "류머티즘 관절염 환자들을 위한 더 많은 기회. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1QUmRHUVA3aW15ZVFlNnd1V2NaUDdweG1rV25IUHBTUjQ1N2xjNDZzeVY0akpKV3d3WVJ0RFdVdXR0bTVKYm9HQ0pIcU54UTZSZlJ1NlZJX0x2bnJOWk1qZlduNHRhNnktVXJyYXJ5Z1NNb0FTUl9YSlloMnc?oc=5",
-      "desc": "류머티즘 관절염 환자들을 위한 더 많은 기회.&nbsp;&nbsp;Vietnam.vn",
-      "pubDate": "Tue, 15 Sep 2026 11:26:15 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
-      "title": "스탠다드차타드, 아비트럼 ARB 토큰 2030년까지 70배 급등 전망 - Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5sU3kwYU9LZzVwQlVmNkR2VU1FTjQ2Wi13Ump6QlF6ZDhJN1J5aDlVMHRWQW94SEowSy02eUxnNzJUVzU5d3dQVjJnZkV4UThka3NoV2x4emhkVmVFQkxMaVZFRkhCRTFiWm5pTWNzMjA3cms?oc=5",
-      "desc": "스탠다드차타드, 아비트럼 ARB 토큰 2030년까지 70배 급등 전망&nbsp;&nbsp;Investing.com 한국어",
-      "pubDate": "Tue, 15 Sep 2026 10:27:00 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
     },
     {
       "title": "릴의 움직임과 판정 결과를 나눠 보는 스마일로또 - Histoire pour tous",
@@ -732,16 +912,6 @@
       "prod": "lipitor"
     },
     {
-      "title": "신풍제약, 관절 이어 뼈까지… '하이알플렉스·데노본' 성장축 가동 - 메디파나뉴스",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxMW9GR3VIejFLTG9KbEdpS3hGdGUyQ1dqaE9ETWlQV2hYRzN1bm8welFEaEhEckVMSHJOZnduWG9zTlFNUEJzWUQwSkZrVmgtdHI1YVROaV92NkNlanZ6cGNwVzkwR0VHWkJN?oc=5",
-      "desc": "신풍제약, 관절 이어 뼈까지… '하이알플렉스·데노본' 성장축 가동&nbsp;&nbsp;메디파나뉴스",
-      "pubDate": "Tue, 15 Sep 2026 02:50:00 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
       "title": "Enlicitide, Oral PCSK9 Inhibitor, Cuts LDL 60% in CORALreef Trials - The American Journal of Managed Care",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORkZlYmZ0djh2cDFuTEdaUHBkWE8zbV9UVFVzREI2S2lMUWhYcFdOUEFxRjAyX21nTTdOcWQwaWhscWttbWNSTEJHZzhLZzJLV0NhZ1JCOE53MzVnM01zdWJYRG8zMmhWLXRHV2hOanJ2M01LQXlnNi1BNFB2Q3Rqc3ZzTWNRQ00yaE01UUlGdjNfb28?oc=5",
       "desc": "Enlicitide, Oral PCSK9 Inhibitor, Cuts LDL 60% in CORALreef Trials&nbsp;&nbsp;The American Journal of Managed Care",
@@ -752,9 +922,9 @@
       "prod": "lipitor"
     },
     {
-      "title": "Shingles can cause severe chronic pain – new research on how exosomes alter neurons offers pathways to treatment - The Conversation",
+      "title": "Shingles can cause severe chronic pain – new research on how exosomes alter neurons offers pathways to treatment - theconversation.com",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVHRta0VVMzFsb2pjTDlYWTlvYnV6SEkwbGIxcEctdHdaR3ZrMVNKcWRqYTZvWnFSU3AxSkNSQkZhYkpXcEVjR0xMWFROUDRoRUV0eE9BYURHejg1azlkeEJaMFZxQ3NMVlZyTmlGSlEwWHdRTk42dWFDaXNSelRJSHh6SFJWR1ctNHRSVDVZVGh6cTlKdnRxSWhfOFRMMFVwaGoxLS10dWNfYmlPcERJa0lMbTlDUmUyNnpGRkN3TG1Ldk56TWVJbGN1eFlOUGZaQklJSlR2TlZ4TWZpcXc?oc=5",
-      "desc": "Shingles can cause severe chronic pain – new research on how exosomes alter neurons offers pathways to treatment&nbsp;&nbsp;The Conversation",
+      "desc": "Shingles can cause severe chronic pain – new research on how exosomes alter neurons offers pathways to treatment&nbsp;&nbsp;theconversation.com",
       "pubDate": "Mon, 14 Sep 2026 12:40:34 GMT",
       "sourceId": "gn_neuro_en",
       "sourceName": "Lyrica·Neuropathy (Global)",
@@ -772,26 +942,6 @@
       "prod": "celebrex"
     },
     {
-      "title": "환절기 뻣뻣한 손가락…류마티스관절염 확인해봐야 - 국제신문",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMUhHdW9vVXlnaEVnTHlFZmZSUUx5bnVReUM2WGhEY3hfMjV0cXBDWVkyNTF6SklpQmRHSE9qczFnbmxRdDhxdmo5bE1TVXA0TXBGakUybjNlWUYxZW9HcXhuaWhtaEZNTGZrM1d0M2RxbUwyZ1BtODMyaEdhaDIteGFfTEtobzVMVXpSN2N3?oc=5",
-      "desc": "환절기 뻣뻣한 손가락…류마티스관절염 확인해봐야&nbsp;&nbsp;국제신문",
-      "pubDate": "Mon, 14 Sep 2026 09:53:00 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
-      "title": "임신부 고혈압약 도입 식약처 문턱에 막혀···\"패스스트랙 검토해야\" - 메디칼업저버",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBOUWxURU02LWxBSUgxRnFXaWQ1UUJLWkM0MEhNdFBoYU9MVDhDZkNnWU9ENlo2WTI3bnRwcjlMUDRtQXdlUnBLODV0ckF2dVhhRFN4ZjlncDdxWHFWTU1WT0EtNl80aWVBWjRR?oc=5",
-      "desc": "임신부 고혈압약 도입 식약처 문턱에 막혀···\"패스스트랙 검토해야\"&nbsp;&nbsp;메디칼업저버",
-      "pubDate": "Mon, 14 Sep 2026 08:18:31 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
       "title": "Joint location determines response to DMARDs in rheumatoid arthritis, study finds - Hospital Pharmacy Europe",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVFByQjd4TDcxOTFtSTVTM2xtZHBlVnRWLU81dWdfaHprMlRmY0p1VDhFUzMtWW1kbWd6bXhGOHRyT2d4SDVKbnBSLUIzQnNiZFJ6b25xX29nUFk0dFJ0dHFXSmFGeHlRR05xRUYwQ2g0TExHSHZ6cHFObHV3NFNaQUQ1TXBIVTB2dmdhSUdDV1dpZHU3bEM0WU1RMDNsSldENmY5MjFNeENFQTFGZTQycF90RWpES1NlcnZ3RjRlbGtZalNUU2tCaWhyZjZDNV9MYlMxMg?oc=5",
       "desc": "Joint location determines response to DMARDs in rheumatoid arthritis, study finds&nbsp;&nbsp;Hospital Pharmacy Europe",
@@ -802,26 +952,6 @@
       "prod": "celebrex"
     },
     {
-      "title": "연세사랑병원, 중등도 무릎 골관절염 SVF 주사 1년 경과 분석 - 리버티코리아포스트",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE40ZElfVTVQQUlBUVpVaGZhdTBrRTVpenBPc2dqb0dvRzlZUGdEeEdkcmF2bFJCMGdFWFpWazBfMnVFWWFxMTZnc0lwbTRXZEdXblIxZ3V3UTg0QUhadXJQaEV1SdIBZ0FVX3lxTFBGVS1uaWpUVHh2T1pGeEdjY1NYY0JydlIydktjbVVzY1VZczBTOExwLXlZUm5mT19VeTQ3U0hic2lUQWJjOWtWLVE1LXZWMzJ4TGMxeVFEUm9reV9FWWRTeEpqNEo5c2c?oc=5",
-      "desc": "연세사랑병원, 중등도 무릎 골관절염 SVF 주사 1년 경과 분석&nbsp;&nbsp;리버티코리아포스트",
-      "pubDate": "Mon, 14 Sep 2026 06:37:36 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
-      "title": "Statin misinformation threatens cardiovascular health, Korean lipid experts warn - Korea Biomedical Review",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LUUxjaWVPam9FakRiSjFoZWN1dEE1ZERZR0xMUS03Wndob3JQY29LVGYwMlhVVjExZW4ycVRfdU9YVnJnNENZSWtObWRZRmZDVXRJdDlSZUF2aThWUXg3aU1vQmZ0dlFObjVsMGZ30gFyQVVfeXFMTzQ1WE1obm9FNFRJSUtMQldGc2JXN1lBUjh2VFJTcGJja0VITU1YTDhsWjhFYnhPUjR4VkluTW1vaDJrQ01xZktVTkJiOWlrdFhNYjdUa0c5bFVscGVSVTZ6X09PRnlGUHpDYlpTMDVUTG93?oc=5",
-      "desc": "Statin misinformation threatens cardiovascular health, Korean lipid experts warn&nbsp;&nbsp;Korea Biomedical Review",
-      "pubDate": "Mon, 14 Sep 2026 04:56:03 GMT",
-      "sourceId": "gn_lipitorplus_en",
-      "sourceName": "LipitorPlus·Ezetimibe (Global)",
-      "country": "US",
-      "prod": "lipitorplus"
-    },
-    {
       "title": "Guiding Patients on Safe OTC Medication Use for Joint Pain - Rheumatology Advisor",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbHhrbWNsWHVfRkVHMFRnaE40d25iRUNlOUZQdnE0TlFZaV9hZHd3NWVSMXkyVjdWY0g4Rk1kN2wwM2JWNUtmbFcyaVp0LUdSc3JuZzhFWElJel9MUFhyZVlrdTI3Mkh3YkRwUk1vT1pjTXR4TWRSTE5YZFg0ODU0eUJiWG5RWExUc0FXZW40TmIxTlE?oc=5",
       "desc": "Guiding Patients on Safe OTC Medication Use for Joint Pain&nbsp;&nbsp;Rheumatology Advisor",
@@ -829,36 +959,6 @@
       "sourceId": "gn_arthritis_en",
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
-      "prod": "celebrex"
-    },
-    {
-      "title": "고지혈증·스타틴 유튜브 의학적 신뢰도 '평균 이하' - 메디칼업저버",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1oNWEzZ0YtVjI2RVU0TFVjOW5YaVNvX1VQR0pvS3lUcVFLd202ZUJ1RVNvQlpKZ2xIcWFxdU92S3ZEaWxOWUR4REdXODlvTGp6OUdvNndjT2ZmTXZrZm96ZDZuTWJpSGFudEVF?oc=5",
-      "desc": "고지혈증·스타틴 유튜브 의학적 신뢰도 '평균 이하'&nbsp;&nbsp;메디칼업저버",
-      "pubDate": "Mon, 14 Sep 2026 03:03:49 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
-    },
-    {
-      "title": "HK이노엔 판권 보유 ‘에크노글루타이드’ 무릎 골관절염 3상 착수 - 헬스코리아뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94Q3pwU01rd3pXZm1NNHFWWF9Lc3BvV0tuT20wN05rSFRoUFBSTThYLUdERnNKTUhlX2NjQktzV3pHQzdtNHA0cENmRE5DZzFTeld0dFdQcVVVQktoOWhUWXR6MUtSUVE?oc=5",
-      "desc": "HK이노엔 판권 보유 ‘에크노글루타이드’ 무릎 골관절염 3상 착수&nbsp;&nbsp;헬스코리아뉴스",
-      "pubDate": "Mon, 14 Sep 2026 00:40:28 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
-      "title": "AI 개발 이노보테라퓨틱스, 무릎 골관절염 신약 임상 진입 - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE54d21VVzlNOVN5RUR4aHdJT3RFaGxvM2JYMHhvd05NeEJJazFrNFZ5OTlqQXQzQkhCRnhaLVZvcUYyZFdqVWktX1JDZE95YTFoajIwSjFn?oc=5",
-      "desc": "AI 개발 이노보테라퓨틱스, 무릎 골관절염 신약 임상 진입&nbsp;&nbsp;데일리팜",
-      "pubDate": "Sun, 13 Sep 2026 21:00:46 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
       "prod": "celebrex"
     },
     {
@@ -902,16 +1002,6 @@
       "prod": "lipitor"
     },
     {
-      "title": "연세사랑병원, 중등도 무릎 골관절염 SVF 주사 후 방사선학적 진행 지연 관찰 - MEDI:GATE NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1kdFQ1enk5Y1ptb2lTYzh3eXNKanFrMmNOWWZDa3Y5MWRWRWNvMjZaVVFRRUtBSVlrVVkwWHBwX2VQczdaVzFBSHMyN3JKLVpvTVUwVg?oc=5",
-      "desc": "연세사랑병원, 중등도 무릎 골관절염 SVF 주사 후 방사선학적 진행 지연 관찰&nbsp;&nbsp;MEDI:GATE NEWS",
-      "pubDate": "Fri, 11 Sep 2026 21:34:00 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
       "title": "업데이트 전후 규칙을 대조하는 도박중독상담소 변경 사항 - Calgary Roughnecks",
       "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNTWY0VTNIYm4zQ2FacmtYX05EWDRTQktqZzRGUFpwN0Naa0lOYmdqNzlCYlJMa0hXdWhEMzlsY1BtQ0ZRQ0J4TTlpUXlYSHFoSHh0OEl3LTFMQmVXMDZNN0VDdnFVcjJnSUZidkY2UzQyM0NiN0VycnFEdFNZdGRDWk0wVWV6SGhrN2wtVFVVQTM2a1F5WDlua3NDX2sxSGE0QUZVZG4wSDd1ek9scXlNSmNCNXBScmpqbjl5S05yOF9BSUloNjg5c3RQTXRjdlJCUGh4MW1sZlpqZEk2STg2VjJHd0YtZ1B4QXZtdm9aWHNIa05tdFI5VzJnaVlESU0?oc=5",
       "desc": "업데이트 전후 규칙을 대조하는 도박중독상담소 변경 사항&nbsp;&nbsp;Calgary Roughnecks",
@@ -922,9 +1012,9 @@
       "prod": "lipitorplus"
     },
     {
-      "title": "Editas Medicine Targets 2026 Patient Dosing for LDL Gene-Editing Therapy - MarketBeat",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSjFzZ0JPRm9ueUc5VDU3YkRiX1E2cnFZLUF2blI1ZlJFZGdRRDVYZE5zY08tU3B6aFVEcjBkX01JdzVPWG93UDdoSDAzaW9UU3EtQmtHU0FwMDdIbDd3dC1mc1c0aVFMMENlNnQ5ZHBkX2w2Z2M1STNFSWNfMndfRlg4Mzd4M1Z3UDhQUGZqSEktUzg5WHA1VHE4VzBxMmhfODhfMkQ3QkpTcE5lREYybEFOdkh1OV9WNXJpS2tubUpnRDFkdjExc3pKdTY?oc=5",
-      "desc": "Editas Medicine Targets 2026 Patient Dosing for LDL Gene-Editing Therapy&nbsp;&nbsp;MarketBeat",
+      "title": "Novartis, Novo Nordisk drug failures will likely ‘pop a hole in the balloon’ of the field - STAT",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMUxWMDF4NzAwdkVDUTRpNlFyTUpuZV8yQnVMZEpseTlDOGpPTUN2NEtjb0xKdFBJWUdIU2wwRV9QVVl1NEgtdWFMN2xJTWhuTWZ2amNUbTFfM1hWdVNTMm1jTWhVbWctakgxVGxVTnBwY1AwbEZLVVJnZFBjT3ZwWGZqMnRfT1lOZUZlUVlHRGhTbEVSWEpURg?oc=5",
+      "desc": "Novartis, Novo Nordisk drug failures will likely ‘pop a hole in the balloon’ of the field&nbsp;&nbsp;STAT",
       "pubDate": "Fri, 11 Sep 2026 07:00:00 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
@@ -932,9 +1022,9 @@
       "prod": "lipitor"
     },
     {
-      "title": "Novartis, Novo Nordisk drug failures will likely ‘pop a hole in the balloon’ of the field - STAT",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMUxWMDF4NzAwdkVDUTRpNlFyTUpuZV8yQnVMZEpseTlDOGpPTUN2NEtjb0xKdFBJWUdIU2wwRV9QVVl1NEgtdWFMN2xJTWhuTWZ2amNUbTFfM1hWdVNTMm1jTWhVbWctakgxVGxVTnBwY1AwbEZLVVJnZFBjT3ZwWGZqMnRfT1lOZUZlUVlHRGhTbEVSWEpURg?oc=5",
-      "desc": "Novartis, Novo Nordisk drug failures will likely ‘pop a hole in the balloon’ of the field&nbsp;&nbsp;STAT",
+      "title": "Editas Medicine Targets 2026 Patient Dosing for LDL Gene-Editing Therapy - MarketBeat",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSjFzZ0JPRm9ueUc5VDU3YkRiX1E2cnFZLUF2blI1ZlJFZGdRRDVYZE5zY08tU3B6aFVEcjBkX01JdzVPWG93UDdoSDAzaW9UU3EtQmtHU0FwMDdIbDd3dC1mc1c0aVFMMENlNnQ5ZHBkX2w2Z2M1STNFSWNfMndfRlg4Mzd4M1Z3UDhQUGZqSEktUzg5WHA1VHE4VzBxMmhfODhfMkQ3QkpTcE5lREYybEFOdkh1OV9WNXJpS2tubUpnRDFkdjExc3pKdTY?oc=5",
+      "desc": "Editas Medicine Targets 2026 Patient Dosing for LDL Gene-Editing Therapy&nbsp;&nbsp;MarketBeat",
       "pubDate": "Fri, 11 Sep 2026 07:00:00 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
@@ -970,16 +1060,6 @@
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
       "prod": "celebrex"
-    },
-    {
-      "title": "작동하지 않는 버튼인지 구별하는 필러맞고 술 상태 표시 - Histoire pour tous",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOU9LNU16XzUteFJTU042OG1INUh1eTFyeEdRcElYalUxaFVZeTdqN0VJV0xFejg3SHF6Qms3b2JiNjFDQkFRcFA5NUdRNkFxeTZjSW42U2JpWlhSdTJ1ZlZ2bGdjdUtMX3YyazZpZEQ3U043OVlJLW02eEpTNjVtcmkyc3Jyb09TTERQc2pwc1J3SGZKaVZHcDRCa2dxTVZQNnNBNGEzc2poZ09WVXJJRldCQ1NBSU4ySTRqOA?oc=5",
-      "desc": "작동하지 않는 버튼인지 구별하는 필러맞고 술 상태 표시&nbsp;&nbsp;Histoire pour tous",
-      "pubDate": "Fri, 11 Sep 2026 04:22:16 GMT",
-      "sourceId": "gn_lipitorplus_kr",
-      "sourceName": "리피토플러스·에제티미브 (국내)",
-      "country": "KR",
-      "prod": "lipitorplus"
     },
     {
       "title": "Editas Medicine at Cantor conference: in vivo CRISPR push advances - Investing.com India",
@@ -1022,9 +1102,9 @@
       "prod": "lipitorplus"
     },
     {
-      "title": "Autoimmune Events From Checkpoint Inhibitors Often Demand Aggressive Treatment - MedPage Today",
+      "title": "Autoimmune Events From Checkpoint Inhibitors Often Demand Aggressive Treatment - medpagetoday.com",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB1YnZVYUx0VGlaRXBHYWMyWXVLLXNnaHViQU9VUlI1ckIycGNOTjd0dUhEdXE5bkdRTl9PeTNWcTZvUnR5alJLV091OU5JWjhxR0JoMktSNTlzbzhZVDFtUHRqYV9Wcl8wSHVyblE3aVU0d3Z5SnFF?oc=5",
-      "desc": "Autoimmune Events From Checkpoint Inhibitors Often Demand Aggressive Treatment&nbsp;&nbsp;MedPage Today",
+      "desc": "Autoimmune Events From Checkpoint Inhibitors Often Demand Aggressive Treatment&nbsp;&nbsp;medpagetoday.com",
       "pubDate": "Wed, 09 Sep 2026 20:20:21 GMT",
       "sourceId": "gn_arthritis_en",
       "sourceName": "Celebrex·Arthritis (Global)",
@@ -1082,6 +1162,16 @@
       "prod": "norvasc"
     },
     {
+      "title": "Analgesic Efficacy of Celecoxib Versus Ibuprofen After Third Molar Surgery: A Systematic Review and Meta-Analysis of Randomized Controlled Trials - Cureus",
+      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPUDBaT1NnUmZzZU44b0dnUnNoYjdneW5USGo2U0laaHFDMUxLZVZ4SWFJV1ZsRV9aYlBUeTVSQTBDUS1udHhQOEFBMy1jX0pEVTBYQjRTRDlOQjFaYTVJOUhzajFQOGg4aEktUlhRSS1USkRlTUlEcFZkelNfZ2tMcXVIRkxSQ093RlllUEc4c2lFVWp3aVpWb1lCdktQT0gxODR1TUxKcUVhcFBFck0zcDhYc0x0Rl9RX3pja25wNUNMSjUzREhla3FOQlRtVHFFUmNmN2MzY1hSWlZKOTVISWlHdF9mWXVuWlJUekUxQXJBakJaQXk3WWN5S1V2ek5jMDVSWno1dF96NmpmdFFBVA?oc=5",
+      "desc": "Analgesic Efficacy of Celecoxib Versus Ibuprofen After Third Molar Surgery: A Systematic Review and Meta-Analysis of Randomized Controlled Trials&nbsp;&nbsp;Cureus",
+      "pubDate": "Wed, 09 Sep 2026 07:00:00 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
+    },
+    {
       "title": "Alpha-2-macroglobulin as an equine joint therapeutic - DVM360",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNR2pZa0tSbjM0aTRGQ0tic0JHMi1kTnEwaEJLY3oxRnNFd2VTWEdmZzc3SmQzY3BRcl80dUpGR1dwX2EyTVV1WE53VXFKcHFqcjlkd0dPWDVXd2RWeHBjZG9CYUlZdlZUMjZjdnJXQUoyODlSeGJObXZRVkFzcE1sSEUxNkZoME0?oc=5",
       "desc": "Alpha-2-macroglobulin as an equine joint therapeutic&nbsp;&nbsp;DVM360",
@@ -1112,26 +1202,6 @@
       "prod": "lipitor"
     },
     {
-      "title": "12월에 결판…\"무릎수술 없이 주사로\" 한국서 '관절염환자 희망' 나올까 [코오롱의 30년 도전 (下)] - 한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vbWxTdG9nOV9aSmZtNTdqcmlmbzdTcmdQYzdFZzFkNEE0MDFabVJyMUNGd2F3THd2LUpPaTd3NTFBR0ZBT3h6cnh3M1NSQ0cwMWJiSGktNUp4QQ?oc=5",
-      "desc": "12월에 결판…\"무릎수술 없이 주사로\" 한국서 '관절염환자 희망' 나올까 [코오롱의 30년 도전 (下)]&nbsp;&nbsp;한국경제",
-      "pubDate": "Tue, 08 Sep 2026 07:00:00 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
-      "title": "\"골관절염 치료제 개발 난관…‘국소 연골재생’ 대안 주목\" - 한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0RVR3RFktQ0hvQWNWOTdpOVVWWjF5cE1UY0FJUmlWcWx2YXRmZkNjekoxbWNjY1BuNUluRkVOQVkwaWJPdXMzcWRFNURjY0tDVVk0a04xVkVJdw?oc=5",
-      "desc": "\"골관절염 치료제 개발 난관…‘국소 연골재생’ 대안 주목\"&nbsp;&nbsp;한국경제",
-      "pubDate": "Tue, 08 Sep 2026 07:00:00 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
       "title": "Novartis Heart Drug Lowered a Genetic Risk Factor but Did Not Cut Heart Attacks or Strokes - inkl",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNndkbkFXcms5TVhBRnFreERkTkI4c1hZdXNaZVkycUJwX3p5WkMtYlVQUkxFSm5SVHZ2bmxtV0hPaDNzSU1DbnF6eWljUEJqcmdWajhxRHhSemhya3l2NUw0RzZMcTNsaGcwamcwRzFjZjhtYmFlcHl1VGpMQ2JRN0hYd0VUd3dJNk5ERmFZTG9LNlhaM3FNcHlONWQ5dlA1Sl9KTE1kWkZobEtkSTQtQkxXUktlTHM?oc=5",
       "desc": "Novartis Heart Drug Lowered a Genetic Risk Factor but Did Not Cut Heart Attacks or Strokes&nbsp;&nbsp;inkl",
@@ -1142,9 +1212,9 @@
       "prod": "lipitor"
     },
     {
-      "title": "화이자 '엔브렐', 비방사선 축성 척추관절염까지 급여 확대 - apsk.co.kr",
+      "title": "화이자 '엔브렐', 비방사선 축성 척추관절염까지 급여 확대 - 메디팜스투데이",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9LRjdtcUdlSUNmUGE0S3NIeU52X3ZfZ0tDbHlTNHdlUVBSSGIyVUpsLW1iVkxiUXo4c291aVJKN2FpMGJnV0UxcWwwRzRxSkdYdDJkcEt6T19HSHN5Z0tBS0plRlJsVTVq?oc=5",
-      "desc": "화이자 '엔브렐', 비방사선 축성 척추관절염까지 급여 확대&nbsp;&nbsp;apsk.co.kr",
+      "desc": "화이자 '엔브렐', 비방사선 축성 척추관절염까지 급여 확대&nbsp;&nbsp;메디팜스투데이",
       "pubDate": "Mon, 07 Sep 2026 07:53:40 GMT",
       "sourceId": "gn_policy_kr",
       "sourceName": "의약품 정책 (국내)",
@@ -1163,23 +1233,13 @@
     },
     {
       "title": "Pomegranate for heart health: 5 ways its antioxidants may help protect against clogged arteries - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxPVHVwVUhRVFpGVno5MTVjbFRsZW44TnZIckFaZXVIY1JMR1hfeUstVVd2UnNvVFRnUGVJS1dJdGZpcmI4cHk3dVdsSjBUQUxPU3lzU3ljc1lVVDdKUk5lSERwU25nY1BwNG5zYXF2SzFONDFpTGNSdFVlc3pMVXNfZXF2VmVDb0MyaWVHYXdOQndneXFVYUpOakpkWlNGNlE3czFiS3JQWEdQaDNkQ3NBbFZ4c3pzVFRQSEdDU2IxNzdRMzRiTTlDLXhiblptSlRLaHd1UHBsbTJrcW5nbEpKRUtma0xTc1dRWFFSRG5VTnBGMTlJM1hfM2hnWkRuLWJZRU5KZURremt2VXFON2ZDZHJhUUhfX2NqZWtCV284MkdNYV8xei1RbkJLbE9LOUdrVGhPVHY0UFRhaGNrRFE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxQVkpHWGdlTW13SlV2aG04NUNJTXF1S3FTN3oxdjRpTnB1ZGtqYVZhYUM1QjM3Z2F0VUI0T2tSNm9JdkRCVk9oTEhfRzd2NXNwR3JoZHlSQmpTNGtZNF82SEtfR0pNZ3NtaDJWLWRrU1JWa01TZmdOWjg3aEQwYzlNUXYwcDZLa2poeTZtV1JmNTNsQnpma0ZIbDhqdTVsUnQ4NElRdWxCOXdrNU50VnlqTUQtd3NMTzRVVlJHdWFOaW9WUnNac2FxcWlpTEpxNUFtUGZGd25vOVhrdk5kcVFTUE9kb212SmVpM0JIaENlYm9JczB6S2xjSkNHMFNncFQxZ24zUXZ3d1Z1YXNSNjIzdXNXdmV0ZUs5ZEZFVTEzOXdmRklIYlFVUlZhUEZkc3JEbU5Ld2tGZ3dBVUdh?oc=5",
       "desc": "Pomegranate for heart health: 5 ways its antioxidants may help protect against clogged arteries&nbsp;&nbsp;The Economic Times",
       "pubDate": "Mon, 07 Sep 2026 07:00:00 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
       "prod": "lipitor"
-    },
-    {
-      "title": "\"골관절염 환자 10억명 시대…'국소 연골재생' 치료 주목\" - 그로쓰리서치 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Ma0NpajAyOWRWdGlJUW1DdlMwQS1ETnFWTEFQOExjN0NTOTBOUDc0WjZkZEhXZzA4dWtvTnZ0ZF92a3RPV3U1NFRBM2FjYXFFcmd5Y3AtRGZHcVhU?oc=5",
-      "desc": "\"골관절염 환자 10억명 시대…'국소 연골재생' 치료 주목\" - 그로쓰리서치&nbsp;&nbsp;뉴스핌",
-      "pubDate": "Mon, 07 Sep 2026 07:00:00 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
     },
     {
       "title": "[한미약품] ‘AX 원스톱 바우처 지원사업’ 선정…AI 기반 QA 혁신 돌입 - 뉴스더보이스헬스케어",
@@ -1192,30 +1252,20 @@
       "prod": "caduet"
     },
     {
-      "title": "골관절염 환자 10억명 시대…로킷헬스케어·바이오솔루션 주목-그로쓰리서치 - 마켓인",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBJeFlybGdUOTNRc3BXczZHaW5wRk5mdEVDT2NQWDRtYldtdndoN0xudFMyOG9vZm9zWW15U1V4cnhQaHYxNXdNMVZpMTF5bUh4dXVnVWt1enZTU09mb0hUakh4ZXN6UVh2RWdXekFmX1h3b00?oc=5",
-      "desc": "골관절염 환자 10억명 시대…로킷헬스케어·바이오솔루션 주목-그로쓰리서치&nbsp;&nbsp;마켓인",
-      "pubDate": "Mon, 07 Sep 2026 01:26:59 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
-      "title": "그로쓰리서치, \"골관절염 환자 10억명 시대…로킷헬스케어·바이오솔루션 주목\" - 한국의약통신",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1od1VIVmlSWnFIYjladDFVek1CTmJ2Q2RWSmxPM2lzSVF0N1RDSVlqUUVCNU5Pc1ZVN3d0NjZLY1RTSjRreXRPd1NpMGZFa1JHa1F0dWdGbTV4aGFCMy1DRGxITDYyWHVsVmhR?oc=5",
-      "desc": "그로쓰리서치, \"골관절염 환자 10억명 시대…로킷헬스케어·바이오솔루션 주목\"&nbsp;&nbsp;한국의약통신",
-      "pubDate": "Mon, 07 Sep 2026 00:09:20 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
       "title": "Editorial: Volume II: tumour microenvironment in cancer research and drug discovery - Frontiers",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeTY5TG9KQndMSnYyS2Y3Y1hCQXdyYi1LclBnbmw4TkxBVjRsQkVBNTR1b3B6aGhTR3h6ZTdVNkI2RFVGc0NUVGNhbWctNndDSlY5eDV2cnVaa0tpWVdvTnNzWl9YR1Z2T3p1OFltMUhMaGVWSmJFQXRVTDdrX3ZaZ3NmOTdoZUt5SklyeGRCWG9abHRy?oc=5",
       "desc": "Editorial: Volume II: tumour microenvironment in cancer research and drug discovery&nbsp;&nbsp;Frontiers",
       "pubDate": "Tue, 01 Sep 2026 21:31:54 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
+    },
+    {
+      "title": "Comparing Treatment Strategies After First TNF Inhibitor Failure - Physician's Weekly",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQa1FEM083bDZkcEJUdnc2M25PUHNISVRkR1dzLVRJaHl3M1EteG05NlRTM1BCNUVkRUZXT3d0ZG5VWnJlV0lLWG1ESVFKQWJJN0Z0UHpZbnNFd1dZOXVHMVJwQ3Q4VHlaSE5tMy1pdVN5dzloZXExVS11eGR2T3RYSk9NNnpYU0hTUDNmZ0hxSk45Y1lhMkxHRUh4QmxfVDh5VTllZlRTYzVwRTQ0Q2EwSXBycmlyOTkwQlhUSnRlaVNRYkhRMGVkWHJOQ181aWw5T2twcU1SZTJfWVZ5OU5fUmd3?oc=5",
+      "desc": "Comparing Treatment Strategies After First TNF Inhibitor Failure&nbsp;&nbsp;Physician's Weekly",
+      "pubDate": "Mon, 24 Aug 2026 12:54:44 GMT",
       "sourceId": "gn_arthritis_en",
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
@@ -1242,26 +1292,6 @@
       "prod": "celebrex"
     },
     {
-      "title": "Comparing Treatment Strategies After First TNF Inhibitor Failure - Physician's Weekly",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPdDN3LXA1dFhtMXgxdWRtNTlxVktSYkk1N01Ec0ZtU3BnbTZlTFhYWm9Bb1N5MzJsY3Q5WkV1M0Y4ZUt3WmcwMU9xQURqZXhoZmY5c1pIVjd6Si1fdnRUWVRxTURFWnpHM0ZKWnZNM29zNTVUUk9ZWjJGc3RydXdpTGxPZHBfcm9CZHY5RTAwblNzUDlNWUh2SWRXT1dQejVGSU9rYTMyTm90cUZkVDJmWFdFSF9sSnlDdm9WaTRfVFQtNEN5Z2k4Ym90NmhCUEw3allVekRWUTdhWWxmU1pVWU9XR0tZNW5SSnhEd1U4SXFmMVM3TnlXeA?oc=5",
-      "desc": "Comparing Treatment Strategies After First TNF Inhibitor Failure&nbsp;&nbsp;Physician's Weekly",
-      "pubDate": "Wed, 19 Aug 2026 02:21:55 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
-    },
-    {
-      "title": "Mechanism Switching Improves Outcomes After First Treatment Failure in RA - Physician's Weekly",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQTGJ5NGYwUHQ2X2hVTk9QV1BValhBVV9QcU9TQzN0VGZBRW5rd3BEdk5SM3ZmakJQTmFZcVNmbjNNdUJRbm1EY0NHRWpfTW1zc1FZVVRxbXQzdXVfRHRZeGxwcUh5eklTSHVVVklkcW5KcFcwclBkX0hJaEg5TExQZkoxUDNlTzktZWxiTTJEUXA5RHBnQzVQY21ZeW1YREVxSkRFRFlwUGs2cnlxZ2piSGhuZ091RS1oTmF0cXlPUXR0Q2hzYk5BZk90MkNGWWNNalpjYnViaTQyZ0xjRmlpY1hvTkVJY1ItWXRTQzBR?oc=5",
-      "desc": "Mechanism Switching Improves Outcomes After First Treatment Failure in RA&nbsp;&nbsp;Physician's Weekly",
-      "pubDate": "Mon, 17 Aug 2026 05:32:48 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
-    },
-    {
       "title": "Seronegative RA Patients May Benefit From a Personalized Biological Therapy Approach - Physician's Weekly",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcC1CTmVHUGZOOFpTRko3UzMxXzQwUHNTSUZjUzF0eFNtLVVmZ1YzWmhUMFNxR2RaV0tGWVNQMjV6RGVITXY0Y0hfTTc4bjZYTzY2dkw2YjRoMUNtV2NzbVJGSnA3dnBESm9ncFc3Ym5DNFdWR0pGYm5sYVB3OXlJaXpfMG1MU0dWNHBzbjE4clJVc3RCM3hwLVFzc3FHM0o3UHdVQU9hMVBlM19XSW9lM0t4MHpHaFdzNlFMTEFEbw?oc=5",
       "desc": "Seronegative RA Patients May Benefit From a Personalized Biological Therapy Approach&nbsp;&nbsp;Physician's Weekly",
@@ -1272,14 +1302,14 @@
       "prod": "celebrex"
     },
     {
-      "title": "Tryptophan 2,3-dioxygenase 2 plays a key role in regulating the activation of fibroblast-like synoviocytes in autoimmune arthritis. - Physician's Weekly",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQc3hVNXJzdnVCblhVZnB3WDg0Z2Q2NER5NmxyZUNpSWZ6RU5xT25pYXhDbkJfY19xUGhjb20yQWFQZFJhOGEyY3VScGY5ZlVXMkloV2U1Y1d2c0Q1MlNDdTdCbHFxQVVKY2NwN1c5alFpWl9JaURvY2ZhaVVGTDJMWGZyUlA1YzA1UV9yMVoyYUtjNUNlWmJjRHYzbmdxSWVkdVVBc0g4Mm1XUDJfaHNrTmc5UkRzLXlHdzZMT01GYTZ6Qk0xWDQtYmxycVlqWFQwdUpuV1R6VjdNQS1JNnhjR0lZQ19XTkQxLVVKYzlOR2R6ZWtYZEw3elVHRQ?oc=5",
-      "desc": "Tryptophan 2,3-dioxygenase 2 plays a key role in regulating the activation of fibroblast-like synoviocytes in autoimmune arthritis.&nbsp;&nbsp;Physician's Weekly",
-      "pubDate": "Fri, 01 Aug 2025 20:28:29 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
+      "title": "Nurtec ODT Interactions: 8 Things to Avoid with Nurtec ODT - GoodRx",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4zUXRsdURxbE5CQnRNczhhNnZDbmg5ZjFpamJXcnQtbUM1QThDY1Vaa3l6N1M2aFhGcndrRkROVDZLYVdzTjZ6LVJ0WEprMTM0U0txRQ?oc=5",
+      "desc": "Nurtec ODT Interactions: 8 Things to Avoid with Nurtec ODT&nbsp;&nbsp;GoodRx",
+      "pubDate": "Thu, 09 May 2024 17:05:31 GMT",
+      "sourceId": "gn_htn_en",
+      "sourceName": "Norvasc·CCB (Global)",
       "country": "US",
-      "prod": "celebrex"
+      "prod": "norvasc"
     },
     {
       "title": "Is Gabapentin a Controlled Substance? In Some States, Yes - GoodRx",
@@ -1300,16 +1330,6 @@
       "sourceName": "리리카·신경통 (국내)",
       "country": "KR",
       "prod": "lyrica"
-    },
-    {
-      "title": "Sequence Variations in PCSK9, Low LDL, and Protection against Coronary Heart Disease - NEJM",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1Bc0JDbjVNdGdjaHI1UHlHVWV0SHdubkxOLTAyeGg5ajRVa1JNTTRjeXc2TXhfLU9CRm4xbHM2WG50aEN1T2lhMTN3ZGdjSk1oelQ1aUVOREZwckhaUmc?oc=5",
-      "desc": "Sequence Variations in PCSK9, Low LDL, and Protection against Coronary Heart Disease&nbsp;&nbsp;NEJM",
-      "pubDate": "Mon, 25 Jun 2018 08:50:27 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
-      "country": "US",
-      "prod": "lipitor"
     }
   ]
 }
