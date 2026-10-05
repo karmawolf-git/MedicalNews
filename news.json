@@ -1,41 +1,61 @@
 {
-  "updatedAt": "2026-10-05T14:14:45.608Z",
+  "updatedAt": "2026-10-05T21:55:47.936Z",
   "articles": [
+    {
+      "title": "PCSK9 Inhibitors: Lowering LDL vs. Preventing Heart Attacks - HCPLive",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVTNkcDhrbThELWxOTTlWZFF1cUU0S0tQSGFlQ1daVEZjNzN4ZDA3X19oQk1JeDhlakE1c29SaF9oRkl1Z1R1Ulo1SXBzQm1COUJLajY2ZGpMQXhIS2tkZnc0VzNQMU5pUjFyTVdIZ3pMNmlObkJFSmxIckhDc2JzTDFZNkJWRUlIMVp3NjdfeWxVQQ?oc=5",
+      "desc": "PCSK9 Inhibitors: Lowering LDL vs. Preventing Heart Attacks&nbsp;&nbsp;HCPLive",
+      "pubDate": "Mon, 05 Oct 2026 21:30:00 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
+      "prod": "lipitor"
+    },
+    {
+      "title": "급여퇴출 항소 자누스틴·다파칸 등 경보 22품목, 급여 추가연장 - 약사공론",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MQ0VPX2JnSk5ibXlxS2ZhcFExMUo1ODRKM2J0YUNodW9ta2dLLXNKOTZtd21iU1JkSl9FcmxwY0NPM1N2clUwS1Z3a0RaY0RzTHJrSzYtY0R2dzk3ZU9YZG1nS3FhNVUtNW53Rg?oc=5",
+      "desc": "급여퇴출 항소 자누스틴·다파칸 등 경보 22품목, 급여 추가연장&nbsp;&nbsp;약사공론",
+      "pubDate": "Mon, 05 Oct 2026 20:50:00 GMT",
+      "sourceId": "gn_policy_kr",
+      "sourceName": "의약품 정책 (국내)",
+      "country": "KR",
+      "prod": "all"
+    },
+    {
+      "title": "Stop Arthritis Patients' DMARDs Ahead of COVID Jabs? Trial Brings Clarity - MedPage Today",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5HM3U1VnZ3U19tdkZva3ltOWVlRmdibEhDNGZYTUY5bl9JYkxlQmNyUVI1aHhwWDVXWkJiVDVMM2pDVUlJSlVzOUdMUTlKbnNhRkZfQllGWEZNblViZkxlZUpLdUhOZGVvRmc?oc=5",
+      "desc": "Stop Arthritis Patients' DMARDs Ahead of COVID Jabs? Trial Brings Clarity&nbsp;&nbsp;MedPage Today",
+      "pubDate": "Mon, 05 Oct 2026 19:22:02 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
+    },
     {
       "title": "New Insights on Cancer Risks with Rheumatoid Arthritis Drugs - European Medical Journal",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOFhXbzBWRGdsd21mQ05QYXRpOTExb2JjejhTLTNkdEZkUHBraVlYd3VNWkh6UTJGNUtNZUYxV1F3d1VxbVFnd0JwV08xM0xkU0EwaXBobnVfNGxQOUZQTV9DWHRTM0tVUnJvWUNHTlljUkV6OThTRGxCRlM5Q2tMQnROTUJEQ0VrZXNZN0NtSmlDbDhDZ2c1bHZjN2lYd0lDZHpDcllVSlUtQQ?oc=5",
       "desc": "New Insights on Cancer Risks with Rheumatoid Arthritis Drugs&nbsp;&nbsp;European Medical Journal",
-      "pubDate": "Mon, 05 Oct 2026 12:38:04 GMT",
+      "pubDate": "Mon, 05 Oct 2026 18:03:50 GMT",
       "sourceId": "gn_arthritis_en",
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
       "prod": "celebrex"
     },
     {
-      "title": "Can intensive LDL-C lowering reduce the risk of recurrent CV events? - insightplus.mja.com.au",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQM3BGZUJpYVUyUExWaWJTTWVra0RmRTVjeHJYUk14a254V3ltUlpJbkdRa1l2bllJdWU4dHQtU1BkckphZVlIZ3VfOVNLamtsamQ0Zi1mc3l4RHpIV0ZPajF0WUlrUXlTbWFLWVdJZWY2c1FlZFo3d3B2bnYzb1dZcEtWbWlyV1NrUmkzLXJTQnpLYkZTVVNGOXRBVEs1THVoOXB3Z1E1VzlhTHR3bkpzVUQtWExUSW0wdEhkU2Y1aVBkRXlzbUdFUnV0cVFRZlJrMjNvcW1XQXQtZ3JMbE95Qm56aU0?oc=5",
-      "desc": "Can intensive LDL-C lowering reduce the risk of recurrent CV events?&nbsp;&nbsp;insightplus.mja.com.au",
-      "pubDate": "Mon, 05 Oct 2026 12:04:04 GMT",
-      "sourceId": "gn_lipitorplus_en",
-      "sourceName": "LipitorPlus·Ezetimibe (Global)",
+      "title": "Enlicitide offers oral treatment option for patients avoiding cholesterol injections - News-Medical",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYlduYWtlMlJ6VE5yYkZRQ19fSmkxQk5FZGoxaFVKVDdoVFhnUjhmb201ejR2ZGZ0WV9mZUhDOUtaQVdLTE1ZNEI3bTByQjZTWGhXODF4OWtkS2wxMzByV0stdWkxRG1oTC1IZThPMWJRMWZRdVFYVi1oYndFbmYxaExDckRFNkZWeDV5VThBZGdhSUF5eEFWUFY5RThDWElVTldYUk9tNkwyV1pBNWl5MUNRbDBjNVUwQVpwN1UzU3ZOZ0FPRDFIT3U3Tlo?oc=5",
+      "desc": "Enlicitide offers oral treatment option for patients avoiding cholesterol injections&nbsp;&nbsp;News-Medical",
+      "pubDate": "Mon, 05 Oct 2026 16:18:00 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
-      "prod": "lipitorplus"
+      "prod": "lipitor"
     },
     {
-      "title": "Forward Therapeutics Announces Positive Phase 1 Data for - globenewswire.com",
-      "link": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxNZWpEeWtUaG1kcHpsY05VVzRsbFp2YTBaWTR5a0xld0t5S0R3NTFaNjNUaW8xVnhoNFJQd0taUUZ0VHZhMjRqdkJXUEZIa3MxRzBlQkNrei1EY3I5YlAtb0J5R3g0Q3Nnb3hTYy0tYUUyaDdpeGF2M0VkUWJJbk5UbzdQYW40WGtZTWJSeXBiUHUtN3Y5dWRXcXJTSkpFVmNGZDhERzBPLTF4ZlVnQ0RhaFI5c3ItcG9aWjE1eTBPSzV1dUt6S2tpSnc4QnB5WUdsVWlDMTVvY0x3QW03OGlPSUVOdUtKRFdXTHZIbnhwYklKczlfX1B0WjJxNGpYeTgxQ0pxLXpNNmdYNTBjMkZpUmVsX28yY1NuZ3dpenB1SkF2S2llMWdNODVrZGEyWkVaUFd5TFpHM2lIdW0xZ2E3SWY0bWIwbTRIMUQxd0tyOERJQ2dQQ2pjcFhn?oc=5",
-      "desc": "Forward Therapeutics Announces Positive Phase 1 Data for&nbsp;&nbsp;globenewswire.com",
-      "pubDate": "Mon, 05 Oct 2026 12:00:00 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
-    },
-    {
-      "title": "단양군, 고혈압·당뇨병 건강교실 운영 - 웹이코노미",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1sdDdWcGRFWm9DcjRrRHRITW9DODVNOUZzbHQ1X244SklFSWFJZVkwRWVwN2hMZGk5bGRCT3R0SVE5NVJKdXROQ21ydHNrWXowV3Q5cVUweXNCUkxLblRienFwbEFJZjRHVXBnTV94UUxYZw?oc=5",
-      "desc": "단양군, 고혈압·당뇨병 건강교실 운영&nbsp;&nbsp;웹이코노미",
-      "pubDate": "Mon, 05 Oct 2026 10:15:46 GMT",
+      "title": "폐동맥고혈압 발생 기전과 새로운 치료 표적 제시 | 연구이야기 | 헬스 - 서울아산병원 뉴스룸",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9qRG12d3M4R2IyRGtwaEhXRDRNLVlrUXJoRUk3STJCMjFMNnEzSERqZ2d6TEltaUtxVThFZUpJT3gzTVB1aEdlbTMtTjdqcEZXU2JnNFlXNk52ZHNpTW8zajR6NmRTZFhHU283em5ZczNjdG5K?oc=5",
+      "desc": "폐동맥고혈압 발생 기전과 새로운 치료 표적 제시 | 연구이야기 | 헬스&nbsp;&nbsp;서울아산병원 뉴스룸",
+      "pubDate": "Mon, 05 Oct 2026 15:51:24 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
@@ -45,10 +65,30 @@
       "title": "Castor Plant Chemistry Shows Surprising Anti-Inflammatory Power in Lab Tests - Bioengineer.org",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTnU1QnhZR0hPTXpKVi0wWHR5SDdBcDFmRmQtNU9pcUpvMjRFTGdmZEZQdUVjV1dnMno2MF9zV2RFb0I5ZU03WThiX2FaTkNCcWNqWG9wajItWHh0WnhtbGplRnBIZEFnYV9LUXJtTFQ1STEwQlNoMkM1VWg1SjVMU0c1cVV6V0RHWHg2Rk1Vb2ktTW1SN1pIa25vaHk0aE92OUJV?oc=5",
       "desc": "Castor Plant Chemistry Shows Surprising Anti-Inflammatory Power in Lab Tests&nbsp;&nbsp;Bioengineer.org",
-      "pubDate": "Mon, 05 Oct 2026 08:49:41 GMT",
+      "pubDate": "Mon, 05 Oct 2026 15:46:35 GMT",
       "sourceId": "gn_arthritis_en",
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
+      "prod": "celebrex"
+    },
+    {
+      "title": "Can intensive LDL-C lowering reduce the risk of recurrent CV events? - InSight+",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQM3BGZUJpYVUyUExWaWJTTWVra0RmRTVjeHJYUk14a254V3ltUlpJbkdRa1l2bllJdWU4dHQtU1BkckphZVlIZ3VfOVNLamtsamQ0Zi1mc3l4RHpIV0ZPajF0WUlrUXlTbWFLWVdJZWY2c1FlZFo3d3B2bnYzb1dZcEtWbWlyV1NrUmkzLXJTQnpLYkZTVVNGOXRBVEs1THVoOXB3Z1E1VzlhTHR3bkpzVUQtWExUSW0wdEhkU2Y1aVBkRXlzbUdFUnV0cVFRZlJrMjNvcW1XQXQtZ3JMbE95Qm56aU0?oc=5",
+      "desc": "Can intensive LDL-C lowering reduce the risk of recurrent CV events?&nbsp;&nbsp;InSight+",
+      "pubDate": "Mon, 05 Oct 2026 12:06:07 GMT",
+      "sourceId": "gn_lipitorplus_en",
+      "sourceName": "LipitorPlus·Ezetimibe (Global)",
+      "country": "US",
+      "prod": "lipitorplus"
+    },
+    {
+      "title": "단어는 익숙한데 뜻은 다른 룰렛 이벤트 배너 게임 용어 - Calgary Roughnecks",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9GWHB6NTk4aHdSYU5McFZZXzdkYTNlaGJSVTlCOTVuMGhEcTlGMUtwbnh2c1FxZUxoMHRUemVWXzlfdVJxM2FCUUU0bmZ0U0hoaTl5ZW9DQ0hGV1JDcnUzMko5clBoUHBCbGdiM091enotSmM?oc=5",
+      "desc": "단어는 익숙한데 뜻은 다른 룰렛 이벤트 배너 게임 용어&nbsp;&nbsp;Calgary Roughnecks",
+      "pubDate": "Mon, 05 Oct 2026 05:55:45 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
       "prod": "celebrex"
     },
     {
@@ -56,16 +96,6 @@
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5tcDdWZUllRjljRnJsRk9CUDV1MmhzTlU3TllqeU1TREVyLUM2QUloV3RkRmpoM0FaSkhNbUhpeDItQWRvdkpBUDVURzJOQ3plaGhNTlI2cXQwS0k2Q2NhNGxB?oc=5",
       "desc": "단양군 보건의료원, 10월 '고혈압·당뇨병 건강교실' 운영&nbsp;&nbsp;충북일보",
       "pubDate": "Mon, 05 Oct 2026 05:03:44 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
-      "title": "단양군, 고혈압·당뇨병 건강교실 운영 - 내외일보",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1NcDFFR2ttVHhlbXlyZzNJMnRxRHJqbVJQZnhvYmRoZ3ZMWGV0LTFCYWx2d3ZOcWV6S3RXTlpicldXcjBsTHRXOXowVWdMbUtyM3BKS1duVWpxWU5IS0RaVGltem1kN1J1U0VTRHR1OA?oc=5",
-      "desc": "단양군, 고혈압·당뇨병 건강교실 운영&nbsp;&nbsp;내외일보",
-      "pubDate": "Mon, 05 Oct 2026 01:41:16 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
@@ -112,16 +142,6 @@
       "prod": "norvasc"
     },
     {
-      "title": "피파 바카라 히치하이킹 소리 설정이 저장되는지 확인하기 - Calgary Roughnecks",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOFZEMVZzbTZzUUNpS2lDcmtBQmRzaE1sR0lLal9lTGhqYWppRms3eE45Q015dzBnX0hHN1FrNlVLNlZhX2Z2OWNkNUhMYWlJMUtpaXBxWnJXbVVCRHJnV1ljMzQ2T21qNUpucWVuQnpqZDFvTHBBQ1QzYkZZaHNtQUZLa0o1NHJlengwTmFKclFCRUNya25KU1ZiSEVFQ2p5NXdmcDFGajdfRHh5SHdIUXM1cGJ1Q1Q0Y0k0R28xVzhXQTlWU0E?oc=5",
-      "desc": "피파 바카라 히치하이킹 소리 설정이 저장되는지 확인하기&nbsp;&nbsp;Calgary Roughnecks",
-      "pubDate": "Sun, 04 Oct 2026 21:18:46 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
-    },
-    {
       "title": "카나브 복용 고혈압 환자, CCB 복용 환자 대비 심혈관 사건 ↓ - 의약뉴스",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4dWVZYU4tcXhONnh5QkhIbE1iMXBTRG0xaUJiTy1VcjFnTFExM0lrUDU1WGEyc2dKVUNBeEtYNFR6TXhlR2owR3g2U2k4TFBjZXdlOEgtcFNpdGVlLW85UjlPMXl5V3NT?oc=5",
       "desc": "카나브 복용 고혈압 환자, CCB 복용 환자 대비 심혈관 사건 ↓&nbsp;&nbsp;의약뉴스",
@@ -130,16 +150,6 @@
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
       "prod": "norvasc"
-    },
-    {
-      "title": "혈압 높으면 관절도 위험...국내 연구진, 연골 파괴 원리 규명 - 뉴스후플러스",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA3ZHNQVHhERVViUnhQdG8yY20yVC1xbFh1aW9yWlJDUjVjandiSmp5X0ZSazZ6VHJBY01Ha2VKWlFEel9HZ1Z3cWdZLS1JWHBTblVuT1A0YUNVcFpyek5SMzlfb0o2LUl6Y0t4Ni1n?oc=5",
-      "desc": "혈압 높으면 관절도 위험...국내 연구진, 연골 파괴 원리 규명&nbsp;&nbsp;뉴스후플러스",
-      "pubDate": "Sun, 04 Oct 2026 20:30:00 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
     },
     {
       "title": "Inter-anesthesiologist Practice Variation in Vasopressor Administration for Intraoperative Hypotension: A Retrospective Cohort Study - Cureus",
@@ -179,16 +189,6 @@
       "sourceId": "gn_lipitor_kr",
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
-      "prod": "lipitor"
-    },
-    {
-      "title": "Oral Cholesterol Drug Combos Rival Injections in Landmark Analysis - Bioengineer.org",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVmt5MVRVVFZqSVhpMUFlaV8wM1dSSDIyenNXWkNtRHhzdDA2WGlFYTB2N09NN1BCV2h0SHNqR1hxU2gyTlNkdTZPUFhSUER4WGdCLV9hdHVNcmNlRGd0RmxkZnk5QklXYmE0eXhROUljaDd4S1BBYjBlOXNPWWo2eTNMSGR3MXdydHY4OXI5VDJBeXB6TFE?oc=5",
-      "desc": "Oral Cholesterol Drug Combos Rival Injections in Landmark Analysis&nbsp;&nbsp;Bioengineer.org",
-      "pubDate": "Sat, 03 Oct 2026 23:37:49 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
-      "country": "US",
       "prod": "lipitor"
     },
     {
@@ -272,9 +272,9 @@
       "prod": "all"
     },
     {
-      "title": "전남대 연구팀, 고혈압이 골관절염 악화시키는 기전 규명 - m-i.kr",
+      "title": "전남대 연구팀, 고혈압이 골관절염 악화시키는 기전 규명 - 매일일보",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAxMVJvODN3SFYxQTJER0lwWHRTcmhBMjdGYThSWG1JWlliZjdrXy1zclBwVzZxRnRfRWd1V3kxS2RjVEpqSEtqX1RzQUJSa19XNDlmbks0Mk4wU1drWTZOU2VPT0k?oc=5",
-      "desc": "전남대 연구팀, 고혈압이 골관절염 악화시키는 기전 규명&nbsp;&nbsp;m-i.kr",
+      "desc": "전남대 연구팀, 고혈압이 골관절염 악화시키는 기전 규명&nbsp;&nbsp;매일일보",
       "pubDate": "Fri, 02 Oct 2026 07:12:54 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
@@ -312,9 +312,9 @@
       "prod": "celebrex"
     },
     {
-      "title": "트리원, 경구용 비마약성 신경병증성 통증 신약 후보 ‘(R)-(+)-A11’ 개발 - startupn.kr",
+      "title": "트리원, 경구용 비마약성 신경병증성 통증 신약 후보 ‘(R)-(+)-A11’ 개발 - 스타트업엔(StartupN)",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00Nm1QX3pNU0hVRExNekRaLXNncUNyUE1lUGJMaGdkWm1uNE9VZnZMdkdmeDVUSDJmc2pPRkRsdzZOREpTWlo5bFJrRnVhNHNSWENqdlhoRG91TUpXZW1sbnhPbEhtYlhK0gFsQVVfeXFMTzdEX2pqd2ZUa1pRTWMwaWJRaXlLRWV6MU1uTVc3T0FFQ2FaQzVxSHVySXN1Sl9Lc0tTcUF5WGYwVVNpaWFmY21KdHNpVTdxa2lXRlNmNk5FUjhLZ1ZUdEFpcFpPbnFjNDlndzNr?oc=5",
-      "desc": "트리원, 경구용 비마약성 신경병증성 통증 신약 후보 ‘(R)-(+)-A11’ 개발&nbsp;&nbsp;startupn.kr",
+      "desc": "트리원, 경구용 비마약성 신경병증성 통증 신약 후보 ‘(R)-(+)-A11’ 개발&nbsp;&nbsp;스타트업엔(StartupN)",
       "pubDate": "Fri, 02 Oct 2026 05:02:27 GMT",
       "sourceId": "gn_lyrica_kr",
       "sourceName": "리리카·신경통 (국내)",
@@ -392,9 +392,9 @@
       "prod": "celebrex"
     },
     {
-      "title": "\"고혈압이 골관절염 악화...뇌에서 생성되는 호르몬이 관절 건강 조절\" - 도농라이프타임즈",
+      "title": "\"고혈압이 골관절염 악화...뇌에서 생성되는 호르몬이 관절 건강 조절\" - donongnews.com",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15NEw0RzNXN1pIVzhJaEpCcTBEbTF5RDEyZGVhaXJ0X0F0aHQ0alhtVDRKbmJyZzZiM1hpVmllQVNIaTRZc3pRV05EX1g3Wmc2VmhyTjdGQkdFNEQzR2xLUXpRMG1pMlpQdlpwaw?oc=5",
-      "desc": "\"고혈압이 골관절염 악화...뇌에서 생성되는 호르몬이 관절 건강 조절\"&nbsp;&nbsp;도농라이프타임즈",
+      "desc": "\"고혈압이 골관절염 악화...뇌에서 생성되는 호르몬이 관절 건강 조절\"&nbsp;&nbsp;donongnews.com",
       "pubDate": "Thu, 01 Oct 2026 21:05:00 GMT",
       "sourceId": "gn_celebrex_kr",
       "sourceName": "쎄레브렉스·관절염 (국내)",
@@ -416,10 +416,10 @@
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBhVWl0TXJuRkhPVFo3MHE1c211T2wzS05jMWVkNklGNzltNHRtVWlDWTAxT2NFWk0yeHd3ck8zT0I3bGJBS3ZFNXZXQQ?oc=5",
       "desc": "고혈압→골관절염 악화…연결고리 찾아, 새 치료법 나올까 [지금은 과학]&nbsp;&nbsp;아이뉴스24",
       "pubDate": "Thu, 01 Oct 2026 18:00:02 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
-      "prod": "celebrex"
+      "prod": "norvasc"
     },
     {
       "title": "골관절염 악화시키는 원인이 고혈압?…새로운 연결고리 찾았다 - 연합뉴스",
@@ -442,9 +442,9 @@
       "prod": "norvasc"
     },
     {
-      "title": "혈압 높으면 무릎 더 쑤신 이유…\"뇌 호르몬이 연골 갉아먹는다\" - newsis.com",
+      "title": "혈압 높으면 무릎 더 쑤신 이유…\"뇌 호르몬이 연골 갉아먹는다\" - 뉴시스",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00dmZyU3R4czk3SVBMUDdHcEtlS3NIT2ZNazk2bk1WSFVYWUNFNVNzbXRaWEFGU3N1TERKZkZPTVVrSjRYWXZPdHVETW1udFV1VWNxUUU5eTRQSjk3M3Q1WNIBeEFVX3lxTFBMcEJYVGk1ajBrMUZDb1hEWTYzZ0dyem10Mkw0SWd4WmZoeE55dGRVN1ZaajJvNDJ5LVpJSVg0Y0lkcjlKMURhcXo2clRvTy0yMG1nWWh6RXI0dGdqbmFERFlYOXkzU0xHclltU0tybVZmMThHMkpKaQ?oc=5",
-      "desc": "혈압 높으면 무릎 더 쑤신 이유…\"뇌 호르몬이 연골 갉아먹는다\"&nbsp;&nbsp;newsis.com",
+      "desc": "혈압 높으면 무릎 더 쑤신 이유…\"뇌 호르몬이 연골 갉아먹는다\"&nbsp;&nbsp;뉴시스",
       "pubDate": "Thu, 01 Oct 2026 18:00:00 GMT",
       "sourceId": "gn_celebrex_kr",
       "sourceName": "쎄레브렉스·관절염 (국내)",
@@ -452,9 +452,9 @@
       "prod": "celebrex"
     },
     {
-      "title": "고혈압·당뇨 등록관리 전국 확대…지원금 최대 8만원 - 청년의사",
+      "title": "고혈압·당뇨 등록관리 전국 확대…지원금 최대 8만원 - docdocdoc.co.kr",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wTWFYQjVaZGJMR1BtUkFwU29fd210UDVCZkFER3l6SHlmeXQ1Z2JZUjB6WlJjZnZQNUFRQWdtRk5vLXNFX1pXYmtGNkFGMXRUa3lIZ1JXanRpVXkzRlFxcENVYVlpaXpkX2hrN2JZMNIBc0FVX3lxTE9QNXE2T1JlT3R3TGtxcE1IWXR0NGxzdEdTYVpFbmoyRHdLdklFd0V2ZmlnNUNDeURubHZLTjRmSjZDUTJ1eHU2cng3TU5BUENhYjA5MFRmeXI0TnZDVkwwdDRCRjI4T2F4UktiY2pCZEY3aDQ?oc=5",
-      "desc": "고혈압·당뇨 등록관리 전국 확대…지원금 최대 8만원&nbsp;&nbsp;청년의사",
+      "desc": "고혈압·당뇨 등록관리 전국 확대…지원금 최대 8만원&nbsp;&nbsp;docdocdoc.co.kr",
       "pubDate": "Thu, 01 Oct 2026 07:59:20 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
@@ -462,30 +462,20 @@
       "prod": "norvasc"
     },
     {
-      "title": "고혈압·당뇨 등록사업 개편…질병청 \"전국민 만성질환 관리로\" - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nNE1UZldfMGZyQmtkbHhveDd4UEE3M3d4dkMtX2tNMXA4SmZiYmU1SU03dTdKV2JDY0VUV2Z5cGlsNmpoRy02SmJrV0s4RmpvYXQ3XzVCTUJ1SU90ZklzZdIBYEFVX3lxTE1nNE1UZldfMGZyQmtkbHhveDd4UEE3M3d4dkMtX2tNMXA4SmZiYmU1SU03dTdKV2JDY0VUV2Z5cGlsNmpoRy02SmJrV0s4RmpvYXQ3XzVCTUJ1SU90ZklzZQ?oc=5",
-      "desc": "고혈압·당뇨 등록사업 개편…질병청 \"전국민 만성질환 관리로\"&nbsp;&nbsp;연합뉴스",
-      "pubDate": "Thu, 01 Oct 2026 07:38:27 GMT",
+      "title": "고혈압·당뇨병 지원, 어떻게 바뀌나요? - 카드/한컷 | 멀티미디어 - 정책브리핑",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jcHV4ZW4zTWw1R1VUSUQteE5uMzFZRmVSbjhhYkRVRDlNMDR2eFlhN1A1NUVqQk9RS1JNczNhN3phLWVRSk9vbF9OZ2kzRWNMdklWR3E3dFpOSlI5UnFsOWtPWXVtVmR3VUVOVVRB?oc=5",
+      "desc": "고혈압·당뇨병 지원, 어떻게 바뀌나요? - 카드/한컷 | 멀티미디어&nbsp;&nbsp;정책브리핑",
+      "pubDate": "Thu, 01 Oct 2026 06:03:48 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
       "prod": "norvasc"
     },
     {
-      "title": "진행 방식이 다른 슬롯과 비교하는 해외송금 수수료 비교 - Calgary Roughnecks",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOT19IR2kwbmNiOE93ci1PWWJCV3pROTdMMkkzbUctWW5telpyckxyYU9Rd3R4NXAyZmpMdzgyTWhUN3hKbnZ3dkprOTh0RlpDZlEzTTJMVjdBOTZpOGllWTRMS0NUbHdET2tQdlB0TmROR3VrM25YZUNvd0JWS3F3RTBkUTFMODlVanlVWGEwakFKWjQwS2ljMmhvd0hVTHpLd2VGZFRKakRFV1ZRdktJaHI5MFU2X1VPU2tQVjdFb2ppWG11U0UwTmUyTTlEbHQyYmEwSmtFMXRWY18zV3RrcjNUQW4zMllwcnZoYXJXODVzdzhhdmg5MlJ5QXM5elRN?oc=5",
-      "desc": "진행 방식이 다른 슬롯과 비교하는 해외송금 수수료 비교&nbsp;&nbsp;Calgary Roughnecks",
-      "pubDate": "Thu, 01 Oct 2026 07:04:08 GMT",
-      "sourceId": "gn_lipitorplus_kr",
-      "sourceName": "리피토플러스·에제티미브 (국내)",
-      "country": "KR",
-      "prod": "lipitorplus"
-    },
-    {
-      "title": "고혈압·당뇨병 지원, 어떻게 바뀌나요? - 카드/한컷 | 멀티미디어 - 정책브리핑",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jcHV4ZW4zTWw1R1VUSUQteE5uMzFZRmVSbjhhYkRVRDlNMDR2eFlhN1A1NUVqQk9RS1JNczNhN3phLWVRSk9vbF9OZ2kzRWNMdklWR3E3dFpOSlI5UnFsOWtPWXVtVmR3VUVOVVRB?oc=5",
-      "desc": "고혈압·당뇨병 지원, 어떻게 바뀌나요? - 카드/한컷 | 멀티미디어&nbsp;&nbsp;정책브리핑",
-      "pubDate": "Thu, 01 Oct 2026 06:03:48 GMT",
+      "title": "질병청, 고혈압·당뇨사업 개편…노인 의료비 지원 ‘건생금’으로 전환 - 의학신문",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50RWFKeWRNZTR6VFBHTy1mQkgyUjVpOGZsWmk3X0cwSFdXNVNacmhDV3BVTzd0bFlHVzhQLVJhMnVpWHBaSElUNjMteF9UZXdVbDhuRUJJT2MtMnlxMWVZWXFXVEd1SjBaMFE?oc=5",
+      "desc": "질병청, 고혈압·당뇨사업 개편…노인 의료비 지원 ‘건생금’으로 전환&nbsp;&nbsp;의학신문",
+      "pubDate": "Thu, 01 Oct 2026 00:45:01 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
@@ -522,14 +512,24 @@
       "prod": "norvasc"
     },
     {
-      "title": "What Can You Do for Your Knee Arthritis? - The People's Pharmacy",
+      "title": "What Can You Do for Your Knee Arthritis? - peoplespharmacy.com",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbUYyUEpQLTNNMXBHZHlpTlhQMnhFbXZ0cVhDYkk4UGNmSFRKNTEtZUowVFNPQWFzX24yTFM2WkVlOV9BSnVoQ1BpNjNrZmxwbmdBZTNqMEd2ZlkzSFk2TjN4YzRKMEVpakJ0RzFOVVBwNFNDOVpZeVRJeWVUeWJsdm13Q1ZSdjg?oc=5",
-      "desc": "What Can You Do for Your Knee Arthritis?&nbsp;&nbsp;The People's Pharmacy",
+      "desc": "What Can You Do for Your Knee Arthritis?&nbsp;&nbsp;peoplespharmacy.com",
       "pubDate": "Wed, 30 Sep 2026 07:00:00 GMT",
       "sourceId": "gn_arthritis_en",
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
       "prod": "celebrex"
+    },
+    {
+      "title": "[한미약품] 더부룩한 속, 복부 팽만감까지…증상별 소화제 라인업 구축 - 뉴스더보이스헬스케어",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBmSkF2QmY3UUZZajU0TkhCQnYzTk1KZktDeV9TVnZoNXhfbWpvNTRkVjctdWFwZlJjSUJ3eThBd2toZzdFbHEtSWdSbEVleFBfVDZIY0ZBeE51bll5bUFwUXNsT2QzN3BmeGJuUXh3?oc=5",
+      "desc": "[한미약품] 더부룩한 속, 복부 팽만감까지…증상별 소화제 라인업 구축&nbsp;&nbsp;뉴스더보이스헬스케어",
+      "pubDate": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "sourceId": "gn_caduet_kr",
+      "sourceName": "카듀엣·복합제 (국내)",
+      "country": "KR",
+      "prod": "caduet"
     },
     {
       "title": "30·50대 남성 절반 이상 '비만', 50대 당뇨·고혈압·고지혈증 악화 - 메디칼트리뷴",
@@ -632,20 +632,10 @@
       "prod": "lipitor"
     },
     {
-      "title": "A Single Treatment Lowered “Bad” Cholesterol for a Year. Here’s the Science Behind It - health.yahoo.com",
+      "title": "A Single Treatment Lowered “Bad” Cholesterol for a Year. Here’s the Science Behind It - Yahoo Health",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLWdUNjZYTmFJVUpPc1VGZzlfbEw4MHR0YTRFRVctLTNKRHVVZWpKUEZCU1JMXzJxdWNsaXhLdEVRd2ZfVm1mLWI2LWZlbGJvMG51MWVPNzFpajI0azJnSXRXRG50dTZYN3cwSU1lN0FrX0RCZVFJd3JpYmdsSngxVE5yMnJCU3Q0bW50ZlNTTG50cnc4RTIwYzRsRHpmemE5TDI0eWNDeFMwQ3FndjNqbU1BRnY4QQ?oc=5",
-      "desc": "A Single Treatment Lowered “Bad” Cholesterol for a Year. Here’s the Science Behind It&nbsp;&nbsp;health.yahoo.com",
+      "desc": "A Single Treatment Lowered “Bad” Cholesterol for a Year. Here’s the Science Behind It&nbsp;&nbsp;Yahoo Health",
       "pubDate": "Tue, 29 Sep 2026 16:46:02 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
-      "country": "US",
-      "prod": "lipitor"
-    },
-    {
-      "title": "Enlicitide: What to Know About the New Cholesterol-Lowering Pill | Newswise - Newswise",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbDNsZlpfaU40SkFxVmZQY1B4WVZRTWlLdVBGYXd4ZjJoR1haNVRMN0FDMktKV0swZ0hPZU40aExfVC1PMFpDRUNxTkowX1k1aG9WVFRrQnV6YWxBN2tJMENQaG5QaEJLNjc5dXl4bUlxQVYzVnpXdWhiSUJLNkdDV2x5dnY1NXRLbklETkNMcHRLb1pHelh5bzdBeUVKd9IBngFBVV95cUxNbDNsZlpfaU40SkFxVmZQY1B4WVZRTWlLdVBGYXd4ZjJoR1haNVRMN0FDMktKV0swZ0hPZU40aExfVC1PMFpDRUNxTkowX1k1aG9WVFRrQnV6YWxBN2tJMENQaG5QaEJLNjc5dXl4bUlxQVYzVnpXdWhiSUJLNkdDV2x5dnY1NXRLbklETkNMcHRLb1pHelh5bzdBeUVKdw?oc=5",
-      "desc": "Enlicitide: What to Know About the New Cholesterol-Lowering Pill | Newswise&nbsp;&nbsp;Newswise",
-      "pubDate": "Tue, 29 Sep 2026 14:45:00 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
@@ -680,16 +670,6 @@
       "sourceName": "LipitorPlus·Ezetimibe (Global)",
       "country": "US",
       "prod": "lipitorplus"
-    },
-    {
-      "title": "TO YOUR GOOD HEALTH: Woman succumbs to a prion disease, aka 'mad cow disease') - Clinton Herald",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNU3A1VTVRY1JxaUhUZXBlam9Xc19aQVlTSHZ2eXdfMHNNR3g2NGJ1ZGM1QjVxcGZBdmFGcnBxbWdPcWxfLXpOQ1d2S3NoTXRrQldDUVNhNGFKbS1ITjZjbGN3Q1V5Z3JxYUxteS1DT1dyV0JkX042OHdRZGhDYnFERnJvNm9oeHRFcFkxYUN6bWJ4em51eENZYnhGWFBrUzctQWpOc0dHRTFhWmJvWndUeHRkb2JSaXJPRXVQT21lcGJ6d3phRTE1ZUdiMTU2OGpiWnh0TE5qYzcyX2hfdE1TdFR6cjVGNnIwMmNmSnVLU0NqQ2toQkJOOENieXBwZw?oc=5",
-      "desc": "TO YOUR GOOD HEALTH: Woman succumbs to a prion disease, aka 'mad cow disease')&nbsp;&nbsp;Clinton Herald",
-      "pubDate": "Tue, 29 Sep 2026 11:00:00 GMT",
-      "sourceId": "gn_neuro_en",
-      "sourceName": "Lyrica·Neuropathy (Global)",
-      "country": "US",
-      "prod": "lyrica"
     },
     {
       "title": "Cholesterol calculus: Can the new generation drugs curb India’s CVD burden? - ETPharma.com",
@@ -802,7 +782,7 @@
       "prod": "lipitor"
     },
     {
-      "title": "LIB Therapeutics and Sun Pharma Announce Global Licensing, Commercialization and Manufacturing Agreement for Lerodalcibep, a Novel PCSK9 Inhibitor, Ex-US and China; Lerodalcibep (Lyrokaul®) Approved in the EU - Business Wire",
+      "title": "LIB Therapeutics and Sun Pharma Announce Global Licensing, Commercialization and Manufacturing Agreement for Lerodalcibep, a Novel PCSK9 Inhibitor, Ex-US and China; Lerodalcibep (Lyrokaul®) Approved in the EU - businesswire.com",
       "link": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxPU3hyZ1FOdGlfT3ZmOFVkYWZOT1hXYkI4dGFuZ3NnRmhiSFdjMmVTTVk4djNISlphZnZXU1RSTlhIclJuaEMzQnFMMFVlcndhcWt2RkRVbUtIb3VjWW5UNTk5Q0ozNU53WW5IZjFsQlFWRTFmNVBUU3o2bTdnUlFFaU43cUVQNnN6V2xyV09adkktR2tyaVRzdE1lWnEtMUl3czZIUXA3VzA1Umltbm1kOTBUZFpKVy1fcVVmWHN0QkF0T0VxWkNqSzhMWlFidmtQWGlzZ2xnN1RKcDRJRms3ZXlpRGZKNnRlU2JNZGNzanJOTEtrTW9vc2R6a2xDNDJXX25zTENPTnhlODAtRzk2eVkydDQtOHl3X182bUJTbmpGeWhDcTlKUkNNN28xU1RxVThCNzRGSGpVOE9HT1BkcmxRRHNnYUlqbGFHRXJIcWdQLXdXOWFKU0lqczQzVllrUGx1TlI0XzN6WFB4OGlmZEdidnA?oc=5",
       "desc": "LIB Therapeutics and Sun Pharma Announce Global Licensing, Commercialization and Manufacturing Agreement for Lerodalcibep, a Novel PCSK9 Inhibitor, Ex-US and China; Lerodalcibep (Lyrokaul®) Approved i",
       "pubDate": "Mon, 28 Sep 2026 12:00:00 GMT",
@@ -842,9 +822,9 @@
       "prod": "lipitor"
     },
     {
-      "title": "[Interview] ‘Wider options reshape ankylosing spondylitis treatment after a decade of change’ - koreabiomed.com",
+      "title": "[Interview] ‘Wider options reshape ankylosing spondylitis treatment after a decade of change’ - Korea Biomedical Review",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1NUktmYVBDOFZaODM5aE5yRnVNOFBCUGhJRnRIaUVRTWxGT0tNTlZhT1dpeWpDdDRES050NDVkX0ZJQjdGaWlabnlzMDlrOUZlRVBGc21Mc2l3Q0tSdGxJRzltYmNoTUN6UUFacXVB0gFyQVVfeXFMUGlBeUNJZkpYak9wNDhVZ05QT1J5SFltT0xLQ3FzbFp5OHdMbVNmaWh0Y0tEUFpUWDdIUjItWTc1aXVJbkswZ0F1TnRvMGI5MW9tdXo4aVBEXzN6NTg0czdKQVZzUVBEbVhQNFZmQzYxaGVn?oc=5",
-      "desc": "[Interview] ‘Wider options reshape ankylosing spondylitis treatment after a decade of change’&nbsp;&nbsp;koreabiomed.com",
+      "desc": "[Interview] ‘Wider options reshape ankylosing spondylitis treatment after a decade of change’&nbsp;&nbsp;Korea Biomedical Review",
       "pubDate": "Mon, 28 Sep 2026 07:35:56 GMT",
       "sourceId": "gn_arthritis_en",
       "sourceName": "Celebrex·Arthritis (Global)",
@@ -942,9 +922,9 @@
       "prod": "lipitor"
     },
     {
-      "title": "고지혈증 약물치료, 콜레스테롤 수치만으로 판단할 수 없다 - ikoreanspirit.com",
+      "title": "고지혈증 약물치료, 콜레스테롤 수치만으로 판단할 수 없다 - K스피릿",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9nQWZHVDdzRFJyRkVLdEdZZWNNaHMwYUIyeG83T245anRMTERsZzd2OG12RXI3dXRvaUM5YmdfSDlFRzJmS3lqZDRrMFB1dTdINU1vUGNqc3RkNHRWTUxWZGl3SVlyVEdYOEJiVlhUVdIBc0FVX3lxTFBibjBLRXZLb2JUQ2NVY3ZJOGJwWUhYajlnbHNORGprMlp0THUwVVFjWEdJbVFwOHJSUTR2RHpyZTV2SDhGN28wNGtDNFRhUTNNY3RhRXJsVlg0aTVfVjE1aTB0UXh5R0s0SU9hTWVzYXdVeFU?oc=5",
-      "desc": "고지혈증 약물치료, 콜레스테롤 수치만으로 판단할 수 없다&nbsp;&nbsp;ikoreanspirit.com",
+      "desc": "고지혈증 약물치료, 콜레스테롤 수치만으로 판단할 수 없다&nbsp;&nbsp;K스피릿",
       "pubDate": "Mon, 28 Sep 2026 01:38:00 GMT",
       "sourceId": "gn_lipitor_kr",
       "sourceName": "리피토·스타틴 (국내)",
@@ -962,9 +942,9 @@
       "prod": "all"
     },
     {
-      "title": "골관절염 치료제 차세대 주자 급부상...김대원 아이씨엠 대표 \"구조 개선·통증 모두 잡았다\" - pharm.edaily.co.kr",
+      "title": "골관절염 치료제 차세대 주자 급부상...김대원 아이씨엠 대표 \"구조 개선·통증 모두 잡았다\" - 팜이데일리",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZNkJUcDhmM1RKb2VXOU5ZQkpRRUNZVWJfM0M5d2xCWHhLbzFQX2NKQUFMNzBmS3hKaldtaVB2OEswVk1VYkFGTXpJb3JNVnhZY0M2LV9jZTBjR1hBN2pmSm5XTm1KdUppbE01T0Rn?oc=5",
-      "desc": "골관절염 치료제 차세대 주자 급부상...김대원 아이씨엠 대표 \"구조 개선·통증 모두 잡았다\"&nbsp;&nbsp;pharm.edaily.co.kr",
+      "desc": "골관절염 치료제 차세대 주자 급부상...김대원 아이씨엠 대표 \"구조 개선·통증 모두 잡았다\"&nbsp;&nbsp;팜이데일리",
       "pubDate": "Sun, 27 Sep 2026 23:55:03 GMT",
       "sourceId": "gn_celebrex_kr",
       "sourceName": "쎄레브렉스·관절염 (국내)",
@@ -990,6 +970,16 @@
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
       "prod": "celebrex"
+    },
+    {
+      "title": "Scilex Holding (SCLX) Stock Analysis Report | Ratings, Financials & Performance - Benzinga France",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE13RUc4amRDem9GRGwxS1JOUUdQMkpjQW1VSjYweU84cnJWQkpNcDRZNkZxeVdHMTJ5cVRaVUhTckNnV1RqenFiZVA4ZE9qZm9VOUM4?oc=5",
+      "desc": "Scilex Holding (SCLX) Stock Analysis Report | Ratings, Financials & Performance&nbsp;&nbsp;Benzinga France",
+      "pubDate": "Sun, 27 Sep 2026 07:00:00 GMT",
+      "sourceId": "gn_neuro_en",
+      "sourceName": "Lyrica·Neuropathy (Global)",
+      "country": "US",
+      "prod": "lyrica"
     },
     {
       "title": "Mechanism Switching Improves Outcomes After First Treatment Failure in RA - Physician's Weekly",
@@ -1062,9 +1052,19 @@
       "prod": "norvasc"
     },
     {
-      "title": "Beware of Shingles After Holiday Fatigue and Stress; Treatment Should Begin Within 72 Hours of Rash Onset - 스포츠조선",
+      "title": "“관절이 붓고 아픈데…” 통풍과 류마티스관절염, 뭐가 다를까 - 약사공론",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wcU14aEdJcXZlS25JcjZVMjRMUGw5RFZoMEM4djJNZkVRaW5obUNHTnpldkFLemRfZXdFUUlObk9ZZmQ5SUNyY0JKSjVLdExOeE10eHRzUG12dWVnZmlKdDAxY1Z0OUJWaU9ObQ?oc=5",
+      "desc": "“관절이 붓고 아픈데…” 통풍과 류마티스관절염, 뭐가 다를까&nbsp;&nbsp;약사공론",
+      "pubDate": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
+      "title": "Beware of Shingles After Holiday Fatigue and Stress; Treatment Should Begin Within 72 Hours of Rash Onset - sportschosun.com",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUzdSQ2JMNlRKWGR4bU5ObURGVXJqZWRudWFZMENWc3ZUSkRlMzhvbWJ0cHZ4UXBqZXExSDdBSi14YzhrOHFQblpGaVhyR0VkdHZjVTRPaUxDbUpBS0lCQXc2dy1Xd0Z3UkR1dER3X2xNTmhmUVhmUjdLLTFVWUQ0TQ?oc=5",
-      "desc": "Beware of Shingles After Holiday Fatigue and Stress; Treatment Should Begin Within 72 Hours of Rash Onset&nbsp;&nbsp;스포츠조선",
+      "desc": "Beware of Shingles After Holiday Fatigue and Stress; Treatment Should Begin Within 72 Hours of Rash Onset&nbsp;&nbsp;sportschosun.com",
       "pubDate": "Wed, 23 Sep 2026 22:40:40 GMT",
       "sourceId": "gn_neuro_en",
       "sourceName": "Lyrica·Neuropathy (Global)",
@@ -1132,29 +1132,19 @@
       "prod": "all"
     },
     {
-      "title": "비씨월드제약, 이상지질혈증 복합제 '스타피노정' 출시 - 메디파나뉴스",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ORWpkaXR2UkFaa0QtQzFES3A5eEh4TU56TkdOQmNYX0NHVFNSS002LWxnN1dMNjVkMUtZZnJidGJ4TTRKMVpIRS1rbDZWQmlYTHNRLUg5SWdHNnk0dGRxcVpORUpLczdsNnow?oc=5",
-      "desc": "비씨월드제약, 이상지질혈증 복합제 '스타피노정' 출시&nbsp;&nbsp;메디파나뉴스",
-      "pubDate": "Tue, 22 Sep 2026 22:05:00 GMT",
+      "title": "비씨월드제약, 이상지질혈증 복합제 ‘스타피노정’ 출시 - 한국의약통신",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4wci1hT3czWlBVUTh0TWlYVXY4ZTFHV1k2Uks4aGFrV2ZtM3g5YUE0elJhWEhpX1VXeG5PMS1iLXkxUnY4MXpNZUNvSWZqNGlRYUhwdXhabjhDQ2JFTklVcUx4NDNmcFl1VERn?oc=5",
+      "desc": "비씨월드제약, 이상지질혈증 복합제 ‘스타피노정’ 출시&nbsp;&nbsp;한국의약통신",
+      "pubDate": "Tue, 22 Sep 2026 19:41:23 GMT",
       "sourceId": "gn_lipitor_kr",
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
       "prod": "lipitor"
     },
     {
-      "title": "비씨월드제약, 이상지질혈증 복합제 ‘스타피노정’ 출시 - 한국의약통신",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4wci1hT3czWlBVUTh0TWlYVXY4ZTFHV1k2Uks4aGFrV2ZtM3g5YUE0elJhWEhpX1VXeG5PMS1iLXkxUnY4MXpNZUNvSWZqNGlRYUhwdXhabjhDQ2JFTklVcUx4NDNmcFl1VERn?oc=5",
-      "desc": "비씨월드제약, 이상지질혈증 복합제 ‘스타피노정’ 출시&nbsp;&nbsp;한국의약통신",
-      "pubDate": "Tue, 22 Sep 2026 19:41:23 GMT",
-      "sourceId": "gn_lipitorplus_kr",
-      "sourceName": "리피토플러스·에제티미브 (국내)",
-      "country": "KR",
-      "prod": "lipitorplus"
-    },
-    {
-      "title": "National Cancer Institute Awards $2.47 Million to Develop CBD Treatment for Chemotherapy-Induced Nerve Pain - The Marijuana Herald",
+      "title": "National Cancer Institute Awards $2.47 Million to Develop CBD Treatment for Chemotherapy-Induced Nerve Pain - themarijuanaherald.com",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOS3BpZEtYcnpTTkg5Y0lmZGFKeHptcWQ2TGVuOUYwZV9Vc1pwSTlsSGNkRjE5VjVWRmR3cnJEMFJ1cVdRd3ZMeHhjTjhGMkZCNEZxOGdRdjZtNmtVUTRwWjgzNlp5RHd3UkNYbmV1V0NFTHkxdEhLc1ZFUDQ4b3VMZ3pvNFVKU0lhUFY0MU1jQXJDYkc5bGNvSDJoekdwaUc5eVJaQVZwbWVuY096WGhINU1Ud2dfLVRBbmgzcTVDS05yYy1hN2dqa2hYQkhxZzdFd1VPSFZpN3JRUFllYmVF0gHkAUFVX3lxTE1EdXpuQjYxRDVRaFV6STVBWjE3ZnRPblh4amVpbkYyeFpTWnBxRU5SZDFHeVl2elcwcmxhUnZOeHB3WlRBMDlHdnNScjdaWnVQTlJmbk5rVV9CaXRhYzJmUEpuQzdaYkpMbW5WeTlmaHFDcXJEajZqMjY4MVkyeENYV2drU0E2dDUyQnNyYnlkaFcyWFVsT3RhX1A0Tmt1SjRqVUNXbnMyVk1lTXVlTEVjOGtnVldKdTBDMUFHSGtTMWljUGJiS3FqYzZDcEl6SGFyNksxU3Ixa3J3SFlWNm5sb280WA?oc=5",
-      "desc": "National Cancer Institute Awards $2.47 Million to Develop CBD Treatment for Chemotherapy-Induced Nerve Pain&nbsp;&nbsp;The Marijuana Herald",
+      "desc": "National Cancer Institute Awards $2.47 Million to Develop CBD Treatment for Chemotherapy-Induced Nerve Pain&nbsp;&nbsp;themarijuanaherald.com",
       "pubDate": "Tue, 22 Sep 2026 12:32:47 GMT",
       "sourceId": "gn_neuro_en",
       "sourceName": "Lyrica·Neuropathy (Global)",
