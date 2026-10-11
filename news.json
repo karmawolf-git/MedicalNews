@@ -1,15 +1,75 @@
 {
-  "updatedAt": "2026-10-11T05:16:38.177Z",
+  "updatedAt": "2026-10-11T12:31:03.138Z",
   "articles": [
+    {
+      "title": "호치민시에서 건강 검진을 받는 노인 중 51% 이상이 고혈압을 앓고 있는 것으로 나타났습니다. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNODFvVmc5d3MwTGRPSmtvYW44SmNMajBRemZzX0pGaGtRcVc0OHVsanJVdUszX0IzWVhnMWtxVDcwdzE5MHhxdkJuc1p1OGFTZkhsLXVFbl90dVlsUXltR3dVV0JBSThLSUdaX3VMOVlDSWhXX29BY0otbngyc250Q0RydXB5VXJKSk80NlZvOHp4NHVpa1VXRXdRNA?oc=5",
+      "desc": "호치민시에서 건강 검진을 받는 노인 중 51% 이상이 고혈압을 앓고 있는 것으로 나타났습니다.&nbsp;&nbsp;Vietnam.vn",
+      "pubDate": "Sun, 11 Oct 2026 09:20:49 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "A Pilot Crossover Study of the Tsubu-Tsubu Therapy Patch for Refractory Neuropathic Pain - Cureus",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORjJJc3hXZ0YxV2RrUWptV0tRVEIxZzhlYkFDaERpTDE2bG5vaG1QU2VrbnVuMUVrVXUwLUVWb1FBMFFCQWZUcXBEQV8yU0luUVFYbG4yT1NWc0l4QzRxeEI4MWJfTHkwa0ZsdkhsbmlZM3hTV1p4dG1aSWV4MTNjTkNLYzgwbHFXVlc0bEJBRThjZjB5LTVXakl5aS0yQjhna0FCRTJWTmhCOEJKOFE0cjNVczB5bnNRd3o0bFRYY2prLXhTTFE?oc=5",
+      "desc": "A Pilot Crossover Study of the Tsubu-Tsubu Therapy Patch for Refractory Neuropathic Pain&nbsp;&nbsp;Cureus",
+      "pubDate": "Sun, 11 Oct 2026 07:02:13 GMT",
+      "sourceId": "gn_neuro_en",
+      "sourceName": "Lyrica·Neuropathy (Global)",
+      "country": "US",
+      "prod": "lyrica"
+    },
     {
       "title": "Experts urge earlier JAK inhibitor use in AD and vitiligo | Fall Clinical Derm 2026 - Managed Healthcare Executive",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNVIwUy1kQ3VsU3hlMUZvZWZ0eENYb2U5YzRPOHFtQ1JIY0ZqRUFxVzhqYXczdUxiSkVUTW5pNjRmS0JPSzNRWUw5azZPNXlRV0d6S2xjUHRmTlFMUk53b1JZMEtmRVlOWGNWbUJ1QWU5TFVuV1dldFV4UmlIdmt2c1gxX3VycndMZGM2d1lQZXZPeWRHWGh5TV9YQ0R1LURzWHNkaUdGM1FFdWdMNUtCQ2FscDZhUXBHdHBQYWRuOXhhQXA0RG5hUw?oc=5",
       "desc": "Experts urge earlier JAK inhibitor use in AD and vitiligo | Fall Clinical Derm 2026&nbsp;&nbsp;Managed Healthcare Executive",
-      "pubDate": "Sun, 11 Oct 2026 01:47:54 GMT",
+      "pubDate": "Sun, 11 Oct 2026 06:08:04 GMT",
       "sourceId": "gn_arthritis_en",
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
       "prod": "celebrex"
+    },
+    {
+      "title": "폐암 방사선치료 후 폐고혈압 발생 위험 확인…폐동맥 피폭량과 연관 - 메디컬투데이",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE54WUsxWlQtVlBIa01oQ0RlbFJCRjVYcWxTZjRHUFVGcTQ2SWpLYmJLb2VJUXJzSzI5U09SSUU3dHBwU0xDaTRtb3E0aUJOQ2ZnWFBZU2EtMDVBQTMyUWUtU194aVZUOUVxVHAwYQ?oc=5",
+      "desc": "폐암 방사선치료 후 폐고혈압 발생 위험 확인…폐동맥 피폭량과 연관&nbsp;&nbsp;메디컬투데이",
+      "pubDate": "Sun, 11 Oct 2026 02:44:42 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "[인터뷰] 고혈압·치매 위험 낮추는 양압기···“몰라서 안쓰면 손해\" - 여성경제신문",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Yakh3cFNOREZTU0JpNDdBUkU3NlhNRkJFTDcybXllMjl2RENPeVUwRy1WZ0pUV2Y5U3pjbmJiWl9sQTJ6V3V1MkpkUHVCN2ltNWhXQ3lPNlhnZTl5X1hUVUp1S1J6czhKQ25acjlnSVpWQ0k?oc=5",
+      "desc": "[인터뷰] 고혈압·치매 위험 낮추는 양압기···“몰라서 안쓰면 손해\"&nbsp;&nbsp;여성경제신문",
+      "pubDate": "Sun, 11 Oct 2026 02:28:03 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "버튼 대신 제스처를 쓰나요? 카지노 주식 조작 확인 - Calgary Roughnecks",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQcjBKdDNvWkg5VGhxNDBZSEV1R0xrQkw3cTRNYk5pSDJjOFpXZjhjQmFHcEFwN3cxQXh4cDRNbXFvSUVWWVV3LXplRmdYZm5xNjNDNGtkWG5RV1lWV0Y3SGhYb1JkTHl4aFFvRjd2aklzbGhhV3FiTkFOR1g2WHhwaVpUbEo4RWZlRjFUYjNacy1hNFZGZTlacURsaVpFWDVNZnN3QVRRbFJFd3JkZE9kU3ItZ1NLS29GU2haQ3hVQ09FaHhFd295aC1DRlpDRUt3RGFKWmtkcWR1M1Fybld3SFNLVG5MNDkzT1llS3huU1dLYnJubGR0SWJZSk1tcFFqaGgyNGRRSFVWblhu?oc=5",
+      "desc": "버튼 대신 제스처를 쓰나요? 카지노 주식 조작 확인&nbsp;&nbsp;Calgary Roughnecks",
+      "pubDate": "Sat, 10 Oct 2026 23:41:05 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
+      "title": "전체 화면에서 메뉴가 숨겨지나요? 룰렛 이벤트 구현 - Calgary Roughnecks",
+      "link": "https://news.google.com/rss/articles/CBMisgNBVV95cUxQUFE5TUxablhnLVJ3MkhnLXlpa25KYjRBcmplQVhCbXY3TVFrRldvU1JmZ2NvWjVxa1l0X0NzVUlRSkpMVld0M0VpdWpFN2Vfb3hmTXNHUlpIMUlLOHM3SkFoVHBzZ0QxMlZoS0ZGaFMtUHdOZkFvWl8xbVZRbEs0YXdXbS15amlvZV81ci1tUVFJMUVyZV9fd0hITEs5RV9XblFJODhHQ1BwQllZNHBzWG1scWcwSzVfUy0zMHMwTHc2WVBSX05GOGdWblBKS1ZmUjN0VmFTdWtZSWFkOFVKTGJfVDBEM21qZERfRUhKdzVsdU16SWVidGk4MUVabHptbjZ1R3pDbUJlZkZYME1BSTE2eTY4RDFJSmNIZkc0MnMwMUpuZG9qTHRGU1cxS3V2VTI0R3VhWnhJVThLX2dxZGw3M2Ixb1FHTkdGbFp2VW84cVlmNGJ0akN1OVRiVDhZMVFEYXdsQmJscFJ6dnRBLTQxdGxiMDlScUQ3eFY0WmZ0OWlKdGpORTVVNmRWRE5wdjNMaWxJbGRBVDBiSlVRTF9JNFhBUXdLMGhFLW9DejdMUQ?oc=5",
+      "desc": "전체 화면에서 메뉴가 숨겨지나요? 룰렛 이벤트 구현&nbsp;&nbsp;Calgary Roughnecks",
+      "pubDate": "Sat, 10 Oct 2026 23:08:23 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
     },
     {
       "title": "Cholesterol-Lowering Antibody Evolocumab Cuts Heart Attack Risk in Landmark Analysis - Bioengineer.org",
@@ -20,6 +80,16 @@
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
       "prod": "lipitor"
+    },
+    {
+      "title": "게임 선택 전 지원 환경부터 확인하는 포커 에어라인 뜻 - Calgary Roughnecks",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMHJ5ek1HVTJUS0dHZ1pKakY2NjA1bDRjZ0Rra3RsWXktRkJTaUJURnYtajdQZE9yYnZVdEZ5M2VCdmx4bUhnd1EzU0twWEdlVDVGbTdVUDY0ZHU0eU5tRGk1Vy14S0FaRmwxWXp6Nk1CblY3OFQ3czh4QTVfcDJDcWgzTXNlb2NDcmIxenFWaHVXLXBXem5VaGxqNzB1cVVuRnRIV0ktVnU?oc=5",
+      "desc": "게임 선택 전 지원 환경부터 확인하는 포커 에어라인 뜻&nbsp;&nbsp;Calgary Roughnecks",
+      "pubDate": "Sat, 10 Oct 2026 20:57:27 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
     },
     {
       "title": "[포인트 건강칼럼] 늘어나는 카페인 섭취, 무릎 건강 이상 없을까 - 포인트데일리",
@@ -56,26 +126,6 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tVmVLZW4tU1lwMl9uTUI2Rk1UWW9KWFQta3hLZ1lJWXZqd1BoM1R3dUNEV28xSDhrd0VLcXduaWxoaFhHSVhtWGpPbVVPa3hrY1QxYk9hNUpNYkhzOHYwUTA4S3pqeVRDbjdSZw?oc=5",
       "desc": "병원에선 정상 혈압인데 집에서는 고혈압...노인 낙상 위험 70% 증가&nbsp;&nbsp;메디컬투데이",
       "pubDate": "Sat, 10 Oct 2026 12:22:28 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
-      "title": "연구: 잉글랜드 성인 36%가 고혈압, 10명 중 6명은 미치료 - 뉴스 및 통계 - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNc1ZycUZxbXhXNDZUV1YyeTFXb200bk9LYldvZWZaZW91dGhTQm5wSU1tUFA1eGloZ2piX3dNN0JfMEROOXRrNGdva1JKX01oZGZPSnMyRjdSaVVRM3B5eG9FVm9NYVdDaWpkZE9KOGhLY0F1MGZMYmpOUmFZX3RwSkJWZE5MYTNhRXZCTlp3MXNfX2xJY2VKc0E3UVZEeEwtSTg0?oc=5",
-      "desc": "연구: 잉글랜드 성인 36%가 고혈압, 10명 중 6명은 미치료 - 뉴스 및 통계&nbsp;&nbsp;IndexBox",
-      "pubDate": "Sat, 10 Oct 2026 10:22:20 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
-      "title": "고혈압·당뇨 등록관리사업 개편 논란…“약값 지원 끊기면 치료 중단 늘 것” - 현대건강신문",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53SGVCYWxaeDR0YUpIN1g2TVZwZEYyUURDcXFpSU56N1lKRXNFaXpSaFg4Wm1WUzJUYTg3SndNb1dOeEZNSFlNZk00WWVaWjlWTmlvZ3lR?oc=5",
-      "desc": "고혈압·당뇨 등록관리사업 개편 논란…“약값 지원 끊기면 치료 중단 늘 것”&nbsp;&nbsp;현대건강신문",
-      "pubDate": "Sat, 10 Oct 2026 06:28:00 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
@@ -172,9 +222,9 @@
       "prod": "norvasc"
     },
     {
-      "title": "Pausing Advanced Therapies Not Warranted for COVID Booster - Medscape",
+      "title": "Pausing Advanced Therapies for Inflammatory Arthritis Not Warranted for COVID Booster - Medscape",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeXZNcVA3NzBuOUJuYTI0ZU5BVm9kTVM1RmNfeU9ESjVPZTRta2x0N3JJbzB2cGZSQlpBUTNtcHpnWmt5RGt3U1dNRDhnUlEzWW40bFZpMDJIWTFHZGdRMndYR2U5a3N6c0FDbXpqN3U5WHlQamNQakQySy1EZDVETlVLUmxUQ0s0WEQxN1NGbVFCeHhvUHh2WlB4X2RyNFlzNXdKM1l3?oc=5",
-      "desc": "Pausing Advanced Therapies Not Warranted for COVID Booster&nbsp;&nbsp;Medscape",
+      "desc": "Pausing Advanced Therapies for Inflammatory Arthritis Not Warranted for COVID Booster&nbsp;&nbsp;Medscape",
       "pubDate": "Fri, 09 Oct 2026 12:41:35 GMT",
       "sourceId": "gn_arthritis_en",
       "sourceName": "Celebrex·Arthritis (Global)",
@@ -232,16 +282,6 @@
       "prod": "norvasc"
     },
     {
-      "title": "고혈압약 복용해도 칼륨 풍부한 DASH 식단 안전성 확인 - 메디컬투데이",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MdTBOSTNNVlJVQlA2cEJ4RlFUdFdCTEhmSDBzVDdVWWVtYUNzWEtaZnlWeEVoc01oc3ZRMmVWOW13ZkZRY0EtNTBTMEZRUE52MXpmSk5OOEFxaW1mUll5Tk9IaTVTbUJtMXhaZw?oc=5",
-      "desc": "고혈압약 복용해도 칼륨 풍부한 DASH 식단 안전성 확인&nbsp;&nbsp;메디컬투데이",
-      "pubDate": "Fri, 09 Oct 2026 01:56:10 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
       "title": "Can DMARD Doses Be Safely Reduced for RA Patients? Korean Trial Says Yes. - MedPage Today",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5DeVdkSm1JdFJQV0o4cS1CcEFxUlNQRXJ6MzRiY2JMMnBBZFJXYjRsOEI4dXZpVGd0NnBUS3ZTTVdhanFBWkVjYVNkaWRqNzdjaEVucEhIcFJHMmxMQS1IZHZ6MVdhbFljcWc?oc=5",
       "desc": "Can DMARD Doses Be Safely Reduced for RA Patients? Korean Trial Says Yes.&nbsp;&nbsp;MedPage Today",
@@ -250,6 +290,16 @@
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
       "prod": "celebrex"
+    },
+    {
+      "title": "Patients on Dialysis Face High Herpes Zoster Burden - Medscape",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLVdVQmMyU2ROc1JWQTNFMmVPUnlPRy1JODJOb3BweXh2RWhYLWdHcGszRHptZHBmeTN4bkJYSmJiLW5pRW1FYzNCLTNCMUJmeDg3bEtQX1V0a0RwN01QY2ROd2JDMTZQcHlXR1JLZWE0WkJ1OHBwNnZvUkwwVWRRUXQ2azFqSGNTU1JCbF9ROHBBVkJuYkd0cnVpLVF6YjQ?oc=5",
+      "desc": "Patients on Dialysis Face High Herpes Zoster Burden&nbsp;&nbsp;Medscape",
+      "pubDate": "Thu, 08 Oct 2026 18:08:35 GMT",
+      "sourceId": "gn_neuro_en",
+      "sourceName": "Lyrica·Neuropathy (Global)",
+      "country": "US",
+      "prod": "lyrica"
     },
     {
       "title": "한미약품·유한양행 고지혈증 복합제 효과 검증…혈관에 쌓인 지방까지 살핀다 - 뉴스저널리즘",
@@ -262,16 +312,6 @@
       "prod": "lipitor"
     },
     {
-      "title": "Patients on Dialysis Face High Herpes Zoster Burden - Medscape",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUW5vSlhUWWRpUGFaREZNb01oSnlRNVpKUkVtb3BwOHk1QXRoQkpVd1VFdnFZYVE2QXYyeHoxbnhsS1Z1X1RrWm05WGhSdWhpTzBqbXVJdlR6ZnBrZXllbEM5RXZtVTYwcnZ2WGJKel9RRGdmUERwU05uNFg3R0pncExxZGM5NEZzMkRJa2NkcEJON2xfZjdnLXJ2TXJMaXRTTmMzdFFB?oc=5",
-      "desc": "Patients on Dialysis Face High Herpes Zoster Burden&nbsp;&nbsp;Medscape",
-      "pubDate": "Thu, 08 Oct 2026 12:06:35 GMT",
-      "sourceId": "gn_neuro_en",
-      "sourceName": "Lyrica·Neuropathy (Global)",
-      "country": "US",
-      "prod": "lyrica"
-    },
-    {
       "title": "내용을 찾기 쉬운지 확인하는 논술 도박 도움말 구성 - Calgary Roughnecks",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNemVCWG9WckpLWTZDZlNyVFF2VGcwLS16RW5kTzQwQmhHT2p5Wnk1Yi0tTHl6amR3eUl5UlhtNTRobjdNeDZQYXNodEp2YnhJU1hycmZFbklrWGNaN0w2OXBSUDZibFY5NFhTMVpmX0FzTURHYnYyU282MHFzQTFTbC1UdlNPNngwYy1JSjIxTjh0NXlaSFFsTllDV3hLaW9vZFFzOXJHSlJ2QlZjbUtiWWxreENaREJTMDBLUEJKdzhjMUdkeE5lNHVpd2QtU2hS?oc=5",
       "desc": "내용을 찾기 쉬운지 확인하는 논술 도박 도움말 구성&nbsp;&nbsp;Calgary Roughnecks",
@@ -280,16 +320,6 @@
       "sourceName": "쎄레브렉스·관절염 (국내)",
       "country": "KR",
       "prod": "celebrex"
-    },
-    {
-      "title": "에디타스 메디신, 고지혈증 유전자 편집 치료제 'EDIT-401' 임상 1/2상 호주 승인 - 데이터투자",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1oVUFZOXROek11VWd6dHdKbzNrMUFUcUdTbnFocmdvSkpjY3VnSXBUZHN3OXphVWVEZkNPTWlfbW9INDczRV84TF80MVFZU05tVXhnT25SMmNUNEpSZndhNDBjVENkanJLWTdHT3ZfcUwwams?oc=5",
-      "desc": "에디타스 메디신, 고지혈증 유전자 편집 치료제 'EDIT-401' 임상 1/2상 호주 승인&nbsp;&nbsp;데이터투자",
-      "pubDate": "Thu, 08 Oct 2026 11:06:18 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
     },
     {
       "title": "인제대 전장수 석좌교수 연구팀, ‘골관절염과 심혈관질환의 상호작용’ 세계 최초 규명…'Science'지 논문 게재 - 국제신문",
@@ -382,16 +412,6 @@
       "prod": "celebrex"
     },
     {
-      "title": "젊은 여성 이상지질혈증 환자 2.4배 늘었는데… 검진은 40세부터 - 베이비뉴스",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5DRHVNU3JZZ3JPamZqdnhtVkdTNUQwalNQOHpFOVZTOUkxTlZJMFUtYWJaWkJ1QzNyaE42MUpnYnFKa1JvYlI4cHJya0I0eHE5WnNMQXVsSl9mM1UxcmhFOW1yRmY4OVZ1ZG9JcQ?oc=5",
-      "desc": "젊은 여성 이상지질혈증 환자 2.4배 늘었는데… 검진은 40세부터&nbsp;&nbsp;베이비뉴스",
-      "pubDate": "Thu, 08 Oct 2026 03:03:36 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
-    },
-    {
       "title": "고지혈증약 복용한 사람, 녹내장 위험 낮았다 - 약사공론",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1OVWNOd3JGbGZWLXlJLWc2OUhmQl93YkZCZTItakxvVG5QbzlsNW95dzhvMDZCeVNsSjMzaERLQjRBNmFKdUhNbzIteUI1bFMyc1ltWmFZeGRkVDhWYkFVZVVoVlc1OFdiMExsag?oc=5",
       "desc": "고지혈증약 복용한 사람, 녹내장 위험 낮았다&nbsp;&nbsp;약사공론",
@@ -482,10 +502,10 @@
       "prod": "norvasc"
     },
     {
-      "title": "증상 없는 ‘이상지질혈증’…수치 정상 돼도 약물 임의 중단 안 돼 - 세계일보",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1aZEgyeVBtdFlIQkQ4OVFCeFVWbUNmdnFpekJOM2tZUkoteTZIT3NCajhtM3psWUJFZ2xPM1JZODVYd1ZKVXF2WmtacjlRdzI2dmRLU9IBVEFVX3lxTE1aZEgyeVBtdFlIQkQ4OVFCeFVWbUNmdnFpekJOM2tZUkoteTZIT3NCajhtM3psWUJFZ2xPM1JZODVYd1ZKVXF2WmtacjlRdzI2dmRLUw?oc=5",
-      "desc": "증상 없는 ‘이상지질혈증’…수치 정상 돼도 약물 임의 중단 안 돼&nbsp;&nbsp;세계일보",
-      "pubDate": "Wed, 07 Oct 2026 11:20:00 GMT",
+      "title": "서부노인복지관, 울주군보건소 연계 ‘고지혈증교실’ 운영 - 경상일보",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RRVdGZzliVFhaVTJIX0JDdkRmYm5ucmRMNTZzcVcybkR4WDItYkpJNFVlLXZMb0IyVVlOVC1lR1lLQlNwMHhXX01QdlQzdjFlUWkwQ3N1YUxuNUhhY2tkOWNJWTVhNUJRZVNKOQ?oc=5",
+      "desc": "서부노인복지관, 울주군보건소 연계 ‘고지혈증교실’ 운영&nbsp;&nbsp;경상일보",
+      "pubDate": "Wed, 07 Oct 2026 23:10:00 GMT",
       "sourceId": "gn_lipitor_kr",
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
@@ -722,14 +742,14 @@
       "prod": "norvasc"
     },
     {
-      "title": "스카이랩스, ‘CART 혈압계’ 영국·아일랜드고혈압학회 검증 임상 착수 - 바이오타임즈",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15QmNmbThfOWtYWkF0TS1UOVMtdzZacW12ckNtUFAxbzJKWTBZOTBjOHNvSDZPY3BsTTJ5bjJKTkptS1NGRHZYbUV4VHBRb0RBMG94MVY3UUc4UU9WdXVfU2tqejJCb056OTc1OA?oc=5",
-      "desc": "스카이랩스, ‘CART 혈압계’ 영국·아일랜드고혈압학회 검증 임상 착수&nbsp;&nbsp;바이오타임즈",
-      "pubDate": "Tue, 06 Oct 2026 02:19:22 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
+      "title": "리제네론, '마이오스타틴' 병용 \"위고비比 근육보존↑\" - 바이오스펙테이터",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBuOC1mZ0RXUkV2WXpTNmNRWlh1bktuZmQtM3ZZQVR1NWlyRW1ielVlaWhYb09CMGlNckhaa1I3blpOaUIzYlZ2QU5UN0lYNXZubW1TSjNBUQ?oc=5",
+      "desc": "리제네론, '마이오스타틴' 병용 \"위고비比 근육보존↑\"&nbsp;&nbsp;바이오스펙테이터",
+      "pubDate": "Tue, 06 Oct 2026 02:49:00 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
-      "prod": "norvasc"
+      "prod": "lipitor"
     },
     {
       "title": "Stop Arthritis Patients' DMARDs Ahead of COVID Jabs? Trial Brings Clarity - MedPage Today",
@@ -802,16 +822,6 @@
       "prod": "lipitor"
     },
     {
-      "title": "폐동맥고혈압 발생 기전과 새로운 치료 표적 제시 | 연구이야기 | 헬스 - 서울아산병원 뉴스룸",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBKbGVVaWU2UWZBdjZjdmloamtwc2RFQVdid3JYMFQ4UnI5cnpJUWcxU1RlZnJ2MGkzT3FBZXQ2dk5pSmNwc1hUZVBTeGRtdFFSY1F0Mm9Ud0stYUFMY1BPYVRnS0JDZ2s?oc=5",
-      "desc": "폐동맥고혈압 발생 기전과 새로운 치료 표적 제시 | 연구이야기 | 헬스&nbsp;&nbsp;서울아산병원 뉴스룸",
-      "pubDate": "Mon, 05 Oct 2026 15:00:57 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
       "title": "Forward Therapeutics Announces Positive Phase 1 Data for - GlobeNewswire",
       "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxNY0dGeXd1MHpvVDlLV2EySXFuY0pMN25OdkNXYTlKeEFpQ0RxT2VBSUVZdEdWTEc1Z1dEQkt3Z3NIRG9sR01sMmNhRE50S2l0YWRhZG9DMnlta1IxSktBQ0NkNjZxaE8weWNTb3ZCVTdxZC1SanJ5TzYzWHR0amtlSGtoczBVd05mOE9rc1VvUlpOX1JDS3pOVG5jX01BLVRnaDNfWEM2ZjNTcVhLM0hkSk5TanE5ZGY5SHNiYWR2bzRQdUgtZmxSaUx2dGV5YWd0UnRpTTIwLTc2ZngzSmlic2VQdG5RWlpFREFUel9xWUJfOEpzRWVXMUo1XzBlLXg2ZWJMZXdfbGNYWWs0dnl3dkVMT2IwR09RcEdhV1A5dld6bGYzNkYtSUdHNzJqd3Fia1ozbzF6UXBFdVR0Ykpfc3lJTU9fenJpbHhOMFJDeGtwZzhCN3FkOFZYbnR0UQ?oc=5",
       "desc": "Forward Therapeutics Announces Positive Phase 1 Data for&nbsp;&nbsp;GlobeNewswire",
@@ -852,16 +862,6 @@
       "prod": "norvasc"
     },
     {
-      "title": "Inter-anesthesiologist Practice Variation in Vasopressor Administration for Intraoperative Hypotension: A Retrospective Cohort Study - The Cureus Journal of Medical Science",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPNXBsU1Q1Y2VMRk5GMUZQWGZMX1ZscDBad2VmNG50UGZudW4tLUFqRzd4eWllMlMzUkpkNnV4QUFtVWFyZXhXdXNrSmRrZmZQV0NZYlJmRGlKSnlyNDl0U2pwdjl4VHQwbWVfME56X0pqdFlZSnQ0dl9mSkRBOTNxM0hIRHJfazBpZ24wRkxiamN5XzluQ3lEelpzT2Ixb18zSk93emxLQ1lOazN2Z2tXd1MwRkUzcm1BWFMxcjR2M3VyQTF0ekZSYm56N3BTU2lUOWJ6U1o5NmczRFc4eEZkS2dDS05UYmVBUWJxM2NyWmY4a3FuRUFjSnJqdHZ0aWM?oc=5",
-      "desc": "Inter-anesthesiologist Practice Variation in Vasopressor Administration for Intraoperative Hypotension: A Retrospective Cohort Study&nbsp;&nbsp;The Cureus Journal of Medical Science",
-      "pubDate": "Sun, 04 Oct 2026 18:21:48 GMT",
-      "sourceId": "gn_htn_en",
-      "sourceName": "Norvasc·CCB (Global)",
-      "country": "US",
-      "prod": "norvasc"
-    },
-    {
       "title": "glucagon for overdose Canada Guide · 8.9.7 - www.polskieradio.pl",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yazJCZ1laQzBaZzNZX05GUGlSamdIUmFXeWNFam04cmI2d0ZCSFpsZGZvX0NEeVRTYUJQQmp6cnljWTFFX05tM1ZXbWJoX0FIOUZIbmhaTjg2YzdYZ2hzcTBkdUZDM2d4?oc=5",
       "desc": "glucagon for overdose Canada Guide · 8.9.7&nbsp;&nbsp;www.polskieradio.pl",
@@ -870,16 +870,6 @@
       "sourceName": "Norvasc·CCB (Global)",
       "country": "US",
       "prod": "norvasc"
-    },
-    {
-      "title": "Oral Cholesterol Drug Combos Rival Injections in Landmark Analysis - Bioengineer.org",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVmt5MVRVVFZqSVhpMUFlaV8wM1dSSDIyenNXWkNtRHhzdDA2WGlFYTB2N09NN1BCV2h0SHNqR1hxU2gyTlNkdTZPUFhSUER4WGdCLV9hdHVNcmNlRGd0RmxkZnk5QklXYmE0eXhROUljaDd4S1BBYjBlOXNPWWo2eTNMSGR3MXdydHY4OXI5VDJBeXB6TFE?oc=5",
-      "desc": "Oral Cholesterol Drug Combos Rival Injections in Landmark Analysis&nbsp;&nbsp;Bioengineer.org",
-      "pubDate": "Sat, 03 Oct 2026 23:37:49 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
-      "country": "US",
-      "prod": "lipitor"
     },
     {
       "title": "A Rare Case of Cystic Bronchiectasis With Concurrent Pulmonary Aspergillosis in a Rheumatoid Arthritis Patient Receiving Etanercept - The Cureus Journal of Medical Science",
@@ -952,6 +942,16 @@
       "prod": "lipitor"
     },
     {
+      "title": "A Single Treatment Lowered “Bad” Cholesterol for a Year. Here’s the Science Behind It - Yahoo Health",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLWdUNjZYTmFJVUpPc1VGZzlfbEw4MHR0YTRFRVctLTNKRHVVZWpKUEZCU1JMXzJxdWNsaXhLdEVRd2ZfVm1mLWI2LWZlbGJvMG51MWVPNzFpajI0azJnSXRXRG50dTZYN3cwSU1lN0FrX0RCZVFJd3JpYmdsSngxVE5yMnJCU3Q0bW50ZlNTTG50cnc4RTIwYzRsRHpmemE5TDI0eWNDeFMwQ3FndjNqbU1BRnY4QQ?oc=5",
+      "desc": "A Single Treatment Lowered “Bad” Cholesterol for a Year. Here’s the Science Behind It&nbsp;&nbsp;Yahoo Health",
+      "pubDate": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
+      "prod": "lipitor"
+    },
+    {
       "title": "NewAmsterdam Pharma Doses First Participant in Phase 2b SPINOZA Trial Evaluating Obicetrapib in Preclinical Alzheimer’s Disease - The Manila Times",
       "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQbDl1Z0lUSUNpUnZRSFVYemRsUldPSElCTlNjM3JhbFhJTEJ0ZjhWZ0hES1ctNG9Md0Q0S0VULUs4NUh1aVBGa0tvUWdOOGdNRHZpZWxBeEZiemplTmNEd3BFQkFpNXJiVEpvOG9FWWhxQ19QQXlVSmktQnMwaUZUR0lKcUJ5TWxCU3duY0FqblRVZWdBZ3ZYZmNVa1RxaTAwLUtLbW1DRzdtcFFFekN4R0pybVk3NGdPZWdCSXdSenhDTmJSOEZ5WXNhVnNhZzhLSnhYbkZrUFpxaHg2QkNPSVEtemtSZ05fVHdzZzRzemZfY3VXLUYtd2puR3c2WC1FUjZaQVZwTnVMVDlIYzEzTVpNR242by1tMmVEZHhEWG84ZVExV3Q40gGsAkFVX3lxTE9RWjBvN01PSWlKZWdaMHFQVlJmRWhNV1NXVlFpOVdjS2ota3dqQXdaelZra09XUFN2STMySHlaVUJub0RzMVQ1c0NpeWpzVDg5bnROY0F0Y21tU2w5LWZ1QkJ4U3Y1aGFjcTVmRWJzZWp6RDF3WDR1Rm1vd1RybFlJS2F6aGtnN1NxMHNtYzF2akRreDdsUWdYVFo2cU1fVVFmR1Z0Q0VvaDl2R1NwbzlDV18xZ3htMVFQUi1selUyenlLcldzVDlMdjctZEhpMlc5WFNvNmtHRVdvekZ3MEVQS0VvNU0tdFVSa2tVb0k5YVY3WXI3d1B4OUNabFhWM3NFcWc4LXVBeVNKaXVlcXpHUTRtR2dCN091ZVNtcEQ1OE5RMmlaWVRSdmJsSg?oc=5",
       "desc": "NewAmsterdam Pharma Doses First Participant in Phase 2b SPINOZA Trial Evaluating Obicetrapib in Preclinical Alzheimer’s Disease&nbsp;&nbsp;The Manila Times",
@@ -1000,16 +1000,6 @@
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
       "prod": "celebrex"
-    },
-    {
-      "title": "Sun Pharma and LIB Therapeutics ink global licensing agreement for lerodalcibep - BioSpectrum India",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTWt0eE1jOG5veWxBb01uYnN6QUVmbFdRWDhnNTMxLUItRFFVMk94Ung0bTJ0cFBVT3RwMGt0YTN2R2FXclNoMkVRMnlvSXlZM3QwZVJUSzRIaVBIZ0lKZ05tV2tKWThySHNBa2x5ZnYweEllcWJUVXF2Ny15bEtFb3poUkZKbWplUTlhQ3l0NmdjM1J2WDdvWnB6ajQ2SnF2ZDBBZEZyeU1vZlFHTzNaaFdrVEp5dTZ6ei1CNklxRHd1NGR1ZlVKZHo3VQ?oc=5",
-      "desc": "Sun Pharma and LIB Therapeutics ink global licensing agreement for lerodalcibep&nbsp;&nbsp;BioSpectrum India",
-      "pubDate": "Mon, 28 Sep 2026 16:04:19 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
-      "country": "US",
-      "prod": "lipitor"
     },
     {
       "title": "Sun Pharma Inks Global Lerodalcibep Deal, Gets Rights Outside US, China - Medical Dialogues",
@@ -1092,9 +1082,9 @@
       "prod": "lipitor"
     },
     {
-      "title": "Sun Pharma bags rights to $3.7 billion cholesterol drug market globally - Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQakdTcGxBc3RxM3p2QWpwc0prNVZ4aVRMNkFLVlplVFhnOHFyUG5hY3FldFBZa0lsd1ZnRUtSa1F5dFJvQzk3bDY2UEI2NnZQS0FLcGlTNlV1UElfdVBkRHU4N04yYWYyWXY2M1Vvd1NVMXJ2YXNTdk5tTFBnRzM5Ri1ha0s5cmRmR2ZEbERqYmZ6MVBLVFVNOUkyelNkdGt4bmhUNXFueEhkWWVnbU9QTXM5eFJnVkhFbU9PTG8zc09GVDdIdm82QlE3UnBPVUZmR0xjdGJmUnBGd0NEdXfSAeMBQVVfeXFMTS1pMXl1MWtzbk50WVIxUmNYelJ1dXBVdS1ULVFjWnNLVG1Pa3dZb2QwSjg1Z2lyQkxBSy1fcVRnUmZJb3JCQWtOMVlkMFlOdERZOXN1a09laTFFaXFCS1ZGU0pMT3QwUkY5Z1RvOGJBWTV5eF8xNTVSZm1uc19rc0QxUnJpR1drT0pEb2doRUFXUGVhTGJqWmk2ZlNYTDhTb0VfR25xNmw2QUJEVW1ISk00VWs5Z2pHdGhfR3JkSzhvMDJrMjdTWEFEQUdVY0R6OTg0ZjQ0SWFjb1JzTDlvSVhRRVk?oc=5",
-      "desc": "Sun Pharma bags rights to $3.7 billion cholesterol drug market globally&nbsp;&nbsp;Business Standard",
+      "title": "Sun Pharma inks global licensing pact with LIB Therapeutics for cholesterol drug Lerodalcibep - BusinessLine",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQU2w2ZkVnTmpNMHc5OXIxNk9hZ09GeGxtalB4VzlTSEphSno1ZVR5eFJlMHFOb0dFd3p1by1vSjdTc0xCc0xQWDgyNlQ1MC1KSmRLV0M5NFUyYmhSVURWMnZ2a3JxMDNLY3JVNkdMem1ZVk5TT3ZHdl81d1FBREg1NF84QXM5Qmpub3REQjQwMlNBaV9tZEtxWFczcml6Y3lBeVk3eDVSanVsMktOMjVScnlzN2QyZ2hLYnQ3MFhWdndwNW1nTkZLMWFPQWhIbFRidmJvdTg2ajhvc0JSNWFaOGFodkpzNWZ6Tmg2TXpDUGV1QdIB-AFBVV95cUxPNzc0OHFxblh1YXlVN3daaDNmM3FzenNjcFdsdElFTHpCblZaa2ZRX1Z6bnowYWpBcHFTdGJXV1Y5OWJwWUFnOU0xQzc3aG5VV3JMU2NZOE4tZlMtNWw3Xy1xT052cDJvSnUtVFZLVlpwWkpUWlV0UXdZaG93ZzV4Nm1zYU9fMmNrVGlOVnZ2MlZBNFh6Y3lDLWEyMFBUVXo4d2tWV0dMbWNQc1RDQ0pxdkM0V1kwY3hhY1ljcjVfam9VREZNSm9rYXBiV0hURXBqMlpvMnVDcTE1ZFFQeFlzWjRDUWVxTlN4YzlYQkdTdFhURUt0bmxpeQ?oc=5",
+      "desc": "Sun Pharma inks global licensing pact with LIB Therapeutics for cholesterol drug Lerodalcibep&nbsp;&nbsp;BusinessLine",
       "pubDate": "Mon, 28 Sep 2026 07:00:00 GMT",
       "sourceId": "gn_statin_en",
       "sourceName": "Lipitor·Statin (Global)",
@@ -1112,6 +1102,26 @@
       "prod": "lipitor"
     },
     {
+      "title": "Sun Pharma bags rights to $3.7 billion cholesterol drug market globally - Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQakdTcGxBc3RxM3p2QWpwc0prNVZ4aVRMNkFLVlplVFhnOHFyUG5hY3FldFBZa0lsd1ZnRUtSa1F5dFJvQzk3bDY2UEI2NnZQS0FLcGlTNlV1UElfdVBkRHU4N04yYWYyWXY2M1Vvd1NVMXJ2YXNTdk5tTFBnRzM5Ri1ha0s5cmRmR2ZEbERqYmZ6MVBLVFVNOUkyelNkdGt4bmhUNXFueEhkWWVnbU9QTXM5eFJnVkhFbU9PTG8zc09GVDdIdm82QlE3UnBPVUZmR0xjdGJmUnBGd0NEdXfSAeMBQVVfeXFMTS1pMXl1MWtzbk50WVIxUmNYelJ1dXBVdS1ULVFjWnNLVG1Pa3dZb2QwSjg1Z2lyQkxBSy1fcVRnUmZJb3JCQWtOMVlkMFlOdERZOXN1a09laTFFaXFCS1ZGU0pMT3QwUkY5Z1RvOGJBWTV5eF8xNTVSZm1uc19rc0QxUnJpR1drT0pEb2doRUFXUGVhTGJqWmk2ZlNYTDhTb0VfR25xNmw2QUJEVW1ISk00VWs5Z2pHdGhfR3JkSzhvMDJrMjdTWEFEQUdVY0R6OTg0ZjQ0SWFjb1JzTDlvSVhRRVk?oc=5",
+      "desc": "Sun Pharma bags rights to $3.7 billion cholesterol drug market globally&nbsp;&nbsp;Business Standard",
+      "pubDate": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
+      "prod": "lipitor"
+    },
+    {
+      "title": "Sun Pharma Inks Global Licensing Pact With LIB Therapeutics for Cholesterol Drug Lerodalcibep - HDFC Sky",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNzV0UU91dTlFaUF3clZETnNtQ0luX29ZRGdpVGNYZ3E3NzlOd01mWXRlLTNMQlRfYnptdGZRUEJnTkNIYWs3bnZIV1lTMFliblExTVFCVTRHVFNxVHcxeG9tc3dkUk1mekpSbWpmUzNFVFdtZWZqbXN1Vm5OTXpCN3FLdmNUTkR1OFNkZzFiSUFpWjY4QXU4a2JSOGd1alFvMV9nN1ZwaXNna0pYS212ZF9JNTJrNm52TXc?oc=5",
+      "desc": "Sun Pharma Inks Global Licensing Pact With LIB Therapeutics for Cholesterol Drug Lerodalcibep&nbsp;&nbsp;HDFC Sky",
+      "pubDate": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
+      "prod": "lipitor"
+    },
+    {
       "title": "Arthritis models for studying chikungunya virus joint inflammation - Nature",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9lTXBYY1dCTXhyVUJiZGhZSU1faTM2U0NoX24xcTltVVdOcU1xQWdHRE8wR1BmQ1YzZVQ0dEROT1VLaEdlYVVOd3NQc1E0cUg4LThYNXhiVERlVDJJeFhZ?oc=5",
       "desc": "Arthritis models for studying chikungunya virus joint inflammation&nbsp;&nbsp;Nature",
@@ -1122,14 +1132,14 @@
       "prod": "celebrex"
     },
     {
-      "title": "Sun Pharma inks global licensing pact with LIB Therapeutics for cholesterol drug Lerodalcibep - Daily Excelsior",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbjRka2JIWHJTNGtiTXFlOFVSTzJqR282VEVWRDNnMTN6YTQ2ZXI1djNOMDZ2aC1nbW02amszMlJGUUt3RjZobXBaSkxOSkk2WldscmNuUm90QmNmTkRlOTltX0NkU3pzUWNWZkFIald0QW1KcGRYOGN0TmlGUnJ6WEx2dDFCNXU1NllVaVNNSWNNbEo1V3d6R2RIc2FvbENJTXhTZlFMMEVFaS1VOWVtRncxeFZmZmc1VHR2T2NOVC16LWc?oc=5",
-      "desc": "Sun Pharma inks global licensing pact with LIB Therapeutics for cholesterol drug Lerodalcibep&nbsp;&nbsp;Daily Excelsior",
-      "pubDate": "Mon, 28 Sep 2026 06:09:10 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
+      "title": "JAK Inhibitor for Alopecia Approved for Younger Age Group - Medscape",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQem52ZnR3WWZpMUs1MWVxYTI2RDZBVXlrSE5LWGszQ1RRSUpXQXlrOGpNT1hVZTNrSzR6eDB4Z093S2lucUVGazR0Um5Ecl9LaGNvOFktUm4zcTBkQmFQSWY3RkZZS2h1SlNiNFlwTGlzZHd3NUZCU3BJZzk3Sjl4ZDZfTk9vSG0yQUYxa0l5SU4tLWlobktpMU83SHdlM1B1VGJDNVlB?oc=5",
+      "desc": "JAK Inhibitor for Alopecia Approved for Younger Age Group&nbsp;&nbsp;Medscape",
+      "pubDate": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
-      "prod": "lipitor"
+      "prod": "celebrex"
     },
     {
       "title": "Sun Pharma inks global licensing deal with LIB Therapeutics for bad cholesterol treatment drug - CNBC TV18",
@@ -1172,16 +1182,6 @@
       "prod": "celebrex"
     },
     {
-      "title": "Monoclonal antibodies associated IgA nephropathy or other nephropathies - Frontiers",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZ2JIeVRaQWJQdXREbnhzUERFUG1IVU9YRlpsSjdZa1h2LXBsSkx2YXpZVmNnQy1yTm1tMTZNbGMtems5NG1ncmM5cEN2c1FTWF9CMWVLeF9NNmpRWjcwa212RkZyNlVTVmZoNTR4U2lxbnV5TnZ2MFBXeDcyYVZXbGFtd0xKcGlBVVZPQjVpa1BzMHFP?oc=5",
-      "desc": "Monoclonal antibodies associated IgA nephropathy or other nephropathies&nbsp;&nbsp;Frontiers",
-      "pubDate": "Wed, 02 Sep 2026 14:10:39 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
-    },
-    {
       "title": "Targeting pathogenic immune cells in rheumatoid arthritis: emerging immunotherapeutic frontiers - Frontiers",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZFBVb1czZTFHR0RQaWc5YTVfOU1sbFU5M2hXU2ttMXhBbWdtZDNzODczVHpSdkl2WHVfbU9hZVdYR1hTcmwzMHc0cDk5dVI3azNoaUtaVm9rakZmcnZNRjZBZEZYZ0FDNHozVHdNUXBnbXd6X1RSOUExOGtzX0ZNUmJLa0o5M1JwaGxYeGRFS0drZw?oc=5",
       "desc": "Targeting pathogenic immune cells in rheumatoid arthritis: emerging immunotherapeutic frontiers&nbsp;&nbsp;Frontiers",
@@ -1190,6 +1190,16 @@
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
       "prod": "celebrex"
+    },
+    {
+      "title": "Heart failure pharmacotherapy - Medical Independent",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRmJoMHlrd01tMEJqem1YYi1yZjNXU2FCNFNnWXhnRnliTlRFUk1XYjFSc3dDTmNyVFVuZ0lrZGwza1gtT1FUS0U5QzRaNUoyektfNGxYcnFFTHE2S0lTSDVNRFl4VE1wbUlIYUdLODlFaVFzRURiWXJLbFk5Q3R0RExmLUg?oc=5",
+      "desc": "Heart failure pharmacotherapy&nbsp;&nbsp;Medical Independent",
+      "pubDate": "Mon, 10 Feb 2025 21:50:27 GMT",
+      "sourceId": "gn_htn_en",
+      "sourceName": "Norvasc·CCB (Global)",
+      "country": "US",
+      "prod": "norvasc"
     }
   ]
 }
