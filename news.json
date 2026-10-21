@@ -1,11 +1,51 @@
 {
-  "updatedAt": "2026-10-21T11:32:36.626Z",
+  "updatedAt": "2026-10-21T16:59:16.657Z",
   "articles": [
+    {
+      "title": "LDL Like Smoking: Early Reduction Benefits Health - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObG13cDdEendRVWg0bFdoTTFRb2w5VHhlbVlFcHhOT2J6dFhlblUtcXZzZ3NlZmpTMGFGMUNIRXZ5V0RJSXlSVWZpbjRXLXZTcTdGY2ZMQWZ5dFVmN0g1WmRkbmo2SjQ5RUFZV0FsbnZFMnhUUFBmQVNXWUJxUTR3RnVaS2h3RXpyaWdtYg?oc=5",
+      "desc": "LDL Like Smoking: Early Reduction Benefits Health&nbsp;&nbsp;조선일보",
+      "pubDate": "Wed, 21 Oct 2026 15:54:52 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
+      "prod": "lipitor"
+    },
+    {
+      "title": "‘LDL’은 담배와 같아… 빨리 낮출수록 건강에 이득 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBkLThHRXhaRjJIU09OSXVRenZrVk9TQU54Uk1jTThwaEs5WlFRYkdpMmZVSUxOVjdjN0xUMFl4ZWVBS1paQkdTSzRIaWxPUFlGSW40ZzhUd2NfSzhuWU5qUFNNSlVCb0p0QTA0NXRKcl9jNEhCWXhfdg?oc=5",
+      "desc": "‘LDL’은 담배와 같아… 빨리 낮출수록 건강에 이득&nbsp;&nbsp;조선일보",
+      "pubDate": "Wed, 21 Oct 2026 15:39:00 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
+    {
+      "title": "온코닉테라퓨틱스, 자큐보 '아토르바스타틴' 병용 투여 내약성 확인 - 팍스경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9adlRRTUNwcjNSZU5yMWRURjNwQVpTeVUzWi0zbDgzMUoyMjkyUm1Ub2c4aEM0T0FLRHNxYXI3dGpma1lLbjBlVmk3cm9QdUY2TzFSWjdfOVFDUldMVkdjVkw4a3BNT0E?oc=5",
+      "desc": "온코닉테라퓨틱스, 자큐보 '아토르바스타틴' 병용 투여 내약성 확인&nbsp;&nbsp;팍스경제TV",
+      "pubDate": "Wed, 21 Oct 2026 12:50:54 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
     {
       "title": "온코닉테라퓨틱스, SCI급 국제학술지 ‘DDDT’에 자큐보-아토르바스타틴 병용 연구 게재 - 더스탁(The Stock)",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JSjdMUVlpejZDSzA2c1RPcXhrZkdMSEVIeEh6VDdtTmsyR09yY1FPU3dXelN5bVNFMVdleG0tWGNhaDdpM2JFbkRGZDM2QnZUblRsaVVZSjZUQ1dUZUZhbkxFUE50dFJhRVE?oc=5",
       "desc": "온코닉테라퓨틱스, SCI급 국제학술지 ‘DDDT’에 자큐보-아토르바스타틴 병용 연구 게재&nbsp;&nbsp;더스탁(The Stock)",
       "pubDate": "Wed, 21 Oct 2026 11:05:47 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
+    {
+      "title": "온코닉테라퓨틱스, '자큐보' 아토르바스타틴 병용 안전성 입증 - 약사공론",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pTW5PcU91TGRuUTFFRFBwekRvekxqR0tVdE82RzJFSEhLZVFFOTZhRW44OXg3U0FZNHljY2RmdnNqVVJDVnhGSXRzOUQ3M3RNdXhJV2xhYzFlV1NxTWU1YVZhTVh1bmpUMVF0cQ?oc=5",
+      "desc": "온코닉테라퓨틱스, '자큐보' 아토르바스타틴 병용 안전성 입증&nbsp;&nbsp;약사공론",
+      "pubDate": "Wed, 21 Oct 2026 10:58:48 GMT",
       "sourceId": "gn_lipitor_kr",
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
@@ -30,16 +70,6 @@
       "sourceName": "쎄레브렉스·관절염 (국내)",
       "country": "KR",
       "prod": "celebrex"
-    },
-    {
-      "title": "온코닉 ‘자큐보’, 아토르바스타틴 병용 연구 국제학술지 게재 - 쿠키메디",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5PZE1JNmo1YU1UYTV6OTA0OTFKdW1GZnNINTZZSk1qOElkT2xTR3p0V1Fqd0p3aVZ6M19BLWdfMDFRY3dIa0wtZFkwdmRuQUhtNnBPellKcTRxTTVDci1lWGozcw?oc=5",
-      "desc": "온코닉 ‘자큐보’, 아토르바스타틴 병용 연구 국제학술지 게재&nbsp;&nbsp;쿠키메디",
-      "pubDate": "Wed, 21 Oct 2026 08:51:25 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
     },
     {
       "title": "류마티스관절염, 노화 아닌 자가면역질환…젊은 층도 발생 - 메디포뉴스",
@@ -112,6 +142,16 @@
       "prod": "norvasc"
     },
     {
+      "title": "포항세명기독병원, 가슴 답답함 호소한 50대 여성 협심증 조기 치료 - 프라임경제",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5rT3pVcklnaWhrN2JVMFBINGtVWFVQX1Zhc1VscE5Wb2d2aS1wU1FpbzhHbzZCNWdjTDhMZE1CVmRsbkt2R0xENnB4Mk5QNjY4YVZfX1g1RXBjeVhzdjBlajROclc2MFo1bi1JTnF1TlZLQQ?oc=5",
+      "desc": "포항세명기독병원, 가슴 답답함 호소한 50대 여성 협심증 조기 치료&nbsp;&nbsp;프라임경제",
+      "pubDate": "Wed, 21 Oct 2026 05:52:23 GMT",
+      "sourceId": "gn_norvasc_kr",
+      "sourceName": "노바스크·CCB (국내)",
+      "country": "KR",
+      "prod": "norvasc"
+    },
+    {
       "title": "온코닉, P-CAB '자큐보' 고지혈증약 병용 \"논문 게재\" - 바이오스펙테이터",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBLVDJGaVBpV0pjZy1teHJZb3hpVXFkSzZFeWh0WkJTb3M3R1gwcDBvZ1JPdmtqS05HTFRYV08zNlhsTmk5UXQ0REwzaTN0ZVB5X2MzWXlLTQ?oc=5",
       "desc": "온코닉, P-CAB '자큐보' 고지혈증약 병용 \"논문 게재\"&nbsp;&nbsp;바이오스펙테이터",
@@ -152,9 +192,9 @@
       "prod": "lipitor"
     },
     {
-      "title": "가슴 답답함 놓치지 않았다… 포항세명기독병원, 불안정 협심증 신속 치료 - www.hidomin.com",
+      "title": "가슴 답답함 놓치지 않았다… 포항세명기독병원, 불안정 협심증 신속 치료 - 경북도민일보",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9FR1QtUnR4UWtyVWtUdk1VRktYSEpTTV80M0tIdXNwNFpLRDRVVXYyTkJaSEdRbF90cEhUb1d6WFVtUk0wbnZsVU9WNUZ2TzJ1WjRFNFptSWctd2FOdy0xZUtaY19OMk9Ud0E?oc=5",
-      "desc": "가슴 답답함 놓치지 않았다… 포항세명기독병원, 불안정 협심증 신속 치료&nbsp;&nbsp;www.hidomin.com",
+      "desc": "가슴 답답함 놓치지 않았다… 포항세명기독병원, 불안정 협심증 신속 치료&nbsp;&nbsp;경북도민일보",
       "pubDate": "Wed, 21 Oct 2026 05:27:40 GMT",
       "sourceId": "gn_norvasc_kr",
       "sourceName": "노바스크·CCB (국내)",
@@ -292,40 +332,10 @@
       "prod": "lyrica"
     },
     {
-      "title": "[바이오스냅] 식약처, 천연물 기반 제품 개발 동향 심포지엄 - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9QVFlXX1VIeXl1TVFCNmhuRHNYU1Q4Qm9lUVBxaGZ2WTdzNHJXSnVpajIzWGxKU2Z4elJUVERKQXlCTzR5UG1XaE5FOGRHVkJodGFNR3laNW15azNyQ01QTdIBYEFVX3lxTE9QVFlXX1VIeXl1TVFCNmhuRHNYU1Q4Qm9lUVBxaGZ2WTdzNHJXSnVpajIzWGxKU2Z4elJUVERKQXlCTzR5UG1XaE5FOGRHVkJodGFNR3laNW15azNyQ01QTQ?oc=5",
-      "desc": "[바이오스냅] 식약처, 천연물 기반 제품 개발 동향 심포지엄&nbsp;&nbsp;연합뉴스",
-      "pubDate": "Wed, 21 Oct 2026 01:13:02 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
-    },
-    {
-      "title": "온코닉테라퓨틱스 '자큐보', 고지혈증 치료제 병용 임상서 약물상호작용 확인 - 더트래커",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oOEFvM0VBcEdDU3NERE5sTUhqX3dYcnpzSFJwdU1Xc0tLR1RnME9IMFE2OWpLYl9Wa1ludUQ0VkQtSnk2c0t4S3NVdmdrVnNiOFB0MUtYOVY?oc=5",
-      "desc": "온코닉테라퓨틱스 '자큐보', 고지혈증 치료제 병용 임상서 약물상호작용 확인&nbsp;&nbsp;더트래커",
-      "pubDate": "Wed, 21 Oct 2026 00:48:53 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
-    },
-    {
       "title": "온코닉 '자큐보', 고지혈증약 병용 투여 근거 확보 - 서울경제TV",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBpZ0lXM3JpOHkyZVc3dnBmSTFLV2lHZ3BjZXV1SVI3Q3hSYnNCcVpEdWdTbXVLSVlINWIycXBUWTVZQVQ3dUtIUFFFVDNhbFc0YzBmZk1veHZSUFI2bUFHa3pQWnI?oc=5",
       "desc": "온코닉 '자큐보', 고지혈증약 병용 투여 근거 확보&nbsp;&nbsp;서울경제TV",
       "pubDate": "Wed, 21 Oct 2026 00:44:46 GMT",
-      "sourceId": "gn_lipitor_kr",
-      "sourceName": "리피토·스타틴 (국내)",
-      "country": "KR",
-      "prod": "lipitor"
-    },
-    {
-      "title": "온코닉테라퓨틱스 \"자큐보, 고지혈증약 병용 시 약물상호작용 미미\" - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zbkVFMzE3dHNRRWVKWEpPTUktOUNkMmYxbnhxcUVyai11X08zNVlzR243dUhYTlhNTnJkQUdKMFBQMVIzLXFYcENlaXdEUU9PdDNvek9ITzBGNVBFeVJ2R0lOY0oyUG5GRUHSAW9BVV95cUxPTThtdUMzVllYTkhVODdOMXNLX0gyamRvZjYtUjItekhoekVQbmlVU0MxbVBxYUgxVFJzb3VfQWFYZnpzR3psV091SmdXR0ZYZW0yVjVaRHZLQ0VBYWdrUGdBU05oTGhfc2RiT3lNcXc?oc=5",
-      "desc": "온코닉테라퓨틱스 \"자큐보, 고지혈증약 병용 시 약물상호작용 미미\" - 머니투데이&nbsp;&nbsp;머니투데이",
-      "pubDate": "Wed, 21 Oct 2026 00:26:48 GMT",
       "sourceId": "gn_lipitor_kr",
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
@@ -346,6 +356,16 @@
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1EaWZoSkRYc1pFSjZ2OEZpc2xGcnNUNmxHdzFORkdVcm5CLXB1N25UM3Q4d3ZfcnVGNjJLTGdydWkxMm9mdF9fMFlyYXZhWVNZQXRIN1JR?oc=5",
       "desc": "\"자큐보, 아토르바스타틴 병용 시 약물상호작용 미미\" 연구결과&nbsp;&nbsp;데일리팜",
       "pubDate": "Wed, 21 Oct 2026 00:25:56 GMT",
+      "sourceId": "gn_lipitor_kr",
+      "sourceName": "리피토·스타틴 (국내)",
+      "country": "KR",
+      "prod": "lipitor"
+    },
+    {
+      "title": "\"자큐보-아토르바스타틴 병용에도 혈중 농도 영향없어\" - 히트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vX2pQRHpaa1hMMm1ZNXZmMVhiam90Y2FQMWFxcG5iNHZDdUtCeVd3emVVOEZQUHJhX0lMWUdkSjNrTHZfaXBqMDVaTzd3cjZ3ZlJ2cFIxSHJYVTM0VmJyTldWM3d6NmFFZHdv?oc=5",
+      "desc": "\"자큐보-아토르바스타틴 병용에도 혈중 농도 영향없어\"&nbsp;&nbsp;히트뉴스",
+      "pubDate": "Wed, 21 Oct 2026 00:10:41 GMT",
       "sourceId": "gn_lipitor_kr",
       "sourceName": "리피토·스타틴 (국내)",
       "country": "KR",
@@ -383,7 +403,7 @@
     },
     {
       "title": "한독, ICDM서 '아프로바스크' RWD 발표…\"실제 임상 현장 유효성 확인\" - 약업신문",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsNW1zVF9JbjI1UjREQ3d2MUI4MlhMUjQxOFNuZDZDbk4zRXBhU19qLW5sdlhhQXBFVkN1LXRSWXg1NHRiTWVKcXMzZFdkV3JjbWlVMHd1YzAxb0RxZzdHbUFTU0k4MXo0eXp0a0J2M0NYcXRIS1NV?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBYUl9qM0dEZXJ6cDlRWDRMemN3SlpLMTRSZDN5WFRlbmE4cThmeUw4NEIweldZR3FPWk5OejZVcjFGNkFxM2cxYWs3dEd1bHl6LTNFeDFxdHhnd2VCVWd4MC1ScHRjajRnQVVVR0hMWkpSRFVjLXJWQTRB?oc=5",
       "desc": "한독, ICDM서 '아프로바스크' RWD 발표…\"실제 임상 현장 유효성 확인\"&nbsp;&nbsp;약업신문",
       "pubDate": "Wed, 21 Oct 2026 00:05:00 GMT",
       "sourceId": "gn_norvasc_kr",
@@ -642,16 +662,6 @@
       "prod": "lipitor"
     },
     {
-      "title": "[헬스토크] 찬바람에 가슴 조이듯 아프다면 '협심증' 의심해야 - DongA Science",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYX0tIZjdQd3Z2QUQzOXlXYXFWeE5pbW5lb2pnV3pSMFJqYmNRdVVnd090cVVfQi1BYlE0QkFLSjUwaTJjX1dMWlZoM3JpNDhmYUIyMA?oc=5",
-      "desc": "[헬스토크] 찬바람에 가슴 조이듯 아프다면 '협심증' 의심해야&nbsp;&nbsp;DongA Science",
-      "pubDate": "Sat, 17 Oct 2026 09:00:00 GMT",
-      "sourceId": "gn_norvasc_kr",
-      "sourceName": "노바스크·CCB (국내)",
-      "country": "KR",
-      "prod": "norvasc"
-    },
-    {
       "title": "70.2% of evaluable people with moderate-to-severe Crohn’s responded to AbbVie’s drug within 12 weeks, interim results show. - Stock Titan",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcUl0eVNDd0o0eUdFajVKUU81aEU3SjVLNWg0aF9hczZrdUFkam5zYVJRMHRtS3h2UE1VaDlIOHVJX01aVHlVWWNuTGJvbTk2MUxlSkktNWRZVGpKdGE3b2hOcVBZckMzUnhZSEdkRmVfR29La2RyU0VQeGFLUFZNT0JSWVpWZ3FnODhLcnIyMVBlWllvZ29qRUdSNjlucjVIaU1iN3RrMEt6b3lCajNUY0ZOX0FfVFJPNUdN?oc=5",
       "desc": "70.2% of evaluable people with moderate-to-severe Crohn’s responded to AbbVie’s drug within 12 weeks, interim results show.&nbsp;&nbsp;Stock Titan",
@@ -700,6 +710,16 @@
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
       "prod": "celebrex"
+    },
+    {
+      "title": "에페·마운자와로 '차별화' 나서는 위고비···급여·경구제 '집중' - 메디칼업저버",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5pMDJPS2I5dzVFZUpMUi1NLTBjcnlGV3A4TTJldDREd0JycU5LMWU1bVBqczNGc2piSUlVQ2NrM0V2QXp4VThkYlU5cHNUQmdXTm44OXo3czJBV1ktRFJpbEd0TVNoMlAtc0xV?oc=5",
+      "desc": "에페·마운자와로 '차별화' 나서는 위고비···급여·경구제 '집중'&nbsp;&nbsp;메디칼업저버",
+      "pubDate": "Fri, 16 Oct 2026 03:13:56 GMT",
+      "sourceId": "gn_policy_kr",
+      "sourceName": "의약품 정책 (국내)",
+      "country": "KR",
+      "prod": "all"
     },
     {
       "title": "[2026 국감] 심평원, 과잉진료·비급여 관리 강화… 희귀질환 치료제 신속 등재 추진 - 매일일보",
@@ -782,9 +802,9 @@
       "prod": "lipitorplus"
     },
     {
-      "title": "Benefits and Complications of Long-Term Low-Dose Glucocorticoids in Rheumatoid Arthritis: A Traditional Review - The Cureus Journal of Medical Science",
+      "title": "Benefits and Complications of Long-Term Low-Dose Glucocorticoids in Rheumatoid Arthritis: A Traditional Review - Cureus",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQNExnNWhWRUhmZEpTQjItLThEV3ZqM0Vqa185OFRfMWZHamk3UEVSTlFlNlJxRjRaY3VMaWRtazRIdUthci1KUm0yRTRDSmR4bkhiNTBvdTVBUWxPUS15eEdrdGZSYU5rT0FObEplcTRiVFBKYUg1bUlpRjNEQUVXR194SDN1UzVoRVFiVTlDSTE5ZDVNSERnSC1NLThCck5jNFJoQ2NjYlBiWkY3UEhFWlpOMnlzbThwQ1B6dEY1cFdTLXE3TlViNFZ3UTFtTmFUcUo4WHpUYkJ4dkYwaVB2MjFB?oc=5",
-      "desc": "Benefits and Complications of Long-Term Low-Dose Glucocorticoids in Rheumatoid Arthritis: A Traditional Review&nbsp;&nbsp;The Cureus Journal of Medical Science",
+      "desc": "Benefits and Complications of Long-Term Low-Dose Glucocorticoids in Rheumatoid Arthritis: A Traditional Review&nbsp;&nbsp;Cureus",
       "pubDate": "Wed, 14 Oct 2026 18:30:52 GMT",
       "sourceId": "gn_arthritis_en",
       "sourceName": "Celebrex·Arthritis (Global)",
@@ -886,16 +906,6 @@
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRExnNUM1UjA4TlQyRUlyUG5mQUFGTnE1VnByRlRBV1c3dmVNNUdGMVJxdnF5LURJQV9mWW9paDd2d2NVV0JWMWhLTGxwMmkyWDFRNTdpSFNNNXVEeENrbGo5STRZeDNDQlZZVjFEVks3X2xzekpoajNON3lQUFI1Z0lfX1RlbmdqaE4wMVFDel82c1lr?oc=5",
       "desc": "Drug tapering noninferior to treatment continuation for rheumatoid arthritis with low disease activity&nbsp;&nbsp;Medical Xpress",
       "pubDate": "Tue, 13 Oct 2026 19:00:24 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
-    },
-    {
-      "title": "fibroblasts prime the immunoregulatory function of granulocytic myeloid-derived suppressor cells in inflammatory arthritis - Nature",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5KV2FqWmVGbFRaZm9pOXh4MmpOWUlvbUNGX181MzZXM243MkprZnB5UkpQVmE0Y21WTWI1emlPNV9qb09hQS14UDUwUkNEOU1LZldjZ1A1Q2d3aXNHZzVj?oc=5",
-      "desc": "fibroblasts prime the immunoregulatory function of granulocytic myeloid-derived suppressor cells in inflammatory arthritis&nbsp;&nbsp;Nature",
-      "pubDate": "Tue, 13 Oct 2026 18:40:07 GMT",
       "sourceId": "gn_arthritis_en",
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
@@ -1112,29 +1122,9 @@
       "prod": "norvasc"
     },
     {
-      "title": "AAO 2026: Blood pressure and optic nerve perfusion: a complex relationship - Ophthalmology Times",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS1BJdDZnRWxUNmdKa0daLVdVbXBSamQ5TzFsVWJsblRQdEZRbVpIZVhxY21SdHJwalJTYV9BMlBVOXZXWlVNNnR3UUhTdGoyRUg5ZEc1WjVHRVBXWFhIcmNCZHhJM1dVVUUxUVM2SENvYVpxX1dmdUlWMkRab0FGNjZGTDFkdUg4Y2p4SVlmcU44dWRQekxCYW1XNUlrODB3QjNDX2YtWVc3YzZTaWxOWjlB?oc=5",
-      "desc": "AAO 2026: Blood pressure and optic nerve perfusion: a complex relationship&nbsp;&nbsp;Ophthalmology Times",
-      "pubDate": "Fri, 09 Oct 2026 07:00:00 GMT",
-      "sourceId": "gn_htn_en",
-      "sourceName": "Norvasc·CCB (Global)",
-      "country": "US",
-      "prod": "norvasc"
-    },
-    {
       "title": "Pausing Advanced Therapies for Inflammatory Arthritis Not Warranted for COVID Booster - Medscape",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeXZNcVA3NzBuOUJuYTI0ZU5BVm9kTVM1RmNfeU9ESjVPZTRta2x0N3JJbzB2cGZSQlpBUTNtcHpnWmt5RGt3U1dNRDhnUlEzWW40bFZpMDJIWTFHZGdRMndYR2U5a3N6c0FDbXpqN3U5WHlQamNQakQySy1EZDVETlVLUmxUQ0s0WEQxN1NGbVFCeHhvUHh2WlB4X2RyNFlzNXdKM1l3?oc=5",
       "desc": "Pausing Advanced Therapies for Inflammatory Arthritis Not Warranted for COVID Booster&nbsp;&nbsp;Medscape",
-      "pubDate": "Fri, 09 Oct 2026 07:00:00 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
-    },
-    {
-      "title": "Cartilage Regrowth Could Transform Arthritis Treatment, Stanford Research Suggests - Medical Dialogues",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVTJGZE5IUzBDdFBZSkwxSEEwTjVNdk9QRkRzX05iaGRkampWT2IzMnVvWkNrenFpeTFRZTFxaXA5Z1lENHJMYnR1bzNjU0Z1ZnhXWWViQWgwVmFkcTNzS0FWSWladjBiS09BQTdqc2x5cVExbHZITlU4eEZjSGgxdmdzaE9nczd5X1RJVEZ2OWxmNHdPaUx0SHhfY3ZnbGJJeUJSbDg5c20xQkVaRU5mR3VvUWNsY2RTNm0yanJxMzNBaUs2R1ZxLTM0aTdnekR1N1k0al8xS2jSAd4BQVVfeXFMT3dhQWNDQVBITGhET1dVVDBXeUFCVGhXZkR0MHJOQ0lsbkgyRTBWM3hSRmlIUl9nSUxVVVdQUW9qZHZmTUhzaU01aEVCTENFYlVGNk93ck9XNzFpbi0xM25fd1RUMzQ4ZmZYMUxSUnA4MU5oMG5KYnE1UUN3aVlFT0xWcWtzVEhaU1U5T1FzQlludk54bnYzUmFTQXJ6ZkpNODBzUkZFa05NY3F1MjZBZldSWjFoakxtSTE2SnZDYmRxenpUNmZuZVpvT3dwSUlzbjduR01JWDd6bjc0cGR3?oc=5",
-      "desc": "Cartilage Regrowth Could Transform Arthritis Treatment, Stanford Research Suggests&nbsp;&nbsp;Medical Dialogues",
       "pubDate": "Fri, 09 Oct 2026 07:00:00 GMT",
       "sourceId": "gn_arthritis_en",
       "sourceName": "Celebrex·Arthritis (Global)",
@@ -1212,6 +1202,16 @@
       "prod": "celebrex"
     },
     {
+      "title": "Osteoarthritis in cats: Treatment - DVM360",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5YR2R2RDhIaFlxTnV4OUpJSnU5SG5vR0RkQ1kwNkt5MFZyaDNhejZMaEVlSVdTbTkxb2dlNmsyMklveUxtbzJTdlB5YVhMTU5qMEtEeE1MSHdPc0cwUHZLRXlfMWRqbTJa?oc=5",
+      "desc": "Osteoarthritis in cats: Treatment&nbsp;&nbsp;DVM360",
+      "pubDate": "Thu, 08 Oct 2026 07:00:00 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
+    },
+    {
       "title": "[한미약품] GLP-1 비만신약 삼국지 대전 열린다...‘에페’ 시판허가 - 뉴스더보이스헬스케어",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBmSkF2QmY3UUZZajU0TkhCQnYzTk1KZktDeV9TVnZoNXhfbWpvNTRkVjctdWFwZlJjSUJ3eThBd2toZzdFbHEtSWdSbEVleFBfVDZIY0ZBeE51bll5bUFwUXNsT2QzN3BmeGJuUXh3?oc=5",
       "desc": "[한미약품] GLP-1 비만신약 삼국지 대전 열린다...‘에페’ 시판허가&nbsp;&nbsp;뉴스더보이스헬스케어",
@@ -1242,16 +1242,6 @@
       "prod": "lipitorplus"
     },
     {
-      "title": "Sun Pharma to consider ₹15,000 crore NCD issue; board meeting on 12 October - Livemint",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNaDNYLUctdnJvdnVZbWZSUmc1XzNiRi1UUXN0enV3aHhrMkJpY3BkTzJpNk1sb3dkN21saWthdUlieWNZMHF1aXZ4dXp3M3dLY2gzVkk1X2ktWE1GT3A2Wk1rUVpVWEJvTWFDT1Vhc3h0NkZZMkw1YW1DOEFLekVJY1RyN2ZMZzI2a0RzcFJTcTh1Rnh6MzFjQnV3eGRjWXV5YkR5d1QyaHJMNnNubW0tOXVyTzJYbk51czZLNk56WnhCcTR5Y0xqTU84UEVobzJXUUNULVlSQV9DOThXckRn0gHkAUFVX3lxTE1rb0ZOZjJob0lRbkZWSk03YUdPSjFQWnZvU2wtV3JyNVVOMEl2UXJKU0VFcXVyRGs2WDUxR3JnbE1ab0FDNkMwU01JVUtLSWo5Tm0xRDAyRm9XMDFERzVKb0dUYUpzNjU5NTJsMXhsZXFuTlByTC1TYUdLbjBVTmljeTkxbDJUelV6by15eHlXOGxQc2oxeTA1WWZIN2hqQWNhc3lLVE1CU2tOUzR2YlRkXzVnRFE1ZEJycUhNYUczYjFpbE9fRktZWjVLalYyOXd2a2xONkxFTkZrUkI5U3BDLVdFNA?oc=5",
-      "desc": "Sun Pharma to consider ₹15,000 crore NCD issue; board meeting on 12 October&nbsp;&nbsp;Livemint",
-      "pubDate": "Wed, 07 Oct 2026 07:00:00 GMT",
-      "sourceId": "gn_statin_en",
-      "sourceName": "Lipitor·Statin (Global)",
-      "country": "US",
-      "prod": "lipitor"
-    },
-    {
       "title": "JW중외제약 ‘리바로브이’, 급성 심근경색 안전성 입증 … 실적 반등 신호탄 쏘나 - 헬스케어N",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1fUFh3TllHLWo5QzZrR1pJMld3QkE4N0s2VGFnUlhRMGRmbGRVLXo1T2dPNy1EZkFFUWwzOTRpZ2V2Skl2aU4zZHVFaW1BMU0wNHdzYUZFamt3dnZ3SkVqSjJJMUVyR29RRmlpTHBSYTlidlBX?oc=5",
       "desc": "JW중외제약 ‘리바로브이’, 급성 심근경색 안전성 입증 … 실적 반등 신호탄 쏘나&nbsp;&nbsp;헬스케어N",
@@ -1260,16 +1250,6 @@
       "sourceName": "카듀엣·복합제 (국내)",
       "country": "KR",
       "prod": "caduet"
-    },
-    {
-      "title": "먹는 낙태약 도입 놓고 '논란 계속', 국감 현장서도 찬반 논쟁 - 의협신문",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IWHdBQ1UxV0hISlJQQzc1MXR6T2VxeXZlQ1NlaGU5VUlnRmRjTzd2UEl2M0E2ZFFCRnRCdFpOUHBCYzRFN25JNmY5ODNlSC1fTHZyazZ4aFU2c05DeDlnWGh2MkVSWlAya1BEVW5idnZuZw?oc=5",
-      "desc": "먹는 낙태약 도입 놓고 '논란 계속', 국감 현장서도 찬반 논쟁&nbsp;&nbsp;의협신문",
-      "pubDate": "Wed, 07 Oct 2026 07:00:00 GMT",
-      "sourceId": "gn_policy_kr",
-      "sourceName": "의약품 정책 (국내)",
-      "country": "KR",
-      "prod": "all"
     },
     {
       "title": "5 Common LDL Cholesterol Myths Busted: Why 'Feeling Fine' Doesn't Mean Your Heart Is Safe - Ahmedabad Mirror",
@@ -1312,6 +1292,16 @@
       "prod": "celebrex"
     },
     {
+      "title": "Varicella-zoster virus reactivation and cardiovascular risk: implications for patients receiving JAK inhibitors - ScienceDirect.com",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5uRE5uX0tYa1U0dUZDbFpSeDhaYXFHSEZVclRkaGp5T2dmb2V3THM1b0paUnRrUzE3Wk0xZXJCWTJVZlB0aGNweGFMUUFTUWpUYVFYbTB3aDhIM3JobmxMTlBvVU04SS1QcUNRcEUwNHFWdzkxeERLUzB6SQ?oc=5",
+      "desc": "Varicella-zoster virus reactivation and cardiovascular risk: implications for patients receiving JAK inhibitors&nbsp;&nbsp;ScienceDirect.com",
+      "pubDate": "Tue, 21 Jul 2026 11:40:08 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
+    },
+    {
       "title": "Gabapentin and Dementia: Memory Loss Risks and Warning Signs - Drugwatch.com",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9yeVJBTkRYR1BrZS10cC1MbEFTb0dzVmJrN2dHYWh0MTJxa3N0TEhCWGhubkU4Sl9aTlRzaks4bVNNbk5raFIxVnFiUXMwaHFUTUlvNDh3?oc=5",
       "desc": "Gabapentin and Dementia: Memory Loss Risks and Warning Signs&nbsp;&nbsp;Drugwatch.com",
@@ -1320,6 +1310,16 @@
       "sourceName": "Lyrica·Neuropathy (Global)",
       "country": "US",
       "prod": "lyrica"
+    },
+    {
+      "title": "New Test Determines Genetically-Linked High Cholesterol - Pharmacy Times",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaHpYUV9fdEIzc3ZOUEtjX1VkY2hWWWRxZVpZLUV1SDVJa29vUzRxc0FzbWIyUnJsbGJ6a2FRVVJUNTliWXptTTBUdHJiX0pNM1VPSDlJaVc5UjktWUh3d3IzcHUzUnZKSUtXbWFDdE5SazdwUW5malhsQUcyS1FEVThCWnNSWTd5ZjBpMGlSRmZuYW8?oc=5",
+      "desc": "New Test Determines Genetically-Linked High Cholesterol&nbsp;&nbsp;Pharmacy Times",
+      "pubDate": "Fri, 19 Mar 2021 23:11:52 GMT",
+      "sourceId": "gn_statin_en",
+      "sourceName": "Lipitor·Statin (Global)",
+      "country": "US",
+      "prod": "lipitor"
     }
   ]
 }
