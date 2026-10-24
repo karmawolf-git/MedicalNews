@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-24T10:41:12.732Z",
+  "updatedAt": "2026-10-24T15:43:17.050Z",
   "articles": [
+    {
+      "title": "The intestinal microbiome in inflammatory bowel disease and spondyloarthritides - Nature",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9WMVk4RzlKaHBXV2YtV2hOMEN5d1kzamRWS21MeGtDLUwzSjZneXZjQXc2SXdCVmZDTEhmYUlPNzJzUXJ1b2xNUzhiNFcwTFFiVkZNNkJZQkY1Vnh4RHNN?oc=5",
+      "desc": "The intestinal microbiome in inflammatory bowel disease and spondyloarthritides&nbsp;&nbsp;Nature",
+      "pubDate": "Sat, 24 Oct 2026 11:26:44 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
+    },
     {
       "title": "Inclisiran Injections to Be Delivered Through East London Pharmacy Pilot - Pharmacy Business",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JU3hjd2RiaEx0WGVFaFhWUHRadG8zOWlWckNJLWZwUXgtWWRCSVNOUjY1VnFXQ1VRSWkwemdoODJISEQ4Z0k2RlkzTXZyS3BjSGt0aXpWZm5EWWNLNDctZWtRYl9fT1k2MHlZc2Z4MWhNY3Q1S3JZZ19CWDdoNWM?oc=5",
@@ -142,6 +152,16 @@
       "prod": "lyrica"
     },
     {
+      "title": "'인보사 의혹' 前코오롱생명 대표 무죄에 4000만원 형사보상 - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MM2owNlFEd1NtaEptRm9lME0wdFBkUTNOYjdCd1FsV1VsMWd6YWQwUzVrWG12SnJnSlNsTExWQ0p0eUhMVXlFNFVnbkdNY0FJSC1KMnRObWN2V3V5aXB4OERlWkp3MGd1VC0tUTBvczgzZTVUb3BId9IBeEFVX3lxTE9MM2owNlFEd1NtaEptRm9lME0wdFBkUTNOYjdCd1FsV1VsMWd6YWQwUzVrWG12SnJnSlNsTExWQ0p0eUhMVXlFNFVnbkdNY0FJSC1KMnRObWN2V3V5aXB4OERlWkp3MGd1VC0tUTBvczgzZTVUb3BIdw?oc=5",
+      "desc": "'인보사 의혹' 前코오롱생명 대표 무죄에 4000만원 형사보상&nbsp;&nbsp;뉴시스",
+      "pubDate": "Thu, 22 Oct 2026 23:49:47 GMT",
+      "sourceId": "gn_celebrex_kr",
+      "sourceName": "쎄레브렉스·관절염 (국내)",
+      "country": "KR",
+      "prod": "celebrex"
+    },
+    {
       "title": "도서벽지 보건공무원도 고혈압·당뇨 약물 재처방 가능해진다 - 뉴시스",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBTcTRsT2VBQlNtdGhDY0duSVVBZHZ4LWU0c2NVQlE4U3l1VEEwa2h2SkxRa2llM0toUXByekNsb1FBbjZCMTVpTVNlbFNxMXo3Um11WFF0NVIzWllYaG9ZaFMtWjZvWnRkYTJUWk81R1RkVXNLQk5JRNIBeEFVX3lxTFBTcTRsT2VBQlNtdGhDY0duSVVBZHZ4LWU0c2NVQlE4U3l1VEEwa2h2SkxRa2llM0toUXByekNsb1FBbjZCMTVpTVNlbFNxMXo3Um11WFF0NVIzWllYaG9ZaFMtWjZvWnRkYTJUWk81R1RkVXNLQk5JRA?oc=5",
       "desc": "도서벽지 보건공무원도 고혈압·당뇨 약물 재처방 가능해진다&nbsp;&nbsp;뉴시스",
@@ -160,16 +180,6 @@
       "sourceName": "Lyrica·Neuropathy (Global)",
       "country": "US",
       "prod": "lyrica"
-    },
-    {
-      "title": "Serine protease inhibitor A3 is a soluble SIRPα ligand that suppresses inflammation and antitumor immunity - Nature",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRN1otUlNhM3NicWZuU0N1MXg3TkhUYjBNNXFvT29ic3pfZWt4QXc2ZUVSbndfMDh2Uk1kZzlrQThFbXZ4Nlg0TlRrRFJwbDA2RjdPVk9CNWZrQWZRdjg4?oc=5",
-      "desc": "Serine protease inhibitor A3 is a soluble SIRPα ligand that suppresses inflammation and antitumor immunity&nbsp;&nbsp;Nature",
-      "pubDate": "Thu, 22 Oct 2026 11:48:12 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
     },
     {
       "title": "DataMEDS AI Enters Into Amended and Restated LOI to License and Acquire IP that Enables Goal-Driven Prescription Drug Telehealth, Medical Drones and Healthcare Blockchain Technologies - TradingView",
@@ -200,16 +210,6 @@
       "sourceName": "노바스크·CCB (국내)",
       "country": "KR",
       "prod": "norvasc"
-    },
-    {
-      "title": "Proteogenomic Signatures in Complex Diseases: Implications for Targeted Interventions - The Cureus Journal of Medical Science",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORlU3VUFlQ3JrazN0YTF3N1RNWWNQQWg1TVJ1LW9wVTZ1NGd2WnowbkRaMlNqWWdxZ0o5V3NjT2tsS2ZPWWZkUlJKLTU3RnFNRGxnSlg5VE9MUUdlUUJTUTlfSEx1M0VydW5mNVFMMnd4anJIX1RIcVVSUnd0YUE5VF9FY3ExbDJ4dDJzcm5zYlg3cnNwTFdyb0pHTm42R0JXRDhJME90ME9GY0VWWEZTZXFmZUVKalZqUDFiQkg2Z3lDQXlSNnk3d1ljdG5lM01FM1lxXzBwelJ1UQ?oc=5",
-      "desc": "Proteogenomic Signatures in Complex Diseases: Implications for Targeted Interventions&nbsp;&nbsp;The Cureus Journal of Medical Science",
-      "pubDate": "Thu, 22 Oct 2026 08:31:53 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
     },
     {
       "title": "A Mitochondria-Modulating Nanosystem for Rheumatoid Arthritis Immunotherapy via Inflammatory Cascade Disruption - Wiley & Sons",
@@ -502,6 +502,16 @@
       "prod": "norvasc"
     },
     {
+      "title": "Understanding psoriasis induced by TNF-a inhibition - Dermatology Times",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNLVVDM2gtS0NIVEdxTmJpQ09qVmNSN3hwcmpvUUd0cjJJNWVrNFdfQmkzeXYtZHBJNDJVeEItcDhSRlV3dW5sajZQMFdEV1NqQTF2WVM5UUk5MlF2eVktU3oxTUpMNVlqd2Z4aHY3VWx0eTF6dHdoNlg5XzF2c2dRZzZSVGw2OVpKamRZVw?oc=5",
+      "desc": "Understanding psoriasis induced by TNF-a inhibition&nbsp;&nbsp;Dermatology Times",
+      "pubDate": "Wed, 21 Oct 2026 13:00:00 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
+    },
+    {
       "title": "온코닉테라퓨틱스, '자큐보' 아토르바스타틴 병용 안전성 입증 - 약사공론",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pTW5PcU91TGRuUTFFRFBwekRvekxqR0tVdE82RzJFSEhLZVFFOTZhRW44OXg3U0FZNHljY2RmdnNqVVJDVnhGSXRzOUQ3M3RNdXhJV2xhYzFlV1NxTWU1YVZhTVh1bmpUMVF0cQ?oc=5",
       "desc": "온코닉테라퓨틱스, '자큐보' 아토르바스타틴 병용 안전성 입증&nbsp;&nbsp;약사공론",
@@ -742,6 +752,16 @@
       "prod": "norvasc"
     },
     {
+      "title": "게임 특징을 짧게 비교하는 evolution 바카라 상세 항목 - Calgary Roughnecks",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaTdOc3ptTDJvN21fTzF0aURUT05OMFd3ekNuZy1fbVE0RlBST3JYclVDeHBad2poRDdMTlJuVUZjMHVveXdLZkZ3RWRITmtscHd3RTVHREEwdXFET2FWbzFLRTZOWXBYbUc3dE9MVFZVSk5aSDVPQjdYQ0Y4bW5hdXc3MWxlODZSQkR0UmtNLXVjZlFMQS05R2traHdRSFEzS2ZsWHJ0M19Vb1hPTFFJaE9kSVZ6N1ppRFVLRzc5MVplanZf?oc=5",
+      "desc": "게임 특징을 짧게 비교하는 evolution 바카라 상세 항목&nbsp;&nbsp;Calgary Roughnecks",
+      "pubDate": "Tue, 20 Oct 2026 03:21:06 GMT",
+      "sourceId": "gn_lipitorplus_kr",
+      "sourceName": "리피토플러스·에제티미브 (국내)",
+      "country": "KR",
+      "prod": "lipitorplus"
+    },
+    {
       "title": "RNA editing enables access to a protective gene variant - TNO",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOei13Si11Nm1oNFJ0U3JHWHlvQ2xINmtpalZnck11cXU3MmJiTkh1Zi1ZMURVNE1iQ0hnN3BoXzNKbU4yZkVzY3FZOFl1QlFSTkNUazBDei1oV3A4Yzl6Zlc4MVBtbjhLNXAteW5mb21IcldhZFBzMjRhSkxSeGRmRjNn?oc=5",
       "desc": "RNA editing enables access to a protective gene variant&nbsp;&nbsp;TNO",
@@ -750,16 +770,6 @@
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
       "prod": "lipitor"
-    },
-    {
-      "title": "Lornoxicam Patches Market To 2035: Chronic Pain and Aging Demographics Fuel Expansion - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObXp0R0FGMGtYZi1keFFua214OHBJS2lva19iNWVXb01aSWdIckpySWlGcmkyYWp1MWhkYlJNQmdKSHhWc1dORkhSSzdkU0lCNlF4TU4xSXdMUF9DdjZicHlCNG5aWFNfTExFanB6UWgtNjBMNkJEUFVoNEpnU2pUUWxHZExXNzREalRFcFRhNWgzR180RXNKY19KUkR0NmN2SHpaQmxRdENQSVB6aUU4WXdUcWprRGg4a1JSYzF5LVVTd1NO?oc=5",
-      "desc": "Lornoxicam Patches Market To 2035: Chronic Pain and Aging Demographics Fuel Expansion - News and Statistics&nbsp;&nbsp;IndexBox",
-      "pubDate": "Mon, 19 Oct 2026 20:51:05 GMT",
-      "sourceId": "gn_neuro_en",
-      "sourceName": "Lyrica·Neuropathy (Global)",
-      "country": "US",
-      "prod": "lyrica"
     },
     {
       "title": "Garlic Compound and Arthritis Drug Team Up Against Psoriasis in Mice - Bioengineer.org",
@@ -832,16 +842,6 @@
       "prod": "celebrex"
     },
     {
-      "title": "“필요한 약을 쓸 수 있게 해달라”…크론병 환자들, 치료제 접근권 보장 촉구 - 베이비뉴스",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LQnk1a0ZMaVk0Yk1pclY2MkhrVjFyellxXzFDSjQ5VU5CeXROVUYyTlFMdlFfamxiQXU1S2I4dXByb1lyTEE5VHk2ZjlQcWJXX0dscUdQY0dMSXZPdkxzQjRyVU5MZ3M5dVBoSA?oc=5",
-      "desc": "“필요한 약을 쓸 수 있게 해달라”…크론병 환자들, 치료제 접근권 보장 촉구&nbsp;&nbsp;베이비뉴스",
-      "pubDate": "Mon, 19 Oct 2026 02:28:20 GMT",
-      "sourceId": "gn_policy_kr",
-      "sourceName": "의약품 정책 (국내)",
-      "country": "KR",
-      "prod": "all"
-    },
-    {
       "title": "류마티스관절염, LDL 콜레스테롤 정상이어도 심혈관질환 위험 33% 높아 - 헬스오",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5qb1VoVVc5bHV4N05kWDJ5V3lXWDl2S1FSellVSUFGRUJ2eFg0RFBWcEJxcFgzRHVnalJsbnRNbzVpNnpuNzkxMkhzTldDZFNuakk0amo3azNvZ3RwdHlR?oc=5",
       "desc": "류마티스관절염, LDL 콜레스테롤 정상이어도 심혈관질환 위험 33% 높아&nbsp;&nbsp;헬스오",
@@ -880,16 +880,6 @@
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
       "prod": "lipitor"
-    },
-    {
-      "title": "70.2% of evaluable people with moderate-to-severe Crohn’s responded to AbbVie’s drug within 12 weeks, interim results show. - Stock Titan",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcUl0eVNDd0o0eUdFajVKUU81aEU3SjVLNWg0aF9hczZrdUFkam5zYVJRMHRtS3h2UE1VaDlIOHVJX01aVHlVWWNuTGJvbTk2MUxlSkktNWRZVGpKdGE3b2hOcVBZckMzUnhZSEdkRmVfR29La2RyU0VQeGFLUFZNT0JSWVpWZ3FnODhLcnIyMVBlWllvZ29qRUdSNjlucjVIaU1iN3RrMEt6b3lCajNUY0ZOX0FfVFJPNUdN?oc=5",
-      "desc": "70.2% of evaluable people with moderate-to-severe Crohn’s responded to AbbVie’s drug within 12 weeks, interim results show.&nbsp;&nbsp;Stock Titan",
-      "pubDate": "Sat, 17 Oct 2026 06:00:00 GMT",
-      "sourceId": "gn_arthritis_en",
-      "sourceName": "Celebrex·Arthritis (Global)",
-      "country": "US",
-      "prod": "celebrex"
     },
     {
       "title": "Sensitivity of synovial fluid analysis in hematogenous native joint septic arthritis – overall accuracy and pathogen-specific differences - Nature",
@@ -935,6 +925,16 @@
       "title": "Flu Shot 2026: Can You Take Tylenol or Ibuprofen After a Flu Shot? - University of Rochester",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNV3pseThubFFXOVpUejBfY3AwU3FQaDA0MGdRSXF5NnBvVmF4N05Ba25UdnZ2b0dBVzJiNXNKa2oySm9PVXctd1ZzRmdiUFo0WGdHQnM5dzVoaTE1R093TWt2YUVMUGZhRlNyWnZ6Tzk3WlJXU1NaVFNCMnFjQTZXQl9pLUdqZ3JlNWNxSDlWT1NfdXpiVERpRTBQdmZaSkQ5NkpnWVpKRkFTYldYUm0xVVdQR0M?oc=5",
       "desc": "Flu Shot 2026: Can You Take Tylenol or Ibuprofen After a Flu Shot?&nbsp;&nbsp;University of Rochester",
+      "pubDate": "Fri, 16 Oct 2026 07:00:00 GMT",
+      "sourceId": "gn_arthritis_en",
+      "sourceName": "Celebrex·Arthritis (Global)",
+      "country": "US",
+      "prod": "celebrex"
+    },
+    {
+      "title": "70.2% of evaluable people with moderate-to-severe Crohn’s responded to AbbVie’s drug within 12 weeks, interim results show. - Stock Titan",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcUl0eVNDd0o0eUdFajVKUU81aEU3SjVLNWg0aF9hczZrdUFkam5zYVJRMHRtS3h2UE1VaDlIOHVJX01aVHlVWWNuTGJvbTk2MUxlSkktNWRZVGpKdGE3b2hOcVBZckMzUnhZSEdkRmVfR29La2RyU0VQeGFLUFZNT0JSWVpWZ3FnODhLcnIyMVBlWllvZ29qRUdSNjlucjVIaU1iN3RrMEt6b3lCajNUY0ZOX0FfVFJPNUdN?oc=5",
+      "desc": "70.2% of evaluable people with moderate-to-severe Crohn’s responded to AbbVie’s drug within 12 weeks, interim results show.&nbsp;&nbsp;Stock Titan",
       "pubDate": "Fri, 16 Oct 2026 07:00:00 GMT",
       "sourceId": "gn_arthritis_en",
       "sourceName": "Celebrex·Arthritis (Global)",
@@ -1032,16 +1032,6 @@
       "prod": "lipitorplus"
     },
     {
-      "title": "기본 규칙에서 보너스 규칙으로 넘어가는 토토 여긴 캔자스 - Calgary Roughnecks",
-      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQdmJmb2JRa2g3dXFpWmZmVU5XNVc0bDVTVEFVV2xoMHh5d3E4MV80MVpreHBRcURna0VOekR4VW1qV1pZbklSRk5YTFZmSGxqSE5lVzQwQ1FxR2hOdk1CZTBSLWVVM2xXanVxQV9vaGFsTWJkN2dnZVBSNF9GNWxudFR0cjJtbGU4ZnJkaGRNbVczLXYxMFI5QnRGNkdLclR6MEJNbGtEOUtkZzBEUjdoUGIxRDNvN2wydVg4cDRGTGxfLVZMbTYtNEdyMUMwc1k3NUh0SHVYSWNvVG8weWxReEJEZmNyVE9tbXhfTjBSS3VpdmFHT1VOeklDUzlwRFBLcHFaalBGdTdTZFdKS2c?oc=5",
-      "desc": "기본 규칙에서 보너스 규칙으로 넘어가는 토토 여긴 캔자스&nbsp;&nbsp;Calgary Roughnecks",
-      "pubDate": "Wed, 14 Oct 2026 16:12:40 GMT",
-      "sourceId": "gn_lipitorplus_kr",
-      "sourceName": "리피토플러스·에제티미브 (국내)",
-      "country": "KR",
-      "prod": "lipitorplus"
-    },
-    {
       "title": "Can RARE's Approved Product Portfolio Drive Its Next Growth Phase? - TradingView",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTzdDczVSdHZ1M0Z0bkplTzd3M2dKUERIZk5xb1I2OFZTRm5DY0pLN0t6MVBQQTg5M1M3SWF4RjBqdEJHV2pQUEdTcUk4S3hsVnprSl9iX2J2SkNrcGw5eFY0Rm1HekF0Rk1QTUFienZjb0VBb1JvLXA0RFVqQzVqcF9qNmJYdTlBdGNFczlRa2VETUt4WDRxclJJQk5IT2NIQUxDanFsRFdqRmdTcldUQklFT0xDeTZUMHNvLQ?oc=5",
       "desc": "Can RARE's Approved Product Portfolio Drive Its Next Growth Phase?&nbsp;&nbsp;TradingView",
@@ -1050,16 +1040,6 @@
       "sourceName": "Lipitor·Statin (Global)",
       "country": "US",
       "prod": "lipitor"
-    },
-    {
-      "title": "류제황 교수 연구팀, 사이언스 논문 게재 성과 - 치의신보",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9RNHF1TTdVVzRqR2tLTjMyUDYyTFhtRTNrQTZwUFRIREsyckNQZ1JyZGk2WXN0Ry1ld04zX3QwYXZsN3Z5Y29VWUhEUUNlbTRYUkFhdHJwQ2dRYkU4ZzQ1bzJWQjJianlI?oc=5",
-      "desc": "류제황 교수 연구팀, 사이언스 논문 게재 성과&nbsp;&nbsp;치의신보",
-      "pubDate": "Wed, 14 Oct 2026 11:45:48 GMT",
-      "sourceId": "gn_celebrex_kr",
-      "sourceName": "쎄레브렉스·관절염 (국내)",
-      "country": "KR",
-      "prod": "celebrex"
     },
     {
       "title": "[HIT 알공] 셀트리온, '짐펜트라' 류마티스 관절염 3상 IND 승인 - 히트뉴스",
@@ -1212,16 +1192,6 @@
       "prod": "all"
     },
     {
-      "title": "임신중절약 급여 논쟁 속…산부인과학계 '통합 관리료' 제안 - 코리아헬스로그",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBSelR4ZmZRZ1NqWElEMkJJbXYtTEpKbFZkYWtJN292c1Yzdktfdmw2d004QWljOGRFTnF6TF92SnJrbFU0TTNiUGloZE85dXpoYnNkLTFIRnlQbEVOV0NrUkdQYkdLV2pUUWkzY2FMa2M2d9IBdkFVX3lxTE04S09IS0dmdk1HdDZfejl3NFhJUmxhZW5WRHluSENsZ1BqaUg1T2YzdVZtS3dYbzJ1U0pnZC1OTDJjRDFZeDBmYUVleVVQWlZPd0tRWWJzRzE2NU5TZzhqc1Q5cDVOR19tM2tBVy15bXZ6emZwdHc?oc=5",
-      "desc": "임신중절약 급여 논쟁 속…산부인과학계 '통합 관리료' 제안&nbsp;&nbsp;코리아헬스로그",
-      "pubDate": "Tue, 13 Oct 2026 07:00:00 GMT",
-      "sourceId": "gn_policy_kr",
-      "sourceName": "의약품 정책 (국내)",
-      "country": "KR",
-      "prod": "all"
-    },
-    {
       "title": "[한미약품] 전문의약품 안전 사용 가이드 홈페이지 통해 안내 - 뉴스더보이스헬스케어",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92MXRXMUVvTHM1a2F3dFBwMVBWbk4tMzlJTEZJYm9FSHN0Zjg3UnBzVFk2R3NCU1YtOHJMbHFuZlktdmxtaTc2TE84V3R3bENwU3Iyb1phSUtEejk0MTJTUFNpQldCMFpWYmNRTg?oc=5",
       "desc": "[한미약품] 전문의약품 안전 사용 가이드 홈페이지 통해 안내&nbsp;&nbsp;뉴스더보이스헬스케어",
@@ -1230,6 +1200,16 @@
       "sourceName": "카듀엣·복합제 (국내)",
       "country": "KR",
       "prod": "caduet"
+    },
+    {
+      "title": "임신중절약 급여 논쟁 속…산부인과학계 '통합 관리료' 제안 - 코리아헬스로그",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBSelR4ZmZRZ1NqWElEMkJJbXYtTEpKbFZkYWtJN292c1Yzdktfdmw2d004QWljOGRFTnF6TF92SnJrbFU0TTNiUGloZE85dXpoYnNkLTFIRnlQbEVOV0NrUkdQYkdLV2pUUWkzY2FMa2M2d9IBdkFVX3lxTE04S09IS0dmdk1HdDZfejl3NFhJUmxhZW5WRHluSENsZ1BqaUg1T2YzdVZtS3dYbzJ1U0pnZC1OTDJjRDFZeDBmYUVleVVQWlZPd0tRWWJzRzE2NU5TZzhqc1Q5cDVOR19tM2tBVy15bXZ6emZwdHc?oc=5",
+      "desc": "임신중절약 급여 논쟁 속…산부인과학계 '통합 관리료' 제안&nbsp;&nbsp;코리아헬스로그",
+      "pubDate": "Tue, 13 Oct 2026 00:22:39 GMT",
+      "sourceId": "gn_policy_kr",
+      "sourceName": "의약품 정책 (국내)",
+      "country": "KR",
+      "prod": "all"
     },
     {
       "title": "Evolocumab Reduces MACE in Patients With Prior CABG but No MI: VESALIUS-CV - TCTMD.com",
@@ -1290,6 +1270,16 @@
       "sourceName": "Celebrex·Arthritis (Global)",
       "country": "US",
       "prod": "celebrex"
+    },
+    {
+      "title": "Blood Pressure Drug Diltiazem Blocks Rabies Virus Entry and Saves Infected Mice - Bioengineer.org",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU0Zfb3JFbE5DVnlmRzh4d25mWVdYNmk1S2pfajhhWTV6a2oxX2tvcmwxbUk3VURHZkR2b3dKZ1Y0dEZ4SFpWTERpRDQzSGtvRkFkRGZkV2JQTE9yS1EwcVdoZTJzLU1LSll6WlFwS0pwZGZUZVpGVFB5Qm5udmpJSFlYdXJqdGp0N3FYNGI4RzJDaFppRkd4WXRPZ184R0tKanltN1lVMA?oc=5",
+      "desc": "Blood Pressure Drug Diltiazem Blocks Rabies Virus Entry and Saves Infected Mice&nbsp;&nbsp;Bioengineer.org",
+      "pubDate": "Sat, 10 Oct 2026 14:53:23 GMT",
+      "sourceId": "gn_htn_en",
+      "sourceName": "Norvasc·CCB (Global)",
+      "country": "US",
+      "prod": "norvasc"
     },
     {
       "title": "Cholesterol-Lowering Antibody Evolocumab Cuts Heart Attack Risk in Landmark Analysis - Bioengineer.org",
